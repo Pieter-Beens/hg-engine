@@ -22610,6 +22610,48 @@ mondata SPECIES_PECHARUNT, "Pecharunt"
     mondexweight SPECIES_PECHARUNT, "0.7 lbs."
 
 
+mondata SPECIES_BONKBAL, "Bonkbal"
+    basestats 55, 70, 90, 60, 40, 55
+    types TYPE_NORMAL, TYPE_NORMAL
+    catchrate 255
+    baseexp 0 // defined in baseexp.s
+    evyields 1, 0, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_ORAN_BERRY
+    genderratio 127
+    eggcycles 15
+    basefriendship 70
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_RUN_AWAY, ABILITY_KEEN_EYE
+    runchance 0
+    colorflip BODY_COLOR_BROWN, 0
+    mondexentry SPECIES_BONKBAL, "As it can take quite a beating and even\nappears to enjoy being thrown around,\nit is a great pet for small children."
+    mondexclassification SPECIES_BONKBAL, "Baseball Pokémon"
+    mondexheight SPECIES_BONKBAL, "1’00”"
+    mondexweight SPECIES_BONKBAL, "0.4 lbs."
+
+
+mondata SPECIES_WALLOPEE, "Wallopee"
+    basestats 100, 100, 90, 70, 50, 80
+    types TYPE_NORMAL, TYPE_NORMAL
+    catchrate 3
+    baseexp 0 // defined in baseexp.s
+    evyields 2, 0, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_IRON_BALL
+    genderratio 127
+    eggcycles 15
+    basefriendship 70
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_RUN_AWAY, ABILITY_KEEN_EYE
+    runchance 0
+    colorflip BODY_COLOR_BROWN, 0
+    mondexentry SPECIES_WALLOPEE, "It will strike to return most objects\nthrown in its direction, making it near\nimpossible to catch with a Pokéball."
+    mondexclassification SPECIES_WALLOPEE, "Homerun Pokémon"
+    mondexheight SPECIES_WALLOPEE, "3’06”"
+    mondexweight SPECIES_WALLOPEE, "180.7 lbs."
+
+
 mondata SPECIES_MEGA_VENUSAUR, "-----"
     basestats 80, 100, 123, 80, 122, 120
     types TYPE_GRASS, TYPE_POISON

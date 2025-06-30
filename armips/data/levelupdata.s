@@ -22876,6 +22876,44 @@ levelup SPECIES_PECHARUNT
     terminatelearnset
 
 
+levelup SPECIES_BONKBAL
+    learnset MOVE_DEFENSE_CURL, 1
+    learnset MOVE_MEAN_LOOK, 1
+    learnset MOVE_ROLLOUT, 1
+    learnset MOVE_ASTONISH, 1
+    learnset MOVE_MEMENTO, 1
+    learnset MOVE_POISON_GAS, 1
+    learnset MOVE_SMOG, 1
+    learnset MOVE_WITHDRAW, 8
+    learnset MOVE_DESTINY_BOND, 16
+    learnset MOVE_FAKE_TEARS, 24
+    learnset MOVE_PARTING_SHOT, 32
+    learnset MOVE_SHADOW_BALL, 40
+    learnset MOVE_MALIGNANT_CHAIN, 48
+    learnset MOVE_TOXIC, 56
+    learnset MOVE_NASTY_PLOT, 64
+    learnset MOVE_RECOVER, 72
+    terminatelearnset
+
+levelup SPECIES_WALLOPEE
+    learnset MOVE_DEFENSE_CURL, 1
+    learnset MOVE_MEAN_LOOK, 1
+    learnset MOVE_ROLLOUT, 1
+    learnset MOVE_ASTONISH, 1
+    learnset MOVE_MEMENTO, 1
+    learnset MOVE_POISON_GAS, 1
+    learnset MOVE_SMOG, 1
+    learnset MOVE_WITHDRAW, 8
+    learnset MOVE_DESTINY_BOND, 16
+    learnset MOVE_FAKE_TEARS, 24
+    learnset MOVE_PARTING_SHOT, 32
+    learnset MOVE_SHADOW_BALL, 40
+    learnset MOVE_MALIGNANT_CHAIN, 48
+    learnset MOVE_TOXIC, 56
+    learnset MOVE_NASTY_PLOT, 64
+    learnset MOVE_RECOVER, 72
+    terminatelearnset
+
 levelup SPECIES_MEGA_VENUSAUR
     learnset MOVE_PETAL_BLIZZARD, 0
     learnset MOVE_PETAL_DANCE, 0

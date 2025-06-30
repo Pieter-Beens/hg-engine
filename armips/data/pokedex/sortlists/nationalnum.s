@@ -1029,5 +1029,8 @@
 .halfword SPECIES_TERAPAGOS
 .halfword SPECIES_PECHARUNT
 
+.halfword SPECIES_BONKBAL
+.halfword SPECIES_WALLOPEE
+
 
 .close

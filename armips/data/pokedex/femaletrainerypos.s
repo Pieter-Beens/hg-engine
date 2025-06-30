@@ -1084,4 +1084,7 @@
 /* SPECIES_TERAPAGOS       */ .halfword 8
 /* SPECIES_PECHARUNT       */ .halfword 8
 
+/* SPECIES_BONKBAL         */ .halfword 8
+/* SPECIES_WALLOPEE        */ .halfword 8
+
 .close

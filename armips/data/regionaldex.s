@@ -1093,6 +1093,8 @@
 /* SPECIES_IRON_CROWN      */ .halfword 0
 /* SPECIES_TERAPAGOS       */ .halfword 0
 /* SPECIES_PECHARUNT       */ .halfword 0
+/* SPECIES_BONKBAL         */ .halfword 0
+/* SPECIES_WALLOPEE        */ .halfword 0
 
 
 

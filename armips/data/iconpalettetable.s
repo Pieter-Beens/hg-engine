@@ -1100,6 +1100,9 @@ gIconPalTable:
 /* SPECIES_TERAPAGOS       */ .byte  0x0
 /* SPECIES_PECHARUNT       */ .byte  0x0
 
+/* SPECIES_BONKBAL         */ .byte  0x0
+/* SPECIES_WALLOPEE        */ .byte  0x0
+
 /* SPECIES_MEGA_VENUSAUR   */ .byte  0x1
 /* SPECIES_MEGA_CHARIZARD_X*/ .byte  0x0
 /* SPECIES_MEGA_CHARIZARD_Y*/ .byte  0x0

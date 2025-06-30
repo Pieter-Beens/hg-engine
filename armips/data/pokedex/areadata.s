@@ -36948,3 +36948,73 @@ specialareas SPECIES_PECHARUNT, DEX_SPECIAL
 
 routesandcities SPECIES_PECHARUNT, DEX_SPECIAL
     dexendareadata
+
+
+specialareas SPECIES_BONKBAL, DEX_MORNING
+    dexendareadata
+
+
+specialareas SPECIES_BONKBAL, DEX_DAY
+    dexendareadata
+
+
+specialareas SPECIES_BONKBAL, DEX_NIGHT
+    dexendareadata
+
+
+routesandcities SPECIES_BONKBAL, DEX_MORNING
+    .word DEX_ROUTE_29
+    .word DEX_ROUTE_1
+    dexendareadata
+
+
+routesandcities SPECIES_BONKBAL, DEX_DAY
+    .word DEX_ROUTE_29
+    .word DEX_ROUTE_1
+    dexendareadata
+
+
+routesandcities SPECIES_BONKBAL, DEX_NIGHT
+    dexendareadata
+
+
+specialareas SPECIES_BONKBAL, DEX_SPECIAL
+    dexendareadata
+
+
+routesandcities SPECIES_BONKBAL, DEX_SPECIAL
+    dexendareadata
+
+
+specialareas SPECIES_WALLOPEE, DEX_MORNING
+    dexendareadata
+
+
+specialareas SPECIES_WALLOPEE, DEX_DAY
+    dexendareadata
+
+
+specialareas SPECIES_WALLOPEE, DEX_NIGHT
+    dexendareadata
+
+
+routesandcities SPECIES_WALLOPEE, DEX_MORNING
+    .word DEX_ROUTE_1
+    dexendareadata
+
+
+routesandcities SPECIES_WALLOPEE, DEX_DAY
+    .word DEX_ROUTE_1
+    dexendareadata
+
+
+routesandcities SPECIES_WALLOPEE, DEX_NIGHT
+    dexendareadata
+
+
+specialareas SPECIES_WALLOPEE, DEX_SPECIAL
+    dexendareadata
+
+
+routesandcities SPECIES_WALLOPEE, DEX_SPECIAL
+    dexendareadata
