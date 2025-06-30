@@ -32,8 +32,12 @@
 #define TYPE_DARK     17
 #define TYPE_TYPELESS 18
 #define TYPE_STELLAR  19 // TODO: 99
+#define TYPE_SOUND    20
+#define TYPE_COSMIC   21
+#define TYPE_LIGHT    22
+#define TYPE_FUNGUS   23
 
-#define NUMBER_OF_MON_TYPES 20
+#define NUMBER_OF_MON_TYPES 24
 
 // Type effectiveness
 #define TYPE_MUL_NO_EFFECT       0

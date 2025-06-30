@@ -734,7 +734,7 @@ movedata MOVE_GROWL, "Growl"
     battleeffect MOVE_EFFECT_ATK_DOWN
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_NORMAL
+    type TYPE_SOUND
     accuracy 100
     pp 40
     effectchance 0
@@ -750,7 +750,7 @@ movedata MOVE_ROAR, "Roar"
     battleeffect MOVE_EFFECT_FORCE_SWITCH
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_NORMAL
+    type TYPE_SOUND
     accuracy DEBUG_NEEDS_TESTING ? 0 : 100 // come back to check accuracyless later
     pp 20
     effectchance 0
@@ -766,7 +766,7 @@ movedata MOVE_SING, "Sing"
     battleeffect MOVE_EFFECT_STATUS_SLEEP
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_NORMAL
+    type TYPE_SOUND
     accuracy 55
     pp 15
     effectchance 0
@@ -782,7 +782,7 @@ movedata MOVE_SUPERSONIC, "Supersonic"
     battleeffect MOVE_EFFECT_STATUS_CONFUSE
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_NORMAL
+    type TYPE_SOUND
     accuracy 55
     pp 20
     effectchance 0
@@ -798,7 +798,7 @@ movedata MOVE_SONIC_BOOM, "Sonic Boom"
     battleeffect MOVE_EFFECT_10_DAMAGE_FLAT
     pss SPLIT_SPECIAL
     basepower 1
-    type TYPE_NORMAL
+    type TYPE_SOUND
     accuracy 90
     pp 20
     effectchance 0
@@ -1662,7 +1662,7 @@ movedata MOVE_SCREECH, "Screech"
     battleeffect MOVE_EFFECT_DEF_DOWN_2
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_NORMAL
+    type TYPE_SOUND
     accuracy 85
     pp 40
     effectchance 0
@@ -2014,7 +2014,7 @@ movedata MOVE_BONE_CLUB, "Bone Club"
     battleeffect MOVE_EFFECT_FLINCH_HIT
     pss SPLIT_PHYSICAL
     basepower 65
-    type TYPE_GROUND
+    type TYPE_SOUND
     accuracy 85
     pp 20
     effectchance 10
@@ -2782,7 +2782,7 @@ movedata MOVE_SNORE, "Snore"
     battleeffect MOVE_EFFECT_DAMAGE_WHILE_ASLEEP
     pss SPLIT_SPECIAL
     basepower 50
-    type TYPE_NORMAL
+    type TYPE_SOUND
     accuracy 100
     pp 15
     effectchance 30
@@ -3134,7 +3134,7 @@ movedata MOVE_PERISH_SONG, "Perish Song"
     battleeffect MOVE_EFFECT_ALL_FAINT_3_TURNS
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_NORMAL
+    type TYPE_SOUND
     accuracy 0
     pp 5
     effectchance 0
@@ -3454,7 +3454,7 @@ movedata MOVE_HEAL_BELL, "Heal Bell"
     battleeffect MOVE_EFFECT_CURE_PARTY_STATUS
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_NORMAL
+    type TYPE_SOUND
     accuracy 0
     pp 5
     effectchance 0
@@ -4062,7 +4062,7 @@ movedata MOVE_UPROAR, "Uproar"
     battleeffect MOVE_EFFECT_UPROAR
     pss SPLIT_SPECIAL
     basepower 90
-    type TYPE_NORMAL
+    type TYPE_SOUND
     accuracy 100
     pp 10
     effectchance 0
@@ -4878,7 +4878,7 @@ movedata MOVE_HYPER_VOICE, "Hyper Voice"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_SPECIAL
     basepower 90
-    type TYPE_NORMAL
+    type TYPE_SOUND
     accuracy 100
     pp 10
     effectchance 0
@@ -5118,7 +5118,7 @@ movedata MOVE_METAL_SOUND, "Metal Sound"
     battleeffect MOVE_EFFECT_SP_DEF_DOWN_2
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_STEEL
+    type TYPE_SOUND
     accuracy 85
     pp 40
     effectchance 0
@@ -5390,7 +5390,7 @@ movedata MOVE_HOWL, "Howl"
     battleeffect MOVE_EFFECT_ATK_UP
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_NORMAL
+    type TYPE_SOUND
     accuracy 0
     pp 40
     effectchance 0
@@ -5741,8 +5741,8 @@ movedata MOVE_MIRACLE_EYE, "Miracle Eye"
 movedata MOVE_WAKE_UP_SLAP, "Wake-Up Slap"
     battleeffect MOVE_EFFECT_DOUBLE_POWER_HEAL_SLEEP
     pss SPLIT_PHYSICAL
-    basepower 70
-    type TYPE_FIGHTING
+    basepower 80
+    type TYPE_SOUND
     accuracy 100
     pp 10
     effectchance 0
@@ -7182,7 +7182,7 @@ movedata MOVE_CHATTER, "Chatter"
     battleeffect MOVE_EFFECT_CONFUSE_HIT
     pss SPLIT_SPECIAL
     basepower 65
-    type TYPE_FLYING
+    type TYPE_SOUND
     accuracy 100
     pp 20
     effectchance DEBUG_NEEDS_TESTING ? 100 : 0 // always confuse
@@ -7358,7 +7358,7 @@ movedata MOVE_ROAR_OF_TIME, "Roar of Time"
     battleeffect MOVE_EFFECT_RECHARGE_AFTER
     pss SPLIT_SPECIAL
     basepower 150
-    type TYPE_DRAGON
+    type TYPE_SOUND
     accuracy 90
     pp 5
     effectchance 0
@@ -7998,7 +7998,7 @@ movedata MOVE_ROUND, "Round"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_SPECIAL
     basepower 60
-    type TYPE_NORMAL
+    type TYPE_SOUND
     accuracy 100
     pp 15
     effectchance 0
@@ -8014,7 +8014,7 @@ movedata MOVE_ECHOED_VOICE, "Echoed Voice"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_SPECIAL
     basepower 40
-    type TYPE_NORMAL
+    type TYPE_SOUND
     accuracy 100
     pp 15
     effectchance 0
@@ -8814,7 +8814,7 @@ movedata MOVE_RELIC_SONG, "Relic Song"
     battleeffect MOVE_EFFECT_SLEEP_HIT
     pss SPLIT_SPECIAL
     basepower 75
-    type TYPE_NORMAL
+    type TYPE_SOUND
     accuracy 100
     pp 10
     effectchance 10
@@ -8942,7 +8942,7 @@ movedata MOVE_SNARL, "Snarl"
     battleeffect MOVE_EFFECT_LOWER_SP_ATK_HIT
     pss SPLIT_SPECIAL
     basepower 55
-    type TYPE_DARK
+    type TYPE_SOUND
     accuracy 95
     pp 15
     effectchance 100
@@ -9151,7 +9151,7 @@ movedata MOVE_NOBLE_ROAR, "Noble Roar"
     battleeffect MOVE_EFFECT_ATK_SP_ATK_DOWN
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_NORMAL
+    type TYPE_SOUND
     accuracy 100
     pp 30
     effectchance 100
@@ -9247,7 +9247,7 @@ movedata MOVE_DISARMING_VOICE, "Disarming Voice"
     battleeffect MOVE_EFFECT_BYPASS_ACCURACY
     pss SPLIT_SPECIAL
     basepower 40
-    type (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
+    type (FAIRY_TYPE_IMPLEMENTED) ? TYPE_SOUND : TYPE_NORMAL
     accuracy 0
     pp 15
     effectchance 0
@@ -9263,7 +9263,7 @@ movedata MOVE_PARTING_SHOT, "Parting Shot"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_DARK
+    type TYPE_SOUND
     accuracy 100
     pp 20
     effectchance 100
@@ -9439,7 +9439,7 @@ movedata MOVE_BOOMBURST, "Boomburst"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_SPECIAL
     basepower 140
-    type TYPE_NORMAL
+    type TYPE_SOUND
     accuracy 100
     pp 10
     effectchance 0
@@ -9503,7 +9503,7 @@ movedata MOVE_CONFIDE, "Confide"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_NORMAL
+    type TYPE_SOUND
     accuracy 0
     pp 20
     effectchance 100
@@ -10687,7 +10687,7 @@ movedata MOVE_SPARKLING_ARIA, "Sparkling Aria"
     battleeffect MOVE_EFFECT_HIT // handle in ov12_0224D368
     pss SPLIT_SPECIAL
     basepower 90
-    type TYPE_WATER
+    type TYPE_SOUND
     accuracy 100
     pp 10
     effectchance 0
@@ -11119,7 +11119,7 @@ movedata MOVE_CLANGING_SCALES, "Clanging Scales"
     battleeffect MOVE_EFFECT_USER_DEF_DOWN_HIT
     pss SPLIT_SPECIAL
     basepower 110
-    type TYPE_DRAGON
+    type TYPE_SOUND
     accuracy 100
     pp 5
     effectchance 100
@@ -11711,7 +11711,7 @@ movedatalongname MOVE_CLANGOROUS_SOULBLAZE, "Clang Soulblaze", "Clangorous Soulb
     battleeffect MOVE_EFFECT_RAISE_ALL_STATS_HIT
     pss SPLIT_SPECIAL
     basepower 185
-    type TYPE_DRAGON
+    type TYPE_SOUND
     accuracy 0
     pp 1
     effectchance 100
@@ -12463,7 +12463,7 @@ movedata MOVE_CLANGOROUS_SOUL, "Clangorous Soul"
     battleeffect MOVE_EFFECT_RAISE_ALL_STATS_LOSE_THIRD_MAX_HP
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_DRAGON
+    type TYPE_SOUND
     accuracy 100
     pp 5
     effectchance 100
@@ -12639,7 +12639,7 @@ movedata MOVE_OVERDRIVE, "Overdrive"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_SPECIAL
     basepower 80
-    type TYPE_ELECTRIC
+    type TYPE_SOUND
     accuracy 100
     pp 10
     effectchance 0
@@ -13279,7 +13279,7 @@ movedata MOVE_EERIE_SPELL, "Eerie Spell"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_SPECIAL
     basepower 80
-    type TYPE_PSYCHIC
+    type TYPE_SOUND
     accuracy 100
     pp 5
     effectchance 0
@@ -13999,7 +13999,7 @@ movedata MOVE_TORCH_SONG, "Torch Song"
     battleeffect MOVE_EFFECT_RAISE_SP_ATK_HIT
     pss SPLIT_SPECIAL
     basepower 80
-    type TYPE_FIRE
+    type TYPE_SOUND
     accuracy 100
     pp 10
     effectchance 100
@@ -14687,7 +14687,7 @@ movedata MOVE_ALLURING_VOICE, "Alluring Voice"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_SPECIAL
     basepower 80
-    type (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
+    type (FAIRY_TYPE_IMPLEMENTED) ? TYPE_SOUND : TYPE_NORMAL
     accuracy 100
     pp 10
     effectchance 0

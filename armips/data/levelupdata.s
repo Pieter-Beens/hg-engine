@@ -7314,9 +7314,10 @@ levelup SPECIES_SHARPEDO
 
 
 levelup SPECIES_WAILMER
-    learnset MOVE_SPLASH, 1
     learnset MOVE_GROWL, 3
-    learnset MOVE_WATER_GUN, 9
+    learnset MOVE_DISARMING_VOICE, 4
+    learnset MOVE_WATER_GUN, 8
+    learnset MOVE_ECHOED_VOICE, 9
     learnset MOVE_ASTONISH, 10
     learnset MOVE_ROLLOUT, 10
     learnset MOVE_MIST, 18
@@ -7337,7 +7338,7 @@ levelup SPECIES_WAILMER
 levelup SPECIES_WAILORD
     learnset MOVE_SOAK, 1
     learnset MOVE_NOBLE_ROAR, 1
-    learnset MOVE_SPLASH, 1
+    learnset MOVE_ECHOED_VOICE, 1
     learnset MOVE_GROWL, 1
     learnset MOVE_ASTONISH, 1
     learnset MOVE_WATER_GUN, 1

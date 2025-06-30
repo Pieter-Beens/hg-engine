@@ -6736,7 +6736,7 @@ mondata SPECIES_SHARPEDO, "Sharpedo"
 
 mondata SPECIES_WAILMER, "Wailmer"
     basestats 130, 70, 35, 60, 70, 35
-    types TYPE_WATER, TYPE_WATER
+    types TYPE_WATER, TYPE_SOUND
     catchrate 125
     baseexp 0 // defined in baseexp.s
     evyields 1, 0, 0, 0, 0, 0
@@ -6757,7 +6757,7 @@ mondata SPECIES_WAILMER, "Wailmer"
 
 mondata SPECIES_WAILORD, "Wailord"
     basestats 170, 90, 45, 60, 90, 45
-    types TYPE_WATER, TYPE_WATER
+    types TYPE_WATER, TYPE_SOUND
     catchrate 60
     baseexp 0 // defined in baseexp.s
     evyields 2, 0, 0, 0, 0, 0
