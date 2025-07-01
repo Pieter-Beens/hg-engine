@@ -139,7 +139,6 @@ const char *monlist[] =
     "SPECIES_MAGIKARP",
     "SPECIES_GYARADOS",
     "SPECIES_LAPRAS",
-    "SPECIES_DITTO",
     "SPECIES_EEVEE",
     "SPECIES_VAPOREON",
     "SPECIES_JOLTEON",

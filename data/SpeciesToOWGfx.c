@@ -138,7 +138,6 @@ const u16 UNUSED sSpeciesToOWGfx[] =
     [SPECIES_MAGIKARP           ] =  178,
     [SPECIES_GYARADOS           ] =  179,
     [SPECIES_LAPRAS             ] =  180,
-    [SPECIES_DITTO              ] =  181,
     [SPECIES_EEVEE              ] =  182,
     [SPECIES_VAPOREON           ] =  184,
     [SPECIES_JOLTEON            ] =  185,

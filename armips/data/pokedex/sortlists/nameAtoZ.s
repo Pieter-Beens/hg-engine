@@ -127,7 +127,6 @@
 .halfword SPECIES_DEWOTT
 .halfword SPECIES_DIALGA
 .halfword SPECIES_DIGLETT
-.halfword SPECIES_DITTO
 .halfword SPECIES_DODRIO
 .halfword SPECIES_DODUO
 .halfword SPECIES_DONPHAN

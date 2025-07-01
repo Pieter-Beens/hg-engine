@@ -3564,7 +3564,7 @@ BOOL BattleController_CheckMoveFailures4_SingleTarget(struct BattleSystem *bsys 
             if ((ctx->battlemon[ctx->attack_client].condition2 & STATUS2_TRANSFORMED)
             || (ctx->battlemon[ctx->defence_client].condition2 & STATUS2_TRANSFORMED)
             // https://www.smogon.com/forums/threads/scarlet-violet-battle-mechanics-research.3709545/post-10403578
-            || ((!(BattleTypeGet(bsys) & BATTLE_TYPE_TRAINER))) ? (ctx->battlemon[ctx->attack_client].species != SPECIES_DITTO && ctx->battlemon[ctx->attack_client].species != SPECIES_MEW) : FALSE) {
+            || ((!(BattleTypeGet(bsys) & BATTLE_TYPE_TRAINER))) ? (ctx->battlemon[ctx->attack_client].species != SPECIES_MEW) : FALSE) {
                 butItFailedFlag = TRUE;
             }
             break;

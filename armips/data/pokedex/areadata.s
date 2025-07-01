@@ -5994,50 +5994,6 @@ routesandcities SPECIES_LAPRAS, DEX_SPECIAL
     dexendareadata
 
 
-specialareas SPECIES_DITTO, DEX_MORNING
-    .word DEX_CERULEAN_CAVE
-    dexendareadata
-
-
-specialareas SPECIES_DITTO, DEX_DAY
-    .word DEX_CERULEAN_CAVE
-    dexendareadata
-
-
-specialareas SPECIES_DITTO, DEX_NIGHT
-    .word DEX_CERULEAN_CAVE
-    dexendareadata
-
-
-routesandcities SPECIES_DITTO, DEX_MORNING
-    .word DEX_ROUTE_34
-    .word DEX_ROUTE_35
-    .word DEX_ROUTE_47
-    dexendareadata
-
-
-routesandcities SPECIES_DITTO, DEX_DAY
-    .word DEX_ROUTE_34
-    .word DEX_ROUTE_35
-    .word DEX_ROUTE_47
-    dexendareadata
-
-
-routesandcities SPECIES_DITTO, DEX_NIGHT
-    .word DEX_ROUTE_34
-    .word DEX_ROUTE_35
-    .word DEX_ROUTE_47
-    dexendareadata
-
-
-specialareas SPECIES_DITTO, DEX_SPECIAL
-    dexendareadata
-
-
-routesandcities SPECIES_DITTO, DEX_SPECIAL
-    dexendareadata
-
-
 specialareas SPECIES_EEVEE, DEX_MORNING
     dexendareadata
 

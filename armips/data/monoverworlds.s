@@ -147,7 +147,6 @@ gDimorphismTable:
 /* SPECIES_MAGIKARP        */ .byte 0
 /* SPECIES_GYARADOS        */ .byte 0
 /* SPECIES_LAPRAS          */ .byte 0
-/* SPECIES_DITTO           */ .byte 0
 /* SPECIES_EEVEE           */ .byte 1
 /* SPECIES_VAPOREON        */ .byte 0
 /* SPECIES_JOLTEON         */ .byte 0
@@ -1234,7 +1233,6 @@ NumOfOWFormsPerMon:
 /* SPECIES_MAGIKARP        */ .byte 0
 /* SPECIES_GYARADOS        */ .byte 0
 /* SPECIES_LAPRAS          */ .byte 0
-/* SPECIES_DITTO           */ .byte 0
 /* SPECIES_EEVEE           */ .byte 1
 /* SPECIES_VAPOREON        */ .byte 0
 /* SPECIES_JOLTEON         */ .byte 0
@@ -2378,7 +2376,6 @@ overworlddata  177, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // aqua
 overworlddata  178, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_MAGIKARP
 overworlddata  179, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_GYARADOS
 overworlddata  180, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_LAPRAS
-overworlddata  181, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_DITTO
 overworlddata  182, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_EEVEE
 overworlddata  183, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // partner
 overworlddata  184, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_VAPOREON

@@ -39,7 +39,6 @@
 .halfword SPECIES_PARAS
 .halfword SPECIES_MAGNEMITE
 .halfword SPECIES_SHELLDER
-.halfword SPECIES_DITTO
 .halfword SPECIES_EEVEE
 .halfword SPECIES_PICHU
 .halfword SPECIES_CLEFFA

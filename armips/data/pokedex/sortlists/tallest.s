@@ -860,7 +860,6 @@
 .halfword SPECIES_CLEFFA
 .halfword SPECIES_PICHU
 .halfword SPECIES_EEVEE
-.halfword SPECIES_DITTO
 .halfword SPECIES_SHELLDER
 .halfword SPECIES_MAGNEMITE
 .halfword SPECIES_PARAS

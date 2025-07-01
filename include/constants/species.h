@@ -133,7 +133,6 @@
 #define SPECIES_MAGIKARP       129
 #define SPECIES_GYARADOS       130
 #define SPECIES_LAPRAS         131
-#define SPECIES_DITTO          132
 #define SPECIES_EEVEE          133
 #define SPECIES_VAPOREON       134
 #define SPECIES_JOLTEON        135

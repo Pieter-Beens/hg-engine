@@ -136,7 +136,6 @@
 /* SPECIES_MAGIKARP        */ .byte 0
 /* SPECIES_GYARADOS        */ .byte 0
 /* SPECIES_LAPRAS          */ .byte 0
-/* SPECIES_DITTO           */ .byte 0
 /* SPECIES_EEVEE           */ .byte 0
 /* SPECIES_VAPOREON        */ .byte -6
 /* SPECIES_JOLTEON         */ .byte 0

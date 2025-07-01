@@ -543,7 +543,6 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
     { .tag =  606, .gfx =  427, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_MAGIKARP
     { .tag =  607, .gfx =  428, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_GYARADOS
     { .tag =  608, .gfx =  429, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_LAPRAS
-    { .tag =  609, .gfx =  430, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_DITTO
     { .tag =  610, .gfx =  431, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_EEVEE
     { .tag =  611, .gfx =  431, .callback_params = OVERWORLD_SIZE_SMALL}, // partner 
     { .tag =  612, .gfx =  432, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_VAPOREON

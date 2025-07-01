@@ -94,7 +94,6 @@
 .halfword SPECIES_ABRA
 .halfword SPECIES_KADABRA
 .halfword SPECIES_ALAKAZAM
-.halfword SPECIES_DITTO
 .halfword SPECIES_PINECO
 .halfword SPECIES_FORRETRESS
 .halfword SPECIES_NIDORAN_F

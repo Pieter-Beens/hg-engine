@@ -155,7 +155,6 @@ gIconPalTable:
 /* SPECIES_MAGIKARP        */ .byte  0x0
 /* SPECIES_GYARADOS        */ .byte  0x0
 /* SPECIES_LAPRAS          */ .byte  0x2
-/* SPECIES_DITTO           */ .byte  0x2
 /* SPECIES_EEVEE           */ .byte  0x2
 /* SPECIES_VAPOREON        */ .byte  0x0
 /* SPECIES_JOLTEON         */ .byte  0x2

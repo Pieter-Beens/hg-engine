@@ -23,7 +23,6 @@
 .halfword SPECIES_CHANSEY
 .halfword SPECIES_KANGASKHAN
 .halfword SPECIES_TAUROS
-.halfword SPECIES_DITTO
 .halfword SPECIES_EEVEE
 .halfword SPECIES_PORYGON
 .halfword SPECIES_SNORLAX

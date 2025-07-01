@@ -138,7 +138,6 @@ const u16 UNUSED HiddenAbilityTable[] =
     [SPECIES_MAGIKARP                    ] = ABILITY_RATTLED,
     [SPECIES_GYARADOS                    ] = ABILITY_MOXIE,
     [SPECIES_LAPRAS                      ] = ABILITY_HYDRATION,
-    [SPECIES_DITTO                       ] = ABILITY_IMPOSTER,
     [SPECIES_EEVEE                       ] = ABILITY_ANTICIPATION,
     [SPECIES_EEVEE_PARTNER               ] = ABILITY_ANTICIPATION,
     [SPECIES_VAPOREON                    ] = ABILITY_HYDRATION,

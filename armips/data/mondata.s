@@ -2786,27 +2786,6 @@ mondata SPECIES_LAPRAS, "Lapras"
     mondexweight SPECIES_LAPRAS, "485.0 lbs."
 
 
-mondata SPECIES_DITTO, "Ditto"
-    basestats 48, 48, 48, 48, 48, 48
-    types TYPE_NORMAL, TYPE_NORMAL
-    catchrate 35
-    baseexp 0 // defined in baseexp.s
-    evyields 1, 0, 0, 0, 0, 0
-    items ITEM_QUICK_POWDER, ITEM_METAL_POWDER
-    genderratio 255
-    eggcycles 20
-    basefriendship 50
-    growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_DITTO, EGG_GROUP_DITTO
-    abilities ABILITY_LIMBER, ABILITY_NONE
-    runchance 0
-    colorflip BODY_COLOR_PURPLE, 0
-    mondexentry SPECIES_DITTO, "It can transform into anything.\nWhen it sleeps, it changes into a\nstone to avoid being attacked."
-    mondexclassification SPECIES_DITTO, "Transform Pokémon"
-    mondexheight SPECIES_DITTO, "1’00”"
-    mondexweight SPECIES_DITTO, "8.8 lbs."
-
-
 mondata SPECIES_EEVEE, "Eevee"
     basestats 55, 55, 50, 55, 45, 65
     types TYPE_NORMAL, TYPE_NORMAL

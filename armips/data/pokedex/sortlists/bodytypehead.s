@@ -7,7 +7,6 @@
 .halfword SPECIES_GASTLY
 .halfword SPECIES_VOLTORB
 .halfword SPECIES_KOFFING
-.halfword SPECIES_DITTO
 .halfword SPECIES_CLOYSTER
 .halfword SPECIES_ELECTRODE
 .halfword SPECIES_SUNKERN

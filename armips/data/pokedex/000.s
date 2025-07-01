@@ -135,7 +135,6 @@
 /* SPECIES_MAGIKARP        */ .word 0x09 
 /* SPECIES_GYARADOS        */ .word 0x41 
 /* SPECIES_LAPRAS          */ .word 0x19 
-/* SPECIES_DITTO           */ .word 0x03 
 /* SPECIES_EEVEE           */ .word 0x03 
 /* SPECIES_VAPOREON        */ .word 0x0A 
 /* SPECIES_JOLTEON         */ .word 0x08 

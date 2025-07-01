@@ -137,7 +137,6 @@ const u16 UNUSED BaseExperienceTable[] =
     [SPECIES_MAGIKARP                    ] = 40,
     [SPECIES_GYARADOS                    ] = 189,
     [SPECIES_LAPRAS                      ] = 187,
-    [SPECIES_DITTO                       ] = 101,
     [SPECIES_EEVEE                       ] = 65,
     [SPECIES_VAPOREON                    ] = 184,
     [SPECIES_JOLTEON                     ] = 184,

@@ -11297,7 +11297,7 @@ trainerdata 331, "Billy"
         ivs 0
         abilityslot 0
         level 35
-        pokemon SPECIES_DITTO
+        pokemon SPECIES_RATTATA
         ballseal 0
     endparty
 
@@ -14367,7 +14367,7 @@ trainerdata 429, "Ricky"
         ivs 0
         abilityslot 0
         level 40
-        pokemon SPECIES_DITTO
+        pokemon SPECIES_RATTATA
         item ITEM_NONE
         ballseal 0
     endparty
@@ -15658,7 +15658,7 @@ trainerdata 469, "Mitch"
         ivs 0
         abilityslot 0
         level 24
-        pokemon SPECIES_DITTO
+        pokemon SPECIES_RATTATA
         ballseal 0
     endparty
 
@@ -15802,7 +15802,7 @@ trainerdata 474, "Mickey"
         ivs 0
         abilityslot 0
         level 24
-        pokemon SPECIES_DITTO
+        pokemon SPECIES_RATTATA
         ballseal 0
     endparty
 
@@ -21303,7 +21303,7 @@ trainerdata 640, "Billy"
         ivs 0
         abilityslot 0
         level 40
-        pokemon SPECIES_DITTO
+        pokemon SPECIES_RATTATA
         ballseal 0
     endparty
 
@@ -21338,7 +21338,7 @@ trainerdata 641, "Billy"
         ivs 0
         abilityslot 0
         level 46
-        pokemon SPECIES_DITTO
+        pokemon SPECIES_RATTATA
         ballseal 0
     endparty
 
@@ -21392,7 +21392,7 @@ trainerdata 642, "Billy"
         ivs 0
         abilityslot 0
         level 51
-        pokemon SPECIES_DITTO
+        pokemon SPECIES_RATTATA
         move MOVE_TRANSFORM
         move MOVE_NONE
         move MOVE_NONE

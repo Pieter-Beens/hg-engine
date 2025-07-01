@@ -843,28 +843,6 @@ u8 LONG_CALL CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int clien
     debug_printf("[CalcSpeed] %s's speedModifier2: %d\n", client2Nickname, speedModifier2);
 #endif
 
-    // Step 4: Quick Powder
-
-    if ((hold_effect1 == HOLD_EFFECT_DITTO_SPEED_UP) && (sp->battlemon[client1].species == SPECIES_DITTO)
-        // Not transformed
-        && !(sp->battlemon[client1].condition2 & STATUS2_TRANSFORMED)) {
-        speedModifier1 = QMul_RoundUp(speedModifier1, UQ412__2_0);
-    }
-
-    if ((hold_effect2 == HOLD_EFFECT_DITTO_SPEED_UP)
-    && (sp->battlemon[client2].species == SPECIES_DITTO)
-    // Not transformed
-    && !(sp->battlemon[client2].condition2 & STATUS2_TRANSFORMED)) {
-        speedModifier2 = QMul_RoundUp(speedModifier2, UQ412__2_0);
-    }
-
-#ifdef DEBUG_SPEED_CALC
-    debug_printf("\n=================\n");
-    debug_printf("[CalcSpeed] Step 4: Quick Powder\n");
-    debug_printf("[CalcSpeed] %s's speedModifier1: %d\n", client1Nickname, speedModifier1);
-    debug_printf("[CalcSpeed] %s's speedModifier2: %d\n", client2Nickname, speedModifier2);
-#endif
-
     // Step 5: Choice Scarf
 
     if (hold_effect1 == HOLD_EFFECT_CHOICE_SPEED) {

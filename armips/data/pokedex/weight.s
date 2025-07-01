@@ -138,7 +138,6 @@
 /* SPECIES_MAGIKARP                          */ .word 100
 /* SPECIES_GYARADOS                          */ .word 2350
 /* SPECIES_LAPRAS                            */ .word 2200
-/* SPECIES_DITTO                             */ .word 40
 /* SPECIES_EEVEE                             */ .word 65
 /* SPECIES_VAPOREON                          */ .word 290
 /* SPECIES_JOLTEON                           */ .word 245

@@ -139,7 +139,6 @@
 /* SPECIES_MAGIKARP        */ .halfword 0x12A
 /* SPECIES_GYARADOS        */ .halfword 0x100
 /* SPECIES_LAPRAS          */ .halfword 0x0E6
-/* SPECIES_DITTO           */ .halfword 0x182
 /* SPECIES_EEVEE           */ .halfword 0x21E
 /* SPECIES_VAPOREON        */ .halfword 0x0F9
 /* SPECIES_JOLTEON         */ .halfword 0x100

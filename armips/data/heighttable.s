@@ -142,7 +142,6 @@ heightentry SPECIES_TAUROS, "null", 16, "null", 10
 heightentry SPECIES_MAGIKARP, 7, 7, 10, 10
 heightentry SPECIES_GYARADOS, 6, 6, 0, 0
 heightentry SPECIES_LAPRAS, 4, 4, 9, 9
-heightentry SPECIES_DITTO, "null", 22, "null", 25
 heightentry SPECIES_EEVEE, 13, 13, 18, 18
 heightentry SPECIES_VAPOREON, 6, 6, 18, 18
 heightentry SPECIES_JOLTEON, 7, 7, 16, 16

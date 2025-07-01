@@ -3005,11 +3005,6 @@ levelup SPECIES_LAPRAS
     terminatelearnset
 
 
-levelup SPECIES_DITTO
-    learnset MOVE_TRANSFORM, 1
-    terminatelearnset
-
-
 levelup SPECIES_EEVEE
     learnset MOVE_COVET, 1
     learnset MOVE_HELPING_HAND, 1

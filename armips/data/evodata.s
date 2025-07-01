@@ -1595,18 +1595,6 @@ evodata SPECIES_LAPRAS
     evolution EVO_NONE, 0, SPECIES_NONE
     terminateevodata
 
-evodata SPECIES_DITTO
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    terminateevodata
-
 evodata SPECIES_EEVEE
     evolution EVO_STONE, ITEM_LEAF_STONE, SPECIES_LEAFEON
     evolution EVO_STONE, ITEM_ICE_STONE, SPECIES_GLACEON
