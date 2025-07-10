@@ -1230,7 +1230,7 @@ movedata MOVE_SOLAR_BEAM, "Solar Beam"
     battleeffect MOVE_EFFECT_CHARGE_TURN_SUN_SKIPS
     pss SPLIT_SPECIAL
     basepower 120
-    type TYPE_GRASS
+    type TYPE_COSMIC
     accuracy 100
     pp 10
     effectchance 0
@@ -2074,11 +2074,11 @@ movedata MOVE_CLAMP, "Clamp"
     terminatedata
     movedescription MOVE_CLAMP, "The foe is clamped\nand squeezed by\nthe user’s very thick\nand sturdy shell for\ntwo to five turns."
 
-movedata MOVE_SWIFT, "Swift"
+movedata MOVE_SWIFT, "Speedstars"
     battleeffect MOVE_EFFECT_BYPASS_ACCURACY
     pss SPLIT_SPECIAL
     basepower 60
-    type TYPE_NORMAL
+    type TYPE_COSMIC
     accuracy 0
     pp 20
     effectchance 0
@@ -3758,7 +3758,7 @@ movedata MOVE_MORNING_SUN, "Morning Sun"
     battleeffect MOVE_EFFECT_HEAL_HALF_MORE_IN_SUN
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_NORMAL
+    type TYPE_COSMIC
     accuracy 0
     pp 5
     effectchance 0
@@ -3790,7 +3790,7 @@ movedata MOVE_MOONLIGHT, "Moonlight"
     battleeffect MOVE_EFFECT_HEAL_HALF_MORE_IN_SUN
     pss SPLIT_STATUS
     basepower 0
-    type FAIRY_TYPE_IMPLEMENTED ? TYPE_FAIRY : TYPE_NORMAL
+    type TYPE_COSMIC
     accuracy 0
     pp 5
     effectchance 0
@@ -3870,7 +3870,7 @@ movedata MOVE_SUNNY_DAY, "Sunny Day"
     battleeffect MOVE_EFFECT_WEATHER_SUN
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_FIRE
+    type TYPE_COSMIC
     accuracy 0
     pp 5
     effectchance 0
@@ -4970,10 +4970,10 @@ movedata MOVE_METEOR_MASH, "Meteor Mash"
     terminatedata
     movedescription MOVE_METEOR_MASH, "The foe is hit with a\nhard punch fired\nlike a meteor.\nIt may also raise\nthe user’s Attack."
 
-movedata MOVE_ASTONISH, "Astonish"
+movedata MOVE_ASTONISH, "Shriek Rush"
     battleeffect MOVE_EFFECT_FLINCH_HIT
     pss SPLIT_PHYSICAL
-    basepower 30
+    basepower 50
     type TYPE_GHOST
     accuracy 100
     pp 15
@@ -5662,7 +5662,7 @@ movedata MOVE_DOOM_DESIRE, "Doom Desire"
     battleeffect MOVE_EFFECT_HIT_IN_3_TURNS
     pss SPLIT_SPECIAL
     basepower 140
-    type TYPE_STEEL
+    type TYPE_COSMIC
     accuracy 100
     pp 5
     effectchance 0
@@ -5710,7 +5710,7 @@ movedata MOVE_GRAVITY, "Gravity"
     battleeffect MOVE_EFFECT_GRAVITY
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_PSYCHIC
+    type TYPE_COSMIC
     accuracy 0
     pp 5
     effectchance 0
@@ -5738,7 +5738,7 @@ movedata MOVE_MIRACLE_EYE, "Miracle Eye"
     terminatedata
     movedescription MOVE_MIRACLE_EYE, "Enables the user to\nhit a Dark type with\nany type of move. It\nalso enables the user\nto hit an evasive foe."
 
-movedata MOVE_WAKE_UP_SLAP, "Wake-Up Slap"
+movedata MOVE_WAKE_UP_SLAP, "Ear Whack"
     battleeffect MOVE_EFFECT_DOUBLE_POWER_HEAL_SLEEP
     pss SPLIT_PHYSICAL
     basepower 80
@@ -9247,7 +9247,7 @@ movedata MOVE_DISARMING_VOICE, "Disarming Voice"
     battleeffect MOVE_EFFECT_BYPASS_ACCURACY
     pss SPLIT_SPECIAL
     basepower 40
-    type (FAIRY_TYPE_IMPLEMENTED) ? TYPE_SOUND : TYPE_NORMAL
+    type TYPE_SOUND
     accuracy 0
     pp 15
     effectchance 0
@@ -9423,7 +9423,7 @@ movedata MOVE_MOONBLAST, "Moonblast"
     battleeffect MOVE_EFFECT_LOWER_SP_ATK_HIT
     pss SPLIT_SPECIAL
     basepower 95
-    type (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
+    type TYPE_COSMIC
     accuracy 100
     pp 15
     effectchance 30
@@ -10767,7 +10767,7 @@ movedata MOVE_SOLAR_BLADE, "Solar Blade"
     battleeffect MOVE_EFFECT_CHARGE_TURN_SUN_SKIPS
     pss SPLIT_PHYSICAL
     basepower 125
-    type TYPE_GRASS
+    type TYPE_COSMIC
     accuracy 100
     pp 10
     effectchance 0
@@ -11471,7 +11471,7 @@ movedata MOVE_SUNSTEEL_STRIKE, "Sunsteel Strike"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
     basepower 100
-    type TYPE_STEEL
+    type TYPE_COSMIC
     accuracy 100
     pp 5
     effectchance 0
@@ -11487,7 +11487,7 @@ movedata MOVE_MOONGEIST_BEAM, "Moongeist Beam"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_SPECIAL
     basepower 100
-    type TYPE_GHOST
+    type TYPE_COSMIC
     accuracy 100
     pp 5
     effectchance 0
@@ -12863,7 +12863,7 @@ movedata MOVE_METEOR_BEAM, "Meteor Beam"
     battleeffect MOVE_EFFECT_CHARGE_TURN_SP_ATK_UP
     pss SPLIT_SPECIAL
     basepower 120
-    type TYPE_ROCK
+    type TYPE_COSMIC
     accuracy 90
     pp 10
     effectchance 100
@@ -14479,7 +14479,7 @@ movedata MOVE_BLOOD_MOON, "Blood Moon"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_SPECIAL
     basepower 140
-    type TYPE_NORMAL
+    type TYPE_COSMIC
     accuracy 100
     pp 5
     effectchance 0
