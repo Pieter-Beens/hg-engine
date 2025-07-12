@@ -31,10 +31,10 @@
 #define TYPE_DRAGON   16
 #define TYPE_DARK     17
 #define TYPE_TYPELESS 18 // uses COOL icon, synthwave palette for moves
-#define TYPE_SOUND    19 // TODO: 99; uses BEAUTY icon, synthwave palette for moves
-#define TYPE_STELLAR  20 // uses CUTE icon, no palette for moves
-#define TYPE_COSMIC   21 // uses SMART icon, no palette for moves
-#define TYPE_FUNGUS   22 // uses TOUGH icon, no palette for moves
+#define TYPE_SOUND    19 // uses BEAUTY icon, synthwave palette for moves
+#define TYPE_COSMIC   20 // uses CUTE icon, no palette for moves
+#define TYPE_FUNGUS   21 // uses SMART icon, no palette for moves
+#define TYPE_STELLAR  22 // uses TOUGH icon, no palette for moves
 
 
 #define NUMBER_OF_MON_TYPES 23

@@ -669,11 +669,11 @@ movedata MOVE_POISON_STING, "Poison Sting"
 movedata MOVE_TWINEEDLE, "Twineedle"
     battleeffect MOVE_EFFECT_POISON_MULTI_HIT
     pss SPLIT_PHYSICAL
-    basepower 25
+    basepower 35
     type TYPE_BUG
     accuracy 100
     pp 20
-    effectchance 20
+    effectchance 50
     target RANGE_SINGLE_TARGET
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_MIRROR_MOVE | FLAG_PROTECT
@@ -767,7 +767,7 @@ movedata MOVE_SING, "Sing"
     pss SPLIT_STATUS
     basepower 0
     type TYPE_SOUND
-    accuracy 55
+    accuracy 70
     pp 15
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -783,7 +783,7 @@ movedata MOVE_SUPERSONIC, "Supersonic"
     pss SPLIT_STATUS
     basepower 0
     type TYPE_SOUND
-    accuracy 55
+    accuracy 80
     pp 20
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -833,7 +833,7 @@ movedata MOVE_ACID, "Acid"
     type TYPE_POISON
     accuracy 100
     pp 30
-    effectchance 10
+    effectchance 30
     target RANGE_ADJACENT_OPPONENTS
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
@@ -1071,7 +1071,7 @@ movedata MOVE_SUBMISSION, "Submission"
     pss SPLIT_PHYSICAL
     basepower 80
     type TYPE_FIGHTING
-    accuracy 80
+    accuracy 90
     pp 20
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -2074,7 +2074,7 @@ movedata MOVE_CLAMP, "Clamp"
     terminatedata
     movedescription MOVE_CLAMP, "The foe is clamped\nand squeezed by\nthe user’s very thick\nand sturdy shell for\ntwo to five turns."
 
-movedata MOVE_SWIFT, "Speedstars"
+movedata MOVE_SWIFT, "Swift Stars"
     battleeffect MOVE_EFFECT_BYPASS_ACCURACY
     pss SPLIT_SPECIAL
     basepower 60
@@ -2362,11 +2362,11 @@ movedata MOVE_DIZZY_PUNCH, "Dizzy Punch"
     terminatedata
     movedescription MOVE_DIZZY_PUNCH, "The foe is hit with\nrhythmically launched\npunches that may also\nleave it confused.\n"
 
-movedata MOVE_SPORE, "Spore"
+movedata MOVE_SPORE, "Sleep Spore"
     battleeffect MOVE_EFFECT_STATUS_SLEEP
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_GRASS
+    type TYPE_FUNGUS
     accuracy 100
     pp 15
     effectchance 0
@@ -7678,7 +7678,7 @@ movedata MOVE_RAGE_POWDER, "Rage Powder"
     battleeffect MOVE_EFFECT_MAKE_GLOBAL_TARGET
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_BUG
+    type TYPE_FUNGUS
     accuracy 100
     pp 20
     effectchance 0
@@ -10875,11 +10875,11 @@ movedata MOVE_THROAT_CHOP, "Throat Chop"
     terminatedata
     movedescription MOVE_THROAT_CHOP, "The user attacks the\ntarget's throat,\npreventing the target\nfrom using sound-based\nmoves for two turns."
 
-movedata MOVE_POLLEN_PUFF, "Pollen Puff"
+movedata MOVE_POLLEN_PUFF, "Polypore Puff"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_SPECIAL
     basepower 90
-    type TYPE_BUG
+    type TYPE_FUNGUS
     accuracy 100
     pp 15
     effectchance 0
@@ -10889,7 +10889,7 @@ movedata MOVE_POLLEN_PUFF, "Pollen Puff"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_POLLEN_PUFF, "---"
+    movedescription MOVE_POLLEN_PUFF, "DO NOT USE"
 
 movedata MOVE_ANCHOR_SHOT, "Anchor Shot"
     battleeffect MOVE_EFFECT_PREVENT_ESCAPE_HIT

@@ -23,9 +23,9 @@
 .equ TYPE_DARK, 17
 .equ TYPE_TYPELESS, 18
 .equ TYPE_SOUND, 19
-.equ TYPE_STELLAR, 20
-.equ TYPE_COSMIC, 21
-.equ TYPE_FUNGUS, 22
+.equ TYPE_COSMIC, 20
+.equ TYPE_FUNGUS, 21
+.equ TYPE_STELLAR, 22
 
 // body colors
 
