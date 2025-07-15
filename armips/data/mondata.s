@@ -835,7 +835,7 @@ mondata SPECIES_NINETALES, "Ninetales"
 
 mondata SPECIES_JIGGLYPUFF, "Jigglypuff"
     basestats 115, 45, 20, 20, 45, 25
-    types TYPE_NORMAL, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
+    types TYPE_SOUND, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
     catchrate 170
     baseexp 0 // defined in baseexp.s
     evyields 2, 0, 0, 0, 0, 0
@@ -5579,7 +5579,7 @@ mondata SPECIES_LINOONE, "Linoone"
     mondexweight SPECIES_LINOONE, "71.7 lbs."
 
 
-mondata SPECIES_WURMPLE, "Wurmple"
+mondata SPECIES_WURMPLE, "Wurmpie"
     basestats 45, 45, 35, 20, 20, 30
     types TYPE_BUG, TYPE_BUG
     catchrate 255
@@ -8458,7 +8458,7 @@ mondata SPECIES_KRICKETOT, "Kricketot"
 
 mondata SPECIES_KRICKETUNE, "Kricketune"
     basestats 77, 85, 51, 65, 55, 51
-    types TYPE_BUG, TYPE_BUG
+    types TYPE_BUG, TYPE_SOUND
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0

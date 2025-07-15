@@ -17034,10 +17034,10 @@ levelup SPECIES_DECIDUEYE
 levelup SPECIES_LITTEN
     learnset MOVE_SCRATCH, 1
     learnset MOVE_GROWL, 1
-    learnset MOVE_EMBER, 1
-    learnset MOVE_EMBER, 3
-    learnset MOVE_GROWL, 4
+    learnset MOVE_DISARMING_VOICE, 1
+    learnset MOVE_CHATTER, 6
     learnset MOVE_LICK, 6
+    learnset MOVE_EMBER, 8
     learnset MOVE_LEER, 11
     learnset MOVE_ROAR, 13
     learnset MOVE_DOUBLE_KICK, 17
@@ -19624,9 +19624,9 @@ levelup SPECIES_CLOBBOPUS
     learnset MOVE_BIND, 10
     learnset MOVE_DETECT, 15
     learnset MOVE_BRICK_BREAK, 20
-    learnset MOVE_BULK_UP, 25
-    learnset MOVE_SUBMISSION, 30
-    learnset MOVE_TAUNT, 35
+    learnset MOVE_BULK_UP, 23
+    learnset MOVE_SUBMISSION, 26
+    learnset MOVE_TAUNT, 30
     learnset MOVE_REVERSAL, 40
     learnset MOVE_SUPERPOWER, 45
     terminatelearnset
