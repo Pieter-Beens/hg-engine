@@ -4958,7 +4958,7 @@ movedata MOVE_METEOR_MASH, "Meteor Mash"
     battleeffect MOVE_EFFECT_RAISE_ATTACK_HIT
     pss SPLIT_PHYSICAL
     basepower 90
-    type TYPE_STEEL
+    type TYPE_COSMIC
     accuracy 90
     pp 10
     effectchance 20
@@ -5166,7 +5166,7 @@ movedata MOVE_COSMIC_POWER, "Cosmic Power"
     battleeffect MOVE_EFFECT_DEF_SP_DEF_UP
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_PSYCHIC
+    type TYPE_COSMIC
     accuracy 0
     pp 20
     effectchance 0
@@ -6958,7 +6958,7 @@ movedata MOVE_DRACO_METEOR, "Draco Meteor"
     battleeffect MOVE_EFFECT_USER_SP_ATK_DOWN_2
     pss SPLIT_SPECIAL
     basepower 130
-    type TYPE_DRAGON
+    type TYPE_COSMIC
     accuracy 90
     pp 5
     effectchance 100
@@ -7390,7 +7390,7 @@ movedata MOVE_LUNAR_DANCE, "Lunar Dance"
     battleeffect MOVE_EFFECT_FAINT_FULL_RESTORE_NEXT_MON
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_PSYCHIC
+    type TYPE_COSMIC
     accuracy 0
     pp 10
     effectchance 0
@@ -9551,7 +9551,7 @@ movedata MOVE_HYPERSPACE_HOLE, "Hyperspace Hole"
     battleeffect MOVE_EFFECT_REMOVE_PROTECT
     pss SPLIT_SPECIAL
     basepower 80
-    type TYPE_PSYCHIC
+    type TYPE_COSMIC
     accuracy 0
     pp 5
     effectchance 0
@@ -12764,10 +12764,10 @@ movedata MOVE_FALSE_SURRENDER, "False Surrender"
     movedescription MOVE_FALSE_SURRENDER, "The user pretends to\nbow its head, but then\nit stabs the target\nwith its hair. This\nattack never misses."
 
 movedata MOVE_METEOR_ASSAULT, "Meteor Assault"
-    battleeffect MOVE_EFFECT_RECHARGE_AFTER
+    battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
     basepower 150
-    type TYPE_FIGHTING
+    type TYPE_COSMIC
     accuracy 100
     pp 5
     effectchance 0
@@ -12777,7 +12777,7 @@ movedata MOVE_METEOR_ASSAULT, "Meteor Assault"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_METEOR_ASSAULT, "The user attacks\nwildly with its thick\nleek.\nThe user can't move\non the next turn."
+    movedescription MOVE_METEOR_ASSAULT, "The user attacks\nwildly with its thick\nleek, using the\npower of SPACE!"
 
 movedata MOVE_ETERNABEAM, "Eternabeam"
     battleeffect MOVE_EFFECT_RECHARGE_AFTER

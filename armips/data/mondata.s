@@ -16289,14 +16289,14 @@ mondata SPECIES_DECIDUEYE, "Decidueye"
     mondexweight SPECIES_DECIDUEYE, "80.7 lbs."
 
 
-mondata SPECIES_LITTEN, "Litten"
+mondata SPECIES_LITTEN, "Piep"
     basestats 45, 65, 40, 70, 60, 40
-    types TYPE_FIRE, TYPE_FIRE
-    catchrate 45
+    types TYPE_DARK, TYPE_DARK
+    catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 31
+    genderratio 254
     eggcycles 15
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
@@ -16304,20 +16304,20 @@ mondata SPECIES_LITTEN, "Litten"
     abilities ABILITY_BLAZE, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_RED, 0
-    mondexentry SPECIES_LITTEN, "It doesn’t allow its emotions to be\neasily seen. Earning its trust takes\ntime. It prefers solitude."
-    mondexclassification SPECIES_LITTEN, "Fire Cat Pokémon"
+    mondexentry SPECIES_LITTEN, "Earning her trust takes time. Bring\na cardboard box and talk to her\nwhile she falls asleep."
+    mondexclassification SPECIES_LITTEN, "Peeping Pokémon"
     mondexheight SPECIES_LITTEN, "1’04”"
-    mondexweight SPECIES_LITTEN, "9.5 lbs."
+    mondexweight SPECIES_LITTEN, "10.5 lbs."
 
 
-mondata SPECIES_TORRACAT, "Torracat"
+mondata SPECIES_TORRACAT, "Piepyro"
     basestats 65, 85, 50, 90, 80, 50
-    types TYPE_FIRE, TYPE_FIRE
+    types TYPE_DARK, TYPE_FIRE
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 2, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 31
+    genderratio 254
     eggcycles 15
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
@@ -16333,12 +16333,12 @@ mondata SPECIES_TORRACAT, "Torracat"
 
 mondata SPECIES_INCINEROAR, "Incineroar"
     basestats 95, 115, 90, 60, 80, 90
-    types TYPE_FIRE, TYPE_DARK
+    types TYPE_DARK, TYPE_FIRE
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 3, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 31
+    genderratio 254
     eggcycles 15
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
@@ -16347,7 +16347,7 @@ mondata SPECIES_INCINEROAR, "Incineroar"
     runchance 0
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_INCINEROAR, "When its fighting spirit is set alight,\nthe flames around its waist become\nespecially intense."
-    mondexclassification SPECIES_INCINEROAR, "Heel Pokémon"
+    mondexclassification SPECIES_INCINEROAR, "Furry Pokémon"
     mondexheight SPECIES_INCINEROAR, "5’11”"
     mondexweight SPECIES_INCINEROAR, "183.0 lbs."
 
