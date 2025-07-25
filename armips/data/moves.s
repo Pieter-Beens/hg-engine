@@ -78,7 +78,7 @@ movedata MOVE_COMET_PUNCH, "Comet Punch"
     battleeffect MOVE_EFFECT_MULTI_HIT
     pss SPLIT_PHYSICAL
     basepower 18
-    type TYPE_NORMAL
+    type TYPE_COSMIC
     accuracy 85
     pp 15
     effectchance 0
@@ -346,21 +346,21 @@ movedata MOVE_BIND, "Bind"
     terminatedata
     movedescription MOVE_BIND, "A long body or\ntentacles are used\nto bind and squeeze\nthe foe for two to\nfive turns."
 
-movedata MOVE_SLAM, "Slam"
-    battleeffect MOVE_EFFECT_HIT
+movedata MOVE_SLAM, "Mushroom Mangle"
+    battleeffect MOVE_EFFECT_LOWER_DEFENSE_HIT
     pss SPLIT_PHYSICAL
     basepower 80
-    type TYPE_NORMAL
-    accuracy 75
+    type TYPE_FUNGUS
+    accuracy 100
     pp 20
-    effectchance 0
+    effectchance 70
     target RANGE_SINGLE_TARGET
     priority 0
     flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
     appeal 0x05
     contesttype CONTEST_TOUGH
     terminatedata
-    movedescription MOVE_SLAM, "The foe is slammed\nwith a long tail,\nvines, etc., to inflict\ndamage.\n"
+    movedescription MOVE_SLAM, "The foe is mangled\nwith a mushroom\ncap to inflict\ndamage and lower\nits defense."
 
 movedata MOVE_VINE_WHIP, "Vine Whip"
     battleeffect MOVE_EFFECT_HIT
@@ -1902,7 +1902,7 @@ movedata MOVE_METRONOME, "Metronome"
     battleeffect MOVE_EFFECT_CALL_RANDOM_MOVE
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_NORMAL
+    type TYPE_SOUND
     accuracy 0
     pp 10
     effectchance 0
@@ -2014,7 +2014,7 @@ movedata MOVE_BONE_CLUB, "Bone Club"
     battleeffect MOVE_EFFECT_FLINCH_HIT
     pss SPLIT_PHYSICAL
     basepower 65
-    type TYPE_SOUND
+    type TYPE_GROUND
     accuracy 85
     pp 20
     effectchance 10
@@ -2858,11 +2858,11 @@ movedata MOVE_AEROBLAST, "Aeroblast"
     terminatedata
     movedescription MOVE_AEROBLAST, "A vortex of air is\nshot at the foe to\ninflict damage.\nIt has a high\ncritical-hit ratio."
 
-movedata MOVE_COTTON_SPORE, "Cotton Spore"
-    battleeffect MOVE_EFFECT_SPEED_DOWN_2
-    pss SPLIT_STATUS
-    basepower 0
-    type TYPE_GRASS
+movedata MOVE_COTTON_SPORE, "Spore Burst"
+    battleeffect MOVE_EFFECT_MULTI_HIT
+    pss SPLIT_SPECIAL
+    basepower 25
+    type TYPE_FUNGUS
     accuracy 100
     pp 40
     effectchance 0
@@ -2872,7 +2872,7 @@ movedata MOVE_COTTON_SPORE, "Cotton Spore"
     appeal 0x01
     contesttype CONTEST_BEAUTY
     terminatedata
-    movedescription MOVE_COTTON_SPORE, "The user releases\ncottonlike spores\nthat cling to the\nfoe, sharply reducing\nits Speed stat."
+    movedescription MOVE_COTTON_SPORE, "The user releases\ninvasive spores\nthat cling to the\nfoe, hurting it.\n"
 
 movedata MOVE_REVERSAL, "Reversal"
     battleeffect MOVE_EFFECT_INCREASE_POWER_WITH_LESS_HP
@@ -3438,7 +3438,7 @@ movedata MOVE_SLEEP_TALK, "Sleep Talk"
     battleeffect MOVE_EFFECT_USE_RANDOM_LEARNED_MOVE_SLEEP
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_NORMAL
+    type TYPE_SOUND
     accuracy 0
     pp 10
     effectchance 0
@@ -6958,7 +6958,7 @@ movedata MOVE_DRACO_METEOR, "Draco Meteor"
     battleeffect MOVE_EFFECT_USER_SP_ATK_DOWN_2
     pss SPLIT_SPECIAL
     basepower 130
-    type TYPE_COSMIC
+    type TYPE_DRAGON
     accuracy 90
     pp 5
     effectchance 100
@@ -7374,7 +7374,7 @@ movedata MOVE_SPACIAL_REND, "Spacial Rend"
     battleeffect MOVE_EFFECT_HIGH_CRITICAL
     pss SPLIT_SPECIAL
     basepower 100
-    type TYPE_DRAGON
+    type TYPE_COSMIC
     accuracy 95
     pp 5
     effectchance 0
@@ -8570,11 +8570,11 @@ movedata MOVE_HEART_STAMP, "Heart Stamp"
     terminatedata
     movedescription MOVE_HEART_STAMP, "The foe is hit\nafter a cute act.\nIt may also make\nthe foe flinch."
 
-movedata MOVE_HORN_LEECH, "Horn Leech"
+movedata MOVE_HORN_LEECH, "Hyphal Surge"
     battleeffect MOVE_EFFECT_RECOVER_HALF_DAMAGE_DEALT
     pss SPLIT_PHYSICAL
     basepower 75
-    type TYPE_GRASS
+    type TYPE_FUNGUS
     accuracy 100
     pp 10
     effectchance 0

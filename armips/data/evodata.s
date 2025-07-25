@@ -132,7 +132,7 @@ evodata SPECIES_BLASTOISE
     terminateevodata
 
 evodata SPECIES_CATERPIE
-    evolution EVO_LEVEL, 7, SPECIES_METAPOD
+    evolution EVO_LEVEL, 8, SPECIES_METAPOD
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -144,7 +144,7 @@ evodata SPECIES_CATERPIE
     terminateevodata
 
 evodata SPECIES_METAPOD
-    evolution EVO_LEVEL, 10, SPECIES_BUTTERFREE
+    evolution EVO_LEVEL, 12, SPECIES_VENOMOTH
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -4993,7 +4993,7 @@ evodata SPECIES_MOTHIM
 
 evodata SPECIES_COMBEE
     evolution EVO_LEVEL_FEMALE, 21, SPECIES_VESPIQUEN
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_LEVEL_MALE, 21, SPECIES_BEEDRILL
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

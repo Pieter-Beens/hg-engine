@@ -329,7 +329,23 @@ int UNUSED CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 sid
         sp_defense *= 2;
 
     // handle light ball
-    if ((AttackingMon.item_held_effect == HOLD_EFFECT_PIKA_SPATK_UP) && (AttackingMon.species == SPECIES_PIKACHU))
+    if ((AttackingMon.item_held_effect == HOLD_EFFECT_PIKA_SPATK_UP) && 
+    (AttackingMon.species == SPECIES_PIKACHU || 
+    AttackingMon.species == SPECIES_PIKACHU_PARTNER || 
+    AttackingMon.species == SPECIES_PIKACHU_COSPLAY || 
+    AttackingMon.species == SPECIES_PIKACHU_ROCK_STAR || 
+    AttackingMon.species == SPECIES_PIKACHU_BELLE || 
+    AttackingMon.species == SPECIES_PIKACHU_POP_STAR || 
+    AttackingMon.species == SPECIES_PIKACHU_PH_D || 
+    AttackingMon.species == SPECIES_PIKACHU_LIBRE || 
+    AttackingMon.species == SPECIES_PIKACHU_ORIGINAL_CAP || 
+    AttackingMon.species == SPECIES_PIKACHU_HOENN_CAP || 
+    AttackingMon.species == SPECIES_PIKACHU_SINNOH_CAP || 
+    AttackingMon.species == SPECIES_PIKACHU_UNOVA_CAP || 
+    AttackingMon.species == SPECIES_PIKACHU_KALOS_CAP || 
+    AttackingMon.species == SPECIES_PIKACHU_ALOLA_CAP || 
+    AttackingMon.species == SPECIES_PIKACHU_PARTNER_CAP || 
+    AttackingMon.species == SPECIES_PIKACHU_WORLD_CAP))
         movepower *= 2;
 
     // handle metal powder

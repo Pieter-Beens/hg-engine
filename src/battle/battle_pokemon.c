@@ -201,6 +201,7 @@ u8 TypeEffectivenessTable[][3] =
 
     { TYPE_COSMIC, TYPE_PSYCHIC, 0x05 },
     { TYPE_COSMIC, TYPE_FLYING, 0x14 },
+    { TYPE_COSMIC, TYPE_DRAGON, 0x14 },
 
     { TYPE_PSYCHIC, TYPE_COSMIC, 0x14 },
     { TYPE_FLYING, TYPE_COSMIC, 0x05 },
@@ -212,6 +213,7 @@ u8 TypeEffectivenessTable[][3] =
     { TYPE_FUNGUS, TYPE_ICE, 0x05 },
     { TYPE_FUNGUS, TYPE_GRASS, 0x14 },
 
+    { TYPE_GRASS, TYPE_DRAGON, 0x14 },
     { TYPE_GRASS, TYPE_FUNGUS, 0x05 },
     { TYPE_WATER, TYPE_FUNGUS, 0x05 },
     { TYPE_ELECTRIC, TYPE_FUNGUS, 0x05 },
