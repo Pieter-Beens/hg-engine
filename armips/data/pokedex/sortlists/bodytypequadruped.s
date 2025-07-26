@@ -155,7 +155,7 @@
 //.halfword SPECIES_SILVALLY
 //.halfword SPECIES_SOLGALEO
 //.halfword SPECIES_RODERIK
-//.halfword SPECIES_DUBWOOL
+//.halfword SPECIES_FLOOFOO
 //.halfword SPECIES_DREDNAW
 //.halfword SPECIES_BOLTUND
 //.halfword SPECIES_CUFANT

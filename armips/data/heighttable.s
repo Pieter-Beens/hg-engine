@@ -894,7 +894,7 @@ heightentry SPECIES_RODERIK, 0, 0, 0, 0
 heightentry SPECIES_GOSSIFLEUR, 0, 0, 0, 0
 heightentry SPECIES_ELDEGOSS, 0, 0, 0, 0
 heightentry SPECIES_WOOLOO, 12, 12, 0, 0
-heightentry SPECIES_DUBWOOL, 0, 0, 0, 0
+heightentry SPECIES_FLOOFOO, 0, 0, 0, 0
 heightentry SPECIES_CHEWTLE, 0, 0, 0, 0
 heightentry SPECIES_DREDNAW, 0, 0, 0, 0
 heightentry SPECIES_YAMPER, 0, 0, 0, 0

@@ -10590,7 +10590,7 @@ evodata SPECIES_ELDEGOSS
 terminateevodata
 
 evodata SPECIES_WOOLOO
-    evolution EVO_LEVEL, 24, SPECIES_DUBWOOL
+    evolution EVO_LEVEL, 24, SPECIES_FLOOFOO
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -10601,7 +10601,7 @@ evodata SPECIES_WOOLOO
     evolution EVO_NONE, 0, SPECIES_NONE
 terminateevodata
 
-evodata SPECIES_DUBWOOL
+evodata SPECIES_FLOOFOO
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

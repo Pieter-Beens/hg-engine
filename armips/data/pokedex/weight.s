@@ -888,7 +888,7 @@
 /* SPECIES_GOSSIFLEUR                        */ .word 22
 /* SPECIES_ELDEGOSS                          */ .word 25
 /* SPECIES_WOOLOO                            */ .word 60
-/* SPECIES_DUBWOOL                           */ .word 430
+/* SPECIES_FLOOFOO                           */ .word 430
 /* SPECIES_CHEWTLE                           */ .word 85
 /* SPECIES_DREDNAW                           */ .word 1155
 /* SPECIES_YAMPER                            */ .word 135

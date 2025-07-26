@@ -18532,9 +18532,9 @@ mondata SPECIES_WOOLOO, "Wooloo"
     mondexweight SPECIES_WOOLOO, "13.2 lbs."
 
 
-mondata SPECIES_DUBWOOL, "Dubwool"
-    basestats 72, 80, 100, 88, 60, 90
-    types TYPE_NORMAL, TYPE_NORMAL
+mondata SPECIES_FLOOFOO, "Floofoo"
+    basestats 82, 80, 90, 88, 60, 90
+    types TYPE_NORMAL, TYPE_FLYING
     catchrate 127
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 0
@@ -18544,13 +18544,13 @@ mondata SPECIES_DUBWOOL, "Dubwool"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_FLUFFY, ABILITY_STEADFAST
+    abilities ABILITY_FLUFFY, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_WHITE, 0
-    mondexentry SPECIES_DUBWOOL, "Its majestic horns are meant only to\nimpress the opposite gender. They\nnever see use in battle."
-    mondexclassification SPECIES_DUBWOOL, "Sheep Pokémon"
-    mondexheight SPECIES_DUBWOOL, "4’03”"
-    mondexweight SPECIES_DUBWOOL, "94.8 lbs."
+    mondexentry SPECIES_FLOOFOO, "Its majestic horns are meant only to\nimpress the opposite gender. They\nnever see use in battle."
+    mondexclassification SPECIES_FLOOFOO, "Sheep Pokémon"
+    mondexheight SPECIES_FLOOFOO, "4’03”"
+    mondexweight SPECIES_FLOOFOO, "94.8 lbs."
 
 
 mondata SPECIES_CHEWTLE, "Chewtle"
@@ -18901,7 +18901,7 @@ mondata SPECIES_GOROCHU, "Gorochu"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_STAMINA, ABILITY_PLUS
+    abilities ABILITY_STAMINA, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_GOROCHU, "This short-tempered and aggressive\nPokémon chugs stagnant water to\nabsorb any toxins it might contain."

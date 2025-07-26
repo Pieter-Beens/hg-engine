@@ -623,7 +623,7 @@
 //.halfword SPECIES_AMAURA
 //.halfword SPECIES_PALOSSAND
 //.halfword SPECIES_TAPU_FINI
-//.halfword SPECIES_DUBWOOL
+//.halfword SPECIES_FLOOFOO
 //.halfword SPECIES_BARRASKEWDA
 //.halfword SPECIES_FROSMOTH
 .halfword SPECIES_NIDOKING

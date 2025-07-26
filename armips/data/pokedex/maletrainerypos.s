@@ -889,7 +889,7 @@
 /* SPECIES_GOSSIFLEUR      */ .halfword 9
 /* SPECIES_ELDEGOSS        */ .halfword 9
 /* SPECIES_WOOLOO          */ .halfword 9
-/* SPECIES_DUBWOOL         */ .halfword 9
+/* SPECIES_FLOOFOO         */ .halfword 9
 /* SPECIES_CHEWTLE         */ .halfword 9
 /* SPECIES_DREDNAW         */ .halfword 9
 /* SPECIES_YAMPER          */ .halfword 9

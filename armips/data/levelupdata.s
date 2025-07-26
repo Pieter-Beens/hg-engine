@@ -19295,7 +19295,7 @@ levelup SPECIES_WOOLOO
     terminatelearnset
 
 
-levelup SPECIES_DUBWOOL
+levelup SPECIES_FLOOFOO
     learnset MOVE_TACKLE, 1
     learnset MOVE_GROWL, 1
     learnset MOVE_DEFENSE_CURL, 1
