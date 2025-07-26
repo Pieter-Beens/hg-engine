@@ -153,7 +153,7 @@
 //.halfword SPECIES_INKAY
 //.halfword SPECIES_PHANTUMP
 //.halfword SPECIES_PUMPKABOO
-//.halfword SPECIES_LITTEN
+//.halfword SPECIES_PIEP
 //.halfword SPECIES_POPPLIO
 //.halfword SPECIES_YUNGOOS
 //.halfword SPECIES_GRUBBIN
@@ -346,7 +346,7 @@
 //.halfword SPECIES_FLETCHINDER
 //.halfword SPECIES_DIANCIE
 //.halfword SPECIES_DARTRIX
-//.halfword SPECIES_TORRACAT
+//.halfword SPECIES_PIPYRO
 //.halfword SPECIES_GUMSHOOS
 //.halfword SPECIES_TOXAPEX
 //.halfword SPECIES_STEENEE
@@ -618,7 +618,7 @@
 .halfword SPECIES_DARMANITAN
 .halfword SPECIES_SWANNA
 .halfword SPECIES_VANILLUXE
-//.halfword SPECIES_BARBARACLE
+//.halfword SPECIES_SOROBORO
 //.halfword SPECIES_CLAWITZER
 //.halfword SPECIES_AMAURA
 //.halfword SPECIES_PALOSSAND

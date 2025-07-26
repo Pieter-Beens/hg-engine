@@ -116,7 +116,7 @@
 //.halfword SPECIES_FROGADIER
 //.halfword SPECIES_GRENINJA
 //.halfword SPECIES_BINACLE
-//.halfword SPECIES_BARBARACLE
+//.halfword SPECIES_SOROBORO
 //.halfword SPECIES_SKRELP
 //.halfword SPECIES_CLAUNCHER
 //.halfword SPECIES_CLAWITZER

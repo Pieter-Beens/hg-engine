@@ -745,7 +745,7 @@
 /* SPECIES_INKAY                             */ .word 35
 /* SPECIES_MALAMAR                           */ .word 470
 /* SPECIES_BINACLE                           */ .word 310
-/* SPECIES_BARBARACLE                        */ .word 960
+/* SPECIES_SOROBORO                        */ .word 960
 /* SPECIES_SKRELP                            */ .word 73
 /* SPECIES_DRAGALGE                          */ .word 815
 /* SPECIES_CLAUNCHER                         */ .word 83
@@ -781,8 +781,8 @@
 /* SPECIES_ROWLET                            */ .word 15
 /* SPECIES_DARTRIX                           */ .word 160
 /* SPECIES_DECIDUEYE                         */ .word 366
-/* SPECIES_LITTEN                            */ .word 43
-/* SPECIES_TORRACAT                          */ .word 250
+/* SPECIES_PIEP                            */ .word 43
+/* SPECIES_PIPYRO                          */ .word 250
 /* SPECIES_INCINEROAR                        */ .word 830
 /* SPECIES_POPPLIO                           */ .word 75
 /* SPECIES_BRIONNE                           */ .word 175

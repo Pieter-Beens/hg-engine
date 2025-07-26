@@ -16139,7 +16139,7 @@ levelup SPECIES_BINACLE
     terminatelearnset
 
 
-levelup SPECIES_BARBARACLE
+levelup SPECIES_SOROBORO
     learnset MOVE_SKULL_BASH, 1
     learnset MOVE_MUD_SLAP, 1
     learnset MOVE_SCRATCH, 1
@@ -17037,7 +17037,7 @@ levelup SPECIES_DECIDUEYE
     terminatelearnset
 
 
-levelup SPECIES_LITTEN
+levelup SPECIES_PIEP
     learnset MOVE_SCRATCH, 1
     learnset MOVE_GROWL, 1
     learnset MOVE_DISARMING_VOICE, 1
@@ -17059,7 +17059,7 @@ levelup SPECIES_LITTEN
     terminatelearnset
 
 
-levelup SPECIES_TORRACAT
+levelup SPECIES_PIPYRO
     learnset MOVE_SCRATCH, 1
     learnset MOVE_GROWL, 1
     learnset MOVE_EMBER, 1

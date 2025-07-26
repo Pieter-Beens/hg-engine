@@ -746,7 +746,7 @@
 /* SPECIES_INKAY           */ .halfword 0
 /* SPECIES_MALAMAR         */ .halfword 0
 /* SPECIES_BINACLE         */ .halfword 0
-/* SPECIES_BARBARACLE      */ .halfword 0
+/* SPECIES_SOROBORO      */ .halfword 0
 /* SPECIES_SKRELP          */ .halfword 0
 /* SPECIES_DRAGALGE        */ .halfword 0
 /* SPECIES_CLAUNCHER       */ .halfword 0
@@ -782,8 +782,8 @@
 /* SPECIES_ROWLET          */ .halfword 0
 /* SPECIES_DARTRIX         */ .halfword 0
 /* SPECIES_DECIDUEYE       */ .halfword 0
-/* SPECIES_LITTEN          */ .halfword 0
-/* SPECIES_TORRACAT        */ .halfword 0
+/* SPECIES_PIEP          */ .halfword 0
+/* SPECIES_PIPYRO        */ .halfword 0
 /* SPECIES_INCINEROAR      */ .halfword 0
 /* SPECIES_POPPLIO         */ .halfword 0
 /* SPECIES_BRIONNE         */ .halfword 0

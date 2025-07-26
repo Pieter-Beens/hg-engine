@@ -131,10 +131,10 @@ pokemon SPECIES_BONKBAL
 pokemon SPECIES_BONKBAL
 pokemon SPECIES_HOOTHOOT
 pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_LITTEN
-pokemon SPECIES_LITTEN
-pokemon SPECIES_LITTEN
-pokemon SPECIES_LITTEN
+pokemon SPECIES_PIEP
+pokemon SPECIES_PIEP
+pokemon SPECIES_PIEP
+pokemon SPECIES_PIEP
 
 // day encounter slots
 pokemon SPECIES_SENTRET
@@ -145,10 +145,10 @@ pokemon SPECIES_BONKBAL
 pokemon SPECIES_BONKBAL
 pokemon SPECIES_BONKBAL
 pokemon SPECIES_LEDYBA
-pokemon SPECIES_LITTEN
-pokemon SPECIES_LITTEN
-pokemon SPECIES_LITTEN
-pokemon SPECIES_LITTEN
+pokemon SPECIES_PIEP
+pokemon SPECIES_PIEP
+pokemon SPECIES_PIEP
+pokemon SPECIES_PIEP
 
 // night encounter slots
 pokemon SPECIES_SENTRET
@@ -158,11 +158,11 @@ pokemon SPECIES_SENTRET
 pokemon SPECIES_BONKBAL
 pokemon SPECIES_HOOTHOOT
 pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_LITTEN
-pokemon SPECIES_LITTEN
-pokemon SPECIES_LITTEN
-pokemon SPECIES_LITTEN
-pokemon SPECIES_LITTEN
+pokemon SPECIES_PIEP
+pokemon SPECIES_PIEP
+pokemon SPECIES_PIEP
+pokemon SPECIES_PIEP
+pokemon SPECIES_PIEP
 
 // hoenn encounter slots
 pokemon SPECIES_PLUSLE

@@ -3358,7 +3358,7 @@ eggmoveentry SPECIES_ROWLET
 	eggmove MOVE_BATON_PASS
 	eggmove MOVE_DEFOG
 
-eggmoveentry SPECIES_LITTEN
+eggmoveentry SPECIES_PIEP
 	eggmove MOVE_NASTY_PLOT
 	eggmove MOVE_BODY_SLAM
 	eggmove MOVE_CRUNCH

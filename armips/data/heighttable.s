@@ -751,7 +751,7 @@ heightentry SPECIES_SLURPUFF, 5, 5, 0, 0
 heightentry SPECIES_INKAY, 11, 11, 0, 0
 heightentry SPECIES_MALAMAR, 0, 0, 0, 0
 heightentry SPECIES_BINACLE, 4, 4, 0, 0
-heightentry SPECIES_BARBARACLE, 2, 2, 0, 0
+heightentry SPECIES_SOROBORO, 2, 2, 0, 0
 heightentry SPECIES_SKRELP, 8, 8, 0, 0
 heightentry SPECIES_DRAGALGE, 0, 0, 0, 0
 heightentry SPECIES_CLAUNCHER, 0, 0, 0, 0
@@ -787,8 +787,8 @@ heightentry SPECIES_VOLCANION, "null", 2, "null", 0
 heightentry SPECIES_ROWLET, 0, 0, 0, 0
 heightentry SPECIES_DARTRIX, 0, 0, 0, 0
 heightentry SPECIES_DECIDUEYE, 0, 0, 0, 0
-heightentry SPECIES_LITTEN, 0, 0, 0, 0
-heightentry SPECIES_TORRACAT, 0, 0, 0, 0
+heightentry SPECIES_PIEP, 0, 0, 0, 0
+heightentry SPECIES_PIPYRO, 0, 0, 0, 0
 heightentry SPECIES_INCINEROAR, 6, 6, 0, 0
 heightentry SPECIES_POPPLIO, 0, 0, 0, 0
 heightentry SPECIES_BRIONNE, 0, 0, 0, 0

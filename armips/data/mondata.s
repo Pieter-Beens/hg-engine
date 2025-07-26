@@ -15529,9 +15529,9 @@ mondata SPECIES_BINACLE, "Binacle"
     mondexweight SPECIES_BINACLE, "68.3 lbs."
 
 
-mondata SPECIES_BARBARACLE, "Barbaracle"
-    basestats 72, 105, 115, 68, 54, 86
-    types TYPE_ROCK, TYPE_WATER
+mondata SPECIES_SOROBORO, "Soroboro"
+    basestats 79, 119, 89, 83, 96, 79
+    types TYPE_POISON, TYPE_DARK
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
@@ -15544,10 +15544,10 @@ mondata SPECIES_BARBARACLE, "Barbaracle"
     abilities ABILITY_TOUGH_CLAWS, ABILITY_SNIPER
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
-    mondexentry SPECIES_BARBARACLE, "When they evolve, two Binacle multiply\ninto seven. They fight with the power\nof seven Binacle."
-    mondexclassification SPECIES_BARBARACLE, "Collective Pokémon"
-    mondexheight SPECIES_BARBARACLE, "4’03”"
-    mondexweight SPECIES_BARBARACLE, "211.6 lbs."
+    mondexentry SPECIES_SOROBORO, "When they evolve, two Binacle multiply\ninto seven. They fight with the power\nof seven Binacle."
+    mondexclassification SPECIES_SOROBORO, "Collective Pokémon"
+    mondexheight SPECIES_SOROBORO, "4’03”"
+    mondexweight SPECIES_SOROBORO, "211.6 lbs."
 
 
 mondata SPECIES_SKRELP, "Skrelp"
@@ -16285,7 +16285,7 @@ mondata SPECIES_DECIDUEYE, "Decidueye"
     mondexweight SPECIES_DECIDUEYE, "80.7 lbs."
 
 
-mondata SPECIES_LITTEN, "Piep"
+mondata SPECIES_PIEP, "Piep"
     basestats 41, 66, 40, 71, 52, 44
     types TYPE_DARK, TYPE_DARK
     catchrate 255
@@ -16300,13 +16300,13 @@ mondata SPECIES_LITTEN, "Piep"
     abilities ABILITY_RUN_AWAY, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_RED, 0
-    mondexentry SPECIES_LITTEN, "Earning her trust takes time. Bring\na cardboard box and talk to her\nwhile she falls asleep."
-    mondexclassification SPECIES_LITTEN, "Peeping Pokémon"
-    mondexheight SPECIES_LITTEN, "1’04”"
-    mondexweight SPECIES_LITTEN, "10.5 lbs."
+    mondexentry SPECIES_PIEP, "Earning her trust takes time. Bring\na cardboard box and talk to her\nwhile she falls asleep."
+    mondexclassification SPECIES_PIEP, "Peeping Pokémon"
+    mondexheight SPECIES_PIEP, "1’04”"
+    mondexweight SPECIES_PIEP, "10.5 lbs."
 
 
-mondata SPECIES_TORRACAT, "Piepyro"
+mondata SPECIES_PIPYRO, "Piepyro"
     basestats 54, 81, 52, 92, 75, 56
     types TYPE_DARK, TYPE_FIRE
     catchrate 120
@@ -16321,10 +16321,10 @@ mondata SPECIES_TORRACAT, "Piepyro"
     abilities ABILITY_RATTLED, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_RED, 0
-    mondexentry SPECIES_TORRACAT, "It boasts powerful front legs. With a\nsingle punch, it can bend an iron bar\nright over."
-    mondexclassification SPECIES_TORRACAT, "Fire Cat Pokémon"
-    mondexheight SPECIES_TORRACAT, "2’04”"
-    mondexweight SPECIES_TORRACAT, "55.1 lbs."
+    mondexentry SPECIES_PIPYRO, "It boasts powerful front legs. With a\nsingle punch, it can bend an iron bar\nright over."
+    mondexclassification SPECIES_PIPYRO, "Fire Cat Pokémon"
+    mondexheight SPECIES_PIPYRO, "2’04”"
+    mondexweight SPECIES_PIPYRO, "55.1 lbs."
 
 
 mondata SPECIES_INCINEROAR, "Furnassaul"

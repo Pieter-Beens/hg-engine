@@ -26162,35 +26162,35 @@ routesandcities SPECIES_BINACLE, DEX_SPECIAL
     dexendareadata
 
 
-specialareas SPECIES_BARBARACLE, DEX_MORNING
+specialareas SPECIES_SOROBORO, DEX_MORNING
     dexendareadata
 
 
-specialareas SPECIES_BARBARACLE, DEX_DAY
+specialareas SPECIES_SOROBORO, DEX_DAY
     dexendareadata
 
 
-specialareas SPECIES_BARBARACLE, DEX_NIGHT
+specialareas SPECIES_SOROBORO, DEX_NIGHT
     dexendareadata
 
 
-routesandcities SPECIES_BARBARACLE, DEX_MORNING
+routesandcities SPECIES_SOROBORO, DEX_MORNING
     dexendareadata
 
 
-routesandcities SPECIES_BARBARACLE, DEX_DAY
+routesandcities SPECIES_SOROBORO, DEX_DAY
     dexendareadata
 
 
-routesandcities SPECIES_BARBARACLE, DEX_NIGHT
+routesandcities SPECIES_SOROBORO, DEX_NIGHT
     dexendareadata
 
 
-specialareas SPECIES_BARBARACLE, DEX_SPECIAL
+specialareas SPECIES_SOROBORO, DEX_SPECIAL
     dexendareadata
 
 
-routesandcities SPECIES_BARBARACLE, DEX_SPECIAL
+routesandcities SPECIES_SOROBORO, DEX_SPECIAL
     dexendareadata
 
 
@@ -27314,67 +27314,67 @@ routesandcities SPECIES_DECIDUEYE, DEX_SPECIAL
     dexendareadata
 
 
-specialareas SPECIES_LITTEN, DEX_MORNING
+specialareas SPECIES_PIEP, DEX_MORNING
     dexendareadata
 
 
-specialareas SPECIES_LITTEN, DEX_DAY
+specialareas SPECIES_PIEP, DEX_DAY
     dexendareadata
 
 
-specialareas SPECIES_LITTEN, DEX_NIGHT
+specialareas SPECIES_PIEP, DEX_NIGHT
     dexendareadata
 
 
-routesandcities SPECIES_LITTEN, DEX_MORNING
+routesandcities SPECIES_PIEP, DEX_MORNING
     dexendareadata
 
 
-routesandcities SPECIES_LITTEN, DEX_DAY
+routesandcities SPECIES_PIEP, DEX_DAY
     dexendareadata
 
 
-routesandcities SPECIES_LITTEN, DEX_NIGHT
+routesandcities SPECIES_PIEP, DEX_NIGHT
     dexendareadata
 
 
-specialareas SPECIES_LITTEN, DEX_SPECIAL
+specialareas SPECIES_PIEP, DEX_SPECIAL
     dexendareadata
 
 
-routesandcities SPECIES_LITTEN, DEX_SPECIAL
+routesandcities SPECIES_PIEP, DEX_SPECIAL
     dexendareadata
 
 
-specialareas SPECIES_TORRACAT, DEX_MORNING
+specialareas SPECIES_PIPYRO, DEX_MORNING
     dexendareadata
 
 
-specialareas SPECIES_TORRACAT, DEX_DAY
+specialareas SPECIES_PIPYRO, DEX_DAY
     dexendareadata
 
 
-specialareas SPECIES_TORRACAT, DEX_NIGHT
+specialareas SPECIES_PIPYRO, DEX_NIGHT
     dexendareadata
 
 
-routesandcities SPECIES_TORRACAT, DEX_MORNING
+routesandcities SPECIES_PIPYRO, DEX_MORNING
     dexendareadata
 
 
-routesandcities SPECIES_TORRACAT, DEX_DAY
+routesandcities SPECIES_PIPYRO, DEX_DAY
     dexendareadata
 
 
-routesandcities SPECIES_TORRACAT, DEX_NIGHT
+routesandcities SPECIES_PIPYRO, DEX_NIGHT
     dexendareadata
 
 
-specialareas SPECIES_TORRACAT, DEX_SPECIAL
+specialareas SPECIES_PIPYRO, DEX_SPECIAL
     dexendareadata
 
 
-routesandcities SPECIES_TORRACAT, DEX_SPECIAL
+routesandcities SPECIES_PIPYRO, DEX_SPECIAL
     dexendareadata
 
 

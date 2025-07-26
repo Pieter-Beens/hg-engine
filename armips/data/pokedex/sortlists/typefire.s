@@ -59,8 +59,8 @@
 //.halfword SPECIES_LITLEO
 //.halfword SPECIES_PYROAR
 //.halfword SPECIES_VOLCANION
-//.halfword SPECIES_LITTEN
-//.halfword SPECIES_TORRACAT
+//.halfword SPECIES_PIEP
+//.halfword SPECIES_PIPYRO
 //.halfword SPECIES_INCINEROAR
 //.halfword SPECIES_SALANDIT
 //.halfword SPECIES_SALAZZLE

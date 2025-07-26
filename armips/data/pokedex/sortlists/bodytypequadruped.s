@@ -130,7 +130,7 @@
 //.halfword SPECIES_BERGMITE
 //.halfword SPECIES_XERNEAS
 //.halfword SPECIES_VOLCANION
-//.halfword SPECIES_LITTEN
+//.halfword SPECIES_PIEP
 //.halfword SPECIES_YUNGOOS
 //.halfword SPECIES_ROCKRUFF
 //.halfword SPECIES_MINIMOO
@@ -139,7 +139,7 @@
 //.halfword SPECIES_AURORUS
 //.halfword SPECIES_SYLVEON
 //.halfword SPECIES_AVALUGG
-//.halfword SPECIES_TORRACAT
+//.halfword SPECIES_PIPYRO
 //.halfword SPECIES_GUMSHOOS
 //.halfword SPECIES_LYCANROC
 //.halfword SPECIES_MUDSDALE

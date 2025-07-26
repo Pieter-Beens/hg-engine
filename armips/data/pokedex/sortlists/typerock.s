@@ -51,7 +51,7 @@
 .halfword SPECIES_ARCHEOPS
 .halfword SPECIES_TERRAKION
 //.halfword SPECIES_BINACLE
-//.halfword SPECIES_BARBARACLE
+//.halfword SPECIES_SOROBORO
 //.halfword SPECIES_TYRUNT
 //.halfword SPECIES_TYRANTRUM
 //.halfword SPECIES_AMAURA
