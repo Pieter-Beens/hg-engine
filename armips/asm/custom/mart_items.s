@@ -17,7 +17,7 @@ EIGHT_BADGES equ 6
 /* General Poké Mart Table */
 .org 0x020FBF22
 
-.halfword ITEM_LONELY_MINT
+.halfword ITEM_POKE_BALL
 .halfword ZERO_BADGES
 
 .halfword ITEM_GREAT_BALL
@@ -26,7 +26,7 @@ EIGHT_BADGES equ 6
 .halfword ITEM_ULTRA_BALL
 .halfword THREE_BADGES
 
-.halfword ITEM_ADAMANT_MINT
+.halfword ITEM_POTION
 .halfword ZERO_BADGES
 
 .halfword ITEM_SUPER_POTION
@@ -112,8 +112,8 @@ const u16 *_0210FA3C[] = {
 /* const u16 _020FBA54[] = {ITEM_AIR_MAIL, ITEM_HEAL_BALL, 0xFFFF}; */
 /* Cherrygrove City 2nd Clerk -> Violet City 2nd Clerk */
 .org 0x020FBA54
-.halfword ITEM_HEAL_BALL
-.halfword ITEM_NET_BALL
+.halfword ITEM_PIDGEOTITE
+.halfword ITEM_GENGARITE
 .halfword 0xFFFF
 
 /* const u16 _020FBA5A[] = {ITEM_AIR_MAIL, ITEM_QUICK_BALL, 0xFFFF}; */
@@ -122,29 +122,44 @@ const u16 *_0210FA3C[] = {
 /* Ecruteak City 2nd Clerk -> Safari Zone Top Stall */
 
 .org 0x020FBA60
-.halfword ITEM_BLACK_BELT
-.halfword ITEM_EXPERT_BELT
-.halfword ITEM_FOCUS_SASH
+.halfword ITEM_PINSIRITE
+.halfword ITEM_BEEDRILLITE
+.halfword ITEM_KANGASKHANITE
 .halfword 0xFFFF
 
 /* const u16 _020FBA68[] = {ITEM_AIR_MAIL, ITEM_TUNNEL_MAIL, ITEM_BLOOM_MAIL, 0xFFFF}; */
 /* const u16 _020FBA70[] = {ITEM_AIR_MAIL, ITEM_DUSK_BALL, ITEM_QUICK_BALL, 0xFFFF}; */
 
 /* const u16 _020FBA78[] = {ITEM_TUNNEL_MAIL, ITEM_HEAL_BALL, ITEM_NET_BALL, 0xFFFF}; */
-/* Violet City -> Goldenrod Flower Shop */
+/* Violet City Upper Cashier -> Goldenrod Flower Shop??? */
 .org 0x020FBA78
-.halfword ITEM_POWER_HERB
-.halfword ITEM_MENTAL_HERB
-.halfword ITEM_WHITE_HERB
+.halfword ITEM_VENUSAURITE
+.halfword ITEM_CHARIZARDITE_Y
+.halfword ITEM_BLASTOISINITE
 .halfword 0xFFFF
 
 /* const u16 _020FBA80[] = {ITEM_AIR_MAIL, ITEM_NET_BALL, ITEM_DUSK_BALL, 0xFFFF}; */
 /* const u16 _020FBA88[] = {ITEM_HEART_MAIL, ITEM_HEAL_BALL, ITEM_NET_BALL, 0xFFFF}; */
+/* Olivine City Upper Cashier */
+.org 0x020FBA88
+.halfword ITEM_SCEPTILITE
+.halfword ITEM_BLAZIKENITE
+.halfword ITEM_SWAMPERTITE
+.halfword 0xFFFF
+
 /* const u16 _020FBA90[] = {ITEM_STEEL_MAIL, ITEM_DUSK_BALL, ITEM_QUICK_BALL, 0xFFFF}; */
 /* const u16 _020FBA98[] = {ITEM_SNOW_MAIL, ITEM_DUSK_BALL, ITEM_QUICK_BALL, 0xFFFF}; */
 /* const u16 _020FBAA0[] = {ITEM_STEEL_MAIL, ITEM_NEST_BALL, ITEM_QUICK_BALL, 0xFFFF}; */
 /* const u16 _020FBAA8[] = {ITEM_STEEL_MAIL, ITEM_NET_BALL, ITEM_HEAL_BALL, 0xFFFF}; */
+
 /* const u16 _020FBAB0[] = {ITEM_BLOOM_MAIL, ITEM_HEAL_BALL, ITEM_NET_BALL, 0xFFFF}; */
+.org 0x020FBAB0
+/* Azalea Town Upper Cashier */
+.halfword ITEM_SLOWBRONITE
+.halfword ITEM_AMPHAROSITE
+.halfword ITEM_STEELIXITE
+.halfword 0xFFFF
+
 /* const u16 _020FBAB8[] = {ITEM_TINYMUSHROOM, ITEM_POKE_BALL, ITEM_POTION, 0xFFFF}; */
 /* const u16 _020FBAC0[] = {ITEM_AIR_MAIL, ITEM_NEST_BALL, ITEM_DUSK_BALL, ITEM_QUICK_BALL, 0xFFFF}; */
 /* const u16 _020FBACA[] = {ITEM_HEAL_POWDER, ITEM_ENERGYPOWDER, ITEM_ENERGY_ROOT, ITEM_REVIVAL_HERB, 0xFFFF}; */
@@ -187,8 +202,8 @@ const u16 *_0210FA3C[] = {
 .halfword ITEM_POWER_ANKLET
 .halfword ITEM_EXP_SHARE
 .halfword ITEM_MACHO_BRACE
-.halfword 0xFFFF
-.halfword 0xFFFF
+.halfword ITEM_GARDEVOIRITE
+.halfword ITEM_GARDEVOIRITE
 .halfword 0xFFFF
 .halfword 0xFFFF
 
@@ -196,14 +211,14 @@ const u16 *_0210FA3C[] = {
 
 .org 0x020FBBD8
 /* Mahogany Shop -> Goldenrod/Celadon Dept Store */
-.halfword ITEM_X_SPEED
-.halfword ITEM_X_ATTACK
-.halfword ITEM_X_DEFENSE
-.halfword ITEM_GUARD_SPEC
-.halfword ITEM_DIRE_HIT
-.halfword ITEM_X_ACCURACY
-.halfword ITEM_X_SPECIAL
-.halfword ITEM_X_SP_DEF
+.halfword ITEM_ROCKY_HELMET
+.halfword ITEM_FOCUS_SASH
+.halfword ITEM_EJECT_BUTTON
+.halfword ITEM_AIR_BALLOON
+.halfword ITEM_SALAC_BERRY
+.halfword ITEM_LIECHI_BERRY
+.halfword ITEM_PETAYA_BERRY
+.halfword ITEM_POWER_HERB
 .halfword 0xFFFF
 
 /* const u16 _020FBBEA[] = {ITEM_POTION, ITEM_SUPER_POTION, ITEM_HYPER_POTION, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_ANTIDOTE, ITEM_PARLYZ_HEAL, ITEM_BURN_HEAL, ITEM_ICE_HEAL, ITEM_AWAKENING, ITEM_FULL_HEAL, 0xFFFF}; */
@@ -212,7 +227,7 @@ const u16 *_0210FA3C[] = {
 .org 0x020FBBEA
 /* This spills over into _020FBC02 */
 /* Goldenrod Dept Store 2F & Celadon Dept Store 2F -> Chansey Supply 2 */
-.halfword ITEM_PP_UP
+.halfword ITEM_ABILITY_PATCH
 .halfword ITEM_ABILITY_CAPSULE
 .halfword ITEM_LONELY_MINT
 .halfword ITEM_ADAMANT_MINT
@@ -244,15 +259,15 @@ const u16 *_0210FA3C[] = {
 
 .org 0x020FBC34
 /* Goldenrod Dept Store 5F -> Goldenrod Dept Store 5F still (also Celadon 3F) */
-.halfword ITEM_SUN_STONE
-.halfword ITEM_MOON_STONE
-.halfword ITEM_FIRE_STONE
-.halfword ITEM_THUNDER_STONE
-.halfword ITEM_WATER_STONE
-.halfword ITEM_LEAF_STONE
+.halfword ITEM_DUSK_STONE
+.halfword ITEM_DAWN_STONE
+.halfword ITEM_SHINY_STONE
 .halfword ITEM_ICE_STONE
+.halfword ITEM_LINKING_CORD
+.halfword ITEM_BLACK_AUGURITE
+.halfword ITEM_SHELL_BELL
+.halfword ITEM_BLACK_BELT
 .halfword ITEM_EVERSTONE
-.halfword 0xFFFF
 .halfword 0xFFFF
 .halfword 0xFFFF
 .halfword 0xFFFF
