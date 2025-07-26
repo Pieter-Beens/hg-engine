@@ -3637,7 +3637,7 @@ evodata SPECIES_DELCATTY
     terminateevodata
 
 evodata SPECIES_SABLEYE
-    evolution EVO_STONE, ITEM_SHINY_STONE, SPECIES_RUBEYE
+    evolutionwithform EVO_STONE, ITEM_SHINY_STONE, SPECIES_SABLEYE, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -3649,7 +3649,7 @@ evodata SPECIES_SABLEYE
     terminateevodata
 
 evodata SPECIES_MAWILE
-    evolution EVO_LEVEL, 42, SPECIES_MAWSUM
+    evolutionwithform EVO_LEVEL, 42, SPECIES_MAWILE, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

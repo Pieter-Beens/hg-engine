@@ -469,7 +469,7 @@ const u16 UNUSED PokeFormDataTbl[][32] =
     },
     [SPECIES_SNORLAX] = {
         SPECIES_SNORLAX_SUMO,
-    }
+    },
 
     /**Battle Forms**/
     [SPECIES_CASTFORM] = {
