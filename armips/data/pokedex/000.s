@@ -152,7 +152,7 @@
 /* SPECIES_MOLTRES         */ .word 0x14 
 /* SPECIES_DRATINI         */ .word 0x12 
 /* SPECIES_DRAGONAIR       */ .word 0x28 
-/* SPECIES_DRAGONITE       */ .word 0x16 
+/* SPECIES_KARPONITE       */ .word 0x16 
 /* SPECIES_MEWTWO          */ .word 0x14 
 /* SPECIES_MEW             */ .word 0x04 
 /* SPECIES_CHIKORITA       */ .word 0x09 
@@ -268,7 +268,7 @@
 /* SPECIES_MIGHTYENA       */ .word 0x0A 
 /* SPECIES_ZIGZAGOON       */ .word 0x04 
 /* SPECIES_LINOONE         */ .word 0x05 
-/* SPECIES_WURMPLE         */ .word 0x03 
+/* SPECIES_WURMPIE         */ .word 0x03 
 /* SPECIES_SILCOON         */ .word 0x06 
 /* SPECIES_BEAUTIFLY       */ .word 0x0A 
 /* SPECIES_CASCOON         */ .word 0x07 
@@ -568,8 +568,8 @@
 /* SPECIES_SIMISAGE        */ .word 0x0B
 /* SPECIES_PANSEAR         */ .word 0x06
 /* SPECIES_SIMISEAR        */ .word 0x0A
-/* SPECIES_PANPOUR         */ .word 0x06
-/* SPECIES_SIMIPOUR        */ .word 0x0A
+/* SPECIES_SIMPLISIM         */ .word 0x06
+/* SPECIES_SIMSALABIM        */ .word 0x0A
 /* SPECIES_MUNNA           */ .word 0x06
 /* SPECIES_MUSHARNA        */ .word 0x0B
 /* SPECIES_PIDOVE          */ .word 0x03
@@ -591,7 +591,7 @@
 /* SPECIES_TYMPOLE         */ .word 0x05
 /* SPECIES_PALPITOAD       */ .word 0x08
 /* SPECIES_SEISMITOAD      */ .word 0x0F
-/* SPECIES_THROH           */ .word 0x0D
+/* SPECIES_SNORLAX_SUMO           */ .word 0x0D
 /* SPECIES_SAWK            */ .word 0x0E
 /* SPECIES_SEWADDLE        */ .word 0x03
 /* SPECIES_SWADLOON        */ .word 0x05
@@ -615,8 +615,8 @@
 /* SPECIES_SCRAGGY         */ .word 0x06
 /* SPECIES_SCRAFTY         */ .word 0x0B
 /* SPECIES_SIGILYPH        */ .word 0x0E
-/* SPECIES_YAMASK          */ .word 0x05
-/* SPECIES_COFAGRIGUS      */ .word 0x11
+/* SPECIES_HUMBRED          */ .word 0x05
+/* SPECIES_HUMVIE      */ .word 0x11
 /* SPECIES_TIRTOUGA        */ .word 0x07
 /* SPECIES_CARRACOSTA      */ .word 0x0C
 /* SPECIES_ARCHEN          */ .word 0x05

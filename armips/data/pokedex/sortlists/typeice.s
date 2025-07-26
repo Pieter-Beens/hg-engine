@@ -40,7 +40,7 @@
 //.halfword SPECIES_MR_RIME
 //.halfword SPECIES_SNOM
 //.halfword SPECIES_FROSMOTH
-//.halfword SPECIES_EISCUE
+//.halfword SPECIES_PINGWINNER
 //.halfword SPECIES_ARCTOZOLT
 //.halfword SPECIES_ARCTOVISH
 //.halfword SPECIES_GLASTRIER

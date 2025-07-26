@@ -3,7 +3,7 @@
 
 .create "a214/101.bin", 0x0
 
-.halfword SPECIES_YAMASK
+.halfword SPECIES_HUMBRED
 .halfword SPECIES_YANMA
 .halfword SPECIES_YANMEGA
 .halfword SPECIES_ZANGOOSE

@@ -133,8 +133,8 @@
 
 #define IS_SPECIES_ULTRA_BEAST(species) ((species >= SPECIES_NIHILEGO && species <= SPECIES_BLACEPHALON))
 
-#define IS_SPECIES_PARADOX_FORM(species) ((species >= SPECIES_GREAT_TUSK && species <= SPECIES_IRON_THORNS) || (species == SPECIES_ROARING_MOON) || (species == SPECIES_IRON_VALIANT) || (species == SPECIES_WALKING_WAKE) \
-    || (species == SPECIES_IRON_LEAVES) /*|| (species >= SPECIES_GOUGING_FIRE && species <= SPECIES_IRON_CROWN)*/)
+#define IS_SPECIES_PARADOX_FORM(species) ((species >= SPECIES_MASTRODON && species <= SPECIES_TYRANATOR) || (species == SPECIES_SALAMOON) || (species == SPECIES_GALLIANT) || (species == SPECIES_SUILONG) \
+    || (species == SPECIES_IRON_LEAVES) /*|| (species >= SPECIES_ENLONG && species <= SPECIES_IRON_CROWN)*/)
 
 
 // personal narc fields

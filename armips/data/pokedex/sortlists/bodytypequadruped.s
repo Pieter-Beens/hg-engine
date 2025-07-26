@@ -133,7 +133,7 @@
 //.halfword SPECIES_LITTEN
 //.halfword SPECIES_YUNGOOS
 //.halfword SPECIES_ROCKRUFF
-//.halfword SPECIES_MUDBRAY
+//.halfword SPECIES_MINIMOO
 //.halfword SPECIES_SALANDIT
 //.halfword SPECIES_STUFFUL
 //.halfword SPECIES_AURORUS
@@ -154,7 +154,7 @@
 //.halfword SPECIES_YAMPER
 //.halfword SPECIES_SILVALLY
 //.halfword SPECIES_SOLGALEO
-//.halfword SPECIES_THIEVUL
+//.halfword SPECIES_RODERIK
 //.halfword SPECIES_DUBWOOL
 //.halfword SPECIES_DREDNAW
 //.halfword SPECIES_BOLTUND

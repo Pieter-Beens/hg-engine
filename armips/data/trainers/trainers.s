@@ -7527,7 +7527,7 @@ trainerdata 244, "Lance"
         ivs 250
         abilityslot 0
         level 49
-        pokemon SPECIES_DRAGONITE
+        pokemon SPECIES_KARPONITE
         item ITEM_NONE
         move MOVE_THUNDER_WAVE
         move MOVE_DRAGON_RUSH
@@ -7539,7 +7539,7 @@ trainerdata 244, "Lance"
         ivs 250
         abilityslot 0
         level 49
-        pokemon SPECIES_DRAGONITE
+        pokemon SPECIES_KARPONITE
         item ITEM_NONE
         move MOVE_THUNDER_WAVE
         move MOVE_DRAGON_RUSH
@@ -7575,7 +7575,7 @@ trainerdata 244, "Lance"
         ivs 250
         abilityslot 0
         level 50
-        pokemon SPECIES_DRAGONITE
+        pokemon SPECIES_KARPONITE
         item ITEM_SITRUS_BERRY
         move MOVE_FIRE_BLAST
         move MOVE_SAFEGUARD
@@ -22741,7 +22741,7 @@ trainerdata 675, "Lance"
         ivs 250
         abilityslot 0
         level 40
-        pokemon SPECIES_DRAGONITE
+        pokemon SPECIES_KARPONITE
         move MOVE_FLY
         move MOVE_TWISTER
         move MOVE_THUNDER
@@ -23600,7 +23600,7 @@ trainerdata 701, "Lance"
         ivs 250
         abilityslot 0
         level 75
-        pokemon SPECIES_DRAGONITE
+        pokemon SPECIES_KARPONITE
         item ITEM_SITRUS_BERRY
         move MOVE_FIRE_BLAST
         move MOVE_SAFEGUARD
@@ -24773,7 +24773,7 @@ trainerdata 719, "Clair"
         ivs 200
         abilityslot 0
         level 60
-        pokemon SPECIES_DRAGONITE
+        pokemon SPECIES_KARPONITE
         item ITEM_SITRUS_BERRY
         move MOVE_THUNDER
         move MOVE_SAFEGUARD
@@ -25659,7 +25659,7 @@ trainerdata 733, "Lance"
         ivs 250
         abilityslot 0
         level 75
-        pokemon SPECIES_DRAGONITE
+        pokemon SPECIES_KARPONITE
         item ITEM_NONE
         move MOVE_FIRE_PUNCH
         move MOVE_SAFEGUARD
@@ -25709,7 +25709,7 @@ trainerdata 734, "Clair"
         ivs 200
         abilityslot 0
         level 60
-        pokemon SPECIES_DRAGONITE
+        pokemon SPECIES_KARPONITE
         item ITEM_NONE
         move MOVE_THUNDER
         move MOVE_PROTECT

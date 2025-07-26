@@ -61,9 +61,9 @@
 .halfword SPECIES_GOLETT
 .halfword SPECIES_GOLURK
 .halfword SPECIES_LANDORUS
-//.halfword SPECIES_DIGGERSBY
+//.halfword SPECIES_WALLOPEE
 //.halfword SPECIES_ZYGARDE
-//.halfword SPECIES_MUDBRAY
+//.halfword SPECIES_MINIMOO
 //.halfword SPECIES_MUDSDALE
 //.halfword SPECIES_SANDYGAST
 //.halfword SPECIES_PALOSSANT

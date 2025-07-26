@@ -310,7 +310,7 @@ mondata SPECIES_WEEDLE, "Weedle"
 
 mondata SPECIES_KAKUNA, "Kakuna"
     basestats 40, 5, 40, 5, 75, 40
-    types TYPE_BUG, TYPE_COSMIC
+    types TYPE_COSMIC, TYPE_POISON
     catchrate 120
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 0
@@ -698,7 +698,7 @@ mondata SPECIES_NIDORAN_M, "Nidoran♂"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_FIELD
-    abilities ABILITY_POISON_POINT, ABILITY_RIVALRY
+    abilities ABILITY_POISON_POINT, ABILITY_ROUGH_SKIN
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_NIDORAN_M, "It is small, but its horn is filled\nwith poison. It charges then stabs\nwith the horn to inject poison."
@@ -719,7 +719,7 @@ mondata SPECIES_NIDORINO, "Nidorino"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_FIELD
-    abilities ABILITY_POISON_POINT, ABILITY_RIVALRY
+    abilities ABILITY_POISON_POINT, ABILITY_ROUGH_SKIN
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_NIDORINO, "It raises its big ears to check its\nsurroundings. If it senses anything,\nit attacks immediately."
@@ -740,7 +740,7 @@ mondata SPECIES_NIDOKING, "Nidoking"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_FIELD
-    abilities ABILITY_POISON_POINT, ABILITY_RIVALRY
+    abilities ABILITY_POISON_POINT, ABILITY_ROUGH_SKIN
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_NIDOKING, "It swings its big tail around during\nbattle. If its foe flinches, it will\ncharge with its sturdy body."
@@ -751,7 +751,7 @@ mondata SPECIES_NIDOKING, "Nidoking"
 
 mondata SPECIES_CLEFAIRY, "Clefairy"
     basestats 70, 45, 48, 35, 60, 65
-    types (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
+    types (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL, TYPE_COSMIC
     catchrate 150
     baseexp 0 // defined in baseexp.s
     evyields 2, 0, 0, 0, 0, 0
@@ -772,7 +772,7 @@ mondata SPECIES_CLEFAIRY, "Clefairy"
 
 mondata SPECIES_CLEFABLE, "Clefable"
     basestats 95, 70, 73, 60, 95, 90
-    types (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
+    types (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL, TYPE_COSMIC
     catchrate 25
     baseexp 0 // defined in baseexp.s
     evyields 3, 0, 0, 0, 0, 0
@@ -793,7 +793,7 @@ mondata SPECIES_CLEFABLE, "Clefable"
 
 mondata SPECIES_VULPIX, "Vulpix"
     basestats 38, 41, 40, 65, 50, 65
-    types TYPE_FIRE, TYPE_FIRE
+    types TYPE_FIRE, TYPE_FAIRY
     catchrate 190
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
@@ -814,7 +814,7 @@ mondata SPECIES_VULPIX, "Vulpix"
 
 mondata SPECIES_NINETALES, "Ninetales"
     basestats 73, 76, 75, 100, 81, 100
-    types TYPE_FIRE, TYPE_FIRE
+    types TYPE_FIRE, TYPE_FAIRY
     catchrate 75
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 1
@@ -856,7 +856,7 @@ mondata SPECIES_JIGGLYPUFF, "Jigglypuff"
 
 mondata SPECIES_WIGGLYTUFF, "Wigglytuff"
     basestats 140, 70, 45, 45, 85, 50
-    types TYPE_NORMAL, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
+    types TYPE_SOUND, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
     catchrate 50
     baseexp 0 // defined in baseexp.s
     evyields 3, 0, 0, 0, 0, 0
@@ -866,7 +866,7 @@ mondata SPECIES_WIGGLYTUFF, "Wigglytuff"
     basefriendship 50
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
-    abilities ABILITY_CUTE_CHARM, ABILITY_COMPETITIVE
+    abilities ABILITY_HUGE_POWER, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_PINK, 0
     mondexentry SPECIES_WIGGLYTUFF, "Their fur feels so good that if two\nof them snuggle together,\nthey won’t want to be separated."
@@ -2226,7 +2226,7 @@ mondata SPECIES_MAROWAK, "Marowak"
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 0
     items ITEM_NONE, ITEM_THICK_CLUB
-    genderratio 127
+    genderratio 254
     eggcycles 20
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
@@ -3143,9 +3143,9 @@ mondata SPECIES_DRAGONAIR, "Dragonair"
     mondexweight SPECIES_DRAGONAIR, "36.4 lbs."
 
 
-mondata SPECIES_DRAGONITE, "Dragonite"
+mondata SPECIES_KARPONITE, "Karponite"
     basestats 91, 134, 95, 80, 100, 100
-    types TYPE_DRAGON, TYPE_FLYING
+    types TYPE_WATER, TYPE_DRAGON
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 3, 0, 0, 0, 0
@@ -3158,10 +3158,10 @@ mondata SPECIES_DRAGONITE, "Dragonite"
     abilities ABILITY_INNER_FOCUS, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
-    mondexentry SPECIES_DRAGONITE, "It is said that this Pokémon constantly\nflies over the immense seas\nand rescues drowning people."
-    mondexclassification SPECIES_DRAGONITE, "Dragon Pokémon"
-    mondexheight SPECIES_DRAGONITE, "7’03”"
-    mondexweight SPECIES_DRAGONITE, "463.0 lbs."
+    mondexentry SPECIES_KARPONITE, "It is said that this Pokémon constantly\nflies over the immense seas\nand rescues drowning people."
+    mondexclassification SPECIES_KARPONITE, "Dragon Pokémon"
+    mondexheight SPECIES_KARPONITE, "7’03”"
+    mondexweight SPECIES_KARPONITE, "463.0 lbs."
 
 
 mondata SPECIES_MEWTWO, "Mewtwo"
@@ -5579,7 +5579,7 @@ mondata SPECIES_LINOONE, "Linoone"
     mondexweight SPECIES_LINOONE, "71.7 lbs."
 
 
-mondata SPECIES_WURMPLE, "Wurmpie"
+mondata SPECIES_WURMPIE, "Wurmpie"
     basestats 45, 45, 35, 20, 20, 30
     types TYPE_BUG, TYPE_BUG
     catchrate 255
@@ -5594,10 +5594,10 @@ mondata SPECIES_WURMPLE, "Wurmpie"
     abilities ABILITY_SHIELD_DUST, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_RED, 0
-    mondexentry SPECIES_WURMPLE, "It lives among the tall grass and in\nforests. It repels attacks by \nraising up the spikes on its rear."
-    mondexclassification SPECIES_WURMPLE, "Worm Pokémon"
-    mondexheight SPECIES_WURMPLE, "1’00”"
-    mondexweight SPECIES_WURMPLE, "7.9 lbs."
+    mondexentry SPECIES_WURMPIE, "It lives among the tall grass and in\nforests. It repels attacks by \nraising up the spikes on its rear."
+    mondexclassification SPECIES_WURMPIE, "Worm Pokémon"
+    mondexheight SPECIES_WURMPIE, "1’00”"
+    mondexweight SPECIES_WURMPIE, "7.9 lbs."
 
 
 mondata SPECIES_SILCOON, "Silcoon"
@@ -11879,7 +11879,7 @@ mondata SPECIES_SIMISEAR, "Simisear"
     mondexweight SPECIES_SIMISEAR, "61.7 lbs."
 
 
-mondata SPECIES_PANPOUR, "Panpour"
+mondata SPECIES_SIMPLISIM, "Simplisim"
     basestats 50, 53, 48, 64, 53, 48
     types TYPE_WATER, TYPE_WATER
     catchrate 190
@@ -11894,13 +11894,13 @@ mondata SPECIES_PANPOUR, "Panpour"
     abilities ABILITY_GLUTTONY, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
-    mondexentry SPECIES_PANPOUR, "The water stored inside the tuft\non its head is full of nutrients.\nIt waters plants with it using its tail."
-    mondexclassification SPECIES_PANPOUR, "Spray Pokémon"
-    mondexheight SPECIES_PANPOUR, "2’00”"
-    mondexweight SPECIES_PANPOUR, "29.8 lbs."
+    mondexentry SPECIES_SIMPLISIM, "The water stored inside the tuft\non its head is full of nutrients.\nIt waters plants with it using its tail."
+    mondexclassification SPECIES_SIMPLISIM, "Spray Pokémon"
+    mondexheight SPECIES_SIMPLISIM, "2’00”"
+    mondexweight SPECIES_SIMPLISIM, "29.8 lbs."
 
 
-mondata SPECIES_SIMIPOUR, "Simipour"
+mondata SPECIES_SIMSALABIM, "Simsalabim"
     basestats 75, 98, 63, 101, 98, 63
     types TYPE_WATER, TYPE_WATER
     catchrate 75
@@ -11915,10 +11915,10 @@ mondata SPECIES_SIMIPOUR, "Simipour"
     abilities ABILITY_GLUTTONY, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
-    mondexentry SPECIES_SIMIPOUR, "It prefers places with clean water.\nWhen its tuft runs low, it replenishes\nit by siphoning up water with its tail."
-    mondexclassification SPECIES_SIMIPOUR, "Geyser Pokémon"
-    mondexheight SPECIES_SIMIPOUR, "3’03”"
-    mondexweight SPECIES_SIMIPOUR, "63.9 lbs."
+    mondexentry SPECIES_SIMSALABIM, "It prefers places with clean water.\nWhen its tuft runs low, it replenishes\nit by siphoning up water with its tail."
+    mondexclassification SPECIES_SIMSALABIM, "Geyser Pokémon"
+    mondexheight SPECIES_SIMSALABIM, "3’03”"
+    mondexweight SPECIES_SIMSALABIM, "63.9 lbs."
 
 
 mondata SPECIES_MUNNA, "Munna"
@@ -12362,7 +12362,7 @@ mondata SPECIES_SEISMITOAD, "Seismitoad"
     mondexweight SPECIES_SEISMITOAD, "136.7 lbs."
 
 
-mondata SPECIES_THROH, "Throh"
+mondata SPECIES_SNORLAX_SUMO, "-----"
     basestats 120, 100, 85, 45, 30, 85
     types TYPE_FIGHTING, TYPE_FIGHTING
     catchrate 45
@@ -12377,10 +12377,6 @@ mondata SPECIES_THROH, "Throh"
     abilities ABILITY_GUTS, ABILITY_INNER_FOCUS
     runchance 0
     colorflip BODY_COLOR_RED, 0
-    mondexentry SPECIES_THROH, "When it encounters a foe bigger\nthan itself, it wants to throw it.\nIt changes belts as it gets stronger."
-    mondexclassification SPECIES_THROH, "Judo Pokémon"
-    mondexheight SPECIES_THROH, "4’03”"
-    mondexweight SPECIES_THROH, "122.4 lbs."
 
 
 mondata SPECIES_SAWK, "Sawk"
@@ -12866,7 +12862,7 @@ mondata SPECIES_SIGILYPH, "Sigilyph"
     mondexweight SPECIES_SIGILYPH, "30.9 lbs."
 
 
-mondata SPECIES_YAMASK, "Yamask"
+mondata SPECIES_HUMBRED, "Humbred"
     basestats 38, 30, 85, 30, 55, 65
     types TYPE_GHOST, TYPE_GHOST
     catchrate 190
@@ -12881,13 +12877,13 @@ mondata SPECIES_YAMASK, "Yamask"
     abilities ABILITY_MUMMY, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BLACK, 0
-    mondexentry SPECIES_YAMASK, "These Pokémon arose from the\nspirits of people interred in graves.\nEach retains memories of its former life."
-    mondexclassification SPECIES_YAMASK, "Spirit Pokémon"
-    mondexheight SPECIES_YAMASK, "1’08”"
-    mondexweight SPECIES_YAMASK, "3.3 lbs."
+    mondexentry SPECIES_HUMBRED, "These Pokémon arose from the\nspirits of people interred in graves.\nEach retains memories of its former life."
+    mondexclassification SPECIES_HUMBRED, "Spirit Pokémon"
+    mondexheight SPECIES_HUMBRED, "1’08”"
+    mondexweight SPECIES_HUMBRED, "3.3 lbs."
 
 
-mondata SPECIES_COFAGRIGUS, "Cofagrigus"
+mondata SPECIES_HUMVIE, "Humvie"
     basestats 58, 50, 145, 30, 95, 105
     types TYPE_GHOST, TYPE_GHOST
     catchrate 90
@@ -12902,10 +12898,10 @@ mondata SPECIES_COFAGRIGUS, "Cofagrigus"
     abilities ABILITY_MUMMY, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
-    mondexentry SPECIES_COFAGRIGUS, "Grave robbers who mistake them\nfor real coffins and get too close\nend up trapped inside their bodies."
-    mondexclassification SPECIES_COFAGRIGUS, "Coffin Pokémon"
-    mondexheight SPECIES_COFAGRIGUS, "5’07”"
-    mondexweight SPECIES_COFAGRIGUS, "168.7 lbs."
+    mondexentry SPECIES_HUMVIE, "Grave robbers who mistake them\nfor real coffins and get too close\nend up trapped inside their bodies."
+    mondexclassification SPECIES_HUMVIE, "Coffin Pokémon"
+    mondexheight SPECIES_HUMVIE, "5’07”"
+    mondexweight SPECIES_HUMVIE, "168.7 lbs."
 
 
 mondata SPECIES_TIRTOUGA, "Tirtouga"
@@ -14903,7 +14899,7 @@ mondata SPECIES_GRENINJA, "Greninja"
     mondexweight SPECIES_GRENINJA, "88.2 lbs."
 
 
-mondata SPECIES_BUNNELBY, "Bonkbal"
+mondata SPECIES_BONKBAL, "Bonkbal"
     basestats 55, 70, 90, 60, 40, 55
     types TYPE_NORMAL, TYPE_NORMAL
     catchrate 255
@@ -14918,13 +14914,13 @@ mondata SPECIES_BUNNELBY, "Bonkbal"
     abilities ABILITY_RUN_AWAY, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
-    mondexentry SPECIES_BUNNELBY, "They use their large ears to dig\nburrows. They will dig the whole night\nthrough."
-    mondexclassification SPECIES_BUNNELBY, "Digging Pokémon"
-    mondexheight SPECIES_BUNNELBY, "1’04”"
-    mondexweight SPECIES_BUNNELBY, "11.0 lbs."
+    mondexentry SPECIES_BONKBAL, "They use their large ears to dig\nburrows. They will dig the whole night\nthrough."
+    mondexclassification SPECIES_BONKBAL, "Digging Pokémon"
+    mondexheight SPECIES_BONKBAL, "1’04”"
+    mondexweight SPECIES_BONKBAL, "11.0 lbs."
 
 
-mondata SPECIES_DIGGERSBY, "Wallopee"
+mondata SPECIES_WALLOPEE, "Wallopee"
     basestats 100, 100, 90, 70, 50, 80
     types TYPE_FIGHTING, TYPE_STEEL
     catchrate 127
@@ -14939,10 +14935,10 @@ mondata SPECIES_DIGGERSBY, "Wallopee"
     abilities ABILITY_MEGA_LAUNCHER, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
-    mondexentry SPECIES_DIGGERSBY, "As powerful as an excavator, its ears\ncan reduce dense bedrock to rubble."
-    mondexclassification SPECIES_DIGGERSBY, "Digging Pokémon"
-    mondexheight SPECIES_DIGGERSBY, "3’03”"
-    mondexweight SPECIES_DIGGERSBY, "93.5 lbs."
+    mondexentry SPECIES_WALLOPEE, "As powerful as an excavator, its ears\ncan reduce dense bedrock to rubble."
+    mondexclassification SPECIES_WALLOPEE, "Digging Pokémon"
+    mondexheight SPECIES_WALLOPEE, "3’03”"
+    mondexweight SPECIES_WALLOPEE, "93.5 lbs."
 
 
 mondata SPECIES_FLETCHLING, "Fletchling"
@@ -15995,9 +15991,9 @@ mondata SPECIES_PUMPKABOO, "Pumpkaboo"
     mondexweight SPECIES_PUMPKABOO, "11.0 lbs."
 
 
-mondata SPECIES_GOURGEIST, "Gourgeist"
-    basestats 65, 90, 122, 84, 58, 75
-    types TYPE_GHOST, TYPE_GRASS
+mondata SPECIES_XEROGRAV, "Xerograv"
+    basestats 70, 15, 85, 30, 125, 110
+    types TYPE_COSMIC, TYPE_POISON
     catchrate 60
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 0
@@ -16010,10 +16006,10 @@ mondata SPECIES_GOURGEIST, "Gourgeist"
     abilities ABILITY_PICKUP, ABILITY_FRISK
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
-    mondexentry SPECIES_GOURGEIST, "It enwraps its prey in its hairlike\narms. It sings joyfully as it observes\nthe suffering of its prey."
-    mondexclassification SPECIES_GOURGEIST, "Pumpkin Pokémon"
-    mondexheight SPECIES_GOURGEIST, "2’11”"
-    mondexweight SPECIES_GOURGEIST, "27.6 lbs."
+    mondexentry SPECIES_XEROGRAV, "It enwraps its prey in its hairlike\narms. It sings joyfully as it observes\nthe suffering of its prey."
+    mondexclassification SPECIES_XEROGRAV, "Pumpkin Pokémon"
+    mondexheight SPECIES_XEROGRAV, "2’11”"
+    mondexweight SPECIES_XEROGRAV, "27.6 lbs."
 
 
 mondata SPECIES_BERGMITE, "Bergmite"
@@ -16793,7 +16789,7 @@ mondata SPECIES_TOXAPEX, "Toxapex"
     mondexweight SPECIES_TOXAPEX, "32.0 lbs."
 
 
-mondata SPECIES_MUDBRAY, "Mudbray"
+mondata SPECIES_MINIMOO, "Minimoo"
     basestats 70, 100, 70, 45, 45, 55
     types TYPE_GROUND, TYPE_GROUND
     catchrate 190
@@ -16808,10 +16804,10 @@ mondata SPECIES_MUDBRAY, "Mudbray"
     abilities ABILITY_OWN_TEMPO, ABILITY_STAMINA
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
-    mondexentry SPECIES_MUDBRAY, "The mud stuck to Mudbray’s hooves\nenhances its grip and its powerful\nrunning gait."
-    mondexclassification SPECIES_MUDBRAY, "Donkey Pokémon"
-    mondexheight SPECIES_MUDBRAY, "3’03”"
-    mondexweight SPECIES_MUDBRAY, "242.5 lbs."
+    mondexentry SPECIES_MINIMOO, "The mud stuck to Mudbray’s hooves\nenhances its grip and its powerful\nrunning gait."
+    mondexclassification SPECIES_MINIMOO, "Donkey Pokémon"
+    mondexheight SPECIES_MINIMOO, "3’03”"
+    mondexweight SPECIES_MINIMOO, "242.5 lbs."
 
 
 mondata SPECIES_MUDSDALE, "Mudsdale"
@@ -17339,7 +17335,7 @@ mondata SPECIES_MINIOR, "Minior"
     mondexweight SPECIES_MINIOR, "88.2 lbs."
 
 
-mondata SPECIES_KOMALA, "Komala"
+mondata SPECIES_SUBSTITUTE, "Substitute"
     basestats 65, 115, 65, 65, 75, 95
     types TYPE_NORMAL, TYPE_NORMAL
     catchrate 45
@@ -17354,13 +17350,13 @@ mondata SPECIES_KOMALA, "Komala"
     abilities ABILITY_COMATOSE, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
-    mondexentry SPECIES_KOMALA, "It stays asleep from the moment it’s\nborn. When it falls into a deep sleep,\nit stops moving altogether."
-    mondexclassification SPECIES_KOMALA, "Drowsing Pokémon"
-    mondexheight SPECIES_KOMALA, "1’04”"
-    mondexweight SPECIES_KOMALA, "43.9 lbs."
+    mondexentry SPECIES_SUBSTITUTE, "It stays asleep from the moment it’s\nborn. When it falls into a deep sleep,\nit stops moving altogether."
+    mondexclassification SPECIES_SUBSTITUTE, "Drowsing Pokémon"
+    mondexheight SPECIES_SUBSTITUTE, "1’04”"
+    mondexweight SPECIES_SUBSTITUTE, "43.9 lbs."
 
 
-mondata SPECIES_TURTONATOR, "Turtonator"
+mondata SPECIES_GYAOON, "Gyaoon"
     basestats 60, 78, 135, 36, 91, 85
     types TYPE_FIRE, TYPE_DRAGON
     catchrate 70
@@ -17375,13 +17371,13 @@ mondata SPECIES_TURTONATOR, "Turtonator"
     abilities ABILITY_SHELL_ARMOR, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_RED, 0
-    mondexentry SPECIES_TURTONATOR, "It gushes fire and poisonous gases from\nits nostrils. Its dung is an explosive\nsubstance."
-    mondexclassification SPECIES_TURTONATOR, "Blast Turtle Pokémon"
-    mondexheight SPECIES_TURTONATOR, "6’07”"
-    mondexweight SPECIES_TURTONATOR, "467.4 lbs."
+    mondexentry SPECIES_GYAOON, "It gushes fire and poisonous gases from\nits nostrils. Its dung is an explosive\nsubstance."
+    mondexclassification SPECIES_GYAOON, "Blast Turtle Pokémon"
+    mondexheight SPECIES_GYAOON, "6’07”"
+    mondexweight SPECIES_GYAOON, "467.4 lbs."
 
 
-mondata SPECIES_TOGEDEMARU, "Togedemaru"
+mondata SPECIES_OMEGA, "Omega"
     basestats 65, 98, 63, 96, 40, 73
     types TYPE_ELECTRIC, TYPE_STEEL
     catchrate 180
@@ -17396,10 +17392,10 @@ mondata SPECIES_TOGEDEMARU, "Togedemaru"
     abilities ABILITY_IRON_BARBS, ABILITY_LIGHTNING_ROD
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
-    mondexentry SPECIES_TOGEDEMARU, "When it’s surprised or agitated, the 14\nfur spikes on its back will stand up\ninvoluntarily."
-    mondexclassification SPECIES_TOGEDEMARU, "Roly-Poly Pokémon"
-    mondexheight SPECIES_TOGEDEMARU, "1’00”"
-    mondexweight SPECIES_TOGEDEMARU, "7.3 lbs."
+    mondexentry SPECIES_OMEGA, "When it’s surprised or agitated, the 14\nfur spikes on its back will stand up\ninvoluntarily."
+    mondexclassification SPECIES_OMEGA, "Roly-Poly Pokémon"
+    mondexheight SPECIES_OMEGA, "1’00”"
+    mondexweight SPECIES_OMEGA, "7.3 lbs."
 
 
 mondata SPECIES_MIMIKYU, "Mimikyu"
@@ -18452,7 +18448,7 @@ mondata SPECIES_NICKIT, "Nickit"
     mondexweight SPECIES_NICKIT, "19.6 lbs."
 
 
-mondata SPECIES_THIEVUL, "Thievul"
+mondata SPECIES_RODERIK, "Thievul"
     basestats 70, 58, 58, 90, 87, 92
     types TYPE_DARK, TYPE_DARK
     catchrate 127
@@ -18467,10 +18463,10 @@ mondata SPECIES_THIEVUL, "Thievul"
     abilities ABILITY_RUN_AWAY, ABILITY_UNBURDEN
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
-    mondexentry SPECIES_THIEVUL, "With a lithe body and sharp claws, it\ngoes around stealing food and eggs.\nIt secretly marks its future targets."
-    mondexclassification SPECIES_THIEVUL, "Fox Pokémon"
-    mondexheight SPECIES_THIEVUL, "3’11”"
-    mondexweight SPECIES_THIEVUL, "43.9 lbs."
+    mondexentry SPECIES_RODERIK, "With a lithe body and sharp claws, it\ngoes around stealing food and eggs.\nIt secretly marks its future targets."
+    mondexclassification SPECIES_RODERIK, "Fox Pokémon"
+    mondexheight SPECIES_RODERIK, "3’11”"
+    mondexweight SPECIES_RODERIK, "43.9 lbs."
 
 
 mondata SPECIES_GOSSIFLEUR, "Gossifleur"
@@ -18893,9 +18889,9 @@ mondata SPECIES_TOXEL, "Toxel"
     mondexweight SPECIES_TOXEL, "24.3 lbs."
 
 
-mondata SPECIES_TOXTRICITY, "Toxtricity"
-    basestats 75, 98, 70, 75, 114, 70
-    types TYPE_ELECTRIC, TYPE_POISON
+mondata SPECIES_GOROCHU, "Gorochu"
+    basestats 85, 120, 75, 90, 50, 65
+    types TYPE_ELECTRIC, TYPE_FIGHTING
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
@@ -18905,13 +18901,13 @@ mondata SPECIES_TOXTRICITY, "Toxtricity"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_PUNK_ROCK, ABILITY_PLUS
+    abilities ABILITY_STAMINA, ABILITY_PLUS
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
-    mondexentry SPECIES_TOXTRICITY, "This short-tempered and aggressive\nPokémon chugs stagnant water to\nabsorb any toxins it might contain."
-    mondexclassification SPECIES_TOXTRICITY, "Punk Pokémon"
-    mondexheight SPECIES_TOXTRICITY, "5’03”"
-    mondexweight SPECIES_TOXTRICITY, "88.2 lbs."
+    mondexentry SPECIES_GOROCHU, "This short-tempered and aggressive\nPokémon chugs stagnant water to\nabsorb any toxins it might contain."
+    mondexclassification SPECIES_GOROCHU, "Punk Pokémon"
+    mondexheight SPECIES_GOROCHU, "5’03”"
+    mondexweight SPECIES_GOROCHU, "88.2 lbs."
 
 
 mondata SPECIES_SIZZLIPEDE, "Sizzlipede"
@@ -19439,7 +19435,7 @@ mondata SPECIES_STONJOURNER, "Stonjorner"
     mondexweight SPECIES_STONJOURNER, "1146.4 lbs."
 
 
-mondata SPECIES_EISCUE, "Eiscue"
+mondata SPECIES_PINGWINNER, "Eiscue"
     basestats 75, 80, 110, 50, 65, 90
     types TYPE_ICE, TYPE_ICE
     catchrate 60
@@ -19454,10 +19450,10 @@ mondata SPECIES_EISCUE, "Eiscue"
     abilities ABILITY_ICE_FACE, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
-    mondexentry SPECIES_EISCUE, "It drifted in on the flow of ocean\nwaters from a frigid place. It keeps its\nhead iced constantly to stay cold."
-    mondexclassification SPECIES_EISCUE, "Penguin Pokémon"
-    mondexheight SPECIES_EISCUE, "4’07”"
-    mondexweight SPECIES_EISCUE, "196.2 lbs."
+    mondexentry SPECIES_PINGWINNER, "It drifted in on the flow of ocean\nwaters from a frigid place. It keeps its\nhead iced constantly to stay cold."
+    mondexclassification SPECIES_PINGWINNER, "Penguin Pokémon"
+    mondexheight SPECIES_PINGWINNER, "4’07”"
+    mondexweight SPECIES_PINGWINNER, "196.2 lbs."
 
 
 mondata SPECIES_INDEEDEE, "Indeedee"
@@ -20447,7 +20443,7 @@ mondata SPECIES_PAWMO, "Pawmo"
     mondexweight SPECIES_PAWMO, "14.3 lbs."
 
 
-mondata SPECIES_PAWMOT, "Pawmot"
+mondata SPECIES_HUMBOL, "Humbol"
     basestats 70, 115, 70, 105, 70, 60
     types TYPE_ELECTRIC, TYPE_FIGHTING
     catchrate 45
@@ -20462,10 +20458,10 @@ mondata SPECIES_PAWMOT, "Pawmot"
     abilities ABILITY_VOLT_ABSORB, ABILITY_NATURAL_CURE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
-    mondexentry SPECIES_PAWMOT, "Pawmot's fluffy fur acts as a battery.\nIt can store the same amount of\nelectricity as an electric car."
-    mondexclassification SPECIES_PAWMOT, "Hands-On Pokémon"
-    mondexheight SPECIES_PAWMOT, "2’11”"
-    mondexweight SPECIES_PAWMOT, "90.4 lbs."
+    mondexentry SPECIES_HUMBOL, "Pawmot's fluffy fur acts as a battery.\nIt can store the same amount of\nelectricity as an electric car."
+    mondexclassification SPECIES_HUMBOL, "Hands-On Pokémon"
+    mondexheight SPECIES_HUMBOL, "2’11”"
+    mondexweight SPECIES_HUMBOL, "90.4 lbs."
 
 
 mondata SPECIES_TANDEMAUS, "Tandemaus"
@@ -21728,7 +21724,7 @@ mondata SPECIES_KINGAMBIT, "Kingambit"
     mondexweight SPECIES_KINGAMBIT, "264.6 lbs."
 
 
-mondata SPECIES_GREAT_TUSK, "Great Tusk"
+mondata SPECIES_MASTRODON, "Mastrodon"
     basestats 115, 131, 131, 87, 53, 53
     types TYPE_GROUND, TYPE_FIGHTING
     catchrate 30
@@ -21743,15 +21739,15 @@ mondata SPECIES_GREAT_TUSK, "Great Tusk"
     abilities ABILITY_PROTOSYNTHESIS, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
-    mondexentry SPECIES_GREAT_TUSK, "This creature resembles a mysterious\nPokémon that, according to a paranormal\nmagazine, has lived since ancient times."
-    mondexclassification SPECIES_GREAT_TUSK, "Paradox Pokémon"
-    mondexheight SPECIES_GREAT_TUSK, "7’03”"
-    mondexweight SPECIES_GREAT_TUSK, "705.5 lbs."
+    mondexentry SPECIES_MASTRODON, "This creature resembles a mysterious\nPokémon that, according to a paranormal\nmagazine, has lived since ancient times."
+    mondexclassification SPECIES_MASTRODON, "Paradox Pokémon"
+    mondexheight SPECIES_MASTRODON, "7’03”"
+    mondexweight SPECIES_MASTRODON, "705.5 lbs."
 
 
-mondata SPECIES_SCREAM_TAIL, "ScreamTail"
+mondata SPECIES_TICKLYRUFF, "Ticklyruff"
     basestats 115, 65, 99, 111, 65, 115
-    types (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL, TYPE_PSYCHIC
+    types TYPE_SOUND, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
     catchrate 50
     baseexp 0 // defined in baseexp.s
     evyields 3, 0, 0, 0, 0, 0
@@ -21761,16 +21757,16 @@ mondata SPECIES_SCREAM_TAIL, "ScreamTail"
     basefriendship 0
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_PROTOSYNTHESIS, ABILITY_NONE
+    abilities ABILITY_RECKLESS, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_PINK, 0
-    mondexentry SPECIES_SCREAM_TAIL, "It resembles a mysterious Pokémon\ndescribed in a paranormal magazine as a\nJigglypuff from one billion years ago."
-    mondexclassification SPECIES_SCREAM_TAIL, "Paradox Pokémon"
-    mondexheight SPECIES_SCREAM_TAIL, "3’11”"
-    mondexweight SPECIES_SCREAM_TAIL, "17.6 lbs."
+    mondexentry SPECIES_TICKLYRUFF, "It resembles a mysterious Pokémon\ndescribed in a paranormal magazine as a\nJigglypuff from one billion years ago."
+    mondexclassification SPECIES_TICKLYRUFF, "Paradox Pokémon"
+    mondexheight SPECIES_TICKLYRUFF, "3’11”"
+    mondexweight SPECIES_TICKLYRUFF, "17.6 lbs."
 
 
-mondata SPECIES_BRUTE_BONNET, "BruteBonet"
+mondata SPECIES_IMPOSSUS, "Impossus"
     basestats 111, 127, 99, 55, 79, 99
     types TYPE_GRASS, TYPE_DARK
     catchrate 50
@@ -21785,13 +21781,13 @@ mondata SPECIES_BRUTE_BONNET, "BruteBonet"
     abilities ABILITY_PROTOSYNTHESIS, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
-    mondexentry SPECIES_BRUTE_BONNET, "It bears a slight resemblance to a Pokémon\ndescribed in a dubious magazine as a cross\nbetween a dinosaur and a mushroom."
-    mondexclassification SPECIES_BRUTE_BONNET, "Paradox Pokémon"
-    mondexheight SPECIES_BRUTE_BONNET, "3’11”"
-    mondexweight SPECIES_BRUTE_BONNET, "46.3 lbs."
+    mondexentry SPECIES_IMPOSSUS, "It bears a slight resemblance to a Pokémon\ndescribed in a dubious magazine as a cross\nbetween a dinosaur and a mushroom."
+    mondexclassification SPECIES_IMPOSSUS, "Paradox Pokémon"
+    mondexheight SPECIES_IMPOSSUS, "3’11”"
+    mondexweight SPECIES_IMPOSSUS, "46.3 lbs."
 
 
-mondata SPECIES_FLUTTER_MANE, "FluttrMane"
+mondata SPECIES_MISCHIEVER, "Mischiever"
     basestats 55, 55, 55, 135, 135, 135
     types TYPE_GHOST, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_GHOST
     catchrate 30
@@ -21806,10 +21802,10 @@ mondata SPECIES_FLUTTER_MANE, "FluttrMane"
     abilities ABILITY_PROTOSYNTHESIS, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
-    mondexentry SPECIES_FLUTTER_MANE, "It has similar features to a ghostly pterosaur\nthat was covered in a paranormal magazine,\nbut the two have little else in common."
-    mondexclassification SPECIES_FLUTTER_MANE, "Paradox Pokémon"
-    mondexheight SPECIES_FLUTTER_MANE, "4’07”"
-    mondexweight SPECIES_FLUTTER_MANE, "8.8 lbs."
+    mondexentry SPECIES_MISCHIEVER, "It has similar features to a ghostly pterosaur\nthat was covered in a paranormal magazine,\nbut the two have little else in common."
+    mondexclassification SPECIES_MISCHIEVER, "Paradox Pokémon"
+    mondexheight SPECIES_MISCHIEVER, "4’07”"
+    mondexweight SPECIES_MISCHIEVER, "8.8 lbs."
 
 
 mondata SPECIES_SLITHER_WING, "SlithrWing"
@@ -21833,7 +21829,7 @@ mondata SPECIES_SLITHER_WING, "SlithrWing"
     mondexweight SPECIES_SLITHER_WING, "202.8 lbs."
 
 
-mondata SPECIES_SANDY_SHOCKS, "SandyShock"
+mondata SPECIES_MAGNESANCE, "Magnesance"
     basestats 85, 81, 97, 101, 121, 85
     types TYPE_ELECTRIC, TYPE_GROUND
     catchrate 30
@@ -21848,13 +21844,13 @@ mondata SPECIES_SANDY_SHOCKS, "SandyShock"
     abilities ABILITY_PROTOSYNTHESIS, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
-    mondexentry SPECIES_SANDY_SHOCKS, "It slightly resembles a Magneton that\nlived for 10,000 years and was featured in\nan article in a paranormal magazine."
-    mondexclassification SPECIES_SANDY_SHOCKS, "Paradox Pokémon"
-    mondexheight SPECIES_SANDY_SHOCKS, "7’07”"
-    mondexweight SPECIES_SANDY_SHOCKS, "132.3 lbs."
+    mondexentry SPECIES_MAGNESANCE, "It slightly resembles a Magneton that\nlived for 10,000 years and was featured in\nan article in a paranormal magazine."
+    mondexclassification SPECIES_MAGNESANCE, "Paradox Pokémon"
+    mondexheight SPECIES_MAGNESANCE, "7’07”"
+    mondexweight SPECIES_MAGNESANCE, "132.3 lbs."
 
 
-mondata SPECIES_IRON_TREADS, "IronTreads"
+mondata SPECIES_TRONPHAN, "Tronphan"
     basestats 90, 112, 120, 106, 72, 70
     types TYPE_GROUND, TYPE_STEEL
     catchrate 30
@@ -21869,13 +21865,13 @@ mondata SPECIES_IRON_TREADS, "IronTreads"
     abilities ABILITY_QUARK_DRIVE, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
-    mondexentry SPECIES_IRON_TREADS, "This Pokémon closely resembles a scientific\nweapon that a paranormal magazine claimed\nwas sent to this planet by aliens."
-    mondexclassification SPECIES_IRON_TREADS, "Paradox Pokémon"
-    mondexheight SPECIES_IRON_TREADS, "2’11”"
-    mondexweight SPECIES_IRON_TREADS, "529.1 lbs."
+    mondexentry SPECIES_TRONPHAN, "This Pokémon closely resembles a scientific\nweapon that a paranormal magazine claimed\nwas sent to this planet by aliens."
+    mondexclassification SPECIES_TRONPHAN, "Paradox Pokémon"
+    mondexheight SPECIES_TRONPHAN, "2’11”"
+    mondexweight SPECIES_TRONPHAN, "529.1 lbs."
 
 
-mondata SPECIES_IRON_BUNDLE, "IronBundle"
+mondata SPECIES_WIREBIRD, "Wirebird"
     basestats 56, 80, 114, 136, 124, 60
     types TYPE_ICE, TYPE_WATER
     catchrate 50
@@ -21890,13 +21886,13 @@ mondata SPECIES_IRON_BUNDLE, "IronBundle"
     abilities ABILITY_QUARK_DRIVE, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_RED, 0
-    mondexentry SPECIES_IRON_BUNDLE, "Its shape is similar to a robot featured in a\nparanormal magazine. The robot was said to\nhave been created by an ancient civilization."
-    mondexclassification SPECIES_IRON_BUNDLE, "Paradox Pokémon"
-    mondexheight SPECIES_IRON_BUNDLE, "2’00”"
-    mondexweight SPECIES_IRON_BUNDLE, "24.3 lbs."
+    mondexentry SPECIES_WIREBIRD, "Its shape is similar to a robot featured in a\nparanormal magazine. The robot was said to\nhave been created by an ancient civilization."
+    mondexclassification SPECIES_WIREBIRD, "Paradox Pokémon"
+    mondexheight SPECIES_WIREBIRD, "2’00”"
+    mondexweight SPECIES_WIREBIRD, "24.3 lbs."
 
 
-mondata SPECIES_IRON_HANDS, "Iron Hands"
+mondata SPECIES_MACHINOUCHI, "Machinouchi"
     basestats 154, 140, 108, 50, 50, 68
     types TYPE_FIGHTING, TYPE_ELECTRIC
     catchrate 50
@@ -21911,10 +21907,10 @@ mondata SPECIES_IRON_HANDS, "Iron Hands"
     abilities ABILITY_QUARK_DRIVE, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
-    mondexentry SPECIES_IRON_HANDS, "It is very similar to a cyborg covered by a\nparanormal magazine. The cyborg was said to\nbe the modified form of a certain athlete."
-    mondexclassification SPECIES_IRON_HANDS, "Paradox Pokémon"
-    mondexheight SPECIES_IRON_HANDS, "5’11”"
-    mondexweight SPECIES_IRON_HANDS, "839.3 lbs."
+    mondexentry SPECIES_MACHINOUCHI, "It is very similar to a cyborg covered by a\nparanormal magazine. The cyborg was said to\nbe the modified form of a certain athlete."
+    mondexclassification SPECIES_MACHINOUCHI, "Paradox Pokémon"
+    mondexheight SPECIES_MACHINOUCHI, "5’11”"
+    mondexweight SPECIES_MACHINOUCHI, "839.3 lbs."
 
 
 mondata SPECIES_IRON_JUGULIS, "Iron Neck"
@@ -21959,7 +21955,7 @@ mondata SPECIES_IRON_MOTH, "Iron Moth"
     mondexweight SPECIES_IRON_MOTH, "79.4 lbs."
 
 
-mondata SPECIES_IRON_THORNS, "IronThorns"
+mondata SPECIES_TYRANATOR, "Tyranator"
     basestats 100, 134, 110, 72, 70, 84
     types TYPE_ROCK, TYPE_ELECTRIC
     catchrate 30
@@ -21974,10 +21970,10 @@ mondata SPECIES_IRON_THORNS, "IronThorns"
     abilities ABILITY_QUARK_DRIVE, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
-    mondexentry SPECIES_IRON_THORNS, "It has some similarities to a Pokémon\nintroduced in a dubious magazine as a\nTyranitar from 1 billion years in the future."
-    mondexclassification SPECIES_IRON_THORNS, "Paradox Pokémon"
-    mondexheight SPECIES_IRON_THORNS, "5’03”"
-    mondexweight SPECIES_IRON_THORNS, "668.0 lbs."
+    mondexentry SPECIES_TYRANATOR, "It has some similarities to a Pokémon\nintroduced in a dubious magazine as a\nTyranitar from 1 billion years in the future."
+    mondexclassification SPECIES_TYRANATOR, "Paradox Pokémon"
+    mondexheight SPECIES_TYRANATOR, "5’03”"
+    mondexweight SPECIES_TYRANATOR, "668.0 lbs."
 
 
 mondata SPECIES_FRIGIBAX, "Frigibax"
@@ -22169,7 +22165,7 @@ mondata SPECIES_CHI_YU, "Chi-Yu"
     mondexweight SPECIES_CHI_YU, "10.8 lbs."
 
 
-mondata SPECIES_ROARING_MOON, "RoarinMoon"
+mondata SPECIES_SALAMOON, "Salamoon"
     basestats 105, 139, 71, 119, 55, 101
     types TYPE_DRAGON, TYPE_DARK
     catchrate 10
@@ -22184,13 +22180,13 @@ mondata SPECIES_ROARING_MOON, "RoarinMoon"
     abilities ABILITY_PROTOSYNTHESIS, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
-    mondexentry SPECIES_ROARING_MOON, "According to a dubious magazine,\nthis Pokémon has some connection to a\nphenomenon that occurs in a certain region."
-    mondexclassification SPECIES_ROARING_MOON, "Paradox Pokémon"
-    mondexheight SPECIES_ROARING_MOON, "6’07”"
-    mondexweight SPECIES_ROARING_MOON, "837.8 lbs."
+    mondexentry SPECIES_SALAMOON, "According to a dubious magazine,\nthis Pokémon has some connection to a\nphenomenon that occurs in a certain region."
+    mondexclassification SPECIES_SALAMOON, "Paradox Pokémon"
+    mondexheight SPECIES_SALAMOON, "6’07”"
+    mondexweight SPECIES_SALAMOON, "837.8 lbs."
 
 
-mondata SPECIES_IRON_VALIANT, "Iron Valor"
+mondata SPECIES_GALLIANT, "Galliant"
     basestats 74, 130, 90, 116, 120, 60
     types (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL, TYPE_FIGHTING
     catchrate 10
@@ -22205,10 +22201,10 @@ mondata SPECIES_IRON_VALIANT, "Iron Valor"
     abilities ABILITY_QUARK_DRIVE, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_WHITE, 0
-    mondexentry SPECIES_IRON_VALIANT, "It has some similarities to a\nmad scientist’s invention\ncovered in a paranormal magazine."
-    mondexclassification SPECIES_IRON_VALIANT, "Paradox Pokémon"
-    mondexheight SPECIES_IRON_VALIANT, "4’07”"
-    mondexweight SPECIES_IRON_VALIANT, "77.2 lbs."
+    mondexentry SPECIES_GALLIANT, "It has some similarities to a\nmad scientist’s invention\ncovered in a paranormal magazine."
+    mondexclassification SPECIES_GALLIANT, "Paradox Pokémon"
+    mondexheight SPECIES_GALLIANT, "4’07”"
+    mondexweight SPECIES_GALLIANT, "77.2 lbs."
 
 
 mondata SPECIES_KORAIDON, "Koraidon"
@@ -22253,7 +22249,7 @@ mondata SPECIES_MIRAIDON, "Miraidon"
     mondexweight SPECIES_MIRAIDON, "529.1 lbs."
 
 
-mondata SPECIES_WALKING_WAKE, "WalkngWake"
+mondata SPECIES_SUILONG, "Suilong"
     basestats 99, 83, 91, 109, 125, 83
     types TYPE_WATER, TYPE_DRAGON
     catchrate 5
@@ -22264,14 +22260,14 @@ mondata SPECIES_WALKING_WAKE, "WalkngWake"
     eggcycles 50
     basefriendship 0
     growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    egggroups EGG_GROUP_DRAGON, EGG_GROUP_DRAGON
     abilities ABILITY_PROTOSYNTHESIS, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
-    mondexentry SPECIES_WALKING_WAKE, "It resembles an illustration published in\na paranormal magazine, said to be a\ndepiction of a super-ancient Suicune."
-    mondexclassification SPECIES_WALKING_WAKE, "Paradox Pokémon"
-    mondexheight SPECIES_WALKING_WAKE, "11’06”"
-    mondexweight SPECIES_WALKING_WAKE, "617.3 lbs."
+    mondexentry SPECIES_SUILONG, "It resembles an illustration published in\na paranormal magazine, said to be a\ndepiction of a super-ancient Suicune."
+    mondexclassification SPECIES_SUILONG, "Paradox Pokémon"
+    mondexheight SPECIES_SUILONG, "11’06”"
+    mondexweight SPECIES_SUILONG, "617.3 lbs."
 
 
 mondata SPECIES_IRON_LEAVES, "IronLeaves"
@@ -22484,7 +22480,7 @@ mondata SPECIES_HYDRAPPLE, "Hydrapple"
     mondexweight SPECIES_HYDRAPPLE, "205.0 lbs."
 
 
-mondata SPECIES_GOUGING_FIRE, "GouginFire"
+mondata SPECIES_ENLONG, "Enlong"
     basestats 105, 115, 121, 91, 65, 93
     types TYPE_FIRE, TYPE_DRAGON
     catchrate 10
@@ -22495,17 +22491,17 @@ mondata SPECIES_GOUGING_FIRE, "GouginFire"
     eggcycles 50
     basefriendship 0
     growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    egggroups EGG_GROUP_DRAGON, EGG_GROUP_DRAGON
     runchance 0
     abilities ABILITY_PROTOSYNTHESIS, ABILITY_NONE
     colorflip BODY_COLOR_BROWN, 0
-    mondexentry SPECIES_GOUGING_FIRE, "It resembles a Pokémon once shown in a\nparanormal magazine. That Pokémon was said\nto be an Entei regenerated from a fossil."
-    mondexclassification SPECIES_GOUGING_FIRE, "Paradox Pokémon"
-    mondexheight SPECIES_GOUGING_FIRE, "11’06”"
-    mondexweight SPECIES_GOUGING_FIRE, "1300.7 lbs."
+    mondexentry SPECIES_ENLONG, "It resembles a Pokémon once shown in a\nparanormal magazine. That Pokémon was said\nto be an Entei regenerated from a fossil."
+    mondexclassification SPECIES_ENLONG, "Paradox Pokémon"
+    mondexheight SPECIES_ENLONG, "11’06”"
+    mondexweight SPECIES_ENLONG, "1300.7 lbs."
 
 
-mondata SPECIES_RAGING_BOLT, "RagingBolt"
+mondata SPECIES_RAILONG, "Railong"
     basestats 125, 73, 91, 75, 137, 89
     types TYPE_ELECTRIC, TYPE_DRAGON
     catchrate 10
@@ -22516,14 +22512,14 @@ mondata SPECIES_RAGING_BOLT, "RagingBolt"
     eggcycles 50
     basefriendship 0
     growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    egggroups EGG_GROUP_DRAGON, EGG_GROUP_DRAGON
     abilities ABILITY_PROTOSYNTHESIS, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
-    mondexentry SPECIES_RAGING_BOLT, "It bears resemblance to a Pokémon that\nbecame a hot topic for a short while after\nbeing touted it as Raikou's ancestor."
-    mondexclassification SPECIES_RAGING_BOLT, "Paradox Pokémon"
-    mondexheight SPECIES_RAGING_BOLT, "17’01”"
-    mondexweight SPECIES_RAGING_BOLT, "1058.2 lbs."
+    mondexentry SPECIES_RAILONG, "It bears resemblance to a Pokémon that\nbecame a hot topic for a short while after\nbeing touted it as Raikou's ancestor."
+    mondexclassification SPECIES_RAILONG, "Paradox Pokémon"
+    mondexheight SPECIES_RAILONG, "17’01”"
+    mondexweight SPECIES_RAILONG, "1058.2 lbs."
 
 
 mondata SPECIES_IRON_BOULDER, "IronBolder"
@@ -23010,7 +23006,7 @@ mondata SPECIES_MEGA_GARDEVOIR, "-----"
     runchance 0
     colorflip 0, 0
 
-mondata SPECIES_MEGA_SABLEYE, "-----"
+mondata SPECIES_RUBEYE, "Rubeye"
     basestats 50, 85, 125, 20, 85, 115
     types TYPE_DARK, TYPE_GHOST
     catchrate 45
@@ -23025,8 +23021,12 @@ mondata SPECIES_MEGA_SABLEYE, "-----"
     abilities ABILITY_PRESSURE, ABILITY_FRISK //ABILITY_MAGIC_BOUNCE, ABILITY_MAGIC_BOUNCE
     runchance 0
     colorflip 0, 0
+    mondexentry SPECIES_RUBEYE, "It dwells in the darkness of caves.\nIt uses its sharp claws to dig up\ngems to nourish itself."
+    mondexclassification SPECIES_RUBEYE, "Darkness Pokémon"
+    mondexheight SPECIES_RUBEYE, "1’08”"
+    mondexweight SPECIES_RUBEYE, "24.3 lbs."
 
-mondata SPECIES_MEGA_MAWILE, "-----"
+mondata SPECIES_MAWSUM, "Mawsum"
     basestats 50, 105, 125, 50, 55, 95
     types TYPE_STEEL, FAIRY_TYPE_IMPLEMENTED ? TYPE_FAIRY : TYPE_STEEL
     catchrate 45
@@ -23041,6 +23041,10 @@ mondata SPECIES_MEGA_MAWILE, "-----"
     abilities ABILITY_HUGE_POWER, ABILITY_HUGE_POWER
     runchance 0
     colorflip 0, 0
+    mondexentry SPECIES_MAWSUM, "It chomps with its gaping mouth.\nIts huge jaws are actually steel\nhorns that have been transformed."
+    mondexclassification SPECIES_MAWSUM, "Deceiver Pokémon"
+    mondexheight SPECIES_MAWSUM, "2’00”"
+    mondexweight SPECIES_MAWSUM, "25.4 lbs."
 
 mondata SPECIES_MEGA_AGGRON, "-----"
     basestats 70, 140, 230, 50, 60, 80
@@ -23470,7 +23474,7 @@ mondata SPECIES_SANDSHREW_ALOLAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_SNOW_CLOAK,  ABILITY_NONE
+    abilities ABILITY_FULL_METAL_BODY, ABILITY_SLUSH_RUSH
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
 
@@ -23486,7 +23490,7 @@ mondata SPECIES_SANDSLASH_ALOLAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_SNOW_CLOAK,  ABILITY_NONE
+    abilities ABILITY_FULL_METAL_BODY, ABILITY_SLUSH_RUSH
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
 
@@ -23502,7 +23506,7 @@ mondata SPECIES_VULPIX_ALOLAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_SNOW_CLOAK,  ABILITY_NONE
+    abilities ABILITY_MAGIC_GUARD, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
 
@@ -23518,7 +23522,7 @@ mondata SPECIES_NINETALES_ALOLAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_SNOW_CLOAK,  ABILITY_NONE
+    abilities ABILITY_MAGIC_GUARD, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
 
@@ -23689,7 +23693,7 @@ mondata SPECIES_MAROWAK_ALOLAN, "-----"
     baseexp 149
     evyields 0, 0, 2, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 127
+    genderratio 0
     eggcycles 20
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
@@ -23826,7 +23830,7 @@ mondata SPECIES_SALAZZLE_LARGE, "-----"
     runchance 0
     colorflip BODY_COLOR_BLACK, 0
 
-mondata SPECIES_TOGEDEMARU_LARGE, "-----"
+mondata SPECIES_OMEGA_LARGE, "-----"
     basestats 65, 98, 63, 96, 40, 73
     types TYPE_ELECTRIC, TYPE_STEEL
     catchrate 180
@@ -24162,7 +24166,7 @@ mondata SPECIES_DARMANITAN_GALARIAN, "-----"
     runchance 0
     colorflip BODY_COLOR_WHITE, 0
 
-mondata SPECIES_YAMASK_GALARIAN, "-----"
+mondata SPECIES_HUMBRED_GALARIAN, "-----"
     basestats 38, 55, 85, 30, 30, 65
     types TYPE_GROUND, TYPE_GHOST
     catchrate 190
@@ -24212,7 +24216,7 @@ mondata SPECIES_PIKACHU_COSPLAY, "-----"
 
 mondata SPECIES_PIKACHU_ROCK_STAR, "-----"
     basestats 35, 55, 40, 90, 50, 50
-    types TYPE_ELECTRIC, TYPE_ELECTRIC
+    types TYPE_ELECTRIC, TYPE_SOUND
     catchrate 190
     baseexp 112
     evyields 0, 0, 0, 2, 0, 0
@@ -24222,13 +24226,13 @@ mondata SPECIES_PIKACHU_ROCK_STAR, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_STATIC,  ABILITY_NONE
+    abilities ABILITY_DAZZLING,  ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
 
 mondata SPECIES_PIKACHU_BELLE, "-----"
     basestats 35, 55, 40, 90, 50, 50
-    types TYPE_ELECTRIC, TYPE_ELECTRIC
+    types TYPE_ELECTRIC, TYPE_FAIRY
     catchrate 190
     baseexp 112
     evyields 0, 0, 0, 2, 0, 0
@@ -24238,13 +24242,13 @@ mondata SPECIES_PIKACHU_BELLE, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_STATIC,  ABILITY_NONE
+    abilities ABILITY_CUTE_CHARM,  ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 1
 
 mondata SPECIES_PIKACHU_POP_STAR, "-----"
     basestats 35, 55, 40, 90, 50, 50
-    types TYPE_ELECTRIC, TYPE_ELECTRIC
+    types TYPE_ELECTRIC, TYPE_SOUND
     catchrate 190
     baseexp 112
     evyields 0, 0, 0, 2, 0, 0
@@ -24254,13 +24258,13 @@ mondata SPECIES_PIKACHU_POP_STAR, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_STATIC,  ABILITY_NONE
+    abilities ABILITY_DAZZLING,  ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 1
 
 mondata SPECIES_PIKACHU_PH_D, "-----"
     basestats 35, 55, 40, 90, 50, 50
-    types TYPE_ELECTRIC, TYPE_ELECTRIC
+    types TYPE_ELECTRIC, TYPE_PSYCHIC
     catchrate 190
     baseexp 112
     evyields 0, 0, 0, 2, 0, 0
@@ -24270,13 +24274,13 @@ mondata SPECIES_PIKACHU_PH_D, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_STATIC,  ABILITY_NONE
+    abilities ABILITY_TECHNICIAN,  ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
 
 mondata SPECIES_PIKACHU_LIBRE, "-----"
     basestats 35, 55, 40, 90, 50, 50
-    types TYPE_ELECTRIC, TYPE_ELECTRIC
+    types TYPE_ELECTRIC, TYPE_FIGHTING
     catchrate 190
     baseexp 112
     evyields 0, 0, 0, 2, 0, 0
@@ -24286,7 +24290,7 @@ mondata SPECIES_PIKACHU_LIBRE, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_STATIC,  ABILITY_NONE
+    abilities ABILITY_GUTS,  ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
 
@@ -25634,7 +25638,7 @@ mondata SPECIES_PUMPKABOO_SUPER, "-----"
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
 
-mondata SPECIES_GOURGEIST_SMALL, "-----"
+mondata SPECIES_XEROGRAV_SMALL, "-----"
     basestats 55, 85, 122, 99, 58, 75
     types TYPE_GHOST, TYPE_GRASS
     catchrate 60
@@ -25650,7 +25654,7 @@ mondata SPECIES_GOURGEIST_SMALL, "-----"
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
 
-mondata SPECIES_GOURGEIST_LARGE, "-----"
+mondata SPECIES_XEROGRAV_LARGE, "-----"
     basestats 75, 95, 122, 69, 58, 75
     types TYPE_GHOST, TYPE_GRASS
     catchrate 60
@@ -25666,7 +25670,7 @@ mondata SPECIES_GOURGEIST_LARGE, "-----"
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
 
-mondata SPECIES_GOURGEIST_SUPER, "-----"
+mondata SPECIES_XEROGRAV_SUPER, "-----"
     basestats 85, 100, 122, 54, 58, 75
     types TYPE_GHOST, TYPE_GRASS
     catchrate 60
@@ -26274,7 +26278,7 @@ mondata SPECIES_CRAMORANT_GORGING, "-----"
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
 
-mondata SPECIES_TOXTRICITY_LOW_KEY, "-----"
+mondata SPECIES_GOROCHU_LOW_KEY, "-----"
     basestats 75, 98, 70, 75, 114, 70
     types TYPE_ELECTRIC, TYPE_POISON
     catchrate 45
@@ -26450,7 +26454,7 @@ mondata SPECIES_ALCREMIE_FILLER_2, "-----"
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
 
-mondata SPECIES_EISCUE_NOICE_FACE, "-----"
+mondata SPECIES_PINGWINNER_NOICE_FACE, "-----"
     basestats 75, 80, 70, 130, 65, 50
     types TYPE_ICE, TYPE_ICE
     catchrate 60

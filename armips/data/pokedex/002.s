@@ -152,7 +152,7 @@
 /* SPECIES_MOLTRES         */ .byte 0x05 
 /* SPECIES_DRATINI         */ .byte 0x03 
 /* SPECIES_DRAGONAIR       */ .byte 0x03 
-/* SPECIES_DRAGONITE       */ .byte 0x02 
+/* SPECIES_KARPONITE       */ .byte 0x02 
 /* SPECIES_MEWTWO          */ .byte 0x02 
 /* SPECIES_MEW             */ .byte 0x02 
 /* SPECIES_CHIKORITA       */ .byte 0x00 
@@ -268,7 +268,7 @@
 /* SPECIES_MIGHTYENA       */ .byte 0x00 
 /* SPECIES_ZIGZAGOON       */ .byte 0x00 
 /* SPECIES_LINOONE         */ .byte 0x00 
-/* SPECIES_WURMPLE         */ .byte 0x03 
+/* SPECIES_WURMPIE         */ .byte 0x03 
 /* SPECIES_SILCOON         */ .byte 0x0C 
 /* SPECIES_BEAUTIFLY       */ .byte 0x04 
 /* SPECIES_CASCOON         */ .byte 0x0C 
@@ -568,8 +568,8 @@
 /* SPECIES_SIMISAGE        */ .byte 0x00
 /* SPECIES_PANSEAR         */ .byte 0x00
 /* SPECIES_SIMISEAR        */ .byte 0x00
-/* SPECIES_PANPOUR         */ .byte 0x00
-/* SPECIES_SIMIPOUR        */ .byte 0x00
+/* SPECIES_SIMPLISIM         */ .byte 0x00
+/* SPECIES_SIMSALABIM        */ .byte 0x00
 /* SPECIES_MUNNA           */ .byte 0x00
 /* SPECIES_MUSHARNA        */ .byte 0x00
 /* SPECIES_PIDOVE          */ .byte 0x00
@@ -591,7 +591,7 @@
 /* SPECIES_TYMPOLE         */ .byte 0x00
 /* SPECIES_PALPITOAD       */ .byte 0x00
 /* SPECIES_SEISMITOAD      */ .byte 0x00
-/* SPECIES_THROH           */ .byte 0x00
+/* SPECIES_SNORLAX_SUMO           */ .byte 0x00
 /* SPECIES_SAWK            */ .byte 0x00
 /* SPECIES_SEWADDLE        */ .byte 0x00
 /* SPECIES_SWADLOON        */ .byte 0x00
@@ -615,8 +615,8 @@
 /* SPECIES_SCRAGGY         */ .byte 0x00
 /* SPECIES_SCRAFTY         */ .byte 0x00
 /* SPECIES_SIGILYPH        */ .byte 0x00
-/* SPECIES_YAMASK          */ .byte 0x00
-/* SPECIES_COFAGRIGUS      */ .byte 0x00
+/* SPECIES_HUMBRED          */ .byte 0x00
+/* SPECIES_HUMVIE      */ .byte 0x00
 /* SPECIES_TIRTOUGA        */ .byte 0x00
 /* SPECIES_CARRACOSTA      */ .byte 0x00
 /* SPECIES_ARCHEN          */ .byte 0x00

@@ -14,7 +14,7 @@
 .halfword SPECIES_SHUCKLE
 .halfword SPECIES_CORSOLA
 .halfword SPECIES_ARIADOS
-.halfword SPECIES_WURMPLE
+.halfword SPECIES_WURMPIE
 .halfword SPECIES_LOTAD
 .halfword SPECIES_SURSKIT
 .halfword SPECIES_NINCADA

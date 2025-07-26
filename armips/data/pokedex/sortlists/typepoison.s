@@ -70,7 +70,7 @@
 //.halfword SPECIES_POIPOLE
 //.halfword SPECIES_NAGANADEL
 //.halfword SPECIES_TOXEL
-//.halfword SPECIES_TOXTRICITY
+//.halfword SPECIES_GOROCHU
 //.halfword SPECIES_ETERNATUS
 
 

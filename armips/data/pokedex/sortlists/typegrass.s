@@ -86,7 +86,7 @@
 //.halfword SPECIES_PHANTUMP
 //.halfword SPECIES_TREVENANT
 //.halfword SPECIES_PUMPKABOO
-//.halfword SPECIES_GOURGEIST
+//.halfword SPECIES_XEROGRAV
 //.halfword SPECIES_ROWLET
 //.halfword SPECIES_DARTRIX
 //.halfword SPECIES_DECIDUEYE

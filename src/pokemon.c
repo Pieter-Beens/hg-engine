@@ -1140,7 +1140,7 @@ void LONG_CALL UpdatePassiveForms(struct PartyPokemon *pp)
             form = gf_rand() % 5; // allow any color to show up
             break;
         case SPECIES_PUMPKABOO:
-        case SPECIES_GOURGEIST:
+        case SPECIES_XEROGRAV:
             form = gf_rand() % 4; // allow any size to show up
             break;
         case SPECIES_MINIOR:
@@ -1883,7 +1883,7 @@ u32 GrabCryNumSpeciesForm(u32 species, u32 form)
     case SPECIES_PUMPKABOO:
         if (form == 3) return CRY_SPECIES_BASE_PUMPKABOO;
         break;
-    case SPECIES_GOURGEIST:
+    case SPECIES_XEROGRAV:
         if (form == 3) return CRY_SPECIES_BASE_GOURGEIST;
         break;
     case SPECIES_HOOPA:

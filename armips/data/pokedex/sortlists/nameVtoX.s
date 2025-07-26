@@ -42,7 +42,7 @@
 .halfword SPECIES_WOOBAT
 .halfword SPECIES_WOOPER
 .halfword SPECIES_WORMADAM
-.halfword SPECIES_WURMPLE
+.halfword SPECIES_WURMPIE
 .halfword SPECIES_WYNAUT
 .halfword SPECIES_XATU
 

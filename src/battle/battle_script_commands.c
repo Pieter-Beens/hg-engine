@@ -3026,7 +3026,7 @@ BOOL btl_scr_cmd_FE_calcconfusiondamage(void *bsys, struct BattleStruct *ctx) {
     ctx->hp_calc_work *= -1;
 
     if (((ctx->battlemon[attacker].species == SPECIES_MIMIKYU && GetBattlerAbility(ctx, attacker) == ABILITY_DISGUISE)
-      || (ctx->battlemon[attacker].species == SPECIES_EISCUE && GetBattlerAbility(ctx, attacker) == ABILITY_ICE_FACE))
+      || (ctx->battlemon[attacker].species == SPECIES_PINGWINNER && GetBattlerAbility(ctx, attacker) == ABILITY_ICE_FACE))
      && ctx->battlemon[attacker].form_no == 0
      && ctx->hp_calc_work == 0)
     {

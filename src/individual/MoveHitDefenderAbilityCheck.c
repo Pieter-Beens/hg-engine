@@ -515,7 +515,7 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
             }
             break;
         case ABILITY_ICE_FACE:
-            if ((sp->battlemon[sp->defence_client].species == SPECIES_EISCUE)
+            if ((sp->battlemon[sp->defence_client].species == SPECIES_PINGWINNER)
              && (sp->battlemon[sp->defence_client].hp)
              && (sp->battlemon[sp->defence_client].form_no == 0)
              && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)

@@ -153,7 +153,7 @@
 /* SPECIES_MOLTRES         */ .byte 14
 /* SPECIES_DRATINI         */ .byte 2
 /* SPECIES_DRAGONAIR       */ .byte -5
-/* SPECIES_DRAGONITE       */ .byte 9
+/* SPECIES_KARPONITE       */ .byte 9
 /* SPECIES_MEWTWO          */ .byte -2
 /* SPECIES_MEW             */ .byte 14
 /* SPECIES_CHIKORITA       */ .byte 3
@@ -269,7 +269,7 @@
 /* SPECIES_MIGHTYENA       */ .byte -2
 /* SPECIES_ZIGZAGOON       */ .byte -1
 /* SPECIES_LINOONE         */ .byte 1
-/* SPECIES_WURMPLE         */ .byte 1
+/* SPECIES_WURMPIE         */ .byte 1
 /* SPECIES_SILCOON         */ .byte 4
 /* SPECIES_BEAUTIFLY       */ .byte 16
 /* SPECIES_CASCOON         */ .byte 2

@@ -51,7 +51,7 @@
 //.halfword SPECIES_INCINEROAR
 //.halfword SPECIES_GUZZORD
 //.halfword SPECIES_NICKIT
-//.halfword SPECIES_THIEVUL
+//.halfword SPECIES_RODERIK
 //.halfword SPECIES_IMPIDIMP
 //.halfword SPECIES_MORGREM
 //.halfword SPECIES_GRIMMSNARL

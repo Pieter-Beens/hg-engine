@@ -216,7 +216,7 @@ int UNUSED CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 sid
 
 
     if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_ICE_FACE) == TRUE)
-    && (sp->battlemon[defender].species == SPECIES_EISCUE)
+    && (sp->battlemon[defender].species == SPECIES_PINGWINNER)
     && (sp->battlemon[defender].form_no == 0)
     // Not transformed
     && !(sp->battlemon[defender].condition2 & STATUS2_TRANSFORMED)

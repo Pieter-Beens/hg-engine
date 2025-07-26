@@ -48,14 +48,14 @@
 //.halfword SPECIES_CHARJABUG
 //.halfword SPECIES_VIKAVOLT
 //.halfword SPECIES_ORICORIO
-//.halfword SPECIES_TOGEDEMARU
+//.halfword SPECIES_OMEGA
 //.halfword SPECIES_TAPU_KOKO
 //.halfword SPECIES_XURKITREE
 //.halfword SPECIES_ZERARORA
 //.halfword SPECIES_YAMPER
 //.halfword SPECIES_BOLTUND
 //.halfword SPECIES_TOXEL
-//.halfword SPECIES_TOXTRICITY
+//.halfword SPECIES_GOROCHU
 //.halfword SPECIES_PINCURCHIN
 //.halfword SPECIES_MORPEKO
 //.halfword SPECIES_DRACOZOLT

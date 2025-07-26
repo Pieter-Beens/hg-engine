@@ -44,7 +44,7 @@
 //.halfword SPECIES_DOUBLADE
 //.halfword SPECIES_AEGISLASH
 //.halfword SPECIES_KLEFKI
-//.halfword SPECIES_TOGEDEMARU
+//.halfword SPECIES_OMEGA
 //.halfword SPECIES_SOLGALEO
 //.halfword SPECIES_CELESTEELA
 //.halfword SPECIES_KARTANA

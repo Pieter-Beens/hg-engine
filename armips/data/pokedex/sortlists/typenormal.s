@@ -100,8 +100,8 @@
 .halfword SPECIES_RUFFLET
 .halfword SPECIES_BRAVIARY
 .halfword SPECIES_MELOETTA
-//.halfword SPECIES_BUNNELBY
-//.halfword SPECIES_DIGGERSBY
+//.halfword SPECIES_BONKBAL
+//.halfword SPECIES_WALLOPEE
 //.halfword SPECIES_FLETCHLING
 //.halfword SPECIES_LITLEO
 //.halfword SPECIES_PYROAR
@@ -118,7 +118,7 @@
 //.halfword SPECIES_ORANGURU
 //.halfword SPECIES_TYPE_NULL
 //.halfword SPECIES_SILVALLY
-//.halfword SPECIES_KOMALA
+//.halfword SPECIES_SUBSTITUTE
 //.halfword SPECIES_DRAMPA
 //.halfword SPECIES_SKWOVET
 //.halfword SPECIES_GREEDENT

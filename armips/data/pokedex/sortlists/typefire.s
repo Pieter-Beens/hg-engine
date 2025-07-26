@@ -64,7 +64,7 @@
 //.halfword SPECIES_INCINEROAR
 //.halfword SPECIES_SALANDIT
 //.halfword SPECIES_SALAZZLE
-//.halfword SPECIES_TURTONATOR
+//.halfword SPECIES_GYAOON
 //.halfword SPECIES_BLACEPHALON
 //.halfword SPECIES_SCORBUNNY
 //.halfword SPECIES_RABOOT

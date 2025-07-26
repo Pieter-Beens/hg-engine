@@ -5,7 +5,7 @@
 
 .halfword SPECIES_DRATINI
 .halfword SPECIES_DRAGONAIR
-.halfword SPECIES_DRAGONITE
+.halfword SPECIES_KARPONITE
 .halfword SPECIES_KINGDRA
 .halfword SPECIES_VIBRAVA
 .halfword SPECIES_FLYGON
@@ -41,7 +41,7 @@
 //.halfword SPECIES_NOIBAT
 //.halfword SPECIES_NOIVERN
 //.halfword SPECIES_ZYGARDE
-//.halfword SPECIES_TURTONATOR
+//.halfword SPECIES_GYAOON
 //.halfword SPECIES_DRAMPA
 //.halfword SPECIES_JANGMO_O
 //.halfword SPECIES_HAKAMO_O

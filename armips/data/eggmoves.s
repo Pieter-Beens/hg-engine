@@ -2549,7 +2549,7 @@ eggmoveentry SPECIES_PANSEAR
     eggmove MOVE_TICKLE
 
 
-eggmoveentry SPECIES_PANPOUR
+eggmoveentry SPECIES_SIMPLISIM
     eggmove MOVE_AQUA_RING
     eggmove MOVE_AQUA_TAIL
     eggmove MOVE_ASTONISH
@@ -2795,7 +2795,7 @@ eggmoveentry SPECIES_SIGILYPH
     //eggmove MOVE_STORED_POWER
 
 
-eggmoveentry SPECIES_YAMASK
+eggmoveentry SPECIES_HUMBRED
     eggmove MOVE_DISABLE
     eggmove MOVE_ENDURE
     eggmove MOVE_FAKE_TEARS
@@ -3180,7 +3180,7 @@ eggmoveentry SPECIES_FROAKIE
 	eggmove MOVE_CAMOUFLAGE
 	eggmove MOVE_WATER_SPORT
 
-eggmoveentry SPECIES_BUNNELBY
+eggmoveentry SPECIES_BONKBAL
 	eggmove MOVE_SPIKES
 	eggmove MOVE_DEFENSE_CURL
 	eggmove MOVE_ROLLOUT
@@ -3429,7 +3429,7 @@ eggmoveentry SPECIES_MAREANIE
 	eggmove MOVE_SPIT_UP
 	eggmove MOVE_HAZE
 
-eggmoveentry SPECIES_MUDBRAY
+eggmoveentry SPECIES_MINIMOO
 	eggmove MOVE_BODY_SLAM
 	eggmove MOVE_DOUBLE_EDGE
 	eggmove MOVE_MAGNITUDE
@@ -3517,18 +3517,18 @@ eggmoveentry SPECIES_PYUKUMUKU
 	eggmove MOVE_TICKLE
 	eggmove MOVE_SPITE
 
-eggmoveentry SPECIES_KOMALA
+eggmoveentry SPECIES_SUBSTITUTE
 	eggmove MOVE_CHARM
 	eggmove MOVE_WISH
 	eggmove MOVE_SING
 
-eggmoveentry SPECIES_TURTONATOR
+eggmoveentry SPECIES_GYAOON
 	eggmove MOVE_WIDE_GUARD
 	eggmove MOVE_REVENGE
 	eggmove MOVE_HEAD_SMASH
 	eggmove MOVE_FIRE_SPIN
 
-eggmoveentry SPECIES_TOGEDEMARU
+eggmoveentry SPECIES_OMEGA
 	eggmove MOVE_REVERSAL
 	eggmove MOVE_PRESENT
 	eggmove MOVE_ENCORE
@@ -3700,7 +3700,7 @@ eggmoveentry SPECIES_STONJOURNER
 	eggmove MOVE_CURSE
 	eggmove MOVE_ANCIENT_POWER
 
-eggmoveentry SPECIES_EISCUE
+eggmoveentry SPECIES_PINGWINNER
 	eggmove MOVE_SOAK
 	eggmove MOVE_AQUA_RING
 	eggmove MOVE_BELLY_DRUM
@@ -3898,7 +3898,7 @@ eggmoveentry SPECIES_DARUMAKA_GALARIAN
 	eggmove MOVE_YAWN
 	eggmove MOVE_INCINERATE
 
-eggmoveentry SPECIES_YAMASK_GALARIAN
+eggmoveentry SPECIES_HUMBRED_GALARIAN
 	eggmove MOVE_MEMENTO
 
 eggmoveentry SPECIES_STUNFISK_GALARIAN
