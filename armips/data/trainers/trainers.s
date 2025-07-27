@@ -33,35 +33,42 @@ trainerdata 0, "-"
 trainerdata 1, "Silver"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_RIVAL
-    nummons 3
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_PRIORITIZE_DAMAGE | F_EXPERT_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
     party 1
         // mon 0
-        ivs 30
+        ivs 120
         abilityslot 0
         level 14
         pokemon SPECIES_GASTLY
         ballseal 0
 
         // mon 1
-        ivs 30
+        ivs 120
         abilityslot 0
         level 16
         pokemon SPECIES_ZUBAT
         ballseal 0
 
         // mon 2
-        ivs 30
+        ivs 120
+        abilityslot 0
+        level 16
+        pokemon SPECIES_SPINARAK
+        ballseal 0
+
+        // mon 3
+        ivs 120
         abilityslot 0
         level 18
-        pokemon SPECIES_BAYLEEF
+        pokemon SPECIES_QUILAVA
         ballseal 0
     endparty
 
@@ -361,7 +368,7 @@ trainerdata 12, "Grunt"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 12
@@ -396,7 +403,7 @@ trainerdata 13, "Grunt"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 13
@@ -612,9 +619,9 @@ trainerdata 19, "Mickey"
     endparty
 
 trainerdata 20, "Falkner"
-    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY
     trainerclass TRAINERCLASS_LEADER_FALKNER
-    nummons 2
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -632,27 +639,42 @@ trainerdata 20, "Falkner"
         item ITEM_NONE
         move MOVE_TACKLE
         move MOVE_SAND_ATTACK
-        move MOVE_NONE
-        move MOVE_NONE
+        move MOVE_ROOST
+        move MOVE_GUST
+        ability ABILITY_KEEN_EYE
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 0
-        level 13
-        pokemon SPECIES_PIDGEOTTO
+        level 11
+        pokemon SPECIES_HOPPIP
         item ITEM_NONE
         move MOVE_TACKLE
-        move MOVE_ROOST
+        move MOVE_ABSORB
         move MOVE_GUST
-        move MOVE_NONE
+        move MOVE_FAIRY_WIND
+        ability ABILITY_WIND_RIDER
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 0
+        level 13
+        pokemon SPECIES_GLIGAR
+        item ITEM_NONE
+        move MOVE_QUICK_ATTACK
+        move MOVE_ROOST
+        move MOVE_POISON_STING
+        move MOVE_KNOCK_OFF
+        ability ABILITY_HYPER_CUTTER
         ballseal 0
     endparty
 
 trainerdata 21, "Bugsy"
-    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY
     trainerclass TRAINERCLASS_LEADER_BUGSY
-    nummons 3
+    nummons 5
     item ITEM_SUPER_POTION
     item ITEM_NONE
     item ITEM_NONE
@@ -672,30 +694,59 @@ trainerdata 21, "Bugsy"
         move MOVE_LEER
         move MOVE_U_TURN
         move MOVE_FOCUS_ENERGY
+        ability ABILITY_TECHNICIAN
         ballseal 0
 
         // mon 1
         ivs 80
         abilityslot 0
         level 15
-        pokemon SPECIES_KAKUNA
-        item ITEM_NONE
-        move MOVE_POISON_STING
-        move MOVE_NONE
-        move MOVE_NONE
-        move MOVE_NONE
+        pokemon SPECIES_SHUCKLE
+        item ITEM_SITRUS_BERRY
+        move MOVE_STRUGGLE_BUG
+        move MOVE_WRAP
+        move MOVE_BIDE
+        move MOVE_ROCK_TOMB
+        ability ABILITY_STURDY
         ballseal 0
 
         // mon 2
         ivs 80
         abilityslot 0
         level 15
-        pokemon SPECIES_METAPOD
+        pokemon SPECIES_PINECO
         item ITEM_NONE
         move MOVE_TACKLE
+        move MOVE_SELF_DESTRUCT
+        move MOVE_BUG_BITE
         move MOVE_NONE
-        move MOVE_NONE
-        move MOVE_NONE
+        ability ABILITY_STURDY
+        ballseal 0
+
+        // mon 2
+        ivs 80
+        abilityslot 0
+        level 16
+        pokemon SPECIES_PINSIR
+        item ITEM_NONE
+        move MOVE_VICE_GRIP
+        move MOVE_SEISMIC_TOSS
+        move MOVE_BIND
+        move MOVE_BUG_BITE
+        ability ABILITY_INTIMIDATE
+        ballseal 0
+
+        // mon 2
+        ivs 80
+        abilityslot 0
+        level 15
+        pokemon SPECIES_LEDIAN
+        item ITEM_NONE
+        move MOVE_SWIFT
+        move MOVE_U_TURN
+        move MOVE_LIGHT_SCREEN
+        move MOVE_REFLECT
+        ability ABILITY_LEVITATE
         ballseal 0
     endparty
 
@@ -1417,22 +1468,22 @@ trainerdata 43, "Chow"
         // mon 0
         ivs 0
         abilityslot 0
-        level 3
+        level 5
         pokemon SPECIES_BELLSPROUT
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 3
+        level 5
         pokemon SPECIES_BELLSPROUT
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 3
-        pokemon SPECIES_BELLSPROUT
+        level 6
+        pokemon SPECIES_HOOTHOOT
         ballseal 0
     endparty
 
@@ -1642,21 +1693,21 @@ trainerdata 51, "Nico"
         // mon 0
         ivs 0
         abilityslot 0
-        level 3
+        level 4
         pokemon SPECIES_BELLSPROUT
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 3
-        pokemon SPECIES_BELLSPROUT
+        level 5
+        pokemon SPECIES_GASTLY
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 3
+        level 5
         pokemon SPECIES_BELLSPROUT
         ballseal 0
     endparty
@@ -1677,21 +1728,21 @@ trainerdata 52, "Edmond"
         // mon 0
         ivs 0
         abilityslot 0
-        level 3
-        pokemon SPECIES_BELLSPROUT
+        level 4
+        pokemon SPECIES_HOOTHOOT
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 3
+        level 4
         pokemon SPECIES_BELLSPROUT
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 3
+        level 4
         pokemon SPECIES_BELLSPROUT
         ballseal 0
     endparty
@@ -1712,7 +1763,7 @@ trainerdata 53, "Jin"
         // mon 0
         ivs 0
         abilityslot 0
-        level 6
+        level 8
         pokemon SPECIES_BELLSPROUT
         ballseal 0
     endparty
@@ -1720,7 +1771,7 @@ trainerdata 53, "Jin"
 trainerdata 54, "Troy"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_SAGE
-    nummons 2
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -1731,17 +1782,24 @@ trainerdata 54, "Troy"
 
     party 54
         // mon 0
-        ivs 0
+        ivs 100
         abilityslot 0
-        level 7
+        level 9
+        pokemon SPECIES_HOOTHOOT
+        ballseal 0
+
+        // mon 1
+        ivs 100
+        abilityslot 32
+        level 8
         pokemon SPECIES_BELLSPROUT
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 100
         abilityslot 32
-        level 7
-        pokemon SPECIES_HOOTHOOT
+        level 9
+        pokemon SPECIES_CUBONE
         ballseal 0
     endparty
 
@@ -1761,7 +1819,7 @@ trainerdata 55, "Neal"
         // mon 0
         ivs 0
         abilityslot 0
-        level 6
+        level 7
         pokemon SPECIES_BELLSPROUT
         ballseal 0
     endparty
@@ -3145,7 +3203,7 @@ trainerdata 101, "Grunt"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 101
@@ -5702,7 +5760,7 @@ trainerdata 185, "Grunt"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 185
@@ -5730,7 +5788,7 @@ trainerdata 186, "Grunt"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 186
@@ -5765,7 +5823,7 @@ trainerdata 187, "Grunt"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 187
@@ -5814,7 +5872,7 @@ trainerdata 188, "Grunt"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 188
@@ -5842,7 +5900,7 @@ trainerdata 189, "Grunt"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 189
@@ -5884,7 +5942,7 @@ trainerdata 190, "Grunt"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 190
@@ -5905,7 +5963,7 @@ trainerdata 191, "Grunt"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 191
@@ -5933,7 +5991,7 @@ trainerdata 192, "Grunt"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 192
@@ -5968,7 +6026,7 @@ trainerdata 193, "Grunt"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 193
@@ -6003,7 +6061,7 @@ trainerdata 194, "Mickey"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 194
@@ -6024,7 +6082,7 @@ trainerdata 195, "Grunt"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 195
@@ -6045,7 +6103,7 @@ trainerdata 196, "Grunt"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 196
@@ -6073,7 +6131,7 @@ trainerdata 197, "Grunt"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 197
@@ -6101,7 +6159,7 @@ trainerdata 198, "Grunt"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 198
@@ -6122,7 +6180,7 @@ trainerdata 199, "Grunt"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 199
@@ -6150,7 +6208,7 @@ trainerdata 200, "Grunt"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 200
@@ -6632,7 +6690,7 @@ trainerdata 216, "Grunt"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 216
@@ -6730,7 +6788,7 @@ trainerdata 219, "Grunt"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 219
@@ -6765,7 +6823,7 @@ trainerdata 220, "Grunt"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 220
@@ -6814,7 +6872,7 @@ trainerdata 222, "Grunt"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 222
@@ -6835,7 +6893,7 @@ trainerdata 223, "Grunt"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 223
@@ -6863,7 +6921,7 @@ trainerdata 224, "Grunt"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 224
@@ -6940,7 +6998,7 @@ trainerdata 227, "Grunt"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 227
@@ -6968,7 +7026,7 @@ trainerdata 228, "Grunt"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 228
@@ -6996,7 +7054,7 @@ trainerdata 229, "Mickey"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 229
@@ -8602,7 +8660,7 @@ trainerdata 262, "Mickey"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 262
@@ -8790,32 +8848,39 @@ trainerdata 265, "Silver"
 trainerdata 266, "Silver"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_RIVAL
-    nummons 3
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_PRIORITIZE_DAMAGE | 0
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_PRIORITIZE_DAMAGE | F_EXPERT_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
     party 266
         // mon 0
-        ivs 30
+        ivs 120
         abilityslot 0
         level 14
         pokemon SPECIES_GASTLY
         ballseal 0
 
         // mon 1
-        ivs 30
+        ivs 120
         abilityslot 0
         level 16
         pokemon SPECIES_ZUBAT
         ballseal 0
 
         // mon 2
-        ivs 30
+        ivs 120
+        abilityslot 0
+        level 16
+        pokemon SPECIES_SPINARAK
+        ballseal 0
+
+        // mon 3
+        ivs 120
         abilityslot 0
         level 18
         pokemon SPECIES_QUILAVA
@@ -8963,32 +9028,39 @@ trainerdata 268, "Silver"
 trainerdata 269, "Silver"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_RIVAL
-    nummons 3
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_PRIORITIZE_DAMAGE | 0
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_PRIORITIZE_DAMAGE | F_EXPERT_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
     party 269
         // mon 0
-        ivs 30
+        ivs 120
         abilityslot 0
         level 14
         pokemon SPECIES_GASTLY
         ballseal 0
 
         // mon 1
-        ivs 30
+        ivs 120
         abilityslot 0
         level 16
         pokemon SPECIES_ZUBAT
         ballseal 0
 
         // mon 2
-        ivs 30
+        ivs 120
+        abilityslot 0
+        level 16
+        pokemon SPECIES_SPINARAK
+        ballseal 0
+
+        // mon 3
+        ivs 120
         abilityslot 0
         level 18
         pokemon SPECIES_CROCONAW
@@ -13547,7 +13619,7 @@ trainerdata 404, "Grunt"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 404
@@ -15622,7 +15694,7 @@ trainerdata 468, "Ross"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 468
@@ -15650,7 +15722,7 @@ trainerdata 469, "Mitch"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 469
@@ -15671,7 +15743,7 @@ trainerdata 470, "Gregg"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 470
@@ -15706,7 +15778,7 @@ trainerdata 471, "Garett"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 471
@@ -15741,7 +15813,7 @@ trainerdata 472, "Trenton"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 472
@@ -15910,7 +15982,7 @@ trainerdata 478, "Ariana"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 478
@@ -16156,7 +16228,7 @@ trainerdata 485, "Archer"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 485
@@ -16197,28 +16269,35 @@ trainerdata 485, "Archer"
 trainerdata 486, "Proton"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_EXECUTIVE_PROTON
-    nummons 2
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 486
         // mon 0
         ivs 100
         abilityslot 0
-        level 8
-        pokemon SPECIES_ZUBAT
+        level 9
+        pokemon SPECIES_SLOWPOKE_GALARIAN
         ballseal 0
 
         // mon 1
         ivs 100
         abilityslot 0
         level 12
-        pokemon SPECIES_KOFFING
+        pokemon SPECIES_ODDISH
+        ballseal 0
+
+        // mon 2
+        ivs 100
+        abilityslot 0
+        level 14
+        pokemon SPECIES_SNUBBULL
         ballseal 0
     endparty
 
@@ -16231,7 +16310,7 @@ trainerdata 487, "Petrel"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 487
@@ -16311,7 +16390,7 @@ trainerdata 488, "Petrel"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 488
@@ -16807,7 +16886,7 @@ trainerdata 499, "Grunt"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 499
@@ -23962,7 +24041,7 @@ trainerdata 706, "Proton"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 706
