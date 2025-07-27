@@ -6968,7 +6968,7 @@ const ITEMDATA __data[] =
 
 [ITEM_SHINY_STONE] =
 {
-    .price = 4200,
+    .price = 5000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -7033,7 +7033,7 @@ const ITEMDATA __data[] =
 
 [ITEM_DUSK_STONE] =
 {
-    .price = 4200,
+    .price = 5000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -7098,7 +7098,7 @@ const ITEMDATA __data[] =
 
 [ITEM_DAWN_STONE] =
 {
-    .price = 4200,
+    .price = 5000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -11648,7 +11648,7 @@ const ITEMDATA __data[] =
 
 [ITEM_LIECHI_BERRY - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 20,
+    .price = 2500,
     .holdEffect = HOLD_EFFECT_PINCH_ATK_UP,
     .holdEffectParam = 4,
     .pluckEffect = 16,
@@ -11778,7 +11778,7 @@ const ITEMDATA __data[] =
 
 [ITEM_SALAC_BERRY - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 20,
+    .price = 2500,
     .holdEffect = HOLD_EFFECT_PINCH_SPEED_UP,
     .holdEffectParam = 4,
     .pluckEffect = 18,
@@ -11843,7 +11843,7 @@ const ITEMDATA __data[] =
 
 [ITEM_PETAYA_BERRY - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 20,
+    .price = 2500,
     .holdEffect = HOLD_EFFECT_PINCH_SPATK_UP,
     .holdEffectParam = 4,
     .pluckEffect = 19,
@@ -16458,7 +16458,7 @@ const ITEMDATA __data[] =
 
 [ITEM_FOCUS_SASH - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 200,
+    .price = 2500,
     .holdEffect = HOLD_EFFECT_ENDURE,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -33423,7 +33423,7 @@ const ITEMDATA __data[] =
 
 [ITEM_VENUSAURITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -33488,7 +33488,7 @@ const ITEMDATA __data[] =
 
 [ITEM_CHARIZARDITE_X - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -33553,7 +33553,7 @@ const ITEMDATA __data[] =
 
 [ITEM_CHARIZARDITE_Y - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -33618,7 +33618,7 @@ const ITEMDATA __data[] =
 
 [ITEM_BLASTOISINITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -33683,7 +33683,7 @@ const ITEMDATA __data[] =
 
 [ITEM_BEEDRILLITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -33748,7 +33748,7 @@ const ITEMDATA __data[] =
 
 [ITEM_PIDGEOTITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -33813,7 +33813,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ALAKAZITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -33878,7 +33878,7 @@ const ITEMDATA __data[] =
 
 [ITEM_SLOWBRONITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -33943,7 +33943,7 @@ const ITEMDATA __data[] =
 
 [ITEM_GENGARITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -34008,7 +34008,7 @@ const ITEMDATA __data[] =
 
 [ITEM_KANGASKHANITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -34073,7 +34073,7 @@ const ITEMDATA __data[] =
 
 [ITEM_PINSIRITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -34138,7 +34138,7 @@ const ITEMDATA __data[] =
 
 [ITEM_GYARADOSITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -34203,7 +34203,7 @@ const ITEMDATA __data[] =
 
 [ITEM_AERODACTYLITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -34398,7 +34398,7 @@ const ITEMDATA __data[] =
 
 [ITEM_AMPHAROSITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -34463,7 +34463,7 @@ const ITEMDATA __data[] =
 
 [ITEM_STEELIXITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -34528,7 +34528,7 @@ const ITEMDATA __data[] =
 
 [ITEM_SCIZORITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -34593,7 +34593,7 @@ const ITEMDATA __data[] =
 
 [ITEM_HERACRONITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -34658,7 +34658,7 @@ const ITEMDATA __data[] =
 
 [ITEM_HOUNDOOMINITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -34723,7 +34723,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TYRANITARITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -34788,7 +34788,7 @@ const ITEMDATA __data[] =
 
 [ITEM_SCEPTILITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -34853,7 +34853,7 @@ const ITEMDATA __data[] =
 
 [ITEM_BLAZIKENITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -34918,7 +34918,7 @@ const ITEMDATA __data[] =
 
 [ITEM_SWAMPERTITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -34983,7 +34983,7 @@ const ITEMDATA __data[] =
 
 [ITEM_GARDEVOIRITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -35048,7 +35048,7 @@ const ITEMDATA __data[] =
 
 [ITEM_SABLENITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -35113,7 +35113,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MAWILITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -35178,7 +35178,7 @@ const ITEMDATA __data[] =
 
 [ITEM_AGGRONITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -35243,7 +35243,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MEDICHAMITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -35308,7 +35308,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MANECTITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -35373,7 +35373,7 @@ const ITEMDATA __data[] =
 
 [ITEM_SHARPEDONITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -35438,7 +35438,7 @@ const ITEMDATA __data[] =
 
 [ITEM_CAMERUPTITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -35503,7 +35503,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ALTARIANITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -35568,7 +35568,7 @@ const ITEMDATA __data[] =
 
 [ITEM_BANETTITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -35633,7 +35633,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ABSOLITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -35698,7 +35698,7 @@ const ITEMDATA __data[] =
 
 [ITEM_GLALITITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -35763,7 +35763,7 @@ const ITEMDATA __data[] =
 
 [ITEM_SALAMENCITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -35828,7 +35828,7 @@ const ITEMDATA __data[] =
 
 [ITEM_METAGROSSITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -35893,7 +35893,7 @@ const ITEMDATA __data[] =
 
 [ITEM_LATIASITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -35958,7 +35958,7 @@ const ITEMDATA __data[] =
 
 [ITEM_LATIOSITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -36023,7 +36023,7 @@ const ITEMDATA __data[] =
 
 [ITEM_LOPUNNITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -36088,7 +36088,7 @@ const ITEMDATA __data[] =
 
 [ITEM_GARCHOMPITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -36153,7 +36153,7 @@ const ITEMDATA __data[] =
 
 [ITEM_LUCARIONITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -36218,7 +36218,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ABOMASITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -36283,7 +36283,7 @@ const ITEMDATA __data[] =
 
 [ITEM_GALLADITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -36348,7 +36348,7 @@ const ITEMDATA __data[] =
 
 [ITEM_AUDINITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -36413,7 +36413,7 @@ const ITEMDATA __data[] =
 
 [ITEM_DIANCITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 49990,
+    .price = 9990,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -37583,7 +37583,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ROCKY_HELMET - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 15000,
+    .price = 9000,
     .holdEffect = HOLD_EFFECT_DAMAGE_ON_CONTACT,
     .holdEffectParam = 6, // attacker takes 1/6th health damage
     .pluckEffect = 0,
@@ -37713,7 +37713,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ABILITY_CAPSULE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 20000,
+    .price = 8000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -38948,7 +38948,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ICE_STONE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 4200,
+    .price = 5000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -39143,7 +39143,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ABILITY_PATCH - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 10000,
+    .price = 4000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -48633,7 +48633,7 @@ const ITEMDATA __data[] =
 
 [ITEM_LONELY_MINT - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 5000,
+    .price = 2000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -48698,7 +48698,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ADAMANT_MINT - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 5000,
+    .price = 2000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -48763,7 +48763,7 @@ const ITEMDATA __data[] =
 
 [ITEM_NAUGHTY_MINT - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 5000,
+    .price = 2000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -48828,7 +48828,7 @@ const ITEMDATA __data[] =
 
 [ITEM_BRAVE_MINT - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 5000,
+    .price = 2000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -48893,7 +48893,7 @@ const ITEMDATA __data[] =
 
 [ITEM_BOLD_MINT - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 5000,
+    .price = 2000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -48958,7 +48958,7 @@ const ITEMDATA __data[] =
 
 [ITEM_IMPISH_MINT - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 5000,
+    .price = 2000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -49023,7 +49023,7 @@ const ITEMDATA __data[] =
 
 [ITEM_LAX_MINT - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 5000,
+    .price = 2000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -49088,7 +49088,7 @@ const ITEMDATA __data[] =
 
 [ITEM_RELAXED_MINT - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 5000,
+    .price = 2000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -49153,7 +49153,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MODEST_MINT - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 5000,
+    .price = 2000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -49218,7 +49218,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MILD_MINT - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 5000,
+    .price = 2000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -49283,7 +49283,7 @@ const ITEMDATA __data[] =
 
 [ITEM_RASH_MINT - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 5000,
+    .price = 2000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -49348,7 +49348,7 @@ const ITEMDATA __data[] =
 
 [ITEM_QUIET_MINT - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 5000,
+    .price = 2000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -49413,7 +49413,7 @@ const ITEMDATA __data[] =
 
 [ITEM_CALM_MINT - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 5000,
+    .price = 2000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -49478,7 +49478,7 @@ const ITEMDATA __data[] =
 
 [ITEM_GENTLE_MINT - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 5000,
+    .price = 2000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -49543,7 +49543,7 @@ const ITEMDATA __data[] =
 
 [ITEM_CAREFUL_MINT - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 5000,
+    .price = 2000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -49608,7 +49608,7 @@ const ITEMDATA __data[] =
 
 [ITEM_SASSY_MINT - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 5000,
+    .price = 2000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -49673,7 +49673,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TIMID_MINT - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 5000,
+    .price = 2000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -49738,7 +49738,7 @@ const ITEMDATA __data[] =
 
 [ITEM_HASTY_MINT - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 5000,
+    .price = 2000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -49803,7 +49803,7 @@ const ITEMDATA __data[] =
 
 [ITEM_JOLLY_MINT - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 5000,
+    .price = 2000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -49868,7 +49868,7 @@ const ITEMDATA __data[] =
 
 [ITEM_NAIVE_MINT - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 5000,
+    .price = 2000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -49933,7 +49933,7 @@ const ITEMDATA __data[] =
 
 [ITEM_SERIOUS_MINT - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 5000,
+    .price = 2000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
