@@ -1,4 +1,4 @@
-Hello, and welcome to\nthe Pokémon Center.\rWe restore your tired Pokémon\nto full health.\rWould you like to rest your\nPokémon?{YESNO 0}
+Hello, and welcome to\nthe Pokémon Center.\rWould you like to rest your\nPokémon?{YESNO 0}
 OK, I’ll take your Pokémon for a few\nseconds.
 Thank you for waiting.\rWe’ve restored your Pokémon to full\nhealth.\r
 Please, come back again any time!

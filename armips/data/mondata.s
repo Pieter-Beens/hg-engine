@@ -2393,7 +2393,7 @@ mondata SPECIES_CHANSEY, "Chansey"
     catchrate 30
     baseexp 0 // defined in baseexp.s
     evyields 2, 0, 0, 0, 0, 0
-    items ITEM_OVAL_STONE, ITEM_LUCKY_EGG
+    items ITEM_ARTIFICIAL_STONE, ITEM_LUCKY_EGG
     genderratio 254
     eggcycles 40
     basefriendship 140
@@ -5102,7 +5102,7 @@ mondata SPECIES_BLISSEY, "Blissey"
     catchrate 30
     baseexp 0 // defined in baseexp.s
     evyields 3, 0, 0, 0, 0, 0
-    items ITEM_OVAL_STONE, ITEM_LUCKY_EGG
+    items ITEM_ARTIFICIAL_STONE, ITEM_LUCKY_EGG
     genderratio 254
     eggcycles 40
     basefriendship 140
@@ -9260,7 +9260,7 @@ mondata SPECIES_HAPPINY, "Happiny"
     catchrate 130
     baseexp 0 // defined in baseexp.s
     evyields 1, 0, 0, 0, 0, 0
-    items ITEM_OVAL_STONE, ITEM_LUCKY_EGG
+    items ITEM_ARTIFICIAL_STONE, ITEM_LUCKY_EGG
     genderratio 254
     eggcycles 40
     basefriendship 140

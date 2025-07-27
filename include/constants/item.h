@@ -106,14 +106,14 @@
 #define ITEM_CLAW_FOSSIL     100
 #define ITEM_HELIX_FOSSIL    101
 #define ITEM_DOME_FOSSIL     102
-#define ITEM_OLD_AMBER       103
+#define ITEM_DEVOLUTION_STONE       103
 #define ITEM_ARMOR_FOSSIL    104
 #define ITEM_SKULL_FOSSIL    105
 #define ITEM_RARE_BONE       106
 #define ITEM_SHINY_STONE     107
 #define ITEM_DUSK_STONE      108
 #define ITEM_DAWN_STONE      109
-#define ITEM_OVAL_STONE      110
+#define ITEM_ARTIFICIAL_STONE      110
 #define ITEM_ODD_KEYSTONE    111
 #define ITEM_GRISEOUS_ORB    112
 #define ITEM_UNKNOWN_71      113

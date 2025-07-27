@@ -6706,9 +6706,9 @@ const ITEMDATA __data[] =
     },
 },
 
-[ITEM_OLD_AMBER] =
+[ITEM_DEVOLUTION_STONE] =
 {
-    .price = 1000,
+    .price = 2100,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -6720,7 +6720,7 @@ const ITEMDATA __data[] =
     .selectable = FALSE,
     .fieldPocket = POCKET_ITEMS,
     .battlePocket = BATTLE_POCKET_NONE,
-    .fieldUseFunc = 0,
+    .fieldUseFunc = 20,
     .battleUseFunc = 0,
     .partyUse = 1,
     .partyUseParam = {
@@ -6735,7 +6735,7 @@ const ITEMDATA __data[] =
         .revive = FALSE,
         .revive_all = FALSE,
         .level_up = FALSE,
-        .evolve = FALSE,
+        .evolve = TRUE,
         .atk_stages = 0,
         .def_stages = 0,
         .spatk_stages = 0,
@@ -7161,14 +7161,14 @@ const ITEMDATA __data[] =
     },
 },
 
-[ITEM_OVAL_STONE] =
+[ITEM_ARTIFICIAL_STONE] =
 {
-    .price = 2100,
+.price = 2100,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
     .flingEffect = 0,
-    .flingPower = 80,
+    .flingPower = 30,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
     .prevent_toss = FALSE,

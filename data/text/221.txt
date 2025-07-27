@@ -101,14 +101,14 @@ A fossil of an ancient Pokémon that\nlived in the sea. It appears to be\npart o
 A fossil of an ancient Pokémon that\nlived in the sea. It appears to be\npart of a claw.
 A fossil of an ancient Pokémon that\nlived in the sea. It appears to be\npart of a seashell.
 A fossil of an ancient Pokémon that\nlived in the sea. It appears to be\npart of a shell.
-A piece of amber that contains the\ngenetic material of an ancient Pokémon.\nIt is clear with a reddish tint.
+A peculiar stone that makes certain\nspecies of Pokémon devolve to an\npowerful, ancient form.
 A fossil from a prehistoric Pokémon\nthat lived on the land. It appears to\nbe part of a collar.
 A fossil from a prehistoric Pokémon\nthat lived on the land. It appears to\nbe part of a head.
 A bone that is extremely valuable for\nPokémon archaeology. It can be sold\nfor a high price to shops.
 A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt shines with a dazzling light.
 A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is as dark as dark can be.
 A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt sparkles like eyes.
-A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is shaped like an egg.
+A peculiar stone that makes certain\nspecies of Pokémon evolve to a\nfuturistic, contrived form.
 A vital item that is needed to keep a\nstone tower from collapsing. Voices\ncan be heard from it occasionally.
 A glowing orb to be held by GIRATINA.\nIt boosts the power of Dragon- and\nGhost-type moves.
 -----

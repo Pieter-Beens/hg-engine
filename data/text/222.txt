@@ -101,14 +101,14 @@ Root Fossil
 Claw Fossil
 Helix Fossil
 Dome Fossil
-Old Amber
+Devolution Stone
 Armor Fossil
 Skull Fossil
 Rare Bone
 Shiny Stone
 Dusk Stone
 Dawn Stone
-Oval Stone
+Artificial Stone
 Odd Keystone
 Griseous Orb
 ???

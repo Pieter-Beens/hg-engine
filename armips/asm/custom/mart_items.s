@@ -298,7 +298,7 @@ const u16 *_0210FA3C[] = {
 .halfword ITEM_SHINY_STONE
 .halfword ITEM_DUSK_STONE
 .halfword ITEM_DAWN_STONE
-.halfword ITEM_OVAL_STONE
+.halfword ITEM_ARTIFICIAL_STONE
 .halfword ITEM_KINGS_ROCK
 .halfword ITEM_LINKING_CORD
 .halfword ITEM_RAZOR_CLAW

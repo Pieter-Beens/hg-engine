@@ -101,14 +101,14 @@ a {COLOR 255}Root Fossil{COLOR 0}
 a {COLOR 255}Claw Fossil{COLOR 0}
 a {COLOR 255}Helix Fossil{COLOR 0}
 a {COLOR 255}Dome Fossil{COLOR 0}
-an {COLOR 255}Old Amber{COLOR 0}
+an {COLOR 255}Devolution Stone{COLOR 0}
 an {COLOR 255}Armor Fossil{COLOR 0}
 a {COLOR 255}Skull Fossil{COLOR 0}
 a {COLOR 255}Rare Bone{COLOR 0}
 a {COLOR 255}Shiny Stone{COLOR 0}
 a {COLOR 255}Dusk Stone{COLOR 0}
 a {COLOR 255}Dawn Stone{COLOR 0}
-an {COLOR 255}Oval Stone{COLOR 0}
+an {COLOR 255}Artificial Stone{COLOR 0}
 an {COLOR 255}Odd Keystone{COLOR 0}
 a {COLOR 255}Griseous Orb{COLOR 0}
 ???
