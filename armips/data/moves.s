@@ -6574,7 +6574,7 @@ movedata MOVE_VACUUM_WAVE, "Vacuum Wave"
     battleeffect MOVE_EFFECT_PRIORITY_1
     pss SPLIT_SPECIAL
     basepower 40
-    type TYPE_FIGHTING
+    type TYPE_COSMIC
     accuracy 100
     pp 30
     effectchance 0

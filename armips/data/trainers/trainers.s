@@ -16283,7 +16283,7 @@ trainerdata 486, "Proton"
         ivs 100
         abilityslot 0
         level 9
-        pokemon SPECIES_SLOWPOKE_GALARIAN
+        monwithform SPECIES_SLOWPOKE, 1
         ballseal 0
 
         // mon 1

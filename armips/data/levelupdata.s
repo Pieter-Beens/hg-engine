@@ -3780,9 +3780,9 @@ levelup SPECIES_LEDIAN
     learnset MOVE_LIGHT_SCREEN, 12
     learnset MOVE_REFLECT, 12
     learnset MOVE_SAFEGUARD, 12
-    learnset MOVE_MACH_PUNCH, 15
+    learnset MOVE_VACUUM_WAVE, 15
     learnset MOVE_SILVER_WIND, 20
-    learnset MOVE_COMET_PUNCH, 24
+    learnset MOVE_COMET_PUNCH, 22
     learnset MOVE_BATON_PASS, 29
     learnset MOVE_AGILITY, 33
     learnset MOVE_BUG_BUZZ, 38
