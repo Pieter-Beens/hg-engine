@@ -17041,15 +17041,14 @@ levelup SPECIES_PIEP
     learnset MOVE_SCRATCH, 1
     learnset MOVE_GROWL, 1
     learnset MOVE_DISARMING_VOICE, 1
-    learnset MOVE_CHATTER, 6
-    learnset MOVE_LICK, 6
-    learnset MOVE_EMBER, 8
-    learnset MOVE_LEER, 11
-    learnset MOVE_ROAR, 13
-    learnset MOVE_DOUBLE_KICK, 17
+    learnset MOVE_LICK, 5
+    learnset MOVE_PURSUIT, 8
+    learnset MOVE_CHATTER, 11
+    learnset MOVE_BITE, 13
+    learnset MOVE_SWAGGER, 15
     learnset MOVE_FIRE_FANG, 17
-    learnset MOVE_BITE, 18
     learnset MOVE_FURY_SWIPES, 19
+    learnset MOVE_HYPER_VOICE, 20
     learnset MOVE_SWAGGER, 26
     learnset MOVE_SCARY_FACE, 31
     learnset MOVE_FLAMETHROWER, 32
@@ -17062,15 +17061,13 @@ levelup SPECIES_PIEP
 levelup SPECIES_PIPYRO
     learnset MOVE_SCRATCH, 1
     learnset MOVE_GROWL, 1
-    learnset MOVE_EMBER, 1
-    learnset MOVE_LICK, 1
-    learnset MOVE_GROWL, 4
-    learnset MOVE_LICK, 8
-    learnset MOVE_LEER, 11
-    learnset MOVE_ROAR, 13
-    learnset MOVE_DOUBLE_KICK, 18
-    learnset MOVE_BITE, 19
-    learnset MOVE_FIRE_FANG, 19
+    learnset MOVE_DISARMING_VOICE, 1
+    learnset MOVE_LICK, 5
+    learnset MOVE_PURSUIT, 8
+    learnset MOVE_CHATTER, 11
+    learnset MOVE_BITE, 13
+    learnset MOVE_SWAGGER, 15
+    learnset MOVE_FIRE_FANG, 17
     learnset MOVE_FURY_SWIPES, 21
     learnset MOVE_SWAGGER, 31
     learnset MOVE_SCARY_FACE, 37
