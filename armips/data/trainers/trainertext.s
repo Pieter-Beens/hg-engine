@@ -1622,7 +1622,7 @@ _0E84: // Trainer 164
     trainertextentry 164, TEXT_DEFEATED_IN_BATTLE, "Ooh, you’re good at Pokémon, too.\n"
 
 _0E88: // Trainer 601
-    trainertextentry 601, TEXT_DEFEATED_IN_BATTLE, "Looks like I lost...\n"
+    trainertextentry 601, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Looks like I lost...\n"
 
 _0E8C: // Trainer 109
     trainertextentry 109, TEXT_NOTICE_IN_OVERWORLD, "If a Trainer spots another Trainer,\nhe or she has to make a challenge.\fThat is our destiny.\r"
@@ -1848,84 +1848,84 @@ _10A0: // Trainer 178
     trainertextentry 178, TEXT_REMATCH_IN_OVERWORLD, "Yay!\nYou kept your promise and came back!\r"
 
 _10B0: // Trainer 185
-    trainertextentry 185, TEXT_DEFEATED_IN_BATTLE, "Y-you’re strong...\n"
+    trainertextentry 185, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Y-you’re strong...\n"
 
 _10B4: // Trainer 186
     trainertextentry 186, TEXT_NOTICE_IN_OVERWORLD, "Three years ago, Team Rocket was\nforced to disband.\rBut we’re making a comeback here!\r"
-    trainertextentry 186, TEXT_DEFEATED_IN_BATTLE, "Gwah! Don’t get cute!\n"
+    trainertextentry 186, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Gwah! Don’t get cute!\n"
     trainertextentry 186, TEXT_DEFEATED_IN_OVERWORLD, "We won’t let you ruin our plans for\nour comeback!\n"
 
 _10C0: // Trainer 187
     trainertextentry 187, TEXT_NOTICE_IN_OVERWORLD, "We’re Team Rocket!\nWe like to cause trouble!\rOoh! Are you scared?\r"
-    trainertextentry 187, TEXT_DEFEATED_IN_BATTLE, "You think you’re a hero?\n"
+    trainertextentry 187, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "You think you’re a hero?\n"
     trainertextentry 187, TEXT_DEFEATED_IN_OVERWORLD, "We’re not always evil. We just do\nwhatever we like.\n"
 
 _10CC: // Trainer 188
     trainertextentry 188, TEXT_NOTICE_IN_OVERWORLD, "Hey, hey! Keep out of our way!\r"
-    trainertextentry 188, TEXT_DEFEATED_IN_BATTLE, "Arggh. I give up.\n"
+    trainertextentry 188, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Arggh. I give up.\n"
     trainertextentry 188, TEXT_DEFEATED_IN_OVERWORLD, "Our Executives are trying to take this\nplace over. They have some big plan.\fI wonder what it is.\n"
 
 _10D8: // Trainer 198
     trainertextentry 198, TEXT_NOTICE_IN_OVERWORLD, "Ha ha ha!\fHow boring. It was far too easy to take\nover this place!\rCome on, keep me amused!\r"
-    trainertextentry 198, TEXT_DEFEATED_IN_BATTLE, "Wh-who are you?\n"
+    trainertextentry 198, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Wh-who are you?\n"
     trainertextentry 198, TEXT_DEFEATED_IN_OVERWORLD, "You beat me, and I won’t forget it!\n"
 
 _10E4: // Trainer 471
     trainertextentry 471, TEXT_NOTICE_IN_OVERWORLD, "An unknown child wandering here?\nWho are you?\r"
-    trainertextentry 471, TEXT_DEFEATED_IN_BATTLE, "Tch! I took you too lightly!\n"
+    trainertextentry 471, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Tch! I took you too lightly!\n"
     trainertextentry 471, TEXT_DEFEATED_IN_OVERWORLD, "Bwahahaha...\rI can transmit as strong a signal as\nI need from here.\n"
 
 _10F0: // Trainer 189
     trainertextentry 189, TEXT_NOTICE_IN_OVERWORLD, "I’ve been given strict orders.\rI’m to crush anyone who challenges\nTeam Rocket!\r"
-    trainertextentry 189, TEXT_DEFEATED_IN_BATTLE, "!!!\n"
+    trainertextentry 189, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "!!!\n"
     trainertextentry 189, TEXT_DEFEATED_IN_OVERWORLD, "I failed in my duties...\nI’ll be docked pay for this...\n"
 
 _10FC: // Trainer 190
     trainertextentry 190, TEXT_NOTICE_IN_OVERWORLD, "It feels great ordering Pokémon to\ncommit crimes.\r"
-    trainertextentry 190, TEXT_DEFEATED_IN_BATTLE, "You’re kidding!\n"
+    trainertextentry 190, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "You’re kidding!\n"
     trainertextentry 190, TEXT_DEFEATED_IN_OVERWORLD, "I feel lousy over losing! Bah!\nI hate useless Pokémon!\n"
 
 _1108: // Trainer 191
     trainertextentry 191, TEXT_NOTICE_IN_OVERWORLD, "Why did the door open? Did you have\nsomething to do with this?\r"
-    trainertextentry 191, TEXT_DEFEATED_IN_BATTLE, "Gulp! This is a bleak moment.\n"
+    trainertextentry 191, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Gulp! This is a bleak moment.\n"
     trainertextentry 191, TEXT_DEFEATED_IN_OVERWORLD, "What?! You made it past our men in\nthe Underground? How could you have?\n"
 
 _1114: // Trainer 706
     trainertextentry 706, TEXT_NOTICE_IN_OVERWORLD, "Proton: Now, wait just one second!\rAren’t you the one who got in\nour way at the SLOWPOKE Well?\rI see... You’re doing all this because\nyou want to make me angry. Be careful!\rBut since you seem to wish it, I’ll show\nyou the full extent of a Team Rocket\fExecutive’s wrath!\r"
     trainertextentry 706, TEXT_LAST_MON_SENT_OUT, "Seriously, you’d chase me this far?!\n"
     trainertextentry 706, TEXT_LAST_MON_CRITICAL, "Ugh... What are you?!\n"
-    trainertextentry 706, TEXT_DEFEATED_IN_BATTLE, "Phew...\n"
+    trainertextentry 706, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Phew...\n"
     trainertextentry 706, TEXT_DEFEATED_IN_OVERWORLD, "Proton: You may have won this time...\nBut all you did was make Team Rocket’s\fwrath grow...\n"
 
 _1128: // Trainer 472
     trainertextentry 472, TEXT_NOTICE_IN_OVERWORLD, "Most excellent!\rThis Radio Tower will fulfill our\ngrand design.\r"
-    trainertextentry 472, TEXT_DEFEATED_IN_BATTLE, "Hmmm...\nAll grand plans come with snags.\n"
+    trainertextentry 472, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Hmmm...\nAll grand plans come with snags.\n"
     trainertextentry 472, TEXT_DEFEATED_IN_OVERWORLD, "Do you honestly believe you can stop\nTeam Rocket?\n"
 
 _1134: // Trainer 192
     trainertextentry 192, TEXT_NOTICE_IN_OVERWORLD, "You plan to rescue the Director?\nSo sad that won’t be possible--\fbecause I’m going to beat you!\r"
-    trainertextentry 192, TEXT_DEFEATED_IN_BATTLE, "No! Unbelievable!\n"
+    trainertextentry 192, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "No! Unbelievable!\n"
     trainertextentry 192, TEXT_DEFEATED_IN_OVERWORLD, "I do not believe it! I was beaten!\n"
 
 _1140: // Trainer 200
-    trainertextentry 200, TEXT_DEFEATED_IN_BATTLE, "Oh, no! They’re so useless!\n"
+    trainertextentry 200, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Oh, no! They’re so useless!\n"
 
 _1144: // Trainer 487
     trainertextentry 487, TEXT_LAST_MON_SENT_OUT, "What? Am I losing?\n"
     trainertextentry 487, TEXT_LAST_MON_CRITICAL, "Hey, wait, are you serious?!\n"
-    trainertextentry 487, TEXT_DEFEATED_IN_BATTLE, "OK, OK. I’ll tell you where he is.\n"
+    trainertextentry 487, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "OK, OK. I’ll tell you where he is.\n"
 
 _1150: // Trainer 478
     trainertextentry 478, TEXT_NOTICE_IN_OVERWORLD, "Ariana: Hey, you...\nRemember me from the hideout in\fMahogany Town?\rThis time...\rHee hee hee. This time...it looks like\nyou’re really all alone. All alone...\rSo it should be quite easy.\nBring it! Let’s finish this!\r\n"
     trainertextentry 478, TEXT_LAST_MON_SENT_OUT, "Hey, what do you think you’re doing?!\n"
     trainertextentry 478, TEXT_LAST_MON_CRITICAL, "Wh... Wha... Why are you so strong?!\n"
-    trainertextentry 478, TEXT_DEFEATED_IN_BATTLE, "Aaaieeeee!\nThis can’t be happening!\rI fought hard, but I still lost...\n"
+    trainertextentry 478, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Aaaieeeee!\nThis can’t be happening!\rI fought hard, but I still lost...\n"
     trainertextentry 478, TEXT_DEFEATED_IN_OVERWORLD, "What a waste...\nnot to use your strength to do\fbad things!\rFeh... People like you will never in a\nmillion years understand our brilliance!\rIt’s too bad... I’ve really come to\nrespect your strength.\n"
 
 _1164: // Trainer 485
     trainertextentry 485, TEXT_LAST_MON_SENT_OUT, "We can’t have you getting in the way\nbefore news of our resurgence\freaches Giovanni!\n"
     trainertextentry 485, TEXT_LAST_MON_CRITICAL, "That’s impossible...\n"
-    trainertextentry 485, TEXT_DEFEATED_IN_BATTLE, "No!\nForgive me, Giovanni!\n"
+    trainertextentry 485, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "No!\nForgive me, Giovanni!\n"
 
 _1170: // Trainer 42
     trainertextentry  42, TEXT_NOTICE_IN_OVERWORLD, "Hmmm...\nThis is a strange place.\r"
@@ -1995,21 +1995,21 @@ _1200: // Trainer 363
 _120C: // Trainer 486
     trainertextentry 486, TEXT_LAST_MON_SENT_OUT, "It doesn’t matter where we go, there’s\nalways someone who doesn’t agree\fwith us...\n"
     trainertextentry 486, TEXT_LAST_MON_CRITICAL, "Are you serious? Did you come here\nthinking you could mess with our plans?\n"
-    trainertextentry 486, TEXT_DEFEATED_IN_BATTLE, "Grr...\nFor a kid to be this good...\fI didn’t see it coming.\n"
+    trainertextentry 486, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Grr...\nFor a kid to be this good...\fI didn’t see it coming.\n"
 
 _1218: // Trainer 12
     trainertextentry  12, TEXT_NOTICE_IN_OVERWORLD, "Quit taking SlowpokeTails?\rIf we listened to you, Team Rocket’s\nrep would be ruined!\r"
-    trainertextentry  12, TEXT_DEFEATED_IN_BATTLE, "Just...\nToo strong...\n"
+    trainertextentry  12, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Just...\nToo strong...\n"
     trainertextentry  12, TEXT_DEFEATED_IN_OVERWORLD, "We need the money, but selling\nSlowpokeTails?\rIt’s tough being a Team Rocket Grunt!\n"
 
 _1224: // Trainer 101
     trainertextentry 101, TEXT_NOTICE_IN_OVERWORLD, "Humph! I was standing guard up top\nwhen some old coot yelled at me.\rHe startled me so much that I fell\ndown here.\rHow about I vent my anger and take it\nout on you!\r"
-    trainertextentry 101, TEXT_DEFEATED_IN_BATTLE, "Arrgh! This is NOT my day!\n"
+    trainertextentry 101, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Arrgh! This is NOT my day!\n"
     trainertextentry 101, TEXT_DEFEATED_IN_OVERWORLD, "Sure, we’ve been hacking the tails off\nSLOWPOKE and selling them.\rTeam Rocket will do anything for money!\n"
 
 _1230: // Trainer 13
     trainertextentry  13, TEXT_NOTICE_IN_OVERWORLD, "Stop taking SlowpokeTails?\rWhat?! You want us to disobey a direct\norder from Executive Proton?\rIf you want to stop us, you’ll have to\ndefeat us all! Go ahead and try!\r"
-    trainertextentry  13, TEXT_DEFEATED_IN_BATTLE, "You rotten brat!\n"
+    trainertextentry  13, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "You rotten brat!\n"
     trainertextentry  13, TEXT_DEFEATED_IN_OVERWORLD, "SlowpokeTails grow back fast!\rBesides, it was an order from Proton,\nso I’m more concerned about that!\n"
 
 _123C: // Trainer 73
@@ -2061,19 +2061,19 @@ _12A4: // Trainer 214
 
 _12B0: // Trainer 470
     trainertextentry 470, TEXT_NOTICE_IN_OVERWORLD, "This was once a ninja hideout.\rThere are traps to confound intruders\nlike you.\r"
-    trainertextentry 470, TEXT_DEFEATED_IN_BATTLE, "I see...\n"
+    trainertextentry 470, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "I see...\n"
     trainertextentry 470, TEXT_DEFEATED_IN_OVERWORLD, "The PC on my desk is the switch\nthat deactivates the PERSIAN\falarm system.\rDon’t you ever touch it, OK?\n"
 
 _12BC: // Trainer 216
     trainertextentry 216, TEXT_NOTICE_IN_OVERWORLD, "Heh heh. Feeling lucky, punk?\rGo ahead, take another step.\nWe’ve got explosives set in the floor!\fStep on one, and--BOOM!\r"
-    trainertextentry 216, TEXT_DEFEATED_IN_BATTLE, "Kaboom!\n"
+    trainertextentry 216, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Kaboom!\n"
     trainertextentry 216, TEXT_DEFEATED_IN_OVERWORLD, "Where are the traps planted?\nThat... Well...\rI don’t even remember!\n"
 
 _12C8: // Trainer 223
-    trainertextentry 223, TEXT_DEFEATED_IN_BATTLE, "Grr... I failed...\n"
+    trainertextentry 223, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Grr... I failed...\n"
 
 _12CC: // Trainer 224
-    trainertextentry 224, TEXT_DEFEATED_IN_BATTLE, "Surveillance cams are in the\nPokémon statues.\rWe’ll keep appearing until you trip a\nsecret switch.\n"
+    trainertextentry 224, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Surveillance cams are in the\nPokémon statues.\rWe’ll keep appearing until you trip a\nsecret switch.\n"
 
 _12D0: // Trainer 479
     trainertextentry 479, TEXT_LAST_MON_SENT_OUT, "Argh! I’m getting nervous!\n"
@@ -2087,25 +2087,25 @@ _12DC: // Trainer 218
 
 _12E8: // Trainer 219
     trainertextentry 219, TEXT_NOTICE_IN_OVERWORLD, "Oh, a kid? I don’t really like this, but\neliminate you I must.\r"
-    trainertextentry 219, TEXT_DEFEATED_IN_BATTLE, "I knew I’d lose...\n"
+    trainertextentry 219, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "I knew I’d lose...\n"
     trainertextentry 219, TEXT_DEFEATED_IN_OVERWORLD, "I got wiped out on the last mission by a\nkid, too. When we were abducting\fPokémon, this kid with long red hair and\fmean-looking eyes just whomped me...\n"
 
 _12F4: // Trainer 220
     trainertextentry 220, TEXT_NOTICE_IN_OVERWORLD, "You rotten little pest!\r"
-    trainertextentry 220, TEXT_DEFEATED_IN_BATTLE, "Grrrr...\n"
+    trainertextentry 220, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Grrrr...\n"
     trainertextentry 220, TEXT_DEFEATED_IN_OVERWORLD, "Heh, only the one who guards the boss’s\nroom knows the password for that door.\rWhere’s the boss’s room?\nWho knows? Go look for yourself.\n"
 
 _1300: // Trainer 499
-    trainertextentry 499, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 499, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "...\n"
 
 _1304: // Trainer 488
     trainertextentry 488, TEXT_LAST_MON_SENT_OUT, "Hey, you’re good!\n"
     trainertextentry 488, TEXT_LAST_MON_CRITICAL, "Wow, strong!\n"
-    trainertextentry 488, TEXT_DEFEATED_IN_BATTLE, "I...I couldn’t do a thing...\nGiovanni, please forgive me...\n"
+    trainertextentry 488, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "I...I couldn’t do a thing...\nGiovanni, please forgive me...\n"
 
 _1310: // Trainer 468
     trainertextentry 468, TEXT_NOTICE_IN_OVERWORLD, "I used to work for Silph, but now I run\nresearch for Team Rocket.\rA meddlesome child like you needs to be\npunished.\r"
-    trainertextentry 468, TEXT_DEFEATED_IN_BATTLE, "A mere tactical error cost me...\n"
+    trainertextentry 468, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "A mere tactical error cost me...\n"
     trainertextentry 468, TEXT_DEFEATED_IN_OVERWORLD, "A radio signal that drives Pokémon\nmad... My experiment is a complete\fsuccess. My promotion is assured.\fThis loss means absolutely nothing.\n"
 
 _131C: // Trainer 469
@@ -2115,12 +2115,12 @@ _131C: // Trainer 469
 
 _1328: // Trainer 222
     trainertextentry 222, TEXT_NOTICE_IN_OVERWORLD, "Hyuck-hyuck-hyuck!\rYou’re challenging me to a battle?\nHah! You’re nuts, but you have guts!\rI like that! If you can beat me, I’ll\ntell you a password to the boss’s room!\r"
-    trainertextentry 222, TEXT_DEFEATED_IN_BATTLE, "The password for the boss’s door--\rRATICATETAIL.\n"
+    trainertextentry 222, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "The password for the boss’s door--\rRATICATETAIL.\n"
     trainertextentry 222, TEXT_DEFEATED_IN_OVERWORLD, "The password for the boss’s door--\nRATICATETAIL.\rBut if you don’t have both passwords...\nHa ha ha!\n"
 
 _1334: // Trainer 404
     trainertextentry 404, TEXT_NOTICE_IN_OVERWORLD, "Do I know the password?\rMaybe.\rBut no weakling’s going to get it!\r"
-    trainertextentry 404, TEXT_DEFEATED_IN_BATTLE, "The password for the boss’s door--\rSLOWPOKETAIL.\n"
+    trainertextentry 404, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "The password for the boss’s door--\rSLOWPOKETAIL.\n"
     trainertextentry 404, TEXT_DEFEATED_IN_OVERWORLD, "The password to the boss’s room is\nSLOWPOKETAIL.\rBut it’s useless unless you have two\npasswords.\n"
 
 _1340: // Trainer 391
@@ -2155,37 +2155,37 @@ _137C: // Trainer 283
 
 _1388: // Trainer 193
     trainertextentry 193, TEXT_NOTICE_IN_OVERWORLD, "Open one door, another closes. Bet you\ncan’t get where you want to go!\r"
-    trainertextentry 193, TEXT_DEFEATED_IN_BATTLE, "Uh-oh! I was sunk by indecision!\n"
+    trainertextentry 193, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Uh-oh! I was sunk by indecision!\n"
     trainertextentry 193, TEXT_DEFEATED_IN_OVERWORLD, "I’m confused, too...\rI’m pretty sure that the green switch\nis the one to press last... I think?\n"
 
 _1394: // Trainer 195
     trainertextentry 195, TEXT_NOTICE_IN_OVERWORLD, "I don’t care if you’re lost. You show up\nhere--you’re nothing but a victim!\r"
-    trainertextentry 195, TEXT_DEFEATED_IN_BATTLE, "Urk! Yeah, think you’re cool, huh?\n"
+    trainertextentry 195, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Urk! Yeah, think you’re cool, huh?\n"
     trainertextentry 195, TEXT_DEFEATED_IN_OVERWORLD, "You must have ice in your veins to\ncall out Team Rocket.\n"
 
 _13A0: // Trainer 228
     trainertextentry 228, TEXT_NOTICE_IN_OVERWORLD, "Kwa ha ha!\rConfounded by the doors, are we?\rI’ll let you in on a secret if you can\nbeat me!\r"
-    trainertextentry 228, TEXT_DEFEATED_IN_BATTLE, "Uwww...\nI blew it.\n"
+    trainertextentry 228, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Uwww...\nI blew it.\n"
     trainertextentry 228, TEXT_DEFEATED_IN_OVERWORLD, "All right. A hint!\rLook at the color of the door switches.\nYou push a color switch, and the same\fcolor door opens up...\n"
 
 _13AC: // Trainer 199
     trainertextentry 199, TEXT_NOTICE_IN_OVERWORLD, "Are you lost? No, you can’t be.\nYou don’t have that scared look. I’ll\fgive you something to be scared about!\r"
-    trainertextentry 199, TEXT_DEFEATED_IN_BATTLE, "How could you?\n"
+    trainertextentry 199, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "How could you?\n"
     trainertextentry 199, TEXT_DEFEATED_IN_OVERWORLD, "Go wherever you like! Get lost!\nSee if I care!\n"
 
 _13B8: // Trainer 196
     trainertextentry 196, TEXT_NOTICE_IN_OVERWORLD, "You’re not going any farther!\nI don’t show mercy to my enemies,\fespecially not brats!\r"
-    trainertextentry 196, TEXT_DEFEATED_IN_BATTLE, "Blast it!\n"
+    trainertextentry 196, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Blast it!\n"
     trainertextentry 196, TEXT_DEFEATED_IN_OVERWORLD, "I lost...\rPlease forgive me, Giovanni!\n"
 
 _13C4: // Trainer 197
     trainertextentry 197, TEXT_NOTICE_IN_OVERWORLD, "Hyuck-hyuck-hyuck!\nI remember you!\rYou got me good at our hideout!\r"
-    trainertextentry 197, TEXT_DEFEATED_IN_BATTLE, "Hyuck-hyuck-hyuck!\nSo that’s how you did it!\n"
+    trainertextentry 197, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Hyuck-hyuck-hyuck!\nSo that’s how you did it!\n"
     trainertextentry 197, TEXT_DEFEATED_IN_OVERWORLD, "Hyuck-hyuck-hyuck!\nThat was a blast!\n"
 
 _13D0: // Trainer 227
     trainertextentry 227, TEXT_NOTICE_IN_OVERWORLD, "How did you get this far? I guess it\ncan’t be helped. I’ll dispose of you.\r"
-    trainertextentry 227, TEXT_DEFEATED_IN_BATTLE, "I got disposed of...\n"
+    trainertextentry 227, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "I got disposed of...\n"
     trainertextentry 227, TEXT_DEFEATED_IN_OVERWORLD, "Team Rocket will keep going, waiting for\nthe return of Giovanni.\rWe’ll do whatever it takes.\n"
 
 _13DC: // Trainer 158

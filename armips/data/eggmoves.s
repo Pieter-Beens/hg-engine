@@ -610,7 +610,6 @@ eggmoveentry SPECIES_HORSEA
     eggmove MOVE_DRAGON_RAGE
     eggmove MOVE_DRAGON_BREATH
     eggmove MOVE_SIGNAL_BEAM
-    eggmove MOVE_RAZOR_WIND
     eggmove MOVE_MUDDY_WATER
 
 
@@ -642,7 +641,6 @@ eggmoveentry SPECIES_SCYTHER
     eggmove MOVE_COUNTER
     eggmove MOVE_SAFEGUARD
     eggmove MOVE_BATON_PASS
-    eggmove MOVE_RAZOR_WIND
     eggmove MOVE_REVERSAL
     eggmove MOVE_LIGHT_SCREEN
     eggmove MOVE_ENDURE
@@ -1056,7 +1054,6 @@ eggmoveentry SPECIES_GIRAFARIG
     eggmove MOVE_MAGIC_COAT
     eggmove MOVE_DOUBLE_KICK
     eggmove MOVE_MIRROR_COAT
-    eggmove MOVE_RAZOR_WIND
 
 
 eggmoveentry SPECIES_PINECO
@@ -1089,7 +1086,6 @@ eggmoveentry SPECIES_DUNSPARCE
 eggmoveentry SPECIES_GLIGAR
     eggmove MOVE_METAL_CLAW
     eggmove MOVE_WING_ATTACK
-    eggmove MOVE_RAZOR_WIND
     eggmove MOVE_COUNTER
     eggmove MOVE_SAND_TOMB
     eggmove MOVE_AGILITY
@@ -1393,7 +1389,6 @@ eggmoveentry SPECIES_TREECKO
     eggmove MOVE_SYNTHESIS
     eggmove MOVE_MAGICAL_LEAF
     eggmove MOVE_LEAF_STORM
-    eggmove MOVE_RAZOR_WIND
 
 
 eggmoveentry SPECIES_TORCHIC
@@ -1467,7 +1462,6 @@ eggmoveentry SPECIES_SEEDOT
     eggmove MOVE_LEECH_SEED
     eggmove MOVE_AMNESIA
     eggmove MOVE_QUICK_ATTACK
-    eggmove MOVE_RAZOR_WIND
     eggmove MOVE_TAKE_DOWN
     eggmove MOVE_FALSE_SWIPE
     eggmove MOVE_WORRY_SEED
@@ -1832,7 +1826,6 @@ eggmoveentry SPECIES_SWABLU
 eggmoveentry SPECIES_ZANGOOSE
     eggmove MOVE_FLAIL
     eggmove MOVE_DOUBLE_KICK
-    eggmove MOVE_RAZOR_WIND
     eggmove MOVE_COUNTER
     eggmove MOVE_ROAR
     eggmove MOVE_CURSE
@@ -1952,7 +1945,6 @@ eggmoveentry SPECIES_DUSKULL
 eggmoveentry SPECIES_TROPIUS
     eggmove MOVE_HEADBUTT
     eggmove MOVE_SLAM
-    eggmove MOVE_RAZOR_WIND
     eggmove MOVE_LEECH_SEED
     eggmove MOVE_NATURE_POWER
     eggmove MOVE_LEAF_STORM
@@ -2675,7 +2667,6 @@ eggmoveentry SPECIES_SEWADDLE
     eggmove MOVE_CAMOUFLAGE
     eggmove MOVE_ME_FIRST
     eggmove MOVE_MIND_READER
-    eggmove MOVE_RAZOR_WIND
     eggmove MOVE_SCREECH
     eggmove MOVE_SILVER_WIND
 
@@ -3017,7 +3008,6 @@ eggmoveentry SPECIES_AXEW
     eggmove MOVE_HARDEN
     eggmove MOVE_IRON_TAIL
     eggmove MOVE_NIGHT_SLASH
-    eggmove MOVE_RAZOR_WIND
     eggmove MOVE_REVERSAL
 
 
@@ -3553,7 +3543,6 @@ eggmoveentry SPECIES_BRUXISH
 eggmoveentry SPECIES_DRAMPA
 	eggmove MOVE_HURRICANE
 	eggmove MOVE_DRAGON_RUSH
-	eggmove MOVE_RAZOR_WIND
 	eggmove MOVE_MIST
 
 eggmoveentry SPECIES_JANGMO_O

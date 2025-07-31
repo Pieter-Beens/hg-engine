@@ -793,7 +793,7 @@ mondata SPECIES_CLEFABLE, "Clefable"
 
 mondata SPECIES_VULPIX, "Vulpix"
     basestats 38, 41, 40, 65, 50, 65
-    types TYPE_FIRE, TYPE_FAIRY
+    types TYPE_FIRE, TYPE_FIRE
     catchrate 190
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
@@ -4100,7 +4100,7 @@ mondata SPECIES_WOOPER, "Wooper"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
-    abilities ABILITY_DAMP, ABILITY_WATER_ABSORB
+    abilities ABILITY_WATER_ABSORB, ABILITY_WATER_ABSORB
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_WOOPER, "This Pokémon lives in cold water.\nIt will leave the water to search\nfor food when it gets cold outside."
@@ -4121,7 +4121,7 @@ mondata SPECIES_QUAGSIRE, "Quagsire"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
-    abilities ABILITY_DAMP, ABILITY_WATER_ABSORB
+    abilities ABILITY_WATER_ABSORB, ABILITY_WATER_ABSORB
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_QUAGSIRE, "This carefree Pokémon has an\neasy-going nature. While swimming,\nit always bumps into boat hulls."
@@ -4247,7 +4247,7 @@ mondata SPECIES_UNOWN, "Unown"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_LEVITATE, ABILITY_NONE
+    abilities ABILITY_WONDER_GUARD, ABILITY_WONDER_GUARD
     runchance 0
     colorflip BODY_COLOR_BLACK, 0
     mondexentry SPECIES_UNOWN, "Their shapes look like hieroglyphs\non ancient tablets. It is said\nthat the two are somehow related."
@@ -6358,7 +6358,7 @@ mondata SPECIES_DELCATTY, "Delcatty"
 
 mondata SPECIES_SABLEYE, "Sableye"
     basestats 50, 75, 75, 50, 65, 65
-    types TYPE_DARK, TYPE_GHOST
+    types TYPE_GHOST, TYPE_GHOST
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 1, 0, 0, 0
@@ -7355,7 +7355,7 @@ mondata SPECIES_FEEBAS, "Feebas"
     basefriendship 50
     growthrate GROWTH_ERRATIC
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_DRAGON
-    abilities ABILITY_SWIFT_SWIM, ABILITY_OBLIVIOUS
+    abilities ABILITY_OBLIVIOUS, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_FEEBAS, "It is the shabbiest Pokémon of all.\nIt forms in schools and lives at the\nbottom of rivers."
@@ -7366,7 +7366,7 @@ mondata SPECIES_FEEBAS, "Feebas"
 
 mondata SPECIES_MILOTIC, "Milotic"
     basestats 95, 60, 79, 81, 100, 125
-    types TYPE_WATER, TYPE_WATER
+    types TYPE_WATER, TYPE_FAIRY
     catchrate 60
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 2
@@ -7376,7 +7376,7 @@ mondata SPECIES_MILOTIC, "Milotic"
     basefriendship 50
     growthrate GROWTH_ERRATIC
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_DRAGON
-    abilities ABILITY_MARVEL_SCALE, ABILITY_COMPETITIVE
+    abilities ABILITY_WONDER_SKIN, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_PINK, 0
     mondexentry SPECIES_MILOTIC, "It’s said that a glimpse of a\nMILOTIC and its beauty will calm any\nhostile emotions you’re feeling."
@@ -8489,7 +8489,7 @@ mondata SPECIES_SHINX, "Shinx"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_RIVALRY, ABILITY_INTIMIDATE
+    abilities ABILITY_RIVALRY, ABILITY_GUTS
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_SHINX, "The extension and contraction of\nits muscles generates electricity.\nIts fur glows when it’s in trouble."
@@ -8500,7 +8500,7 @@ mondata SPECIES_SHINX, "Shinx"
 
 mondata SPECIES_LUXIO, "Luxio"
     basestats 60, 85, 49, 60, 60, 49
-    types TYPE_ELECTRIC, TYPE_ELECTRIC
+    types TYPE_ELECTRIC, TYPE_DARK
     catchrate 120
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
@@ -8510,7 +8510,7 @@ mondata SPECIES_LUXIO, "Luxio"
     basefriendship 100
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_RIVALRY, ABILITY_INTIMIDATE
+    abilities ABILITY_RIVALRY, ABILITY_GUTS
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_LUXIO, "By gathering their tails together,\nthey collectively generate powerful\nelectricity from their claws."
@@ -8521,7 +8521,7 @@ mondata SPECIES_LUXIO, "Luxio"
 
 mondata SPECIES_LUXRAY, "Luxray"
     basestats 80, 120, 79, 70, 95, 79
-    types TYPE_ELECTRIC, TYPE_ELECTRIC
+    types TYPE_ELECTRIC, TYPE_DARK
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 3, 0, 0, 0, 0
@@ -8531,7 +8531,7 @@ mondata SPECIES_LUXRAY, "Luxray"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_RIVALRY, ABILITY_INTIMIDATE
+    abilities ABILITY_RIVALRY, ABILITY_GUTS
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_LUXRAY, "LUXRAY’s ability to see through\nobjects comes in handy when it’s\nscouting for danger."
@@ -14911,17 +14911,17 @@ mondata SPECIES_BONKBAL, "Bonkbal"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_RUN_AWAY, ABILITY_NONE
+    abilities ABILITY_UNAWARE, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
-    mondexentry SPECIES_BONKBAL, "They use their large ears to dig\nburrows. They will dig the whole night\nthrough."
+    mondexentry SPECIES_BONKBAL, "They enjoy being thrown around\nand hit in the stomach, making them\na perfect pet for cruel children."
     mondexclassification SPECIES_BONKBAL, "Digging Pokémon"
     mondexheight SPECIES_BONKBAL, "1’04”"
     mondexweight SPECIES_BONKBAL, "11.0 lbs."
 
 
 mondata SPECIES_WALLOPEE, "Wallopee"
-    basestats 100, 100, 90, 70, 50, 80
+    basestats 95, 110, 80, 70, 50, 75
     types TYPE_FIGHTING, TYPE_STEEL
     catchrate 127
     baseexp 0 // defined in baseexp.s
@@ -21222,7 +21222,7 @@ mondata SPECIES_TINKATON, "Tinkaton"
 
 mondata SPECIES_WIGLETT, "Wiglett"
     basestats 10, 55, 25, 95, 35, 25
-    types TYPE_WATER, TYPE_WATER
+    types TYPE_WATER, TYPE_ROCK
     catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
@@ -21243,7 +21243,7 @@ mondata SPECIES_WIGLETT, "Wiglett"
 
 mondata SPECIES_WUGTRIO, "Wugtrio"
     basestats 35, 100, 50, 120, 50, 70
-    types TYPE_WATER, TYPE_WATER
+    types TYPE_WATER, TYPE_ROCK
     catchrate 50
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 2, 0, 0
@@ -21652,7 +21652,7 @@ mondata SPECIES_CLODSIRE, "Clodsire"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
-    abilities ABILITY_POISON_POINT, ABILITY_WATER_ABSORB
+    abilities ABILITY_WATER_ABSORB, ABILITY_WATER_ABSORB
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_CLODSIRE, "It lives at the bottom of ponds and swamps.\nIt will carry Wooper on its back and ferry\nthem across water from shore to shore."
@@ -23008,7 +23008,7 @@ mondata SPECIES_MEGA_GARDEVOIR, "-----"
 
 mondata SPECIES_RUBEYE, "Rubeye"
     basestats 50, 85, 125, 20, 85, 115
-    types TYPE_DARK, TYPE_GHOST
+    types TYPE_GHOST, TYPE_ROCK
     catchrate 45
     baseexp 98
     evyields 0, 1, 1, 0, 0, 0
@@ -23018,7 +23018,7 @@ mondata SPECIES_RUBEYE, "Rubeye"
     basefriendship 35
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_PRESSURE, ABILITY_FRISK //ABILITY_MAGIC_BOUNCE, ABILITY_MAGIC_BOUNCE
+    abilities ABILITY_MAGIC_BOUNCE, ABILITY_SHADOW_SHIELD
     runchance 0
     colorflip 0, 0
     mondexentry SPECIES_RUBEYE, "It dwells in the darkness of caves.\nIt uses its sharp claws to dig up\ngems to nourish itself."
@@ -27218,7 +27218,7 @@ mondata SPECIES_WOOPER_PALDEAN, "-----"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
-    abilities ABILITY_DAMP, ABILITY_WATER_ABSORB
+    abilities ABILITY_WATER_ABSORB, ABILITY_WATER_ABSORB
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
 

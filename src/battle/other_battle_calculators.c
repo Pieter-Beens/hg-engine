@@ -205,7 +205,6 @@ const u16 ParentalBondSingleStrikeMovesList[] = {
     MOVE_ICE_BURN,
     MOVE_METEOR_BEAM,
     MOVE_PHANTOM_FORCE,
-    MOVE_RAZOR_WIND,
     MOVE_SHADOW_FORCE,
     MOVE_SKULL_BASH,
     MOVE_SKY_ATTACK,

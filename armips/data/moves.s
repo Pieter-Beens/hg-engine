@@ -218,11 +218,11 @@ movedata MOVE_GUILLOTINE, "Guillotine"
     terminatedata
     movedescription MOVE_GUILLOTINE, "A vicious, tearing\nattack with pincers.\nThe foe will faint\ninstantly if this\nattack hits."
 
-movedata MOVE_RAZOR_WIND, "Razor Wind"
-    battleeffect MOVE_EFFECT_CHARGE_TURN_HIGH_CRIT
+movedata MOVE_RUMINATE, "Ruminate"
+    battleeffect MOVE_EFFECT_RECOVER_HALF_DAMAGE_DEALT
     pss SPLIT_SPECIAL
-    basepower 80
-    type TYPE_NORMAL
+    basepower 120
+    type TYPE_POISON
     accuracy 100
     pp 10
     effectchance 0
@@ -232,7 +232,7 @@ movedata MOVE_RAZOR_WIND, "Razor Wind"
     appeal 0x06
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_RAZOR_WIND, "A two-turn attack.\nBlades of wind hit the\nfoe on the second\nturn. It has a high\ncritical-hit ratio."
+    movedescription MOVE_RUMINATE, "The user uses its\nmultiple stomachs,\nextracting energy\nfrom the foe by\nchewing on them."
 
 movedata MOVE_SWORDS_DANCE, "Swords Dance"
     battleeffect MOVE_EFFECT_ATK_UP_2
@@ -13279,7 +13279,7 @@ movedata MOVE_EERIE_SPELL, "Eerie Spell"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_SPECIAL
     basepower 80
-    type TYPE_SOUND
+    type TYPE_PSYCHIC
     accuracy 100
     pp 5
     effectchance 0
