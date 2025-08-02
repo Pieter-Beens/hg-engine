@@ -253,8 +253,8 @@ movedata MOVE_SWORDS_DANCE, "Swords Dance"
 movedata MOVE_CUT, "Cut"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
-    basepower 50
-    type TYPE_NORMAL
+    basepower 55
+    type TYPE_STEEL
     accuracy 95
     pp 30
     effectchance 0
@@ -264,7 +264,7 @@ movedata MOVE_CUT, "Cut"
     appeal 0x05
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_CUT, "The foe is cut with a\nscythe or a claw.\nIt can also be used\nto cut down thin\ntrees."
+    movedescription MOVE_CUT, "The foe is cut with a\nsharp claw or scythe.\nIt can also be used\nto cut down thin\ntrees."
 
 movedata MOVE_GUST, "Gust"
     battleeffect MOVE_EFFECT_DOUBLE_DAMAGE_FLY_OR_BOUNCE
@@ -1131,9 +1131,9 @@ movedata MOVE_SEISMIC_TOSS, "Seismic Toss"
     movedescription MOVE_SEISMIC_TOSS, "The foe is thrown\nusing the power of\ngravity. It inflicts\ndamage equal to\nthe user’s level."
 
 movedata MOVE_STRENGTH, "Strength"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_RAISE_ATTACK_HIT
     pss SPLIT_PHYSICAL
-    basepower 80
+    basepower 40
     type TYPE_NORMAL
     accuracy 100
     pp 15
@@ -1144,7 +1144,7 @@ movedata MOVE_STRENGTH, "Strength"
     appeal 0x05
     contesttype CONTEST_TOUGH
     terminatedata
-    movedescription MOVE_STRENGTH, "The foe is slugged\nwith a punch thrown\nat maximum power.\nIt can also be used\nto move boulders."
+    movedescription MOVE_STRENGTH, "The user warms up its\nmuscles by pushing\nthe foe around.\nIt can also be used\nto move boulders."
 
 movedata MOVE_ABSORB, "Absorb"
     battleeffect MOVE_EFFECT_RECOVER_HALF_DAMAGE_DEALT
@@ -4013,9 +4013,9 @@ movedata MOVE_ROCK_SMASH, "Rock Smash"
 movedata MOVE_WHIRLPOOL, "Whirlpool"
     battleeffect MOVE_EFFECT_WHIRLPOOL
     pss SPLIT_SPECIAL
-    basepower 35
+    basepower 45
     type TYPE_WATER
-    accuracy 85
+    accuracy 100
     pp 15
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -6907,20 +6907,20 @@ movedata MOVE_FLASH_CANNON, "Flash Cannon"
     movedescription MOVE_FLASH_CANNON, "The user gathers all\nits light energy and\nreleases it at once.\nIt may also lower the\nfoe’s Sp. Def stat."
 
 movedata MOVE_ROCK_CLIMB, "Rock Climb"
-    battleeffect MOVE_EFFECT_CONFUSE_HIT
+    battleeffect MOVE_EFFECT_FLINCH_HIT
     pss SPLIT_PHYSICAL
-    basepower 90
-    type TYPE_NORMAL
-    accuracy 85
+    basepower 75
+    type TYPE_FIGHTING
+    accuracy 95
     pp 20
-    effectchance 20
+    effectchance 30
     target RANGE_SINGLE_TARGET
     priority 0
     flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
     appeal 0x12
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_ROCK_CLIMB, "A charging attack\nthat may also leave\nthe foe confused.\nIt can also be used\nto scale rocky walls."
+    movedescription MOVE_ROCK_CLIMB, "A charging attack\nthat may make the\nfoe flinch.\nIt can also be used\nto scale rocky walls."
 
 movedata MOVE_DEFOG, "Defog"
     battleeffect MOVE_EFFECT_REMOVE_HAZARDS_SCREENS_EVA_DOWN
@@ -14265,7 +14265,7 @@ movedata MOVE_HYPER_DRILL, "Hyper Drill"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_HYPER_DRILL, "---"
+    movedescription MOVE_HYPER_DRILL, "The user attacks using\na drill that hits\neven through Protect,\nDetect and similar\nmoves."
 
 movedata MOVE_TWIN_BEAM, "Twin Beam"
     battleeffect MOVE_EFFECT_HIT_TWICE

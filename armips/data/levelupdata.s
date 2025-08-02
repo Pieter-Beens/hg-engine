@@ -3964,8 +3964,8 @@ levelup SPECIES_IGGLYBUFF
     learnset MOVE_DEFENSE_CURL, 3
     learnset MOVE_POUND, 5
     learnset MOVE_SWEET_KISS, 8
-    learnset MOVE_COPYCAT, 11
-    learnset MOVE_DISARMING_VOICE, 12
+    learnset MOVE_COPYCAT, 9
+    learnset MOVE_DISARMING_VOICE, 11
     learnset MOVE_DISABLE, 16
     learnset MOVE_CHARM, 20
     terminatelearnset
