@@ -194,6 +194,7 @@ u8 TypeEffectivenessTable[][3] =
     { TYPE_SOUND, TYPE_SOUND, 0x05 },
     { TYPE_SOUND, TYPE_BUG, 0x05 },
     { TYPE_SOUND, TYPE_ICE, 0x05 },
+    { TYPE_SOUND, TYPE_GRASS, 0x05 },
     { TYPE_SOUND, TYPE_WATER, 0x14 },
     { TYPE_SOUND, TYPE_DARK, 0x14 },
     { TYPE_SOUND, TYPE_PSYCHIC, 0x14 },
@@ -211,6 +212,8 @@ u8 TypeEffectivenessTable[][3] =
 
     { TYPE_FUNGUS, TYPE_FIRE, 0x05 },
     { TYPE_FUNGUS, TYPE_ICE, 0x05 },
+    { TYPE_FUNGUS, TYPE_FLYING, 0x05 },
+    { TYPE_FUNGUS, TYPE_DRAGON, 0x05 },
     { TYPE_FUNGUS, TYPE_GRASS, 0x14 },
 
     { TYPE_GRASS, TYPE_DRAGON, 0x14 },
