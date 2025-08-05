@@ -783,7 +783,7 @@
 /* SPECIES_DARTRIX         */ .halfword 9
 /* SPECIES_DECIDUEYE       */ .halfword 9
 /* SPECIES_PIEP          */ .halfword 9
-/* SPECIES_PIPYRO        */ .halfword 9
+/* SPECIES_PRRING        */ .halfword 9
 /* SPECIES_INCINEROAR      */ .halfword 9
 /* SPECIES_POPPLIO         */ .halfword 9
 /* SPECIES_BRIONNE         */ .halfword 9

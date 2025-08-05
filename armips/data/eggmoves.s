@@ -632,7 +632,7 @@ eggmoveentry SPECIES_MR_MIME
     eggmove MOVE_FAKE_OUT
     eggmove MOVE_TRICK
     eggmove MOVE_CONFUSE_RAY
-    eggmove MOVE_WAKE_UP_SLAP
+    eggmove MOVE_EAR_WHACK
     eggmove MOVE_TEETER_DANCE
     eggmove MOVE_NASTY_PLOT
 
@@ -1519,7 +1519,7 @@ eggmoveentry SPECIES_SHROOMISH
     eggmove MOVE_FALSE_SWIPE
     eggmove MOVE_HELPING_HAND
     eggmove MOVE_WORRY_SEED
-    eggmove MOVE_WAKE_UP_SLAP
+    eggmove MOVE_EAR_WHACK
     eggmove MOVE_SEED_BOMB
 
 
@@ -1565,7 +1565,7 @@ eggmoveentry SPECIES_MAKUHITA
     eggmove MOVE_REVENGE
     eggmove MOVE_DYNAMIC_PUNCH
     eggmove MOVE_COUNTER
-    eggmove MOVE_WAKE_UP_SLAP
+    eggmove MOVE_EAR_WHACK
     eggmove MOVE_BULLET_PUNCH
     eggmove MOVE_FEINT
 
@@ -2279,7 +2279,7 @@ eggmoveentry SPECIES_MIMEJR
     eggmove MOVE_FAKE_OUT
     eggmove MOVE_TRICK
     eggmove MOVE_CONFUSE_RAY
-    eggmove MOVE_WAKE_UP_SLAP
+    eggmove MOVE_EAR_WHACK
     eggmove MOVE_TEETER_DANCE
     eggmove MOVE_HEALING_WISH
     eggmove MOVE_CHARM
@@ -2390,7 +2390,7 @@ eggmoveentry SPECIES_CROAGUNK
     eggmove MOVE_VACUUM_WAVE
     eggmove MOVE_MEDITATE
     eggmove MOVE_FAKE_OUT
-    eggmove MOVE_WAKE_UP_SLAP
+    eggmove MOVE_EAR_WHACK
     eggmove MOVE_SMELLING_SALTS
     eggmove MOVE_CROSS_CHOP
     eggmove MOVE_BULLET_PUNCH

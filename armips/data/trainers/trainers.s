@@ -15655,7 +15655,7 @@ trainerdata 466, "Tiffany"
         pokemon SPECIES_CLEFAIRY
         move MOVE_GRAVITY
         move MOVE_SING
-        move MOVE_WAKE_UP_SLAP
+        move MOVE_EAR_WHACK
         move MOVE_METRONOME
         ballseal 0
     endparty
@@ -15680,7 +15680,7 @@ trainerdata 467, "Tiffany"
         pokemon SPECIES_CLEFABLE
         move MOVE_GRAVITY
         move MOVE_SING
-        move MOVE_WAKE_UP_SLAP
+        move MOVE_EAR_WHACK
         move MOVE_MOONLIGHT
         ballseal 0
     endparty
@@ -21461,7 +21461,7 @@ trainerdata 642, "Billy"
         abilityslot 0
         level 53
         pokemon SPECIES_POLIWRATH
-        move MOVE_WAKE_UP_SLAP
+        move MOVE_EAR_WHACK
         move MOVE_BELLY_DRUM
         move MOVE_DYNAMIC_PUNCH
         move MOVE_HYPNOSIS

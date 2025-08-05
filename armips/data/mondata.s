@@ -4930,7 +4930,7 @@ mondata SPECIES_PORYGON2, "Porygon2"
 
 mondata SPECIES_STANTLER, "Stantler"
     basestats 73, 95, 62, 85, 85, 65
-    types TYPE_NORMAL, TYPE_NORMAL
+    types TYPE_NORMAL, TYPE_ICE
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
@@ -4940,7 +4940,7 @@ mondata SPECIES_STANTLER, "Stantler"
     basefriendship 70
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_INTIMIDATE, ABILITY_FRISK
+    abilities ABILITY_SLUSH_RUSH, ABILITY_ANALYTIC
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_STANTLER, "The curved antlers subtly change\nthe flow of air to create a strange\nspace where reality is distorted."
@@ -10327,7 +10327,7 @@ mondata SPECIES_MANAPHY, "Manaphy"
 
 mondata SPECIES_DARKRAI, "Darkrai"
     basestats 70, 90, 90, 125, 135, 90
-    types TYPE_DARK, TYPE_DARK
+    types TYPE_DARK, TYPE_GHOST
     catchrate 3
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 2, 0
@@ -10348,7 +10348,7 @@ mondata SPECIES_DARKRAI, "Darkrai"
 
 mondata SPECIES_SHAYMIN, "Shaymin"
     basestats 100, 100, 100, 100, 100, 100
-    types TYPE_GRASS, TYPE_GRASS
+    types TYPE_GRASS, TYPE_FAIRY
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 3, 0, 0, 0, 0, 0
@@ -10358,7 +10358,7 @@ mondata SPECIES_SHAYMIN, "Shaymin"
     basefriendship 100
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_NATURAL_CURE, ABILITY_NONE
+    abilities ABILITY_GRASSY_SURGE, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
     mondexentry SPECIES_SHAYMIN, "The blooming of Gracidea flowers confers\nthe power of flight upon it. Feelings \nof gratitude are the message it delivers."
@@ -13116,7 +13116,7 @@ mondata SPECIES_CINCCINO, "Cinccino"
 
 mondata SPECIES_GOTHITA, "Gothita"
     basestats 45, 30, 50, 45, 55, 65
-    types TYPE_PSYCHIC, TYPE_PSYCHIC
+    types TYPE_DARK, TYPE_DARK
     catchrate 200
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 1
@@ -13137,7 +13137,7 @@ mondata SPECIES_GOTHITA, "Gothita"
 
 mondata SPECIES_GOTHORITA, "Gothorita"
     basestats 60, 45, 70, 55, 75, 85
-    types TYPE_PSYCHIC, TYPE_PSYCHIC
+    types TYPE_DARK, TYPE_COSMIC
     catchrate 100
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 2
@@ -13158,7 +13158,7 @@ mondata SPECIES_GOTHORITA, "Gothorita"
 
 mondata SPECIES_GOTHITELLE, "Gothitelle"
     basestats 70, 55, 95, 65, 95, 110
-    types TYPE_PSYCHIC, TYPE_PSYCHIC
+    types TYPE_DARK, TYPE_COSMIC
     catchrate 50
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 3
@@ -16306,7 +16306,7 @@ mondata SPECIES_PIEP, "Piep"
     mondexweight SPECIES_PIEP, "10.5 lbs."
 
 
-mondata SPECIES_PIPYRO, "Piepyro"
+mondata SPECIES_PRRING, "Prring"
     basestats 54, 81, 52, 92, 75, 56
     types TYPE_DARK, TYPE_FIRE
     catchrate 120
@@ -16321,10 +16321,10 @@ mondata SPECIES_PIPYRO, "Piepyro"
     abilities ABILITY_RATTLED, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_RED, 0
-    mondexentry SPECIES_PIPYRO, "It boasts powerful front legs. With a\nsingle punch, it can bend an iron bar\nright over."
-    mondexclassification SPECIES_PIPYRO, "Fire Cat Pokémon"
-    mondexheight SPECIES_PIPYRO, "2’04”"
-    mondexweight SPECIES_PIPYRO, "55.1 lbs."
+    mondexentry SPECIES_PRRING, "It boasts powerful front legs. With a\nsingle punch, it can bend an iron bar\nright over."
+    mondexclassification SPECIES_PRRING, "Fire Cat Pokémon"
+    mondexheight SPECIES_PRRING, "2’04”"
+    mondexweight SPECIES_PRRING, "55.1 lbs."
 
 
 mondata SPECIES_INCINEROAR, "Furnassaul"
@@ -19437,7 +19437,7 @@ mondata SPECIES_STONJOURNER, "Stonjorner"
 
 mondata SPECIES_PINGWINNER, "Eiscue"
     basestats 75, 80, 110, 50, 65, 90
-    types TYPE_ICE, TYPE_ICE
+    types TYPE_ICE, TYPE_WATER
     catchrate 60
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 0
@@ -19941,7 +19941,7 @@ mondata SPECIES_CALYREX, "Calyrex"
 
 mondata SPECIES_WYRDEER, "Wyrdeer"
     basestats 103, 105, 72, 65, 105, 75
-    types TYPE_NORMAL, TYPE_PSYCHIC
+    types TYPE_PSYCHIC, TYPE_ICE
     catchrate 135
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
@@ -19951,7 +19951,7 @@ mondata SPECIES_WYRDEER, "Wyrdeer"
     basefriendship 70
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_INTIMIDATE, ABILITY_FRISK
+    abilities ABILITY_SLUSH_RUSH, ABILITY_ANALYTIC
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
     mondexentry SPECIES_WYRDEER, "The fur shed from its beard retains\nheat well and is a highly useful\nmaterial for winter clothing."

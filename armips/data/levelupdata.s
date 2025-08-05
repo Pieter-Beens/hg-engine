@@ -726,7 +726,7 @@ levelup SPECIES_CLEFAIRY
     learnset MOVE_MINIMIZE, 15
 //    learnset MOVE_LIFE_DEW, 16
 //    learnset MOVE_BESTOW, 19
-    learnset MOVE_WAKE_UP_SLAP, 22
+    learnset MOVE_EAR_WHACK, 22
     learnset MOVE_METRONOME, 25
     learnset MOVE_FOLLOW_ME, 26
     learnset MOVE_MOONLIGHT, 32
@@ -842,7 +842,7 @@ levelup SPECIES_JIGGLYPUFF
     learnset MOVE_ROLLOUT, 20
     learnset MOVE_REST, 24
     learnset MOVE_BODY_SLAM, 27
-    learnset MOVE_WAKE_UP_SLAP, 27
+    learnset MOVE_EAR_WHACK, 27
     learnset MOVE_MIMIC, 32
     learnset MOVE_GYRO_BALL, 33
     learnset MOVE_HYPER_VOICE, 38
@@ -1317,7 +1317,7 @@ levelup SPECIES_POLIWAG
     learnset MOVE_BUBBLE_BEAM, 21
     learnset MOVE_RAIN_DANCE, 21
     learnset MOVE_BODY_SLAM, 25
-    learnset MOVE_WAKE_UP_SLAP, 35
+    learnset MOVE_EAR_WHACK, 35
     learnset MOVE_EARTH_POWER, 36
     learnset MOVE_HYDRO_PUMP, 40
     learnset MOVE_BELLY_DRUM, 40
@@ -1341,7 +1341,7 @@ levelup SPECIES_POLIWHIRL
     learnset MOVE_BODY_SLAM, 26
     learnset MOVE_MUD_SHOT, 32
     learnset MOVE_EARTH_POWER, 40
-    learnset MOVE_WAKE_UP_SLAP, 43
+    learnset MOVE_EAR_WHACK, 43
     learnset MOVE_BELLY_DRUM, 47
     learnset MOVE_HYDRO_PUMP, 48
     learnset MOVE_MUD_BOMB, 53
@@ -1437,7 +1437,7 @@ levelup SPECIES_MACHOP
     learnset MOVE_REVENGE, 13
     learnset MOVE_KNOCK_OFF, 18
     learnset MOVE_VITAL_THROW, 24
-    learnset MOVE_WAKE_UP_SLAP, 27
+    learnset MOVE_EAR_WHACK, 27
     learnset MOVE_SEISMIC_TOSS, 28
     learnset MOVE_STRENGTH, 29
     learnset MOVE_SCARY_FACE, 30
@@ -1463,7 +1463,7 @@ levelup SPECIES_MACHOKE
     learnset MOVE_KNOCK_OFF, 18
     learnset MOVE_REVENGE, 19
     learnset MOVE_VITAL_THROW, 24
-    learnset MOVE_WAKE_UP_SLAP, 27
+    learnset MOVE_EAR_WHACK, 27
     learnset MOVE_STRENGTH, 31
     learnset MOVE_SEISMIC_TOSS, 32
     learnset MOVE_DUAL_CHOP, 34
@@ -1492,7 +1492,7 @@ levelup SPECIES_MACHAMP
     learnset MOVE_KNOCK_OFF, 18
     learnset MOVE_REVENGE, 19
     learnset MOVE_VITAL_THROW, 24
-    learnset MOVE_WAKE_UP_SLAP, 27
+    learnset MOVE_EAR_WHACK, 27
     learnset MOVE_STRENGTH, 31
     learnset MOVE_SEISMIC_TOSS, 32
     learnset MOVE_DUAL_CHOP, 34
@@ -2138,7 +2138,7 @@ levelup SPECIES_DROWZEE
     learnset MOVE_POISON_GAS, 17
     learnset MOVE_MEDITATE, 21
     learnset MOVE_PSYBEAM, 25
-    learnset MOVE_WAKE_UP_SLAP, 29
+    learnset MOVE_EAR_WHACK, 29
     learnset MOVE_PSYCH_UP, 33
     learnset MOVE_SYNCHRONOISE, 37
     learnset MOVE_ZEN_HEADBUTT, 41
@@ -2165,7 +2165,7 @@ levelup SPECIES_HYPNO
     learnset MOVE_POISON_GAS, 17
     learnset MOVE_MEDITATE, 21
     learnset MOVE_PSYBEAM, 25
-    learnset MOVE_WAKE_UP_SLAP, 29
+    learnset MOVE_EAR_WHACK, 29
     learnset MOVE_PSYCH_UP, 33
     learnset MOVE_SYNCHRONOISE, 37
     learnset MOVE_ZEN_HEADBUTT, 41
@@ -2856,7 +2856,7 @@ levelup SPECIES_JYNX
     learnset MOVE_ICE_PUNCH, 23
     learnset MOVE_FAKE_TEARS, 25
     learnset MOVE_LOVELY_KISS, 25
-    learnset MOVE_WAKE_UP_SLAP, 33
+    learnset MOVE_EAR_WHACK, 33
     learnset MOVE_PSYCHIC, 34
     learnset MOVE_MEAN_LOOK, 36
     learnset MOVE_AVALANCHE, 39
@@ -5486,7 +5486,7 @@ levelup SPECIES_MILTANK
     learnset MOVE_GYRO_BALL, 41
     learnset MOVE_PLAY_ROUGH, 45
     learnset MOVE_CHARM, 50
-    learnset MOVE_WAKE_UP_SLAP, 50
+    learnset MOVE_EAR_WHACK, 50
     learnset MOVE_HIGH_HORSEPOWER, 55
     terminatelearnset
 
@@ -6794,7 +6794,7 @@ levelup SPECIES_MAKUHITA
     learnset MOVE_BELLY_DRUM, 25
     learnset MOVE_SMELLING_SALTS, 28
     learnset MOVE_SEISMIC_TOSS, 31
-    learnset MOVE_WAKE_UP_SLAP, 34
+    learnset MOVE_EAR_WHACK, 34
     learnset MOVE_ENDURE, 37
     learnset MOVE_CLOSE_COMBAT, 40
     learnset MOVE_REVERSAL, 43
@@ -6818,7 +6818,7 @@ levelup SPECIES_HARIYAMA
     learnset MOVE_BELLY_DRUM, 26
     learnset MOVE_SMELLING_SALTS, 30
     learnset MOVE_SEISMIC_TOSS, 34
-    learnset MOVE_WAKE_UP_SLAP, 38
+    learnset MOVE_EAR_WHACK, 38
     learnset MOVE_ENDURE, 42
     learnset MOVE_CLOSE_COMBAT, 46
     learnset MOVE_REVERSAL, 50
@@ -6874,7 +6874,7 @@ levelup SPECIES_SKITTY
     learnset MOVE_COPYCAT, 19
     learnset MOVE_FEINT_ATTACK, 22
     learnset MOVE_CHARM, 25
-    learnset MOVE_WAKE_UP_SLAP, 28
+    learnset MOVE_EAR_WHACK, 28
     learnset MOVE_ASSIST, 31
     learnset MOVE_COVET, 34
     learnset MOVE_HEAL_BELL, 37
@@ -10928,7 +10928,7 @@ levelup SPECIES_FROSLASS
 //    learnset MOVE_DRAINING_KISS, 21
     learnset MOVE_FROST_BREATH, 30
     learnset MOVE_CONFUSE_RAY, 33
-    learnset MOVE_WAKE_UP_SLAP, 37
+    learnset MOVE_EAR_WHACK, 37
     learnset MOVE_WILL_O_WISP, 38
     learnset MOVE_CAPTIVATE, 41
     learnset MOVE_HAIL, 46
@@ -12472,7 +12472,7 @@ levelup SPECIES_TIMBURR
     learnset MOVE_FOCUS_ENERGY, 8
     learnset MOVE_BIDE, 8
     learnset MOVE_ROCK_THROW, 11
-    learnset MOVE_WAKE_UP_SLAP, 20
+    learnset MOVE_EAR_WHACK, 20
     learnset MOVE_BULK_UP, 21
     learnset MOVE_SLAM, 24
     learnset MOVE_CHIP_AWAY, 24
@@ -12497,7 +12497,7 @@ levelup SPECIES_GURDURR
     learnset MOVE_BIDE, 8
     learnset MOVE_LOW_KICK, 12
     learnset MOVE_ROCK_THROW, 16
-    learnset MOVE_WAKE_UP_SLAP, 20
+    learnset MOVE_EAR_WHACK, 20
     learnset MOVE_BULK_UP, 22
     learnset MOVE_SLAM, 24
     learnset MOVE_CHIP_AWAY, 24
@@ -12522,7 +12522,7 @@ levelup SPECIES_CONKELDURR
     learnset MOVE_BIDE, 8
     learnset MOVE_LOW_KICK, 12
     learnset MOVE_ROCK_THROW, 16
-    learnset MOVE_WAKE_UP_SLAP, 20
+    learnset MOVE_EAR_WHACK, 20
     learnset MOVE_BULK_UP, 22
     learnset MOVE_SLAM, 24
     learnset MOVE_CHIP_AWAY, 24
@@ -13417,7 +13417,7 @@ levelup SPECIES_MINCCINO
     learnset MOVE_CHARM, 21
     learnset MOVE_TICKLE, 23
     learnset MOVE_TAIL_SLAP, 28
-    learnset MOVE_WAKE_UP_SLAP, 31
+    learnset MOVE_EAR_WHACK, 31
 //    learnset MOVE_AFTER_YOU, 37
     learnset MOVE_SLAM, 38
     learnset MOVE_CAPTIVATE, 39
@@ -13952,7 +13952,7 @@ levelup SPECIES_ALOMOMOLA
 //    learnset MOVE_HEAL_PULSE, 17
     learnset MOVE_PROTECT, 21
     learnset MOVE_WATER_PULSE, 25
-    learnset MOVE_WAKE_UP_SLAP, 29
+    learnset MOVE_EAR_WHACK, 29
     learnset MOVE_SOAK, 33
     learnset MOVE_WISH, 37
     learnset MOVE_BRINE, 41
@@ -15252,7 +15252,7 @@ levelup SPECIES_MELOETTA
     learnset MOVE_PSYBEAM, 31
     learnset MOVE_ECHOED_VOICE, 36
     learnset MOVE_U_TURN, 43
-    learnset MOVE_WAKE_UP_SLAP, 50
+    learnset MOVE_EAR_WHACK, 50
     learnset MOVE_PSYCHIC, 57
     learnset MOVE_HYPER_VOICE, 64
     learnset MOVE_ROLE_PLAY, 71
@@ -17053,7 +17053,7 @@ levelup SPECIES_PIEP
     terminatelearnset
 
 
-levelup SPECIES_PIPYRO
+levelup SPECIES_PRRING
     learnset MOVE_SCRATCH, 1
     learnset MOVE_GROWL, 1
     learnset MOVE_DISARMING_VOICE, 1
@@ -18481,7 +18481,7 @@ levelup SPECIES_SOLGALEO
     learnset MOVE_TELEPORT, 1
     learnset MOVE_METAL_CLAW, 1
 //    learnset MOVE_NOBLE_ROAR, 1
-    learnset MOVE_WAKE_UP_SLAP, 1
+    learnset MOVE_EAR_WHACK, 1
     learnset MOVE_IRON_HEAD, 7
     learnset MOVE_METAL_SOUND, 13
     learnset MOVE_ZEN_HEADBUTT, 20
@@ -26315,7 +26315,7 @@ levelup SPECIES_MELOETTA_PIROUETTE
     learnset MOVE_PSYBEAM, 31
     learnset MOVE_ECHOED_VOICE, 36
     learnset MOVE_U_TURN, 43
-    learnset MOVE_WAKE_UP_SLAP, 50
+    learnset MOVE_EAR_WHACK, 50
     learnset MOVE_PSYCHIC, 57
     learnset MOVE_HYPER_VOICE, 64
     learnset MOVE_ROLE_PLAY, 71

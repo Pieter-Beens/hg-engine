@@ -139,7 +139,7 @@
 //.halfword SPECIES_AURORUS
 //.halfword SPECIES_SYLVEON
 //.halfword SPECIES_AVALUGG
-//.halfword SPECIES_PIPYRO
+//.halfword SPECIES_PRRING
 //.halfword SPECIES_GUMSHOOS
 //.halfword SPECIES_LYCANROC
 //.halfword SPECIES_MUDSDALE

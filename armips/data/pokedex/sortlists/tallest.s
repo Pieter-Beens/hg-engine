@@ -553,7 +553,7 @@
 //.halfword SPECIES_STEENEE
 //.halfword SPECIES_TOXAPEX
 //.halfword SPECIES_GUMSHOOS
-//.halfword SPECIES_PIPYRO
+//.halfword SPECIES_PRRING
 //.halfword SPECIES_DARTRIX
 //.halfword SPECIES_DIANCIE
 //.halfword SPECIES_FLETCHINDER

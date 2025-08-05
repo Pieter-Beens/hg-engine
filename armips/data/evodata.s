@@ -1970,7 +1970,7 @@ evodata SPECIES_FURRET
 
 evodata SPECIES_HOOTHOOT
     evolution EVO_LEVEL, 20, SPECIES_NOCTOWL
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_LEVEL, 4, SPECIES_WEEDLE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -9317,7 +9317,7 @@ evodata SPECIES_DECIDUEYE
 terminateevodata
 
 evodata SPECIES_PIEP
-    evolution EVO_LEVEL, 17, SPECIES_PIPYRO
+    evolution EVO_LEVEL, 17, SPECIES_PRRING
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -9328,7 +9328,7 @@ evodata SPECIES_PIEP
     evolution EVO_NONE, 0, SPECIES_NONE
 terminateevodata
 
-evodata SPECIES_PIPYRO
+evodata SPECIES_PRRING
     evolution EVO_LEVEL, 34, SPECIES_INCINEROAR
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

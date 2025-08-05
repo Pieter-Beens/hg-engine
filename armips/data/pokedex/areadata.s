@@ -27346,35 +27346,35 @@ routesandcities SPECIES_PIEP, DEX_SPECIAL
     dexendareadata
 
 
-specialareas SPECIES_PIPYRO, DEX_MORNING
+specialareas SPECIES_PRRING, DEX_MORNING
     dexendareadata
 
 
-specialareas SPECIES_PIPYRO, DEX_DAY
+specialareas SPECIES_PRRING, DEX_DAY
     dexendareadata
 
 
-specialareas SPECIES_PIPYRO, DEX_NIGHT
+specialareas SPECIES_PRRING, DEX_NIGHT
     dexendareadata
 
 
-routesandcities SPECIES_PIPYRO, DEX_MORNING
+routesandcities SPECIES_PRRING, DEX_MORNING
     dexendareadata
 
 
-routesandcities SPECIES_PIPYRO, DEX_DAY
+routesandcities SPECIES_PRRING, DEX_DAY
     dexendareadata
 
 
-routesandcities SPECIES_PIPYRO, DEX_NIGHT
+routesandcities SPECIES_PRRING, DEX_NIGHT
     dexendareadata
 
 
-specialareas SPECIES_PIPYRO, DEX_SPECIAL
+specialareas SPECIES_PRRING, DEX_SPECIAL
     dexendareadata
 
 
-routesandcities SPECIES_PIPYRO, DEX_SPECIAL
+routesandcities SPECIES_PRRING, DEX_SPECIAL
     dexendareadata
 
 

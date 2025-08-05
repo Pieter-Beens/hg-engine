@@ -4253,7 +4253,7 @@ movedata MOVE_FOCUS_PUNCH, "Focus Punch"
 movedata MOVE_SMELLING_SALTS, "Smelling Salts"
     battleeffect MOVE_EFFECT_DOUBLE_POWER_AND_CURE_PARALYSIS
     pss SPLIT_PHYSICAL
-    basepower 70
+    basepower 85
     type TYPE_NORMAL
     accuracy 100
     pp 10
@@ -5738,7 +5738,7 @@ movedata MOVE_MIRACLE_EYE, "Miracle Eye"
     terminatedata
     movedescription MOVE_MIRACLE_EYE, "Enables the user to\nhit a Dark type with\nany type of move. It\nalso enables the user\nto hit an evasive foe."
 
-movedata MOVE_WAKE_UP_SLAP, "Ear Whack"
+movedata MOVE_EAR_WHACK, "Ear Whack"
     battleeffect MOVE_EFFECT_DOUBLE_POWER_HEAL_SLEEP
     pss SPLIT_PHYSICAL
     basepower 80
@@ -5752,7 +5752,7 @@ movedata MOVE_WAKE_UP_SLAP, "Ear Whack"
     appeal 0x10
     contesttype CONTEST_SMART
     terminatedata
-    movedescription MOVE_WAKE_UP_SLAP, "This attack inflicts\nhigh damage on a\nsleeping foe. It\nalso wakes the foe\nup, however."
+    movedescription MOVE_EAR_WHACK, "This attack inflicts\nhigh damage on a\nsleeping foe. It\nalso wakes the foe\nup, however."
 
 movedata MOVE_HAMMER_ARM, "Hammer Arm"
     battleeffect MOVE_EFFECT_USER_SPEED_DOWN_HIT
