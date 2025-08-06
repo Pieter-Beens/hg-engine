@@ -205,7 +205,7 @@ mondata SPECIES_WARTORTLE, "Wartortle"
 
 mondata SPECIES_BLASTOISE, "Blastoise"
     basestats 79, 83, 100, 78, 85, 105
-    types TYPE_WATER, TYPE_STEEL
+    types TYPE_WATER, TYPE_WATER
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 3
@@ -331,7 +331,7 @@ mondata SPECIES_KAKUNA, "Kakuna"
 
 mondata SPECIES_BEEDRILL, "Beedrill"
     basestats 65, 90, 40, 75, 45, 80
-    types TYPE_BUG, TYPE_STEEL
+    types TYPE_BUG, TYPE_FIGHTING
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 1
@@ -16308,7 +16308,7 @@ mondata SPECIES_PIEP, "Piep"
 
 mondata SPECIES_PRRING, "Prring"
     basestats 54, 81, 52, 92, 75, 56
-    types TYPE_DARK, TYPE_FIRE
+    types TYPE_DARK, TYPE_SOUND
     catchrate 120
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 2, 0, 0
@@ -22672,7 +22672,7 @@ mondata SPECIES_MEGA_BLASTOISE, "-----"
 
 mondata SPECIES_MEGA_BEEDRILL, "-----"
     basestats 65, 150, 40, 145, 15, 80
-    types TYPE_BUG, TYPE_STEEL
+    types TYPE_BUG, TYPE_FIGHTING
     catchrate 45
     baseexp 159
     evyields 0, 2, 0, 0, 0, 1
