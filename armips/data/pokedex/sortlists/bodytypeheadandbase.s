@@ -40,7 +40,7 @@
 //.halfword SPECIES_MALAMAR
 //.halfword SPECIES_RUNERIGUS
 //.halfword SPECIES_ALCREMIE
-//.halfword SPECIES_HATTERENE
+//.halfword SPECIES_CEOKING
 
 
 .close

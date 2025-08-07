@@ -27762,35 +27762,35 @@ routesandcities SPECIES_VIKAVOLT, DEX_SPECIAL
     dexendareadata
 
 
-specialareas SPECIES_CRABRAWLER, DEX_MORNING
+specialareas SPECIES_EVINSIR, DEX_MORNING
     dexendareadata
 
 
-specialareas SPECIES_CRABRAWLER, DEX_DAY
+specialareas SPECIES_EVINSIR, DEX_DAY
     dexendareadata
 
 
-specialareas SPECIES_CRABRAWLER, DEX_NIGHT
+specialareas SPECIES_EVINSIR, DEX_NIGHT
     dexendareadata
 
 
-routesandcities SPECIES_CRABRAWLER, DEX_MORNING
+routesandcities SPECIES_EVINSIR, DEX_MORNING
     dexendareadata
 
 
-routesandcities SPECIES_CRABRAWLER, DEX_DAY
+routesandcities SPECIES_EVINSIR, DEX_DAY
     dexendareadata
 
 
-routesandcities SPECIES_CRABRAWLER, DEX_NIGHT
+routesandcities SPECIES_EVINSIR, DEX_NIGHT
     dexendareadata
 
 
-specialareas SPECIES_CRABRAWLER, DEX_SPECIAL
+specialareas SPECIES_EVINSIR, DEX_SPECIAL
     dexendareadata
 
 
-routesandcities SPECIES_CRABRAWLER, DEX_SPECIAL
+routesandcities SPECIES_EVINSIR, DEX_SPECIAL
     dexendareadata
 
 
@@ -28114,35 +28114,35 @@ routesandcities SPECIES_MINIMOO, DEX_SPECIAL
     dexendareadata
 
 
-specialareas SPECIES_MUDSDALE, DEX_MORNING
+specialareas SPECIES_ABSALVO, DEX_MORNING
     dexendareadata
 
 
-specialareas SPECIES_MUDSDALE, DEX_DAY
+specialareas SPECIES_ABSALVO, DEX_DAY
     dexendareadata
 
 
-specialareas SPECIES_MUDSDALE, DEX_NIGHT
+specialareas SPECIES_ABSALVO, DEX_NIGHT
     dexendareadata
 
 
-routesandcities SPECIES_MUDSDALE, DEX_MORNING
+routesandcities SPECIES_ABSALVO, DEX_MORNING
     dexendareadata
 
 
-routesandcities SPECIES_MUDSDALE, DEX_DAY
+routesandcities SPECIES_ABSALVO, DEX_DAY
     dexendareadata
 
 
-routesandcities SPECIES_MUDSDALE, DEX_NIGHT
+routesandcities SPECIES_ABSALVO, DEX_NIGHT
     dexendareadata
 
 
-specialareas SPECIES_MUDSDALE, DEX_SPECIAL
+specialareas SPECIES_ABSALVO, DEX_SPECIAL
     dexendareadata
 
 
-routesandcities SPECIES_MUDSDALE, DEX_SPECIAL
+routesandcities SPECIES_ABSALVO, DEX_SPECIAL
     dexendareadata
 
 
@@ -31570,35 +31570,35 @@ routesandcities SPECIES_HATTREM, DEX_SPECIAL
     dexendareadata
 
 
-specialareas SPECIES_HATTERENE, DEX_MORNING
+specialareas SPECIES_CEOKING, DEX_MORNING
     dexendareadata
 
 
-specialareas SPECIES_HATTERENE, DEX_DAY
+specialareas SPECIES_CEOKING, DEX_DAY
     dexendareadata
 
 
-specialareas SPECIES_HATTERENE, DEX_NIGHT
+specialareas SPECIES_CEOKING, DEX_NIGHT
     dexendareadata
 
 
-routesandcities SPECIES_HATTERENE, DEX_MORNING
+routesandcities SPECIES_CEOKING, DEX_MORNING
     dexendareadata
 
 
-routesandcities SPECIES_HATTERENE, DEX_DAY
+routesandcities SPECIES_CEOKING, DEX_DAY
     dexendareadata
 
 
-routesandcities SPECIES_HATTERENE, DEX_NIGHT
+routesandcities SPECIES_CEOKING, DEX_NIGHT
     dexendareadata
 
 
-specialareas SPECIES_HATTERENE, DEX_SPECIAL
+specialareas SPECIES_CEOKING, DEX_SPECIAL
     dexendareadata
 
 
-routesandcities SPECIES_HATTERENE, DEX_SPECIAL
+routesandcities SPECIES_CEOKING, DEX_SPECIAL
     dexendareadata
 
 

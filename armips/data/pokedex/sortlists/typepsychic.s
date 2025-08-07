@@ -89,7 +89,7 @@
 //.halfword SPECIES_ORBEETLE
 //.halfword SPECIES_HATENNA
 //.halfword SPECIES_HATTREM
-//.halfword SPECIES_HATTERENE
+//.halfword SPECIES_CEOKING
 //.halfword SPECIES_MR_RIME
 //.halfword SPECIES_INDEEDEE
 //.halfword SPECIES_CALYREX

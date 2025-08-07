@@ -795,7 +795,7 @@
 /* SPECIES_GRUBBIN                           */ .word 44
 /* SPECIES_CHARJABUG                         */ .word 105
 /* SPECIES_VIKAVOLT                          */ .word 450
-/* SPECIES_CRABRAWLER                        */ .word 70
+/* SPECIES_EVINSIR                        */ .word 70
 /* SPECIES_CRABOMINABLE                      */ .word 1800
 /* SPECIES_ORICORIO                          */ .word 34
 /* SPECIES_CUTIEFLY                          */ .word 2
@@ -806,7 +806,7 @@
 /* SPECIES_MAREANIE                          */ .word 80
 /* SPECIES_TOXAPEX                           */ .word 145
 /* SPECIES_MINIMOO                           */ .word 1100
-/* SPECIES_MUDSDALE                          */ .word 9200
+/* SPECIES_ABSALVO                          */ .word 9200
 /* SPECIES_DEWPIDER                          */ .word 40
 /* SPECIES_ARAQUANID                         */ .word 820
 /* SPECIES_FOMANTIS                          */ .word 15
@@ -914,7 +914,7 @@
 /* SPECIES_POLTEAGEIST                       */ .word 4
 /* SPECIES_HATENNA                           */ .word 34
 /* SPECIES_HATTREM                           */ .word 48
-/* SPECIES_HATTERENE                         */ .word 51
+/* SPECIES_CEOKING                         */ .word 51
 /* SPECIES_IMPIDIMP                          */ .word 55
 /* SPECIES_MORGREM                           */ .word 125
 /* SPECIES_GRIMMSNARL                        */ .word 610
@@ -1108,8 +1108,8 @@
 /* SPECIES_MEGA_BLAZIKEN                     */ .word 520
 /* SPECIES_MEGA_SWAMPERT                     */ .word 1020
 /* SPECIES_MEGA_GARDEVOIR                    */ .word 484
-/* SPECIES_RUBEYE                      */ .word 1610
-/* SPECIES_MAWSUM                       */ .word 235
+/* SPECIES_MEGA_SABLEYE                      */ .word 1610
+/* SPECIES_MEGA_MAWILE                       */ .word 235
 /* SPECIES_MEGA_AGGRON                       */ .word 3950
 /* SPECIES_MEGA_MEDICHAM                     */ .word 315
 /* SPECIES_MEGA_MANECTRIC                    */ .word 440

@@ -1323,7 +1323,7 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
     { .tag = 1442, .gfx = 1120, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_GRUBBIN
     { .tag = 1443, .gfx = 1121, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_CHARJABUG
     { .tag = 1444, .gfx = 1122, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_VIKAVOLT
-    { .tag = 1445, .gfx = 1123, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_CRABRAWLER
+    { .tag = 1445, .gfx = 1123, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_EVINSIR
     { .tag = 1446, .gfx = 1124, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_CRABOMINABLE
     { .tag = 1447, .gfx = 1125, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_ORICORIO
     { .tag = 1448, .gfx = 1408, .callback_params = OVERWORLD_SIZE_SMALL}, // pom pom
@@ -1340,7 +1340,7 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
     { .tag = 1459, .gfx = 1131, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_MAREANIE
     { .tag = 1460, .gfx = 1132, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_TOXAPEX
     { .tag = 1461, .gfx = 1133, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_MINIMOO
-    { .tag = 1462, .gfx = 1134, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_MUDSDALE
+    { .tag = 1462, .gfx = 1134, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_ABSALVO
     { .tag = 1463, .gfx = 1135, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_DEWPIDER
     { .tag = 1464, .gfx = 1136, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_ARAQUANID
     { .tag = 1465, .gfx = 1137, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_FOMANTIS
@@ -1477,7 +1477,7 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
     { .tag = 1596, .gfx = 1239, .callback_params = OVERWORLD_SIZE_SMALL}, // antique
     { .tag = 1597, .gfx = 1240, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_HATENNA
     { .tag = 1598, .gfx = 1241, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_HATTREM
-    { .tag = 1599, .gfx = 1242, .callback_params = OVERWORLD_SIZE_LARGE}, // SPECIES_HATTERENE
+    { .tag = 1599, .gfx = 1242, .callback_params = OVERWORLD_SIZE_LARGE}, // SPECIES_CEOKING
     { .tag = 1600, .gfx = 1243, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_IMPIDIMP
     { .tag = 1601, .gfx = 1244, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_MORGREM
     { .tag = 1602, .gfx = 1245, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_GRIMMSNARL

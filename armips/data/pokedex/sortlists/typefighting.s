@@ -47,7 +47,7 @@
 //.halfword SPECIES_PANCHAM
 //.halfword SPECIES_PANGORO
 //.halfword SPECIES_HAWLUCHA
-//.halfword SPECIES_CRABRAWLER
+//.halfword SPECIES_EVINSIR
 //.halfword SPECIES_CRABOMINABLE
 //.halfword SPECIES_STUFFUL
 //.halfword SPECIES_BEWEAR

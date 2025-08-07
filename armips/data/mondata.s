@@ -7565,7 +7565,7 @@ mondata SPECIES_ABSOL, "Absol"
     basefriendship 35
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_PRESSURE, ABILITY_SUPER_LUCK
+    abilities ABILITY_INSOMNIA, ABILITY_SUPER_LUCK
     runchance 0
     colorflip BODY_COLOR_WHITE, 0
     mondexentry SPECIES_ABSOL, "It has the ability to foretell\nnatural disasters. Its life span is\nover a hundred years."
@@ -14915,7 +14915,7 @@ mondata SPECIES_BONKBAL, "Bonkbal"
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_BONKBAL, "They enjoy being thrown around\nand hit in the stomach, making them\na perfect pet for cruel children."
-    mondexclassification SPECIES_BONKBAL, "Digging Pokémon"
+    mondexclassification SPECIES_BONKBAL, "Baseball Pokémon"
     mondexheight SPECIES_BONKBAL, "1’04”"
     mondexweight SPECIES_BONKBAL, "11.0 lbs."
 
@@ -14923,7 +14923,7 @@ mondata SPECIES_BONKBAL, "Bonkbal"
 mondata SPECIES_WALLOPEE, "Wallopee"
     basestats 95, 110, 80, 70, 50, 75
     types TYPE_FIGHTING, TYPE_STEEL
-    catchrate 127
+    catchrate 1
     baseexp 0 // defined in baseexp.s
     evyields 2, 0, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
@@ -14936,7 +14936,8 @@ mondata SPECIES_WALLOPEE, "Wallopee"
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_WALLOPEE, "As powerful as an excavator, its ears\ncan reduce dense bedrock to rubble."
-    mondexclassification SPECIES_WALLOPEE, "Digging Pokémon"
+    mondexentry SPECIES_WALLOPEE, "It will strike anything thrown at it,\nmaking it impossible to catch with\n a Pokéball. Raise a Bonkbal instead."
+    mondexclassification SPECIES_WALLOPEE, "Batter Pokémon"
     mondexheight SPECIES_WALLOPEE, "3’03”"
     mondexweight SPECIES_WALLOPEE, "93.5 lbs."
 
@@ -16307,7 +16308,7 @@ mondata SPECIES_PIEP, "Piep"
 
 
 mondata SPECIES_PRRING, "Prring"
-    basestats 54, 81, 52, 92, 75, 56
+    basestats 72, 81, 67, 101, 95, 74
     types TYPE_DARK, TYPE_SOUND
     catchrate 120
     baseexp 0 // defined in baseexp.s
@@ -16321,10 +16322,10 @@ mondata SPECIES_PRRING, "Prring"
     abilities ABILITY_RATTLED, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_RED, 0
-    mondexentry SPECIES_PRRING, "It boasts powerful front legs. With a\nsingle punch, it can bend an iron bar\nright over."
-    mondexclassification SPECIES_PRRING, "Fire Cat Pokémon"
+    mondexentry SPECIES_PRRING, "It can disappear in darkness, yet it\nnever shows up unannounced due to its\nbells. Not sure how it catches prey."
+    mondexclassification SPECIES_PRRING, "Chatty Cat Pokémon"
     mondexheight SPECIES_PRRING, "2’04”"
-    mondexweight SPECIES_PRRING, "55.1 lbs."
+    mondexweight SPECIES_PRRING, "19.1 lbs."
 
 
 mondata SPECIES_INCINEROAR, "Furnassaul"
@@ -16579,25 +16580,25 @@ mondata SPECIES_VIKAVOLT, "Vikavolt"
     mondexweight SPECIES_VIKAVOLT, "99.2 lbs."
 
 
-mondata SPECIES_CRABRAWLER, "Crabrawler"
-    basestats 47, 82, 57, 63, 42, 47
-    types TYPE_FIGHTING, TYPE_FIGHTING
-    catchrate 225
-    baseexp 0 // defined in baseexp.s
-    evyields 0, 1, 0, 0, 0, 0
-    items ITEM_NONE, ITEM_ASPEAR_BERRY
+mondata SPECIES_EVINSIR, "Evinsir"
+    basestats 65, 155, 120, 105, 65, 90
+    types TYPE_BUG, TYPE_FLYING
+    catchrate 45
+    baseexp 200
+    evyields 0, 2, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
     genderratio 127
-    eggcycles 20
-    basefriendship 70
-    growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_WATER_3, EGG_GROUP_WATER_3
-    abilities ABILITY_HYPER_CUTTER, ABILITY_IRON_FIST
-    runchance 0
-    colorflip BODY_COLOR_PURPLE, 0
-    mondexentry SPECIES_CRABRAWLER, "Its hard pincers are well suited to\nboth offense and defense."
-    mondexclassification SPECIES_CRABRAWLER, "Boxing Pokémon"
-    mondexheight SPECIES_CRABRAWLER, "2’00”"
-    mondexweight SPECIES_CRABRAWLER, "15.4 lbs."
+    eggcycles 25
+    basefriendship 50
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
+    abilities ABILITY_AERILATE, ABILITY_AERILATE
+    runchance 125
+    colorflip BODY_COLOR_BROWN, 0
+    mondexentry SPECIES_EVINSIR, "No one knows who did what to make a\nPinsir this angry, but we will all\npay the price..."
+    mondexclassification SPECIES_EVINSIR, "Pissed Off Pokémon"
+    mondexheight SPECIES_EVINSIR, "6’10”"
+    mondexweight SPECIES_EVINSIR, "158.4 lbs."
 
 
 mondata SPECIES_CRABOMINABLE, "Crabomnabl"
@@ -16810,25 +16811,25 @@ mondata SPECIES_MINIMOO, "Minimoo"
     mondexweight SPECIES_MINIMOO, "242.5 lbs."
 
 
-mondata SPECIES_MUDSDALE, "Mudsdale"
-    basestats 100, 125, 100, 35, 55, 85
-    types TYPE_GROUND, TYPE_GROUND
-    catchrate 60
-    baseexp 0 // defined in baseexp.s
+mondata SPECIES_ABSALVO, "Absalvo"
+    basestats 65, 150, 60, 115, 115, 60
+    types TYPE_DARK, TYPE_FAIRY
+    catchrate 30
+    baseexp 174
     evyields 0, 2, 0, 0, 0, 0
-    items ITEM_NONE, ITEM_LIGHT_CLAY
+    items ITEM_NONE, ITEM_NONE
     genderratio 127
-    eggcycles 20
-    basefriendship 50
-    growthrate GROWTH_MEDIUM_FAST
+    eggcycles 25
+    basefriendship 35
+    growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_OWN_TEMPO, ABILITY_STAMINA
+    abilities ABILITY_JUSTIFIED, ABILITY_SUPER_LUCK
     runchance 0
-    colorflip BODY_COLOR_BROWN, 0
-    mondexentry SPECIES_MUDSDALE, "It can trudge mountain roads without\nrest for three days, all the while\ndragging a 10-ton load."
-    mondexclassification SPECIES_MUDSDALE, "Draft Horse Pokémon"
-    mondexheight SPECIES_MUDSDALE, "8’02”"
-    mondexweight SPECIES_MUDSDALE, "2028.3 lbs."
+    colorflip BODY_COLOR_WHITE, 0
+    mondexentry SPECIES_ABSOL, "It has the ability to prevent\nnatural disasters, but will only do\nso once in a hundred years."
+    mondexclassification SPECIES_ABSOL, "Balance Pokémon"
+    mondexheight SPECIES_ABSOL, "4’10”"
+    mondexweight SPECIES_ABSOL, "132.2 lbs."
 
 
 mondata SPECIES_DEWPIDER, "Dewpider"
@@ -19078,25 +19079,25 @@ mondata SPECIES_HATTREM, "Hattrem"
     mondexweight SPECIES_HATTREM, "10.6 lbs."
 
 
-mondata SPECIES_HATTERENE, "Hatterene"
-    basestats 57, 90, 95, 29, 136, 103
-    types TYPE_PSYCHIC, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_PSYCHIC
-    catchrate 45
-    baseexp 0 // defined in baseexp.s
-    evyields 0, 0, 0, 0, 3, 0
-    items ITEM_NONE, ITEM_NONE
-    genderratio 254
+mondata SPECIES_CEOKING, "Ceoking"
+    basestats 65, 90, 120, 60, 85, 70
+    types TYPE_POISON, TYPE_STEEL
+    catchrate 60
+    baseexp 172
+    evyields 0, 0, 2, 0, 0, 0
+    items ITEM_NONE, ITEM_MISTY_SEED
+    genderratio 127
     eggcycles 20
-    basefriendship 50
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
-    abilities ABILITY_HEALER, ABILITY_ANTICIPATION
+    basefriendship 70
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
+    abilities ABILITY_LEVITATE,  ABILITY_NONE
     runchance 0
-    colorflip BODY_COLOR_PINK, 0
-    mondexentry SPECIES_HATTERENE, "Known as the Forest Witch, if you are\ntoo loud around it, you risk being torn\napart by the claws on its tentacle."
-    mondexclassification SPECIES_HATTERENE, "Silent Pokémon"
-    mondexheight SPECIES_HATTERENE, "6’11”"
-    mondexweight SPECIES_HATTERENE, "11.2 lbs."
+    colorflip BODY_COLOR_GRAY, 0
+    mondexentry SPECIES_CEOKING, "The CO2 emissions from this Pokémon\nare of global concern, but it will\nalways put profits before people."
+    mondexclassification SPECIES_CEOKING, "Industrialist Pokémon"
+    mondexheight SPECIES_CEOKING, "8’02”"
+    mondexweight SPECIES_CEOKING, "1028.3 lbs."
 
 
 mondata SPECIES_IMPIDIMP, "Impidimp"
@@ -23006,7 +23007,7 @@ mondata SPECIES_MEGA_GARDEVOIR, "-----"
     runchance 0
     colorflip 0, 0
 
-mondata SPECIES_RUBEYE, "Rubeye"
+mondata SPECIES_MEGA_SABLEYE, "Rubeye"
     basestats 50, 85, 125, 20, 85, 115
     types TYPE_GHOST, TYPE_ROCK
     catchrate 45
@@ -23021,12 +23022,12 @@ mondata SPECIES_RUBEYE, "Rubeye"
     abilities ABILITY_MAGIC_BOUNCE, ABILITY_SHADOW_SHIELD
     runchance 0
     colorflip 0, 0
-    mondexentry SPECIES_RUBEYE, "It dwells in the darkness of caves.\nIt uses its sharp claws to dig up\ngems to nourish itself."
-    mondexclassification SPECIES_RUBEYE, "Darkness Pokémon"
-    mondexheight SPECIES_RUBEYE, "1’08”"
-    mondexweight SPECIES_RUBEYE, "24.3 lbs."
+    mondexentry SPECIES_MEGA_SABLEYE, "It dwells in the darkness of caves.\nIt uses its sharp claws to dig up\ngems to nourish itself."
+    mondexclassification SPECIES_MEGA_SABLEYE, "Darkness Pokémon"
+    mondexheight SPECIES_MEGA_SABLEYE, "1’08”"
+    mondexweight SPECIES_MEGA_SABLEYE, "24.3 lbs."
 
-mondata SPECIES_MAWSUM, "Mawsum"
+mondata SPECIES_MEGA_MAWILE, "Mawsum"
     basestats 50, 105, 125, 50, 55, 95
     types TYPE_STEEL, FAIRY_TYPE_IMPLEMENTED ? TYPE_FAIRY : TYPE_STEEL
     catchrate 45
@@ -23041,10 +23042,10 @@ mondata SPECIES_MAWSUM, "Mawsum"
     abilities ABILITY_HUGE_POWER, ABILITY_HUGE_POWER
     runchance 0
     colorflip 0, 0
-    mondexentry SPECIES_MAWSUM, "It chomps with its gaping mouth.\nIts huge jaws are actually steel\nhorns that have been transformed."
-    mondexclassification SPECIES_MAWSUM, "Deceiver Pokémon"
-    mondexheight SPECIES_MAWSUM, "2’00”"
-    mondexweight SPECIES_MAWSUM, "25.4 lbs."
+    mondexentry SPECIES_MEGA_MAWILE, "It chomps with its gaping mouth.\nIts huge jaws are actually steel\nhorns that have been transformed."
+    mondexclassification SPECIES_MEGA_MAWILE, "Deceiver Pokémon"
+    mondexheight SPECIES_MEGA_MAWILE, "2’00”"
+    mondexweight SPECIES_MEGA_MAWILE, "25.4 lbs."
 
 mondata SPECIES_MEGA_AGGRON, "-----"
     basestats 70, 140, 230, 50, 60, 80

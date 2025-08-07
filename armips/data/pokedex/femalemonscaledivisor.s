@@ -796,7 +796,7 @@
 /* SPECIES_GRUBBIN         */ .halfword 0x151
 /* SPECIES_CHARJABUG       */ .halfword 0x151
 /* SPECIES_VIKAVOLT        */ .halfword 0x151
-/* SPECIES_CRABRAWLER      */ .halfword 0x151
+/* SPECIES_EVINSIR      */ .halfword 0x151
 /* SPECIES_CRABOMINABLE    */ .halfword 0x151
 /* SPECIES_ORICORIO        */ .halfword 0x151
 /* SPECIES_CUTIEFLY        */ .halfword 0x151
@@ -807,7 +807,7 @@
 /* SPECIES_MAREANIE        */ .halfword 0x151
 /* SPECIES_TOXAPEX         */ .halfword 0x151
 /* SPECIES_MINIMOO         */ .halfword 0x151
-/* SPECIES_MUDSDALE        */ .halfword 0x151
+/* SPECIES_ABSALVO        */ .halfword 0x151
 /* SPECIES_DEWPIDER        */ .halfword 0x151
 /* SPECIES_ARAQUANID       */ .halfword 0x151
 /* SPECIES_FOMANTIS        */ .halfword 0x151
@@ -915,7 +915,7 @@
 /* SPECIES_POLTEAGEIST     */ .halfword 0x151
 /* SPECIES_HATENNA         */ .halfword 0x151
 /* SPECIES_HATTREM         */ .halfword 0x151
-/* SPECIES_HATTERENE       */ .halfword 0x151
+/* SPECIES_CEOKING       */ .halfword 0x151
 /* SPECIES_IMPIDIMP        */ .halfword 0x151
 /* SPECIES_MORGREM         */ .halfword 0x151
 /* SPECIES_GRIMMSNARL      */ .halfword 0x151

@@ -142,7 +142,7 @@
 //.halfword SPECIES_PRRING
 //.halfword SPECIES_GUMSHOOS
 //.halfword SPECIES_LYCANROC
-//.halfword SPECIES_MUDSDALE
+//.halfword SPECIES_ABSALVO
 //.halfword SPECIES_SALAZZLE
 //.halfword SPECIES_TYPE_NULL
 //.halfword SPECIES_JANGMO_O

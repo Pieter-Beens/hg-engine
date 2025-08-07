@@ -3382,7 +3382,7 @@ eggmoveentry SPECIES_GRUBBIN
 	eggmove MOVE_MUD_SHOT
 	eggmove MOVE_ENDURE
 
-eggmoveentry SPECIES_CRABRAWLER
+eggmoveentry SPECIES_EVINSIR
 	eggmove MOVE_WIDE_GUARD
 	eggmove MOVE_SUPERPOWER
 	eggmove MOVE_ENDEAVOR

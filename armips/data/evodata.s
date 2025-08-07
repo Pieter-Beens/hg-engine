@@ -1322,8 +1322,8 @@ evodata SPECIES_LICKITUNG
 
 evodata SPECIES_KOFFING
     evolution EVO_LEVEL, 35, SPECIES_WEEZING
-    evolutionwithform EVO_ITEM_DAY, ITEM_METAL_COAT, SPECIES_WEEZING, 1
-    evolutionwithform EVO_ITEM_NIGHT, ITEM_METAL_COAT, SPECIES_WEEZING, 1
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1333,8 +1333,8 @@ evodata SPECIES_KOFFING
     terminateevodata
 
 evodata SPECIES_WEEZING
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_ITEM_DAY, ITEM_METAL_COAT, SPECIES_CEOKING
+    evolution EVO_ITEM_NIGHT, ITEM_METAL_COAT, SPECIES_CEOKING
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1537,7 +1537,7 @@ evodata SPECIES_MAGMAR
     terminateevodata
 
 evodata SPECIES_PINSIR
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_LEVEL, 45, SPECIES_EVINSIR
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1970,7 +1970,7 @@ evodata SPECIES_FURRET
 
 evodata SPECIES_HOOTHOOT
     evolution EVO_LEVEL, 20, SPECIES_NOCTOWL
-    evolution EVO_LEVEL, 4, SPECIES_WEEDLE
+    evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -9484,8 +9484,8 @@ evodata SPECIES_VIKAVOLT
     evolution EVO_NONE, 0, SPECIES_NONE
 terminateevodata
 
-evodata SPECIES_CRABRAWLER
-    evolution EVO_STONE, ITEM_ICE_STONE, SPECIES_CRABOMINABLE
+evodata SPECIES_EVINSIR
+    evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -9617,7 +9617,7 @@ evodata SPECIES_MINIMOO
     evolution EVO_NONE, 0, SPECIES_NONE
 terminateevodata
 
-evodata SPECIES_MUDSDALE
+evodata SPECIES_ABSALVO
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -10903,7 +10903,7 @@ evodata SPECIES_HATENNA
 terminateevodata
 
 evodata SPECIES_HATTREM
-    evolution EVO_LEVEL, 42, SPECIES_HATTERENE
+    evolution EVO_LEVEL, 42, SPECIES_CEOKING
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -10914,7 +10914,7 @@ evodata SPECIES_HATTREM
     evolution EVO_NONE, 0, SPECIES_NONE
 terminateevodata
 
-evodata SPECIES_HATTERENE
+evodata SPECIES_CEOKING
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13231,7 +13231,7 @@ evodata SPECIES_MEGA_GARDEVOIR
     evolution EVO_NONE, 0, SPECIES_NONE
     terminateevodata
 
-evodata SPECIES_RUBEYE
+evodata SPECIES_MEGA_SABLEYE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13243,7 +13243,7 @@ evodata SPECIES_RUBEYE
     evolution EVO_NONE, 0, SPECIES_NONE
     terminateevodata
 
-evodata SPECIES_MAWSUM
+evodata SPECIES_MEGA_MAWILE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13340,7 +13340,7 @@ evodata SPECIES_MEGA_BANETTE
     terminateevodata
 
 evodata SPECIES_MEGA_ABSOL
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_STONE, ITEM_DAWN_STONE, SPECIES_ABSALVO
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

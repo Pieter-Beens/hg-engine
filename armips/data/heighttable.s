@@ -801,7 +801,7 @@ heightentry SPECIES_GUMSHOOS, 0, 0, 0, 0
 heightentry SPECIES_GRUBBIN, 0, 0, 0, 0
 heightentry SPECIES_CHARJABUG, 0, 0, 0, 0
 heightentry SPECIES_VIKAVOLT, 0, 0, 0, 0
-heightentry SPECIES_CRABRAWLER, 0, 0, 0, 0
+heightentry SPECIES_EVINSIR, 0, 0, 0, 0
 heightentry SPECIES_CRABOMINABLE, 4, 4, 0, 0
 heightentry SPECIES_ORICORIO, 4, 4, 0, 0
 heightentry SPECIES_CUTIEFLY, 0, 0, 0, 0
@@ -812,7 +812,7 @@ heightentry SPECIES_WISHIWASHI, 9, 9, 0, 0
 heightentry SPECIES_MAREANIE, 8, 8, 0, 0
 heightentry SPECIES_TOXAPEX, 0, 0, 0, 0
 heightentry SPECIES_MINIMOO, 0, 0, 0, 0
-heightentry SPECIES_MUDSDALE, 0, 0, 0, 0
+heightentry SPECIES_ABSALVO, 4, 4, 12, 12
 heightentry SPECIES_DEWPIDER, 0, 0, 0, 0
 heightentry SPECIES_ARAQUANID, 0, 0, 0, 0
 heightentry SPECIES_FOMANTIS, 13, 13, 12, 12
@@ -920,7 +920,7 @@ heightentry SPECIES_SINISTEA, "null", 0, "null", 0
 heightentry SPECIES_POLTEAGEIST, "null", 0, "null", 0
 heightentry SPECIES_HATENNA, 0, 0, 0, 0
 heightentry SPECIES_HATTREM, 0, 0, 0, 0
-heightentry SPECIES_HATTERENE, 0, 0, 0, 0
+heightentry SPECIES_CEOKING, 5, 5, 0, 0
 heightentry SPECIES_IMPIDIMP, 0, 0, 0, 0
 heightentry SPECIES_MORGREM, 0, 0, 0, 0
 heightentry SPECIES_GRIMMSNARL, 0, 0, 0, 0
@@ -1118,8 +1118,8 @@ heightentry SPECIES_MEGA_SCEPTILE, 0, 0, 0, 0
 heightentry SPECIES_MEGA_BLAZIKEN, 0, 0, 0, 0
 heightentry SPECIES_MEGA_SWAMPERT, 0, 0, 0, 0
 heightentry SPECIES_MEGA_GARDEVOIR, 4, 4, 0, 0
-heightentry SPECIES_RUBEYE, 0, 0, 0, 0
-heightentry SPECIES_MAWSUM, 0, 0, 0, 0
+heightentry SPECIES_MEGA_SABLEYE, 0, 0, 0, 0
+heightentry SPECIES_MEGA_MAWILE, 0, 0, 0, 0
 heightentry SPECIES_MEGA_AGGRON, 15, 15, 0, 0
 heightentry SPECIES_MEGA_MEDICHAM, 0, 0, 0, 0
 heightentry SPECIES_MEGA_MANECTRIC, 0, 0, 0, 0

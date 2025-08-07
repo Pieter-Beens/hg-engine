@@ -497,5 +497,8 @@
 .halfword SPECIES_SHAYMIN
 .halfword SPECIES_ARCEUS
 .halfword SPECIES_PIEP
+.halfword SPECIES_CEOKING
+.halfword SPECIES_ABSALVO
+.halfword SPECIES_EVINSIR
 
 .close

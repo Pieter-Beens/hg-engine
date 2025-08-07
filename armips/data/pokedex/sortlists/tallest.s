@@ -48,7 +48,7 @@
 .halfword SPECIES_BEARTIC
 //.halfword SPECIES_STONJOURNER
 //.halfword SPECIES_MELMETAL
-//.halfword SPECIES_MUDSDALE
+//.halfword SPECIES_ABSALVO
 //.halfword SPECIES_TYRANTRUM
 .halfword SPECIES_SCOLIPEDE
 .halfword SPECIES_MAMOSWINE
@@ -71,7 +71,7 @@
 .halfword SPECIES_KARPONITE
 .halfword SPECIES_KANGASKHAN
 //.halfword SPECIES_REGIDRAGO
-//.halfword SPECIES_HATTERENE
+//.halfword SPECIES_CEOKING
 //.halfword SPECIES_RILLABOOM
 //.halfword SPECIES_BEWEAR
 //.halfword SPECIES_PANGORO
@@ -600,7 +600,7 @@
 //.halfword SPECIES_JANGMO_O
 //.halfword SPECIES_SALANDIT
 //.halfword SPECIES_ORICORIO
-//.halfword SPECIES_CRABRAWLER
+//.halfword SPECIES_EVINSIR
 //.halfword SPECIES_TRUMBEAK
 //.halfword SPECIES_BRIONNE
 //.halfword SPECIES_MEOWSTIC
