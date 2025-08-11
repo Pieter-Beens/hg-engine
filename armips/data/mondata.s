@@ -14932,7 +14932,7 @@ mondata SPECIES_WALLOPEE, "Wallopee"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_MEGA_LAUNCHER, ABILITY_NONE
+    abilities ABILITY_BALL_PLAYER, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_WALLOPEE, "As powerful as an excavator, its ears\ncan reduce dense bedrock to rubble."
@@ -15467,9 +15467,9 @@ mondata SPECIES_SLURPUFF, "Slurpuff"
     mondexweight SPECIES_SLURPUFF, "11.0 lbs."
 
 
-mondata SPECIES_BILLY, "Billy"
-    basestats 53, 54, 53, 45, 37, 46
-    types TYPE_DARK, TYPE_PSYCHIC
+mondata SPECIES_BILLY, "Billibob"
+    basestats 20, 200, 120, 20, 20, 120
+    types TYPE_FIGHTING, TYPE_FIGHTING
     catchrate 190
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
@@ -15479,13 +15479,13 @@ mondata SPECIES_BILLY, "Billy"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_CONTRARY, ABILITY_SUCTION_CUPS
+    abilities ABILITY_HUGE_POWER, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
-    mondexentry SPECIES_BILLY, "It draws prey near with its blinking\nlights and then wraps them up in its\nlong tentacles."
-    mondexclassification SPECIES_BILLY, "Revolving Pokémon"
-    mondexheight SPECIES_BILLY, "1’04”"
-    mondexweight SPECIES_BILLY, "7.7 lbs."
+    mondexentry SPECIES_BILLY, "This teeny tiny toad can throw around\na 1000 times its own weight. It can\nprobably do more if you ask nicely."
+    mondexclassification SPECIES_BILLY, "Tiny Toad Pokémon"
+    mondexheight SPECIES_BILLY, "0’03”"
+    mondexweight SPECIES_BILLY, "0.2 lbs."
 
 
 mondata SPECIES_GANESHADE, "Ganeshade"
@@ -27683,6 +27683,6 @@ mondata SPECIES_TERAPAGOS_STELLAR, "-----"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_TERAFORM_ZERO, ABILITY_NONE
+    abilities ABILITY_BALL_PLAYER, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0

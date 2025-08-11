@@ -8525,7 +8525,7 @@ evodata SPECIES_GRENINJA
 terminateevodata
 
 evodata SPECIES_BONKBAL
-    evolution EVO_LEVEL, 20, SPECIES_WALLOPEE
+    evolution EVO_LEVEL, 22, SPECIES_WALLOPEE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

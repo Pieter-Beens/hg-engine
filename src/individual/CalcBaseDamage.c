@@ -99,6 +99,26 @@ static const u16 MegaLauncherMovesTable[] = {
     MOVE_WATER_PULSE,
 };
 
+static const u16 BallPlayerMovesTable[] = {
+    MOVE_AURA_SPHERE,
+    MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
+    MOVE_ICE_BALL,
+    MOVE_ROLLOUT,
+    MOVE_WEATHER_BALL,
+    MOVE_GYRO_BALL,
+    MOVE_ENERGY_BALL,
+    MOVE_MUD_BOMB,
+    MOVE_ELECTRO_BALL,
+    MOVE_PYRO_BALL,
+    MOVE_EGG_BOMB,
+    MOVE_SLUDGE_BOMB,
+    MOVE_SEED_BOMB,
+    MOVE_MAGNET_BOMB,
+    MOVE_POPULATION_BOMB,
+    MOVE_SYRUP_BOMB,
+};
+
 static const u16 SharpnessMovesTable[] = {
     MOVE_AERIAL_ACE,
     MOVE_AIR_CUTTER,
@@ -777,6 +797,12 @@ int UNUSED CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 sid
 
     // handle mega launcher
     if ((AttackingMon.ability == ABILITY_MEGA_LAUNCHER) && IsElementInArray(MegaLauncherMovesTable, (u16 *)&moveno, NELEMS(MegaLauncherMovesTable), sizeof(MegaLauncherMovesTable[0])))
+    {
+        movepower = movepower * 15 / 10;
+    }
+
+    // handle ball player
+    if ((AttackingMon.ability == ABILITY_BALL_PLAYER) && IsElementInArray(BallPlayerMovesTable, (u16 *)&moveno, NELEMS(BallPlayerMovesTable), sizeof(BallPlayerMovesTable[0])))
     {
         movepower = movepower * 15 / 10;
     }

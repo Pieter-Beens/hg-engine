@@ -832,7 +832,7 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                         sp->checkOnlySpecifiedTargetClient = 0;
                     }
 
-                    // Ice Face
+                    // Hero Complex
                     {
                         if ((sp->battlemon[client_no].species == SPECIES_PINGWINNER) && (sp->battlemon[client_no].hp) && (sp->battlemon[client_no].form_no == 1) && (CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_CLOUD_NINE) == 0) && (CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_AIR_LOCK) == 0) && (sp->field_condition & WEATHER_HAIL_ANY)  // there is hail this turn
                             && ((sp->log_hail_for_ice_face & No2Bit(client_no)) == 0)                                                                                                                                                                                                                                                                                   // and hail wasn't here last turn/the mon just switched in

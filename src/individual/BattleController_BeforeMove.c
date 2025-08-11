@@ -4145,7 +4145,6 @@ BOOL LONG_CALL AbilityFailRolePlay(int ability) {
     case ABILITY_EMBODY_ASPECT_4:
     case ABILITY_TERA_SHIFT:
     case ABILITY_TERA_SHELL:
-    case ABILITY_TERAFORM_ZERO:
     case ABILITY_POISON_PUPPETEER:
         return TRUE;
         break;
@@ -4194,7 +4193,6 @@ BOOL LONG_CALL AbilityNoReceiver(int ability) {
         case ABILITY_EMBODY_ASPECT_4:
         case ABILITY_TERA_SHIFT:
         case ABILITY_TERA_SHELL:
-        case ABILITY_TERAFORM_ZERO:
         case ABILITY_POISON_PUPPETEER:
             return TRUE;
             break;
@@ -4243,7 +4241,6 @@ BOOL LONG_CALL AbilityNoEntrainment(int ability) {
         case ABILITY_EMBODY_ASPECT_4:
         case ABILITY_TERA_SHIFT:
         case ABILITY_TERA_SHELL:
-        case ABILITY_TERAFORM_ZERO:
         case ABILITY_POISON_PUPPETEER:
             return TRUE;
             break;
@@ -4291,7 +4288,6 @@ BOOL LONG_CALL AbilityNoTrace(int ability) {
         case ABILITY_EMBODY_ASPECT_4:
         case ABILITY_TERA_SHIFT:
         case ABILITY_TERA_SHELL:
-        case ABILITY_TERAFORM_ZERO:
         case ABILITY_POISON_PUPPETEER:
             return TRUE;
             break;
@@ -4334,7 +4330,6 @@ BOOL LONG_CALL AbilityFailSkillSwap(int ability) {
         case ABILITY_EMBODY_ASPECT_4:
         case ABILITY_TERA_SHIFT:
         case ABILITY_TERA_SHELL:
-        case ABILITY_TERAFORM_ZERO:
         case ABILITY_POISON_PUPPETEER:
             return TRUE;
             break;

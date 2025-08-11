@@ -16071,25 +16071,11 @@ levelup SPECIES_SLURPUFF
 
 
 levelup SPECIES_BILLY
-    learnset MOVE_PECK, 1
     learnset MOVE_TACKLE, 1
-    learnset MOVE_CONSTRICT, 1
-    learnset MOVE_REFLECT, 4
-    learnset MOVE_WRAP, 6
-    learnset MOVE_HYPNOSIS, 10
-    learnset MOVE_PSYWAVE, 13
-    learnset MOVE_SWAGGER, 15
-    learnset MOVE_PAYBACK, 17
-    learnset MOVE_PSYBEAM, 17
-    learnset MOVE_FOUL_PLAY, 21
-    learnset MOVE_PLUCK, 22
-//    learnset MOVE_TOPSY_TURVY, 26
-    learnset MOVE_SWITCHEROO, 27
-    learnset MOVE_SLASH, 31
-    learnset MOVE_LIGHT_SCREEN, 31
-    learnset MOVE_PSYCHO_CUT, 32
-    learnset MOVE_NIGHT_SLASH, 34
-    learnset MOVE_SUPERPOWER, 43
+    learnset MOVE_DISARMING_VOICE, 1
+    learnset MOVE_FLING, 1
+    learnset MOVE_BOUNCE, 35
+    learnset MOVE_EARTHQUAKE, 45
     terminatelearnset
 
 
