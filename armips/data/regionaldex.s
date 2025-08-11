@@ -128,7 +128,7 @@
 /* SPECIES_SEAKING */ .halfword 171
 /* SPECIES_STARYU */ .halfword 170
 /* SPECIES_STARMIE */ .halfword 171
-/* SPECIES_MR_MIME */ .halfword 0
+/* SPECIES_MR_MIME */ .halfword 172
 /* SPECIES_SCYTHER */ .halfword 174
 /* SPECIES_JYNX */ .halfword 178
 /* SPECIES_ELECTABUZZ */ .halfword 180
@@ -922,7 +922,7 @@
 /* SPECIES_PERRSERKER */ .halfword 95
 /* SPECIES_CURSOLA */ .halfword 290
 /* SPECIES_SIRFETCHD */ .halfword 135
-/* SPECIES_MR_RIME */ .halfword 0
+/* SPECIES_MR_RIME */ .halfword 173
 /* SPECIES_RUNERIGUS */ .halfword 0
 /* SPECIES_MILCERY */ .halfword 0
 /* SPECIES_ALCREMIE */ .halfword 0

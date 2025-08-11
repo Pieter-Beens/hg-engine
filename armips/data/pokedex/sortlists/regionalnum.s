@@ -179,8 +179,8 @@
 .halfword SPECIES_DAMPEROR
 .halfword SPECIES_STARYU
 .halfword SPECIES_STARMIE
-.halfword SPECIES_MIME
-.halfword SPECIES_RIME
+.halfword SPECIES_MR_MIME
+.halfword SPECIES_MR_RIME
 .halfword SPECIES_SCYTHER
 .halfword SPECIES_KLEAVOR
 .halfword SPECIES_SCIZOR

@@ -14936,7 +14936,7 @@ mondata SPECIES_WALLOPEE, "Wallopee"
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_WALLOPEE, "As powerful as an excavator, its ears\ncan reduce dense bedrock to rubble."
-    mondexentry SPECIES_WALLOPEE, "It will strike anything thrown at it,\nmaking it impossible to catch with\n a Pokéball. Raise a Bonkbal instead."
+    mondexentry SPECIES_WALLOPEE, "It will strike anything thrown at it,\nmaking it impossible to catch with\na Pokéball. Raise a BONKBAL instead."
     mondexclassification SPECIES_WALLOPEE, "Batter Pokémon"
     mondexheight SPECIES_WALLOPEE, "3’03”"
     mondexweight SPECIES_WALLOPEE, "93.5 lbs."

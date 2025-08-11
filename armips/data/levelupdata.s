@@ -3556,8 +3556,8 @@ levelup SPECIES_MEGANIUM
 levelup SPECIES_CYNDAQUIL
     learnset MOVE_LEER, 1
     learnset MOVE_TACKLE, 1
-    learnset MOVE_SMOKESCREEN, 6
-    learnset MOVE_EMBER, 10
+    learnset MOVE_EMBER, 6
+    learnset MOVE_MUD_SHOT, 10
     learnset MOVE_QUICK_ATTACK, 13
     learnset MOVE_FLAME_WHEEL, 19
     learnset MOVE_DEFENSE_CURL, 22
@@ -3580,7 +3580,8 @@ levelup SPECIES_QUILAVA
     learnset MOVE_EMBER, 10
     learnset MOVE_QUICK_ATTACK, 13
     learnset MOVE_FLAME_WHEEL, 20
-    learnset MOVE_DEFENSE_CURL, 24
+    learnset MOVE_DEFENSE_CURL, 22
+    learnset MOVE_BULLDOZE, 25
     learnset MOVE_SWIFT, 31
     learnset MOVE_FLAME_CHARGE, 35
     learnset MOVE_LAVA_PLUME, 42
@@ -3604,12 +3605,13 @@ levelup SPECIES_TYPHLOSION
     learnset MOVE_QUICK_ATTACK, 13
     learnset MOVE_FLAME_WHEEL, 20
     learnset MOVE_DEFENSE_CURL, 24
+    learnset MOVE_BULLDOZE, 25
     learnset MOVE_SWIFT, 31
     learnset MOVE_FLAME_CHARGE, 35
-    learnset MOVE_LAVA_PLUME, 43
-    learnset MOVE_FLAMETHROWER, 48
-    learnset MOVE_INFERNO, 56
-    learnset MOVE_ROLLOUT, 61
+    learnset MOVE_LAVA_PLUME, 40
+    learnset MOVE_FLAMETHROWER, 44
+    learnset MOVE_INFERNO, 50
+    learnset MOVE_EARTH_POWER, 53
     learnset MOVE_OVERHEAT, 74
     terminatelearnset
 
