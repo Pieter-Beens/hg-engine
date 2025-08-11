@@ -45,7 +45,7 @@ mondata SPECIES_BULBASAUR, "Bulbasaur"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_GRASS
     abilities ABILITY_OVERGROW, ABILITY_NONE
     runchance 0
@@ -66,7 +66,7 @@ mondata SPECIES_IVYSAUR, "Ivysaur"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_GRASS
     abilities ABILITY_OVERGROW, ABILITY_NONE
     runchance 0
@@ -87,7 +87,7 @@ mondata SPECIES_VENUSAUR, "Venusaur"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_GRASS
     abilities ABILITY_THICK_FAT, ABILITY_NONE
     runchance 0
@@ -108,7 +108,7 @@ mondata SPECIES_CHARMANDER, "Charmander"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_DRAGON
     abilities ABILITY_BLAZE, ABILITY_NONE
     runchance 0
@@ -129,7 +129,7 @@ mondata SPECIES_CHARMELEON, "Charmeleon"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_DRAGON
     abilities ABILITY_BLAZE, ABILITY_NONE
     runchance 0
@@ -150,7 +150,7 @@ mondata SPECIES_CHARIZARD, "Charizard"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_DRAGON
     abilities ABILITY_BLAZE, ABILITY_NONE
     runchance 0
@@ -171,7 +171,7 @@ mondata SPECIES_SQUIRTLE, "Squirtle"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_WATER_1
     abilities ABILITY_TORRENT, ABILITY_NONE
     runchance 0
@@ -192,7 +192,7 @@ mondata SPECIES_WARTORTLE, "Wartortle"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_WATER_1
     abilities ABILITY_TORRENT, ABILITY_NONE
     runchance 0
@@ -213,7 +213,7 @@ mondata SPECIES_BLASTOISE, "Blastoise"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_WATER_1
     abilities ABILITY_MEGA_LAUNCHER, ABILITY_NONE
     runchance 0
@@ -266,9 +266,9 @@ mondata SPECIES_METAPOD, "Metapod"
     mondexweight SPECIES_METAPOD, "21.8 lbs."
 
 
-mondata SPECIES_BUTTERFREE, "Butterfree"
-    basestats 60, 45, 50, 70, 90, 80
-    types TYPE_BUG, TYPE_POISON
+mondata SPECIES_MANOMOTH, "Manomoth"
+    basestats 70, 65, 70, 60, 100, 85
+    types TYPE_BUG, TYPE_DARK
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 1
@@ -281,10 +281,10 @@ mondata SPECIES_BUTTERFREE, "Butterfree"
     abilities ABILITY_COMPOUND_EYES, ABILITY_TINTED_LENS
     runchance 0
     colorflip BODY_COLOR_WHITE, 0
-    mondexentry SPECIES_BUTTERFREE, "It collects honey every day. It rubs\nhoney onto the hairs on its legs\nto carry it back to its nest."
-    mondexclassification SPECIES_BUTTERFREE, "Butterfly Pokémon"
-    mondexheight SPECIES_BUTTERFREE, "3’07”"
-    mondexweight SPECIES_BUTTERFREE, "70.5 lbs."
+    mondexentry SPECIES_MANOMOTH, "It collects honey every day. It rubs\nhoney onto the hairs on its legs\nto carry it back to its nest."
+    mondexclassification SPECIES_MANOMOTH, "Butterfly Pokémon"
+    mondexheight SPECIES_MANOMOTH, "3’07”"
+    mondexweight SPECIES_MANOMOTH, "70.5 lbs."
 
 
 mondata SPECIES_WEEDLE, "Weedle"
@@ -294,11 +294,11 @@ mondata SPECIES_WEEDLE, "Weedle"
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 127
+    genderratio 255
     eggcycles 15
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
+    egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_BUG
     abilities ABILITY_SHIELD_DUST, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
@@ -315,11 +315,11 @@ mondata SPECIES_KAKUNA, "Kakuna"
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 127
+    genderratio 255
     eggcycles 15
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
+    egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_BUG
     abilities ABILITY_SHED_SKIN, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
@@ -360,7 +360,7 @@ mondata SPECIES_PIDGEY, "Pidgey"
     genderratio 127
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_KEEN_EYE, ABILITY_NONE
     runchance 0
@@ -381,7 +381,7 @@ mondata SPECIES_PIDGEOTTO, "Pidgeotto"
     genderratio 127
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_NO_GUARD, ABILITY_NONE
     runchance 0
@@ -402,7 +402,7 @@ mondata SPECIES_PIDGEOT, "Pidgeot"
     genderratio 127
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_NO_GUARD, ABILITY_NONE
     runchance 0
@@ -633,7 +633,7 @@ mondata SPECIES_NIDORAN_F, "Nidoran♀"
     genderratio 254
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_FIELD
     abilities ABILITY_POISON_POINT, ABILITY_RIVALRY
     runchance 0
@@ -654,7 +654,7 @@ mondata SPECIES_NIDORINA, "Nidorina"
     genderratio 254
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_POISON_POINT, ABILITY_RIVALRY
     runchance 0
@@ -675,7 +675,7 @@ mondata SPECIES_NIDOQUEEN, "Nidoqueen"
     genderratio 254
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_POISON_POINT, ABILITY_RIVALRY
     runchance 0
@@ -696,7 +696,7 @@ mondata SPECIES_NIDORAN_M, "Nidoran♂"
     genderratio 0
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_FIELD
     abilities ABILITY_POISON_POINT, ABILITY_ROUGH_SKIN
     runchance 0
@@ -717,7 +717,7 @@ mondata SPECIES_NIDORINO, "Nidorino"
     genderratio 0
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_FIELD
     abilities ABILITY_POISON_POINT, ABILITY_ROUGH_SKIN
     runchance 0
@@ -738,7 +738,7 @@ mondata SPECIES_NIDOKING, "Nidoking"
     genderratio 0
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_FIELD
     abilities ABILITY_POISON_POINT, ABILITY_ROUGH_SKIN
     runchance 0
@@ -759,7 +759,7 @@ mondata SPECIES_CLEFAIRY, "Clefairy"
     genderratio 190
     eggcycles 10
     basefriendship 140
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
     abilities ABILITY_CUTE_CHARM, ABILITY_MAGIC_GUARD
     runchance 0
@@ -780,7 +780,7 @@ mondata SPECIES_CLEFABLE, "Clefable"
     genderratio 190
     eggcycles 10
     basefriendship 140
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
     abilities ABILITY_CUTE_CHARM, ABILITY_MAGIC_GUARD
     runchance 0
@@ -793,7 +793,7 @@ mondata SPECIES_CLEFABLE, "Clefable"
 
 mondata SPECIES_VULPIX, "Vulpix"
     basestats 38, 41, 40, 65, 50, 65
-    types TYPE_FIRE, TYPE_FIRE
+    types TYPE_FIRE, TYPE_FAIRY
     catchrate 190
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
@@ -802,8 +802,8 @@ mondata SPECIES_VULPIX, "Vulpix"
     eggcycles 20
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_FLASH_FIRE, ABILITY_NONE
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
+    abilities ABILITY_MAGIC_GUARD, ABILITY_MAGIC_GUARD
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_VULPIX, "As it develops, its single white\ntail gains color and splits into six.\nIt is quite warm and cuddly."
@@ -823,8 +823,8 @@ mondata SPECIES_NINETALES, "Ninetales"
     eggcycles 20
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_FLASH_FIRE, ABILITY_NONE
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
+    abilities ABILITY_MAGIC_GUARD, ABILITY_MAGIC_GUARD
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_NINETALES, "Some legends claim that each of its\nnine tails has its own unique type\nof special mystical power."
@@ -843,7 +843,7 @@ mondata SPECIES_JIGGLYPUFF, "Jigglypuff"
     genderratio 190
     eggcycles 10
     basefriendship 50
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
     abilities ABILITY_CUTE_CHARM, ABILITY_COMPETITIVE
     runchance 0
@@ -864,7 +864,7 @@ mondata SPECIES_WIGGLYTUFF, "Wigglytuff"
     genderratio 190
     eggcycles 10
     basefriendship 50
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
     abilities ABILITY_HUGE_POWER, ABILITY_NONE
     runchance 0
@@ -877,7 +877,7 @@ mondata SPECIES_WIGGLYTUFF, "Wigglytuff"
 
 mondata SPECIES_ZUBAT, "Zubat"
     basestats 40, 45, 35, 55, 30, 40
-    types TYPE_POISON, TYPE_FLYING
+    types TYPE_DARK, TYPE_FLYING
     catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
@@ -927,7 +927,7 @@ mondata SPECIES_ODDISH, "Oddish"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
     abilities ABILITY_CHLOROPHYLL, ABILITY_NONE
     runchance 0
@@ -948,7 +948,7 @@ mondata SPECIES_GLOOM, "Gloom"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
     abilities ABILITY_CHLOROPHYLL, ABILITY_NONE
     runchance 0
@@ -969,7 +969,7 @@ mondata SPECIES_VILEPLUME, "Vileplume"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
     abilities ABILITY_CHLOROPHYLL, ABILITY_NONE
     runchance 0
@@ -1023,8 +1023,8 @@ mondata SPECIES_PARASECT, "Parasect"
 
 
 mondata SPECIES_VENONAT, "Venonat"
-    basestats 60, 55, 50, 45, 40, 55
-    types TYPE_BUG, TYPE_POISON
+    basestats 60, 65, 50, 35, 40, 55
+    types TYPE_BUG, TYPE_DARK
     catchrate 190
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 1
@@ -1118,7 +1118,7 @@ mondata SPECIES_MEOWTH, "Meowth"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_PICKUP, ABILITY_TECHNICIAN
+    abilities ABILITY_PICKUP, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_MEOWTH, "It is fascinated by round objects.\nIt can’t stop playing with them\nuntil it tires and falls asleep."
@@ -1242,7 +1242,7 @@ mondata SPECIES_GROWLITHE, "Growlithe"
     genderratio 63
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_INTIMIDATE, ABILITY_FLASH_FIRE
     runchance 0
@@ -1263,7 +1263,7 @@ mondata SPECIES_ARCANINE, "Arcanine"
     genderratio 63
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_INTIMIDATE, ABILITY_FLASH_FIRE
     runchance 0
@@ -1284,7 +1284,7 @@ mondata SPECIES_POLIWAG, "Poliwag"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_1
     abilities ABILITY_WATER_ABSORB, ABILITY_DAMP
     runchance 0
@@ -1305,7 +1305,7 @@ mondata SPECIES_POLIWHIRL, "Poliwhirl"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_1
     abilities ABILITY_WATER_ABSORB, ABILITY_DAMP
     runchance 0
@@ -1326,7 +1326,7 @@ mondata SPECIES_POLIWRATH, "Poliwrath"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_1
     abilities ABILITY_MOODY, ABILITY_IRON_FIST
     runchance 0
@@ -1347,7 +1347,7 @@ mondata SPECIES_ABRA, "Abra"
     genderratio 63
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_NEUROFORCE, ABILITY_INNER_FOCUS
     runchance 0
@@ -1368,7 +1368,7 @@ mondata SPECIES_KADABRA, "Kadabra"
     genderratio 63
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_NEUROFORCE, ABILITY_INNER_FOCUS
     runchance 0
@@ -1389,7 +1389,7 @@ mondata SPECIES_ALAKAZAM, "Alakazam"
     genderratio 63
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_NEUROFORCE, ABILITY_INNER_FOCUS
     runchance 0
@@ -1410,7 +1410,7 @@ mondata SPECIES_MACHOP, "Machop"
     genderratio 63
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_GUTS, ABILITY_NO_GUARD
     runchance 0
@@ -1431,7 +1431,7 @@ mondata SPECIES_MACHOKE, "Machoke"
     genderratio 63
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_GUTS, ABILITY_NO_GUARD
     runchance 0
@@ -1452,7 +1452,7 @@ mondata SPECIES_MACHAMP, "Machamp"
     genderratio 63
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_GUTS, ABILITY_NO_GUARD
     runchance 0
@@ -1473,7 +1473,7 @@ mondata SPECIES_BELLSPROUT, "Bellsprout"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
     abilities ABILITY_LIMBER, ABILITY_NONE
     runchance 0
@@ -1494,7 +1494,7 @@ mondata SPECIES_WEEPINBELL, "Weepinbell"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
     abilities ABILITY_LIQUID_OOZE, ABILITY_NONE
     runchance 0
@@ -1515,7 +1515,7 @@ mondata SPECIES_VICTREEBEL, "Victreebel"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
     abilities ABILITY_INTIMIDATE, ABILITY_NONE
     runchance 0
@@ -1536,7 +1536,7 @@ mondata SPECIES_TENTACOOL, "Tentacool"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_3, EGG_GROUP_WATER_3
     abilities ABILITY_STATIC, ABILITY_POISON_POINT
     runchance 0
@@ -1557,7 +1557,7 @@ mondata SPECIES_TENTACRUEL, "Tentacruel"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_3, EGG_GROUP_WATER_3
     abilities ABILITY_STATIC, ABILITY_POISON_POINT
     runchance 0
@@ -1578,7 +1578,7 @@ mondata SPECIES_GEODUDE, "Geodude"
     genderratio 127
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_ROCK_HEAD, ABILITY_STURDY
     runchance 0
@@ -1599,7 +1599,7 @@ mondata SPECIES_GRAVELER, "Graveler"
     genderratio 127
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_ROCK_HEAD, ABILITY_STURDY
     runchance 0
@@ -1620,7 +1620,7 @@ mondata SPECIES_GOLEM, "Golem"
     genderratio 127
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_ROCK_HEAD, ABILITY_STURDY
     runchance 0
@@ -1709,7 +1709,7 @@ mondata SPECIES_SLOWBRO, "Slowbro"
     abilities ABILITY_UNAWARE, ABILITY_OWN_TEMPO
     runchance 0
     colorflip BODY_COLOR_PINK, 0
-    mondexentry SPECIES_SLOWBRO, "If the tail-biting SHELLDER is thrown\noff in a harsh battle, it reverts to\nbeing an ordinary SLOWPOKE."
+    mondexentry SPECIES_SLOWBRO, "If the tail-biting SHELLDURE is thrown\noff in a harsh battle, it reverts to\nbeing an ordinary SLOWPOKE."
     mondexclassification SPECIES_SLOWBRO, "Hermit Crab Pokémon"
     mondexheight SPECIES_SLOWBRO, "5’03”"
     mondexweight SPECIES_SLOWBRO, "173.1 lbs."
@@ -1904,7 +1904,7 @@ mondata SPECIES_MUK, "Muk"
     mondexweight SPECIES_MUK, "66.1 lbs."
 
 
-mondata SPECIES_SHELLDER, "Shellder"
+mondata SPECIES_SHOALDER, "Shoalder"
     basestats 30, 65, 100, 40, 100, 25
     types TYPE_GHOST, TYPE_WATER
     catchrate 190
@@ -1914,15 +1914,15 @@ mondata SPECIES_SHELLDER, "Shellder"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_3, EGG_GROUP_WATER_3
     abilities ABILITY_SHELL_ARMOR, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
-    mondexentry SPECIES_SHELLDER, "It swims facing backward by opening\nand closing its two-piece shell.\nIt is surprisingly fast."
-    mondexclassification SPECIES_SHELLDER, "Bivalve Pokémon"
-    mondexheight SPECIES_SHELLDER, "1’00”"
-    mondexweight SPECIES_SHELLDER, "8.8 lbs."
+    mondexentry SPECIES_SHOALDER, "It swims facing backward by opening\nand closing its two-piece shell.\nIt is surprisingly fast."
+    mondexclassification SPECIES_SHOALDER, "Bivalve Pokémon"
+    mondexheight SPECIES_SHOALDER, "1’00”"
+    mondexweight SPECIES_SHOALDER, "8.8 lbs."
 
 
 mondata SPECIES_CLOYSTER, "Cloyster"
@@ -1935,7 +1935,7 @@ mondata SPECIES_CLOYSTER, "Cloyster"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_3, EGG_GROUP_WATER_3
     abilities ABILITY_SHELL_ARMOR, ABILITY_NONE
     runchance 0
@@ -1956,7 +1956,7 @@ mondata SPECIES_GASTLY, "Gastly"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
     abilities ABILITY_LEVITATE, ABILITY_NONE
     runchance 0
@@ -1977,7 +1977,7 @@ mondata SPECIES_HAUNTER, "Haunter"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
     abilities ABILITY_LEVITATE, ABILITY_NONE
     runchance 0
@@ -1998,7 +1998,7 @@ mondata SPECIES_GENGAR, "Gengar"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
     abilities ABILITY_CURSED_BODY, ABILITY_NONE
     runchance 0
@@ -2052,7 +2052,7 @@ mondata SPECIES_DROWZEE, "Drowzee"
 
 
 mondata SPECIES_HYPNO, "Hypno"
-    basestats 85, 73, 70, 67, 73, 115
+    basestats 85, 63, 70, 67, 83, 115
     types TYPE_PSYCHIC, TYPE_DARK
     catchrate 75
     baseexp 0 // defined in baseexp.s
@@ -2166,7 +2166,7 @@ mondata SPECIES_EXEGGCUTE, "Exeggcute"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
     abilities ABILITY_CHLOROPHYLL, ABILITY_NONE
     runchance 0
@@ -2187,7 +2187,7 @@ mondata SPECIES_EXEGGUTOR, "Exeggutor"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
     abilities ABILITY_HARVEST, ABILITY_NONE
     runchance 0
@@ -2355,7 +2355,7 @@ mondata SPECIES_RHYHORN, "Rhyhorn"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_FIELD
     abilities ABILITY_LIGHTNING_ROD, ABILITY_ROCK_HEAD
     runchance 0
@@ -2376,7 +2376,7 @@ mondata SPECIES_RHYDON, "Rhydon"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_FIELD
     abilities ABILITY_LIGHTNING_ROD, ABILITY_ROCK_HEAD
     runchance 0
@@ -2397,7 +2397,7 @@ mondata SPECIES_CHANSEY, "Chansey"
     genderratio 254
     eggcycles 40
     basefriendship 140
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
     abilities ABILITY_NATURAL_CURE, ABILITY_SERENE_GRACE
     runchance 0
@@ -2544,7 +2544,7 @@ mondata SPECIES_STARYU, "Staryu"
     genderratio 255
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_3, EGG_GROUP_WATER_3
     abilities ABILITY_NATURAL_CURE, ABILITY_NONE
     runchance 0
@@ -2565,7 +2565,7 @@ mondata SPECIES_STARMIE, "Starmie"
     genderratio 255
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_3, EGG_GROUP_WATER_3
     abilities ABILITY_NATURAL_CURE, ABILITY_NONE
     runchance 0
@@ -2691,7 +2691,7 @@ mondata SPECIES_PINSIR, "Pinsir"
     genderratio 127
     eggcycles 25
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     abilities ABILITY_INTIMIDATE, ABILITY_NONE
     runchance 0
@@ -2712,7 +2712,7 @@ mondata SPECIES_TAUROS, "Tauros"
     genderratio 0
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_INTIMIDATE, ABILITY_ANGER_POINT
     runchance 0
@@ -2733,7 +2733,7 @@ mondata SPECIES_MAGIKARP, "Magikarp"
     genderratio 127
     eggcycles 5
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_DRAGON
     abilities ABILITY_SWIFT_SWIM, ABILITY_NONE
     runchance 0
@@ -2754,7 +2754,7 @@ mondata SPECIES_GYARADOS, "Gyarados"
     genderratio 127
     eggcycles 5
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_DRAGON
     abilities ABILITY_INTIMIDATE, ABILITY_NONE
     runchance 0
@@ -2775,7 +2775,7 @@ mondata SPECIES_LAPRAS, "Lapras"
     genderratio 127
     eggcycles 40
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_WATER_1
     abilities ABILITY_WATER_ABSORB, ABILITY_THERMAL_EXCHANGE
     runchance 0
@@ -2948,7 +2948,7 @@ mondata SPECIES_OMASTAR, "Omastar"
     abilities ABILITY_SWIFT_SWIM, ABILITY_ANALYTIC
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
-    mondexentry SPECIES_OMASTAR, "Apparently, it cracked SHELLDER’s\nshell with its sharp fangs and\nsucked out the insides."
+    mondexentry SPECIES_OMASTAR, "Apparently, it cracked SHELLDURE’s\nshell with its sharp fangs and\nsucked out the insides."
     mondexclassification SPECIES_OMASTAR, "Spiral Pokémon"
     mondexheight SPECIES_OMASTAR, "3’03”"
     mondexweight SPECIES_OMASTAR, "77.2 lbs."
@@ -2997,7 +2997,7 @@ mondata SPECIES_KABUTOPS, "Kabutops"
 
 
 mondata SPECIES_AERODACTYL, "Aerodactyl"
-    basestats 80, 105, 65, 130, 60, 75
+    basestats 60, 115, 65, 135, 60, 80
     types TYPE_ROCK, TYPE_GHOST
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -3006,7 +3006,7 @@ mondata SPECIES_AERODACTYL, "Aerodactyl"
     genderratio 31
     eggcycles 35
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_RECKLESS, ABILITY_NONE
     runchance 0
@@ -3027,7 +3027,7 @@ mondata SPECIES_SNORLAX, "Snorlax"
     genderratio 31
     eggcycles 40
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_MONSTER
     abilities ABILITY_IMMUNITY, ABILITY_THICK_FAT
     runchance 0
@@ -3048,7 +3048,7 @@ mondata SPECIES_ARTICUNO, "Articuno"
     genderratio 255
     eggcycles 80
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_PRESSURE, ABILITY_NONE
     runchance 0
@@ -3069,7 +3069,7 @@ mondata SPECIES_ZAPDOS, "Zapdos"
     genderratio 255
     eggcycles 80
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_PRESSURE, ABILITY_NONE
     runchance 0
@@ -3090,7 +3090,7 @@ mondata SPECIES_MOLTRES, "Moltres"
     genderratio 255
     eggcycles 80
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_PRESSURE, ABILITY_NONE
     runchance 0
@@ -3111,7 +3111,7 @@ mondata SPECIES_DRATINI, "Dratini"
     genderratio 127
     eggcycles 40
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_DRAGON
     abilities ABILITY_SHED_SKIN, ABILITY_NONE
     runchance 0
@@ -3132,7 +3132,7 @@ mondata SPECIES_DRAGONAIR, "Dragonair"
     genderratio 127
     eggcycles 40
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_DRAGON
     abilities ABILITY_SHED_SKIN, ABILITY_NONE
     runchance 0
@@ -3153,7 +3153,7 @@ mondata SPECIES_KARPONITE, "Karponite"
     genderratio 127
     eggcycles 40
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_DRAGON
     abilities ABILITY_INNER_FOCUS, ABILITY_NONE
     runchance 0
@@ -3174,7 +3174,7 @@ mondata SPECIES_MEWTWO, "Mewtwo"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_PRESSURE, ABILITY_NONE
     runchance 0
@@ -3195,7 +3195,7 @@ mondata SPECIES_MEW, "Mew"
     genderratio 255
     eggcycles 120
     basefriendship 100
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_SYNCHRONIZE, ABILITY_NONE
     runchance 0
@@ -3216,7 +3216,7 @@ mondata SPECIES_CHIKORITA, "Chikorita"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_GRASS
     abilities ABILITY_OVERGROW, ABILITY_NONE
     runchance 0
@@ -3237,7 +3237,7 @@ mondata SPECIES_BAYLEEF, "Bayleef"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_GRASS
     abilities ABILITY_OVERGROW, ABILITY_NONE
     runchance 0
@@ -3258,7 +3258,7 @@ mondata SPECIES_MEGANIUM, "Meganium"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_GRASS
     abilities ABILITY_GRASSY_SURGE, ABILITY_NONE
     runchance 0
@@ -3279,7 +3279,7 @@ mondata SPECIES_CYNDAQUIL, "Cyndaquil"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_BLAZE, ABILITY_NONE
     runchance 0
@@ -3300,7 +3300,7 @@ mondata SPECIES_QUILAVA, "Quilava"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_BLAZE, ABILITY_NONE
     runchance 0
@@ -3321,7 +3321,7 @@ mondata SPECIES_TYPHLOSION, "Typhlosion"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_EARTH_EATER, ABILITY_NONE
     runchance 0
@@ -3342,7 +3342,7 @@ mondata SPECIES_TOTODILE, "Totodile"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_WATER_1
     abilities ABILITY_TORRENT, ABILITY_NONE
     runchance 0
@@ -3363,7 +3363,7 @@ mondata SPECIES_CROCONAW, "Croconaw"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_WATER_1
     abilities ABILITY_TORRENT, ABILITY_NONE
     runchance 0
@@ -3384,7 +3384,7 @@ mondata SPECIES_FERALIGATR, "Feraligatr"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_WATER_1
     abilities ABILITY_STRONG_JAW, ABILITY_NONE
     runchance 0
@@ -3489,7 +3489,7 @@ mondata SPECIES_LEDYBA, "Ledyba"
     genderratio 127
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     abilities ABILITY_SWARM, ABILITY_EARLY_BIRD
     runchance 0
@@ -3500,7 +3500,7 @@ mondata SPECIES_LEDYBA, "Ledyba"
     mondexweight SPECIES_LEDYBA, "23.8 lbs."
 
 
-mondata SPECIES_LEDIAN, "Ledian"
+mondata SPECIES_LEDIASTRA, "Ledian"
     basestats 55, 35, 50, 85, 55, 110
     types TYPE_BUG, TYPE_COSMIC
     catchrate 90
@@ -3510,15 +3510,15 @@ mondata SPECIES_LEDIAN, "Ledian"
     genderratio 127
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     abilities ABILITY_LEVITATE, ABILITY_EARLY_BIRD
     runchance 0
     colorflip BODY_COLOR_RED, 0
-    mondexentry SPECIES_LEDIAN, "When the stars flicker in the\nnight sky, it flutters about,\nscattering a glowing powder."
-    mondexclassification SPECIES_LEDIAN, "Five Star Pokémon"
-    mondexheight SPECIES_LEDIAN, "4’07”"
-    mondexweight SPECIES_LEDIAN, "78.5 lbs."
+    mondexentry SPECIES_LEDIASTRA, "When the stars flicker in the\nnight sky, it flutters about,\nscattering a glowing powder."
+    mondexclassification SPECIES_LEDIASTRA, "Five Star Pokémon"
+    mondexheight SPECIES_LEDIASTRA, "4’07”"
+    mondexweight SPECIES_LEDIASTRA, "78.5 lbs."
 
 
 mondata SPECIES_SPINARAK, "Spinarak"
@@ -3531,7 +3531,7 @@ mondata SPECIES_SPINARAK, "Spinarak"
     genderratio 127
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     abilities ABILITY_SWARM, ABILITY_INSOMNIA
     runchance 0
@@ -3552,7 +3552,7 @@ mondata SPECIES_ARIADOS, "Ariados"
     genderratio 127
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     abilities ABILITY_SWARM, ABILITY_INSOMNIA
     runchance 0
@@ -3565,7 +3565,7 @@ mondata SPECIES_ARIADOS, "Ariados"
 
 mondata SPECIES_CROBAT, "Crobat"
     basestats 85, 90, 80, 130, 70, 80
-    types TYPE_POISON, TYPE_FLYING
+    types TYPE_SOUND, TYPE_FLYING
     catchrate 90
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 3, 0, 0
@@ -3594,7 +3594,7 @@ mondata SPECIES_CHINCHOU, "Chinchou"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
     abilities ABILITY_VOLT_ABSORB, ABILITY_ELECTROMORPHOSIS
     runchance 0
@@ -3615,7 +3615,7 @@ mondata SPECIES_LANTURN, "Lanturn"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
     abilities ABILITY_VOLT_ABSORB, ABILITY_ELECTROMORPHOSIS
     runchance 0
@@ -3657,7 +3657,7 @@ mondata SPECIES_CLEFFA, "Cleffa"
     genderratio 190
     eggcycles 10
     basefriendship 140
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_CUTE_CHARM, ABILITY_MAGIC_GUARD
     runchance 0
@@ -3678,7 +3678,7 @@ mondata SPECIES_IGGLYBUFF, "Igglybuff"
     genderratio 190
     eggcycles 10
     basefriendship 50
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_CUTE_CHARM, ABILITY_COMPETITIVE
     runchance 0
@@ -3699,7 +3699,7 @@ mondata SPECIES_TOGEPI, "Togepi"
     genderratio 31
     eggcycles 10
     basefriendship 50
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_SERENE_GRACE, ABILITY_NONE
     runchance 0
@@ -3720,7 +3720,7 @@ mondata SPECIES_TOGETIC, "Togetic"
     genderratio 31
     eggcycles 10
     basefriendship 50
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FAIRY
     abilities ABILITY_SERENE_GRACE, ABILITY_NONE
     runchance 0
@@ -3783,7 +3783,7 @@ mondata SPECIES_MAREEP, "Mareep"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_FIELD
     abilities ABILITY_STATIC, ABILITY_SAP_SIPPER
     runchance 0
@@ -3804,7 +3804,7 @@ mondata SPECIES_FLAAFFY, "Flaaffy"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_FIELD
     abilities ABILITY_STATIC, ABILITY_SAP_SIPPER
     runchance 0
@@ -3825,7 +3825,7 @@ mondata SPECIES_AMPHAROS, "Ampharos"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_FIELD
     abilities ABILITY_STATIC, ABILITY_SAP_SIPPER
     runchance 0
@@ -3846,7 +3846,7 @@ mondata SPECIES_BELLOSSOM, "Bellossom"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
     abilities ABILITY_CHLOROPHYLL, ABILITY_NONE
     runchance 0
@@ -3867,7 +3867,7 @@ mondata SPECIES_MARILL, "Marill"
     genderratio 127
     eggcycles 10
     basefriendship 50
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FAIRY
     abilities ABILITY_HUGE_POWER, ABILITY_NONE
     runchance 0
@@ -3888,7 +3888,7 @@ mondata SPECIES_AZUMARILL, "Azumarill"
     genderratio 127
     eggcycles 10
     basefriendship 50
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FAIRY
     abilities ABILITY_HUGE_POWER, ABILITY_NONE
     runchance 0
@@ -3930,7 +3930,7 @@ mondata SPECIES_POLITOED, "Politoed"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_1
     abilities ABILITY_WATER_ABSORB, ABILITY_DAMP
     runchance 0
@@ -3951,7 +3951,7 @@ mondata SPECIES_HOPPIP, "Hoppip"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_GRASS
     abilities ABILITY_WIND_RIDER, ABILITY_MAGIC_GUARD
     runchance 0
@@ -3972,7 +3972,7 @@ mondata SPECIES_SKIPLOOM, "Skiploom"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_GRASS
     abilities ABILITY_WIND_RIDER, ABILITY_MAGIC_GUARD
     runchance 0
@@ -3993,7 +3993,7 @@ mondata SPECIES_JUMPLUFF, "Jumpluff"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_GRASS
     abilities ABILITY_WIND_RIDER, ABILITY_MAGIC_GUARD
     runchance 0
@@ -4014,7 +4014,7 @@ mondata SPECIES_AIPOM, "Aipom"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_RUN_AWAY, ABILITY_PICKUP
     runchance 0
@@ -4035,7 +4035,7 @@ mondata SPECIES_SUNKERN, "Sunkern"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
     abilities ABILITY_CHLOROPHYLL, ABILITY_NONE
     runchance 0
@@ -4056,7 +4056,7 @@ mondata SPECIES_SUNFLORA, "Sunflora"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
     abilities ABILITY_DROUGHT, ABILITY_NONE
     runchance 0
@@ -4182,7 +4182,7 @@ mondata SPECIES_MURKROW, "Murkrow"
     genderratio 127
     eggcycles 20
     basefriendship 35
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_INSOMNIA, ABILITY_SUPER_LUCK
     runchance 0
@@ -4224,7 +4224,7 @@ mondata SPECIES_MISDREAVUS, "Misdreavus"
     genderratio 127
     eggcycles 25
     basefriendship 35
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
     abilities ABILITY_LEVITATE, ABILITY_NONE
     runchance 0
@@ -4371,7 +4371,7 @@ mondata SPECIES_GLIGAR, "Gligar"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     abilities ABILITY_HYPER_CUTTER, ABILITY_SAND_VEIL
     runchance 0
@@ -4413,7 +4413,7 @@ mondata SPECIES_SNUBBULL, "Snubbull"
     genderratio 190
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
     abilities ABILITY_INTIMIDATE, ABILITY_RUN_AWAY
     runchance 0
@@ -4434,7 +4434,7 @@ mondata SPECIES_GRANBULL, "Granbull"
     genderratio 190
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
     abilities ABILITY_INTIMIDATE, ABILITY_QUICK_FEET
     runchance 0
@@ -4497,7 +4497,7 @@ mondata SPECIES_SHUCKLE, "Shuckle"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     abilities ABILITY_STURDY, ABILITY_GLUTTONY
     runchance 0
@@ -4518,7 +4518,7 @@ mondata SPECIES_HERACROSS, "Heracross"
     genderratio 127
     eggcycles 25
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     abilities ABILITY_SWARM, ABILITY_GUTS
     runchance 0
@@ -4539,7 +4539,7 @@ mondata SPECIES_SNEASEL, "Sneasel"
     genderratio 127
     eggcycles 20
     basefriendship 35
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_INNER_FOCUS, ABILITY_KEEN_EYE
     runchance 0
@@ -4644,7 +4644,7 @@ mondata SPECIES_SWINUB, "Swinub"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_OBLIVIOUS, ABILITY_SNOW_CLOAK
     runchance 0
@@ -4665,7 +4665,7 @@ mondata SPECIES_PILOSWINE, "Piloswine"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_OBLIVIOUS, ABILITY_SNOW_CLOAK
     runchance 0
@@ -4686,7 +4686,7 @@ mondata SPECIES_CORSOLA, "Corsola"
     genderratio 190
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_3
     abilities ABILITY_HUSTLE, ABILITY_NATURAL_CURE
     runchance 0
@@ -4749,7 +4749,7 @@ mondata SPECIES_DELIBIRD, "Delibird"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
     abilities ABILITY_VITAL_SPIRIT, ABILITY_HUSTLE
     runchance 0
@@ -4770,7 +4770,7 @@ mondata SPECIES_MANTINE, "Mantine"
     genderratio 127
     eggcycles 25
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_1
     abilities ABILITY_SWIFT_SWIM, ABILITY_WATER_ABSORB
     runchance 0
@@ -4791,7 +4791,7 @@ mondata SPECIES_SKARMORY, "Skarmory"
     genderratio 127
     eggcycles 25
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_KEEN_EYE, ABILITY_STURDY
     runchance 0
@@ -4812,7 +4812,7 @@ mondata SPECIES_HOUNDOUR, "Houndour"
     genderratio 127
     eggcycles 20
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_EARLY_BIRD, ABILITY_FLASH_FIRE
     runchance 0
@@ -4833,7 +4833,7 @@ mondata SPECIES_HOUNDOOM, "Houndoom"
     genderratio 127
     eggcycles 20
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_EARLY_BIRD, ABILITY_FLASH_FIRE
     runchance 0
@@ -4938,7 +4938,7 @@ mondata SPECIES_STANTLER, "Stantler"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_SLUSH_RUSH, ABILITY_ANALYTIC
     runchance 0
@@ -4959,7 +4959,7 @@ mondata SPECIES_SMEARGLE, "Smeargle"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_OWN_TEMPO, ABILITY_TECHNICIAN
     runchance 0
@@ -5085,9 +5085,9 @@ mondata SPECIES_MILTANK, "Miltank"
     genderratio 254
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_THICK_FAT, ABILITY_NONE
+    abilities ABILITY_THICK_FAT, ABILITY_SCRAPPY
     runchance 0
     colorflip BODY_COLOR_PINK, 0
     mondexentry SPECIES_MILTANK, "Its milk is packed with nutrition,\nmaking it the ultimate beverage\nfor the sick or weary."
@@ -5106,7 +5106,7 @@ mondata SPECIES_BLISSEY, "Blissey"
     genderratio 254
     eggcycles 40
     basefriendship 140
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
     abilities ABILITY_NATURAL_CURE, ABILITY_SERENE_GRACE
     runchance 0
@@ -5127,7 +5127,7 @@ mondata SPECIES_RAIKOU, "Raikou"
     genderratio 255
     eggcycles 80
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_PRESSURE, ABILITY_NONE
     runchance 0
@@ -5148,7 +5148,7 @@ mondata SPECIES_ENTEI, "Entei"
     genderratio 255
     eggcycles 80
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_PRESSURE, ABILITY_NONE
     runchance 0
@@ -5169,7 +5169,7 @@ mondata SPECIES_SUICUNE, "Suicune"
     genderratio 255
     eggcycles 80
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_PRESSURE, ABILITY_NONE
     runchance 0
@@ -5190,7 +5190,7 @@ mondata SPECIES_LARVITAR, "Larvitar"
     genderratio 127
     eggcycles 40
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_MONSTER
     abilities ABILITY_GUTS, ABILITY_NONE
     runchance 0
@@ -5211,7 +5211,7 @@ mondata SPECIES_PUPITAR, "Pupitar"
     genderratio 127
     eggcycles 40
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_MONSTER
     abilities ABILITY_SHED_SKIN, ABILITY_NONE
     runchance 0
@@ -5232,7 +5232,7 @@ mondata SPECIES_TYRANITAR, "Tyranitar"
     genderratio 127
     eggcycles 40
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_MONSTER
     abilities ABILITY_SAND_STREAM, ABILITY_NONE
     runchance 0
@@ -5253,7 +5253,7 @@ mondata SPECIES_LUGIA, "Lugia"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_PRESSURE, ABILITY_NONE
     runchance 0
@@ -5274,7 +5274,7 @@ mondata SPECIES_HO_OH, "Ho-oh"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_PRESSURE, ABILITY_NONE
     runchance 0
@@ -5295,7 +5295,7 @@ mondata SPECIES_CELEBI, "Celebi"
     genderratio 255
     eggcycles 120
     basefriendship 100
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_NATURAL_CURE, ABILITY_NONE
     runchance 0
@@ -5316,7 +5316,7 @@ mondata SPECIES_TREECKO, "Treecko"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_DRAGON
     abilities ABILITY_OVERGROW, ABILITY_NONE
     runchance 0
@@ -5337,7 +5337,7 @@ mondata SPECIES_GROVYLE, "Grovyle"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_DRAGON
     abilities ABILITY_OVERGROW, ABILITY_NONE
     runchance 0
@@ -5358,7 +5358,7 @@ mondata SPECIES_SCEPTILE, "Sceptile"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_DRAGON
     abilities ABILITY_OVERGROW, ABILITY_NONE
     runchance 0
@@ -5379,7 +5379,7 @@ mondata SPECIES_TORCHIC, "Torchic"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_BLAZE, ABILITY_NONE
     runchance 0
@@ -5400,7 +5400,7 @@ mondata SPECIES_COMBUSKEN, "Combusken"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_BLAZE, ABILITY_NONE
     runchance 0
@@ -5421,7 +5421,7 @@ mondata SPECIES_BLAZIKEN, "Blaziken"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_BLAZE, ABILITY_NONE
     runchance 0
@@ -5442,7 +5442,7 @@ mondata SPECIES_MUDKIP, "Mudkip"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_WATER_1
     abilities ABILITY_TORRENT, ABILITY_NONE
     runchance 0
@@ -5463,7 +5463,7 @@ mondata SPECIES_MARSHTOMP, "Marshtomp"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_WATER_1
     abilities ABILITY_TORRENT, ABILITY_NONE
     runchance 0
@@ -5484,7 +5484,7 @@ mondata SPECIES_SWAMPERT, "Swampert"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_WATER_1
     abilities ABILITY_TORRENT, ABILITY_NONE
     runchance 0
@@ -5586,11 +5586,11 @@ mondata SPECIES_WURMPIE, "Wurmpie"
     baseexp 0 // defined in baseexp.s
     evyields 1, 0, 0, 0, 0, 0
     items ITEM_PECHA_BERRY, ITEM_BRIGHT_POWDER
-    genderratio 127
+    genderratio 255
     eggcycles 15
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_SHIELD_DUST, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_RED, 0
@@ -5694,7 +5694,7 @@ mondata SPECIES_LOTAD, "Lotad"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_GRASS
     abilities ABILITY_SWIFT_SWIM, ABILITY_RAIN_DISH
     runchance 0
@@ -5715,7 +5715,7 @@ mondata SPECIES_LOMBRE, "Lombre"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_GRASS
     abilities ABILITY_SWIFT_SWIM, ABILITY_RAIN_DISH
     runchance 0
@@ -5736,7 +5736,7 @@ mondata SPECIES_LUDICOLO, "Ludicolo"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_GRASS
     abilities ABILITY_SWIFT_SWIM, ABILITY_RAIN_DISH
     runchance 0
@@ -5757,7 +5757,7 @@ mondata SPECIES_SEEDOT, "Seedot"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_GRASS
     abilities ABILITY_CHLOROPHYLL, ABILITY_EARLY_BIRD
     runchance 0
@@ -5778,7 +5778,7 @@ mondata SPECIES_NUZLEAF, "Nuzleaf"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_GRASS
     abilities ABILITY_CHLOROPHYLL, ABILITY_EARLY_BIRD
     runchance 0
@@ -5799,7 +5799,7 @@ mondata SPECIES_SHIFTRY, "Shiftry"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_GRASS
     abilities ABILITY_CHLOROPHYLL, ABILITY_WIND_RIDER
     runchance 0
@@ -5820,7 +5820,7 @@ mondata SPECIES_TAILLOW, "Taillow"
     genderratio 127
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_GUTS, ABILITY_NONE
     runchance 0
@@ -5841,7 +5841,7 @@ mondata SPECIES_SWELLOW, "Swellow"
     genderratio 127
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_GUTS, ABILITY_NONE
     runchance 0
@@ -5904,7 +5904,7 @@ mondata SPECIES_RALTS, "Ralts"
     genderratio 127
     eggcycles 20
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_AMORPHOUS
     abilities ABILITY_SYNCHRONIZE, ABILITY_TRACE
     runchance 0
@@ -5925,7 +5925,7 @@ mondata SPECIES_KIRLIA, "Kirlia"
     genderratio 127
     eggcycles 20
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_AMORPHOUS
     abilities ABILITY_SYNCHRONIZE, ABILITY_TRACE
     runchance 0
@@ -5946,7 +5946,7 @@ mondata SPECIES_GARDEVOIR, "Gardevoir"
     genderratio 127
     eggcycles 20
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_AMORPHOUS
     abilities ABILITY_SYNCHRONIZE, ABILITY_TRACE
     runchance 0
@@ -6009,7 +6009,7 @@ mondata SPECIES_SHROOMISH, "Shroomish"
     genderratio 127
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_FLUCTUATING
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_GRASS
     abilities ABILITY_EFFECT_SPORE, ABILITY_POISON_HEAL
     runchance 0
@@ -6030,7 +6030,7 @@ mondata SPECIES_BRELOOM, "Breloom"
     genderratio 127
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_FLUCTUATING
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_GRASS
     abilities ABILITY_EFFECT_SPORE, ABILITY_POISON_HEAL
     runchance 0
@@ -6051,7 +6051,7 @@ mondata SPECIES_SLAKOTH, "Slakoth"
     genderratio 127
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_TRUANT, ABILITY_NONE
     runchance 0
@@ -6072,7 +6072,7 @@ mondata SPECIES_VIGOROTH, "Vigoroth"
     genderratio 127
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_VITAL_SPIRIT, ABILITY_NONE
     runchance 0
@@ -6093,7 +6093,7 @@ mondata SPECIES_SLAKING, "Slaking"
     genderratio 127
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_TRUANT, ABILITY_NONE
     runchance 0
@@ -6114,7 +6114,7 @@ mondata SPECIES_NINCADA, "Nincada"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_ERRATIC
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     abilities ABILITY_COMPOUND_EYES, ABILITY_NONE
     runchance 0
@@ -6135,7 +6135,7 @@ mondata SPECIES_NINJASK, "Ninjask"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_ERRATIC
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     abilities ABILITY_SPEED_BOOST, ABILITY_NONE
     runchance 0
@@ -6156,7 +6156,7 @@ mondata SPECIES_SHEDINJA, "Shedinja"
     genderratio 255
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_ERRATIC
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_WONDER_GUARD, ABILITY_NONE
     runchance 0
@@ -6177,7 +6177,7 @@ mondata SPECIES_WHISMUR, "Whismur"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_FIELD
     abilities ABILITY_SOUNDPROOF, ABILITY_NONE
     runchance 0
@@ -6198,7 +6198,7 @@ mondata SPECIES_LOUDRED, "Loudred"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_FIELD
     abilities ABILITY_SOUNDPROOF, ABILITY_NONE
     runchance 0
@@ -6219,7 +6219,7 @@ mondata SPECIES_EXPLOUD, "Exploud"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_FIELD
     abilities ABILITY_SOUNDPROOF, ABILITY_NONE
     runchance 0
@@ -6240,7 +6240,7 @@ mondata SPECIES_MAKUHITA, "Makuhita"
     genderratio 63
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_FLUCTUATING
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_THICK_FAT, ABILITY_GUTS
     runchance 0
@@ -6261,7 +6261,7 @@ mondata SPECIES_HARIYAMA, "Hariyama"
     genderratio 63
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_FLUCTUATING
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_THICK_FAT, ABILITY_GUTS
     runchance 0
@@ -6282,7 +6282,7 @@ mondata SPECIES_AZURILL, "Azurill"
     genderratio 190
     eggcycles 10
     basefriendship 50
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_THICK_FAT, ABILITY_HUGE_POWER
     runchance 0
@@ -6324,7 +6324,7 @@ mondata SPECIES_SKITTY, "Skitty"
     genderratio 190
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
     abilities ABILITY_CUTE_CHARM, ABILITY_NORMALIZE
     runchance 0
@@ -6345,7 +6345,7 @@ mondata SPECIES_DELCATTY, "Delcatty"
     genderratio 190
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
     abilities ABILITY_CUTE_CHARM, ABILITY_NORMALIZE
     runchance 0
@@ -6366,8 +6366,8 @@ mondata SPECIES_SABLEYE, "Sableye"
     genderratio 127
     eggcycles 25
     basefriendship 35
-    growthrate GROWTH_MEDIUM_SLOW
-    egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_MINERAL
     abilities ABILITY_KEEN_EYE, ABILITY_STALL
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
@@ -6387,7 +6387,7 @@ mondata SPECIES_MAWILE, "Mawile"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
     abilities ABILITY_HYPER_CUTTER, ABILITY_INTIMIDATE
     runchance 0
@@ -6408,7 +6408,7 @@ mondata SPECIES_ARON, "Aron"
     genderratio 127
     eggcycles 35
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_MONSTER
     abilities ABILITY_STURDY, ABILITY_ROCK_HEAD
     runchance 0
@@ -6429,7 +6429,7 @@ mondata SPECIES_LAIRON, "Lairon"
     genderratio 127
     eggcycles 35
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_MONSTER
     abilities ABILITY_STURDY, ABILITY_ROCK_HEAD
     runchance 0
@@ -6450,7 +6450,7 @@ mondata SPECIES_AGGRON, "Aggron"
     genderratio 127
     eggcycles 35
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_MONSTER
     abilities ABILITY_STURDY, ABILITY_ROCK_HEAD
     runchance 0
@@ -6513,7 +6513,7 @@ mondata SPECIES_ELECTRIKE, "Electrike"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_STATIC, ABILITY_LIGHTNING_ROD
     runchance 0
@@ -6534,7 +6534,7 @@ mondata SPECIES_MANECTRIC, "Manectric"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_STATIC, ABILITY_LIGHTNING_ROD
     runchance 0
@@ -6597,7 +6597,7 @@ mondata SPECIES_VOLBEAT, "Volbeat"
     genderratio 0
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_ERRATIC
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_ILLUMINATE, ABILITY_SWARM
     runchance 0
@@ -6618,7 +6618,7 @@ mondata SPECIES_ILLUMISE, "Illumise"
     genderratio 254
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_FLUCTUATING
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_OBLIVIOUS, ABILITY_TINTED_LENS
     runchance 0
@@ -6639,7 +6639,7 @@ mondata SPECIES_ROSELIA, "Roselia"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_GRASS
     abilities ABILITY_NATURAL_CURE, ABILITY_POISON_POINT
     runchance 0
@@ -6660,7 +6660,7 @@ mondata SPECIES_GULPIN, "Gulpin"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_FLUCTUATING
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
     abilities ABILITY_LIQUID_OOZE, ABILITY_STICKY_HOLD
     runchance 0
@@ -6681,7 +6681,7 @@ mondata SPECIES_SWALOT, "Swalot"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_FLUCTUATING
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
     abilities ABILITY_LIQUID_OOZE, ABILITY_STICKY_HOLD
     runchance 0
@@ -6702,7 +6702,7 @@ mondata SPECIES_CARVANHA, "Carvanha"
     genderratio 127
     eggcycles 20
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
     abilities ABILITY_ROUGH_SKIN, ABILITY_NONE
     runchance 0
@@ -6723,7 +6723,7 @@ mondata SPECIES_SHARPEDO, "Sharpedo"
     genderratio 127
     eggcycles 20
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
     abilities ABILITY_ROUGH_SKIN, ABILITY_NONE
     runchance 0
@@ -6744,7 +6744,7 @@ mondata SPECIES_WAILMER, "Wailmer"
     genderratio 127
     eggcycles 40
     basefriendship 50
-    growthrate GROWTH_FLUCTUATING
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_WATER_2
     abilities ABILITY_WATER_VEIL, ABILITY_OBLIVIOUS
     runchance 0
@@ -6765,7 +6765,7 @@ mondata SPECIES_WAILORD, "Wailord"
     genderratio 127
     eggcycles 40
     basefriendship 50
-    growthrate GROWTH_FLUCTUATING
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_WATER_2
     abilities ABILITY_WATER_VEIL, ABILITY_OBLIVIOUS
     runchance 0
@@ -6849,7 +6849,7 @@ mondata SPECIES_SPOINK, "Spoink"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_THICK_FAT, ABILITY_OWN_TEMPO
     runchance 0
@@ -6870,7 +6870,7 @@ mondata SPECIES_GRUMPIG, "Grumpig"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_THICK_FAT, ABILITY_OWN_TEMPO
     runchance 0
@@ -6891,7 +6891,7 @@ mondata SPECIES_SPINDA, "Spinda"
     genderratio 127
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_OWN_TEMPO, ABILITY_TANGLED_FEET
     runchance 0
@@ -6912,7 +6912,7 @@ mondata SPECIES_TRAPINCH, "Trapinch"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_DRAGON
     abilities ABILITY_HYPER_CUTTER, ABILITY_ARENA_TRAP
     runchance 0
@@ -6933,7 +6933,7 @@ mondata SPECIES_VIBRAVA, "Vibrava"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_DRAGON
     abilities ABILITY_LEVITATE, ABILITY_NONE
     runchance 0
@@ -6954,7 +6954,7 @@ mondata SPECIES_FLYGON, "Flygon"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_DRAGON
     abilities ABILITY_LEVITATE, ABILITY_NONE
     runchance 0
@@ -6975,7 +6975,7 @@ mondata SPECIES_CACNEA, "Cacnea"
     genderratio 127
     eggcycles 20
     basefriendship 35
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_SAND_VEIL, ABILITY_NONE
     runchance 0
@@ -6996,7 +6996,7 @@ mondata SPECIES_CACTURNE, "Cacturne"
     genderratio 127
     eggcycles 20
     basefriendship 35
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_SAND_VEIL, ABILITY_NONE
     runchance 0
@@ -7017,7 +7017,7 @@ mondata SPECIES_SWABLU, "Swablu"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_ERRATIC
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_DRAGON
     abilities ABILITY_NATURAL_CURE, ABILITY_NONE
     runchance 0
@@ -7038,7 +7038,7 @@ mondata SPECIES_ALTARIA, "Altaria"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_ERRATIC
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_DRAGON
     abilities ABILITY_NATURAL_CURE, ABILITY_NONE
     runchance 0
@@ -7059,7 +7059,7 @@ mondata SPECIES_ZANGOOSE, "Zangoose"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_ERRATIC
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_IMMUNITY, ABILITY_NONE
     runchance 0
@@ -7080,7 +7080,7 @@ mondata SPECIES_SEVIPER, "Seviper"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_FLUCTUATING
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_DRAGON
     abilities ABILITY_SHED_SKIN, ABILITY_NONE
     runchance 0
@@ -7101,7 +7101,7 @@ mondata SPECIES_LUNATONE, "Lunatone"
     genderratio 255
     eggcycles 25
     basefriendship 50
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_LEVITATE, ABILITY_NONE
     runchance 0
@@ -7122,7 +7122,7 @@ mondata SPECIES_SOLROCK, "Solrock"
     genderratio 255
     eggcycles 25
     basefriendship 50
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_LEVITATE, ABILITY_NONE
     runchance 0
@@ -7185,7 +7185,7 @@ mondata SPECIES_CORPHISH, "Corphish"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_FLUCTUATING
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_3
     abilities ABILITY_HYPER_CUTTER, ABILITY_SHELL_ARMOR
     runchance 0
@@ -7206,7 +7206,7 @@ mondata SPECIES_CRAWDAUNT, "Crawdaunt"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_FLUCTUATING
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_3
     abilities ABILITY_HYPER_CUTTER, ABILITY_SHELL_ARMOR
     runchance 0
@@ -7269,7 +7269,7 @@ mondata SPECIES_LILEEP, "Lileep"
     genderratio 31
     eggcycles 30
     basefriendship 50
-    growthrate GROWTH_ERRATIC
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_3, EGG_GROUP_WATER_3
     abilities ABILITY_SUCTION_CUPS, ABILITY_NONE
     runchance 0
@@ -7290,7 +7290,7 @@ mondata SPECIES_CRADILY, "Cradily"
     genderratio 31
     eggcycles 30
     basefriendship 50
-    growthrate GROWTH_ERRATIC
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_3, EGG_GROUP_WATER_3
     abilities ABILITY_SUCTION_CUPS, ABILITY_NONE
     runchance 0
@@ -7301,46 +7301,46 @@ mondata SPECIES_CRADILY, "Cradily"
     mondexweight SPECIES_CRADILY, "133.2 lbs."
 
 
-mondata SPECIES_ANORITH, "Anorith"
+mondata SPECIES_FANGOOSE, "Anorith"
     basestats 45, 95, 50, 75, 40, 50
     types TYPE_ROCK, TYPE_BUG
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 31
+    genderratio 127
     eggcycles 30
     basefriendship 50
-    growthrate GROWTH_ERRATIC
-    egggroups EGG_GROUP_WATER_3, EGG_GROUP_WATER_3
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_BATTLE_ARMOR, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
-    mondexentry SPECIES_ANORITH, "An ancestral Pokémon that lived in\nthe ocean. Over time, its eight feet\ntransformed into wings."
-    mondexclassification SPECIES_ANORITH, "Old Shrimp Pokémon"
-    mondexheight SPECIES_ANORITH, "2’04”"
-    mondexweight SPECIES_ANORITH, "27.6 lbs."
+    mondexentry SPECIES_FANGOOSE, "An ancestral Pokémon that lived in\nthe ocean. Over time, its eight feet\ntransformed into wings."
+    mondexclassification SPECIES_FANGOOSE, "Old Shrimp Pokémon"
+    mondexheight SPECIES_FANGOOSE, "2’04”"
+    mondexweight SPECIES_FANGOOSE, "27.6 lbs."
 
 
-mondata SPECIES_ARMALDO, "Armaldo"
+mondata SPECIES_SHIVIPER, "Armaldo"
     basestats 75, 125, 100, 45, 70, 80
     types TYPE_ROCK, TYPE_BUG
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 31
+    genderratio 127
     eggcycles 30
     basefriendship 50
-    growthrate GROWTH_ERRATIC
-    egggroups EGG_GROUP_WATER_3, EGG_GROUP_WATER_3
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_DRAGON
     abilities ABILITY_BATTLE_ARMOR, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
-    mondexentry SPECIES_ARMALDO, "Its enormous, retractable claws\ncan cut through most anything. Its\nentire body is clad in sturdy plates."
-    mondexclassification SPECIES_ARMALDO, "Plate Pokémon"
-    mondexheight SPECIES_ARMALDO, "4’11”"
-    mondexweight SPECIES_ARMALDO, "150.4 lbs."
+    mondexentry SPECIES_SHIVIPER, "Its enormous, retractable claws\ncan cut through most anything. Its\nentire body is clad in sturdy plates."
+    mondexclassification SPECIES_SHIVIPER, "Plate Pokémon"
+    mondexheight SPECIES_SHIVIPER, "4’11”"
+    mondexweight SPECIES_SHIVIPER, "150.4 lbs."
 
 
 mondata SPECIES_FEEBAS, "Feebas"
@@ -7353,7 +7353,7 @@ mondata SPECIES_FEEBAS, "Feebas"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_ERRATIC
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_DRAGON
     abilities ABILITY_OBLIVIOUS, ABILITY_NONE
     runchance 0
@@ -7374,7 +7374,7 @@ mondata SPECIES_MILOTIC, "Milotic"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_ERRATIC
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_DRAGON
     abilities ABILITY_WONDER_SKIN, ABILITY_NONE
     runchance 0
@@ -7416,7 +7416,7 @@ mondata SPECIES_KECLEON, "Kecleon"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_COLOR_CHANGE, ABILITY_NONE
     runchance 0
@@ -7437,7 +7437,7 @@ mondata SPECIES_SHUPPET, "Shuppet"
     genderratio 127
     eggcycles 25
     basefriendship 35
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
     abilities ABILITY_INSOMNIA, ABILITY_FRISK
     runchance 0
@@ -7458,7 +7458,7 @@ mondata SPECIES_BANETTE, "Banette"
     genderratio 127
     eggcycles 25
     basefriendship 35
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
     abilities ABILITY_INSOMNIA, ABILITY_FRISK
     runchance 0
@@ -7479,7 +7479,7 @@ mondata SPECIES_DUSKULL, "Duskull"
     genderratio 127
     eggcycles 25
     basefriendship 35
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
     abilities ABILITY_LEVITATE, ABILITY_NONE
     runchance 0
@@ -7500,7 +7500,7 @@ mondata SPECIES_DUSCLOPS, "Dusclops"
     genderratio 127
     eggcycles 25
     basefriendship 35
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
     abilities ABILITY_PRESSURE, ABILITY_NONE
     runchance 0
@@ -7521,7 +7521,7 @@ mondata SPECIES_TROPIUS, "Tropius"
     genderratio 127
     eggcycles 25
     basefriendship 70
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_GRASS
     abilities ABILITY_CHLOROPHYLL, ABILITY_SOLAR_POWER
     runchance 0
@@ -7532,7 +7532,7 @@ mondata SPECIES_TROPIUS, "Tropius"
     mondexweight SPECIES_TROPIUS, "220.5 lbs."
 
 
-mondata SPECIES_CHIMECHO, "Chimecho"
+mondata SPECIES_KANECHO, "Chimecho"
     basestats 75, 50, 80, 65, 95, 90
     types TYPE_PSYCHIC, TYPE_PSYCHIC
     catchrate 45
@@ -7542,15 +7542,15 @@ mondata SPECIES_CHIMECHO, "Chimecho"
     genderratio 127
     eggcycles 25
     basefriendship 70
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
     abilities ABILITY_LEVITATE, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
-    mondexentry SPECIES_CHIMECHO, "It uses the sucker on its head to\nhang from a tree or from eaves. It\ncan produce seven different tones."
-    mondexclassification SPECIES_CHIMECHO, "Wind Chime Pokémon"
-    mondexheight SPECIES_CHIMECHO, "2’00”"
-    mondexweight SPECIES_CHIMECHO, "2.2 lbs."
+    mondexentry SPECIES_KANECHO, "It uses the sucker on its head to\nhang from a tree or from eaves. It\ncan produce seven different tones."
+    mondexclassification SPECIES_KANECHO, "Wind Chime Pokémon"
+    mondexheight SPECIES_KANECHO, "2’00”"
+    mondexweight SPECIES_KANECHO, "2.2 lbs."
 
 
 mondata SPECIES_ABSOL, "Absol"
@@ -7563,7 +7563,7 @@ mondata SPECIES_ABSOL, "Absol"
     genderratio 127
     eggcycles 25
     basefriendship 35
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_INSOMNIA, ABILITY_SUPER_LUCK
     runchance 0
@@ -7647,7 +7647,7 @@ mondata SPECIES_SPHEAL, "Spheal"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
     abilities ABILITY_THICK_FAT, ABILITY_ICE_BODY
     runchance 0
@@ -7668,7 +7668,7 @@ mondata SPECIES_SEALEO, "Sealeo"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
     abilities ABILITY_THICK_FAT, ABILITY_ICE_BODY
     runchance 0
@@ -7689,7 +7689,7 @@ mondata SPECIES_WALREIN, "Walrein"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
     abilities ABILITY_THICK_FAT, ABILITY_ICE_BODY
     runchance 0
@@ -7710,7 +7710,7 @@ mondata SPECIES_CLAMPERL, "Clamperl"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_ERRATIC
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_1
     abilities ABILITY_SHELL_ARMOR, ABILITY_NONE
     runchance 0
@@ -7731,7 +7731,7 @@ mondata SPECIES_HUNTAIL, "Huntail"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_ERRATIC
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_1
     abilities ABILITY_SWIFT_SWIM, ABILITY_NONE
     runchance 0
@@ -7752,7 +7752,7 @@ mondata SPECIES_GOREBYSS, "Gorebyss"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_ERRATIC
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_1
     abilities ABILITY_SWIFT_SWIM, ABILITY_NONE
     runchance 0
@@ -7773,7 +7773,7 @@ mondata SPECIES_RELICANTH, "Relicanth"
     genderratio 31
     eggcycles 40
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_2
     abilities ABILITY_SWIFT_SWIM, ABILITY_ROCK_HEAD
     runchance 0
@@ -7794,8 +7794,8 @@ mondata SPECIES_LUVDISC, "Luvdisc"
     genderratio 190
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_FAST
-    egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_2
     abilities ABILITY_SWIFT_SWIM, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_PINK, 0
@@ -7815,7 +7815,7 @@ mondata SPECIES_BAGON, "Bagon"
     genderratio 127
     eggcycles 40
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_DRAGON, EGG_GROUP_DRAGON
     abilities ABILITY_ROCK_HEAD, ABILITY_NONE
     runchance 0
@@ -7836,7 +7836,7 @@ mondata SPECIES_SHELGON, "Shelgon"
     genderratio 127
     eggcycles 40
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_DRAGON, EGG_GROUP_DRAGON
     abilities ABILITY_ROCK_HEAD, ABILITY_NONE
     runchance 0
@@ -7857,7 +7857,7 @@ mondata SPECIES_SALAMENCE, "Salamence"
     genderratio 127
     eggcycles 40
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_DRAGON, EGG_GROUP_DRAGON
     abilities ABILITY_INTIMIDATE, ABILITY_NONE
     runchance 0
@@ -7878,7 +7878,7 @@ mondata SPECIES_BELDUM, "Beldum"
     genderratio 255
     eggcycles 40
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_CLEAR_BODY, ABILITY_NONE
     runchance 0
@@ -7899,7 +7899,7 @@ mondata SPECIES_METANG, "Metang"
     genderratio 255
     eggcycles 40
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_CLEAR_BODY, ABILITY_NONE
     runchance 0
@@ -7920,7 +7920,7 @@ mondata SPECIES_METAGROSS, "Metagross"
     genderratio 255
     eggcycles 40
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_CLEAR_BODY, ABILITY_NONE
     runchance 0
@@ -7941,7 +7941,7 @@ mondata SPECIES_REGIROCK, "Regirock"
     genderratio 255
     eggcycles 80
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_CLEAR_BODY, ABILITY_NONE
     runchance 0
@@ -7962,7 +7962,7 @@ mondata SPECIES_REGICE, "Regice"
     genderratio 255
     eggcycles 80
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_CLEAR_BODY, ABILITY_NONE
     runchance 0
@@ -7983,7 +7983,7 @@ mondata SPECIES_REGISTEEL, "Registeel"
     genderratio 255
     eggcycles 80
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_CLEAR_BODY, ABILITY_NONE
     runchance 0
@@ -8004,7 +8004,7 @@ mondata SPECIES_LATIAS, "Latias"
     genderratio 254
     eggcycles 120
     basefriendship 90
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_LEVITATE, ABILITY_NONE
     runchance 0
@@ -8025,7 +8025,7 @@ mondata SPECIES_LATIOS, "Latios"
     genderratio 0
     eggcycles 120
     basefriendship 90
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_LEVITATE, ABILITY_NONE
     runchance 0
@@ -8046,7 +8046,7 @@ mondata SPECIES_KYOGRE, "Kyogre"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_DRIZZLE, ABILITY_NONE
     runchance 0
@@ -8067,7 +8067,7 @@ mondata SPECIES_GROUDON, "Groudon"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_DROUGHT, ABILITY_NONE
     runchance 0
@@ -8088,7 +8088,7 @@ mondata SPECIES_RAYQUAZA, "Rayquaza"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_AIR_LOCK, ABILITY_NONE
     runchance 0
@@ -8109,7 +8109,7 @@ mondata SPECIES_JIRACHI, "Jirachi"
     genderratio 255
     eggcycles 120
     basefriendship 100
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_SERENE_GRACE, ABILITY_NONE
     runchance 0
@@ -8130,7 +8130,7 @@ mondata SPECIES_DEOXYS, "Deoxys"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_PRESSURE, ABILITY_NONE
     runchance 0
@@ -8151,7 +8151,7 @@ mondata SPECIES_TURTWIG, "Turtwig"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_GRASS
     abilities ABILITY_OVERGROW, ABILITY_NONE
     runchance 0
@@ -8172,7 +8172,7 @@ mondata SPECIES_GROTLE, "Grotle"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_GRASS
     abilities ABILITY_OVERGROW, ABILITY_NONE
     runchance 0
@@ -8193,7 +8193,7 @@ mondata SPECIES_TORTERRA, "Torterra"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_GRASS
     abilities ABILITY_OVERGROW, ABILITY_NONE
     runchance 0
@@ -8214,7 +8214,7 @@ mondata SPECIES_CHIMCHAR, "Chimchar"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_BLAZE, ABILITY_NONE
     runchance 0
@@ -8235,7 +8235,7 @@ mondata SPECIES_MONFERNO, "Monferno"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_BLAZE, ABILITY_NONE
     runchance 0
@@ -8256,7 +8256,7 @@ mondata SPECIES_INFERNAPE, "Infernape"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_BLAZE, ABILITY_NONE
     runchance 0
@@ -8277,7 +8277,7 @@ mondata SPECIES_PIPLUP, "Piplup"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
     abilities ABILITY_TORRENT, ABILITY_NONE
     runchance 0
@@ -8298,7 +8298,7 @@ mondata SPECIES_PRINPLUP, "Prinplup"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
     abilities ABILITY_TORRENT, ABILITY_NONE
     runchance 0
@@ -8319,7 +8319,7 @@ mondata SPECIES_EMPOLEON, "Empoleon"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
     abilities ABILITY_TORRENT, ABILITY_NONE
     runchance 0
@@ -8340,7 +8340,7 @@ mondata SPECIES_STARLY, "Starly"
     genderratio 127
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_KEEN_EYE, ABILITY_NONE
     runchance 0
@@ -8361,7 +8361,7 @@ mondata SPECIES_STARAVIA, "Staravia"
     genderratio 127
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_INTIMIDATE, ABILITY_NONE
     runchance 0
@@ -8382,7 +8382,7 @@ mondata SPECIES_STARAPTOR, "Staraptor"
     genderratio 127
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_INTIMIDATE, ABILITY_NONE
     runchance 0
@@ -8445,7 +8445,7 @@ mondata SPECIES_KRICKETOT, "Kricketot"
     genderratio 127
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     abilities ABILITY_SHED_SKIN, ABILITY_NONE
     runchance 0
@@ -8466,7 +8466,7 @@ mondata SPECIES_KRICKETUNE, "Kricketune"
     genderratio 127
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     abilities ABILITY_SWARM, ABILITY_NONE
     runchance 0
@@ -8487,7 +8487,7 @@ mondata SPECIES_SHINX, "Shinx"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_RIVALRY, ABILITY_GUTS
     runchance 0
@@ -8508,7 +8508,7 @@ mondata SPECIES_LUXIO, "Luxio"
     genderratio 127
     eggcycles 20
     basefriendship 100
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_RIVALRY, ABILITY_GUTS
     runchance 0
@@ -8529,7 +8529,7 @@ mondata SPECIES_LUXRAY, "Luxray"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_RIVALRY, ABILITY_GUTS
     runchance 0
@@ -8550,7 +8550,7 @@ mondata SPECIES_BUDEW, "Budew"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_NATURAL_CURE, ABILITY_POISON_POINT
     runchance 0
@@ -8571,7 +8571,7 @@ mondata SPECIES_ROSERADE, "Roserade"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_GRASS
     abilities ABILITY_NATURAL_CURE, ABILITY_POISON_POINT
     runchance 0
@@ -8592,7 +8592,7 @@ mondata SPECIES_CRANIDOS, "Cranidos"
     genderratio 31
     eggcycles 30
     basefriendship 70
-    growthrate GROWTH_ERRATIC
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_MONSTER
     abilities ABILITY_MOLD_BREAKER, ABILITY_NONE
     runchance 0
@@ -8613,7 +8613,7 @@ mondata SPECIES_RAMPARDOS, "Rampardos"
     genderratio 31
     eggcycles 30
     basefriendship 70
-    growthrate GROWTH_ERRATIC
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_MONSTER
     abilities ABILITY_MOLD_BREAKER, ABILITY_NONE
     runchance 0
@@ -8634,7 +8634,7 @@ mondata SPECIES_SHIELDON, "Shieldon"
     genderratio 31
     eggcycles 30
     basefriendship 70
-    growthrate GROWTH_ERRATIC
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_MONSTER
     abilities ABILITY_STURDY, ABILITY_NONE
     runchance 0
@@ -8655,7 +8655,7 @@ mondata SPECIES_BASTIODON, "Bastiodon"
     genderratio 31
     eggcycles 30
     basefriendship 70
-    growthrate GROWTH_ERRATIC
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_MONSTER
     abilities ABILITY_STURDY, ABILITY_NONE
     runchance 0
@@ -8739,7 +8739,7 @@ mondata SPECIES_COMBEE, "Combee"
     genderratio 31
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     abilities ABILITY_FILTER, ABILITY_NONE
     runchance 0
@@ -8760,7 +8760,7 @@ mondata SPECIES_VESPIQUEN, "Vespiquen"
     genderratio 254
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     abilities ABILITY_FILTER, ABILITY_NONE
     runchance 0
@@ -8928,7 +8928,7 @@ mondata SPECIES_AMBIPOM, "Ambipom"
     genderratio 127
     eggcycles 20
     basefriendship 100
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_TECHNICIAN, ABILITY_NONE
     runchance 0
@@ -8949,7 +8949,7 @@ mondata SPECIES_DRIFLOON, "Drifloon"
     genderratio 127
     eggcycles 30
     basefriendship 50
-    growthrate GROWTH_FLUCTUATING
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
     abilities ABILITY_AFTERMATH, ABILITY_UNBURDEN
     runchance 0
@@ -8970,7 +8970,7 @@ mondata SPECIES_DRIFBLIM, "Drifblim"
     genderratio 127
     eggcycles 30
     basefriendship 50
-    growthrate GROWTH_FLUCTUATING
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
     abilities ABILITY_AFTERMATH, ABILITY_UNBURDEN
     runchance 0
@@ -9033,7 +9033,7 @@ mondata SPECIES_MISMAGIUS, "Mismagius"
     genderratio 127
     eggcycles 25
     basefriendship 35
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
     abilities ABILITY_LEVITATE, ABILITY_NONE
     runchance 0
@@ -9054,7 +9054,7 @@ mondata SPECIES_HONCHKROW, "Honchkrow"
     genderratio 127
     eggcycles 20
     basefriendship 35
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_INSOMNIA, ABILITY_SUPER_LUCK
     runchance 0
@@ -9075,7 +9075,7 @@ mondata SPECIES_GLAMEOW, "Glameow"
     genderratio 190
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_LIMBER, ABILITY_OWN_TEMPO
     runchance 0
@@ -9096,7 +9096,7 @@ mondata SPECIES_PURUGLY, "Purugly"
     genderratio 190
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_THICK_FAT, ABILITY_OWN_TEMPO
     runchance 0
@@ -9117,7 +9117,7 @@ mondata SPECIES_CHINGLING, "Chingling"
     genderratio 127
     eggcycles 25
     basefriendship 70
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_LEVITATE, ABILITY_NONE
     runchance 0
@@ -9264,7 +9264,7 @@ mondata SPECIES_HAPPINY, "Happiny"
     genderratio 254
     eggcycles 40
     basefriendship 140
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_NATURAL_CURE, ABILITY_SERENE_GRACE
     runchance 0
@@ -9285,7 +9285,7 @@ mondata SPECIES_CHATOT, "Chatot"
     genderratio 127
     eggcycles 20
     basefriendship 35
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_KEEN_EYE, ABILITY_TANGLED_FEET
     runchance 0
@@ -9327,7 +9327,7 @@ mondata SPECIES_GIBLE, "Gible"
     genderratio 127
     eggcycles 40
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_DRAGON
     abilities ABILITY_SAND_VEIL, ABILITY_NONE
     runchance 0
@@ -9348,7 +9348,7 @@ mondata SPECIES_GABITE, "Gabite"
     genderratio 127
     eggcycles 40
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_DRAGON
     abilities ABILITY_SAND_VEIL, ABILITY_NONE
     runchance 0
@@ -9369,7 +9369,7 @@ mondata SPECIES_GARCHOMP, "Garchomp"
     genderratio 127
     eggcycles 40
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_DRAGON
     abilities ABILITY_SAND_VEIL, ABILITY_NONE
     runchance 0
@@ -9390,7 +9390,7 @@ mondata SPECIES_MUNCHLAX, "Munchlax"
     genderratio 31
     eggcycles 40
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_PICKUP, ABILITY_THICK_FAT
     runchance 0
@@ -9411,7 +9411,7 @@ mondata SPECIES_RIOLU, "Riolu"
     genderratio 31
     eggcycles 25
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_STEADFAST, ABILITY_INNER_FOCUS
     runchance 0
@@ -9432,7 +9432,7 @@ mondata SPECIES_LUCARIO, "Lucario"
     genderratio 31
     eggcycles 25
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_STEADFAST, ABILITY_INNER_FOCUS
     runchance 0
@@ -9453,7 +9453,7 @@ mondata SPECIES_HIPPOPOTAS, "Hippopotas"
     genderratio 127
     eggcycles 30
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_SAND_STREAM, ABILITY_NONE
     runchance 0
@@ -9474,7 +9474,7 @@ mondata SPECIES_HIPPOWDON, "Hippowdon"
     genderratio 127
     eggcycles 30
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_SAND_STREAM, ABILITY_NONE
     runchance 0
@@ -9495,7 +9495,7 @@ mondata SPECIES_SKORUPI, "Skorupi"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_WATER_3
     abilities ABILITY_BATTLE_ARMOR, ABILITY_SNIPER
     runchance 0
@@ -9516,7 +9516,7 @@ mondata SPECIES_DRAPION, "Drapion"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_WATER_3
     abilities ABILITY_BATTLE_ARMOR, ABILITY_SNIPER
     runchance 0
@@ -9579,7 +9579,7 @@ mondata SPECIES_CARNIVINE, "Carnivine"
     genderratio 127
     eggcycles 25
     basefriendship 70
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
     abilities ABILITY_LEVITATE, ABILITY_NONE
     runchance 0
@@ -9600,7 +9600,7 @@ mondata SPECIES_FINNEON, "Finneon"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_ERRATIC
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
     abilities ABILITY_SWIFT_SWIM, ABILITY_STORM_DRAIN
     runchance 0
@@ -9621,7 +9621,7 @@ mondata SPECIES_LUMINEON, "Lumineon"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_ERRATIC
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
     abilities ABILITY_SWIFT_SWIM, ABILITY_STORM_DRAIN
     runchance 0
@@ -9642,7 +9642,7 @@ mondata SPECIES_MANTYKE, "Mantyke"
     genderratio 127
     eggcycles 25
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_SWIFT_SWIM, ABILITY_WATER_ABSORB
     runchance 0
@@ -9663,7 +9663,7 @@ mondata SPECIES_SNOVER, "Snover"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_GRASS
     abilities ABILITY_SNOW_WARNING, ABILITY_NONE
     runchance 0
@@ -9684,7 +9684,7 @@ mondata SPECIES_ABOMASNOW, "Abomasnow"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_GRASS
     abilities ABILITY_SNOW_WARNING, ABILITY_NONE
     runchance 0
@@ -9705,7 +9705,7 @@ mondata SPECIES_WEAVILE, "Weavile"
     genderratio 127
     eggcycles 20
     basefriendship 35
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_PRESSURE, ABILITY_NONE
     runchance 0
@@ -9737,7 +9737,7 @@ mondata SPECIES_MAGNEZONE, "Magnezone"
     mondexweight SPECIES_MAGNEZONE, "396.8 lbs."
 
 
-mondata SPECIES_LICKILICKY, "Lickilicky"
+mondata SPECIES_STICKITUNG, "Lickilicky"
     basestats 110, 85, 95, 50, 80, 95
     types TYPE_NORMAL, TYPE_NORMAL
     catchrate 30
@@ -9752,10 +9752,10 @@ mondata SPECIES_LICKILICKY, "Lickilicky"
     abilities ABILITY_OWN_TEMPO, ABILITY_OBLIVIOUS
     runchance 0
     colorflip BODY_COLOR_PINK, 0
-    mondexentry SPECIES_LICKILICKY, "Its saliva can decompose anything.\nIt wraps its long tongue around things\nto coat them with its sticky saliva."
-    mondexclassification SPECIES_LICKILICKY, "Licking Pokémon"
-    mondexheight SPECIES_LICKILICKY, "5’07”"
-    mondexweight SPECIES_LICKILICKY, "308.6 lbs."
+    mondexentry SPECIES_STICKITUNG, "Its saliva can decompose anything.\nIt wraps its long tongue around things\nto coat them with its sticky saliva."
+    mondexclassification SPECIES_STICKITUNG, "Licking Pokémon"
+    mondexheight SPECIES_STICKITUNG, "5’07”"
+    mondexweight SPECIES_STICKITUNG, "308.6 lbs."
 
 
 mondata SPECIES_RHYPERIOR, "Rhyperior"
@@ -9768,7 +9768,7 @@ mondata SPECIES_RHYPERIOR, "Rhyperior"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_FIELD
     abilities ABILITY_LIGHTNING_ROD, ABILITY_SOLID_ROCK
     runchance 0
@@ -9852,7 +9852,7 @@ mondata SPECIES_TOGEKISS, "Togekiss"
     genderratio 31
     eggcycles 10
     basefriendship 50
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FAIRY
     abilities ABILITY_SERENE_GRACE, ABILITY_NONE
     runchance 0
@@ -9936,7 +9936,7 @@ mondata SPECIES_GLISCOR, "Gliscor"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     abilities ABILITY_HYPER_CUTTER, ABILITY_SAND_VEIL
     runchance 0
@@ -9957,7 +9957,7 @@ mondata SPECIES_MAMOSWINE, "Mamoswine"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_OBLIVIOUS, ABILITY_SNOW_CLOAK
     runchance 0
@@ -9999,7 +9999,7 @@ mondata SPECIES_GALLADE, "Gallade"
     genderratio 0
     eggcycles 20
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_AMORPHOUS
     abilities ABILITY_STEADFAST, ABILITY_SHARPNESS
     runchance 0
@@ -10041,7 +10041,7 @@ mondata SPECIES_DUSKNOIR, "Dusknoir"
     genderratio 127
     eggcycles 25
     basefriendship 35
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
     abilities ABILITY_PRESSURE, ABILITY_NONE
     runchance 0
@@ -10104,7 +10104,7 @@ mondata SPECIES_UXIE, "Uxie"
     genderratio 255
     eggcycles 80
     basefriendship 140
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_LEVITATE, ABILITY_NONE
     runchance 0
@@ -10125,7 +10125,7 @@ mondata SPECIES_MESPRIT, "Mesprit"
     genderratio 255
     eggcycles 80
     basefriendship 140
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_LEVITATE, ABILITY_NONE
     runchance 0
@@ -10146,7 +10146,7 @@ mondata SPECIES_AZELF, "Azelf"
     genderratio 255
     eggcycles 80
     basefriendship 140
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_LEVITATE, ABILITY_NONE
     runchance 0
@@ -10167,7 +10167,7 @@ mondata SPECIES_DIALGA, "Dialga"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_PRESSURE, ABILITY_NONE
     runchance 0
@@ -10188,7 +10188,7 @@ mondata SPECIES_PALKIA, "Palkia"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_PRESSURE, ABILITY_NONE
     runchance 0
@@ -10209,7 +10209,7 @@ mondata SPECIES_HEATRAN, "Heatran"
     genderratio 127
     eggcycles 10
     basefriendship 100
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_FLASH_FIRE, ABILITY_NONE
     runchance 0
@@ -10220,25 +10220,25 @@ mondata SPECIES_HEATRAN, "Heatran"
     mondexweight SPECIES_HEATRAN, "948.0 lbs."
 
 
-mondata SPECIES_REGIGIGAS, "Regigigas"
+mondata SPECIES_TRAPACE, "Regigigas"
     basestats 110, 160, 110, 100, 80, 110
     types TYPE_NORMAL, TYPE_NORMAL
     catchrate 3
     baseexp 0 // defined in baseexp.s
     evyields 0, 3, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 255
+    genderratio 127
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_BUG, EGG_GROUP_DRAGON
     abilities ABILITY_SLOW_START, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_WHITE, 0
-    mondexentry SPECIES_REGIGIGAS, "It is believed to have shaped\nREGIROCK, REGICE, and REGISTEEL\nout of clay, ice, and magma."
-    mondexclassification SPECIES_REGIGIGAS, "Colossal Pokémon"
-    mondexheight SPECIES_REGIGIGAS, "12’02”"
-    mondexweight SPECIES_REGIGIGAS, "925.9 lbs."
+    mondexentry SPECIES_TRAPACE, "It is believed to have shaped\nREGIROCK, REGICE, and REGISTEEL\nout of clay, ice, and magma."
+    mondexclassification SPECIES_TRAPACE, "Colossal Pokémon"
+    mondexheight SPECIES_TRAPACE, "12’02”"
+    mondexweight SPECIES_TRAPACE, "925.9 lbs."
 
 
 mondata SPECIES_GIRATINA, "Giratina"
@@ -10251,7 +10251,7 @@ mondata SPECIES_GIRATINA, "Giratina"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_PRESSURE, ABILITY_NONE
     runchance 0
@@ -10272,7 +10272,7 @@ mondata SPECIES_CRESSELIA, "Cresselia"
     genderratio 254
     eggcycles 120
     basefriendship 100
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_LEVITATE, ABILITY_NONE
     runchance 0
@@ -10293,7 +10293,7 @@ mondata SPECIES_PHIONE, "Phione"
     genderratio 255
     eggcycles 40
     basefriendship 70
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FAIRY
     abilities ABILITY_HYDRATION, ABILITY_NONE
     runchance 0
@@ -10314,7 +10314,7 @@ mondata SPECIES_MANAPHY, "Manaphy"
     genderratio 255
     eggcycles 10
     basefriendship 70
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FAIRY
     abilities ABILITY_HYDRATION, ABILITY_NONE
     runchance 0
@@ -10335,7 +10335,7 @@ mondata SPECIES_DARKRAI, "Darkrai"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_BAD_DREAMS, ABILITY_NONE
     runchance 0
@@ -10356,7 +10356,7 @@ mondata SPECIES_SHAYMIN, "Shaymin"
     genderratio 255
     eggcycles 120
     basefriendship 100
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_GRASSY_SURGE, ABILITY_NONE
     runchance 0
@@ -10367,7 +10367,7 @@ mondata SPECIES_SHAYMIN, "Shaymin"
     mondexweight SPECIES_SHAYMIN, "4.6 lbs."
 
 
-mondata SPECIES_ARCEUS, "Arceus"
+mondata SPECIES_OCULEUS, "Arceus"
     basestats 120, 120, 120, 120, 120, 120
     types TYPE_NORMAL, TYPE_NORMAL
     catchrate 3
@@ -10377,15 +10377,15 @@ mondata SPECIES_ARCEUS, "Arceus"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_MULTITYPE, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_WHITE, 0
-    mondexentry SPECIES_ARCEUS, "It is told in mythology that this\nPokémon was born before the universe\neven existed."
-    mondexclassification SPECIES_ARCEUS, "Alpha Pokémon"
-    mondexheight SPECIES_ARCEUS, "10’06”"
-    mondexweight SPECIES_ARCEUS, "705.5 lbs."
+    mondexentry SPECIES_OCULEUS, "It is told in mythology that this\nPokémon was born before the universe\neven existed."
+    mondexclassification SPECIES_OCULEUS, "Alpha Pokémon"
+    mondexheight SPECIES_OCULEUS, "10’06”"
+    mondexweight SPECIES_OCULEUS, "705.5 lbs."
 
 
 mondata SPECIES_EGG, "Egg"
@@ -10398,7 +10398,7 @@ mondata SPECIES_EGG, "Egg"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_NONE, ABILITY_NONE
     runchance 0
@@ -10419,7 +10419,7 @@ mondata SPECIES_BAD_EGG, "Bad Egg"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_NONE, ABILITY_NONE
     runchance 0
@@ -10440,7 +10440,7 @@ mondata SPECIES_DEOXYS_ATTACK, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_PRESSURE, ABILITY_NONE
     runchance 0
@@ -10461,7 +10461,7 @@ mondata SPECIES_DEOXYS_DEFENSE, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_PRESSURE, ABILITY_NONE
     runchance 0
@@ -10482,7 +10482,7 @@ mondata SPECIES_DEOXYS_SPEED, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_PRESSURE, ABILITY_NONE
     runchance 0
@@ -10545,7 +10545,7 @@ mondata SPECIES_GIRATINA_ORIGIN, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_LEVITATE, ABILITY_NONE
     runchance 0
@@ -10566,7 +10566,7 @@ mondata SPECIES_SHAYMIN_SKY, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 100
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_SERENE_GRACE, ABILITY_NONE
     runchance 0
@@ -11448,7 +11448,7 @@ mondata SPECIES_VICTINI, "Victini"
     genderratio 255
     eggcycles 120
     basefriendship 100
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_VICTORY_STAR, ABILITY_NONE
     runchance 0
@@ -11469,7 +11469,7 @@ mondata SPECIES_SNIVY, "Snivy"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_GRASS
     abilities ABILITY_OVERGROW, ABILITY_NONE
     runchance 0
@@ -11490,7 +11490,7 @@ mondata SPECIES_SERVINE, "Servine"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_GRASS
     abilities ABILITY_OVERGROW, ABILITY_NONE
     runchance 0
@@ -11511,7 +11511,7 @@ mondata SPECIES_SERPERIOR, "Serperior"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_GRASS
     abilities ABILITY_OVERGROW, ABILITY_NONE
     runchance 0
@@ -11532,7 +11532,7 @@ mondata SPECIES_TEPIG, "Tepig"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_BLAZE, ABILITY_NONE
     runchance 0
@@ -11553,7 +11553,7 @@ mondata SPECIES_PIGNITE, "Pignite"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_BLAZE, ABILITY_NONE
     runchance 0
@@ -11574,7 +11574,7 @@ mondata SPECIES_EMBOAR, "Emboar"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_BLAZE, ABILITY_NONE
     runchance 0
@@ -11595,7 +11595,7 @@ mondata SPECIES_OSHAWOTT, "Oshawott"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_TORRENT, ABILITY_NONE
     runchance 0
@@ -11616,7 +11616,7 @@ mondata SPECIES_DEWOTT, "Dewott"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_TORRENT, ABILITY_NONE
     runchance 0
@@ -11637,7 +11637,7 @@ mondata SPECIES_SAMUROTT, "Samurott"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_TORRENT, ABILITY_NONE
     runchance 0
@@ -11700,7 +11700,7 @@ mondata SPECIES_LILLIPUP, "Lillipup"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_VITAL_SPIRIT, ABILITY_PICKUP
     runchance 0
@@ -11721,7 +11721,7 @@ mondata SPECIES_HERDIER, "Herdier"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_INTIMIDATE, ABILITY_SAND_RUSH
     runchance 0
@@ -11742,7 +11742,7 @@ mondata SPECIES_STOUTLAND, "Stoutland"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_INTIMIDATE, ABILITY_SAND_RUSH
     runchance 0
@@ -11774,7 +11774,7 @@ mondata SPECIES_PURRLOIN, "Purrloin"
     mondexweight SPECIES_PURRLOIN, "22.3 lbs."
 
 
-mondata SPECIES_LIEPARD, "Liepard"
+mondata SPECIES_FOLIAPARD, "Liepard"
     basestats 64, 88, 50, 106, 88, 50
     types TYPE_DARK, TYPE_DARK
     catchrate 90
@@ -11789,10 +11789,10 @@ mondata SPECIES_LIEPARD, "Liepard"
     abilities ABILITY_LIMBER, ABILITY_UNBURDEN
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
-    mondexentry SPECIES_LIEPARD, "Their beautiful form comes from\nthe muscles they have developed.\nThey run silently in the night."
-    mondexclassification SPECIES_LIEPARD, "Cruel Pokémon"
-    mondexheight SPECIES_LIEPARD, "3’07”"
-    mondexweight SPECIES_LIEPARD, "82.7 lbs."
+    mondexentry SPECIES_FOLIAPARD, "Their beautiful form comes from\nthe muscles they have developed.\nThey run silently in the night."
+    mondexclassification SPECIES_FOLIAPARD, "Cruel Pokémon"
+    mondexheight SPECIES_FOLIAPARD, "3’07”"
+    mondexweight SPECIES_FOLIAPARD, "82.7 lbs."
 
 
 mondata SPECIES_PANSAGE, "Pansage"
@@ -11881,7 +11881,7 @@ mondata SPECIES_SIMISEAR, "Simisear"
 
 mondata SPECIES_SIMPLISIM, "Simplisim"
     basestats 50, 53, 48, 64, 53, 48
-    types TYPE_WATER, TYPE_WATER
+    types TYPE_NORMAL, TYPE_NORMAL
     catchrate 190
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
@@ -11902,7 +11902,7 @@ mondata SPECIES_SIMPLISIM, "Simplisim"
 
 mondata SPECIES_SIMSALABIM, "Simsalabim"
     basestats 75, 98, 63, 101, 98, 63
-    types TYPE_WATER, TYPE_WATER
+    types TYPE_NORMAL, TYPE_PSYCHIC
     catchrate 75
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 2, 0, 0
@@ -11931,7 +11931,7 @@ mondata SPECIES_MUNNA, "Munna"
     genderratio 127
     eggcycles 10
     basefriendship 50
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_FOREWARN, ABILITY_SYNCHRONIZE
     runchance 0
@@ -11952,7 +11952,7 @@ mondata SPECIES_MUSHARNA, "Musharna"
     genderratio 127
     eggcycles 10
     basefriendship 50
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_FOREWARN, ABILITY_SYNCHRONIZE
     runchance 0
@@ -11973,7 +11973,7 @@ mondata SPECIES_PIDOVE, "Pidove"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_BIG_PECKS, ABILITY_SUPER_LUCK
     runchance 0
@@ -11994,7 +11994,7 @@ mondata SPECIES_TRANQUILL, "Tranquill"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_BIG_PECKS, ABILITY_SUPER_LUCK
     runchance 0
@@ -12015,7 +12015,7 @@ mondata SPECIES_UNFEZANT, "Unfezant"
     genderratio 0
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_BIG_PECKS, ABILITY_SUPER_LUCK
     runchance 0
@@ -12078,7 +12078,7 @@ mondata SPECIES_ROGGENROLA, "Roggenrola"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_STURDY, ABILITY_WEAK_ARMOR
     runchance 0
@@ -12099,7 +12099,7 @@ mondata SPECIES_BOLDORE, "Boldore"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_STURDY, ABILITY_WEAK_ARMOR
     runchance 0
@@ -12120,7 +12120,7 @@ mondata SPECIES_GIGALITH, "Gigalith"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_STURDY, ABILITY_SAND_STREAM
     runchance 0
@@ -12225,7 +12225,7 @@ mondata SPECIES_AUDINO, "Audino"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
     abilities ABILITY_HEALER, ABILITY_REGENERATOR
     runchance 0
@@ -12236,7 +12236,7 @@ mondata SPECIES_AUDINO, "Audino"
     mondexweight SPECIES_AUDINO, "68.3 lbs."
 
 
-mondata SPECIES_TIMBURR, "Timburr"
+mondata SPECIES_GARGON, "Timburr"
     basestats 75, 80, 55, 35, 25, 35
     types TYPE_FIGHTING, TYPE_FIGHTING
     catchrate 180
@@ -12246,18 +12246,18 @@ mondata SPECIES_TIMBURR, "Timburr"
     genderratio 63
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_GUTS, ABILITY_SHEER_FORCE
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
-    mondexentry SPECIES_TIMBURR, "Always carrying squared logs,\nthey help out with construction.\nAs they grow, they carry bigger logs."
-    mondexclassification SPECIES_TIMBURR, "Muscular Pokémon"
-    mondexheight SPECIES_TIMBURR, "2’00”"
-    mondexweight SPECIES_TIMBURR, "27.6 lbs."
+    mondexentry SPECIES_GARGON, "Always carrying squared logs,\nthey help out with construction.\nAs they grow, they carry bigger logs."
+    mondexclassification SPECIES_GARGON, "Muscular Pokémon"
+    mondexheight SPECIES_GARGON, "2’00”"
+    mondexweight SPECIES_GARGON, "27.6 lbs."
 
 
-mondata SPECIES_GURDURR, "Gurdurr"
+mondata SPECIES_WARDERN, "Gurdurr"
     basestats 85, 105, 85, 40, 40, 50
     types TYPE_FIGHTING, TYPE_FIGHTING
     catchrate 90
@@ -12267,18 +12267,18 @@ mondata SPECIES_GURDURR, "Gurdurr"
     genderratio 63
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_GUTS, ABILITY_SHEER_FORCE
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
-    mondexentry SPECIES_GURDURR, "With strengthened bodies,\nthey skillfully wield steel\nbeams to take down buildings."
-    mondexclassification SPECIES_GURDURR, "Muscular Pokémon"
-    mondexheight SPECIES_GURDURR, "3’11”"
-    mondexweight SPECIES_GURDURR, "88.2 lbs."
+    mondexentry SPECIES_WARDERN, "With strengthened bodies,\nthey skillfully wield steel\nbeams to take down buildings."
+    mondexclassification SPECIES_WARDERN, "Muscular Pokémon"
+    mondexheight SPECIES_WARDERN, "3’11”"
+    mondexweight SPECIES_WARDERN, "88.2 lbs."
 
 
-mondata SPECIES_CONKELDURR, "Conkeldurr"
+mondata SPECIES_DRAGOYLE, "Conkeldurr"
     basestats 105, 140, 95, 45, 55, 65
     types TYPE_FIGHTING, TYPE_FIGHTING
     catchrate 45
@@ -12288,15 +12288,15 @@ mondata SPECIES_CONKELDURR, "Conkeldurr"
     genderratio 63
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_GUTS, ABILITY_SHEER_FORCE
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
-    mondexentry SPECIES_CONKELDURR, "Rather than rely on force,\nthey master moves that utilize the\ncentrifugal force of spinning concrete."
-    mondexclassification SPECIES_CONKELDURR, "Muscular Pokémon"
-    mondexheight SPECIES_CONKELDURR, "4’07”"
-    mondexweight SPECIES_CONKELDURR, "191.8 lbs."
+    mondexentry SPECIES_DRAGOYLE, "Rather than rely on force,\nthey master moves that utilize the\ncentrifugal force of spinning concrete."
+    mondexclassification SPECIES_DRAGOYLE, "Muscular Pokémon"
+    mondexheight SPECIES_DRAGOYLE, "4’07”"
+    mondexweight SPECIES_DRAGOYLE, "191.8 lbs."
 
 
 mondata SPECIES_TYMPOLE, "Tympole"
@@ -12309,7 +12309,7 @@ mondata SPECIES_TYMPOLE, "Tympole"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_1
     abilities ABILITY_SWIFT_SWIM, ABILITY_HYDRATION
     runchance 0
@@ -12330,7 +12330,7 @@ mondata SPECIES_PALPITOAD, "Palpitoad"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_1
     abilities ABILITY_SWIFT_SWIM, ABILITY_HYDRATION
     runchance 0
@@ -12351,7 +12351,7 @@ mondata SPECIES_SEISMITOAD, "Seismitoad"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_1
     abilities ABILITY_SWIFT_SWIM, ABILITY_POISON_TOUCH
     runchance 0
@@ -12379,25 +12379,25 @@ mondata SPECIES_SNORLAX_SUMO, "-----"
     colorflip BODY_COLOR_RED, 0
 
 
-mondata SPECIES_SAWK, "Sawk"
+mondata SPECIES_LEDIAN, "Sawk"
     basestats 75, 125, 75, 85, 30, 75
     types TYPE_FIGHTING, TYPE_FIGHTING
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
     items ITEM_EXPERT_BELT, ITEM_BLACK_BELT
-    genderratio 0
+    genderratio 127
     eggcycles 20
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
+    egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     abilities ABILITY_STURDY, ABILITY_INNER_FOCUS
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
-    mondexentry SPECIES_SAWK, "Desiring the strongest karate chop,\nthey seclude themselves in mountains\nand train without sleeping."
-    mondexclassification SPECIES_SAWK, "Karate Pokémon"
-    mondexheight SPECIES_SAWK, "4’07”"
-    mondexweight SPECIES_SAWK, "112.4 lbs."
+    mondexentry SPECIES_LEDIAN, "Desiring the strongest karate chop,\nthey seclude themselves in mountains\nand train without sleeping."
+    mondexclassification SPECIES_LEDIAN, "Karate Pokémon"
+    mondexheight SPECIES_LEDIAN, "4’07”"
+    mondexweight SPECIES_LEDIAN, "112.4 lbs."
 
 
 mondata SPECIES_SEWADDLE, "Sewaddle"
@@ -12410,7 +12410,7 @@ mondata SPECIES_SEWADDLE, "Sewaddle"
     genderratio 127
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     abilities ABILITY_SWARM, ABILITY_CHLOROPHYLL
     runchance 0
@@ -12431,7 +12431,7 @@ mondata SPECIES_SWADLOON, "Swadloon"
     genderratio 127
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     abilities ABILITY_LEAF_GUARD, ABILITY_CHLOROPHYLL
     runchance 0
@@ -12452,7 +12452,7 @@ mondata SPECIES_LEAVANNY, "Leavanny"
     genderratio 127
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     abilities ABILITY_SWARM, ABILITY_CHLOROPHYLL
     runchance 0
@@ -12473,7 +12473,7 @@ mondata SPECIES_VENIPEDE, "Venipede"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     abilities ABILITY_POISON_POINT, ABILITY_SWARM
     runchance 0
@@ -12494,7 +12494,7 @@ mondata SPECIES_WHIRLIPEDE, "Whirlipede"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     abilities ABILITY_POISON_POINT, ABILITY_SWARM
     runchance 0
@@ -12515,7 +12515,7 @@ mondata SPECIES_SCOLIPEDE, "Scolipede"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     abilities ABILITY_POISON_POINT, ABILITY_SWARM
     runchance 0
@@ -12589,25 +12589,25 @@ mondata SPECIES_PETILIL, "Petilil"
     mondexweight SPECIES_PETILIL, "14.6 lbs."
 
 
-mondata SPECIES_LILLIGANT, "Lilligant"
+mondata SPECIES_CHATINGALE, "Lilligant"
     basestats 70, 60, 75, 90, 110, 75
     types TYPE_GRASS, TYPE_GRASS
     catchrate 75
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
     items ITEM_NONE, ITEM_ABSORB_BULB
-    genderratio 254
+    genderratio 127
     eggcycles 20
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
+    egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_CHLOROPHYLL, ABILITY_OWN_TEMPO
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
-    mondexentry SPECIES_LILLIGANT, "The fragrance of the garland\non its head has a relaxing effect,\nbut taking care of it is very difficult."
-    mondexclassification SPECIES_LILLIGANT, "Flowering Pokémon"
-    mondexheight SPECIES_LILLIGANT, "3’07”"
-    mondexweight SPECIES_LILLIGANT, "35.9 lbs."
+    mondexentry SPECIES_CHATINGALE, "The fragrance of the garland\non its head has a relaxing effect,\nbut taking care of it is very difficult."
+    mondexclassification SPECIES_CHATINGALE, "Flowering Pokémon"
+    mondexheight SPECIES_CHATINGALE, "3’07”"
+    mondexweight SPECIES_CHATINGALE, "35.9 lbs."
 
 
 mondata SPECIES_BASCULIN, "Basculin"
@@ -12641,7 +12641,7 @@ mondata SPECIES_SANDILE, "Sandile"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_INTIMIDATE, ABILITY_MOXIE
     runchance 0
@@ -12662,7 +12662,7 @@ mondata SPECIES_KROKOROK, "Krokorok"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_INTIMIDATE, ABILITY_MOXIE
     runchance 0
@@ -12683,7 +12683,7 @@ mondata SPECIES_KROOKODILE, "Krookodile"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_INTIMIDATE, ABILITY_MOXIE
     runchance 0
@@ -12704,7 +12704,7 @@ mondata SPECIES_DARUMAKA, "Darumaka"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_HUSTLE, ABILITY_NONE
     runchance 0
@@ -12725,7 +12725,7 @@ mondata SPECIES_DARMANITAN, "Darmanitan"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_SHEER_FORCE, ABILITY_NONE
     runchance 0
@@ -12736,7 +12736,7 @@ mondata SPECIES_DARMANITAN, "Darmanitan"
     mondexweight SPECIES_DARMANITAN, "204.8 lbs."
 
 
-mondata SPECIES_MARACTUS, "Maractus"
+mondata SPECIES_KUDOWOODO, "Maractus"
     basestats 75, 86, 67, 60, 106, 67
     types TYPE_GRASS, TYPE_GRASS
     catchrate 255
@@ -12747,14 +12747,14 @@ mondata SPECIES_MARACTUS, "Maractus"
     eggcycles 20
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
+    egggroups EGG_GROUP_MINERAL, EGG_GROUP_GRASS
     abilities ABILITY_WATER_ABSORB, ABILITY_CHLOROPHYLL
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
-    mondexentry SPECIES_MARACTUS, "When it moves rhythmically, it\nmakes a sound similar to maracas,\nmaking the surprised Pokémon flee."
-    mondexclassification SPECIES_MARACTUS, "Cactus Pokémon"
-    mondexheight SPECIES_MARACTUS, "3’03”"
-    mondexweight SPECIES_MARACTUS, "61.7 lbs."
+    mondexentry SPECIES_KUDOWOODO, "When it moves rhythmically, it\nmakes a sound similar to maracas,\nmaking the surprised Pokémon flee."
+    mondexclassification SPECIES_KUDOWOODO, "Cactus Pokémon"
+    mondexheight SPECIES_KUDOWOODO, "3’03”"
+    mondexweight SPECIES_KUDOWOODO, "61.7 lbs."
 
 
 mondata SPECIES_DWEBBLE, "Dwebble"
@@ -12864,7 +12864,7 @@ mondata SPECIES_SIGILYPH, "Sigilyph"
 
 mondata SPECIES_HUMBRED, "Humbred"
     basestats 38, 30, 85, 30, 55, 65
-    types TYPE_GHOST, TYPE_GHOST
+    types TYPE_NORMAL, TYPE_GHOST
     catchrate 190
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 0
@@ -12873,7 +12873,7 @@ mondata SPECIES_HUMBRED, "Humbred"
     eggcycles 25
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_MINERAL, EGG_GROUP_AMORPHOUS
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_AMORPHOUS
     abilities ABILITY_MUMMY, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BLACK, 0
@@ -12885,16 +12885,16 @@ mondata SPECIES_HUMBRED, "Humbred"
 
 mondata SPECIES_HUMVIE, "Humvie"
     basestats 58, 50, 145, 30, 95, 105
-    types TYPE_GHOST, TYPE_GHOST
+    types TYPE_STEEL, TYPE_GHOST
     catchrate 90
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 0
     items ITEM_NONE, ITEM_SPELL_TAG
-    genderratio 127
+    genderratio 0
     eggcycles 25
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_MINERAL, EGG_GROUP_AMORPHOUS
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_AMORPHOUS
     abilities ABILITY_MUMMY, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
@@ -13040,7 +13040,7 @@ mondata SPECIES_ZORUA, "Zorua"
     genderratio 31
     eggcycles 25
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_ILLUSION, ABILITY_NONE
     runchance 0
@@ -13061,7 +13061,7 @@ mondata SPECIES_ZOROARK, "Zoroark"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_ILLUSION, ABILITY_NONE
     runchance 0
@@ -13082,7 +13082,7 @@ mondata SPECIES_MINCCINO, "Minccino"
     genderratio 190
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_CUTE_CHARM, ABILITY_TECHNICIAN
     runchance 0
@@ -13103,7 +13103,7 @@ mondata SPECIES_CINCCINO, "Cinccino"
     genderratio 190
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_CUTE_CHARM, ABILITY_TECHNICIAN
     runchance 0
@@ -13124,7 +13124,7 @@ mondata SPECIES_GOTHITA, "Gothita"
     genderratio 190
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_FRISK, ABILITY_COMPETITIVE
     runchance 0
@@ -13145,7 +13145,7 @@ mondata SPECIES_GOTHORITA, "Gothorita"
     genderratio 190
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_FRISK, ABILITY_COMPETITIVE
     runchance 0
@@ -13166,7 +13166,7 @@ mondata SPECIES_GOTHITELLE, "Gothitelle"
     genderratio 190
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_FRISK, ABILITY_COMPETITIVE
     runchance 0
@@ -13187,7 +13187,7 @@ mondata SPECIES_SOLOSIS, "Solosis"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
     abilities ABILITY_OVERCOAT, ABILITY_MAGIC_GUARD
     runchance 0
@@ -13208,7 +13208,7 @@ mondata SPECIES_DUOSION, "Duosion"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
     abilities ABILITY_OVERCOAT, ABILITY_MAGIC_GUARD
     runchance 0
@@ -13229,7 +13229,7 @@ mondata SPECIES_REUNICLUS, "Reuniclus"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
     abilities ABILITY_OVERCOAT, ABILITY_MAGIC_GUARD
     runchance 0
@@ -13261,25 +13261,25 @@ mondata SPECIES_DUCKLETT, "Ducklett"
     mondexweight SPECIES_DUCKLETT, "12.1 lbs."
 
 
-mondata SPECIES_SWANNA, "Swanna"
+mondata SPECIES_REFINITTY, "Swanna"
     basestats 75, 87, 63, 98, 87, 63
     types TYPE_WATER, TYPE_FLYING
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 2, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 127
+    genderratio 190
     eggcycles 20
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_WATER_1, EGG_GROUP_FLYING
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
     abilities ABILITY_KEEN_EYE, ABILITY_BIG_PECKS
     runchance 0
     colorflip BODY_COLOR_WHITE, 0
-    mondexentry SPECIES_SWANNA, "Despite their elegant appearance,\nthey can flap their wings strongly\nand fly for thousands of miles."
-    mondexclassification SPECIES_SWANNA, "White Bird Pokémon"
-    mondexheight SPECIES_SWANNA, "4’03”"
-    mondexweight SPECIES_SWANNA, "53.4 lbs."
+    mondexentry SPECIES_REFINITTY, "Despite their elegant appearance,\nthey can flap their wings strongly\nand fly for thousands of miles."
+    mondexclassification SPECIES_REFINITTY, "White Bird Pokémon"
+    mondexheight SPECIES_REFINITTY, "4’03”"
+    mondexweight SPECIES_REFINITTY, "53.4 lbs."
 
 
 mondata SPECIES_VANILLITE, "Vanillite"
@@ -13292,7 +13292,7 @@ mondata SPECIES_VANILLITE, "Vanillite"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_ICE_BODY, ABILITY_SNOW_CLOAK
     runchance 0
@@ -13313,7 +13313,7 @@ mondata SPECIES_VANILLISH, "Vanillish"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_ICE_BODY, ABILITY_SNOW_CLOAK
     runchance 0
@@ -13334,7 +13334,7 @@ mondata SPECIES_VANILLUXE, "Vanilluxe"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_ICE_BODY, ABILITY_SNOW_WARNING
     runchance 0
@@ -13541,10 +13541,10 @@ mondata SPECIES_ALOMOMOLA, "Alomomola"
     baseexp 0 // defined in baseexp.s
     evyields 2, 0, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 127
+    genderratio 190
     eggcycles 40
     basefriendship 70
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_2
     abilities ABILITY_HEALER, ABILITY_HYDRATION
     runchance 0
@@ -13639,51 +13639,51 @@ mondata SPECIES_FERROTHORN, "Ferrothorn"
     mondexweight SPECIES_FERROTHORN, "242.5 lbs."
 
 
-mondata SPECIES_KLINK, "Klink"
+mondata SPECIES_RUBEYE, "Klink"
     basestats 40, 55, 70, 30, 45, 60
     types TYPE_STEEL, TYPE_STEEL
     catchrate 130
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 255
+    genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
-    egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_MINERAL
     abilities ABILITY_PLUS, ABILITY_MINUS
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
-    mondexentry SPECIES_KLINK, "Two bodies comprise a fixed pair.\nThey spin around each\nother to generate energy."
-    mondexclassification SPECIES_KLINK, "Gear Pokémon"
-    mondexheight SPECIES_KLINK, "1’00”"
-    mondexweight SPECIES_KLINK, "46.3 lbs."
+    mondexentry SPECIES_RUBEYE, "Two bodies comprise a fixed pair.\nThey spin around each\nother to generate energy."
+    mondexclassification SPECIES_RUBEYE, "Gear Pokémon"
+    mondexheight SPECIES_RUBEYE, "1’00”"
+    mondexweight SPECIES_RUBEYE, "46.3 lbs."
 
 
-mondata SPECIES_KLANG, "Klang"
+mondata SPECIES_MAWSUM, "Klang"
     basestats 60, 80, 95, 50, 70, 85
     types TYPE_STEEL, TYPE_STEEL
     catchrate 60
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 255
+    genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
-    egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
     abilities ABILITY_PLUS, ABILITY_MINUS
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
-    mondexentry SPECIES_KLANG, "A minigear and big gear comprise its body.\nIf the minigear it launches at\na foe doesn't return, it will die."
-    mondexclassification SPECIES_KLANG, "Gear Pokémon"
-    mondexheight SPECIES_KLANG, "2’00”"
-    mondexweight SPECIES_KLANG, "112.4 lbs."
+    mondexentry SPECIES_MAWSUM, "A minigear and big gear comprise its body.\nIf the minigear it launches at\na foe doesn't return, it will die."
+    mondexclassification SPECIES_MAWSUM, "Gear Pokémon"
+    mondexheight SPECIES_MAWSUM, "2’00”"
+    mondexweight SPECIES_MAWSUM, "112.4 lbs."
 
 
-mondata SPECIES_KLINKLANG, "Klinklang"
-    basestats 60, 100, 115, 90, 70, 85
-    types TYPE_STEEL, TYPE_STEEL
+mondata SPECIES_MAGNETTLES, "Magnettles"
+    basestats 85, 70, 95, 85, 125, 95
+    types TYPE_ELECTRIC, TYPE_GRASS
     catchrate 30
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 3, 0, 0, 0
@@ -13691,15 +13691,15 @@ mondata SPECIES_KLINKLANG, "Klinklang"
     genderratio 255
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
-    abilities ABILITY_PLUS, ABILITY_MINUS
+    abilities ABILITY_MAGNET_PULL, ABILITY_GRASSY_SURGE
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
-    mondexentry SPECIES_KLINKLANG, "The minigear spins at high speed.\nThen the energy from the red core charges\nthe minigear to make it ready to fire."
-    mondexclassification SPECIES_KLINKLANG, "Gear Pokémon"
-    mondexheight SPECIES_KLINKLANG, "2’00”"
-    mondexweight SPECIES_KLINKLANG, "178.6 lbs."
+    mondexentry SPECIES_MAGNETTLES, "This Pokémon is a truly green choice\nfor environmentally conscious trainers\nwho mistrust Magneton CO2-emission numbers."
+    mondexclassification SPECIES_MAGNETTLES, "Green Energy Pokémon"
+    mondexheight SPECIES_MAGNETTLES, "3’03”"
+    mondexweight SPECIES_MAGNETTLES, "112.8 lbs."
 
 
 mondata SPECIES_TYNAMO, "Tynamo"
@@ -13712,7 +13712,7 @@ mondata SPECIES_TYNAMO, "Tynamo"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
     abilities ABILITY_LEVITATE, ABILITY_NONE
     runchance 0
@@ -13733,7 +13733,7 @@ mondata SPECIES_EELEKTRIK, "Eelektrik"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
     abilities ABILITY_LEVITATE, ABILITY_NONE
     runchance 0
@@ -13754,7 +13754,7 @@ mondata SPECIES_EELEKTROSS, "Eelektross"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
     abilities ABILITY_LEVITATE, ABILITY_NONE
     runchance 0
@@ -13817,7 +13817,7 @@ mondata SPECIES_LITWICK, "Litwick"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
     abilities ABILITY_FLASH_FIRE, ABILITY_FLAME_BODY
     runchance 0
@@ -13838,7 +13838,7 @@ mondata SPECIES_LAMPENT, "Lampent"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
     abilities ABILITY_FLASH_FIRE, ABILITY_FLAME_BODY
     runchance 0
@@ -13859,7 +13859,7 @@ mondata SPECIES_CHANDELURE, "Chandelure"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
     abilities ABILITY_FLASH_FIRE, ABILITY_FLAME_BODY
     runchance 0
@@ -13880,7 +13880,7 @@ mondata SPECIES_AXEW, "Axew"
     genderratio 127
     eggcycles 40
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_DRAGON
     abilities ABILITY_RIVALRY, ABILITY_MOLD_BREAKER
     runchance 0
@@ -13901,7 +13901,7 @@ mondata SPECIES_FRAXURE, "Fraxure"
     genderratio 127
     eggcycles 40
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_DRAGON
     abilities ABILITY_RIVALRY, ABILITY_MOLD_BREAKER
     runchance 0
@@ -13922,7 +13922,7 @@ mondata SPECIES_HAXORUS, "Haxorus"
     genderratio 127
     eggcycles 40
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_DRAGON
     abilities ABILITY_RIVALRY, ABILITY_MOLD_BREAKER
     runchance 0
@@ -14069,7 +14069,7 @@ mondata SPECIES_MIENFOO, "Mienfoo"
     genderratio 127
     eggcycles 25
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_INNER_FOCUS, ABILITY_REGENERATOR
     runchance 0
@@ -14090,7 +14090,7 @@ mondata SPECIES_MIENSHAO, "Mienshao"
     genderratio 127
     eggcycles 25
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_INNER_FOCUS, ABILITY_REGENERATOR
     runchance 0
@@ -14101,7 +14101,7 @@ mondata SPECIES_MIENSHAO, "Mienshao"
     mondexweight SPECIES_MIENSHAO, "78.3 lbs."
 
 
-mondata SPECIES_DRUDDIGON, "Druddigon"
+mondata SPECIES_GRETSKI, "Druddigon"
     basestats 77, 120, 90, 48, 60, 90
     types TYPE_DRAGON, TYPE_DRAGON
     catchrate 45
@@ -14112,14 +14112,14 @@ mondata SPECIES_DRUDDIGON, "Druddigon"
     eggcycles 30
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_DRAGON, EGG_GROUP_MONSTER
+    egggroups EGG_GROUP_FAIRY, EGG_GROUP_MINERAL
     abilities ABILITY_ROUGH_SKIN, ABILITY_SHEER_FORCE
     runchance 0
     colorflip BODY_COLOR_RED, 0
-    mondexentry SPECIES_DRUDDIGON, "It runs through the narrow tunnels\nformed by Excadrill and Onix.\nIt uses its sharp claws to catch prey."
-    mondexclassification SPECIES_DRUDDIGON, "Cave Pokémon"
-    mondexheight SPECIES_DRUDDIGON, "5’03”"
-    mondexweight SPECIES_DRUDDIGON, "306.4 lbs."
+    mondexentry SPECIES_GRETSKI, "It runs through the narrow tunnels\nformed by Excadrill and Onix.\nIt uses its sharp claws to catch prey."
+    mondexclassification SPECIES_GRETSKI, "Cave Pokémon"
+    mondexheight SPECIES_GRETSKI, "5’03”"
+    mondexweight SPECIES_GRETSKI, "306.4 lbs."
 
 
 mondata SPECIES_GOLETT, "Golett"
@@ -14237,7 +14237,7 @@ mondata SPECIES_RUFFLET, "Rufflet"
     genderratio 0
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_KEEN_EYE, ABILITY_SHEER_FORCE
     runchance 0
@@ -14258,7 +14258,7 @@ mondata SPECIES_BRAVIARY, "Braviary"
     genderratio 0
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_KEEN_EYE, ABILITY_SHEER_FORCE
     runchance 0
@@ -14269,49 +14269,49 @@ mondata SPECIES_BRAVIARY, "Braviary"
     mondexweight SPECIES_BRAVIARY, "90.4 lbs."
 
 
-mondata SPECIES_VULLABY, "Vullaby"
+mondata SPECIES_NOHFACE, "Vullaby"
     basestats 70, 55, 75, 60, 45, 65
     types TYPE_DARK, TYPE_FLYING
     catchrate 190
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 254
+    genderratio 255
     eggcycles 20
     basefriendship 35
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
     abilities ABILITY_BIG_PECKS, ABILITY_OVERCOAT
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
-    mondexentry SPECIES_VULLABY, "Their wings are too tiny to allow them to fly.\nThey guard their posteriors with bones that\nwere gathered by Mandibuzz."
-    mondexclassification SPECIES_VULLABY, "Diapered Pokémon"
-    mondexheight SPECIES_VULLABY, "1’08”"
-    mondexweight SPECIES_VULLABY, "19.8 lbs."
+    mondexentry SPECIES_NOHFACE, "Their wings are too tiny to allow them to fly.\nThey guard their posteriors with bones that\nwere gathered by Mandibuzz."
+    mondexclassification SPECIES_NOHFACE, "Diapered Pokémon"
+    mondexheight SPECIES_NOHFACE, "1’08”"
+    mondexweight SPECIES_NOHFACE, "19.8 lbs."
 
 
-mondata SPECIES_MANDIBUZZ, "Mandibuzz"
+mondata SPECIES_KITSUNOH, "Mandibuzz"
     basestats 110, 65, 105, 80, 55, 95
     types TYPE_DARK, TYPE_FLYING
     catchrate 60
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 254
+    genderratio 255
     eggcycles 20
     basefriendship 35
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
     abilities ABILITY_BIG_PECKS, ABILITY_OVERCOAT
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
-    mondexentry SPECIES_MANDIBUZZ, "They fly in circles around the sky.\nWhen they spot prey, they attack and\ncarry it back to their nest with ease."
-    mondexclassification SPECIES_MANDIBUZZ, "Bone Vulture Pokémon"
-    mondexheight SPECIES_MANDIBUZZ, "3’11”"
-    mondexweight SPECIES_MANDIBUZZ, "87.1 lbs."
+    mondexentry SPECIES_KITSUNOH, "They fly in circles around the sky.\nWhen they spot prey, they attack and\ncarry it back to their nest with ease."
+    mondexclassification SPECIES_KITSUNOH, "Bone Vulture Pokémon"
+    mondexheight SPECIES_KITSUNOH, "3’11”"
+    mondexweight SPECIES_KITSUNOH, "87.1 lbs."
 
 
-mondata SPECIES_HEATMOR, "Heatmor"
+mondata SPECIES_CALDERAZER, "Heatmor"
     basestats 85, 97, 66, 65, 105, 66
     types TYPE_FIRE, TYPE_FIRE
     catchrate 90
@@ -14326,10 +14326,10 @@ mondata SPECIES_HEATMOR, "Heatmor"
     abilities ABILITY_GLUTTONY, ABILITY_FLASH_FIRE
     runchance 0
     colorflip BODY_COLOR_RED, 0
-    mondexentry SPECIES_HEATMOR, "It draws in air through its tail, transforms\nit into fire, and uses it like a tongue.\nIt melts Durant and eats them."
-    mondexclassification SPECIES_HEATMOR, "Anteater Pokémon"
-    mondexheight SPECIES_HEATMOR, "4’07”"
-    mondexweight SPECIES_HEATMOR, "127.9 lbs."
+    mondexentry SPECIES_CALDERAZER, "It draws in air through its tail, transforms\nit into fire, and uses it like a tongue.\nIt melts Durant and eats them."
+    mondexclassification SPECIES_CALDERAZER, "Anteater Pokémon"
+    mondexheight SPECIES_CALDERAZER, "4’07”"
+    mondexweight SPECIES_CALDERAZER, "127.9 lbs."
 
 
 mondata SPECIES_DURANT, "Durant"
@@ -14363,7 +14363,7 @@ mondata SPECIES_DEINO, "Deino"
     genderratio 127
     eggcycles 40
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_DRAGON, EGG_GROUP_DRAGON
     abilities ABILITY_HUSTLE, ABILITY_NONE
     runchance 0
@@ -14384,7 +14384,7 @@ mondata SPECIES_ZWEILOUS, "Zweilous"
     genderratio 127
     eggcycles 40
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_DRAGON, EGG_GROUP_DRAGON
     abilities ABILITY_HUSTLE, ABILITY_NONE
     runchance 0
@@ -14405,7 +14405,7 @@ mondata SPECIES_HYDREIGON, "Hydreigon"
     genderratio 127
     eggcycles 40
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_DRAGON, EGG_GROUP_DRAGON
     abilities ABILITY_LEVITATE, ABILITY_NONE
     runchance 0
@@ -14426,7 +14426,7 @@ mondata SPECIES_LARVESTA, "Larvesta"
     genderratio 127
     eggcycles 40
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     abilities ABILITY_FLAME_BODY, ABILITY_NONE
     runchance 0
@@ -14447,7 +14447,7 @@ mondata SPECIES_VOLCARONA, "Volcarona"
     genderratio 127
     eggcycles 40
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     abilities ABILITY_FLAME_BODY, ABILITY_NONE
     runchance 0
@@ -14468,7 +14468,7 @@ mondata SPECIES_COBALION, "Cobalion"
     genderratio 255
     eggcycles 80
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_JUSTIFIED, ABILITY_NONE
     runchance 0
@@ -14489,7 +14489,7 @@ mondata SPECIES_TERRAKION, "Terrakion"
     genderratio 255
     eggcycles 80
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_JUSTIFIED, ABILITY_NONE
     runchance 0
@@ -14500,46 +14500,46 @@ mondata SPECIES_TERRAKION, "Terrakion"
     mondexweight SPECIES_TERRAKION, "573.2 lbs."
 
 
-mondata SPECIES_VIRIZION, "Virizion"
+mondata SPECIES_BAOBY, "Virizion"
     basestats 91, 90, 72, 108, 90, 129
     types TYPE_GRASS, TYPE_FIGHTING
     catchrate 3
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 3
     items ITEM_NONE, ITEM_NONE
-    genderratio 255
+    genderratio 127
     eggcycles 80
     basefriendship 35
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_JUSTIFIED, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
-    mondexentry SPECIES_VIRIZION, "Legends say this Pokémon\nconfounded opponents\nwith its swift movements."
-    mondexclassification SPECIES_VIRIZION, "Grassland Pokémon"
-    mondexheight SPECIES_VIRIZION, "6’07”"
-    mondexweight SPECIES_VIRIZION, "440.9 lbs."
+    mondexentry SPECIES_BAOBY, "Legends say this Pokémon\nconfounded opponents\nwith its swift movements."
+    mondexclassification SPECIES_BAOBY, "Grassland Pokémon"
+    mondexheight SPECIES_BAOBY, "6’07”"
+    mondexweight SPECIES_BAOBY, "440.9 lbs."
 
 
-mondata SPECIES_TORNADUS, "Tornadus"
+mondata SPECIES_BAOBARAFFE, "Tornadus"
     basestats 79, 115, 70, 111, 125, 80
     types TYPE_FLYING, TYPE_FLYING
     catchrate 3
     baseexp 0 // defined in baseexp.s
     evyields 0, 3, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 0
+    genderratio 127
     eggcycles 120
     basefriendship 90
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_PRANKSTER, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
-    mondexentry SPECIES_TORNADUS, "In every direction it flies,\ncreating winds so powerful,\nthey blow everything away."
-    mondexclassification SPECIES_TORNADUS, "Cyclone Pokémon"
-    mondexheight SPECIES_TORNADUS, "4’11”"
-    mondexweight SPECIES_TORNADUS, "138.9 lbs."
+    mondexentry SPECIES_BAOBARAFFE, "In every direction it flies,\ncreating winds so powerful,\nthey blow everything away."
+    mondexclassification SPECIES_BAOBARAFFE, "Cyclone Pokémon"
+    mondexheight SPECIES_BAOBARAFFE, "4’11”"
+    mondexweight SPECIES_BAOBARAFFE, "138.9 lbs."
 
 
 mondata SPECIES_THUNDURUS, "Thundurus"
@@ -14552,7 +14552,7 @@ mondata SPECIES_THUNDURUS, "Thundurus"
     genderratio 0
     eggcycles 120
     basefriendship 90
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_PRANKSTER, ABILITY_NONE
     runchance 0
@@ -14563,25 +14563,25 @@ mondata SPECIES_THUNDURUS, "Thundurus"
     mondexweight SPECIES_THUNDURUS, "134.5 lbs."
 
 
-mondata SPECIES_RESHIRAM, "Reshiram"
+mondata SPECIES_GALEPRANO, "Reshiram"
     basestats 100, 120, 100, 90, 150, 120
     types TYPE_DRAGON, TYPE_FIRE
     catchrate 3
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 3, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 255
+    genderratio 127
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FLYING, EGG_GROUP_DRAGON
     abilities ABILITY_TURBOBLAZE, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_WHITE, 0
-    mondexentry SPECIES_RESHIRAM, "This legendary Pokémon can scorch\nthe world with fire. It helps those\nwho want to build a world of truth."
-    mondexclassification SPECIES_RESHIRAM, "Vast White Pokémon"
-    mondexheight SPECIES_RESHIRAM, "10’06”"
-    mondexweight SPECIES_RESHIRAM, "727.5 lbs."
+    mondexentry SPECIES_GALEPRANO, "This legendary Pokémon can scorch\nthe world with fire. It helps those\nwho want to build a world of truth."
+    mondexclassification SPECIES_GALEPRANO, "Vast White Pokémon"
+    mondexheight SPECIES_GALEPRANO, "10’06”"
+    mondexweight SPECIES_GALEPRANO, "727.5 lbs."
 
 
 mondata SPECIES_ZEKROM, "Zekrom"
@@ -14594,7 +14594,7 @@ mondata SPECIES_ZEKROM, "Zekrom"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_TERAVOLT, ABILITY_NONE
     runchance 0
@@ -14615,7 +14615,7 @@ mondata SPECIES_LANDORUS, "Landorus"
     genderratio 0
     eggcycles 120
     basefriendship 90
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_SAND_FORCE, ABILITY_NONE
     runchance 0
@@ -14636,7 +14636,7 @@ mondata SPECIES_KYUREM, "Kyurem"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_PRESSURE, ABILITY_NONE
     runchance 0
@@ -14657,7 +14657,7 @@ mondata SPECIES_KELDEO, "Keldeo"
     genderratio 255
     eggcycles 80
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_JUSTIFIED, ABILITY_NONE
     runchance 0
@@ -14678,7 +14678,7 @@ mondata SPECIES_MELOETTA, "Meloetta"
     genderratio 255
     eggcycles 120
     basefriendship 100
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_SERENE_GRACE, ABILITY_NONE
     runchance 0
@@ -14699,7 +14699,7 @@ mondata SPECIES_GENESECT, "Genesect"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_DOWNLOAD, ABILITY_NONE
     runchance 0
@@ -14720,7 +14720,7 @@ mondata SPECIES_CHESPIN, "Chespin"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_OVERGROW, ABILITY_NONE
     runchance 0
@@ -14741,7 +14741,7 @@ mondata SPECIES_QUILLADIN, "Quilladin"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_OVERGROW, ABILITY_NONE
     runchance 0
@@ -14762,7 +14762,7 @@ mondata SPECIES_CHESNAUGHT, "Chesnaught"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_OVERGROW, ABILITY_NONE
     runchance 0
@@ -14783,7 +14783,7 @@ mondata SPECIES_FENNEKIN, "Fennekin"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_BLAZE, ABILITY_NONE
     runchance 0
@@ -14804,7 +14804,7 @@ mondata SPECIES_BRAIXEN, "Braixen"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_BLAZE, ABILITY_NONE
     runchance 0
@@ -14825,7 +14825,7 @@ mondata SPECIES_DELPHOX, "Delphox"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_BLAZE, ABILITY_NONE
     runchance 0
@@ -14846,7 +14846,7 @@ mondata SPECIES_FROAKIE, "Froakie"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_1
     abilities ABILITY_TORRENT, ABILITY_NONE
     runchance 0
@@ -14867,7 +14867,7 @@ mondata SPECIES_FROGADIER, "Frogadier"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_1
     abilities ABILITY_TORRENT, ABILITY_NONE
     runchance 0
@@ -14888,7 +14888,7 @@ mondata SPECIES_GRENINJA, "Greninja"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_1
     abilities ABILITY_TORRENT, ABILITY_NONE
     runchance 0
@@ -14952,7 +14952,7 @@ mondata SPECIES_FLETCHLING, "Fletchling"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_BIG_PECKS, ABILITY_NONE
     runchance 0
@@ -14973,7 +14973,7 @@ mondata SPECIES_FLETCHINDER, "Flechinder"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_FLAME_BODY, ABILITY_NONE
     runchance 0
@@ -14994,7 +14994,7 @@ mondata SPECIES_TALONFLAME, "Talonflame"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_FLAME_BODY, ABILITY_NONE
     runchance 0
@@ -15078,7 +15078,7 @@ mondata SPECIES_LITLEO, "Litleo"
     genderratio 222
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_RIVALRY, ABILITY_UNNERVE
     runchance 0
@@ -15099,7 +15099,7 @@ mondata SPECIES_PYROAR, "Pyroar"
     genderratio 0
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_RIVALRY, ABILITY_UNNERVE
     runchance 0
@@ -15194,7 +15194,7 @@ mondata SPECIES_SKIDDO, "Skiddo"
     mondexweight SPECIES_SKIDDO, "68.3 lbs."
 
 
-mondata SPECIES_GOGOAT, "Gogoat"
+mondata SPECIES_YETYRANT, "Gogoat"
     basestats 123, 100, 62, 68, 97, 81
     types TYPE_GRASS, TYPE_GRASS
     catchrate 45
@@ -15209,10 +15209,10 @@ mondata SPECIES_GOGOAT, "Gogoat"
     abilities ABILITY_SAP_SIPPER, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
-    mondexentry SPECIES_GOGOAT, "They inhabit mountainous regions. The\nleader of the herd is decided by a\nbattle of clashing horns."
-    mondexclassification SPECIES_GOGOAT, "Mount Pokémon"
-    mondexheight SPECIES_GOGOAT, "5’07”"
-    mondexweight SPECIES_GOGOAT, "200.6 lbs."
+    mondexentry SPECIES_YETYRANT, "They inhabit mountainous regions. The\nleader of the herd is decided by a\nbattle of clashing horns."
+    mondexclassification SPECIES_YETYRANT, "Mount Pokémon"
+    mondexheight SPECIES_YETYRANT, "5’07”"
+    mondexweight SPECIES_YETYRANT, "200.6 lbs."
 
 
 mondata SPECIES_PANCHAM, "Pancham"
@@ -15467,30 +15467,30 @@ mondata SPECIES_SLURPUFF, "Slurpuff"
     mondexweight SPECIES_SLURPUFF, "11.0 lbs."
 
 
-mondata SPECIES_INKAY, "Inkay"
+mondata SPECIES_BILLY, "Billy"
     basestats 53, 54, 53, 45, 37, 46
     types TYPE_DARK, TYPE_PSYCHIC
     catchrate 190
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 127
+    genderratio 0
     eggcycles 20
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_2
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_CONTRARY, ABILITY_SUCTION_CUPS
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
-    mondexentry SPECIES_INKAY, "It draws prey near with its blinking\nlights and then wraps them up in its\nlong tentacles."
-    mondexclassification SPECIES_INKAY, "Revolving Pokémon"
-    mondexheight SPECIES_INKAY, "1’04”"
-    mondexweight SPECIES_INKAY, "7.7 lbs."
+    mondexentry SPECIES_BILLY, "It draws prey near with its blinking\nlights and then wraps them up in its\nlong tentacles."
+    mondexclassification SPECIES_BILLY, "Revolving Pokémon"
+    mondexheight SPECIES_BILLY, "1’04”"
+    mondexweight SPECIES_BILLY, "7.7 lbs."
 
 
-mondata SPECIES_MALAMAR, "Malamar"
-    basestats 86, 92, 88, 73, 68, 75
-    types TYPE_DARK, TYPE_PSYCHIC
+mondata SPECIES_GANESHADE, "Ganeshade"
+    basestats 95, 99, 80, 82, 99, 125
+    types TYPE_PSYCHIC, TYPE_DARK
     catchrate 80
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
@@ -15499,19 +15499,19 @@ mondata SPECIES_MALAMAR, "Malamar"
     eggcycles 20
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_2
-    abilities ABILITY_CONTRARY, ABILITY_SUCTION_CUPS
+    egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
+    abilities ABILITY_BAD_DREAMS, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
-    mondexentry SPECIES_MALAMAR, "It wields the most compelling hypnotic\npowers of any Pokémon, and it forces\nothers to do anything."
-    mondexclassification SPECIES_MALAMAR, "Overturning Pokémon"
-    mondexheight SPECIES_MALAMAR, "4’11”"
-    mondexweight SPECIES_MALAMAR, "103.6 lbs."
+    mondexentry SPECIES_GANESHADE, "It wields the most compelling hypnotic\npowers of any Pokémon, and it forces\nothers to do anything."
+    mondexclassification SPECIES_GANESHADE, "Nightmare Pokémon"
+    mondexheight SPECIES_GANESHADE, "6’05”"
+    mondexweight SPECIES_GANESHADE, "343.6 lbs."
 
 
-mondata SPECIES_BINACLE, "Binacle"
-    basestats 42, 52, 67, 50, 39, 56
-    types TYPE_ROCK, TYPE_WATER
+mondata SPECIES_SHELLDURE, "Shelldure"
+    basestats 30, 75, 120, 20, 45, 25
+    types TYPE_BUG, TYPE_WATER
     catchrate 120
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
@@ -15521,18 +15521,18 @@ mondata SPECIES_BINACLE, "Binacle"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_3, EGG_GROUP_WATER_3
-    abilities ABILITY_TOUGH_CLAWS, ABILITY_SNIPER
+    abilities ABILITY_BATTLE_ARMOR, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
-    mondexentry SPECIES_BINACLE, "Two Binacle live together on one rock.\nWhen they fight, one of them will move\nto a different rock."
-    mondexclassification SPECIES_BINACLE, "Two-Handed Pokémon"
-    mondexheight SPECIES_BINACLE, "1’08”"
-    mondexweight SPECIES_BINACLE, "68.3 lbs."
+    mondexentry SPECIES_SHELLDURE, "No one knows what lives inside the\nshell, because it'll bite anyone trying\nto find out. Fishermen hate this one."
+    mondexclassification SPECIES_SHELLDURE, "Bitey Pokémon"
+    mondexheight SPECIES_SHELLDURE, "3’10”"
+    mondexweight SPECIES_SHELLDURE, "68.3 lbs."
 
 
-mondata SPECIES_SOROBORO, "Soroboro"
-    basestats 79, 119, 89, 83, 96, 79
-    types TYPE_POISON, TYPE_DARK
+mondata SPECIES_SNAELSTROM, "Snaelstrom"
+    basestats 91, 94, 120, 33, 100, 97
+    types TYPE_BUG, TYPE_WATER
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
@@ -15542,13 +15542,13 @@ mondata SPECIES_SOROBORO, "Soroboro"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_3, EGG_GROUP_WATER_3
-    abilities ABILITY_INTIMIDATE, ABILITY_MERCILESS
+    abilities ABILITY_BATTLE_ARMOR, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
-    mondexentry SPECIES_SOROBORO, "When they evolve, two Binacle multiply\ninto seven. They fight with the power\nof seven Binacle."
-    mondexclassification SPECIES_SOROBORO, "Collective Pokémon"
-    mondexheight SPECIES_SOROBORO, "4’03”"
-    mondexweight SPECIES_SOROBORO, "211.6 lbs."
+    mondexentry SPECIES_SNAELSTROM, "This Pokémon carries its home on its\nback, making it somewhat of a mascot\nfor backpackers."
+    mondexclassification SPECIES_SNAELSTROM, "Backpacker Pokémon"
+    mondexheight SPECIES_SNAELSTROM, "5’09”"
+    mondexweight SPECIES_SNAELSTROM, "192.6 lbs."
 
 
 mondata SPECIES_SKRELP, "Skrelp"
@@ -15603,7 +15603,7 @@ mondata SPECIES_CLAUNCHER, "Clauncher"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_3
     abilities ABILITY_MEGA_LAUNCHER, ABILITY_NONE
     runchance 0
@@ -15614,7 +15614,7 @@ mondata SPECIES_CLAUNCHER, "Clauncher"
     mondexweight SPECIES_CLAUNCHER, "18.3 lbs."
 
 
-mondata SPECIES_CLAWITZER, "Clawitzer"
+mondata SPECIES_CEPHALANZER, "Clawitzer"
     basestats 71, 73, 88, 59, 120, 89
     types TYPE_WATER, TYPE_WATER
     catchrate 55
@@ -15624,15 +15624,15 @@ mondata SPECIES_CLAWITZER, "Clawitzer"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_3
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_2
     abilities ABILITY_MEGA_LAUNCHER, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
-    mondexentry SPECIES_CLAWITZER, "Their enormous claws launch cannonballs\nof water powerful enough to pierce\ntanker hulls."
-    mondexclassification SPECIES_CLAWITZER, "Howitzer Pokémon"
-    mondexheight SPECIES_CLAWITZER, "4’03”"
-    mondexweight SPECIES_CLAWITZER, "77.8 lbs."
+    mondexentry SPECIES_CEPHALANZER, "Their enormous claws launch cannonballs\nof water powerful enough to pierce\ntanker hulls."
+    mondexclassification SPECIES_CEPHALANZER, "Howitzer Pokémon"
+    mondexheight SPECIES_CEPHALANZER, "4’03”"
+    mondexweight SPECIES_CEPHALANZER, "77.8 lbs."
 
 
 mondata SPECIES_HELIOPTILE, "Helioptile"
@@ -15782,25 +15782,25 @@ mondata SPECIES_SYLVEON, "Sylveon"
     mondexweight SPECIES_SYLVEON, "51.8 lbs."
 
 
-mondata SPECIES_HAWLUCHA, "Hawlucha"
-    basestats 78, 92, 75, 118, 74, 63
-    types TYPE_FIGHTING, TYPE_FLYING
-    catchrate 100
+mondata SPECIES_SOROBORO, "Soroboro"
+    basestats 79, 119, 69, 113, 96, 79
+    types TYPE_POISON, TYPE_DARK
+    catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
-    items ITEM_NONE, ITEM_KINGS_ROCK
+    items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 20
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_FLYING, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_LIMBER, ABILITY_UNBURDEN
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_DRAGON
+    abilities ABILITY_INTIMIDATE, ABILITY_MERCILESS
     runchance 0
-    colorflip BODY_COLOR_GREEN, 0
-    mondexentry SPECIES_HAWLUCHA, "Although its body is small, its\nproficient fighting skills enable it to\nkeep up with big bruisers."
-    mondexclassification SPECIES_HAWLUCHA, "Wrestling Pokémon"
-    mondexheight SPECIES_HAWLUCHA, "2’07”"
-    mondexweight SPECIES_HAWLUCHA, "47.4 lbs."
+    colorflip BODY_COLOR_BROWN, 0
+    mondexentry SPECIES_SOROBORO, "By biting its own tail, this ARBOK\nhas discovered the wheel - but its\ndemonic side is the one behind it."
+    mondexclassification SPECIES_SOROBORO, "Endless Pokémon"
+    mondexheight SPECIES_SOROBORO, "6’03”"
+    mondexweight SPECIES_SOROBORO, "211.6 lbs."
 
 
 mondata SPECIES_DEDENNE, "Dedenne"
@@ -15834,7 +15834,7 @@ mondata SPECIES_CARBINK, "Carbink"
     genderratio 255
     eggcycles 25
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_MINERAL
     abilities ABILITY_CLEAR_BODY, ABILITY_NONE
     runchance 0
@@ -15855,7 +15855,7 @@ mondata SPECIES_GOOMY, "Goomy"
     genderratio 127
     eggcycles 40
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_DRAGON, EGG_GROUP_DRAGON
     abilities ABILITY_SAP_SIPPER, ABILITY_HYDRATION
     runchance 0
@@ -15876,7 +15876,7 @@ mondata SPECIES_SLIGGOO, "Sliggoo"
     genderratio 127
     eggcycles 40
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_DRAGON, EGG_GROUP_DRAGON
     abilities ABILITY_SAP_SIPPER, ABILITY_HYDRATION
     runchance 0
@@ -15897,7 +15897,7 @@ mondata SPECIES_GOODRA, "Goodra"
     genderratio 127
     eggcycles 40
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_DRAGON, EGG_GROUP_DRAGON
     abilities ABILITY_SAP_SIPPER, ABILITY_HYDRATION
     runchance 0
@@ -15918,7 +15918,7 @@ mondata SPECIES_KLEFKI, "Klefki"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_PRANKSTER, ABILITY_NONE
     runchance 0
@@ -15999,11 +15999,11 @@ mondata SPECIES_XEROGRAV, "Xerograv"
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 127
+    genderratio 255
     eggcycles 20
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
+    egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_BUG
     abilities ABILITY_LEVITATE, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
@@ -16034,9 +16034,9 @@ mondata SPECIES_BERGMITE, "Bergmite"
     mondexweight SPECIES_BERGMITE, "219.4 lbs."
 
 
-mondata SPECIES_AVALUGG, "Avalugg"
-    basestats 95, 117, 184, 28, 44, 46
-    types TYPE_ICE, TYPE_ICE
+mondata SPECIES_DRAGODOS, "Avalugg"
+    basestats 91, 114, 85, 100, 100, 100
+    types TYPE_DRAGON, TYPE_ICE
     catchrate 55
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 0
@@ -16045,14 +16045,14 @@ mondata SPECIES_AVALUGG, "Avalugg"
     eggcycles 20
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_MONSTER, EGG_GROUP_MINERAL
+    egggroups EGG_GROUP_WATER_1, EGG_GROUP_DRAGON
     abilities ABILITY_OWN_TEMPO, ABILITY_ICE_BODY
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
-    mondexentry SPECIES_AVALUGG, "The way several Bergmite huddle on its\nback make it look like an aircraft\ncarrier made of ice."
-    mondexclassification SPECIES_AVALUGG, "Iceberg Pokémon"
-    mondexheight SPECIES_AVALUGG, "6’07”"
-    mondexweight SPECIES_AVALUGG, "1113.3 lbs."
+    mondexentry SPECIES_DRAGODOS, "The way several Bergmite huddle on its\nback make it look like an aircraft\ncarrier made of ice."
+    mondexclassification SPECIES_DRAGODOS, "Iceberg Pokémon"
+    mondexheight SPECIES_DRAGODOS, "6’07”"
+    mondexweight SPECIES_DRAGODOS, "1113.3 lbs."
 
 
 mondata SPECIES_NOIBAT, "Noibat"
@@ -16097,28 +16097,28 @@ mondata SPECIES_NOIVERN, "Noivern"
     mondexweight SPECIES_NOIVERN, "187.4 lbs."
 
 
-mondata SPECIES_XERNEAS, "Xerneas"
-    basestats 126, 131, 95, 99, 131, 98
-    types (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
+mondata SPECIES_BUTTERFAE, "Butterfae"
+    basestats 90, 45, 50, 70, 117, 80
+    types TYPE_BUG, TYPE_FAIRY
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 3, 0, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 255
+    genderratio 127
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_FAIRY_AURA, ABILITY_NONE
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
+    abilities ABILITY_COMPOUND_EYES, ABILITY_TINTED_LENS
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
-    mondexentry SPECIES_XERNEAS, "When the horns on its head shine in\nseven different colors, it is said to be\nsharing everlasting life."
-    mondexclassification SPECIES_XERNEAS, "Life Pokémon"
-    mondexheight SPECIES_XERNEAS, "9’10”"
-    mondexweight SPECIES_XERNEAS, "474.0 lbs."
+    mondexentry SPECIES_BUTTERFAE, "When the horns on its head shine in\nseven different colors, it is said to be\nsharing everlasting life."
+    mondexclassification SPECIES_BUTTERFAE, "Life Pokémon"
+    mondexheight SPECIES_BUTTERFAE, "9’10”"
+    mondexweight SPECIES_BUTTERFAE, "474.0 lbs."
 
 
-mondata SPECIES_YVELTAL, "Yveltal"
+mondata SPECIES_ARCOON, "Yveltal"
     basestats 126, 131, 95, 99, 131, 98
     types TYPE_DARK, TYPE_FLYING
     catchrate 45
@@ -16128,15 +16128,15 @@ mondata SPECIES_YVELTAL, "Yveltal"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_DARK_AURA, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_RED, 0
-    mondexentry SPECIES_YVELTAL, "When its life comes to an end, it\nabsorbs the life energy of every living\nthing and turns into a cocoon."
-    mondexclassification SPECIES_YVELTAL, "Destruction Pokémon"
-    mondexheight SPECIES_YVELTAL, "19’00”"
-    mondexweight SPECIES_YVELTAL, "447.5 lbs."
+    mondexentry SPECIES_ARCOON, "When its life comes to an end, it\nabsorbs the life energy of every living\nthing and turns into a cocoon."
+    mondexclassification SPECIES_ARCOON, "Destruction Pokémon"
+    mondexheight SPECIES_ARCOON, "19’00”"
+    mondexweight SPECIES_ARCOON, "447.5 lbs."
 
 
 mondata SPECIES_ZYGARDE, "Zygarde"
@@ -16149,7 +16149,7 @@ mondata SPECIES_ZYGARDE, "Zygarde"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_AURA_BREAK, ABILITY_NONE
     runchance 0
@@ -16170,7 +16170,7 @@ mondata SPECIES_DIANCIE, "Diancie"
     genderratio 255
     eggcycles 25
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_CLEAR_BODY, ABILITY_NONE
     runchance 0
@@ -16191,7 +16191,7 @@ mondata SPECIES_HOOPA, "Hoopa"
     genderratio 255
     eggcycles 120
     basefriendship 100
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_MAGICIAN, ABILITY_NONE
     runchance 0
@@ -16212,7 +16212,7 @@ mondata SPECIES_VOLCANION, "Volcanion"
     genderratio 255
     eggcycles 120
     basefriendship 100
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_WATER_ABSORB, ABILITY_NONE
     runchance 0
@@ -16233,7 +16233,7 @@ mondata SPECIES_ROWLET, "Rowlet"
     genderratio 31
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_OVERGROW, ABILITY_NONE
     runchance 0
@@ -16254,7 +16254,7 @@ mondata SPECIES_DARTRIX, "Dartrix"
     genderratio 31
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_OVERGROW, ABILITY_NONE
     runchance 0
@@ -16275,7 +16275,7 @@ mondata SPECIES_DECIDUEYE, "Decidueye"
     genderratio 31
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_OVERGROW, ABILITY_NONE
     runchance 0
@@ -16296,7 +16296,7 @@ mondata SPECIES_PIEP, "Piep"
     genderratio 254
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_RUN_AWAY, ABILITY_NONE
     runchance 0
@@ -16317,7 +16317,7 @@ mondata SPECIES_PRRING, "Prring"
     genderratio 254
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_RATTLED, ABILITY_NONE
     runchance 0
@@ -16328,25 +16328,25 @@ mondata SPECIES_PRRING, "Prring"
     mondexweight SPECIES_PRRING, "19.1 lbs."
 
 
-mondata SPECIES_INCINEROAR, "Furnassaul"
+mondata SPECIES_HOUNDEMON, "Houndemon"
     basestats 72, 86, 67, 112, 122, 74
     types TYPE_DARK, TYPE_FIRE
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 3, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 254
+    genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_RATTLED, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_RED, 0
-    mondexentry SPECIES_INCINEROAR, "When its fighting spirit is set alight,\nthe flames around its waist become\nespecially intense."
-    mondexclassification SPECIES_INCINEROAR, "Furry Asshole Pokémon"
-    mondexheight SPECIES_INCINEROAR, "5’11”"
-    mondexweight SPECIES_INCINEROAR, "183.0 lbs."
+    mondexentry SPECIES_HOUNDEMON, "When its fighting spirit is set alight,\nthe flames around its waist become\nespecially intense."
+    mondexclassification SPECIES_HOUNDEMON, "Furry Asshole Pokémon"
+    mondexheight SPECIES_HOUNDEMON, "5’11”"
+    mondexweight SPECIES_HOUNDEMON, "183.0 lbs."
 
 
 mondata SPECIES_POPPLIO, "Popplio"
@@ -16359,7 +16359,7 @@ mondata SPECIES_POPPLIO, "Popplio"
     genderratio 31
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
     abilities ABILITY_TORRENT, ABILITY_NONE
     runchance 0
@@ -16380,7 +16380,7 @@ mondata SPECIES_BRIONNE, "Brionne"
     genderratio 31
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
     abilities ABILITY_TORRENT, ABILITY_NONE
     runchance 0
@@ -16401,7 +16401,7 @@ mondata SPECIES_PRIMARINA, "Primarina"
     genderratio 31
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
     abilities ABILITY_TORRENT, ABILITY_NONE
     runchance 0
@@ -16538,7 +16538,7 @@ mondata SPECIES_GRUBBIN, "Grubbin"
     mondexweight SPECIES_GRUBBIN, "9.7 lbs."
 
 
-mondata SPECIES_CHARJABUG, "Charjabug"
+mondata SPECIES_KRICKETUTTI, "Charjabug"
     basestats 57, 82, 95, 36, 55, 75
     types TYPE_BUG, TYPE_ELECTRIC
     catchrate 120
@@ -16553,10 +16553,10 @@ mondata SPECIES_CHARJABUG, "Charjabug"
     abilities ABILITY_BATTERY, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
-    mondexentry SPECIES_CHARJABUG, "From the food it digests, it generates\nelectricity, and it stores this energy\nin its electric sac."
-    mondexclassification SPECIES_CHARJABUG, "Battery Pokémon"
-    mondexheight SPECIES_CHARJABUG, "1’08”"
-    mondexweight SPECIES_CHARJABUG, "23.1 lbs."
+    mondexentry SPECIES_KRICKETUTTI, "From the food it digests, it generates\nelectricity, and it stores this energy\nin its electric sac."
+    mondexclassification SPECIES_KRICKETUTTI, "Battery Pokémon"
+    mondexheight SPECIES_KRICKETUTTI, "1’08”"
+    mondexweight SPECIES_KRICKETUTTI, "23.1 lbs."
 
 
 mondata SPECIES_VIKAVOLT, "Vikavolt"
@@ -16590,12 +16590,12 @@ mondata SPECIES_EVINSIR, "Evinsir"
     genderratio 127
     eggcycles 25
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     abilities ABILITY_AERILATE, ABILITY_AERILATE
     runchance 125
     colorflip BODY_COLOR_BROWN, 0
-    mondexentry SPECIES_EVINSIR, "No one knows who did what to make a\nPinsir this angry, but we will all\npay the price..."
+    mondexentry SPECIES_EVINSIR, "No one knows who did what to make\na Pinsir this angry, but we will all\npay the price..."
     mondexclassification SPECIES_EVINSIR, "Pissed Off Pokémon"
     mondexheight SPECIES_EVINSIR, "6’10”"
     mondexweight SPECIES_EVINSIR, "158.4 lbs."
@@ -16622,25 +16622,25 @@ mondata SPECIES_CRABOMINABLE, "Crabomnabl"
     mondexweight SPECIES_CRABOMINABLE, "396.8 lbs."
 
 
-mondata SPECIES_ORICORIO, "Oricorio"
+mondata SPECIES_NUGGLE, "Oricorio"
     basestats 75, 70, 70, 93, 98, 70
     types TYPE_FIRE, TYPE_FLYING
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
     items ITEM_NONE, ITEM_HONEY
-    genderratio 190
+    genderratio 127
     eggcycles 20
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
+    egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     abilities ABILITY_DANCER, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_RED, 0
-    mondexentry SPECIES_ORICORIO, "This Oricorio has sipped red nectar. Its\npassionate dance moves cause its enemies\nto combust in both body and mind."
-    mondexclassification SPECIES_ORICORIO, "Dancing Pokémon"
-    mondexheight SPECIES_ORICORIO, "2’00”"
-    mondexweight SPECIES_ORICORIO, "7.5 lbs."
+    mondexentry SPECIES_NUGGLE, "This Oricorio has sipped red nectar. Its\npassionate dance moves cause its enemies\nto combust in both body and mind."
+    mondexclassification SPECIES_NUGGLE, "Dancing Pokémon"
+    mondexheight SPECIES_NUGGLE, "2’00”"
+    mondexweight SPECIES_NUGGLE, "7.5 lbs."
 
 
 mondata SPECIES_CUTIEFLY, "Cutiefly"
@@ -16737,7 +16737,7 @@ mondata SPECIES_WISHIWASHI, "Wishiwashi"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
     abilities ABILITY_SCHOOLING, ABILITY_NONE
     runchance 0
@@ -16791,7 +16791,7 @@ mondata SPECIES_TOXAPEX, "Toxapex"
 
 
 mondata SPECIES_MINIMOO, "Minimoo"
-    basestats 70, 100, 70, 45, 45, 55
+    basestats 75, 65, 80, 75, 35, 60
     types TYPE_NORMAL, TYPE_NORMAL
     catchrate 190
     baseexp 0 // defined in baseexp.s
@@ -16801,8 +16801,8 @@ mondata SPECIES_MINIMOO, "Minimoo"
     eggcycles 20
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_THICK_FAT, ABILITY_NONE
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_THICK_FAT, ABILITY_SCRAPPY
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_MINIMOO, "The mud stuck to Mudbray’s hooves\nenhances its grip and its powerful\nrunning gait."
@@ -16821,7 +16821,7 @@ mondata SPECIES_ABSALVO, "Absalvo"
     genderratio 127
     eggcycles 25
     basefriendship 35
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_JUSTIFIED, ABILITY_SUPER_LUCK
     runchance 0
@@ -17021,7 +17021,7 @@ mondata SPECIES_STUFFUL, "Stufful"
     mondexweight SPECIES_STUFFUL, "15.0 lbs."
 
 
-mondata SPECIES_BEWEAR, "Bewear"
+mondata SPECIES_BIBABOBER, "Bewear"
     basestats 120, 125, 80, 60, 55, 60
     types TYPE_NORMAL, TYPE_FIGHTING
     catchrate 70
@@ -17032,14 +17032,14 @@ mondata SPECIES_BEWEAR, "Bewear"
     eggcycles 15
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
     abilities ABILITY_FLUFFY, ABILITY_KLUTZ
     runchance 0
     colorflip BODY_COLOR_PINK, 0
-    mondexentry SPECIES_BEWEAR, "It boasts tremendous physical strength.\nMany people call it the most dangerous\nPokémon in Alola region."
-    mondexclassification SPECIES_BEWEAR, "Strong Arm Pokémon"
-    mondexheight SPECIES_BEWEAR, "6’11”"
-    mondexweight SPECIES_BEWEAR, "297.6 lbs."
+    mondexentry SPECIES_BIBABOBER, "It boasts tremendous physical strength.\nMany people call it the most dangerous\nPokémon in Alola region."
+    mondexclassification SPECIES_BIBABOBER, "Strong Arm Pokémon"
+    mondexheight SPECIES_BIBABOBER, "6’11”"
+    mondexweight SPECIES_BIBABOBER, "297.6 lbs."
 
 
 mondata SPECIES_BOUNSWEET, "Bounsweet"
@@ -17052,7 +17052,7 @@ mondata SPECIES_BOUNSWEET, "Bounsweet"
     genderratio 254
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
     abilities ABILITY_LEAF_GUARD, ABILITY_OBLIVIOUS
     runchance 0
@@ -17073,7 +17073,7 @@ mondata SPECIES_STEENEE, "Steenee"
     genderratio 254
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
     abilities ABILITY_LEAF_GUARD, ABILITY_OBLIVIOUS
     runchance 0
@@ -17094,7 +17094,7 @@ mondata SPECIES_TSAREENA, "Tsareena"
     genderratio 254
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
     abilities ABILITY_LEAF_GUARD, ABILITY_QUEENLY_MAJESTY
     runchance 0
@@ -17105,9 +17105,9 @@ mondata SPECIES_TSAREENA, "Tsareena"
     mondexweight SPECIES_TSAREENA, "47.2 lbs."
 
 
-mondata SPECIES_COMFEY, "Comfey"
-    basestats 51, 52, 90, 100, 82, 110
-    types (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
+mondata SPECIES_FIXIE, "Fixie"
+    basestats 38, 41, 35, 55, 35, 55
+    types TYPE_FAIRY, TYPE_FAIRY
     catchrate 60
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 2
@@ -17115,39 +17115,39 @@ mondata SPECIES_COMFEY, "Comfey"
     genderratio 190
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_FAST
-    egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
-    abilities ABILITY_FLOWER_VEIL, ABILITY_TRIAGE
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
+    abilities ABILITY_MAGIC_GUARD, ABILITY_MAGIC_GUARD
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
-    mondexentry SPECIES_COMFEY, "Baths prepared with the flowers from\nits vine have a relaxing effect so it is\na hit to many people."
-    mondexclassification SPECIES_COMFEY, "Posy Picker Pokémon"
-    mondexheight SPECIES_COMFEY, "0’04”"
-    mondexweight SPECIES_COMFEY, "0.7 lbs."
+    mondexentry SPECIES_FIXIE, "It is determined to grow more tails\nthan the three it has now. It shows\naffinity for both heat and cold."
+    mondexclassification SPECIES_FIXIE, "Fairy Fox Pokémon"
+    mondexheight SPECIES_FIXIE, "1’11”"
+    mondexweight SPECIES_FIXIE, "18.2 lbs."
 
 
-mondata SPECIES_ORANGURU, "Oranguru"
+mondata SPECIES_STANTABIRD, "Oranguru"
     basestats 90, 60, 80, 60, 90, 110
     types TYPE_NORMAL, TYPE_PSYCHIC
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 2
     items ITEM_NONE, ITEM_NONE
-    genderratio 127
+    genderratio 255
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
     abilities ABILITY_INNER_FOCUS, ABILITY_TELEPATHY
     runchance 0
     colorflip BODY_COLOR_WHITE, 0
-    mondexentry SPECIES_ORANGURU, "Known for its extreme intelligence, it\nwill look down on inexperienced\nTrainers."
-    mondexclassification SPECIES_ORANGURU, "Sage Pokémon"
-    mondexheight SPECIES_ORANGURU, "4’11”"
-    mondexweight SPECIES_ORANGURU, "167.6 lbs."
+    mondexentry SPECIES_STANTABIRD, "Known for its extreme intelligence, it\nwill look down on inexperienced\nTrainers."
+    mondexclassification SPECIES_STANTABIRD, "Sage Pokémon"
+    mondexheight SPECIES_STANTABIRD, "4’11”"
+    mondexweight SPECIES_STANTABIRD, "167.6 lbs."
 
 
-mondata SPECIES_PASSIMIAN, "Passimian"
+mondata SPECIES_RATUITUS, "Passimian"
     basestats 100, 120, 90, 80, 40, 60
     types TYPE_FIGHTING, TYPE_FIGHTING
     catchrate 45
@@ -17157,15 +17157,15 @@ mondata SPECIES_PASSIMIAN, "Passimian"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_RECEIVER, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_WHITE, 0
-    mondexentry SPECIES_PASSIMIAN, "They form groups of 20 individuals.\nTheir mutual bond is remarkable-they\nwill never let down a comrade."
-    mondexclassification SPECIES_PASSIMIAN, "Teamwork Pokémon"
-    mondexheight SPECIES_PASSIMIAN, "6’07”"
-    mondexweight SPECIES_PASSIMIAN, "182.5 lbs."
+    mondexentry SPECIES_RATUITUS, "They form groups of 20 individuals.\nTheir mutual bond is remarkable-they\nwill never let down a comrade."
+    mondexclassification SPECIES_RATUITUS, "Teamwork Pokémon"
+    mondexheight SPECIES_RATUITUS, "6’07”"
+    mondexweight SPECIES_RATUITUS, "182.5 lbs."
 
 
 mondata SPECIES_WIMPOD, "Wimpod"
@@ -17210,7 +17210,7 @@ mondata SPECIES_GOLISOPOD, "Golisopod"
     mondexweight SPECIES_GOLISOPOD, "238.1 lbs."
 
 
-mondata SPECIES_SANDYGAST, "Sandygast"
+mondata SPECIES_VOODOLL, "Sandygast"
     basestats 55, 55, 80, 15, 70, 45
     types TYPE_GHOST, TYPE_GROUND
     catchrate 140
@@ -17225,13 +17225,13 @@ mondata SPECIES_SANDYGAST, "Sandygast"
     abilities ABILITY_WATER_COMPACTION, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
-    mondexentry SPECIES_SANDYGAST, "Born from a sand mound playfully built\nby a child, this Pokémon embodies the\ngrudges of the departed."
-    mondexclassification SPECIES_SANDYGAST, "Sand Heap Pokémon"
-    mondexheight SPECIES_SANDYGAST, "1’08”"
-    mondexweight SPECIES_SANDYGAST, "154.3 lbs."
+    mondexentry SPECIES_VOODOLL, "Born from a sand mound playfully built\nby a child, this Pokémon embodies the\ngrudges of the departed."
+    mondexclassification SPECIES_VOODOLL, "Sand Heap Pokémon"
+    mondexheight SPECIES_VOODOLL, "1’08”"
+    mondexweight SPECIES_VOODOLL, "154.3 lbs."
 
 
-mondata SPECIES_PALOSSAND, "Palossand"
+mondata SPECIES_VOODOOM, "Palossand"
     basestats 85, 75, 110, 35, 100, 75
     types TYPE_GHOST, TYPE_GROUND
     catchrate 60
@@ -17246,10 +17246,10 @@ mondata SPECIES_PALOSSAND, "Palossand"
     abilities ABILITY_WATER_COMPACTION, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
-    mondexentry SPECIES_PALOSSAND, "Buried beneath the castle are masses of\ndried-up bones from those whose\nvitality it has drained."
-    mondexclassification SPECIES_PALOSSAND, "Sand Castle Pokémon"
-    mondexheight SPECIES_PALOSSAND, "4’03”"
-    mondexweight SPECIES_PALOSSAND, "551.2 lbs."
+    mondexentry SPECIES_VOODOOM, "Buried beneath the castle are masses of\ndried-up bones from those whose\nvitality it has drained."
+    mondexclassification SPECIES_VOODOOM, "Sand Castle Pokémon"
+    mondexheight SPECIES_VOODOOM, "4’03”"
+    mondexweight SPECIES_VOODOOM, "551.2 lbs."
 
 
 mondata SPECIES_PYUKUMUKU, "Pyukumuku"
@@ -17262,7 +17262,7 @@ mondata SPECIES_PYUKUMUKU, "Pyukumuku"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_1
     abilities ABILITY_INNARDS_OUT, ABILITY_NONE
     runchance 0
@@ -17283,7 +17283,7 @@ mondata SPECIES_TYPE_NULL, "Type: Null"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_BATTLE_ARMOR, ABILITY_NONE
     runchance 0
@@ -17304,7 +17304,7 @@ mondata SPECIES_SILVALLY, "Silvally"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_RKS_SYSTEM, ABILITY_NONE
     runchance 0
@@ -17325,7 +17325,7 @@ mondata SPECIES_MINIOR, "Minior"
     genderratio 255
     eggcycles 25
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_SHIELDS_DOWN, ABILITY_NONE
     runchance 0
@@ -17346,8 +17346,8 @@ mondata SPECIES_SUBSTITUTE, "Substitute"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_MONSTER, EGG_GROUP_DRAGON
     abilities ABILITY_COMATOSE, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
@@ -17359,7 +17359,7 @@ mondata SPECIES_SUBSTITUTE, "Substitute"
 
 mondata SPECIES_GYAOON, "Gyaoon"
     basestats 60, 78, 135, 36, 91, 85
-    types TYPE_FIRE, TYPE_DRAGON
+    types TYPE_NORMAL, TYPE_DRAGON
     catchrate 70
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 0
@@ -17380,7 +17380,7 @@ mondata SPECIES_GYAOON, "Gyaoon"
 
 mondata SPECIES_OMEGA, "Omega"
     basestats 65, 98, 63, 96, 40, 73
-    types TYPE_ELECTRIC, TYPE_STEEL
+    types TYPE_STEEL, TYPE_DRAGON
     catchrate 180
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
@@ -17389,7 +17389,7 @@ mondata SPECIES_OMEGA, "Omega"
     eggcycles 10
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
+    egggroups EGG_GROUP_MONSTER, EGG_GROUP_DRAGON
     abilities ABILITY_IRON_BARBS, ABILITY_LIGHTNING_ROD
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
@@ -17462,25 +17462,25 @@ mondata SPECIES_DRAMPA, "Drampa"
     mondexweight SPECIES_DRAMPA, "407.9 lbs."
 
 
-mondata SPECIES_DHELMISE, "Dhelmise"
+mondata SPECIES_ZIPRIPPER, "Dhelmise"
     basestats 70, 131, 100, 40, 86, 90
     types TYPE_GHOST, TYPE_GRASS
     catchrate 25
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 255
+    genderratio 127
     eggcycles 25
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
+    egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
     abilities ABILITY_STEELWORKER, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
-    mondexentry SPECIES_DHELMISE, "It wraps its prey in green seaweed and\nsucks away their vitality. It only\nlikes to go after big prey."
-    mondexclassification SPECIES_DHELMISE, "Sea Creeper Pokémon"
-    mondexheight SPECIES_DHELMISE, "12’10”"
-    mondexweight SPECIES_DHELMISE, "463.0 lbs."
+    mondexentry SPECIES_ZIPRIPPER, "It wraps its prey in green seaweed and\nsucks away their vitality. It only\nlikes to go after big prey."
+    mondexclassification SPECIES_ZIPRIPPER, "Sea Creeper Pokémon"
+    mondexheight SPECIES_ZIPRIPPER, "12’10”"
+    mondexweight SPECIES_ZIPRIPPER, "463.0 lbs."
 
 
 mondata SPECIES_JANGMO_O, "Jangmo-o"
@@ -17493,7 +17493,7 @@ mondata SPECIES_JANGMO_O, "Jangmo-o"
     genderratio 127
     eggcycles 40
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_DRAGON, EGG_GROUP_DRAGON
     abilities ABILITY_BULLETPROOF, ABILITY_SOUNDPROOF
     runchance 0
@@ -17514,7 +17514,7 @@ mondata SPECIES_HAKAMO_O, "Hakamo-o"
     genderratio 127
     eggcycles 40
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_DRAGON, EGG_GROUP_DRAGON
     abilities ABILITY_BULLETPROOF, ABILITY_SOUNDPROOF
     runchance 0
@@ -17535,7 +17535,7 @@ mondata SPECIES_KOMMO_O, "Kommo-o"
     genderratio 127
     eggcycles 40
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_DRAGON, EGG_GROUP_DRAGON
     abilities ABILITY_BULLETPROOF, ABILITY_SOUNDPROOF
     runchance 0
@@ -17546,25 +17546,25 @@ mondata SPECIES_KOMMO_O, "Kommo-o"
     mondexweight SPECIES_KOMMO_O, "172.4 lbs."
 
 
-mondata SPECIES_TAPU_KOKO, "Tapu Koko"
+mondata SPECIES_ELEMANTLE, "Tapu Koko"
     basestats 70, 115, 85, 130, 95, 75
     types TYPE_ELECTRIC, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_ELECTRIC
     catchrate 3
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 3, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 255
+    genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_ELECTRIC_SURGE, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
-    mondexentry SPECIES_TAPU_KOKO, "This guardian deity of Melemele summons\nthunderclouds and stores their\nlightning inside its body."
-    mondexclassification SPECIES_TAPU_KOKO, "Land Spirit Pokémon"
-    mondexheight SPECIES_TAPU_KOKO, "5’11”"
-    mondexweight SPECIES_TAPU_KOKO, "45.2 lbs."
+    mondexentry SPECIES_ELEMANTLE, "This guardian deity of Melemele summons\nthunderclouds and stores their\nlightning inside its body."
+    mondexclassification SPECIES_ELEMANTLE, "Land Spirit Pokémon"
+    mondexheight SPECIES_ELEMANTLE, "5’11”"
+    mondexweight SPECIES_ELEMANTLE, "45.2 lbs."
 
 
 mondata SPECIES_TAPU_LELE, "Tapu Lele"
@@ -17577,7 +17577,7 @@ mondata SPECIES_TAPU_LELE, "Tapu Lele"
     genderratio 255
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_PSYCHIC_SURGE, ABILITY_NONE
     runchance 0
@@ -17598,7 +17598,7 @@ mondata SPECIES_TAPU_BULU, "Tapu Bulu"
     genderratio 255
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_GRASSY_SURGE, ABILITY_NONE
     runchance 0
@@ -17619,7 +17619,7 @@ mondata SPECIES_TAPU_FINI, "Tapu Fini"
     genderratio 255
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_MISTY_SURGE, ABILITY_NONE
     runchance 0
@@ -17640,7 +17640,7 @@ mondata SPECIES_COSMOG, "Cosmog"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_UNAWARE, ABILITY_NONE
     runchance 0
@@ -17661,7 +17661,7 @@ mondata SPECIES_COSMOEM, "Cosmoem"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_STURDY, ABILITY_NONE
     runchance 0
@@ -17682,7 +17682,7 @@ mondata SPECIES_SOLGALEO, "Solgaleo"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_FULL_METAL_BODY, ABILITY_NONE
     runchance 0
@@ -17703,7 +17703,7 @@ mondata SPECIES_LUNALA, "Lunala"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_SHADOW_SHIELD, ABILITY_NONE
     runchance 0
@@ -17724,7 +17724,7 @@ mondata SPECIES_NIHILEGO, "Nihilego"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_BEAST_BOOST, ABILITY_NONE
     runchance 0
@@ -17735,25 +17735,25 @@ mondata SPECIES_NIHILEGO, "Nihilego"
     mondexweight SPECIES_NIHILEGO, "122.4 lbs."
 
 
-mondata SPECIES_BUZZWOLE, "Buzzwole"
+mondata SPECIES_ARACCUBUS, "Buzzwole"
     basestats 107, 139, 139, 79, 53, 53
     types TYPE_BUG, TYPE_FIGHTING
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 2, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 255
+    genderratio 127
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     abilities ABILITY_BEAST_BOOST, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_RED, 0
-    mondexentry SPECIES_BUZZWOLE, "Buzzwole goes around showing off its\nabnormally swollen muscles. It is one\nkind of Ultra Beast."
-    mondexclassification SPECIES_BUZZWOLE, "Swollen Pokémon"
-    mondexheight SPECIES_BUZZWOLE, "7’10”"
-    mondexweight SPECIES_BUZZWOLE, "735.5 lbs."
+    mondexentry SPECIES_ARACCUBUS, "Buzzwole goes around showing off its\nabnormally swollen muscles. It is one\nkind of Ultra Beast."
+    mondexclassification SPECIES_ARACCUBUS, "Swollen Pokémon"
+    mondexheight SPECIES_ARACCUBUS, "7’10”"
+    mondexweight SPECIES_ARACCUBUS, "735.5 lbs."
 
 
 mondata SPECIES_PHEROMOSA, "Pheromosa"
@@ -17766,7 +17766,7 @@ mondata SPECIES_PHEROMOSA, "Pheromosa"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_BEAST_BOOST, ABILITY_NONE
     runchance 0
@@ -17787,7 +17787,7 @@ mondata SPECIES_XURKITREE, "Xurkitree"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_BEAST_BOOST, ABILITY_NONE
     runchance 0
@@ -17808,7 +17808,7 @@ mondata SPECIES_CELESTEELA, "Celesteela"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_BEAST_BOOST, ABILITY_NONE
     runchance 0
@@ -17829,7 +17829,7 @@ mondata SPECIES_KARTANA, "Kartana"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_BEAST_BOOST, ABILITY_NONE
     runchance 0
@@ -17850,7 +17850,7 @@ mondata SPECIES_GUZZLORD, "Guzzlord"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_BEAST_BOOST, ABILITY_NONE
     runchance 0
@@ -17871,7 +17871,7 @@ mondata SPECIES_NECROZMA, "Necrozma"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_PRISM_ARMOR, ABILITY_NONE
     runchance 0
@@ -17892,7 +17892,7 @@ mondata SPECIES_MAGEARNA, "Magearna"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_SOUL_HEART, ABILITY_NONE
     runchance 0
@@ -17913,7 +17913,7 @@ mondata SPECIES_MARSHADOW, "Marshadow"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_TECHNICIAN, ABILITY_NONE
     runchance 0
@@ -17934,7 +17934,7 @@ mondata SPECIES_POIPOLE, "Poipole"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_BEAST_BOOST, ABILITY_NONE
     runchance 0
@@ -17955,7 +17955,7 @@ mondata SPECIES_NAGANADEL, "Naganadel"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_BEAST_BOOST, ABILITY_NONE
     runchance 0
@@ -17976,7 +17976,7 @@ mondata SPECIES_STAKATAKA, "Stakataka"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_BEAST_BOOST, ABILITY_NONE
     runchance 0
@@ -17997,7 +17997,7 @@ mondata SPECIES_BLACEPHALON, "Blacefalon"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_BEAST_BOOST, ABILITY_NONE
     runchance 0
@@ -18018,7 +18018,7 @@ mondata SPECIES_ZERAORA, "Zeraora"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_VOLT_ABSORB, ABILITY_NONE
     runchance 0
@@ -18039,7 +18039,7 @@ mondata SPECIES_MELTAN, "Meltan"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_MAGNET_PULL, ABILITY_NONE
     runchance 0
@@ -18060,7 +18060,7 @@ mondata SPECIES_MELMETAL, "Melmetal"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_IRON_FIST, ABILITY_NONE
     runchance 0
@@ -18081,7 +18081,7 @@ mondata SPECIES_GROOKEY, "Grookey"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_GRASS
     abilities ABILITY_OVERGROW, ABILITY_NONE
     runchance 0
@@ -18102,7 +18102,7 @@ mondata SPECIES_THWACKEY, "Thwackey"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_GRASS
     abilities ABILITY_OVERGROW, ABILITY_NONE
     runchance 0
@@ -18123,7 +18123,7 @@ mondata SPECIES_RILLABOOM, "Rillaboom"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_GRASS
     abilities ABILITY_OVERGROW, ABILITY_NONE
     runchance 0
@@ -18144,7 +18144,7 @@ mondata SPECIES_SCORBUNNY, "Scorbunny"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_BLAZE, ABILITY_NONE
     runchance 0
@@ -18165,7 +18165,7 @@ mondata SPECIES_RABOOT, "Raboot"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_BLAZE, ABILITY_NONE
     runchance 0
@@ -18186,7 +18186,7 @@ mondata SPECIES_CINDERACE, "Cinderace"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_BLAZE, ABILITY_NONE
     runchance 0
@@ -18207,7 +18207,7 @@ mondata SPECIES_SOBBLE, "Sobble"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
     abilities ABILITY_TORRENT, ABILITY_NONE
     runchance 0
@@ -18228,7 +18228,7 @@ mondata SPECIES_DRIZZILE, "Drizzile"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
     abilities ABILITY_TORRENT, ABILITY_NONE
     runchance 0
@@ -18249,7 +18249,7 @@ mondata SPECIES_INTELEON, "Inteleon"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
     abilities ABILITY_TORRENT, ABILITY_NONE
     runchance 0
@@ -18281,7 +18281,7 @@ mondata SPECIES_SKWOVET, "Skwovet"
     mondexweight SPECIES_SKWOVET, "5.5 lbs."
 
 
-mondata SPECIES_GREEDENT, "Greedent"
+mondata SPECIES_PACHIKUSU, "Greedent"
     basestats 120, 95, 95, 20, 55, 75
     types TYPE_NORMAL, TYPE_NORMAL
     catchrate 90
@@ -18292,14 +18292,14 @@ mondata SPECIES_GREEDENT, "Greedent"
     eggcycles 20
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
     abilities ABILITY_CHEEK_POUCH, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
-    mondexentry SPECIES_GREEDENT, "This Pokémon has strong teeth and\ncan chew through the toughest of\nberry shells."
-    mondexclassification SPECIES_GREEDENT, "Greedy Pokémon"
-    mondexheight SPECIES_GREEDENT, "2’00”"
-    mondexweight SPECIES_GREEDENT, "13.2 lbs."
+    mondexentry SPECIES_PACHIKUSU, "This Pokémon has strong teeth and\ncan chew through the toughest of\nberry shells."
+    mondexclassification SPECIES_PACHIKUSU, "Greedy Pokémon"
+    mondexheight SPECIES_PACHIKUSU, "2’00”"
+    mondexweight SPECIES_PACHIKUSU, "13.2 lbs."
 
 
 mondata SPECIES_ROOKIDEE, "Rookidee"
@@ -18312,7 +18312,7 @@ mondata SPECIES_ROOKIDEE, "Rookidee"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_KEEN_EYE, ABILITY_UNNERVE
     runchance 0
@@ -18333,7 +18333,7 @@ mondata SPECIES_CORVISQUIRE, "Corvsquire"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_KEEN_EYE, ABILITY_UNNERVE
     runchance 0
@@ -18354,7 +18354,7 @@ mondata SPECIES_CORVIKNIGHT, "Corviknite"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_PRESSURE, ABILITY_UNNERVE
     runchance 0
@@ -18438,7 +18438,7 @@ mondata SPECIES_NICKIT, "Nickit"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_RUN_AWAY, ABILITY_UNBURDEN
     runchance 0
@@ -18456,11 +18456,11 @@ mondata SPECIES_RODERIK, "Thievul"
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 2
     items ITEM_NONE, ITEM_NONE
-    genderratio 127
+    genderratio 0
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_FAST
-    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_RUN_AWAY, ABILITY_UNBURDEN
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
@@ -18606,7 +18606,7 @@ mondata SPECIES_YAMPER, "Yamper"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_BALL_FETCH, ABILITY_NONE
     runchance 0
@@ -18627,7 +18627,7 @@ mondata SPECIES_BOLTUND, "Boltund"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_STRONG_JAW, ABILITY_NONE
     runchance 0
@@ -18648,7 +18648,7 @@ mondata SPECIES_ROLYCOLY, "Rolycoly"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_STEAM_ENGINE, ABILITY_HEATPROOF
     runchance 0
@@ -18669,7 +18669,7 @@ mondata SPECIES_CARKOL, "Carkol"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_STEAM_ENGINE, ABILITY_FLAME_BODY
     runchance 0
@@ -18690,7 +18690,7 @@ mondata SPECIES_COALOSSAL, "Coalossal"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_STEAM_ENGINE, ABILITY_FLAME_BODY
     runchance 0
@@ -18711,7 +18711,7 @@ mondata SPECIES_APPLIN, "Applin"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_ERRATIC
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_DRAGON
     abilities ABILITY_RIPEN, ABILITY_GLUTTONY
     runchance 0
@@ -18732,7 +18732,7 @@ mondata SPECIES_FLAPPLE, "Flapple"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_ERRATIC
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_DRAGON
     abilities ABILITY_RIPEN, ABILITY_GLUTTONY
     runchance 0
@@ -18753,7 +18753,7 @@ mondata SPECIES_APPLETUN, "Appletun"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_ERRATIC
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_DRAGON
     abilities ABILITY_RIPEN, ABILITY_GLUTTONY
     runchance 0
@@ -18837,7 +18837,7 @@ mondata SPECIES_ARROKUDA, "Arrokuda"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
     abilities ABILITY_SWIFT_SWIM, ABILITY_NONE
     runchance 0
@@ -18848,8 +18848,8 @@ mondata SPECIES_ARROKUDA, "Arrokuda"
     mondexweight SPECIES_ARROKUDA, "2.2 lbs."
 
 
-mondata SPECIES_BARRASKEWDA, "Baraskewda"
-    basestats 61, 123, 60, 136, 60, 50
+mondata SPECIES_DAMPEROR, "Damperor"
+    basestats 100, 117, 70, 73, 95, 110
     types TYPE_WATER, TYPE_WATER
     catchrate 60
     baseexp 0 // defined in baseexp.s
@@ -18858,15 +18858,15 @@ mondata SPECIES_BARRASKEWDA, "Baraskewda"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
-    abilities ABILITY_SWIFT_SWIM, ABILITY_NONE
+    abilities ABILITY_SWIFT_SWIM, ABILITY_WATER_VEIL
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
-    mondexentry SPECIES_BARRASKEWDA, "Its jaw that’s as sharp as a spear and\nas strong as steel. It spins its tail fins\nto surge forward at over 100 knots."
-    mondexclassification SPECIES_BARRASKEWDA, "Skewer Pokémon"
-    mondexheight SPECIES_BARRASKEWDA, "4’03”"
-    mondexweight SPECIES_BARRASKEWDA, "66.1 lbs."
+    mondexentry SPECIES_DAMPEROR, "As emperor it claims dominion over all\nlakes in Johto, including the Lake of Rage.\nEven GYARADOS seems to recognise this."
+    mondexclassification SPECIES_DAMPEROR, "Sovereign Pokémon"
+    mondexheight SPECIES_DAMPEROR, "6’01”"
+    mondexweight SPECIES_DAMPEROR, "138.9 lbs."
 
 
 mondata SPECIES_TOXEL, "Toxel"
@@ -18879,7 +18879,7 @@ mondata SPECIES_TOXEL, "Toxel"
     genderratio 127
     eggcycles 25
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_RATTLED, ABILITY_STATIC
     runchance 0
@@ -18900,12 +18900,12 @@ mondata SPECIES_GOROCHU, "Gorochu"
     genderratio 127
     eggcycles 25
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
-    egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
     abilities ABILITY_STAMINA, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
-    mondexentry SPECIES_GOROCHU, "This short-tempered and aggressive\nPokémon chugs stagnant water to\nabsorb any toxins it might contain."
+    mondexentry SPECIES_GOROCHU, "This short-tempered and aggressive\nPokémon is always up for a fight.\nIt does not need a reason."
     mondexclassification SPECIES_GOROCHU, "Punk Pokémon"
     mondexheight SPECIES_GOROCHU, "5’03”"
     mondexweight SPECIES_GOROCHU, "88.2 lbs."
@@ -18963,7 +18963,7 @@ mondata SPECIES_CLOBBOPUS, "Clobbopus"
     genderratio 127
     eggcycles 25
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_LIMBER, ABILITY_NONE
     runchance 0
@@ -18984,7 +18984,7 @@ mondata SPECIES_GRAPPLOCT, "Grapploct"
     genderratio 127
     eggcycles 25
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_LIMBER, ABILITY_NONE
     runchance 0
@@ -19047,7 +19047,7 @@ mondata SPECIES_HATENNA, "Hatenna"
     genderratio 254
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
     abilities ABILITY_HEALER, ABILITY_ANTICIPATION
     runchance 0
@@ -19068,7 +19068,7 @@ mondata SPECIES_HATTREM, "Hattrem"
     genderratio 254
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
     abilities ABILITY_HEALER, ABILITY_ANTICIPATION
     runchance 0
@@ -19079,7 +19079,7 @@ mondata SPECIES_HATTREM, "Hattrem"
     mondexweight SPECIES_HATTREM, "10.6 lbs."
 
 
-mondata SPECIES_CEOKING, "Ceoking"
+mondata SPECIES_HATTERENE, "Ceoking"
     basestats 65, 90, 120, 60, 85, 70
     types TYPE_POISON, TYPE_STEEL
     catchrate 60
@@ -19094,13 +19094,13 @@ mondata SPECIES_CEOKING, "Ceoking"
     abilities ABILITY_LEVITATE,  ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
-    mondexentry SPECIES_CEOKING, "The CO2 emissions from this Pokémon\nare of global concern, but it will\nalways put profits before people."
-    mondexclassification SPECIES_CEOKING, "Industrialist Pokémon"
-    mondexheight SPECIES_CEOKING, "8’02”"
-    mondexweight SPECIES_CEOKING, "1028.3 lbs."
+    mondexentry SPECIES_HATTERENE, "The CO2 emissions from this Pokémon\nare of global concern, but it will\nalways put profits before people."
+    mondexclassification SPECIES_HATTERENE, "Industrialist Pokémon"
+    mondexheight SPECIES_HATTERENE, "8’02”"
+    mondexweight SPECIES_HATTERENE, "1028.3 lbs."
 
 
-mondata SPECIES_IMPIDIMP, "Impidimp"
+mondata SPECIES_DRASHIMI, "Impidimp"
     basestats 45, 45, 30, 50, 55, 40
     types TYPE_DARK, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_DARK
     catchrate 255
@@ -19111,17 +19111,17 @@ mondata SPECIES_IMPIDIMP, "Impidimp"
     eggcycles 20
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_FAIRY, EGG_GROUP_HUMAN_LIKE
+    egggroups EGG_GROUP_WATER_1, EGG_GROUP_DRAGON
     abilities ABILITY_PRANKSTER, ABILITY_FRISK
     runchance 0
     colorflip BODY_COLOR_PINK, 0
-    mondexentry SPECIES_IMPIDIMP, "It sneaks into people’s homes, taking\nand feasting on the negative energy\nof the frustrated occupants."
-    mondexclassification SPECIES_IMPIDIMP, "Wily Pokémon"
-    mondexheight SPECIES_IMPIDIMP, "1’04”"
-    mondexweight SPECIES_IMPIDIMP, "12.1 lbs."
+    mondexentry SPECIES_DRASHIMI, "It sneaks into people’s homes, taking\nand feasting on the negative energy\nof the frustrated occupants."
+    mondexclassification SPECIES_DRASHIMI, "Wily Pokémon"
+    mondexheight SPECIES_DRASHIMI, "1’04”"
+    mondexweight SPECIES_DRASHIMI, "12.1 lbs."
 
 
-mondata SPECIES_MORGREM, "Morgrem"
+mondata SPECIES_TSUSHIMI, "Morgrem"
     basestats 65, 60, 45, 70, 75, 55
     types TYPE_DARK, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_DARK
     catchrate 120
@@ -19132,17 +19132,17 @@ mondata SPECIES_MORGREM, "Morgrem"
     eggcycles 20
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_FAIRY, EGG_GROUP_HUMAN_LIKE
+    egggroups EGG_GROUP_WATER_1, EGG_GROUP_DRAGON
     abilities ABILITY_PRANKSTER, ABILITY_FRISK
     runchance 0
     colorflip BODY_COLOR_PINK, 0
-    mondexentry SPECIES_MORGREM, "With sly cunning, it lures people into\nthe woods. Some believe it to have\nthe power to make crops grow."
-    mondexclassification SPECIES_MORGREM, "Devious Pokémon"
-    mondexheight SPECIES_MORGREM, "2’07”"
-    mondexweight SPECIES_MORGREM, "27.6 lbs."
+    mondexentry SPECIES_TSUSHIMI, "With sly cunning, it lures people into\nthe woods. Some believe it to have\nthe power to make crops grow."
+    mondexclassification SPECIES_TSUSHIMI, "Devious Pokémon"
+    mondexheight SPECIES_TSUSHIMI, "2’07”"
+    mondexweight SPECIES_TSUSHIMI, "27.6 lbs."
 
 
-mondata SPECIES_GRIMMSNARL, "Grimmsnarl"
+mondata SPECIES_TOBISHIMI, "Grimmsnarl"
     basestats 95, 120, 65, 60, 95, 75
     types TYPE_DARK, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_DARK
     catchrate 45
@@ -19153,14 +19153,14 @@ mondata SPECIES_GRIMMSNARL, "Grimmsnarl"
     eggcycles 20
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_FAIRY, EGG_GROUP_HUMAN_LIKE
+    egggroups EGG_GROUP_WATER_1, EGG_GROUP_DRAGON
     abilities ABILITY_PRANKSTER, ABILITY_FRISK
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
-    mondexentry SPECIES_GRIMMSNARL, "Its hairs work like muscle fibers.\nWhen its hairs unfurl, they latch on to\nfoes, ensnaring them like tentacles."
-    mondexclassification SPECIES_GRIMMSNARL, "Bulk Up Pokémon"
-    mondexheight SPECIES_GRIMMSNARL, "4’11”"
-    mondexweight SPECIES_GRIMMSNARL, "134.5 lbs."
+    mondexentry SPECIES_TOBISHIMI, "Its hairs work like muscle fibers.\nWhen its hairs unfurl, they latch on to\nfoes, ensnaring them like tentacles."
+    mondexclassification SPECIES_TOBISHIMI, "Bulk Up Pokémon"
+    mondexheight SPECIES_TOBISHIMI, "4’11”"
+    mondexweight SPECIES_TOBISHIMI, "134.5 lbs."
 
 
 mondata SPECIES_OBSTAGOON, "Obstagoon"
@@ -19215,7 +19215,7 @@ mondata SPECIES_CURSOLA, "Cursola"
     genderratio 190
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_3
     abilities ABILITY_WEAK_ARMOR, ABILITY_NONE
     runchance 0
@@ -19415,39 +19415,39 @@ mondata SPECIES_FROSMOTH, "Frosmoth"
     mondexweight SPECIES_FROSMOTH, "92.6 lbs."
 
 
-mondata SPECIES_STONJOURNER, "Stonjorner"
-    basestats 100, 125, 135, 70, 20, 20
-    types TYPE_ROCK, TYPE_ROCK
+mondata SPECIES_MANEEKO, "Maneeko"
+    basestats 65, 85, 85, 115, 115, 90
+    types TYPE_NORMAL, TYPE_ROCK
     catchrate 60
     baseexp 0 // defined in baseexp.s
-    evyields 0, 0, 2, 0, 0, 0
+    evyields 0, 0, 3, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 25
     basefriendship 50
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
-    abilities ABILITY_POWER_SPOT, ABILITY_NONE
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_TECHNICIAN, ABILITY_TECHNICIAN
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
-    mondexentry SPECIES_STONJOURNER, "Once a year, on a specific date and\nat a specific time, they gather out of\nnowhere and form up in a circle."
-    mondexclassification SPECIES_STONJOURNER, "Big Rock Pokémon"
-    mondexheight SPECIES_STONJOURNER, "8’02”"
-    mondexweight SPECIES_STONJOURNER, "1146.4 lbs."
+    mondexentry SPECIES_MANEEKO, "Many adore it for its sophisticated air.\nHowever, it will lash out and\nscratch for little reason."
+    mondexclassification SPECIES_MANEEKO, "White Jewel Pokémon"
+    mondexheight SPECIES_MANEEKO, "3’07”"
+    mondexweight SPECIES_MANEEKO, "109.2 lbs."
 
 
 mondata SPECIES_PINGWINNER, "Eiscue"
-    basestats 75, 80, 110, 50, 65, 90
-    types TYPE_ICE, TYPE_WATER
+    basestats 75, 200, 110, 50, 65, 90
+    types TYPE_ICE, TYPE_FIGHTING
     catchrate 60
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 127
+    genderratio 0
     eggcycles 25
     basefriendship 50
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_ICE_FACE, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
@@ -19467,7 +19467,7 @@ mondata SPECIES_INDEEDEE, "Indeedee"
     genderratio 0
     eggcycles 40
     basefriendship 140
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
     abilities ABILITY_INNER_FOCUS, ABILITY_SYNCHRONIZE
     runchance 0
@@ -19551,7 +19551,7 @@ mondata SPECIES_DRACOZOLT, "Dracozolt"
     genderratio 255
     eggcycles 35
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_VOLT_ABSORB, ABILITY_HUSTLE
     runchance 0
@@ -19562,46 +19562,46 @@ mondata SPECIES_DRACOZOLT, "Dracozolt"
     mondexweight SPECIES_DRACOZOLT, "418.9 lbs."
 
 
-mondata SPECIES_ARCTOZOLT, "Arctozolt"
+mondata SPECIES_CRYAK, "Arctozolt"
     basestats 90, 100, 90, 55, 90, 80
     types TYPE_ELECTRIC, TYPE_ICE
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 255
+    genderratio 127
     eggcycles 35
     basefriendship 50
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_VOLT_ABSORB, ABILITY_STATIC
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
-    mondexentry SPECIES_ARCTOZOLT, "The shaking of its freezing upper half\nis what generates its electricity. It has\na hard time walking around."
-    mondexclassification SPECIES_ARCTOZOLT, "Fossil Pokémon"
-    mondexheight SPECIES_ARCTOZOLT, "7’07”"
-    mondexweight SPECIES_ARCTOZOLT, "330.7 lbs."
+    mondexentry SPECIES_CRYAK, "The shaking of its freezing upper half\nis what generates its electricity. It has\na hard time walking around."
+    mondexclassification SPECIES_CRYAK, "Fossil Pokémon"
+    mondexheight SPECIES_CRYAK, "7’07”"
+    mondexweight SPECIES_CRYAK, "330.7 lbs."
 
 
-mondata SPECIES_DRACOVISH, "Dracovish"
+mondata SPECIES_SHOX, "Dracovish"
     basestats 90, 90, 100, 75, 70, 80
     types TYPE_WATER, TYPE_DRAGON
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 255
+    genderratio 127
     eggcycles 35
     basefriendship 50
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_WATER_ABSORB, ABILITY_STRONG_JAW
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
-    mondexentry SPECIES_DRACOVISH, "Its mighty legs are capable of running\nat speeds exceeding 40 mph, but it can’t\nbreathe unless it’s underwater."
-    mondexclassification SPECIES_DRACOVISH, "Fossil Pokémon"
-    mondexheight SPECIES_DRACOVISH, "7’07”"
-    mondexweight SPECIES_DRACOVISH, "474.0 lbs."
+    mondexentry SPECIES_SHOX, "Its mighty legs are capable of running\nat speeds exceeding 40 mph, but it can’t\nbreathe unless it’s underwater."
+    mondexclassification SPECIES_SHOX, "Fossil Pokémon"
+    mondexheight SPECIES_SHOX, "7’07”"
+    mondexweight SPECIES_SHOX, "474.0 lbs."
 
 
 mondata SPECIES_ARCTOVISH, "Arctovish"
@@ -19614,7 +19614,7 @@ mondata SPECIES_ARCTOVISH, "Arctovish"
     genderratio 255
     eggcycles 35
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_WATER_ABSORB, ABILITY_ICE_BODY
     runchance 0
@@ -19656,7 +19656,7 @@ mondata SPECIES_DREEPY, "Dreepy"
     genderratio 127
     eggcycles 40
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_DRAGON
     abilities ABILITY_CLEAR_BODY, ABILITY_INFILTRATOR
     runchance 0
@@ -19677,7 +19677,7 @@ mondata SPECIES_DRAKLOAK, "Drakloak"
     genderratio 127
     eggcycles 40
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_DRAGON
     abilities ABILITY_CLEAR_BODY, ABILITY_INFILTRATOR
     runchance 0
@@ -19698,7 +19698,7 @@ mondata SPECIES_DRAGAPULT, "Dragapult"
     genderratio 127
     eggcycles 40
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_DRAGON
     abilities ABILITY_CLEAR_BODY, ABILITY_INFILTRATOR
     runchance 0
@@ -19719,7 +19719,7 @@ mondata SPECIES_ZACIAN, "Zacian"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_INTREPID_SWORD, ABILITY_NONE
     runchance 0
@@ -19730,7 +19730,7 @@ mondata SPECIES_ZACIAN, "Zacian"
     mondexweight SPECIES_ZACIAN, "242.5 lbs."
 
 
-mondata SPECIES_ZAMAZENTA, "Zamazenta"
+mondata SPECIES_CHROMERA, "Zamazenta"
     basestats 92, 120, 115, 138, 80, 115
     types TYPE_FIGHTING, TYPE_FIGHTING
     catchrate 10
@@ -19740,15 +19740,15 @@ mondata SPECIES_ZAMAZENTA, "Zamazenta"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_DAUNTLESS_SHIELD, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_RED, 0
-    mondexentry SPECIES_ZAMAZENTA, "It slept for aeons while in the form\nof a statue. It was asleep for so long,\npeople forgot that it ever existed."
-    mondexclassification SPECIES_ZAMAZENTA, "Warrior Pokémon"
-    mondexheight SPECIES_ZAMAZENTA, "9’06”"
-    mondexweight SPECIES_ZAMAZENTA, "463.0 lbs."
+    mondexentry SPECIES_CHROMERA, "It slept for aeons while in the form\nof a statue. It was asleep for so long,\npeople forgot that it ever existed."
+    mondexclassification SPECIES_CHROMERA, "Warrior Pokémon"
+    mondexheight SPECIES_CHROMERA, "9’06”"
+    mondexweight SPECIES_CHROMERA, "463.0 lbs."
 
 
 mondata SPECIES_ETERNATUS, "Eternatus"
@@ -19761,7 +19761,7 @@ mondata SPECIES_ETERNATUS, "Eternatus"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_PRESSURE, ABILITY_NONE
     runchance 0
@@ -19782,7 +19782,7 @@ mondata SPECIES_KUBFU, "Kubfu"
     genderratio 31
     eggcycles 120
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_INNER_FOCUS, ABILITY_NONE
     runchance 0
@@ -19803,7 +19803,7 @@ mondata SPECIES_URSHIFU, "Urshifu"
     genderratio 31
     eggcycles 120
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_UNSEEN_FIST, ABILITY_NONE
     runchance 0
@@ -19824,7 +19824,7 @@ mondata SPECIES_ZARUDE, "Zarude"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_LEAF_GUARD, ABILITY_NONE
     runchance 0
@@ -19835,88 +19835,88 @@ mondata SPECIES_ZARUDE, "Zarude"
     mondexweight SPECIES_ZARUDE, "154.3 lbs."
 
 
-mondata SPECIES_REGIELEKI, "Regieleki"
+mondata SPECIES_KOTORA, "Regieleki"
     basestats 80, 100, 50, 200, 100, 50
     types TYPE_ELECTRIC, TYPE_ELECTRIC
     catchrate 3
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 3, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 255
+    genderratio 127
     eggcycles 120
     basefriendship 35
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_MONSTER
     abilities ABILITY_TRANSISTOR, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
-    mondexentry SPECIES_REGIELEKI, "Its entire body is made of an organ\nthat generates electricity. It is capable of\ngenerating a region’s worth of electricity."
-    mondexclassification SPECIES_REGIELEKI, "Electron Pokémon"
-    mondexheight SPECIES_REGIELEKI, "3’11”"
-    mondexweight SPECIES_REGIELEKI, "319.7 lbs."
+    mondexentry SPECIES_KOTORA, "Its entire body is made of an organ\nthat generates electricity. It is capable of\ngenerating a region’s worth of electricity."
+    mondexclassification SPECIES_KOTORA, "Electron Pokémon"
+    mondexheight SPECIES_KOTORA, "3’11”"
+    mondexweight SPECIES_KOTORA, "319.7 lbs."
 
 
-mondata SPECIES_REGIDRAGO, "Regidrago"
+mondata SPECIES_RAITORA, "Regidrago"
     basestats 200, 100, 50, 80, 100, 50
     types TYPE_DRAGON, TYPE_DRAGON
     catchrate 3
     baseexp 0 // defined in baseexp.s
     evyields 3, 0, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 255
+    genderratio 127
     eggcycles 120
     basefriendship 35
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_MONSTER
     abilities ABILITY_DRAGONS_MAW, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
-    mondexentry SPECIES_REGIDRAGO, "Its body is composed of crystallized\ndragon energy. It is said to contain the\npower of every Dragon Pokémon."
-    mondexclassification SPECIES_REGIDRAGO, "Dragon Orb Pokémon"
-    mondexheight SPECIES_REGIDRAGO, "6’11”"
-    mondexweight SPECIES_REGIDRAGO, "440.9 lbs."
+    mondexentry SPECIES_RAITORA, "Its body is composed of crystallized\ndragon energy. It is said to contain the\npower of every Dragon Pokémon."
+    mondexclassification SPECIES_RAITORA, "Dragon Orb Pokémon"
+    mondexheight SPECIES_RAITORA, "6’11”"
+    mondexweight SPECIES_RAITORA, "440.9 lbs."
 
 
-mondata SPECIES_GLASTRIER, "Glastrier"
-    basestats 100, 145, 130, 30, 65, 110
-    types TYPE_ICE, TYPE_ICE
-    catchrate 3
-    baseexp 0 // defined in baseexp.s
-    evyields 0, 3, 0, 0, 0, 0
-    items ITEM_NONE, ITEM_NONE
-    genderratio 255
-    eggcycles 120
-    basefriendship 35
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_CHILLING_NEIGH, ABILITY_NONE
+mondata SPECIES_CEOKING, "Ceoking"
+    basestats 65, 90, 120, 60, 85, 70
+    types TYPE_POISON, TYPE_STEEL
+    catchrate 60
+    baseexp 172
+    evyields 0, 0, 2, 0, 0, 0
+    items ITEM_NONE, ITEM_MISTY_SEED
+    genderratio 127
+    eggcycles 20
+    basefriendship 70
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
+    abilities ABILITY_LEVITATE,  ABILITY_NONE
     runchance 0
-    colorflip BODY_COLOR_WHITE, 0
-    mondexentry SPECIES_GLASTRIER, "Glastrier has tremendous physical\nstrength. The mask covering its face is\n100 times stronger than diamond."
-    mondexclassification SPECIES_GLASTRIER, "Wild Horse Pokémon"
-    mondexheight SPECIES_GLASTRIER, "7’03”"
-    mondexweight SPECIES_GLASTRIER, "1763.7 lbs."
+    colorflip BODY_COLOR_GRAY, 0
+    mondexentry SPECIES_CEOKING, "The CO2 emissions from this Pokémon\nare of global concern, but it will\nalways put profits before people."
+    mondexclassification SPECIES_CEOKING, "Industrialist Pokémon"
+    mondexheight SPECIES_CEOKING, "8’02”"
+    mondexweight SPECIES_CEOKING, "1028.3 lbs."
 
 
-mondata SPECIES_SPECTRIER, "Spectrier"
-    basestats 100, 65, 60, 130, 145, 80
-    types TYPE_GHOST, TYPE_GHOST
+mondata SPECIES_FURTUR, "Furtur"
+    basestats 115, 91, 64, 90, 91, 55
+    types TYPE_NORMAL, TYPE_NORMAL
     catchrate 3
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 3, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 255
+    genderratio 127
     eggcycles 120
     basefriendship 35
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_GRIM_NEIGH, ABILITY_NONE
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_RATTLED, ABILITY_MINDS_EYE
     runchance 0
     colorflip BODY_COLOR_BLACK, 0
-    mondexentry SPECIES_SPECTRIER, "As it dashes through the night, it\nabsorbs the life energy of sleeping Pokémon. It\ncraves silence and solitude."
-    mondexclassification SPECIES_SPECTRIER, "Swift Horse Pokémon"
-    mondexheight SPECIES_SPECTRIER, "6’07”"
-    mondexweight SPECIES_SPECTRIER, "98.1 lbs."
+    mondexentry SPECIES_FURTUR, "Its body has become too long for its\ntiny legs, so it moves around like a friendly,\nfurry snake."
+    mondexclassification SPECIES_FURTUR, "Long Long Pokémon"
+    mondexheight SPECIES_FURTUR, "20’07”"
+    mondexweight SPECIES_FURTUR, "243.5 lbs."
 
 
 mondata SPECIES_CALYREX, "Calyrex"
@@ -19929,7 +19929,7 @@ mondata SPECIES_CALYREX, "Calyrex"
     genderratio 255
     eggcycles 120
     basefriendship 100
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_UNNERVE, ABILITY_NONE
     runchance 0
@@ -19950,7 +19950,7 @@ mondata SPECIES_WYRDEER, "Wyrdeer"
     genderratio 127
     eggcycles 0
     basefriendship 70
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_SLUSH_RUSH, ABILITY_ANALYTIC
     runchance 0
@@ -20034,7 +20034,7 @@ mondata SPECIES_SNEASLER, "Sneasler"
     genderratio 127
     eggcycles 0
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_PRESSURE, ABILITY_UNBURDEN
     runchance 0
@@ -20066,25 +20066,25 @@ mondata SPECIES_OVERQWIL, "Overqwil"
     mondexweight SPECIES_OVERQWIL, "133.4 lbs."
 
 
-mondata SPECIES_ENAMORUS, "Enamorus"
-    basestats 74, 115, 70, 106, 135, 80
-    types (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL, TYPE_FLYING
-    catchrate 3
-    baseexp 0 // defined in baseexp.s
-    evyields 0, 0, 0, 0, 3, 0
+mondata SPECIES_EXEGGRATOR, "Exeggrator"
+    basestats 95, 105, 85, 45, 125, 75
+    types TYPE_GRASS, TYPE_DRAGON
+    catchrate 45
+    baseexp 186
+    evyields 0, 0, 0, 0, 2, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 254
-    eggcycles 0
+    genderratio 127
+    eggcycles 20
     basefriendship 70
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_CUTE_CHARM, ABILITY_NONE
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
+    abilities ABILITY_HARVEST, ABILITY_NONE
     runchance 0
-    colorflip BODY_COLOR_PINK, 0
-    mondexentry SPECIES_ENAMORUS, "When it flies to this land from across the sea, the bitter winter\ncomes to an end. According to legend, this Pokémon's love\ngives rise to the budding of fresh life across Hisui."
-    mondexclassification SPECIES_ENAMORUS, "Love-Hate Pokémon"
-    mondexheight SPECIES_ENAMORUS, "5’03”"
-    mondexweight SPECIES_ENAMORUS, "105.8 lbs."
+    colorflip BODY_COLOR_YELLOW, 0
+    mondexentry SPECIES_EXEGGRATOR, "With the right care, the EXEGGCUTE\nhave sprouted into a tree that\ngrew to a frankly ridiculous size."
+    mondexclassification SPECIES_EXEGGRATOR, "Coconuts Pokémon"
+    mondexheight SPECIES_EXEGGRATOR, "19’09”"
+    mondexweight SPECIES_EXEGGRATOR, "532.8 lbs."
 
 
 mondata SPECIES_SPRIGATITO, "Sprigatito"
@@ -20097,7 +20097,7 @@ mondata SPECIES_SPRIGATITO, "Sprigatito"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_GRASS
     abilities ABILITY_OVERGROW, ABILITY_NONE
     runchance 0
@@ -20118,7 +20118,7 @@ mondata SPECIES_FLORAGATO, "Floragato"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_GRASS
     abilities ABILITY_OVERGROW, ABILITY_NONE
     runchance 0
@@ -20139,7 +20139,7 @@ mondata SPECIES_MEOWSCARADA, "Mewscarada"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_GRASS
     abilities ABILITY_OVERGROW, ABILITY_NONE
     runchance 0
@@ -20160,7 +20160,7 @@ mondata SPECIES_FUECOCO, "Fuecoco"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_BLAZE, ABILITY_NONE
     runchance 0
@@ -20181,7 +20181,7 @@ mondata SPECIES_CROCALOR, "Crocalor"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_BLAZE, ABILITY_NONE
     runchance 0
@@ -20202,7 +20202,7 @@ mondata SPECIES_SKELEDIRGE, "Skeledirge"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_BLAZE, ABILITY_NONE
     runchance 0
@@ -20223,7 +20223,7 @@ mondata SPECIES_QUAXLY, "Quaxly"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_WATER_1
     abilities ABILITY_TORRENT, ABILITY_NONE
     runchance 0
@@ -20244,7 +20244,7 @@ mondata SPECIES_QUAXWELL, "Quaxwell"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_WATER_1
     abilities ABILITY_TORRENT, ABILITY_NONE
     runchance 0
@@ -20265,7 +20265,7 @@ mondata SPECIES_QUAQUAVAL, "Quaquaval"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_WATER_1
     abilities ABILITY_TORRENT, ABILITY_NONE
     runchance 0
@@ -20328,7 +20328,7 @@ mondata SPECIES_TAROUNTULA, "Tarountula"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_ERRATIC
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     abilities ABILITY_INSOMNIA, ABILITY_NONE
     runchance 0
@@ -20349,7 +20349,7 @@ mondata SPECIES_SPIDOPS, "Spidops"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_ERRATIC
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     abilities ABILITY_INSOMNIA, ABILITY_NONE
     runchance 0
@@ -20446,12 +20446,12 @@ mondata SPECIES_PAWMO, "Pawmo"
 
 mondata SPECIES_HUMBOL, "Humbol"
     basestats 70, 115, 70, 105, 70, 60
-    types TYPE_ELECTRIC, TYPE_FIGHTING
+    types TYPE_NORMAL, TYPE_NORMAL
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 3, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 127
+    genderratio 0
     eggcycles 15
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
@@ -20475,7 +20475,7 @@ mondata SPECIES_TANDEMAUS, "Tandemaus"
     genderratio 255
     eggcycles 10
     basefriendship 50
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
     abilities ABILITY_RUN_AWAY, ABILITY_PICKUP
     runchance 0
@@ -20496,7 +20496,7 @@ mondata SPECIES_MAUSHOLD, "Maushold"
     genderratio 255
     eggcycles 10
     basefriendship 50
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
     abilities ABILITY_FRIEND_GUARD, ABILITY_CHEEK_POUCH
     runchance 0
@@ -20517,7 +20517,7 @@ mondata SPECIES_FIDOUGH, "Fidough"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_MINERAL
     abilities ABILITY_OWN_TEMPO, ABILITY_NONE
     runchance 0
@@ -20538,7 +20538,7 @@ mondata SPECIES_DACHSBUN, "Dachsbun"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_MINERAL
     abilities ABILITY_WELL_BAKED_BODY, ABILITY_NONE
     runchance 0
@@ -20559,7 +20559,7 @@ mondata SPECIES_SMOLIV, "Smoliv"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
     abilities ABILITY_EARLY_BIRD, ABILITY_NONE
     runchance 0
@@ -20580,7 +20580,7 @@ mondata SPECIES_DOLLIV, "Dolliv"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
     abilities ABILITY_EARLY_BIRD, ABILITY_NONE
     runchance 0
@@ -20601,7 +20601,7 @@ mondata SPECIES_ARBOLIVA, "Arboliva"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
     abilities ABILITY_SEED_SOWER, ABILITY_NONE
     runchance 0
@@ -20622,7 +20622,7 @@ mondata SPECIES_SQUAWKABILLY, "Squawkbily"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_ERRATIC
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_INTIMIDATE, ABILITY_HUSTLE
     runchance 0
@@ -20643,7 +20643,7 @@ mondata SPECIES_NACLI, "Nacli"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_PURIFYING_SALT, ABILITY_STURDY
     runchance 0
@@ -20664,7 +20664,7 @@ mondata SPECIES_NACLSTACK, "Naclstack"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_PURIFYING_SALT, ABILITY_STURDY
     runchance 0
@@ -20685,7 +20685,7 @@ mondata SPECIES_GARGANACL, "Garganacl"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_PURIFYING_SALT, ABILITY_STURDY
     runchance 0
@@ -20706,7 +20706,7 @@ mondata SPECIES_CHARCADET, "Charcadet"
     genderratio 127
     eggcycles 35
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_FLASH_FIRE, ABILITY_NONE
     runchance 0
@@ -20727,7 +20727,7 @@ mondata SPECIES_ARMAROUGE, "Armarouge"
     genderratio 127
     eggcycles 35
     basefriendship 20
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_FLASH_FIRE, ABILITY_NONE
     runchance 0
@@ -20748,7 +20748,7 @@ mondata SPECIES_CERULEDGE, "Ceruledge"
     genderratio 127
     eggcycles 35
     basefriendship 20
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_FLASH_FIRE, ABILITY_NONE
     runchance 0
@@ -20811,7 +20811,7 @@ mondata SPECIES_WATTREL, "Wattrel"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FLYING
     abilities ABILITY_WIND_POWER, ABILITY_VOLT_ABSORB
     runchance 0
@@ -20832,7 +20832,7 @@ mondata SPECIES_KILOWATTREL, "Kilowatrel"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FLYING
     abilities ABILITY_WIND_POWER, ABILITY_VOLT_ABSORB
     runchance 0
@@ -20853,7 +20853,7 @@ mondata SPECIES_MASCHIFF, "Maschiff"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_INTIMIDATE, ABILITY_RUN_AWAY
     runchance 0
@@ -20874,7 +20874,7 @@ mondata SPECIES_MABOSSTIFF, "Mabosstiff"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_INTIMIDATE, ABILITY_GUARD_DOG
     runchance 0
@@ -20895,7 +20895,7 @@ mondata SPECIES_SHROODLE, "Shroodle"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_UNBURDEN, ABILITY_PICKPOCKET
     runchance 0
@@ -20916,7 +20916,7 @@ mondata SPECIES_GRAFAIAI, "Grafaiai"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_UNBURDEN, ABILITY_POISON_TOUCH
     runchance 0
@@ -20979,7 +20979,7 @@ mondata SPECIES_TOEDSCOOL, "Toedscool"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
     abilities ABILITY_MYCELIUM_MIGHT, ABILITY_NONE
     runchance 0
@@ -21000,7 +21000,7 @@ mondata SPECIES_TOEDSCRUEL, "Toedscruel"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
     abilities ABILITY_MYCELIUM_MIGHT, ABILITY_NONE
     runchance 0
@@ -21084,7 +21084,7 @@ mondata SPECIES_RELLOR, "Rellor"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     abilities ABILITY_COMPOUND_EYES, ABILITY_NONE
     runchance 0
@@ -21105,7 +21105,7 @@ mondata SPECIES_RABSCA, "Rabsca"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     abilities ABILITY_SYNCHRONIZE, ABILITY_NONE
     runchance 0
@@ -21126,7 +21126,7 @@ mondata SPECIES_FLITTLE, "Flittle"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_ANTICIPATION, ABILITY_FRISK
     runchance 0
@@ -21147,7 +21147,7 @@ mondata SPECIES_ESPATHRA, "Espathra"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_OPPORTUNIST, ABILITY_FRISK
     runchance 0
@@ -21168,7 +21168,7 @@ mondata SPECIES_TINKATINK, "Tinkatink"
     genderratio 254
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
     abilities ABILITY_MOLD_BREAKER, ABILITY_OWN_TEMPO
     runchance 0
@@ -21189,7 +21189,7 @@ mondata SPECIES_TINKATUFF, "Tinkatuff"
     genderratio 254
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
     abilities ABILITY_MOLD_BREAKER, ABILITY_OWN_TEMPO
     runchance 0
@@ -21210,7 +21210,7 @@ mondata SPECIES_TINKATON, "Tinkaton"
     genderratio 254
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
     abilities ABILITY_MOLD_BREAKER, ABILITY_OWN_TEMPO
     runchance 0
@@ -21263,7 +21263,7 @@ mondata SPECIES_WUGTRIO, "Wugtrio"
     mondexweight SPECIES_WUGTRIO, "11.9 lbs."
 
 
-mondata SPECIES_BOMBIRDIER, "Bombirdier"
+mondata SPECIES_GRIMFOWL, "Bombirdier"
     basestats 70, 103, 85, 82, 60, 85
     types TYPE_FLYING, TYPE_DARK
     catchrate 25
@@ -21273,15 +21273,15 @@ mondata SPECIES_BOMBIRDIER, "Bombirdier"
     genderratio 127
     eggcycles 35
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_BIG_PECKS, ABILITY_KEEN_EYE
     runchance 0
     colorflip BODY_COLOR_WHITE, 0
-    mondexentry SPECIES_BOMBIRDIER, "Bombirdier uses the apron on its chest to bundle up food, which it carries back to its nest. It enjoys dropping things that make loud noises."
-    mondexclassification SPECIES_BOMBIRDIER, "Item Drop Pokémon"
-    mondexheight SPECIES_BOMBIRDIER, "4’11”"
-    mondexweight SPECIES_BOMBIRDIER, "94.6 lbs."
+    mondexentry SPECIES_GRIMFOWL, "Bombirdier uses the apron on its chest to bundle up food, which it carries back to its nest. It enjoys dropping things that make loud noises."
+    mondexclassification SPECIES_GRIMFOWL, "Item Drop Pokémon"
+    mondexheight SPECIES_GRIMFOWL, "4’11”"
+    mondexweight SPECIES_GRIMFOWL, "94.6 lbs."
 
 
 mondata SPECIES_FINIZEN, "Finizen"
@@ -21294,7 +21294,7 @@ mondata SPECIES_FINIZEN, "Finizen"
     genderratio 127
     eggcycles 40
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_WATER_2
     abilities ABILITY_WATER_VEIL, ABILITY_NONE
     runchance 0
@@ -21315,7 +21315,7 @@ mondata SPECIES_PALAFIN, "Palafin"
     genderratio 127
     eggcycles 40
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_WATER_2
     abilities ABILITY_ZERO_TO_HERO, ABILITY_NONE
     runchance 0
@@ -21378,7 +21378,7 @@ mondata SPECIES_CYCLIZAR, "Cyclizar"
     genderratio 127
     eggcycles 30
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_SHED_SKIN, ABILITY_NONE
     runchance 0
@@ -21399,7 +21399,7 @@ mondata SPECIES_ORTHWORM, "Orthworm"
     genderratio 127
     eggcycles 35
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_EARTH_EATER, ABILITY_NONE
     runchance 0
@@ -21420,7 +21420,7 @@ mondata SPECIES_GLIMMET, "Glimmet"
     genderratio 127
     eggcycles 30
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_TOXIC_DEBRIS, ABILITY_NONE
     runchance 0
@@ -21441,7 +21441,7 @@ mondata SPECIES_GLIMMORA, "Glimmora"
     genderratio 127
     eggcycles 30
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_TOXIC_DEBRIS, ABILITY_NONE
     runchance 0
@@ -21462,7 +21462,7 @@ mondata SPECIES_GREAVARD, "Greavard"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_PICKUP, ABILITY_NONE
     runchance 0
@@ -21483,7 +21483,7 @@ mondata SPECIES_HOUNDSTONE, "Houndstone"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_SAND_RUSH, ABILITY_NONE
     runchance 0
@@ -21504,7 +21504,7 @@ mondata SPECIES_FLAMIGO, "Flamigo"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_SCRAPPY, ABILITY_TANGLED_FEET
     runchance 0
@@ -21525,7 +21525,7 @@ mondata SPECIES_CETODDLE, "Cetoddle"
     genderratio 127
     eggcycles 25
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_THICK_FAT, ABILITY_SNOW_CLOAK
     runchance 0
@@ -21546,7 +21546,7 @@ mondata SPECIES_CETITAN, "Cetitan"
     genderratio 127
     eggcycles 25
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_THICK_FAT, ABILITY_SLUSH_RUSH
     runchance 0
@@ -21567,7 +21567,7 @@ mondata SPECIES_VELUZA, "Veluza"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
     abilities ABILITY_MOLD_BREAKER, ABILITY_NONE
     runchance 0
@@ -21588,7 +21588,7 @@ mondata SPECIES_DONDOZO, "Dondozo"
     genderratio 127
     eggcycles 40
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
     abilities ABILITY_UNAWARE, ABILITY_OBLIVIOUS
     runchance 0
@@ -21609,7 +21609,7 @@ mondata SPECIES_TATSUGIRI, "Tatsugiri"
     genderratio 127
     eggcycles 35
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
     abilities ABILITY_COMMANDER, ABILITY_NONE
     runchance 0
@@ -21732,11 +21732,11 @@ mondata SPECIES_MASTRODON, "Mastrodon"
     baseexp 0 // defined in baseexp.s
     evyields 0, 3, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 255
+    genderratio 127
     eggcycles 50
     basefriendship 0
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_PROTOSYNTHESIS, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
@@ -21753,11 +21753,11 @@ mondata SPECIES_TICKLYRUFF, "Ticklyruff"
     baseexp 0 // defined in baseexp.s
     evyields 3, 0, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 255
+    genderratio 190
     eggcycles 50
     basefriendship 0
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
     abilities ABILITY_RECKLESS, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_PINK, 0
@@ -21774,11 +21774,11 @@ mondata SPECIES_IMPOSSUS, "Impossus"
     baseexp 0 // defined in baseexp.s
     evyields 0, 3, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 255
+    genderratio 127
     eggcycles 50
     basefriendship 0
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
     abilities ABILITY_PROTOSYNTHESIS, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
@@ -21798,7 +21798,7 @@ mondata SPECIES_MISCHIEVER, "Mischiever"
     genderratio 255
     eggcycles 50
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_PROTOSYNTHESIS, ABILITY_NONE
     runchance 0
@@ -21819,7 +21819,7 @@ mondata SPECIES_SLITHER_WING, "SlithrWing"
     genderratio 255
     eggcycles 50
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_PROTOSYNTHESIS, ABILITY_NONE
     runchance 0
@@ -21840,7 +21840,7 @@ mondata SPECIES_MAGNESANCE, "Magnesance"
     genderratio 255
     eggcycles 50
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_PROTOSYNTHESIS, ABILITY_ELECTRIC_SURGE
     runchance 0
@@ -21861,7 +21861,7 @@ mondata SPECIES_TRONPHAN, "Tronphan"
     genderratio 255
     eggcycles 50
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_QUARK_DRIVE, ABILITY_NONE
     runchance 0
@@ -21882,7 +21882,7 @@ mondata SPECIES_WIREBIRD, "Wirebird"
     genderratio 255
     eggcycles 50
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_QUARK_DRIVE, ABILITY_NONE
     runchance 0
@@ -21903,8 +21903,8 @@ mondata SPECIES_MACHINOUCHI, "Machinouchi"
     genderratio 255
     eggcycles 50
     basefriendship 0
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_QUARK_DRIVE, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
@@ -21924,7 +21924,7 @@ mondata SPECIES_IRON_JUGULIS, "Iron Neck"
     genderratio 255
     eggcycles 50
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_QUARK_DRIVE, ABILITY_NONE
     runchance 0
@@ -21945,7 +21945,7 @@ mondata SPECIES_IRON_MOTH, "Iron Moth"
     genderratio 255
     eggcycles 50
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_QUARK_DRIVE, ABILITY_NONE
     runchance 0
@@ -21966,7 +21966,7 @@ mondata SPECIES_TYRANATOR, "Tyranator"
     genderratio 255
     eggcycles 50
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_QUARK_DRIVE, ABILITY_NONE
     runchance 0
@@ -21987,7 +21987,7 @@ mondata SPECIES_FRIGIBAX, "Frigibax"
     genderratio 127
     eggcycles 40
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_DRAGON, EGG_GROUP_MINERAL
     abilities ABILITY_THERMAL_EXCHANGE, ABILITY_NONE
     runchance 0
@@ -22008,7 +22008,7 @@ mondata SPECIES_ARCTIBAX, "Arctibax"
     genderratio 127
     eggcycles 40
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_DRAGON, EGG_GROUP_MINERAL
     abilities ABILITY_THERMAL_EXCHANGE, ABILITY_NONE
     runchance 0
@@ -22029,7 +22029,7 @@ mondata SPECIES_BAXCALIBUR, "Baxcalibur"
     genderratio 127
     eggcycles 40
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_DRAGON, EGG_GROUP_MINERAL
     abilities ABILITY_THERMAL_EXCHANGE, ABILITY_NONE
     runchance 0
@@ -22050,7 +22050,7 @@ mondata SPECIES_GIMMIGHOUL, "Gimmighoul"
     genderratio 255
     eggcycles 50
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_RATTLED, ABILITY_NONE
     runchance 0
@@ -22071,7 +22071,7 @@ mondata SPECIES_GHOLDENGO, "Gholdengo"
     genderratio 255
     eggcycles 50
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_GOOD_AS_GOLD, ABILITY_NONE
     runchance 0
@@ -22092,7 +22092,7 @@ mondata SPECIES_WO_CHIEN, "Wo-Chien"
     genderratio 255
     eggcycles 50
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_TABLETS_OF_RUIN, ABILITY_NONE
     runchance 0
@@ -22113,7 +22113,7 @@ mondata SPECIES_CHIEN_PAO, "Chien-Pao"
     genderratio 255
     eggcycles 50
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_SWORD_OF_RUIN, ABILITY_NONE
     runchance 0
@@ -22134,7 +22134,7 @@ mondata SPECIES_TING_LU, "Ting-Lu"
     genderratio 255
     eggcycles 50
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_VESSEL_OF_RUIN, ABILITY_NONE
     runchance 0
@@ -22155,7 +22155,7 @@ mondata SPECIES_CHI_YU, "Chi-Yu"
     genderratio 255
     eggcycles 50
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_BEADS_OF_RUIN, ABILITY_NONE
     runchance 0
@@ -22173,11 +22173,11 @@ mondata SPECIES_SALAMOON, "Salamoon"
     baseexp 0 // defined in baseexp.s
     evyields 0, 3, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 255
+    genderratio 127
     eggcycles 50
     basefriendship 0
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_DRAGON, EGG_GROUP_DRAGON
     abilities ABILITY_PROTOSYNTHESIS, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
@@ -22197,7 +22197,7 @@ mondata SPECIES_GALLIANT, "Galliant"
     genderratio 255
     eggcycles 50
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_QUARK_DRIVE, ABILITY_NONE
     runchance 0
@@ -22218,7 +22218,7 @@ mondata SPECIES_KORAIDON, "Koraidon"
     genderratio 255
     eggcycles 50
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_ORICHALCUM_PULSE, ABILITY_NONE
     runchance 0
@@ -22239,7 +22239,7 @@ mondata SPECIES_MIRAIDON, "Miraidon"
     genderratio 255
     eggcycles 50
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_HADRON_ENGINE, ABILITY_NONE
     runchance 0
@@ -22260,7 +22260,7 @@ mondata SPECIES_SUILONG, "Suilong"
     genderratio 255
     eggcycles 50
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_DRAGON, EGG_GROUP_DRAGON
     abilities ABILITY_PROTOSYNTHESIS, ABILITY_NONE
     runchance 0
@@ -22281,7 +22281,7 @@ mondata SPECIES_IRON_LEAVES, "IronLeaves"
     genderratio 255
     eggcycles 50
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_QUARK_DRIVE, ABILITY_NONE
     runchance 0
@@ -22302,7 +22302,7 @@ mondata SPECIES_DIPPLIN, "Dipplin"
     genderratio 127
     eggcycles 20
     basefriendship 0
-    growthrate GROWTH_ERRATIC
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_DRAGON
     abilities ABILITY_SUPERSWEET_SYRUP, ABILITY_GLUTTONY
     runchance 0
@@ -22365,7 +22365,7 @@ mondata SPECIES_OKIDOGI, "Okidogi"
     genderratio 0
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_TOXIC_CHAIN, ABILITY_NONE
     runchance 0
@@ -22386,7 +22386,7 @@ mondata SPECIES_MUNKIDORI, "Munkidori"
     genderratio 0
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_TOXIC_CHAIN, ABILITY_NONE
     runchance 0
@@ -22407,7 +22407,7 @@ mondata SPECIES_FEZANDIPITI, "Fezanditi"
     genderratio 0
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_TOXIC_CHAIN, ABILITY_NONE
     runchance 0
@@ -22428,7 +22428,7 @@ mondata SPECIES_OGERPON, "Ogerpon"
     genderratio 254
     eggcycles 10
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_DEFIANT, ABILITY_NONE
     runchance 0
@@ -22460,9 +22460,9 @@ mondata SPECIES_ARCHALUDON, "Archaludon"
     mondexweight SPECIES_ARCHALUDON, "132.3 lbs."
 
 
-mondata SPECIES_HYDRAPPLE, "Hydrapple"
-    basestats 106, 80, 110, 44, 120, 80
-    types TYPE_GRASS, TYPE_DRAGON
+mondata SPECIES_TOWRINBELL, "Towrinbell"
+    basestats 110, 145, 60, 40, 85, 55
+    types TYPE_GRASS, TYPE_SOUND
     catchrate 10
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 3, 0
@@ -22470,15 +22470,15 @@ mondata SPECIES_HYDRAPPLE, "Hydrapple"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_ERRATIC
-    egggroups EGG_GROUP_GRASS, EGG_GROUP_DRAGON
-    abilities ABILITY_SUPERSWEET_SYRUP, ABILITY_REGENERATOR
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
+    abilities ABILITY_STAMINA, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
-    mondexentry SPECIES_HYDRAPPLE, "These capricious syrpents have banded\ntogether. On the rare occasion that their\nmoods align, their true power is unleashed."
-    mondexclassification SPECIES_HYDRAPPLE, "Apple Hydra Pokémon"
-    mondexheight SPECIES_HYDRAPPLE, "5’11”"
-    mondexweight SPECIES_HYDRAPPLE, "205.0 lbs."
+    mondexentry SPECIES_TOWRINBELL, "With monk-like patience, this Pokémon\nhas grown twentyfold. When it moves, its\nbell can be heard across the region."
+    mondexclassification SPECIES_TOWRINBELL, "Tower Pokémon"
+    mondexheight SPECIES_TOWRINBELL, "48’10”"
+    mondexweight SPECIES_TOWRINBELL, "2205.0 lbs."
 
 
 mondata SPECIES_ENLONG, "Enlong"
@@ -22491,7 +22491,7 @@ mondata SPECIES_ENLONG, "Enlong"
     genderratio 255
     eggcycles 50
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_DRAGON, EGG_GROUP_DRAGON
     runchance 0
     abilities ABILITY_PROTOSYNTHESIS, ABILITY_NONE
@@ -22512,7 +22512,7 @@ mondata SPECIES_RAILONG, "Railong"
     genderratio 255
     eggcycles 50
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_DRAGON, EGG_GROUP_DRAGON
     abilities ABILITY_PROTOSYNTHESIS, ABILITY_NONE
     runchance 0
@@ -22533,7 +22533,7 @@ mondata SPECIES_IRON_BOULDER, "IronBolder"
     genderratio 255
     eggcycles 50
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_QUARK_DRIVE, ABILITY_NONE
     runchance 0
@@ -22554,7 +22554,7 @@ mondata SPECIES_IRON_CROWN, "Iron Crown"
     genderratio 255
     eggcycles 50
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_QUARK_DRIVE, ABILITY_NONE
     runchance 0
@@ -22575,7 +22575,7 @@ mondata SPECIES_TERAPAGOS, "Terapagos"
     genderratio 127
     eggcycles 5
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_TERA_SHIFT, ABILITY_NONE
     runchance 0
@@ -22596,7 +22596,7 @@ mondata SPECIES_PECHARUNT, "Pecharunt"
     genderratio 255
     eggcycles 20
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_POISON_PUPPETEER, ABILITY_NONE
     runchance 0
@@ -22617,7 +22617,7 @@ mondata SPECIES_MEGA_VENUSAUR, "-----"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_GRASS
     abilities ABILITY_THICK_FAT, ABILITY_NONE
     runchance 0
@@ -22633,7 +22633,7 @@ mondata SPECIES_MEGA_CHARIZARD_X, "-----"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_DRAGON
     abilities ABILITY_PRESSURE, ABILITY_NONE
     runchance 0
@@ -22649,7 +22649,7 @@ mondata SPECIES_MEGA_CHARIZARD_Y, "-----"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_DRAGON
     abilities ABILITY_DROUGHT, ABILITY_NONE
     runchance 0
@@ -22665,7 +22665,7 @@ mondata SPECIES_MEGA_BLASTOISE, "-----"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_WATER_1
     abilities ABILITY_MEGA_LAUNCHER, ABILITY_NONE
     runchance 0
@@ -22697,7 +22697,7 @@ mondata SPECIES_MEGA_PIDGEOT, "-----"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_NO_GUARD, ABILITY_NO_GUARD
     runchance 0
@@ -22713,7 +22713,7 @@ mondata SPECIES_MEGA_ALAKAZAM, "-----"
     genderratio 63
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_NEUROFORCE, ABILITY_NEUROFORCE
     runchance 0
@@ -22745,7 +22745,7 @@ mondata SPECIES_MEGA_GENGAR, "-----"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
     abilities ABILITY_SHADOW_TAG, ABILITY_NONE
     runchance 0
@@ -22777,7 +22777,7 @@ mondata SPECIES_MEGA_PINSIR, "-----"
     genderratio 127
     eggcycles 25
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     abilities ABILITY_AERILATE, ABILITY_AERILATE
     runchance 125
@@ -22793,7 +22793,7 @@ mondata SPECIES_MEGA_GYARADOS, "-----"
     genderratio 127
     eggcycles 5
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_DRAGON
     abilities ABILITY_MOLD_BREAKER, ABILITY_NONE
     runchance 0
@@ -22809,7 +22809,7 @@ mondata SPECIES_MEGA_AERODACTYL, "-----"
     genderratio 31
     eggcycles 35
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_PRESSURE, ABILITY_PRESSURE
     runchance 0
@@ -22825,7 +22825,7 @@ mondata SPECIES_MEGA_MEWTWO_X, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_STEADFAST, ABILITY_NONE
     runchance 0
@@ -22841,7 +22841,7 @@ mondata SPECIES_MEGA_MEWTWO_Y, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_INSOMNIA, ABILITY_NONE
     runchance 0
@@ -22857,7 +22857,7 @@ mondata SPECIES_MEGA_AMPHAROS, "-----"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_FIELD
     abilities ABILITY_SURGE_SURFER, ABILITY_NONE
     runchance 0
@@ -22905,7 +22905,7 @@ mondata SPECIES_MEGA_HERACROSS, "-----"
     genderratio 127
     eggcycles 25
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     abilities ABILITY_SKILL_LINK, ABILITY_SKILL_LINK
     runchance 0
@@ -22921,7 +22921,7 @@ mondata SPECIES_MEGA_HOUNDOOM, "-----"
     genderratio 127
     eggcycles 20
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_SOLAR_POWER, ABILITY_SOLAR_POWER
     runchance 0
@@ -22937,7 +22937,7 @@ mondata SPECIES_MEGA_TYRANITAR, "-----"
     genderratio 127
     eggcycles 40
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_MONSTER
     abilities ABILITY_SAND_STREAM, ABILITY_NONE
     runchance 0
@@ -22953,7 +22953,7 @@ mondata SPECIES_MEGA_SCEPTILE, "-----"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_DRAGON
     abilities ABILITY_LIGHTNING_ROD, ABILITY_NONE
     runchance 0
@@ -22969,7 +22969,7 @@ mondata SPECIES_MEGA_BLAZIKEN, "-----"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_SPEED_BOOST, ABILITY_NONE
     runchance 0
@@ -22985,7 +22985,7 @@ mondata SPECIES_MEGA_SWAMPERT, "-----"
     genderratio 31
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_WATER_1
     abilities ABILITY_SWIFT_SWIM, ABILITY_NONE
     runchance 0
@@ -23001,7 +23001,7 @@ mondata SPECIES_MEGA_GARDEVOIR, "-----"
     genderratio 127
     eggcycles 20
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
     abilities ABILITY_PIXILATE, ABILITY_PIXILATE
     runchance 0
@@ -23017,8 +23017,8 @@ mondata SPECIES_MEGA_SABLEYE, "Rubeye"
     genderratio 127
     eggcycles 25
     basefriendship 35
-    growthrate GROWTH_MEDIUM_SLOW
-    egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_MINERAL
     abilities ABILITY_MAGIC_BOUNCE, ABILITY_SHADOW_SHIELD
     runchance 0
     colorflip 0, 0
@@ -23037,7 +23037,7 @@ mondata SPECIES_MEGA_MAWILE, "Mawsum"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
     abilities ABILITY_HUGE_POWER, ABILITY_HUGE_POWER
     runchance 0
@@ -23057,7 +23057,7 @@ mondata SPECIES_MEGA_AGGRON, "-----"
     genderratio 127
     eggcycles 35
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_MONSTER
     abilities ABILITY_FILTER, ABILITY_FILTER
     runchance 0
@@ -23089,7 +23089,7 @@ mondata SPECIES_MEGA_MANECTRIC, "-----"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_INTIMIDATE, ABILITY_INTIMIDATE
     runchance 0
@@ -23105,7 +23105,7 @@ mondata SPECIES_MEGA_SHARPEDO, "-----"
     genderratio 127
     eggcycles 20
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
     abilities ABILITY_SPEED_BOOST, ABILITY_NONE //ABILITY_STRONG_JAW, ABILITY_NONE
     runchance 0
@@ -23137,7 +23137,7 @@ mondata SPECIES_MEGA_ALTARIA, "-----"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_ERRATIC
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_DRAGON
     abilities ABILITY_PIXILATE, ABILITY_NONE
     runchance 0
@@ -23153,7 +23153,7 @@ mondata SPECIES_MEGA_BANETTE, "-----"
     genderratio 127
     eggcycles 25
     basefriendship 35
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
     abilities ABILITY_FRISK, ABILITY_FRISK //ABILITY_PRANKSTER, ABILITY_PRANKSTER
     runchance 0
@@ -23169,7 +23169,7 @@ mondata SPECIES_MEGA_ABSOL, "-----"
     genderratio 127
     eggcycles 25
     basefriendship 35
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_PRESSURE, ABILITY_PRESSURE //ABILITY_MAGIC_BOUNCE, ABILITY_MAGIC_BOUNCE
     runchance 0
@@ -23201,7 +23201,7 @@ mondata SPECIES_MEGA_SALAMENCE, "-----"
     genderratio 127
     eggcycles 40
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_DRAGON, EGG_GROUP_DRAGON
     abilities ABILITY_AERILATE, ABILITY_NONE
     runchance 0
@@ -23217,7 +23217,7 @@ mondata SPECIES_MEGA_METAGROSS, "-----"
     genderratio 255
     eggcycles 40
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_PRESSURE, ABILITY_NONE
     runchance 0
@@ -23233,7 +23233,7 @@ mondata SPECIES_MEGA_LATIAS, "-----"
     genderratio 254
     eggcycles 120
     basefriendship 90
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_LEVITATE, ABILITY_NONE
     runchance 0
@@ -23249,7 +23249,7 @@ mondata SPECIES_MEGA_LATIOS, "-----"
     genderratio 0
     eggcycles 120
     basefriendship 90
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_LEVITATE, ABILITY_NONE
     runchance 0
@@ -23265,7 +23265,7 @@ mondata SPECIES_MEGA_RAYQUAZA, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_DELTA_STREAM, ABILITY_NONE
     runchance 0
@@ -23297,7 +23297,7 @@ mondata SPECIES_MEGA_GARCHOMP, "-----"
     genderratio 127
     eggcycles 40
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_DRAGON, EGG_GROUP_MONSTER
     abilities ABILITY_PRESSURE, ABILITY_NONE
     runchance 0
@@ -23313,7 +23313,7 @@ mondata SPECIES_MEGA_LUCARIO, "-----"
     genderratio 31
     eggcycles 25
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE
     abilities ABILITY_ADAPTABILITY, ABILITY_ADAPTABILITY
     runchance 0
@@ -23329,7 +23329,7 @@ mondata SPECIES_MEGA_ABOMASNOW, "-----"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_GRASS
     abilities ABILITY_SNOW_WARNING, ABILITY_NONE
     runchance 0
@@ -23345,7 +23345,7 @@ mondata SPECIES_MEGA_GALLADE, "-----"
     genderratio 0
     eggcycles 20
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_1
     abilities ABILITY_INNER_FOCUS, ABILITY_NONE
     runchance 0
@@ -23361,7 +23361,7 @@ mondata SPECIES_MEGA_AUDINO, "-----"
     genderratio 127
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
     abilities ABILITY_HEALER, ABILITY_HEALER
     runchance 0
@@ -23377,7 +23377,7 @@ mondata SPECIES_MEGA_DIANCIE, "-----"
     genderratio 255
     eggcycles 25
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_MAGIC_BOUNCE, ABILITY_NONE
     runchance 0
@@ -23393,7 +23393,7 @@ mondata SPECIES_GROUDON_PRIMAL, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_DESOLATE_LAND, ABILITY_NONE
     runchance 0
@@ -23409,7 +23409,7 @@ mondata SPECIES_KYOGRE_PRIMAL, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_PRIMORDIAL_SEA, ABILITY_NONE
     runchance 0
@@ -23497,7 +23497,7 @@ mondata SPECIES_SANDSLASH_ALOLAN, "-----"
 
 mondata SPECIES_VULPIX_ALOLAN, "-----"
     basestats 38, 41, 40, 65, 50, 65
-    types TYPE_ICE, TYPE_ICE
+    types TYPE_ICE, TYPE_FAIRY
     catchrate 190
     baseexp 60
     evyields 0, 0, 0, 1, 0, 0
@@ -23506,8 +23506,8 @@ mondata SPECIES_VULPIX_ALOLAN, "-----"
     eggcycles 20
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_MAGIC_GUARD, ABILITY_NONE
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
+    abilities ABILITY_MAGIC_GUARD, ABILITY_MAGIC_GUARD
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
 
@@ -23522,8 +23522,8 @@ mondata SPECIES_NINETALES_ALOLAN, "-----"
     eggcycles 20
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_MAGIC_GUARD, ABILITY_NONE
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
+    abilities ABILITY_MAGIC_GUARD, ABILITY_MAGIC_GUARD
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
 
@@ -23601,7 +23601,7 @@ mondata SPECIES_GEODUDE_ALOLAN, "-----"
     genderratio 127
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_MAGNET_PULL,  ABILITY_STURDY
     runchance 0
@@ -23617,7 +23617,7 @@ mondata SPECIES_GRAVELER_ALOLAN, "-----"
     genderratio 127
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_MAGNET_PULL,  ABILITY_STURDY
     runchance 0
@@ -23633,7 +23633,7 @@ mondata SPECIES_GOLEM_ALOLAN, "-----"
     genderratio 127
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_MAGNET_PULL,  ABILITY_STURDY
     runchance 0
@@ -23681,7 +23681,7 @@ mondata SPECIES_EXEGGUTOR_ALOLAN, "-----"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
     abilities ABILITY_HARVEST,  ABILITY_NONE
     runchance 0
@@ -23889,7 +23889,7 @@ mondata SPECIES_KOMMO_O_LARGE, "-----"
     genderratio 127
     eggcycles 40
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_DRAGON, EGG_GROUP_DRAGON
     abilities ABILITY_OVERCOAT, ABILITY_NONE
     runchance 0
@@ -24033,7 +24033,7 @@ mondata SPECIES_ARTICUNO_GALARIAN, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_COMPETITIVE, ABILITY_NONE
     runchance 0
@@ -24049,7 +24049,7 @@ mondata SPECIES_ZAPDOS_GALARIAN, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_DEFIANT, ABILITY_NONE
     runchance 0
@@ -24065,7 +24065,7 @@ mondata SPECIES_MOLTRES_GALARIAN, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_BERSERK, ABILITY_NONE
     runchance 0
@@ -24097,7 +24097,7 @@ mondata SPECIES_CORSOLA_GALARIAN, "-----"
     genderratio 191
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_3
     abilities ABILITY_WEAK_ARMOR,  ABILITY_NONE
     runchance 0
@@ -24145,7 +24145,7 @@ mondata SPECIES_DARUMAKA_GALARIAN, "-----"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_HUSTLE,  ABILITY_NONE
     runchance 0
@@ -24161,7 +24161,7 @@ mondata SPECIES_DARMANITAN_GALARIAN, "-----"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_GORILLA_TACTICS,  ABILITY_NONE
     runchance 0
@@ -24169,16 +24169,16 @@ mondata SPECIES_DARMANITAN_GALARIAN, "-----"
 
 mondata SPECIES_HUMBRED_GALARIAN, "-----"
     basestats 38, 55, 85, 30, 30, 65
-    types TYPE_GROUND, TYPE_GHOST
+    types TYPE_NORMAL, TYPE_GHOST
     catchrate 190
     baseexp 61
     evyields 0, 0, 1, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 127
+    genderratio 0
     eggcycles 25
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_MINERAL, EGG_GROUP_AMORPHOUS
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_AMORPHOUS
     abilities ABILITY_WANDERING_SPIRIT, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BLACK, 0
@@ -24210,8 +24210,8 @@ mondata SPECIES_PIKACHU_COSPLAY, "-----"
     eggcycles 10
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_STATIC,  ABILITY_NONE
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
+    abilities ABILITY_STATIC, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
 
@@ -24226,8 +24226,8 @@ mondata SPECIES_PIKACHU_ROCK_STAR, "-----"
     eggcycles 10
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_DAZZLING,  ABILITY_NONE
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
+    abilities ABILITY_DAZZLING, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
 
@@ -24242,8 +24242,8 @@ mondata SPECIES_PIKACHU_BELLE, "-----"
     eggcycles 10
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_CUTE_CHARM,  ABILITY_NONE
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
+    abilities ABILITY_CUTE_CHARM, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 1
 
@@ -24258,8 +24258,8 @@ mondata SPECIES_PIKACHU_POP_STAR, "-----"
     eggcycles 10
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_DAZZLING,  ABILITY_NONE
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
+    abilities ABILITY_DAZZLING, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 1
 
@@ -24274,8 +24274,8 @@ mondata SPECIES_PIKACHU_PH_D, "-----"
     eggcycles 10
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_TECHNICIAN,  ABILITY_NONE
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
+    abilities ABILITY_TECHNICIAN, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
 
@@ -24290,8 +24290,8 @@ mondata SPECIES_PIKACHU_LIBRE, "-----"
     eggcycles 10
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_GUTS,  ABILITY_NONE
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
+    abilities ABILITY_GUTS, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
 
@@ -24306,8 +24306,8 @@ mondata SPECIES_PIKACHU_ORIGINAL_CAP, "-----"
     eggcycles 10
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_STATIC,  ABILITY_NONE
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
+    abilities ABILITY_STATIC, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 1
 
@@ -24322,8 +24322,8 @@ mondata SPECIES_PIKACHU_HOENN_CAP, "-----"
     eggcycles 10
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_STATIC,  ABILITY_NONE
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
+    abilities ABILITY_STATIC, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
 
@@ -24338,8 +24338,8 @@ mondata SPECIES_PIKACHU_SINNOH_CAP, "-----"
     eggcycles 10
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_STATIC,  ABILITY_NONE
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
+    abilities ABILITY_STATIC, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
 
@@ -24354,8 +24354,8 @@ mondata SPECIES_PIKACHU_UNOVA_CAP, "-----"
     eggcycles 10
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_STATIC,  ABILITY_NONE
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
+    abilities ABILITY_STATIC, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
 
@@ -24370,8 +24370,8 @@ mondata SPECIES_PIKACHU_KALOS_CAP, "-----"
     eggcycles 10
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_STATIC,  ABILITY_NONE
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
+    abilities ABILITY_STATIC, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
 
@@ -24386,8 +24386,8 @@ mondata SPECIES_PIKACHU_ALOLA_CAP, "-----"
     eggcycles 10
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_STATIC,  ABILITY_NONE
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
+    abilities ABILITY_STATIC, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
 
@@ -24402,8 +24402,8 @@ mondata SPECIES_PIKACHU_PARTNER_CAP, "-----"
     eggcycles 10
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_STATIC,  ABILITY_NONE
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
+    abilities ABILITY_STATIC, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 1
 
@@ -24418,8 +24418,8 @@ mondata SPECIES_PIKACHU_WORLD_CAP, "-----"
     eggcycles 10
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_STATIC,  ABILITY_NONE
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
+    abilities ABILITY_STATIC, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
 
@@ -24529,7 +24529,7 @@ mondata SPECIES_DIALGA_ORIGIN, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_PRESSURE, ABILITY_NONE
     runchance 0
@@ -24545,7 +24545,7 @@ mondata SPECIES_PALKIA_ORIGIN, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_PRESSURE, ABILITY_NONE
     runchance 0
@@ -24593,7 +24593,7 @@ mondata SPECIES_DARMANITAN_ZEN_MODE, "-----"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_SHEER_FORCE,  ABILITY_NONE
     runchance 0
@@ -24609,7 +24609,7 @@ mondata SPECIES_DARMANITAN_ZEN_MODE_GALARIAN, "-----"
     genderratio 127
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_GORILLA_TACTICS,  ABILITY_NONE
     runchance 0
@@ -24711,7 +24711,7 @@ mondata SPECIES_SAWSBUCK_WINTER, "-----"
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
 
-mondata SPECIES_TORNADUS_THERIAN, "-----"
+mondata SPECIES_BAOBARAFFE_THERIAN, "-----"
     basestats 79, 100, 80, 121, 110, 90
     types TYPE_FLYING, TYPE_FLYING
     catchrate 3
@@ -24721,7 +24721,7 @@ mondata SPECIES_TORNADUS_THERIAN, "-----"
     genderratio 0
     eggcycles 120
     basefriendship 90
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_REGENERATOR, ABILITY_NONE
     runchance 0
@@ -24737,7 +24737,7 @@ mondata SPECIES_THUNDURUS_THERIAN, "-----"
     genderratio 0
     eggcycles 120
     basefriendship 90
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_VOLT_ABSORB, ABILITY_NONE
     runchance 0
@@ -24753,7 +24753,7 @@ mondata SPECIES_LANDORUS_THERIAN, "-----"
     genderratio 0
     eggcycles 120
     basefriendship 90
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_INTIMIDATE, ABILITY_NONE
     runchance 0
@@ -24769,7 +24769,7 @@ mondata SPECIES_KYUREM_WHITE, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_TURBOBLAZE, ABILITY_NONE
     runchance 0
@@ -24785,7 +24785,7 @@ mondata SPECIES_KYUREM_BLACK, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_TERAVOLT, ABILITY_NONE
     runchance 0
@@ -24801,7 +24801,7 @@ mondata SPECIES_KELDEO_RESOLUTE, "-----"
     genderratio 255
     eggcycles 80
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_JUSTIFIED, ABILITY_NONE
     runchance 0
@@ -24817,7 +24817,7 @@ mondata SPECIES_MELOETTA_PIROUETTE, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 100
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_SERENE_GRACE, ABILITY_NONE
     runchance 0
@@ -24833,7 +24833,7 @@ mondata SPECIES_GENESECT_DOUSE_DRIVE, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_DOWNLOAD, ABILITY_NONE
     runchance 0
@@ -24849,7 +24849,7 @@ mondata SPECIES_GENESECT_SHOCK_DRIVE, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_DOWNLOAD, ABILITY_NONE
     runchance 0
@@ -24865,7 +24865,7 @@ mondata SPECIES_GENESECT_BURN_DRIVE, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_DOWNLOAD, ABILITY_NONE
     runchance 0
@@ -24881,7 +24881,7 @@ mondata SPECIES_GENESECT_CHILL_DRIVE, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_DOWNLOAD, ABILITY_NONE
     runchance 0
@@ -24897,7 +24897,7 @@ mondata SPECIES_GRENINJA_BATTLE_BOND, "-----"
     genderratio 0
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_BATTLE_BOND, ABILITY_NONE
     runchance 0
@@ -24913,7 +24913,7 @@ mondata SPECIES_GRENINJA_ASH, "-----"
     genderratio 0
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_BATTLE_BOND, ABILITY_NONE
     runchance 0
@@ -25687,7 +25687,7 @@ mondata SPECIES_XEROGRAV_SUPER, "-----"
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
 
-mondata SPECIES_XERNEAS_ACTIVE, "-----"
+mondata SPECIES_BUTTERFAE_ACTIVE, "-----"
     basestats 126, 131, 95, 99, 131, 98
     types TYPE_FAIRY, TYPE_FAIRY
     catchrate 45
@@ -25697,7 +25697,7 @@ mondata SPECIES_XERNEAS_ACTIVE, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_FAIRY_AURA, ABILITY_NONE
     runchance 0
@@ -25713,7 +25713,7 @@ mondata SPECIES_ZYGARDE_10, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_AURA_BREAK, ABILITY_NONE
     runchance 0
@@ -25729,7 +25729,7 @@ mondata SPECIES_ZYGARDE_10_POWER_CONSTRUCT, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_POWER_CONSTRUCT, ABILITY_NONE
     runchance 0
@@ -25745,7 +25745,7 @@ mondata SPECIES_ZYGARDE_50_POWER_CONSTRUCT, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_POWER_CONSTRUCT, ABILITY_NONE
     runchance 0
@@ -25761,7 +25761,7 @@ mondata SPECIES_ZYGARDE_10_COMPLETE, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_POWER_CONSTRUCT, ABILITY_NONE
     runchance 0
@@ -25777,7 +25777,7 @@ mondata SPECIES_ZYGARDE_50_COMPLETE, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_POWER_CONSTRUCT, ABILITY_NONE
     runchance 0
@@ -25793,13 +25793,13 @@ mondata SPECIES_HOOPA_UNBOUND, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 100
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_MAGICIAN, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
 
-mondata SPECIES_ORICORIO_POM_POM, "-----"
+mondata SPECIES_NUGGLE_POM_POM, "-----"
     basestats 75, 70, 70, 93, 98, 70
     types TYPE_ELECTRIC, TYPE_FLYING
     catchrate 45
@@ -25815,7 +25815,7 @@ mondata SPECIES_ORICORIO_POM_POM, "-----"
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
 
-mondata SPECIES_ORICORIO_PAU, "-----"
+mondata SPECIES_NUGGLE_PAU, "-----"
     basestats 75, 70, 70, 93, 98, 70
     types TYPE_PSYCHIC, TYPE_FLYING
     catchrate 45
@@ -25831,7 +25831,7 @@ mondata SPECIES_ORICORIO_PAU, "-----"
     runchance 0
     colorflip BODY_COLOR_PINK, 0
 
-mondata SPECIES_ORICORIO_SENSU, "-----"
+mondata SPECIES_NUGGLE_SENSU, "-----"
     basestats 75, 70, 70, 93, 98, 70
     types TYPE_GHOST, TYPE_FLYING
     catchrate 45
@@ -25905,7 +25905,7 @@ mondata SPECIES_WISHIWASHI_SCHOOL, "-----"
     genderratio 127
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
     abilities ABILITY_SCHOOLING, ABILITY_NONE
     runchance 0
@@ -25921,7 +25921,7 @@ mondata SPECIES_MINIOR_METEOR_ORANGE, "-----"
     genderratio 255
     eggcycles 25
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_SHIELDS_DOWN, ABILITY_NONE
     runchance 0
@@ -25937,7 +25937,7 @@ mondata SPECIES_MINIOR_METEOR_YELLOW, "-----"
     genderratio 255
     eggcycles 25
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_SHIELDS_DOWN, ABILITY_NONE
     runchance 0
@@ -25953,7 +25953,7 @@ mondata SPECIES_MINIOR_METEOR_GREEN, "-----"
     genderratio 255
     eggcycles 25
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_SHIELDS_DOWN, ABILITY_NONE
     runchance 0
@@ -25969,7 +25969,7 @@ mondata SPECIES_MINIOR_METEOR_BLUE, "-----"
     genderratio 255
     eggcycles 25
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_SHIELDS_DOWN, ABILITY_NONE
     runchance 0
@@ -25985,7 +25985,7 @@ mondata SPECIES_MINIOR_METEOR_INDIGO, "-----"
     genderratio 255
     eggcycles 25
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_SHIELDS_DOWN, ABILITY_NONE
     runchance 0
@@ -26001,7 +26001,7 @@ mondata SPECIES_MINIOR_METEOR_VIOLET, "-----"
     genderratio 255
     eggcycles 25
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_SHIELDS_DOWN, ABILITY_NONE
     runchance 0
@@ -26017,7 +26017,7 @@ mondata SPECIES_MINIOR_CORE_RED, "-----"
     genderratio 255
     eggcycles 25
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_SHIELDS_DOWN, ABILITY_NONE
     runchance 0
@@ -26033,7 +26033,7 @@ mondata SPECIES_MINIOR_CORE_ORANGE, "-----"
     genderratio 255
     eggcycles 25
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_SHIELDS_DOWN, ABILITY_NONE
     runchance 0
@@ -26049,7 +26049,7 @@ mondata SPECIES_MINIOR_CORE_YELLOW, "-----"
     genderratio 255
     eggcycles 25
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_SHIELDS_DOWN, ABILITY_NONE
     runchance 0
@@ -26065,7 +26065,7 @@ mondata SPECIES_MINIOR_CORE_GREEN, "-----"
     genderratio 255
     eggcycles 25
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_SHIELDS_DOWN, ABILITY_NONE
     runchance 0
@@ -26081,7 +26081,7 @@ mondata SPECIES_MINIOR_CORE_BLUE, "-----"
     genderratio 255
     eggcycles 25
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_SHIELDS_DOWN, ABILITY_NONE
     runchance 0
@@ -26097,7 +26097,7 @@ mondata SPECIES_MINIOR_CORE_INDIGO, "-----"
     genderratio 255
     eggcycles 25
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_SHIELDS_DOWN, ABILITY_NONE
     runchance 0
@@ -26113,7 +26113,7 @@ mondata SPECIES_MINIOR_CORE_VIOLET, "-----"
     genderratio 255
     eggcycles 25
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_SHIELDS_DOWN, ABILITY_NONE
     runchance 0
@@ -26145,7 +26145,7 @@ mondata SPECIES_NECROZMA_DUSK_MANE, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_PRISM_ARMOR, ABILITY_NONE
     runchance 0
@@ -26161,7 +26161,7 @@ mondata SPECIES_NECROZMA_DAWN_WINGS, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_PRISM_ARMOR, ABILITY_NONE
     runchance 0
@@ -26177,7 +26177,7 @@ mondata SPECIES_NECROZMA_ULTRA_DUSK_MANE, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_NEUROFORCE, ABILITY_NONE
     runchance 0
@@ -26193,7 +26193,7 @@ mondata SPECIES_NECROZMA_ULTRA_DAWN_WINGS, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_NEUROFORCE, ABILITY_NONE
     runchance 0
@@ -26209,7 +26209,7 @@ mondata SPECIES_MAGEARNA_ORIGINAL, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_SOUL_HEART, ABILITY_NONE
     runchance 0
@@ -26289,9 +26289,9 @@ mondata SPECIES_GOROCHU_LOW_KEY, "-----"
     genderratio 127
     eggcycles 25
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
-    egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_PUNK_ROCK,  ABILITY_MINUS
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
+    abilities ABILITY_PUNK_ROCK, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
 
@@ -26465,8 +26465,8 @@ mondata SPECIES_PINGWINNER_NOICE_FACE, "-----"
     genderratio 127
     eggcycles 25
     basefriendship 70
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_ICE_FACE, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
@@ -26497,13 +26497,13 @@ mondata SPECIES_ZACIAN_CROWNED, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_INTREPID_SWORD, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
 
-mondata SPECIES_ZAMAZENTA_CROWNED, "-----"
+mondata SPECIES_CHROMERA_CROWNED, "-----"
     basestats 92, 130, 145, 128, 80, 145
     types TYPE_FIGHTING, TYPE_STEEL
     catchrate 10
@@ -26513,7 +26513,7 @@ mondata SPECIES_ZAMAZENTA_CROWNED, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_DAUNTLESS_SHIELD, ABILITY_NONE
     runchance 0
@@ -26529,7 +26529,7 @@ mondata SPECIES_ETERNATUS_ETERNAMAX, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_PRESSURE, ABILITY_NONE
     runchance 0
@@ -26545,7 +26545,7 @@ mondata SPECIES_URSHIFU_RAPID_STRIKE, "-----"
     genderratio 254
     eggcycles 120
     basefriendship 70
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_UNSEEN_FIST, ABILITY_NONE
     runchance 0
@@ -26561,7 +26561,7 @@ mondata SPECIES_ZARUDE_DADA, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_LEAF_GUARD, ABILITY_NONE
     runchance 0
@@ -26577,7 +26577,7 @@ mondata SPECIES_CALYREX_ICE_RIDER, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 100
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_AS_ONE_GLASTRIER, ABILITY_NONE
     runchance 0
@@ -26593,27 +26593,27 @@ mondata SPECIES_CALYREX_SHADOW_RIDER, "-----"
     genderratio 255
     eggcycles 120
     basefriendship 100
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_AS_ONE_SPECTRIER, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BLACK, 0
 
-mondata SPECIES_ENAMORUS_THERIAN, "-----"
-    basestats 74, 115, 110, 46, 135, 100
-    types (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL, TYPE_FLYING
-    catchrate 3
-    baseexp 0
-    evyields 0, 0, 0, 0, 3, 0
+mondata SPECIES_EXEGGRATOR_THERIAN, "-----"
+    basestats 95, 105, 85, 45, 125, 75
+    types TYPE_GRASS, TYPE_DRAGON
+    catchrate 45
+    baseexp 186
+    evyields 0, 0, 0, 0, 2, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 254
-    eggcycles 0
+    genderratio 127
+    eggcycles 20
     basefriendship 70
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_OVERCOAT, ABILITY_OVERCOAT
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
+    abilities ABILITY_HARVEST,  ABILITY_NONE
     runchance 0
-    colorflip BODY_COLOR_PINK, 0
+    colorflip BODY_COLOR_YELLOW, 0
 
 mondata SPECIES_GROWLITHE_HISUIAN, "-----"
     basestats 60, 75, 45, 55, 65, 50
@@ -26625,7 +26625,7 @@ mondata SPECIES_GROWLITHE_HISUIAN, "-----"
     genderratio 63
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_INTIMIDATE, ABILITY_FLASH_FIRE
     runchance 0
@@ -26641,7 +26641,7 @@ mondata SPECIES_ARCANINE_HISUIAN, "-----"
     genderratio 63
     eggcycles 0
     basefriendship 70
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_NONE, EGG_GROUP_NONE
     abilities ABILITY_INTIMIDATE, ABILITY_FLASH_FIRE
     runchance 0
@@ -26689,7 +26689,7 @@ mondata SPECIES_TYPHLOSION_HISUIAN, "-----"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_PRANKSTER, ABILITY_NONE
     runchance 0
@@ -26721,7 +26721,7 @@ mondata SPECIES_SNEASEL_HISUIAN, "-----"
     genderratio 127
     eggcycles 20
     basefriendship 35
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_INNER_FOCUS, ABILITY_KEEN_EYE
     runchance 0
@@ -26737,13 +26737,13 @@ mondata SPECIES_SAMUROTT_HISUIAN, "-----"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_TORRENT, ABILITY_TORRENT
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
 
-mondata SPECIES_LILLIGANT_HISUIAN, "-----"
+mondata SPECIES_CHATINGALE_HISUIAN, "-----"
     basestats 70, 105, 75, 105, 50, 75
     types TYPE_GRASS, TYPE_FIGHTING
     catchrate 135
@@ -26769,7 +26769,7 @@ mondata SPECIES_ZORUA_HISUIAN, "-----"
     genderratio 31
     eggcycles 25
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_ILLUSION, ABILITY_NONE
     runchance 0
@@ -26785,7 +26785,7 @@ mondata SPECIES_ZOROARK_HISUIAN, "-----"
     genderratio 31
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_ILLUSION, ABILITY_NONE
     runchance 0
@@ -26801,7 +26801,7 @@ mondata SPECIES_BRAVIARY_HISUIAN, "-----"
     genderratio 0
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_KEEN_EYE, ABILITY_SHEER_FORCE
     runchance 0
@@ -26817,7 +26817,7 @@ mondata SPECIES_SLIGGOO_HISUIAN, "-----"
     genderratio 127
     eggcycles 40
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_DRAGON, EGG_GROUP_DRAGON
     abilities ABILITY_SAP_SIPPER,  ABILITY_SHELL_ARMOR
     runchance 0
@@ -26833,13 +26833,13 @@ mondata SPECIES_GOODRA_HISUIAN, "-----"
     genderratio 127
     eggcycles 40
     basefriendship 35
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_DRAGON, EGG_GROUP_DRAGON
     abilities ABILITY_SAP_SIPPER,  ABILITY_SHELL_ARMOR
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
 
-mondata SPECIES_AVALUGG_HISUIAN, "-----"
+mondata SPECIES_DRAGODOS_HISUIAN, "-----"
     basestats 95, 127, 184, 38, 34, 36
     types TYPE_ICE, TYPE_ROCK
     catchrate 55
@@ -26865,7 +26865,7 @@ mondata SPECIES_DECIDUEYE_HISUIAN, "-----"
     genderratio 31
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_OVERGROW,  ABILITY_NONE
     runchance 0
@@ -26887,7 +26887,7 @@ mondata SPECIES_KLEAVOR_LORD, "-----"
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
 
-mondata SPECIES_LILLIGANT_LADY, "-----"
+mondata SPECIES_CHATINGALE_LADY, "-----"
     basestats 70, 105, 75, 105, 50, 75
     types TYPE_GRASS, TYPE_FIGHTING
     catchrate 135
@@ -26913,7 +26913,7 @@ mondata SPECIES_ARCANINE_LORD, "-----"
     genderratio 63
     eggcycles 0
     basefriendship 70
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_NONE, EGG_GROUP_NONE
     abilities ABILITY_INTIMIDATE, ABILITY_FLASH_FIRE
     runchance 0
@@ -26935,7 +26935,7 @@ mondata SPECIES_ELECTRODE_LORD, "-----"
     runchance 0
     colorflip BODY_COLOR_RED, 0
 
-mondata SPECIES_AVALUGG_LORD, "-----"
+mondata SPECIES_DRAGODOS_LORD, "-----"
     basestats 95, 127, 184, 38, 34, 36
     types TYPE_ICE, TYPE_ROCK
     catchrate 55
@@ -26961,7 +26961,7 @@ mondata SPECIES_UNFEZANT_FEMALE, "-----"
     genderratio 254
     eggcycles 15
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_BIG_PECKS, ABILITY_SUPER_LUCK
     runchance 0
@@ -27009,7 +27009,7 @@ mondata SPECIES_PYROAR_FEMALE, "-----"
     genderratio 254
     eggcycles 20
     basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_RIVALRY,  ABILITY_UNNERVE
     runchance 0
@@ -27041,7 +27041,7 @@ mondata SPECIES_INDEEDEE_FEMALE, "-----"
     genderratio 254
     eggcycles 40
     basefriendship 140
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
     abilities ABILITY_INNER_FOCUS,  ABILITY_SYNCHRONIZE
     runchance 0
@@ -27073,7 +27073,7 @@ mondata SPECIES_MAUSHOLD_FAMILY_OF_THREE, "-----"
     genderratio 255
     eggcycles 10
     basefriendship 50
-    growthrate GROWTH_FAST
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
     abilities ABILITY_FRIEND_GUARD, ABILITY_CHEEK_POUCH
     runchance 0
@@ -27089,7 +27089,7 @@ mondata SPECIES_SQUAWKABILLY_BLUE_PLUMAGE, "-----"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_ERRATIC
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_INTIMIDATE, ABILITY_HUSTLE
     runchance 0
@@ -27105,7 +27105,7 @@ mondata SPECIES_SQUAWKABILLY_YELLOW_PLUMAGE, "-----"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_ERRATIC
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_INTIMIDATE, ABILITY_HUSTLE
     runchance 0
@@ -27121,7 +27121,7 @@ mondata SPECIES_SQUAWKABILLY_WHITE_PLUMAGE, "-----"
     genderratio 127
     eggcycles 15
     basefriendship 50
-    growthrate GROWTH_ERRATIC
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     abilities ABILITY_INTIMIDATE, ABILITY_HUSTLE
     runchance 0
@@ -27137,7 +27137,7 @@ mondata SPECIES_PALAFIN_HERO, "-----"
     genderratio 127
     eggcycles 40
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_WATER_2
     abilities ABILITY_ZERO_TO_HERO, ABILITY_NONE
     runchance 0
@@ -27153,7 +27153,7 @@ mondata SPECIES_TATSUGIRI_DROOPY, "-----"
     genderratio 127
     eggcycles 35
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
     abilities ABILITY_COMMANDER, ABILITY_NONE
     runchance 0
@@ -27169,7 +27169,7 @@ mondata SPECIES_TATSUGIRI_STRETCHY, "-----"
     genderratio 127
     eggcycles 35
     basefriendship 50
-    growthrate GROWTH_MEDIUM_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
     abilities ABILITY_COMMANDER, ABILITY_NONE
     runchance 0
@@ -27201,7 +27201,7 @@ mondata SPECIES_GIMMIGHOUL_ROAMING, "-----"
     genderratio 255
     eggcycles 50
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_RATTLED, ABILITY_NONE
     runchance 0
@@ -27233,7 +27233,7 @@ mondata SPECIES_TAUROS_COMBAT, "-----"
     genderratio 0
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_INTIMIDATE, ABILITY_ANGER_POINT
     runchance 0
@@ -27249,7 +27249,7 @@ mondata SPECIES_TAUROS_BLAZE, "-----"
     genderratio 0
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_INTIMIDATE, ABILITY_ANGER_POINT
     runchance 0
@@ -27265,7 +27265,7 @@ mondata SPECIES_TAUROS_AQUA, "-----"
     genderratio 0
     eggcycles 20
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_INTIMIDATE, ABILITY_ANGER_POINT
     runchance 0
@@ -27377,7 +27377,7 @@ mondata SPECIES_KORAIDON_LIMITED_BUILD, "-----"
     genderratio 255
     eggcycles 50
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_ORICHALCUM_PULSE, ABILITY_NONE
     runchance 0
@@ -27393,7 +27393,7 @@ mondata SPECIES_KORAIDON_SPRINTING_BUILD, "-----"
     genderratio 255
     eggcycles 50
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_ORICHALCUM_PULSE, ABILITY_NONE
     runchance 0
@@ -27409,7 +27409,7 @@ mondata SPECIES_KORAIDON_SWIMMING_BUILD, "-----"
     genderratio 255
     eggcycles 50
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_ORICHALCUM_PULSE, ABILITY_NONE
     runchance 0
@@ -27425,7 +27425,7 @@ mondata SPECIES_KORAIDON_GLIDING_BUILD, "-----"
     genderratio 255
     eggcycles 50
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_ORICHALCUM_PULSE, ABILITY_NONE
     runchance 0
@@ -27441,7 +27441,7 @@ mondata SPECIES_MIRAIDON_LOW_POWER_MODE, "-----"
     genderratio 255
     eggcycles 50
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_HADRON_ENGINE, ABILITY_NONE
     runchance 0
@@ -27457,7 +27457,7 @@ mondata SPECIES_MIRAIDON_DRIVE_MODE, "-----"
     genderratio 255
     eggcycles 50
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_HADRON_ENGINE, ABILITY_NONE
     runchance 0
@@ -27473,7 +27473,7 @@ mondata SPECIES_MIRAIDON_AQUATIC_MODE, "-----"
     genderratio 255
     eggcycles 50
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_HADRON_ENGINE, ABILITY_NONE
     runchance 0
@@ -27489,7 +27489,7 @@ mondata SPECIES_MIRAIDON_GLIDE_MODE, "-----"
     genderratio 255
     eggcycles 50
     basefriendship 0
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_HADRON_ENGINE, ABILITY_NONE
     runchance 0
@@ -27537,7 +27537,7 @@ mondata SPECIES_OGERPON_WELLSPRING_MASK, "-----"
     genderratio 254
     eggcycles 10
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_WATER_ABSORB, ABILITY_NONE
     runchance 0
@@ -27553,7 +27553,7 @@ mondata SPECIES_OGERPON_HEARTHFLAME_MASK, "-----"
     genderratio 254
     eggcycles 10
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_MOLD_BREAKER, ABILITY_NONE
     runchance 0
@@ -27569,7 +27569,7 @@ mondata SPECIES_OGERPON_CORNERSTONE_MASK, "-----"
     genderratio 254
     eggcycles 10
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_STURDY, ABILITY_NONE
     runchance 0
@@ -27585,7 +27585,7 @@ mondata SPECIES_OGERPON_TEAL_MASK_TERASTAL, "-----"
     genderratio 254
     eggcycles 10
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_EMBODY_ASPECT, ABILITY_NONE
     runchance 0
@@ -27601,7 +27601,7 @@ mondata SPECIES_OGERPON_WELLSPRING_MASK_TERASTAL, "-----"
     genderratio 254
     eggcycles 10
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_EMBODY_ASPECT_2, ABILITY_NONE
     runchance 0
@@ -27617,7 +27617,7 @@ mondata SPECIES_OGERPON_HEARTHFLAME_MASK_TERASTAL, "-----"
     genderratio 254
     eggcycles 10
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_EMBODY_ASPECT_3, ABILITY_NONE
     runchance 0
@@ -27633,7 +27633,7 @@ mondata SPECIES_OGERPON_CORNERSTONE_MASK_TERASTAL, "-----"
     genderratio 254
     eggcycles 10
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_EMBODY_ASPECT_4, ABILITY_NONE
     runchance 0
@@ -27665,7 +27665,7 @@ mondata SPECIES_TERAPAGOS_TERASTAL, "-----"
     genderratio 127
     eggcycles 5
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_TERA_SHELL, ABILITY_NONE
     runchance 0
@@ -27681,7 +27681,7 @@ mondata SPECIES_TERAPAGOS_STELLAR, "-----"
     genderratio 127
     eggcycles 5
     basefriendship 50
-    growthrate GROWTH_SLOW
+    growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_TERAFORM_ZERO, ABILITY_NONE
     runchance 0

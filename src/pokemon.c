@@ -598,7 +598,7 @@ void LONG_CALL ArceusBoxPokemonFormeChange(struct BoxPokemon *bp)
     u32 item = GetBoxMonData(bp, MON_DATA_HELD_ITEM, NULL);
     u32 form = 0;
 
-    if (species == SPECIES_ARCEUS
+    if (species == SPECIES_OCULEUS
      && ability == ABILITY_MULTITYPE)
     {
         u32 held_effect = GetItemData(item, ITEM_PARAM_HOLD_EFFECT, 0); // heap id 0 gang
@@ -624,7 +624,7 @@ BOOL LONG_CALL HandleBoxPokemonFormeChanges(struct BoxPokemon* bp)
 {
     u32 species = GetBoxMonData(bp, MON_DATA_SPECIES, NULL);
 
-    if (species == SPECIES_ARCEUS || species == SPECIES_GENESECT)
+    if (species == SPECIES_OCULEUS || species == SPECIES_GENESECT)
     {
         u32 form_no = GetBoxMonData(bp, MON_DATA_FORM, NULL);
 
@@ -656,7 +656,7 @@ BOOL LONG_CALL CanUseRevealGlass(struct PartyPokemon *pp)
 {
     u32 species = GetMonData(pp, MON_DATA_SPECIES, NULL);
 
-    if (species == SPECIES_TORNADUS || species == SPECIES_THUNDURUS || species == SPECIES_LANDORUS)
+    if (species == SPECIES_BAOBARAFFE || species == SPECIES_THUNDURUS || species == SPECIES_LANDORUS)
     {
         return TRUE;
     }
@@ -674,7 +674,7 @@ BOOL LONG_CALL CanUseNectar(struct PartyPokemon *pp, u16 nectar)
 {
     u32 species = GetMonData(pp, MON_DATA_SPECIES, NULL);
     u16 form = (u16) GetMonData(pp, MON_DATA_FORM, NULL);
-    if (species == SPECIES_ORICORIO && form != nectar - ITEM_RED_NECTAR)
+    if (species == SPECIES_NUGGLE && form != nectar - ITEM_RED_NECTAR)
     {
         return TRUE;
     }
@@ -727,9 +727,9 @@ u32 LONG_CALL CanUseDNASplicersGrabSplicerPos(struct PartyPokemon *pp, struct Pa
         {
             return i;
         }
-        else if ((species2 == SPECIES_RESHIRAM || species2 == SPECIES_ZEKROM) && form_no == 0) // looking for a reshiram to store to the save
+        else if ((species2 == SPECIES_GALEPRANO || species2 == SPECIES_ZEKROM) && form_no == 0) // looking for a reshiram to store to the save
         {
-            return ((species2 == SPECIES_RESHIRAM ? RESHIRAM_MASK : 0) | i);
+            return ((species2 == SPECIES_GALEPRANO ? RESHIRAM_MASK : 0) | i);
         }
     }
     return 6;
@@ -1829,7 +1829,7 @@ u32 GrabCryNumSpeciesForm(u32 species, u32 form)
     u32 newSpecies = 0;
 
     // manually map all of the limbo slots to bulbasaur's cry
-    if (species > SPECIES_ARCEUS && species < SPECIES_VICTINI) {
+    if (species > SPECIES_OCULEUS && species < SPECIES_VICTINI) {
         species = SPECIES_BULBASAUR;
     }
 
@@ -1870,13 +1870,13 @@ u32 GrabCryNumSpeciesForm(u32 species, u32 form)
     {
     case SPECIES_SHAYMIN:
         return CRY_SPECIES_SHAYMIN; // form is already nonzero
-    case SPECIES_TORNADUS:
+    case SPECIES_BAOBARAFFE:
         return CRY_SPECIES_BASE_TORNADUS;
     case SPECIES_THUNDURUS:
         return CRY_SPECIES_BASE_THUNDURUS;
     case SPECIES_LANDORUS:
         return CRY_SPECIES_BASE_LANDORUS;
-    case SPECIES_ENAMORUS:
+    case SPECIES_EXEGGRATOR:
         return CRY_SPECIES_BASE_ENAMORUS;
     case SPECIES_KYUREM:
         return CRY_SPECIES_BASE_KYUREM + form-1;
@@ -1888,7 +1888,7 @@ u32 GrabCryNumSpeciesForm(u32 species, u32 form)
         break;
     case SPECIES_HOOPA:
         return CRY_SPECIES_BASE_HOOPA;
-    case SPECIES_ORICORIO:
+    case SPECIES_NUGGLE:
         return CRY_SPECIES_BASE_ORICORIO + form-1;
     case SPECIES_LYCANROC:
         return CRY_SPECIES_BASE_LYCANROC + form-1;
@@ -1898,7 +1898,7 @@ u32 GrabCryNumSpeciesForm(u32 species, u32 form)
         return CRY_SPECIES_BASE_NECROZMA + form-1;
     case SPECIES_ZACIAN:
         return CRY_SPECIES_BASE_ZACIAN;
-    case SPECIES_ZAMAZENTA:
+    case SPECIES_CHROMERA:
         return CRY_SPECIES_BASE_ZAMAZENTA;
     case SPECIES_URSHIFU:
         return CRY_SPECIES_BASE_URSHIFU;
@@ -2438,7 +2438,7 @@ void LONG_CALL correct_zacian_zamazenta_kyurem_moves_for_form(struct PartyPokemo
                     break;
             }
             break;
-        case SPECIES_ZAMAZENTA:
+        case SPECIES_CHROMERA:
             switch (expected_form) {
                 case 0:
                     SwapPartyPokemonMove(param, MOVE_BEHEMOTH_BASH, MOVE_IRON_HEAD);
@@ -2462,7 +2462,7 @@ void LONG_CALL ChangeToBattleForm(struct PartyPokemon *pp) {
     RevertFormChange(pp, monsNo, formNo);
 
     switch (monsNo) {
-    case SPECIES_XERNEAS:
+    case SPECIES_BUTTERFAE:
         formNo = 1;
         ChangePartyPokemonToForm(pp, formNo);
         break;
@@ -2473,7 +2473,7 @@ void LONG_CALL ChangeToBattleForm(struct PartyPokemon *pp) {
             correct_zacian_zamazenta_kyurem_moves_for_form(pp, formNo, 0);
         }
         break;
-    case SPECIES_ZAMAZENTA:
+    case SPECIES_CHROMERA:
         if (GetMonData(pp, MON_DATA_HELD_ITEM, NULL) == ITEM_RUSTED_SHIELD) {
             formNo = 1;
             ChangePartyPokemonToForm(pp, formNo);

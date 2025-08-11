@@ -36,7 +36,7 @@
 .halfword SPECIES_BULBASAUR
 .halfword SPECIES_BUNEARY
 .halfword SPECIES_BURMY
-.halfword SPECIES_BUTTERFREE
+.halfword SPECIES_MANOMOTH
 
 
 .close

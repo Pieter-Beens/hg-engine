@@ -3,7 +3,7 @@
 
 .create "a214/083.bin", 0x0
 
-.halfword SPECIES_BUTTERFREE
+.halfword SPECIES_MANOMOTH
 .halfword SPECIES_BEEDRILL
 .halfword SPECIES_VENOMOTH
 .halfword SPECIES_SCYTHER

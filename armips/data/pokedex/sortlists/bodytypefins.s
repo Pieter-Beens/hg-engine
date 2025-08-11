@@ -41,7 +41,7 @@
 //.halfword SPECIES_ARROKUDA
 //.halfword SPECIES_ARCTOVISH
 //.halfword SPECIES_BRIONNE
-//.halfword SPECIES_BARRASKEWDA
+//.halfword SPECIES_DAMPEROR
 
 
 .close

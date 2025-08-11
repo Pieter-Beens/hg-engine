@@ -740,7 +740,7 @@ trainerdata 21, "Bugsy"
         ivs 80
         abilityslot 0
         level 15
-        pokemon SPECIES_LEDIAN
+        pokemon SPECIES_LEDIASTRA
         item ITEM_NONE
         move MOVE_SWIFT
         move MOVE_U_TURN
@@ -1624,7 +1624,7 @@ trainerdata 48, "Rob"
         ivs 0
         abilityslot 0
         level 39
-        pokemon SPECIES_BUTTERFREE
+        pokemon SPECIES_MANOMOTH
         ballseal 0
     endparty
 
@@ -1883,7 +1883,7 @@ trainerdata 58, "Arnold"
         ivs 0
         abilityslot 0
         level 44
-        pokemon SPECIES_SHELLDER
+        pokemon SPECIES_SHOALDER
         ballseal 0
     endparty
 
@@ -2688,7 +2688,7 @@ trainerdata 85, "Paula"
         ivs 0
         abilityslot 32
         level 19
-        pokemon SPECIES_SHELLDER
+        pokemon SPECIES_SHOALDER
         ballseal 0
     endparty
 
@@ -2709,7 +2709,7 @@ trainerdata 86, "Randall"
         ivs 0
         abilityslot 0
         level 18
-        pokemon SPECIES_SHELLDER
+        pokemon SPECIES_SHOALDER
         move MOVE_SUPERSONIC
         move MOVE_ICICLE_SPEAR
         move MOVE_WITHDRAW
@@ -2731,7 +2731,7 @@ trainerdata 86, "Randall"
         ivs 0
         abilityslot 32
         level 18
-        pokemon SPECIES_SHELLDER
+        pokemon SPECIES_SHOALDER
         move MOVE_SUPERSONIC
         move MOVE_ICICLE_SPEAR
         move MOVE_WITHDRAW
@@ -3022,7 +3022,7 @@ trainerdata 95, "Charlie"
         ivs 0
         abilityslot 32
         level 21
-        pokemon SPECIES_SHELLDER
+        pokemon SPECIES_SHOALDER
         ballseal 0
 
         // mon 1
@@ -3800,7 +3800,7 @@ trainerdata 118, "Kate"
         ivs 50
         abilityslot 0
         level 26
-        pokemon SPECIES_SHELLDER
+        pokemon SPECIES_SHOALDER
         ballseal 0
 
         // mon 1
@@ -4114,7 +4114,7 @@ trainerdata 128, "Jonah"
         ivs 0
         abilityslot 0
         level 33
-        pokemon SPECIES_SHELLDER
+        pokemon SPECIES_SHOALDER
         ballseal 0
 
         // mon 1
@@ -4469,7 +4469,7 @@ trainerdata 140, "Doug"
         ivs 0
         abilityslot 0
         level 39
-        pokemon SPECIES_BUTTERFREE
+        pokemon SPECIES_MANOMOTH
         ballseal 0
 
         // mon 1
@@ -5315,7 +5315,7 @@ trainerdata 170, "Mickey"
         ivs 0
         abilityslot 0
         level 24
-        pokemon SPECIES_SHELLDER
+        pokemon SPECIES_SHOALDER
         ballseal 0
 
         // mon 1
@@ -5329,7 +5329,7 @@ trainerdata 170, "Mickey"
         ivs 0
         abilityslot 0
         level 24
-        pokemon SPECIES_SHELLDER
+        pokemon SPECIES_SHOALDER
         ballseal 0
     endparty
 
@@ -6501,7 +6501,7 @@ trainerdata 209, "Cassie"
         ivs 0
         abilityslot 0
         level 42
-        pokemon SPECIES_BUTTERFREE
+        pokemon SPECIES_MANOMOTH
         ballseal 0
     endparty
 
@@ -7888,7 +7888,7 @@ trainerdata 248, "Ed"
         ivs 0
         abilityslot 0
         level 43
-        pokemon SPECIES_BUTTERFREE
+        pokemon SPECIES_MANOMOTH
         ballseal 0
 
         // mon 2
@@ -12606,7 +12606,7 @@ trainerdata 371, "Tucker"
         ivs 0
         abilityslot 0
         level 40
-        pokemon SPECIES_SHELLDER
+        pokemon SPECIES_SHOALDER
         ballseal 0
 
         // mon 1
@@ -14403,7 +14403,7 @@ trainerdata 428, "Nate"
         ivs 0
         abilityslot 0
         level 40
-        pokemon SPECIES_LEDIAN
+        pokemon SPECIES_LEDIASTRA
         ballseal 0
 
         // mon 1
@@ -15415,7 +15415,7 @@ trainerdata 460, "Wade"
         ivs 0
         abilityslot 0
         level 28
-        pokemon SPECIES_BUTTERFREE
+        pokemon SPECIES_MANOMOTH
         move MOVE_BUG_BITE
         move MOVE_SILVER_WIND
         move MOVE_CONFUSION
@@ -15426,7 +15426,7 @@ trainerdata 460, "Wade"
         ivs 0
         abilityslot 0
         level 40
-        pokemon SPECIES_BUTTERFREE
+        pokemon SPECIES_MANOMOTH
         move MOVE_BUG_BUZZ
         move MOVE_TAILWIND
         move MOVE_CAPTIVATE
@@ -15448,7 +15448,7 @@ trainerdata 460, "Wade"
         ivs 0
         abilityslot 0
         level 28
-        pokemon SPECIES_BUTTERFREE
+        pokemon SPECIES_MANOMOTH
         move MOVE_BUG_BITE
         move MOVE_GUST
         move MOVE_SLEEP_POWDER
@@ -15484,7 +15484,7 @@ trainerdata 461, "Wade"
         ivs 0
         abilityslot 0
         level 29
-        pokemon SPECIES_BUTTERFREE
+        pokemon SPECIES_MANOMOTH
         move MOVE_PSYBEAM
         move MOVE_SILVER_WIND
         move MOVE_SUPERSONIC
@@ -16189,7 +16189,7 @@ trainerdata 484, "Gerardo"
         ivs 10
         abilityslot 0
         level 25
-        pokemon SPECIES_SHELLDER
+        pokemon SPECIES_SHOALDER
         move MOVE_ICE_SHARD
         move MOVE_SUPERSONIC
         move MOVE_ICICLE_SPEAR
@@ -17390,7 +17390,7 @@ trainerdata 512, "Wade"
         ivs 0
         abilityslot 0
         level 36
-        pokemon SPECIES_BUTTERFREE
+        pokemon SPECIES_MANOMOTH
         move MOVE_BUG_BITE
         move MOVE_GUST
         move MOVE_SUPERSONIC
@@ -17401,7 +17401,7 @@ trainerdata 512, "Wade"
         ivs 0
         abilityslot 0
         level 52
-        pokemon SPECIES_BUTTERFREE
+        pokemon SPECIES_MANOMOTH
         move MOVE_BUG_BUZZ
         move MOVE_STUN_SPORE
         move MOVE_CAPTIVATE
@@ -17423,7 +17423,7 @@ trainerdata 512, "Wade"
         ivs 0
         abilityslot 0
         level 36
-        pokemon SPECIES_BUTTERFREE
+        pokemon SPECIES_MANOMOTH
         move MOVE_STUN_SPORE
         move MOVE_SLEEP_POWDER
         move MOVE_CAPTIVATE
@@ -18199,7 +18199,7 @@ trainerdata 532, "Mickey"
         ivs 0
         abilityslot 0
         level 30
-        pokemon SPECIES_BUTTERFREE
+        pokemon SPECIES_MANOMOTH
         move MOVE_CONFUSION
         move MOVE_POISON_POWDER
         move MOVE_SUPERSONIC
@@ -18210,7 +18210,7 @@ trainerdata 532, "Mickey"
         ivs 0
         abilityslot 0
         level 30
-        pokemon SPECIES_BUTTERFREE
+        pokemon SPECIES_MANOMOTH
         move MOVE_CONFUSION
         move MOVE_STUN_SPORE
         move MOVE_SUPERSONIC
@@ -18232,7 +18232,7 @@ trainerdata 532, "Mickey"
         ivs 0
         abilityslot 0
         level 34
-        pokemon SPECIES_BUTTERFREE
+        pokemon SPECIES_MANOMOTH
         move MOVE_PSYBEAM
         move MOVE_SLEEP_POWDER
         move MOVE_GUST
@@ -20833,7 +20833,7 @@ trainerdata 622, "Doug"
         ivs 0
         abilityslot 0
         level 40
-        pokemon SPECIES_BUTTERFREE
+        pokemon SPECIES_MANOMOTH
         ballseal 0
 
         // mon 1
@@ -20861,7 +20861,7 @@ trainerdata 623, "Doug"
         ivs 0
         abilityslot 0
         level 47
-        pokemon SPECIES_BUTTERFREE
+        pokemon SPECIES_MANOMOTH
         ballseal 0
 
         // mon 1
@@ -20889,7 +20889,7 @@ trainerdata 624, "Doug"
         ivs 0
         abilityslot 0
         level 52
-        pokemon SPECIES_BUTTERFREE
+        pokemon SPECIES_MANOMOTH
         ballseal 0
 
         // mon 1
@@ -20924,7 +20924,7 @@ trainerdata 625, "Rob"
         ivs 0
         abilityslot 0
         level 42
-        pokemon SPECIES_BUTTERFREE
+        pokemon SPECIES_MANOMOTH
         ballseal 0
     endparty
 
@@ -20952,7 +20952,7 @@ trainerdata 626, "Rob"
         ivs 0
         abilityslot 0
         level 48
-        pokemon SPECIES_BUTTERFREE
+        pokemon SPECIES_MANOMOTH
         ballseal 0
     endparty
 
@@ -20980,7 +20980,7 @@ trainerdata 627, "Rob"
         ivs 0
         abilityslot 0
         level 56
-        pokemon SPECIES_BUTTERFREE
+        pokemon SPECIES_MANOMOTH
         ballseal 0
     endparty
 
@@ -23087,7 +23087,7 @@ trainerdata 683, "Salma"
         ivs 60
         abilityslot 0
         level 53
-        pokemon SPECIES_LICKILICKY
+        pokemon SPECIES_STICKITUNG
         item ITEM_NONE
         move MOVE_WRING_OUT
         move MOVE_THUNDERBOLT
@@ -23410,7 +23410,7 @@ trainerdata 695, "Dane"
         ivs 0
         abilityslot 0
         level 48
-        pokemon SPECIES_BUTTERFREE
+        pokemon SPECIES_MANOMOTH
         ballseal 0
     endparty
 
@@ -23522,7 +23522,7 @@ trainerdata 699, "Abner"
         ivs 0
         abilityslot 0
         level 44
-        pokemon SPECIES_BUTTERFREE
+        pokemon SPECIES_MANOMOTH
         ballseal 0
 
         // mon 1
@@ -24374,7 +24374,7 @@ trainerdata 714, "Whitney"
         ivs 200
         abilityslot 0
         level 50
-        pokemon SPECIES_LICKILICKY
+        pokemon SPECIES_STICKITUNG
         item ITEM_NONE
         move MOVE_WRING_OUT
         move MOVE_FLAMETHROWER

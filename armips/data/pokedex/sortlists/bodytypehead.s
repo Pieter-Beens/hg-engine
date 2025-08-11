@@ -3,7 +3,7 @@
 
 .create "a214/091.bin", 0x0
 
-.halfword SPECIES_SHELLDER
+.halfword SPECIES_SHOALDER
 .halfword SPECIES_GASTLY
 .halfword SPECIES_VOLTORB
 .halfword SPECIES_KOFFING
@@ -36,7 +36,7 @@
 //.halfword SPECIES_CARBINK
 //.halfword SPECIES_KLEFKI
 //.halfword SPECIES_PUMPKABOO
-//.halfword SPECIES_COMFEY
+//.halfword SPECIES_FIXIE
 //.halfword SPECIES_MINIOR
 //.halfword SPECIES_COSMOG
 //.halfword SPECIES_MELTAN

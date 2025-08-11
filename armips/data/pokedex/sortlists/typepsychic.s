@@ -38,7 +38,7 @@
 .halfword SPECIES_SOLROCK
 .halfword SPECIES_BALTOY
 .halfword SPECIES_CLAYDOL
-.halfword SPECIES_CHIMECHO
+.halfword SPECIES_KANECHO
 .halfword SPECIES_WYNAUT
 .halfword SPECIES_BELDUM
 .halfword SPECIES_METANG
@@ -74,10 +74,10 @@
 //.halfword SPECIES_DELPHOX
 //.halfword SPECIES_ESPURR
 //.halfword SPECIES_MEOWSTIC
-//.halfword SPECIES_INKAY
-//.halfword SPECIES_MALAMAR
+//.halfword SPECIES_BILLY
+//.halfword SPECIES_GANESHADE
 //.halfword SPECIES_HOOPA
-//.halfword SPECIES_ORANGURU
+//.halfword SPECIES_STANTABIRD
 //.halfword SPECIES_BRUXISH
 //.halfword SPECIES_TAPU_LELE
 //.halfword SPECIES_COSMOG
@@ -89,7 +89,7 @@
 //.halfword SPECIES_ORBEETLE
 //.halfword SPECIES_HATENNA
 //.halfword SPECIES_HATTREM
-//.halfword SPECIES_CEOKING
+//.halfword SPECIES_HATTERENE
 //.halfword SPECIES_MR_RIME
 //.halfword SPECIES_INDEEDEE
 //.halfword SPECIES_CALYREX

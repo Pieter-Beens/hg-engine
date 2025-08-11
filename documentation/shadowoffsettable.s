@@ -16,7 +16,7 @@
 /* SPECIES_BLASTOISE       */ .byte -2
 /* SPECIES_CATERPIE        */ .byte 0
 /* SPECIES_METAPOD         */ .byte 0
-/* SPECIES_BUTTERFREE      */ .byte 0
+/* SPECIES_MANOMOTH      */ .byte 0
 /* SPECIES_WEEDLE          */ .byte 0
 /* SPECIES_KAKUNA          */ .byte 0
 /* SPECIES_BEEDRILL        */ .byte 7
@@ -94,7 +94,7 @@
 /* SPECIES_DEWGONG         */ .byte 3
 /* SPECIES_GRIMER          */ .byte 3
 /* SPECIES_MUK             */ .byte 9
-/* SPECIES_SHELLDER        */ .byte 0
+/* SPECIES_SHOALDER        */ .byte 0
 /* SPECIES_CLOYSTER        */ .byte 2
 /* SPECIES_GASTLY          */ .byte -7
 /* SPECIES_HAUNTER         */ .byte 4
@@ -170,7 +170,7 @@
 /* SPECIES_HOOTHOOT        */ .byte -1
 /* SPECIES_NOCTOWL         */ .byte -1
 /* SPECIES_LEDYBA          */ .byte 3
-/* SPECIES_LEDIAN          */ .byte 6
+/* SPECIES_LEDIASTRA          */ .byte 6
 /* SPECIES_SPINARAK        */ .byte 0
 /* SPECIES_ARIADOS         */ .byte 0
 /* SPECIES_CROBAT          */ .byte -6
@@ -351,8 +351,8 @@
 /* SPECIES_CLAYDOL         */ .byte 6
 /* SPECIES_LILEEP          */ .byte 0
 /* SPECIES_CRADILY         */ .byte 0
-/* SPECIES_ANORITH         */ .byte 0
-/* SPECIES_ARMALDO         */ .byte -3
+/* SPECIES_FANGOOSE         */ .byte 0
+/* SPECIES_SHIVIPER         */ .byte -3
 /* SPECIES_FEEBAS          */ .byte 0
 /* SPECIES_MILOTIC         */ .byte 0
 /* SPECIES_CASTFORM        */ .byte 0
@@ -362,7 +362,7 @@
 /* SPECIES_DUSKULL         */ .byte 0
 /* SPECIES_DUSCLOPS        */ .byte 0
 /* SPECIES_TROPIUS         */ .byte -3
-/* SPECIES_CHIMECHO        */ .byte -5
+/* SPECIES_KANECHO        */ .byte -5
 /* SPECIES_ABSOL           */ .byte 0
 /* SPECIES_WYNAUT          */ .byte 0
 /* SPECIES_SNORUNT         */ .byte 0
@@ -467,7 +467,7 @@
 /* SPECIES_ABOMASNOW       */ .byte 0
 /* SPECIES_WEAVILE         */ .byte 0
 /* SPECIES_MAGNEZONE       */ .byte 3
-/* SPECIES_LICKILICKY      */ .byte -1
+/* SPECIES_STICKITUNG      */ .byte -1
 /* SPECIES_RHYPERIOR       */ .byte -3
 /* SPECIES_TANGROWTH       */ .byte -2
 /* SPECIES_ELECTIVIRE      */ .byte -2
@@ -490,13 +490,13 @@
 /* SPECIES_DIALGA          */ .byte -4
 /* SPECIES_PALKIA          */ .byte 0
 /* SPECIES_HEATRAN         */ .byte 0
-/* SPECIES_REGIGIGAS       */ .byte 6
+/* SPECIES_TRAPACE       */ .byte 6
 /* SPECIES_GIRATINA        */ .byte -2
 /* SPECIES_CRESSELIA       */ .byte 0
 /* SPECIES_PHIONE          */ .byte -3
 /* SPECIES_MANAPHY         */ .byte -1
 /* SPECIES_DARKRAI         */ .byte 0
 /* SPECIES_SHAYMIN         */ .byte 3
-/* SPECIES_ARCEUS          */ .byte 0
+/* SPECIES_OCULEUS          */ .byte 0
 
 .close

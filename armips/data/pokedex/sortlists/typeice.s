@@ -35,15 +35,15 @@
 //.halfword SPECIES_AMAURA
 //.halfword SPECIES_AURORUS
 //.halfword SPECIES_BERGMITE
-//.halfword SPECIES_AVALUGG
+//.halfword SPECIES_DRAGODOS
 //.halfword SPECIES_CRABOMINABLE
 //.halfword SPECIES_MR_RIME
 //.halfword SPECIES_SNOM
 //.halfword SPECIES_FROSMOTH
 //.halfword SPECIES_PINGWINNER
-//.halfword SPECIES_ARCTOZOLT
+//.halfword SPECIES_CRYAK
 //.halfword SPECIES_ARCTOVISH
-//.halfword SPECIES_GLASTRIER
+//.halfword SPECIES_CEOKING
 
 
 .close

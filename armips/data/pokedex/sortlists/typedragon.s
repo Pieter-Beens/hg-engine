@@ -25,11 +25,11 @@
 .halfword SPECIES_AXEW
 .halfword SPECIES_FRAXURE
 .halfword SPECIES_HAXORUS
-.halfword SPECIES_DRUDDIGON
+.halfword SPECIES_GRETSKI
 .halfword SPECIES_DEINO
 .halfword SPECIES_ZWEILOUS
 .halfword SPECIES_HYDREIGON
-.halfword SPECIES_RESHIRAM
+.halfword SPECIES_GALEPRANO
 .halfword SPECIES_ZEKROM
 .halfword SPECIES_KYUREM
 //.halfword SPECIES_DRAGALGE
@@ -53,13 +53,13 @@
 //.halfword SPECIES_FLAPPLE
 //.halfword SPECIES_APPLETUN
 //.halfword SPECIES_DRACOZOLT
-//.halfword SPECIES_DRACOVISH
+//.halfword SPECIES_SHOX
 //.halfword SPECIES_DURALUDON
 //.halfword SPECIES_DREEPY
 //.halfword SPECIES_DRAKLOAK
 //.halfword SPECIES_DRAGAPULT
 //.halfword SPECIES_ETERNATUS
-//.halfword SPECIES_REGIDRAGO
+//.halfword SPECIES_RAITORA
 
 
 .close

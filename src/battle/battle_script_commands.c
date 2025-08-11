@@ -3888,7 +3888,7 @@ BOOL LONG_CALL CanItemBeRemovedFromSpecies(u16 species, u16 item)
 
     // then species-specific
     switch (species) {
-    case SPECIES_ZAMAZENTA:
+    case SPECIES_CHROMERA:
         return item != ITEM_RUSTED_SHIELD;
     case SPECIES_ZACIAN:
         return item != ITEM_RUSTED_SWORD;

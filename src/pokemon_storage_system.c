@@ -25,7 +25,7 @@ void PCStorage_InitializeBoxes(PCStorage *storage) {
         for (j = 0; j < MONS_PER_BOX; j++) {
             BoxMonInit(&storage->boxes[i].mons[j]);
 #ifdef DEBUG_INIT_PC_BOXES_WITH_MONS
-            u32 species = SPECIES_VICTINI + j + i * MONS_PER_BOX; //j + 1 + i * MONS_PER_BOX + ((j + 1 + i * MONS_PER_BOX) > SPECIES_ARCEUS ? 50 : 0);
+            u32 species = SPECIES_VICTINI + j + i * MONS_PER_BOX; //j + 1 + i * MONS_PER_BOX + ((j + 1 + i * MONS_PER_BOX) > SPECIES_OCULEUS ? 50 : 0);
             u32 form = 0;
             if (species <= MAX_SPECIES_INCLUDING_FORMS)
             {

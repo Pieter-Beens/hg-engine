@@ -29,8 +29,8 @@
 .halfword SPECIES_SOLROCK
 .halfword SPECIES_LILEEP
 .halfword SPECIES_CRADILY
-.halfword SPECIES_ANORITH
-.halfword SPECIES_ARMALDO
+.halfword SPECIES_FANGOOSE
+.halfword SPECIES_SHIVIPER
 .halfword SPECIES_RELICANTH
 .halfword SPECIES_REGIROCK
 .halfword SPECIES_CRANIDOS
@@ -50,8 +50,8 @@
 .halfword SPECIES_ARCHEN
 .halfword SPECIES_ARCHEOPS
 .halfword SPECIES_TERRAKION
-//.halfword SPECIES_BINACLE
-//.halfword SPECIES_SOROBORO
+//.halfword SPECIES_SHELLDURE
+//.halfword SPECIES_SNAELSTROM
 //.halfword SPECIES_TYRUNT
 //.halfword SPECIES_TYRANTRUM
 //.halfword SPECIES_AMAURA
@@ -67,7 +67,7 @@
 //.halfword SPECIES_ROLYCOLY
 //.halfword SPECIES_CARKOL
 //.halfword SPECIES_COALOSSAL
-//.halfword SPECIES_STONJOURNER
+//.halfword SPECIES_MANEEKO
 
 
 .close

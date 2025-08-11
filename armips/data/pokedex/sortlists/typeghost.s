@@ -39,10 +39,10 @@
 //.halfword SPECIES_XEROGRAV
 //.halfword SPECIES_HOOPA
 //.halfword SPECIES_DECIDUEYE
-//.halfword SPECIES_SANDYGAST
-//.halfword SPECIES_PALOSSAND
+//.halfword SPECIES_VOODOLL
+//.halfword SPECIES_VOODOOM
 //.halfword SPECIES_MIMIKYU
-//.halfword SPECIES_DHELMISE
+//.halfword SPECIES_ZIPRIPPER
 //.halfword SPECIES_LUNALA
 //.halfword SPECIES_NECROZMA
 //.halfword SPECIES_MARSHADOW
@@ -54,7 +54,7 @@
 //.halfword SPECIES_DREEPY
 //.halfword SPECIES_DRAKLOAK
 //.halfword SPECIES_DRAGAPULT
-//.halfword SPECIES_SPECTRIER
+//.halfword SPECIES_FURTUR
 
 
 .close

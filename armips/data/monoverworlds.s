@@ -12,7 +12,7 @@
 
 .org 0x020FECAE
 
-.area (SPECIES_ARCEUS)*2, 0xFF // if this overflows then the routine will need a rewrite
+.area (SPECIES_OCULEUS)*2, 0xFF // if this overflows then the routine will need a rewrite
 
 // this was rewritten to make it a byte per pokémon.  the routine subtracts one, so it starts with bulbasaur
 gDimorphismTable:
@@ -27,7 +27,7 @@ gDimorphismTable:
 /* SPECIES_BLASTOISE       */ .byte 0
 /* SPECIES_CATERPIE        */ .byte 0
 /* SPECIES_METAPOD         */ .byte 0
-/* SPECIES_BUTTERFREE      */ .byte 0
+/* SPECIES_MANOMOTH      */ .byte 0
 /* SPECIES_WEEDLE          */ .byte 0
 /* SPECIES_KAKUNA          */ .byte 0
 /* SPECIES_BEEDRILL        */ .byte 0
@@ -105,7 +105,7 @@ gDimorphismTable:
 /* SPECIES_DEWGONG         */ .byte 0
 /* SPECIES_GRIMER          */ .byte 0
 /* SPECIES_MUK             */ .byte 0
-/* SPECIES_SHELLDER        */ .byte 0
+/* SPECIES_SHOALDER        */ .byte 0
 /* SPECIES_CLOYSTER        */ .byte 0
 /* SPECIES_GASTLY          */ .byte 0
 /* SPECIES_HAUNTER         */ .byte 0
@@ -181,7 +181,7 @@ gDimorphismTable:
 /* SPECIES_HOOTHOOT        */ .byte 0
 /* SPECIES_NOCTOWL         */ .byte 0
 /* SPECIES_LEDYBA          */ .byte 0
-/* SPECIES_LEDIAN          */ .byte 0
+/* SPECIES_LEDIASTRA          */ .byte 0
 /* SPECIES_SPINARAK        */ .byte 0
 /* SPECIES_ARIADOS         */ .byte 0
 /* SPECIES_CROBAT          */ .byte 0
@@ -362,8 +362,8 @@ gDimorphismTable:
 /* SPECIES_CLAYDOL         */ .byte 0
 /* SPECIES_LILEEP          */ .byte 0
 /* SPECIES_CRADILY         */ .byte 0
-/* SPECIES_ANORITH         */ .byte 0
-/* SPECIES_ARMALDO         */ .byte 0
+/* SPECIES_FANGOOSE         */ .byte 0
+/* SPECIES_SHIVIPER         */ .byte 0
 /* SPECIES_FEEBAS          */ .byte 0
 /* SPECIES_MILOTIC         */ .byte 0
 /* SPECIES_CASTFORM        */ .byte 0
@@ -373,7 +373,7 @@ gDimorphismTable:
 /* SPECIES_DUSKULL         */ .byte 0
 /* SPECIES_DUSCLOPS        */ .byte 0
 /* SPECIES_TROPIUS         */ .byte 0
-/* SPECIES_CHIMECHO        */ .byte 0
+/* SPECIES_KANECHO        */ .byte 0
 /* SPECIES_ABSOL           */ .byte 0
 /* SPECIES_WYNAUT          */ .byte 0
 /* SPECIES_SNORUNT         */ .byte 0
@@ -478,7 +478,7 @@ gDimorphismTable:
 /* SPECIES_ABOMASNOW       */ .byte 0
 /* SPECIES_WEAVILE         */ .byte 0
 /* SPECIES_MAGNEZONE       */ .byte 0
-/* SPECIES_LICKILICKY      */ .byte 0
+/* SPECIES_STICKITUNG      */ .byte 0
 /* SPECIES_RHYPERIOR       */ .byte 0
 /* SPECIES_TANGROWTH       */ .byte 0
 /* SPECIES_ELECTIVIRE      */ .byte 0
@@ -501,14 +501,14 @@ gDimorphismTable:
 /* SPECIES_DIALGA          */ .byte 0
 /* SPECIES_PALKIA          */ .byte 0
 /* SPECIES_HEATRAN         */ .byte 0
-/* SPECIES_REGIGIGAS       */ .byte 0
+/* SPECIES_TRAPACE       */ .byte 0
 /* SPECIES_GIRATINA        */ .byte 0
 /* SPECIES_CRESSELIA       */ .byte 0
 /* SPECIES_PHIONE          */ .byte 0
 /* SPECIES_MANAPHY         */ .byte 0
 /* SPECIES_DARKRAI         */ .byte 0
 /* SPECIES_SHAYMIN         */ .byte 0
-/* SPECIES_ARCEUS          */ .byte 0
+/* SPECIES_OCULEUS          */ .byte 0
 /* SPECIES_EGG             */ .byte 0
 /* SPECIES_BAD_EGG         */ .byte 0
 /* SPECIES_DEOXYS_ATTACK   */ .byte 0
@@ -575,7 +575,7 @@ gDimorphismTable:
 /* SPECIES_HERDIER         */ .byte 0
 /* SPECIES_STOUTLAND       */ .byte 0
 /* SPECIES_PURRLOIN        */ .byte 0
-/* SPECIES_LIEPARD         */ .byte 0
+/* SPECIES_FOLIAPARD         */ .byte 0
 /* SPECIES_PANSAGE         */ .byte 0
 /* SPECIES_SIMISAGE        */ .byte 0
 /* SPECIES_PANSEAR         */ .byte 0
@@ -597,14 +597,14 @@ gDimorphismTable:
 /* SPECIES_DRILBUR         */ .byte 0
 /* SPECIES_EXCADRILL       */ .byte 0
 /* SPECIES_AUDINO          */ .byte 0
-/* SPECIES_TIMBURR         */ .byte 0
-/* SPECIES_GURDURR         */ .byte 0
-/* SPECIES_CONKELDURR      */ .byte 0
+/* SPECIES_GARGON         */ .byte 0
+/* SPECIES_WARDERN         */ .byte 0
+/* SPECIES_DRAGOYLE      */ .byte 0
 /* SPECIES_TYMPOLE         */ .byte 0
 /* SPECIES_PALPITOAD       */ .byte 0
 /* SPECIES_SEISMITOAD      */ .byte 0
 /* SPECIES_SNORLAX_SUMO           */ .byte 0
-/* SPECIES_SAWK            */ .byte 0
+/* SPECIES_LEDIAN            */ .byte 0
 /* SPECIES_SEWADDLE        */ .byte 0
 /* SPECIES_SWADLOON        */ .byte 0
 /* SPECIES_LEAVANNY        */ .byte 0
@@ -614,14 +614,14 @@ gDimorphismTable:
 /* SPECIES_COTTONEE        */ .byte 0
 /* SPECIES_WHIMSICOTT      */ .byte 0
 /* SPECIES_PETILIL         */ .byte 0
-/* SPECIES_LILLIGANT       */ .byte 0
+/* SPECIES_CHATINGALE       */ .byte 0
 /* SPECIES_BASCULIN        */ .byte 0
 /* SPECIES_SANDILE         */ .byte 0
 /* SPECIES_KROKOROK        */ .byte 0
 /* SPECIES_KROOKODILE      */ .byte 0
 /* SPECIES_DARUMAKA        */ .byte 0
 /* SPECIES_DARMANITAN      */ .byte 0
-/* SPECIES_MARACTUS        */ .byte 0
+/* SPECIES_KUDOWOODO        */ .byte 0
 /* SPECIES_DWEBBLE         */ .byte 0
 /* SPECIES_CRUSTLE         */ .byte 0
 /* SPECIES_SCRAGGY         */ .byte 0
@@ -646,7 +646,7 @@ gDimorphismTable:
 /* SPECIES_DUOSION         */ .byte 0
 /* SPECIES_REUNICLUS       */ .byte 0
 /* SPECIES_DUCKLETT        */ .byte 0
-/* SPECIES_SWANNA          */ .byte 0
+/* SPECIES_REFINITTY          */ .byte 0
 /* SPECIES_VANILLITE       */ .byte 0
 /* SPECIES_VANILLISH       */ .byte 0
 /* SPECIES_VANILLUXE       */ .byte 0
@@ -664,9 +664,9 @@ gDimorphismTable:
 /* SPECIES_GALVANTULA      */ .byte 0
 /* SPECIES_FERROSEED       */ .byte 0
 /* SPECIES_FERROTHORN      */ .byte 0
-/* SPECIES_KLINK           */ .byte 0
-/* SPECIES_KLANG           */ .byte 0
-/* SPECIES_KLINKLANG       */ .byte 0
+/* SPECIES_RUBEYE           */ .byte 0
+/* SPECIES_MAWSUM           */ .byte 0
+/* SPECIES_MAGNETTLES       */ .byte 0
 /* SPECIES_TYNAMO          */ .byte 0
 /* SPECIES_EELEKTRIK       */ .byte 0
 /* SPECIES_EELEKTROSS      */ .byte 0
@@ -686,7 +686,7 @@ gDimorphismTable:
 /* SPECIES_STUNFISK        */ .byte 0
 /* SPECIES_MIENFOO         */ .byte 0
 /* SPECIES_MIENSHAO        */ .byte 0
-/* SPECIES_DRUDDIGON       */ .byte 0
+/* SPECIES_GRETSKI       */ .byte 0
 /* SPECIES_GOLETT          */ .byte 0
 /* SPECIES_GOLURK          */ .byte 0
 /* SPECIES_PAWNIARD        */ .byte 0
@@ -694,9 +694,9 @@ gDimorphismTable:
 /* SPECIES_BOUFFALANT      */ .byte 0
 /* SPECIES_RUFFLET         */ .byte 0
 /* SPECIES_BRAVIARY        */ .byte 0
-/* SPECIES_VULLABY         */ .byte 0
-/* SPECIES_MANDIBUZZ       */ .byte 0
-/* SPECIES_HEATMOR         */ .byte 0
+/* SPECIES_NOHFACE         */ .byte 0
+/* SPECIES_KITSUNOH       */ .byte 0
+/* SPECIES_CALDERAZER         */ .byte 0
 /* SPECIES_DURANT          */ .byte 0
 /* SPECIES_DEINO           */ .byte 0
 /* SPECIES_ZWEILOUS        */ .byte 0
@@ -705,10 +705,10 @@ gDimorphismTable:
 /* SPECIES_VOLCARONA       */ .byte 0
 /* SPECIES_COBALION        */ .byte 0
 /* SPECIES_TERRAKION       */ .byte 0
-/* SPECIES_VIRIZION        */ .byte 0
-/* SPECIES_TORNADUS        */ .byte 0
+/* SPECIES_BAOBY        */ .byte 0
+/* SPECIES_BAOBARAFFE        */ .byte 0
 /* SPECIES_THUNDURUS       */ .byte 0
-/* SPECIES_RESHIRAM        */ .byte 0
+/* SPECIES_GALEPRANO        */ .byte 0
 /* SPECIES_ZEKROM          */ .byte 0
 /* SPECIES_LANDORUS        */ .byte 0
 /* SPECIES_KYUREM          */ .byte 0
@@ -738,7 +738,7 @@ gDimorphismTable:
 /* SPECIES_FLOETTE         */ .byte 0
 /* SPECIES_FLORGES         */ .byte 0
 /* SPECIES_SKIDDO          */ .byte 0
-/* SPECIES_GOGOAT          */ .byte 0
+/* SPECIES_YETYRANT          */ .byte 0
 /* SPECIES_PANCHAM         */ .byte 0
 /* SPECIES_PANGORO         */ .byte 0
 /* SPECIES_FURFROU         */ .byte 0
@@ -751,14 +751,14 @@ gDimorphismTable:
 /* SPECIES_AROMATISSE      */ .byte 0
 /* SPECIES_SWIRLIX         */ .byte 0
 /* SPECIES_SLURPUFF        */ .byte 0
-/* SPECIES_INKAY           */ .byte 0
-/* SPECIES_MALAMAR         */ .byte 0
-/* SPECIES_BINACLE         */ .byte 0
-/* SPECIES_SOROBORO      */ .byte 0
+/* SPECIES_BILLY           */ .byte 0
+/* SPECIES_GANESHADE         */ .byte 0
+/* SPECIES_SHELLDURE         */ .byte 0
+/* SPECIES_SNAELSTROM      */ .byte 0
 /* SPECIES_SKRELP          */ .byte 0
 /* SPECIES_DRAGALGE        */ .byte 0
 /* SPECIES_CLAUNCHER       */ .byte 0
-/* SPECIES_CLAWITZER       */ .byte 0
+/* SPECIES_CEPHALANZER       */ .byte 0
 /* SPECIES_HELIOPTILE      */ .byte 0
 /* SPECIES_HELIOLISK       */ .byte 0
 /* SPECIES_TYRUNT          */ .byte 0
@@ -766,7 +766,7 @@ gDimorphismTable:
 /* SPECIES_AMAURA          */ .byte 0
 /* SPECIES_AURORUS         */ .byte 0
 /* SPECIES_SYLVEON         */ .byte 0
-/* SPECIES_HAWLUCHA        */ .byte 0
+/* SPECIES_SOROBORO        */ .byte 0
 /* SPECIES_DEDENNE         */ .byte 0
 /* SPECIES_CARBINK         */ .byte 0
 /* SPECIES_GOOMY           */ .byte 0
@@ -778,11 +778,11 @@ gDimorphismTable:
 /* SPECIES_PUMPKABOO       */ .byte 0
 /* SPECIES_XEROGRAV       */ .byte 0
 /* SPECIES_BERGMITE        */ .byte 0
-/* SPECIES_AVALUGG         */ .byte 0
+/* SPECIES_DRAGODOS         */ .byte 0
 /* SPECIES_NOIBAT          */ .byte 0
 /* SPECIES_NOIVERN         */ .byte 0
-/* SPECIES_XERNEAS         */ .byte 0
-/* SPECIES_YVELTAL         */ .byte 0
+/* SPECIES_BUTTERFAE         */ .byte 0
+/* SPECIES_ARCOON         */ .byte 0
 /* SPECIES_ZYGARDE         */ .byte 0
 /* SPECIES_DIANCIE         */ .byte 0
 /* SPECIES_HOOPA           */ .byte 0
@@ -792,7 +792,7 @@ gDimorphismTable:
 /* SPECIES_DECIDUEYE       */ .byte 0
 /* SPECIES_PIEP          */ .byte 0
 /* SPECIES_PRRING        */ .byte 0
-/* SPECIES_INCINEROAR      */ .byte 0
+/* SPECIES_HOUNDEMON      */ .byte 0
 /* SPECIES_POPPLIO         */ .byte 0
 /* SPECIES_BRIONNE         */ .byte 0
 /* SPECIES_PRIMARINA       */ .byte 0
@@ -802,11 +802,11 @@ gDimorphismTable:
 /* SPECIES_YUNGOOS         */ .byte 0
 /* SPECIES_GUMSHOOS        */ .byte 0
 /* SPECIES_GRUBBIN         */ .byte 0
-/* SPECIES_CHARJABUG       */ .byte 0
+/* SPECIES_KRICKETUTTI       */ .byte 0
 /* SPECIES_VIKAVOLT        */ .byte 0
 /* SPECIES_EVINSIR      */ .byte 0
 /* SPECIES_CRABOMINABLE    */ .byte 0
-/* SPECIES_ORICORIO        */ .byte 0
+/* SPECIES_NUGGLE        */ .byte 0
 /* SPECIES_CUTIEFLY        */ .byte 0
 /* SPECIES_RIBOMBEE        */ .byte 0
 /* SPECIES_ROCKRUFF        */ .byte 0
@@ -825,17 +825,17 @@ gDimorphismTable:
 /* SPECIES_SALANDIT        */ .byte 0
 /* SPECIES_SALAZZLE        */ .byte 0
 /* SPECIES_STUFFUL         */ .byte 0
-/* SPECIES_BEWEAR          */ .byte 0
+/* SPECIES_BIBABOBER          */ .byte 0
 /* SPECIES_BOUNSWEET       */ .byte 0
 /* SPECIES_STEENEE         */ .byte 0
 /* SPECIES_TSAREENA        */ .byte 0
-/* SPECIES_COMFEY          */ .byte 0
-/* SPECIES_ORANGURU        */ .byte 0
-/* SPECIES_PASSIMIAN       */ .byte 0
+/* SPECIES_FIXIE          */ .byte 0
+/* SPECIES_STANTABIRD        */ .byte 0
+/* SPECIES_RATUITUS       */ .byte 0
 /* SPECIES_WIMPOD          */ .byte 0
 /* SPECIES_GOLISOPOD       */ .byte 0
-/* SPECIES_SANDYGAST       */ .byte 0
-/* SPECIES_PALOSSAND       */ .byte 0
+/* SPECIES_VOODOLL       */ .byte 0
+/* SPECIES_VOODOOM       */ .byte 0
 /* SPECIES_PYUKUMUKU       */ .byte 0
 /* SPECIES_TYPE_NULL       */ .byte 0
 /* SPECIES_SILVALLY        */ .byte 0
@@ -846,11 +846,11 @@ gDimorphismTable:
 /* SPECIES_MIMIKYU         */ .byte 0
 /* SPECIES_BRUXISH         */ .byte 0
 /* SPECIES_DRAMPA          */ .byte 0
-/* SPECIES_DHELMISE        */ .byte 0
+/* SPECIES_ZIPRIPPER        */ .byte 0
 /* SPECIES_JANGMO_O        */ .byte 0
 /* SPECIES_HAKAMO_O        */ .byte 0
 /* SPECIES_KOMMO_O         */ .byte 0
-/* SPECIES_TAPU_KOKO       */ .byte 0
+/* SPECIES_ELEMANTLE       */ .byte 0
 /* SPECIES_TAPU_LELE       */ .byte 0
 /* SPECIES_TAPU_BULU       */ .byte 0
 /* SPECIES_TAPU_FINI       */ .byte 0
@@ -859,7 +859,7 @@ gDimorphismTable:
 /* SPECIES_SOLGALEO        */ .byte 0
 /* SPECIES_LUNALA          */ .byte 0
 /* SPECIES_NIHILEGO        */ .byte 0
-/* SPECIES_BUZZWOLE        */ .byte 0
+/* SPECIES_ARACCUBUS        */ .byte 0
 /* SPECIES_PHEROMOSA       */ .byte 0
 /* SPECIES_XURKITREE       */ .byte 0
 /* SPECIES_CELESTEELA      */ .byte 0
@@ -885,7 +885,7 @@ gDimorphismTable:
 /* SPECIES_DRIZZILE        */ .byte 0
 /* SPECIES_INTELEON        */ .byte 0
 /* SPECIES_SKWOVET         */ .byte 0
-/* SPECIES_GREEDENT        */ .byte 0
+/* SPECIES_PACHIKUSU        */ .byte 0
 /* SPECIES_ROOKIDEE        */ .byte 0
 /* SPECIES_CORVISQUIRE     */ .byte 0
 /* SPECIES_CORVIKNIGHT     */ .byte 0
@@ -912,7 +912,7 @@ gDimorphismTable:
 /* SPECIES_SANDACONDA      */ .byte 0
 /* SPECIES_CRAMORANT       */ .byte 0
 /* SPECIES_ARROKUDA        */ .byte 0
-/* SPECIES_BARRASKEWDA     */ .byte 0
+/* SPECIES_DAMPEROR     */ .byte 0
 /* SPECIES_TOXEL           */ .byte 0
 /* SPECIES_GOROCHU      */ .byte 0
 /* SPECIES_SIZZLIPEDE      */ .byte 0
@@ -923,10 +923,10 @@ gDimorphismTable:
 /* SPECIES_POLTEAGEIST     */ .byte 0
 /* SPECIES_HATENNA         */ .byte 0
 /* SPECIES_HATTREM         */ .byte 0
-/* SPECIES_CEOKING       */ .byte 0
-/* SPECIES_IMPIDIMP        */ .byte 0
-/* SPECIES_MORGREM         */ .byte 0
-/* SPECIES_GRIMMSNARL      */ .byte 0
+/* SPECIES_HATTERENE       */ .byte 0
+/* SPECIES_DRASHIMI        */ .byte 0
+/* SPECIES_TSUSHIMI         */ .byte 0
+/* SPECIES_TOBISHIMI      */ .byte 0
 /* SPECIES_OBSTAGOON       */ .byte 0
 /* SPECIES_PERRSERKER      */ .byte 0
 /* SPECIES_CURSOLA         */ .byte 0
@@ -939,30 +939,30 @@ gDimorphismTable:
 /* SPECIES_PINCURCHIN      */ .byte 0
 /* SPECIES_SNOM            */ .byte 0
 /* SPECIES_FROSMOTH        */ .byte 0
-/* SPECIES_STONJOURNER     */ .byte 0
+/* SPECIES_MANEEKO     */ .byte 0
 /* SPECIES_PINGWINNER          */ .byte 0
 /* SPECIES_INDEEDEE        */ .byte 1
 /* SPECIES_MORPEKO         */ .byte 0
 /* SPECIES_CUFANT          */ .byte 0
 /* SPECIES_COPPERAJAH      */ .byte 0
 /* SPECIES_DRACOZOLT       */ .byte 0
-/* SPECIES_ARCTOZOLT       */ .byte 0
-/* SPECIES_DRACOVISH       */ .byte 0
+/* SPECIES_CRYAK       */ .byte 0
+/* SPECIES_SHOX       */ .byte 0
 /* SPECIES_ARCTOVISH       */ .byte 0
 /* SPECIES_DURALUDON       */ .byte 0
 /* SPECIES_DREEPY          */ .byte 0
 /* SPECIES_DRAKLOAK        */ .byte 0
 /* SPECIES_DRAGAPULT       */ .byte 0
 /* SPECIES_ZACIAN          */ .byte 0
-/* SPECIES_ZAMAZENTA       */ .byte 0
+/* SPECIES_CHROMERA       */ .byte 0
 /* SPECIES_ETERNATUS       */ .byte 0
 /* SPECIES_KUBFU           */ .byte 0
 /* SPECIES_URSHIFU         */ .byte 0
 /* SPECIES_ZARUDE          */ .byte 0
-/* SPECIES_REGIELEKI       */ .byte 0
-/* SPECIES_REGIDRAGO       */ .byte 0
-/* SPECIES_GLASTRIER       */ .byte 0
-/* SPECIES_SPECTRIER       */ .byte 0
+/* SPECIES_KOTORA       */ .byte 0
+/* SPECIES_RAITORA       */ .byte 0
+/* SPECIES_CEOKING       */ .byte 0
+/* SPECIES_FURTUR       */ .byte 0
 /* SPECIES_CALYREX         */ .byte 0
 /* SPECIES_WYRDEER         */ .byte 0
 /* SPECIES_KLEAVOR         */ .byte 0
@@ -970,7 +970,7 @@ gDimorphismTable:
 /* SPECIES_BASCULEGION     */ .byte 1
 /* SPECIES_SNEASLER        */ .byte 0
 /* SPECIES_OVERQWIL        */ .byte 0
-/* SPECIES_ENAMORUS        */ .byte 0
+/* SPECIES_EXEGGRATOR        */ .byte 0
 /* SPECIES_SPRIGATITO      */ .byte 0
 /* SPECIES_FLORAGATO       */ .byte 0
 /* SPECIES_MEOWSCARADA     */ .byte 0
@@ -1028,7 +1028,7 @@ gDimorphismTable:
 /* SPECIES_TINKATON        */ //.byte 0
 /* SPECIES_WIGLETT         */ //.byte 0
 /* SPECIES_WUGTRIO         */ //.byte 0
-/* SPECIES_BOMBIRDIER      */ //.byte 0
+/* SPECIES_GRIMFOWL      */ //.byte 0
 /* SPECIES_FINIZEN         */ //.byte 0
 /* SPECIES_PALAFIN         */ //.byte 0
 /* SPECIES_VAROOM          */ //.byte 0
@@ -1085,7 +1085,7 @@ gDimorphismTable:
 /* SPECIES_FEZANDIPITI     */ //.byte 0
 /* SPECIES_OGERPON         */ //.byte 0
 /* SPECIES_ARCHALUDON      */ //.byte 0
-/* SPECIES_HYDRAPPLE       */ //.byte 0
+/* SPECIES_TOWRINBELL       */ //.byte 0
 /* SPECIES_ENLONG    */ //.byte 0
 /* SPECIES_RAILONG     */ //.byte 0
 /* SPECIES_IRON_BOULDER    */ //.byte 0
@@ -1114,7 +1114,7 @@ NumOfOWFormsPerMon:
 /* SPECIES_BLASTOISE       */ .byte 0
 /* SPECIES_CATERPIE        */ .byte 0
 /* SPECIES_METAPOD         */ .byte 0
-/* SPECIES_BUTTERFREE      */ .byte 0
+/* SPECIES_MANOMOTH      */ .byte 0
 /* SPECIES_WEEDLE          */ .byte 0
 /* SPECIES_KAKUNA          */ .byte 0
 /* SPECIES_BEEDRILL        */ .byte 0
@@ -1192,7 +1192,7 @@ NumOfOWFormsPerMon:
 /* SPECIES_DEWGONG         */ .byte 0
 /* SPECIES_GRIMER          */ .byte 1
 /* SPECIES_MUK             */ .byte 1
-/* SPECIES_SHELLDER        */ .byte 0
+/* SPECIES_SHOALDER        */ .byte 0
 /* SPECIES_CLOYSTER        */ .byte 0
 /* SPECIES_GASTLY          */ .byte 0
 /* SPECIES_HAUNTER         */ .byte 0
@@ -1268,7 +1268,7 @@ NumOfOWFormsPerMon:
 /* SPECIES_HOOTHOOT        */ .byte 0
 /* SPECIES_NOCTOWL         */ .byte 0
 /* SPECIES_LEDYBA          */ .byte 0
-/* SPECIES_LEDIAN          */ .byte 0
+/* SPECIES_LEDIASTRA          */ .byte 0
 /* SPECIES_SPINARAK        */ .byte 0
 /* SPECIES_ARIADOS         */ .byte 0
 /* SPECIES_CROBAT          */ .byte 0
@@ -1449,8 +1449,8 @@ NumOfOWFormsPerMon:
 /* SPECIES_CLAYDOL         */ .byte 0
 /* SPECIES_LILEEP          */ .byte 0
 /* SPECIES_CRADILY         */ .byte 0
-/* SPECIES_ANORITH         */ .byte 0
-/* SPECIES_ARMALDO         */ .byte 0
+/* SPECIES_FANGOOSE         */ .byte 0
+/* SPECIES_SHIVIPER         */ .byte 0
 /* SPECIES_FEEBAS          */ .byte 0
 /* SPECIES_MILOTIC         */ .byte 0
 /* SPECIES_CASTFORM        */ .byte 3
@@ -1460,7 +1460,7 @@ NumOfOWFormsPerMon:
 /* SPECIES_DUSKULL         */ .byte 0
 /* SPECIES_DUSCLOPS        */ .byte 0
 /* SPECIES_TROPIUS         */ .byte 0
-/* SPECIES_CHIMECHO        */ .byte 0
+/* SPECIES_KANECHO        */ .byte 0
 /* SPECIES_ABSOL           */ .byte 0
 /* SPECIES_WYNAUT          */ .byte 0
 /* SPECIES_SNORUNT         */ .byte 0
@@ -1565,7 +1565,7 @@ NumOfOWFormsPerMon:
 /* SPECIES_ABOMASNOW       */ .byte 0
 /* SPECIES_WEAVILE         */ .byte 0
 /* SPECIES_MAGNEZONE       */ .byte 0
-/* SPECIES_LICKILICKY      */ .byte 0
+/* SPECIES_STICKITUNG      */ .byte 0
 /* SPECIES_RHYPERIOR       */ .byte 0
 /* SPECIES_TANGROWTH       */ .byte 0
 /* SPECIES_ELECTIVIRE      */ .byte 0
@@ -1588,14 +1588,14 @@ NumOfOWFormsPerMon:
 /* SPECIES_DIALGA          */ .byte 1
 /* SPECIES_PALKIA          */ .byte 1
 /* SPECIES_HEATRAN         */ .byte 0
-/* SPECIES_REGIGIGAS       */ .byte 0
+/* SPECIES_TRAPACE       */ .byte 0
 /* SPECIES_GIRATINA        */ .byte 1
 /* SPECIES_CRESSELIA       */ .byte 0
 /* SPECIES_PHIONE          */ .byte 0
 /* SPECIES_MANAPHY         */ .byte 0
 /* SPECIES_DARKRAI         */ .byte 0
 /* SPECIES_SHAYMIN         */ .byte 1
-/* SPECIES_ARCEUS          */ .byte 17
+/* SPECIES_OCULEUS          */ .byte 17
 /* SPECIES_EGG             */ .byte 0
 /* SPECIES_BAD_EGG         */ .byte 0
 /* SPECIES_DEOXYS_ATTACK   */ .byte 0
@@ -1662,7 +1662,7 @@ NumOfOWFormsPerMon:
 /* SPECIES_HERDIER         */ .byte 0
 /* SPECIES_STOUTLAND       */ .byte 0
 /* SPECIES_PURRLOIN        */ .byte 0
-/* SPECIES_LIEPARD         */ .byte 0
+/* SPECIES_FOLIAPARD         */ .byte 0
 /* SPECIES_PANSAGE         */ .byte 0
 /* SPECIES_SIMISAGE        */ .byte 0
 /* SPECIES_PANSEAR         */ .byte 0
@@ -1684,14 +1684,14 @@ NumOfOWFormsPerMon:
 /* SPECIES_DRILBUR         */ .byte 0
 /* SPECIES_EXCADRILL       */ .byte 0
 /* SPECIES_AUDINO          */ .byte 0
-/* SPECIES_TIMBURR         */ .byte 0
-/* SPECIES_GURDURR         */ .byte 0
-/* SPECIES_CONKELDURR      */ .byte 0
+/* SPECIES_GARGON         */ .byte 0
+/* SPECIES_WARDERN         */ .byte 0
+/* SPECIES_DRAGOYLE      */ .byte 0
 /* SPECIES_TYMPOLE         */ .byte 0
 /* SPECIES_PALPITOAD       */ .byte 0
 /* SPECIES_SEISMITOAD      */ .byte 0
 /* SPECIES_SNORLAX_SUMO           */ .byte 0
-/* SPECIES_SAWK            */ .byte 0
+/* SPECIES_LEDIAN            */ .byte 0
 /* SPECIES_SEWADDLE        */ .byte 0
 /* SPECIES_SWADLOON        */ .byte 0
 /* SPECIES_LEAVANNY        */ .byte 0
@@ -1701,14 +1701,14 @@ NumOfOWFormsPerMon:
 /* SPECIES_COTTONEE        */ .byte 0
 /* SPECIES_WHIMSICOTT      */ .byte 0
 /* SPECIES_PETILIL         */ .byte 0
-/* SPECIES_LILLIGANT       */ .byte 1
+/* SPECIES_CHATINGALE       */ .byte 1
 /* SPECIES_BASCULIN        */ .byte 2
 /* SPECIES_SANDILE         */ .byte 0
 /* SPECIES_KROKOROK        */ .byte 0
 /* SPECIES_KROOKODILE      */ .byte 0
 /* SPECIES_DARUMAKA        */ .byte 1
 /* SPECIES_DARMANITAN      */ .byte 3
-/* SPECIES_MARACTUS        */ .byte 0
+/* SPECIES_KUDOWOODO        */ .byte 0
 /* SPECIES_DWEBBLE         */ .byte 0
 /* SPECIES_CRUSTLE         */ .byte 0
 /* SPECIES_SCRAGGY         */ .byte 0
@@ -1733,7 +1733,7 @@ NumOfOWFormsPerMon:
 /* SPECIES_DUOSION         */ .byte 0
 /* SPECIES_REUNICLUS       */ .byte 0
 /* SPECIES_DUCKLETT        */ .byte 0
-/* SPECIES_SWANNA          */ .byte 0
+/* SPECIES_REFINITTY          */ .byte 0
 /* SPECIES_VANILLITE       */ .byte 0
 /* SPECIES_VANILLISH       */ .byte 0
 /* SPECIES_VANILLUXE       */ .byte 0
@@ -1751,9 +1751,9 @@ NumOfOWFormsPerMon:
 /* SPECIES_GALVANTULA      */ .byte 0
 /* SPECIES_FERROSEED       */ .byte 0
 /* SPECIES_FERROTHORN      */ .byte 0
-/* SPECIES_KLINK           */ .byte 0
-/* SPECIES_KLANG           */ .byte 0
-/* SPECIES_KLINKLANG       */ .byte 0
+/* SPECIES_RUBEYE           */ .byte 0
+/* SPECIES_MAWSUM           */ .byte 0
+/* SPECIES_MAGNETTLES       */ .byte 0
 /* SPECIES_TYNAMO          */ .byte 0
 /* SPECIES_EELEKTRIK       */ .byte 0
 /* SPECIES_EELEKTROSS      */ .byte 0
@@ -1773,7 +1773,7 @@ NumOfOWFormsPerMon:
 /* SPECIES_STUNFISK        */ .byte 1
 /* SPECIES_MIENFOO         */ .byte 0
 /* SPECIES_MIENSHAO        */ .byte 0
-/* SPECIES_DRUDDIGON       */ .byte 0
+/* SPECIES_GRETSKI       */ .byte 0
 /* SPECIES_GOLETT          */ .byte 0
 /* SPECIES_GOLURK          */ .byte 0
 /* SPECIES_PAWNIARD        */ .byte 0
@@ -1781,9 +1781,9 @@ NumOfOWFormsPerMon:
 /* SPECIES_BOUFFALANT      */ .byte 0
 /* SPECIES_RUFFLET         */ .byte 0
 /* SPECIES_BRAVIARY        */ .byte 1
-/* SPECIES_VULLABY         */ .byte 0
-/* SPECIES_MANDIBUZZ       */ .byte 0
-/* SPECIES_HEATMOR         */ .byte 0
+/* SPECIES_NOHFACE         */ .byte 0
+/* SPECIES_KITSUNOH       */ .byte 0
+/* SPECIES_CALDERAZER         */ .byte 0
 /* SPECIES_DURANT          */ .byte 0
 /* SPECIES_DEINO           */ .byte 0
 /* SPECIES_ZWEILOUS        */ .byte 0
@@ -1792,10 +1792,10 @@ NumOfOWFormsPerMon:
 /* SPECIES_VOLCARONA       */ .byte 0
 /* SPECIES_COBALION        */ .byte 0
 /* SPECIES_TERRAKION       */ .byte 0
-/* SPECIES_VIRIZION        */ .byte 0
-/* SPECIES_TORNADUS        */ .byte 1
+/* SPECIES_BAOBY        */ .byte 0
+/* SPECIES_BAOBARAFFE        */ .byte 1
 /* SPECIES_THUNDURUS       */ .byte 1
-/* SPECIES_RESHIRAM        */ .byte 0
+/* SPECIES_GALEPRANO        */ .byte 0
 /* SPECIES_ZEKROM          */ .byte 0
 /* SPECIES_LANDORUS        */ .byte 1
 /* SPECIES_KYUREM          */ .byte 2
@@ -1825,7 +1825,7 @@ NumOfOWFormsPerMon:
 /* SPECIES_FLOETTE         */ .byte 5
 /* SPECIES_FLORGES         */ .byte 4
 /* SPECIES_SKIDDO          */ .byte 0
-/* SPECIES_GOGOAT          */ .byte 0
+/* SPECIES_YETYRANT          */ .byte 0
 /* SPECIES_PANCHAM         */ .byte 0
 /* SPECIES_PANGORO         */ .byte 0
 /* SPECIES_FURFROU         */ .byte 9
@@ -1838,14 +1838,14 @@ NumOfOWFormsPerMon:
 /* SPECIES_AROMATISSE      */ .byte 0
 /* SPECIES_SWIRLIX         */ .byte 0
 /* SPECIES_SLURPUFF        */ .byte 0
-/* SPECIES_INKAY           */ .byte 0
-/* SPECIES_MALAMAR         */ .byte 0
-/* SPECIES_BINACLE         */ .byte 0
-/* SPECIES_SOROBORO      */ .byte 0
+/* SPECIES_BILLY           */ .byte 0
+/* SPECIES_GANESHADE         */ .byte 0
+/* SPECIES_SHELLDURE         */ .byte 0
+/* SPECIES_SNAELSTROM      */ .byte 0
 /* SPECIES_SKRELP          */ .byte 0
 /* SPECIES_DRAGALGE        */ .byte 0
 /* SPECIES_CLAUNCHER       */ .byte 0
-/* SPECIES_CLAWITZER       */ .byte 0
+/* SPECIES_CEPHALANZER       */ .byte 0
 /* SPECIES_HELIOPTILE      */ .byte 0
 /* SPECIES_HELIOLISK       */ .byte 0
 /* SPECIES_TYRUNT          */ .byte 0
@@ -1853,7 +1853,7 @@ NumOfOWFormsPerMon:
 /* SPECIES_AMAURA          */ .byte 0
 /* SPECIES_AURORUS         */ .byte 0
 /* SPECIES_SYLVEON         */ .byte 0
-/* SPECIES_HAWLUCHA        */ .byte 0
+/* SPECIES_SOROBORO        */ .byte 0
 /* SPECIES_DEDENNE         */ .byte 0
 /* SPECIES_CARBINK         */ .byte 0
 /* SPECIES_GOOMY           */ .byte 0
@@ -1865,11 +1865,11 @@ NumOfOWFormsPerMon:
 /* SPECIES_PUMPKABOO       */ .byte 3
 /* SPECIES_XEROGRAV       */ .byte 3
 /* SPECIES_BERGMITE        */ .byte 0
-/* SPECIES_AVALUGG         */ .byte 1
+/* SPECIES_DRAGODOS         */ .byte 1
 /* SPECIES_NOIBAT          */ .byte 0
 /* SPECIES_NOIVERN         */ .byte 0
-/* SPECIES_XERNEAS         */ .byte 0
-/* SPECIES_YVELTAL         */ .byte 0
+/* SPECIES_BUTTERFAE         */ .byte 0
+/* SPECIES_ARCOON         */ .byte 0
 /* SPECIES_ZYGARDE         */ .byte 5
 /* SPECIES_DIANCIE         */ .byte 0
 /* SPECIES_HOOPA           */ .byte 1
@@ -1879,7 +1879,7 @@ NumOfOWFormsPerMon:
 /* SPECIES_DECIDUEYE       */ .byte 1
 /* SPECIES_PIEP          */ .byte 0
 /* SPECIES_PRRING        */ .byte 0
-/* SPECIES_INCINEROAR      */ .byte 0
+/* SPECIES_HOUNDEMON      */ .byte 0
 /* SPECIES_POPPLIO         */ .byte 0
 /* SPECIES_BRIONNE         */ .byte 0
 /* SPECIES_PRIMARINA       */ .byte 0
@@ -1889,11 +1889,11 @@ NumOfOWFormsPerMon:
 /* SPECIES_YUNGOOS         */ .byte 0
 /* SPECIES_GUMSHOOS        */ .byte 0
 /* SPECIES_GRUBBIN         */ .byte 0
-/* SPECIES_CHARJABUG       */ .byte 0
+/* SPECIES_KRICKETUTTI       */ .byte 0
 /* SPECIES_VIKAVOLT        */ .byte 0
 /* SPECIES_EVINSIR      */ .byte 0
 /* SPECIES_CRABOMINABLE    */ .byte 0
-/* SPECIES_ORICORIO        */ .byte 3
+/* SPECIES_NUGGLE        */ .byte 3
 /* SPECIES_CUTIEFLY        */ .byte 0
 /* SPECIES_RIBOMBEE        */ .byte 0
 /* SPECIES_ROCKRUFF        */ .byte 1
@@ -1912,17 +1912,17 @@ NumOfOWFormsPerMon:
 /* SPECIES_SALANDIT        */ .byte 0
 /* SPECIES_SALAZZLE        */ .byte 0
 /* SPECIES_STUFFUL         */ .byte 0
-/* SPECIES_BEWEAR          */ .byte 0
+/* SPECIES_BIBABOBER          */ .byte 0
 /* SPECIES_BOUNSWEET       */ .byte 0
 /* SPECIES_STEENEE         */ .byte 0
 /* SPECIES_TSAREENA        */ .byte 0
-/* SPECIES_COMFEY          */ .byte 0
-/* SPECIES_ORANGURU        */ .byte 0
-/* SPECIES_PASSIMIAN       */ .byte 0
+/* SPECIES_FIXIE          */ .byte 0
+/* SPECIES_STANTABIRD        */ .byte 0
+/* SPECIES_RATUITUS       */ .byte 0
 /* SPECIES_WIMPOD          */ .byte 0
 /* SPECIES_GOLISOPOD       */ .byte 0
-/* SPECIES_SANDYGAST       */ .byte 0
-/* SPECIES_PALOSSAND       */ .byte 0
+/* SPECIES_VOODOLL       */ .byte 0
+/* SPECIES_VOODOOM       */ .byte 0
 /* SPECIES_PYUKUMUKU       */ .byte 0
 /* SPECIES_TYPE_NULL       */ .byte 0
 /* SPECIES_SILVALLY        */ .byte 17
@@ -1933,11 +1933,11 @@ NumOfOWFormsPerMon:
 /* SPECIES_MIMIKYU         */ .byte 0
 /* SPECIES_BRUXISH         */ .byte 0
 /* SPECIES_DRAMPA          */ .byte 0
-/* SPECIES_DHELMISE        */ .byte 0
+/* SPECIES_ZIPRIPPER        */ .byte 0
 /* SPECIES_JANGMO_O        */ .byte 0
 /* SPECIES_HAKAMO_O        */ .byte 0
 /* SPECIES_KOMMO_O         */ .byte 0
-/* SPECIES_TAPU_KOKO       */ .byte 0
+/* SPECIES_ELEMANTLE       */ .byte 0
 /* SPECIES_TAPU_LELE       */ .byte 0
 /* SPECIES_TAPU_BULU       */ .byte 0
 /* SPECIES_TAPU_FINI       */ .byte 0
@@ -1946,7 +1946,7 @@ NumOfOWFormsPerMon:
 /* SPECIES_SOLGALEO        */ .byte 0
 /* SPECIES_LUNALA          */ .byte 0
 /* SPECIES_NIHILEGO        */ .byte 0
-/* SPECIES_BUZZWOLE        */ .byte 0
+/* SPECIES_ARACCUBUS        */ .byte 0
 /* SPECIES_PHEROMOSA       */ .byte 0
 /* SPECIES_XURKITREE       */ .byte 0
 /* SPECIES_CELESTEELA      */ .byte 0
@@ -1972,7 +1972,7 @@ NumOfOWFormsPerMon:
 /* SPECIES_DRIZZILE        */ .byte 0
 /* SPECIES_INTELEON        */ .byte 0
 /* SPECIES_SKWOVET         */ .byte 0
-/* SPECIES_GREEDENT        */ .byte 0
+/* SPECIES_PACHIKUSU        */ .byte 0
 /* SPECIES_ROOKIDEE        */ .byte 0
 /* SPECIES_CORVISQUIRE     */ .byte 0
 /* SPECIES_CORVIKNIGHT     */ .byte 0
@@ -1999,7 +1999,7 @@ NumOfOWFormsPerMon:
 /* SPECIES_SANDACONDA      */ .byte 0
 /* SPECIES_CRAMORANT       */ .byte 0
 /* SPECIES_ARROKUDA        */ .byte 0
-/* SPECIES_BARRASKEWDA     */ .byte 0
+/* SPECIES_DAMPEROR     */ .byte 0
 /* SPECIES_TOXEL           */ .byte 0
 /* SPECIES_GOROCHU      */ .byte 1
 /* SPECIES_SIZZLIPEDE      */ .byte 0
@@ -2010,10 +2010,10 @@ NumOfOWFormsPerMon:
 /* SPECIES_POLTEAGEIST     */ .byte 1
 /* SPECIES_HATENNA         */ .byte 0
 /* SPECIES_HATTREM         */ .byte 0
-/* SPECIES_CEOKING       */ .byte 0
-/* SPECIES_IMPIDIMP        */ .byte 0
-/* SPECIES_MORGREM         */ .byte 0
-/* SPECIES_GRIMMSNARL      */ .byte 0
+/* SPECIES_HATTERENE       */ .byte 0
+/* SPECIES_DRASHIMI        */ .byte 0
+/* SPECIES_TSUSHIMI         */ .byte 0
+/* SPECIES_TOBISHIMI      */ .byte 0
 /* SPECIES_OBSTAGOON       */ .byte 0
 /* SPECIES_PERRSERKER      */ .byte 0
 /* SPECIES_CURSOLA         */ .byte 0
@@ -2026,30 +2026,30 @@ NumOfOWFormsPerMon:
 /* SPECIES_PINCURCHIN      */ .byte 0
 /* SPECIES_SNOM            */ .byte 0
 /* SPECIES_FROSMOTH        */ .byte 0
-/* SPECIES_STONJOURNER     */ .byte 0
+/* SPECIES_MANEEKO     */ .byte 0
 /* SPECIES_PINGWINNER          */ .byte 0
 /* SPECIES_INDEEDEE        */ .byte 0
 /* SPECIES_MORPEKO         */ .byte 0
 /* SPECIES_CUFANT          */ .byte 0
 /* SPECIES_COPPERAJAH      */ .byte 0
 /* SPECIES_DRACOZOLT       */ .byte 0
-/* SPECIES_ARCTOZOLT       */ .byte 0
-/* SPECIES_DRACOVISH       */ .byte 0
+/* SPECIES_CRYAK       */ .byte 0
+/* SPECIES_SHOX       */ .byte 0
 /* SPECIES_ARCTOVISH       */ .byte 0
 /* SPECIES_DURALUDON       */ .byte 0
 /* SPECIES_DREEPY          */ .byte 0
 /* SPECIES_DRAKLOAK        */ .byte 0
 /* SPECIES_DRAGAPULT       */ .byte 0
 /* SPECIES_ZACIAN          */ .byte 0
-/* SPECIES_ZAMAZENTA       */ .byte 0
+/* SPECIES_CHROMERA       */ .byte 0
 /* SPECIES_ETERNATUS       */ .byte 0
 /* SPECIES_KUBFU           */ .byte 0
 /* SPECIES_URSHIFU         */ .byte 1
 /* SPECIES_ZARUDE          */ .byte 1
-/* SPECIES_REGIELEKI       */ .byte 0
-/* SPECIES_REGIDRAGO       */ .byte 0
-/* SPECIES_GLASTRIER       */ .byte 0
-/* SPECIES_SPECTRIER       */ .byte 0
+/* SPECIES_KOTORA       */ .byte 0
+/* SPECIES_RAITORA       */ .byte 0
+/* SPECIES_CEOKING       */ .byte 0
+/* SPECIES_FURTUR       */ .byte 0
 /* SPECIES_CALYREX         */ .byte 2
 /* SPECIES_WYRDEER         */ .byte 0
 /* SPECIES_KLEAVOR         */ .byte 0
@@ -2057,7 +2057,7 @@ NumOfOWFormsPerMon:
 /* SPECIES_BASCULEGION     */ .byte 1
 /* SPECIES_SNEASLER        */ .byte 0
 /* SPECIES_OVERQWIL        */ .byte 0
-/* SPECIES_ENAMORUS        */ .byte 1
+/* SPECIES_EXEGGRATOR        */ .byte 1
 /* SPECIES_SPRIGATITO      */ .byte 0
 /* SPECIES_FLORAGATO       */ .byte 0
 /* SPECIES_MEOWSCARADA     */ .byte 0
@@ -2114,7 +2114,7 @@ NumOfOWFormsPerMon:
 /* SPECIES_TINKATON        */ .byte 0
 /* SPECIES_WIGLETT         */ .byte 0
 /* SPECIES_WUGTRIO         */ .byte 0
-/* SPECIES_BOMBIRDIER      */ .byte 0
+/* SPECIES_GRIMFOWL      */ .byte 0
 /* SPECIES_FINIZEN         */ .byte 0
 /* SPECIES_PALAFIN         */ .byte 0
 /* SPECIES_VAROOM          */ .byte 0
@@ -2171,7 +2171,7 @@ NumOfOWFormsPerMon:
 /* SPECIES_FEZANDIPITI     */ .byte 0
 /* SPECIES_OGERPON         */ .byte 3
 /* SPECIES_ARCHALUDON      */ .byte 0
-/* SPECIES_HYDRAPPLE       */ .byte 0
+/* SPECIES_TOWRINBELL       */ .byte 0
 /* SPECIES_ENLONG    */ .byte 0
 /* SPECIES_RAILONG     */ .byte 0
 /* SPECIES_IRON_BOULDER    */ .byte 0
@@ -2209,7 +2209,7 @@ overworlddata    8, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_WARTOR
 overworlddata    9, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_BLASTOISE
 overworlddata   10, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_CATERPIE
 overworlddata   11, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_METAPOD
-overworlddata   12, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_SLOW // SPECIES_BUTTERFREE
+overworlddata   12, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_SLOW // SPECIES_MANOMOTH
 overworlddata   13, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_WEEDLE
 overworlddata   14, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_KAKUNA
 overworlddata   15, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_SLOW // SPECIES_BEEDRILL
@@ -2327,7 +2327,7 @@ overworlddata  126, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_GRIMER
 overworlddata  127, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // alola
 overworlddata  128, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_MUK
 overworlddata  129, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // alola
-overworlddata  130, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SHELLDER
+overworlddata  130, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SHOALDER
 overworlddata  131, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_CLOYSTER
 overworlddata  132, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_SLOW // SPECIES_GASTLY
 overworlddata  133, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_HAUNTER
@@ -2418,7 +2418,7 @@ overworlddata  217, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_FURRET
 overworlddata  218, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_HOOTHOOT
 overworlddata  219, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_SLOW // SPECIES_NOCTOWL
 overworlddata  220, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_SLOW // SPECIES_LEDYBA
-overworlddata  221, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_SLOW // SPECIES_LEDIAN
+overworlddata  221, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_SLOW // SPECIES_LEDIASTRA
 overworlddata  222, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SPINARAK
 overworlddata  223, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_ARIADOS
 overworlddata  224, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_SLOW // SPECIES_CROBAT
@@ -2637,8 +2637,8 @@ overworlddata  436, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_BALTOY
 overworlddata  437, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_CLAYDOL
 overworlddata  438, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_LILEEP
 overworlddata  439, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_CRADILY
-overworlddata  440, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_ANORITH
-overworlddata  441, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_ARMALDO
+overworlddata  440, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_FANGOOSE
+overworlddata  441, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SHIVIPER
 overworlddata  442, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_FEEBAS
 overworlddata  443, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_MILOTIC
 overworlddata  444, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_CASTFORM
@@ -2651,7 +2651,7 @@ overworlddata  450, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_BANETT
 overworlddata  451, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_DUSKULL
 overworlddata  452, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_DUSCLOPS
 overworlddata  453, OVERWORLD_CAN_ENTER,                    01 // SPECIES_TROPIUS
-overworlddata  454, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_CHIMECHO
+overworlddata  454, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_KANECHO
 overworlddata  455, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_ABSOL
 overworlddata  456, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_WYNAUT
 overworlddata  457, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SNORUNT
@@ -2768,7 +2768,7 @@ overworlddata  567, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SNOVER
 overworlddata  568, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_ABOMASNOW
 overworlddata  569, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_WEAVILE
 overworlddata  570, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_MAGNEZONE
-overworlddata  571, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_LICKILICKY
+overworlddata  571, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_STICKITUNG
 overworlddata  572, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_RHYPERIOR
 overworlddata  573, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_TANGROWTH
 overworlddata  574, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_ELECTIVIRE
@@ -2798,7 +2798,7 @@ overworlddata  597,  OVERWORLD_NO_ENTRY, OVERWORLD_BOUNCE_FAST // origin
 overworlddata  598,  OVERWORLD_NO_ENTRY, OVERWORLD_BOUNCE_FAST // SPECIES_PALKIA
 overworlddata  599,  OVERWORLD_NO_ENTRY, OVERWORLD_BOUNCE_FAST // origin
 overworlddata  600, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_HEATRAN
-overworlddata  601,  OVERWORLD_NO_ENTRY, OVERWORLD_BOUNCE_FAST // SPECIES_REGIGIGAS
+overworlddata  601,  OVERWORLD_NO_ENTRY, OVERWORLD_BOUNCE_FAST // SPECIES_TRAPACE
 overworlddata  602,  OVERWORLD_NO_ENTRY, OVERWORLD_BOUNCE_FAST // SPECIES_GIRATINA
 overworlddata  603,  OVERWORLD_NO_ENTRY, OVERWORLD_BOUNCE_SLOW // origin
 overworlddata  604, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_CRESSELIA
@@ -2807,7 +2807,7 @@ overworlddata  606, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_MANAPH
 overworlddata  607, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_DARKRAI
 overworlddata  608, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SHAYMIN
 overworlddata  609, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_SLOW // sky
-overworlddata  610,  OVERWORLD_NO_ENTRY, OVERWORLD_BOUNCE_SLOW // SPECIES_ARCEUS
+overworlddata  610,  OVERWORLD_NO_ENTRY, OVERWORLD_BOUNCE_SLOW // SPECIES_OCULEUS
 overworlddata  611,  OVERWORLD_NO_ENTRY, OVERWORLD_BOUNCE_SLOW // fight
 overworlddata  612,  OVERWORLD_NO_ENTRY, OVERWORLD_BOUNCE_SLOW // fly
 overworlddata  613,  OVERWORLD_NO_ENTRY, OVERWORLD_BOUNCE_SLOW // poison
@@ -2842,7 +2842,7 @@ overworlddata  641, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_LILLIP
 overworlddata  642, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_HERDIER
 overworlddata  643, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_STOUTLAND
 overworlddata  644, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_PURRLOIN
-overworlddata  645, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_LIEPARD
+overworlddata  645, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_FOLIAPARD
 overworlddata  646, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_PANSAGE
 overworlddata  647, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SIMISAGE
 overworlddata  648, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_PANSEAR
@@ -2865,14 +2865,14 @@ overworlddata  664, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_SWOOBA
 overworlddata  665, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_DRILBUR
 overworlddata  666, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_EXCADRILL
 overworlddata  667, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_AUDINO
-overworlddata  668, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_TIMBURR
-overworlddata  669, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_GURDURR
-overworlddata  670, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_CONKELDURR
+overworlddata  668, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_GARGON
+overworlddata  669, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_WARDERN
+overworlddata  670, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_DRAGOYLE
 overworlddata  671, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_TYMPOLE
 overworlddata  672, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_PALPITOAD
 overworlddata  673, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SEISMITOAD
 overworlddata  674, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SNORLAX_SUMO
-overworlddata  675, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SAWK
+overworlddata  675, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_LEDIAN
 overworlddata  676, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SEWADDLE
 overworlddata  677, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SWADLOON
 overworlddata  678, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_LEAVANNY
@@ -2882,7 +2882,7 @@ overworlddata  681, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_SCOLIP
 overworlddata  682, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_COTTONEE
 overworlddata  683, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_WHIMSICOTT
 overworlddata  684, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_PETILIL
-overworlddata  685, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_LILLIGANT
+overworlddata  685, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_CHATINGALE
 overworlddata  686, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // hisui
 overworlddata  687, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_BASCULIN
 overworlddata  688, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // blue stripe
@@ -2896,7 +2896,7 @@ overworlddata  695, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_DARMAN
 overworlddata  696, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // galar
 overworlddata  697, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // zen mode
 overworlddata  698, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // galar zen mode
-overworlddata  699, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_MARACTUS
+overworlddata  699, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_KUDOWOODO
 overworlddata  700, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_DWEBBLE
 overworlddata  701, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_CRUSTLE
 overworlddata  702, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SCRAGGY
@@ -2924,7 +2924,7 @@ overworlddata  723, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SOLOSI
 overworlddata  724, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_DUOSION
 overworlddata  725, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_REUNICLUS
 overworlddata  726, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_DUCKLETT
-overworlddata  727, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_SWANNA
+overworlddata  727, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_REFINITTY
 overworlddata  728, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_VANILLITE
 overworlddata  729, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_VANILLISH
 overworlddata  730, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_VANILLUXE
@@ -2950,9 +2950,9 @@ overworlddata  749, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_JOLTIK
 overworlddata  750, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_GALVANTULA
 overworlddata  751, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_FERROSEED
 overworlddata  752, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_SLOW // SPECIES_FERROTHORN
-overworlddata  753, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_KLINK
-overworlddata  754, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_KLANG
-overworlddata  755, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_SLOW // SPECIES_KLINKLANG
+overworlddata  753, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_RUBEYE
+overworlddata  754, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_MAWSUM
+overworlddata  755, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_SLOW // SPECIES_MAGNETTLES
 overworlddata  756, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_TYNAMO
 overworlddata  757, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_EELEKTRIK
 overworlddata  758, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_EELEKTROSS
@@ -2973,7 +2973,7 @@ overworlddata  772, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_STUNFI
 overworlddata  773, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // galar
 overworlddata  774, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_MIENFOO
 overworlddata  775, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_MIENSHAO
-overworlddata  776, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_SLOW // SPECIES_DRUDDIGON
+overworlddata  776, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_SLOW // SPECIES_GRETSKI
 overworlddata  777, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_GOLETT
 overworlddata  778, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_SLOW // SPECIES_GOLURK
 overworlddata  779, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_PAWNIARD
@@ -2982,9 +2982,9 @@ overworlddata  781, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_BOUFFA
 overworlddata  782, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_RUFFLET
 overworlddata  783, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_BRAVIARY
 overworlddata  784, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // hisui
-overworlddata  785, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_VULLABY
-overworlddata  786, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_MANDIBUZZ
-overworlddata  787, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_HEATMOR
+overworlddata  785, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_NOHFACE
+overworlddata  786, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_KITSUNOH
+overworlddata  787, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_CALDERAZER
 overworlddata  788, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_DURANT
 overworlddata  789, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_DEINO
 overworlddata  790, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_ZWEILOUS
@@ -2993,12 +2993,12 @@ overworlddata  792, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_LARVES
 overworlddata  793, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_VOLCARONA
 overworlddata  794, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_COBALION
 overworlddata  795, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_TERRAKION
-overworlddata  796, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_VIRIZION
-overworlddata  797,  OVERWORLD_NO_ENTRY, OVERWORLD_BOUNCE_SLOW // SPECIES_TORNADUS
+overworlddata  796, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_BAOBY
+overworlddata  797,  OVERWORLD_NO_ENTRY, OVERWORLD_BOUNCE_SLOW // SPECIES_BAOBARAFFE
 overworlddata  798,  OVERWORLD_NO_ENTRY, OVERWORLD_BOUNCE_SLOW // therian
 overworlddata  799,  OVERWORLD_NO_ENTRY, OVERWORLD_BOUNCE_SLOW // SPECIES_THUNDURUS
 overworlddata  800,  OVERWORLD_NO_ENTRY, OVERWORLD_BOUNCE_SLOW // therian
-overworlddata  801,  OVERWORLD_NO_ENTRY, OVERWORLD_BOUNCE_SLOW // SPECIES_RESHIRAM
+overworlddata  801,  OVERWORLD_NO_ENTRY, OVERWORLD_BOUNCE_SLOW // SPECIES_GALEPRANO
 overworlddata  802,  OVERWORLD_NO_ENTRY, OVERWORLD_BOUNCE_SLOW // SPECIES_ZEKROM
 overworlddata  803,  OVERWORLD_NO_ENTRY, OVERWORLD_BOUNCE_SLOW // SPECIES_LANDORUS
 overworlddata  804,  OVERWORLD_NO_ENTRY, OVERWORLD_BOUNCE_SLOW // therian
@@ -3066,7 +3066,7 @@ overworlddata  865, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // orange
 overworlddata  866, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // blue
 overworlddata  867, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // white
 overworlddata  868, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SKIDDO
-overworlddata  869, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_GOGOAT
+overworlddata  869, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_YETYRANT
 overworlddata  870, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_PANCHAM
 overworlddata  871, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_SLOW // SPECIES_PANGORO
 overworlddata  872, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_FURFROU
@@ -3089,14 +3089,14 @@ overworlddata  888, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SPRITZ
 overworlddata  889, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_AROMATISSE
 overworlddata  890, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SWIRLIX
 overworlddata  891, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SLURPUFF
-overworlddata  892, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_INKAY
-overworlddata  893, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_MALAMAR
-overworlddata  894, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_BINACLE
-overworlddata  895, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SOROBORO
+overworlddata  892, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_BILLY
+overworlddata  893, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_GANESHADE
+overworlddata  894, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SHELLDURE
+overworlddata  895, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SNAELSTROM
 overworlddata  896, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SKRELP
 overworlddata  897, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_DRAGALGE
 overworlddata  898, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_CLAUNCHER
-overworlddata  899, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_CLAWITZER
+overworlddata  899, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_CEPHALANZER
 overworlddata  900, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_HELIOPTILE
 overworlddata  901, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_HELIOLISK
 overworlddata  902, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_TYRUNT
@@ -3104,7 +3104,7 @@ overworlddata  903, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_TYRANT
 overworlddata  904, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_AMAURA
 overworlddata  905, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_AURORUS
 overworlddata  906, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SYLVEON
-overworlddata  907, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_HAWLUCHA
+overworlddata  907, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_MED // SPECIES_SOROBORO
 overworlddata  908, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_DEDENNE
 overworlddata  909, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_CARBINK
 overworlddata  910, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_GOOMY
@@ -3124,12 +3124,12 @@ overworlddata  923, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // small
 overworlddata  924, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // large
 overworlddata  925, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // super
 overworlddata  926, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_BERGMITE
-overworlddata  927, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_AVALUGG
+overworlddata  927, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_DRAGODOS
 overworlddata  928, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // hisui
 overworlddata  929, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_NOIBAT
 overworlddata  930, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_NOIVERN
-overworlddata  931, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_XERNEAS
-overworlddata  932, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_YVELTAL
+overworlddata  931, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_BUTTERFAE
+overworlddata  932, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_ARCOON
 overworlddata  933, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_ZYGARDE
 overworlddata  934, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // 10
 overworlddata  935, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // 10 power construct?
@@ -3146,7 +3146,7 @@ overworlddata  945, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_DECIDU
 overworlddata  946, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // hisui
 overworlddata  947, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_PIEP
 overworlddata  948, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_PRRING
-overworlddata  949, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_INCINEROAR
+overworlddata  949, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_HOUNDEMON
 overworlddata  950, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_POPPLIO
 overworlddata  951, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_BRIONNE
 overworlddata  952, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_PRIMARINA
@@ -3156,11 +3156,11 @@ overworlddata  955, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_TOUCAN
 overworlddata  956, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_YUNGOOS
 overworlddata  957, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_GUMSHOOS
 overworlddata  958, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_GRUBBIN
-overworlddata  959, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_CHARJABUG
+overworlddata  959, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_KRICKETUTTI
 overworlddata  960, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_VIKAVOLT
 overworlddata  961, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_EVINSIR
 overworlddata  962, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_CRABOMINABLE
-overworlddata  963, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_ORICORIO
+overworlddata  963, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_NUGGLE
 overworlddata  964, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // pom pom
 overworlddata  965, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // psu
 overworlddata  966, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // sensu
@@ -3185,17 +3185,17 @@ overworlddata  984, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SHIINO
 overworlddata  985, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SALANDIT
 overworlddata  986, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SALAZZLE
 overworlddata  987, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_STUFFUL
-overworlddata  988, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_BEWEAR
+overworlddata  988, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_BIBABOBER
 overworlddata  989, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_BOUNSWEET
 overworlddata  990, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_STEENEE
 overworlddata  991, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_TSAREENA
-overworlddata  992, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_COMFEY
-overworlddata  993, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_ORANGURU
-overworlddata  994, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_PASSIMIAN
+overworlddata  992, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_FIXIE
+overworlddata  993, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_STANTABIRD
+overworlddata  994, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_RATUITUS
 overworlddata  995, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_WIMPOD
 overworlddata  996, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_GOLISOPOD
-overworlddata  997, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SANDYGAST
-overworlddata  998, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_PALOSSAND
+overworlddata  997, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_VOODOLL
+overworlddata  998, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_VOODOOM
 overworlddata  999, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_PYUKUMUKU
 overworlddata 1000, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_TYPE_NULL
 overworlddata 1001, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SILVALLY
@@ -3229,11 +3229,11 @@ overworlddata 1028, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_OMEGA
 overworlddata 1029, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_MIMIKYU
 overworlddata 1030, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_BRUXISH
 overworlddata 1031, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_DRAMPA
-overworlddata 1032, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_DHELMISE
+overworlddata 1032, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_ZIPRIPPER
 overworlddata 1033, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_JANGMO_O
 overworlddata 1034, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_HAKAMO_O
 overworlddata 1035, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_KOMMO_O
-overworlddata 1036, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_TAPU_KOKO
+overworlddata 1036, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_ELEMANTLE
 overworlddata 1037, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_TAPU_LELE
 overworlddata 1038, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_TAPU_BULU
 overworlddata 1039, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_TAPU_FINI
@@ -3242,7 +3242,7 @@ overworlddata 1041, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_COSMOE
 overworlddata 1042, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SOLGALEO
 overworlddata 1043, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_LUNALA
 overworlddata 1044, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_NIHILEGO
-overworlddata 1045, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_BUZZWOLE
+overworlddata 1045, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_ARACCUBUS
 overworlddata 1046, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_PHEROMOSA
 overworlddata 1047, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_XURKITREE
 overworlddata 1048, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_CELESTEELA
@@ -3271,7 +3271,7 @@ overworlddata 1070, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SOBBLE
 overworlddata 1071, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_DRIZZILE
 overworlddata 1072, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_INTELEON
 overworlddata 1073, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SKWOVET
-overworlddata 1074, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_GREEDENT
+overworlddata 1074, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_PACHIKUSU
 overworlddata 1075, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_ROOKIDEE
 overworlddata 1076, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_CORVISQUIRE
 overworlddata 1077, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_CORVIKNIGHT
@@ -3298,7 +3298,7 @@ overworlddata 1097, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SILICO
 overworlddata 1098, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SANDACONDA
 overworlddata 1099, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_CRAMORANT
 overworlddata 1100, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_ARROKUDA
-overworlddata 1101, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_BARRASKEWDA
+overworlddata 1101, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_DAMPEROR
 overworlddata 1102, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_TOXEL
 overworlddata 1103, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_GOROCHU
 overworlddata 1104, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // low key
@@ -3312,10 +3312,10 @@ overworlddata 1111, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_POLTEA
 overworlddata 1112, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // antique
 overworlddata 1113, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_HATENNA
 overworlddata 1114, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_HATTREM
-overworlddata 1115, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_CEOKING
-overworlddata 1116, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_IMPIDIMP
-overworlddata 1117, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_MORGREM
-overworlddata 1118, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_GRIMMSNARL
+overworlddata 1115, OVERWORLD_CAN_ENTER,  OVERWORLD_BOUNCE_MED // SPECIES_HATTERENE
+overworlddata 1116, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_DRASHIMI
+overworlddata 1117, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_TSUSHIMI
+overworlddata 1118, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_TOBISHIMI
 overworlddata 1119, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_OBSTAGOON
 overworlddata 1120, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_PERRSERKER
 overworlddata 1121, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_CURSOLA
@@ -3334,7 +3334,7 @@ overworlddata 1133, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_FALINK
 overworlddata 1134, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_PINCURCHIN
 overworlddata 1135, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SNOM
 overworlddata 1136, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_FROSMOTH
-overworlddata 1137, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_STONJOURNER
+overworlddata 1137, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_MANEEKO
 overworlddata 1138, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_PINGWINNER
 overworlddata 1139, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_INDEEDEE
 overworlddata 1140, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // female
@@ -3342,25 +3342,25 @@ overworlddata 1141, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_MORPEK
 overworlddata 1142, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_CUFANT
 overworlddata 1143, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_COPPERAJAH
 overworlddata 1144, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_DRACOZOLT
-overworlddata 1145, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_ARCTOZOLT
-overworlddata 1146, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_DRACOVISH
+overworlddata 1145, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_CRYAK
+overworlddata 1146, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SHOX
 overworlddata 1147, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_ARCTOVISH
 overworlddata 1148, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_DURALUDON
 overworlddata 1149, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_DREEPY
 overworlddata 1150, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_DRAKLOAK
 overworlddata 1151, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_DRAGAPULT
 overworlddata 1152, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_ZACIAN
-overworlddata 1153, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_ZAMAZENTA
+overworlddata 1153, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_CHROMERA
 overworlddata 1154,  OVERWORLD_NO_ENTRY, OVERWORLD_BOUNCE_SLOW // SPECIES_ETERNATUS
 overworlddata 1155, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_KUBFU
 overworlddata 1156, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_URSHIFU
 overworlddata 1157, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // rapid strike
 overworlddata 1158, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_ZARUDE
 overworlddata 1159, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // dada
-overworlddata 1160, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_REGIELEKI
-overworlddata 1161, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_REGIDRAGO
-overworlddata 1162,  OVERWORLD_NO_ENTRY, OVERWORLD_BOUNCE_SLOW // SPECIES_GLASTRIER
-overworlddata 1163,  OVERWORLD_NO_ENTRY, OVERWORLD_BOUNCE_SLOW // SPECIES_SPECTRIER
+overworlddata 1160, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_KOTORA
+overworlddata 1161, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_RAITORA
+overworlddata 1162,  OVERWORLD_NO_ENTRY, OVERWORLD_BOUNCE_SLOW // SPECIES_CEOKING
+overworlddata 1163,  OVERWORLD_NO_ENTRY, OVERWORLD_BOUNCE_SLOW // SPECIES_FURTUR
 overworlddata 1164, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_CALYREX
 overworlddata 1165, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // ice rider
 overworlddata 1166, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // shadow rider
@@ -3372,7 +3372,7 @@ overworlddata 1171, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_BASCUL
 overworlddata 1172, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // female
 overworlddata 1173, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SNEASLER
 overworlddata 1174, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_OVERQWIL
-overworlddata 1175,  OVERWORLD_NO_ENTRY, OVERWORLD_BOUNCE_SLOW // SPECIES_ENAMORUS
+overworlddata 1175,  OVERWORLD_NO_ENTRY, OVERWORLD_BOUNCE_SLOW // SPECIES_EXEGGRATOR
 overworlddata 1176,  OVERWORLD_NO_ENTRY, OVERWORLD_BOUNCE_SLOW // therian
 overworlddata 1177, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_SPRIGATITO
 overworlddata 1178, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_FLORAGATO
@@ -3435,7 +3435,7 @@ overworlddata 1234, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_TINKAT
 overworlddata 1235, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_TINKATON
 overworlddata 1236, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_WIGLETT
 overworlddata 1237, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_WUGTRIO
-overworlddata 1238, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_BOMBIRDIER
+overworlddata 1238, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_GRIMFOWL
 overworlddata 1239, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_FINIZEN
 overworlddata 1240, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_PALAFIN
 overworlddata 1241, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_VAROOM
@@ -3504,7 +3504,7 @@ overworlddata 1303, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // cornerstone
 overworlddata 1304, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // hearthflame
 overworlddata 1305, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // wellspring
 overworlddata 1306, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_ARCHALUDON
-overworlddata 1307, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_HYDRAPPLE
+overworlddata 1307, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_TOWRINBELL
 overworlddata 1308, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_ENLONG
 overworlddata 1309, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_RAILONG
 overworlddata 1310, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // SPECIES_IRON_BOULDER

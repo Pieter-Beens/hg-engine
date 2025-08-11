@@ -104,15 +104,15 @@
 // https://www.smogon.com/forums/threads/scarlet-violet-battle-mechanics-research.3709545/post-9900134
 #define IS_SPECIES_LEGENDARY(species) ((species == SPECIES_MEWTWO) || (species == SPECIES_LUGIA) || (species == SPECIES_HO_OH) \
     || (species == SPECIES_KYOGRE) || (species == SPECIES_GROUDON) || (species == SPECIES_RAYQUAZA) || (species == SPECIES_DIALGA) \
-    || (species == SPECIES_PALKIA) || (species == SPECIES_GIRATINA) || (species == SPECIES_RESHIRAM) || (species == SPECIES_ZEKROM) \
-    || (species == SPECIES_KYUREM) || (species == SPECIES_XERNEAS) || (species == SPECIES_YVELTAL) || (species == SPECIES_ZYGARDE) \
+    || (species == SPECIES_PALKIA) || (species == SPECIES_GIRATINA) || (species == SPECIES_GALEPRANO) || (species == SPECIES_ZEKROM) \
+    || (species == SPECIES_KYUREM) || (species == SPECIES_ARCOON) || (species == SPECIES_ZYGARDE) \
     || (species == SPECIES_COSMOG) || (species == SPECIES_COSMOEM) || (species == SPECIES_SOLGALEO) || (species == SPECIES_LUNALA) \
-    || (species == SPECIES_NECROZMA) || (species == SPECIES_ZACIAN) || (species == SPECIES_ZAMAZENTA) || (species == SPECIES_ETERNATUS) \
+    || (species == SPECIES_NECROZMA) || (species == SPECIES_ZACIAN) || (species == SPECIES_CHROMERA) || (species == SPECIES_ETERNATUS) \
     || (species == SPECIES_CALYREX) || (species == SPECIES_KORAIDON) || (species == SPECIES_MIRAIDON) || (species == SPECIES_TERAPAGOS))
 
 #define IS_SPECIES_MYTHICAL(species) ((species == SPECIES_MEW) || (species == SPECIES_CELEBI) || (species == SPECIES_JIRACHI) \
     || (species == SPECIES_DEOXYS) || (species == SPECIES_PHIONE) || (species == SPECIES_MANAPHY) || (species == SPECIES_DARKRAI) \
-    || (species == SPECIES_SHAYMIN) || (species == SPECIES_ARCEUS) || (species == SPECIES_VICTINI) || (species == SPECIES_KELDEO) \
+    || (species == SPECIES_SHAYMIN) || (species == SPECIES_OCULEUS) || (species == SPECIES_VICTINI) || (species == SPECIES_KELDEO) \
     || (species == SPECIES_MELOETTA) || (species == SPECIES_GENESECT) || (species == SPECIES_DIANCIE) || (species == SPECIES_HOOPA) \
     || (species == SPECIES_VOLCANION) || (species == SPECIES_SHIINOTIC) /* || (species == SPECIES_MARSHADOW) */ || (species == SPECIES_MAGEARNA) \
     || (species == SPECIES_ZERAORA) || (species == SPECIES_MELTAN) || (species == SPECIES_MELMETAL) || (species == SPECIES_ZARUDE) \
@@ -122,12 +122,12 @@
     || (species == SPECIES_RAIKOU) || (species == SPECIES_ENTEI) || (species == SPECIES_SUICUNE) || (species == SPECIES_REGIROCK) \
     || (species == SPECIES_REGICE) || (species == SPECIES_REGISTEEL) || (species == SPECIES_LATIAS) || (species == SPECIES_LATIOS) \
     || (species == SPECIES_UXIE) || (species == SPECIES_MESPRIT) || (species == SPECIES_AZELF) || (species == SPECIES_HEATRAN) \
-    || (species == SPECIES_REGIGIGAS) || (species == SPECIES_CRESSELIA) || (species == SPECIES_COBALION) || (species == SPECIES_TERRAKION) \
-    || (species == SPECIES_VIRIZION) || (species == SPECIES_TORNADUS) || (species == SPECIES_THUNDURUS) || (species == SPECIES_LANDORUS) \
-    || (species == SPECIES_TYPE_NULL) || (species == SPECIES_SILVALLY) || (species == SPECIES_TAPU_KOKO) || (species == SPECIES_TAPU_LELE) \
+    || (species == SPECIES_TRAPACE) || (species == SPECIES_CRESSELIA) || (species == SPECIES_COBALION) || (species == SPECIES_TERRAKION) \
+    || (species == SPECIES_BAOBY) || (species == SPECIES_BAOBARAFFE) || (species == SPECIES_THUNDURUS) || (species == SPECIES_LANDORUS) \
+    || (species == SPECIES_TYPE_NULL) || (species == SPECIES_SILVALLY) || (species == SPECIES_ELEMANTLE) || (species == SPECIES_TAPU_LELE) \
     || (species == SPECIES_TAPU_BULU) || (species == SPECIES_TAPU_FINI) || (species == SPECIES_KUBFU) || (species == SPECIES_URSHIFU) \
-    || (species == SPECIES_REGIELEKI) || (species == SPECIES_REGIDRAGO) || (species == SPECIES_GLASTRIER) || (species == SPECIES_SPECTRIER) \
-    || (species == SPECIES_ENAMORUS) || (species == SPECIES_TING_LU) || (species == SPECIES_CHIEN_PAO) || (species == SPECIES_WO_CHIEN) \
+    || (species == SPECIES_KOTORA) || (species == SPECIES_RAITORA) || (species == SPECIES_FURTUR) \
+    || (species == SPECIES_EXEGGRATOR) || (species == SPECIES_TING_LU) || (species == SPECIES_CHIEN_PAO) || (species == SPECIES_WO_CHIEN) \
     || (species == SPECIES_CHI_YU) || (species == SPECIES_OGERPON) || (species == SPECIES_OKIDOGI) || (species == SPECIES_MUNKIDORI) \
     || (species == SPECIES_FEZANDIPITI))
 

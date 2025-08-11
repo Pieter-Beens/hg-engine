@@ -24,8 +24,8 @@
 //.halfword SPECIES_BOUNSWEET
 //.halfword SPECIES_CARKOL
 //.halfword SPECIES_HATENNA
-//.halfword SPECIES_STONJOURNER
-//.halfword SPECIES_DRACOVISH
+//.halfword SPECIES_MANEEKO
+//.halfword SPECIES_SHOX
 
 
 .close

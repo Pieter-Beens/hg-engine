@@ -45,11 +45,11 @@
 //.halfword SPECIES_HELIOPTILE
 //.halfword SPECIES_HELIOLISK
 //.halfword SPECIES_DEDENNSE
-//.halfword SPECIES_CHARJABUG
+//.halfword SPECIES_KRICKETUTTI
 //.halfword SPECIES_VIKAVOLT
-//.halfword SPECIES_ORICORIO
+//.halfword SPECIES_NUGGLE
 //.halfword SPECIES_OMEGA
-//.halfword SPECIES_TAPU_KOKO
+//.halfword SPECIES_ELEMANTLE
 //.halfword SPECIES_XURKITREE
 //.halfword SPECIES_ZERARORA
 //.halfword SPECIES_YAMPER
@@ -59,8 +59,8 @@
 //.halfword SPECIES_PINCURCHIN
 //.halfword SPECIES_MORPEKO
 //.halfword SPECIES_DRACOZOLT
-//.halfword SPECIES_ARCTOZOLT
-//.halfword SPECIES_REGIELEKI
+//.halfword SPECIES_CRYAK
+//.halfword SPECIES_KOTORA
 
 
 .close

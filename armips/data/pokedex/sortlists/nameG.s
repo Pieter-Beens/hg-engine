@@ -43,7 +43,7 @@
 .halfword SPECIES_GROWLITHE
 .halfword SPECIES_GRUMPIG
 .halfword SPECIES_GULPIN
-.halfword SPECIES_GURDURR
+.halfword SPECIES_WARDERN
 .halfword SPECIES_GYARADOS
 
 

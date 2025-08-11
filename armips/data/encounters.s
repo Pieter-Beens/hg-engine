@@ -95,7 +95,7 @@ encounter SPECIES_AZUMARILL, 25, 25
 
 // super rod encounters
 encounter SPECIES_CHINCHOU, 40, 40
-encounter SPECIES_SHELLDER, 40, 40
+encounter SPECIES_SHOALDER, 40, 40
 encounter SPECIES_TENTACRUEL, 40, 40
 encounter SPECIES_LANTURN, 40, 40
 encounter SPECIES_TENTACRUEL, 40, 40
@@ -105,7 +105,7 @@ pokemon SPECIES_NONE
 // swarm surf
 pokemon SPECIES_TENTACOOL
 // swarm good rod
-pokemon SPECIES_SHELLDER
+pokemon SPECIES_SHOALDER
 // swarm super rod
 pokemon SPECIES_MAGIKARP
 
@@ -4470,7 +4470,7 @@ encounter SPECIES_CHINCHOU, 20, 25
 
 // super rod encounters
 encounter SPECIES_CHINCHOU, 40, 40
-encounter SPECIES_SHELLDER, 40, 40
+encounter SPECIES_SHOALDER, 40, 40
 encounter SPECIES_TENTACRUEL, 40, 40
 encounter SPECIES_LANTURN, 40, 40
 encounter SPECIES_TENTACRUEL, 40, 40
@@ -4480,7 +4480,7 @@ pokemon SPECIES_NONE
 // swarm surf
 pokemon SPECIES_TENTACOOL
 // swarm good rod
-pokemon SPECIES_SHELLDER
+pokemon SPECIES_SHOALDER
 // swarm super rod
 pokemon SPECIES_MAGIKARP
 
@@ -4530,8 +4530,8 @@ pokemon SPECIES_SHELLOS
 pokemon SPECIES_CLOBBOPUS
 pokemon SPECIES_STARYU
 pokemon SPECIES_STARYU
-pokemon SPECIES_SHELLDER
-pokemon SPECIES_SHELLDER
+pokemon SPECIES_SHOALDER
+pokemon SPECIES_SHOALDER
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
@@ -4634,8 +4634,8 @@ pokemon SPECIES_SHELLOS
 pokemon SPECIES_CLOBBOPUS
 pokemon SPECIES_STARYU
 pokemon SPECIES_STARYU
-pokemon SPECIES_SHELLDER
-pokemon SPECIES_SHELLDER
+pokemon SPECIES_SHOALDER
+pokemon SPECIES_SHOALDER
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
@@ -4842,8 +4842,8 @@ pokemon SPECIES_SHELLOS
 pokemon SPECIES_CLOBBOPUS
 pokemon SPECIES_STARYU
 pokemon SPECIES_STARYU
-pokemon SPECIES_SHELLDER
-pokemon SPECIES_SHELLDER
+pokemon SPECIES_SHOALDER
+pokemon SPECIES_SHOALDER
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
@@ -5050,8 +5050,8 @@ pokemon SPECIES_SHELLOS
 pokemon SPECIES_CLOBBOPUS
 pokemon SPECIES_STARYU
 pokemon SPECIES_STARYU
-pokemon SPECIES_SHELLDER
-pokemon SPECIES_SHELLDER
+pokemon SPECIES_SHOALDER
+pokemon SPECIES_SHOALDER
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
@@ -7486,7 +7486,7 @@ encounter SPECIES_CHINCHOU, 20, 25
 
 // super rod encounters
 encounter SPECIES_CHINCHOU, 40, 40
-encounter SPECIES_SHELLDER, 40, 40
+encounter SPECIES_SHOALDER, 40, 40
 encounter SPECIES_TENTACRUEL, 40, 40
 encounter SPECIES_LANTURN, 40, 40
 encounter SPECIES_TENTACRUEL, 40, 40
@@ -7496,7 +7496,7 @@ pokemon SPECIES_DITTO
 // swarm surf
 pokemon SPECIES_TENTACOOL
 // swarm good rod
-pokemon SPECIES_SHELLDER
+pokemon SPECIES_SHOALDER
 // swarm super rod
 pokemon SPECIES_MAGIKARP
 
@@ -9873,12 +9873,12 @@ encounter SPECIES_TENTACOOL, 10, 10
 encounter SPECIES_MAGIKARP, 20, 20
 encounter SPECIES_TENTACOOL, 20, 20
 encounter SPECIES_CHINCHOU, 20, 20
-encounter SPECIES_SHELLDER, 20, 20
+encounter SPECIES_SHOALDER, 20, 20
 encounter SPECIES_CHINCHOU, 20, 20
 
 // super rod encounters
 encounter SPECIES_CHINCHOU, 40, 40
-encounter SPECIES_SHELLDER, 40, 40
+encounter SPECIES_SHOALDER, 40, 40
 encounter SPECIES_TENTACRUEL, 40, 40
 encounter SPECIES_LANTURN, 40, 40
 encounter SPECIES_TENTACRUEL, 40, 40
@@ -9888,7 +9888,7 @@ pokemon SPECIES_NONE
 // swarm surf
 pokemon SPECIES_TENTACOOL
 // swarm good rod
-pokemon SPECIES_SHELLDER
+pokemon SPECIES_SHOALDER
 // swarm super rod
 pokemon SPECIES_MAGIKARP
 
@@ -9977,12 +9977,12 @@ encounter SPECIES_TENTACOOL, 10, 10
 encounter SPECIES_MAGIKARP, 20, 20
 encounter SPECIES_TENTACOOL, 20, 20
 encounter SPECIES_CHINCHOU, 20, 20
-encounter SPECIES_SHELLDER, 20, 20
+encounter SPECIES_SHOALDER, 20, 20
 encounter SPECIES_CHINCHOU, 20, 20
 
 // super rod encounters
 encounter SPECIES_CHINCHOU, 40, 40
-encounter SPECIES_SHELLDER, 40, 40
+encounter SPECIES_SHOALDER, 40, 40
 encounter SPECIES_TENTACRUEL, 40, 40
 encounter SPECIES_LANTURN, 40, 40
 encounter SPECIES_TENTACRUEL, 40, 40
@@ -9992,7 +9992,7 @@ pokemon SPECIES_NONE
 // swarm surf
 pokemon SPECIES_TENTACOOL
 // swarm good rod
-pokemon SPECIES_SHELLDER
+pokemon SPECIES_SHOALDER
 // swarm super rod
 pokemon SPECIES_MAGIKARP
 
@@ -10289,12 +10289,12 @@ encounter SPECIES_TENTACOOL, 10, 10
 encounter SPECIES_MAGIKARP, 20, 20
 encounter SPECIES_TENTACOOL, 20, 20
 encounter SPECIES_CHINCHOU, 20, 20
-encounter SPECIES_SHELLDER, 20, 20
+encounter SPECIES_SHOALDER, 20, 20
 encounter SPECIES_CHINCHOU, 20, 20
 
 // super rod encounters
 encounter SPECIES_CHINCHOU, 40, 40
-encounter SPECIES_SHELLDER, 40, 40
+encounter SPECIES_SHOALDER, 40, 40
 encounter SPECIES_TENTACRUEL, 40, 40
 encounter SPECIES_LANTURN, 40, 40
 encounter SPECIES_TENTACRUEL, 40, 40
@@ -10304,7 +10304,7 @@ pokemon SPECIES_NONE
 // swarm surf
 pokemon SPECIES_WINGULL
 // swarm good rod
-pokemon SPECIES_SHELLDER
+pokemon SPECIES_SHOALDER
 // swarm super rod
 pokemon SPECIES_MAGIKARP
 
@@ -10601,12 +10601,12 @@ encounter SPECIES_TENTACOOL, 10, 10
 encounter SPECIES_MAGIKARP, 20, 20
 encounter SPECIES_TENTACOOL, 20, 20
 encounter SPECIES_CHINCHOU, 20, 20
-encounter SPECIES_SHELLDER, 20, 20
+encounter SPECIES_SHOALDER, 20, 20
 encounter SPECIES_CHINCHOU, 20, 20
 
 // super rod encounters
 encounter SPECIES_CHINCHOU, 40, 40
-encounter SPECIES_SHELLDER, 40, 40
+encounter SPECIES_SHOALDER, 40, 40
 encounter SPECIES_TENTACRUEL, 40, 40
 encounter SPECIES_LANTURN, 40, 40
 encounter SPECIES_TENTACRUEL, 40, 40
@@ -10616,7 +10616,7 @@ pokemon SPECIES_NONE
 // swarm surf
 pokemon SPECIES_TENTACOOL
 // swarm good rod
-pokemon SPECIES_SHELLDER
+pokemon SPECIES_SHOALDER
 // swarm super rod
 pokemon SPECIES_MAGIKARP
 
@@ -10741,7 +10741,7 @@ walklevels 28, 28, 28, 28, 32, 32, 30, 30, 30, 30, 30, 30
 pokemon SPECIES_SLUGMA
 pokemon SPECIES_DONPHAN
 pokemon SPECIES_ARIADOS
-pokemon SPECIES_LIEPARD
+pokemon SPECIES_FOLIAPARD
 pokemon SPECIES_VIBRAVA
 pokemon SPECIES_VIBRAVA
 pokemon SPECIES_SCYTHER
@@ -10767,9 +10767,9 @@ pokemon SPECIES_SHAYMIN
 
 // night encounter slots
 pokemon SPECIES_ARIADOS
-pokemon SPECIES_LIEPARD
+pokemon SPECIES_FOLIAPARD
 pokemon SPECIES_ARIADOS
-pokemon SPECIES_LIEPARD
+pokemon SPECIES_FOLIAPARD
 pokemon SPECIES_VIBRAVA
 pokemon SPECIES_ARIADOS
 pokemon SPECIES_PINSIR
@@ -10814,7 +10814,7 @@ encounter SPECIES_LUVDISC, 20, 20
 
 // super rod encounters
 encounter SPECIES_CHINCHOU, 40, 40
-encounter SPECIES_SHELLDER, 40, 40
+encounter SPECIES_SHOALDER, 40, 40
 encounter SPECIES_TENTACRUEL, 40, 40
 encounter SPECIES_LANTURN, 40, 40
 encounter SPECIES_TENTACRUEL, 40, 40
@@ -10824,7 +10824,7 @@ pokemon SPECIES_DODUO
 // swarm surf
 pokemon SPECIES_TENTACOOL
 // swarm good rod
-pokemon SPECIES_SHELLDER
+pokemon SPECIES_SHOALDER
 // swarm super rod
 pokemon SPECIES_MAGIKARP
 
@@ -10845,7 +10845,7 @@ walklevels 28, 28, 28, 28, 30, 30, 30, 30, 32, 30, 32, 30
 monwithform SPECIES_PONYTA, 1
 pokemon SPECIES_PRIMEAPE
 pokemon SPECIES_ARIADOS
-pokemon SPECIES_LIEPARD
+pokemon SPECIES_FOLIAPARD
 pokemon SPECIES_ALTARIA
 pokemon SPECIES_ALTARIA
 pokemon SPECIES_SCYTHER
@@ -10871,11 +10871,11 @@ pokemon SPECIES_SHAYMIN
 
 // night encounter slots
 pokemon SPECIES_ARIADOS
-pokemon SPECIES_LIEPARD
+pokemon SPECIES_FOLIAPARD
 pokemon SPECIES_ARIADOS
-pokemon SPECIES_LIEPARD
+pokemon SPECIES_FOLIAPARD
 pokemon SPECIES_ALTARIA
-pokemon SPECIES_LIEPARD
+pokemon SPECIES_FOLIAPARD
 pokemon SPECIES_PINSIR
 pokemon SPECIES_PINSIR
 pokemon SPECIES_PINSIR
@@ -10918,7 +10918,7 @@ encounter SPECIES_LUVDISC, 20, 20
 
 // super rod encounters
 encounter SPECIES_CHINCHOU, 40, 40
-encounter SPECIES_SHELLDER, 40, 40
+encounter SPECIES_SHOALDER, 40, 40
 encounter SPECIES_TENTACRUEL, 40, 40
 encounter SPECIES_LANTURN, 40, 40
 encounter SPECIES_TENTACRUEL, 40, 40
@@ -10928,7 +10928,7 @@ pokemon SPECIES_DODUO
 // swarm surf
 pokemon SPECIES_LUVDISC
 // swarm good rod
-pokemon SPECIES_SHELLDER
+pokemon SPECIES_SHOALDER
 // swarm super rod
 pokemon SPECIES_MAGIKARP
 
@@ -11680,8 +11680,8 @@ pokemon SPECIES_CATERPIE
 pokemon SPECIES_PIDGEY
 pokemon SPECIES_METAPOD
 pokemon SPECIES_METAPOD
-pokemon SPECIES_BUTTERFREE
-pokemon SPECIES_BUTTERFREE
+pokemon SPECIES_MANOMOTH
+pokemon SPECIES_MANOMOTH
 pokemon SPECIES_PIDGEOTTO
 pokemon SPECIES_SPINARAK
 pokemon SPECIES_PIDGEOTTO
@@ -13409,12 +13409,12 @@ encounter SPECIES_TENTACOOL, 10, 10
 encounter SPECIES_MAGIKARP, 20, 20
 encounter SPECIES_TENTACOOL, 20, 20
 encounter SPECIES_CHINCHOU, 20, 20
-encounter SPECIES_SHELLDER, 20, 20
+encounter SPECIES_SHOALDER, 20, 20
 encounter SPECIES_CHINCHOU, 20, 20
 
 // super rod encounters
 encounter SPECIES_CHINCHOU, 40, 40
-encounter SPECIES_SHELLDER, 40, 40
+encounter SPECIES_SHOALDER, 40, 40
 encounter SPECIES_TENTACRUEL, 40, 40
 encounter SPECIES_LANTURN, 40, 40
 encounter SPECIES_TENTACRUEL, 40, 40
@@ -13424,7 +13424,7 @@ pokemon SPECIES_TANGELA
 // swarm surf
 pokemon SPECIES_TENTACOOL
 // swarm good rod
-pokemon SPECIES_SHELLDER
+pokemon SPECIES_SHOALDER
 // swarm super rod
 pokemon SPECIES_MAGIKARP
 
@@ -14176,8 +14176,8 @@ pokemon SPECIES_CATERPIE
 pokemon SPECIES_PIDGEY
 pokemon SPECIES_METAPOD
 pokemon SPECIES_METAPOD
-pokemon SPECIES_BUTTERFREE
-pokemon SPECIES_BUTTERFREE
+pokemon SPECIES_MANOMOTH
+pokemon SPECIES_MANOMOTH
 pokemon SPECIES_PIDGEOTTO
 pokemon SPECIES_SPINARAK
 pokemon SPECIES_PIDGEOTTO
@@ -14190,8 +14190,8 @@ pokemon SPECIES_CATERPIE
 pokemon SPECIES_PIDGEY
 pokemon SPECIES_PIDGEY
 pokemon SPECIES_PIDGEY
-pokemon SPECIES_BUTTERFREE
-pokemon SPECIES_BUTTERFREE
+pokemon SPECIES_MANOMOTH
+pokemon SPECIES_MANOMOTH
 pokemon SPECIES_PIDGEOTTO
 pokemon SPECIES_PIDGEOTTO
 pokemon SPECIES_PIDGEOTTO
@@ -14280,8 +14280,8 @@ pokemon SPECIES_METAPOD
 pokemon SPECIES_PIDGEY
 pokemon SPECIES_METAPOD
 pokemon SPECIES_METAPOD
-pokemon SPECIES_BUTTERFREE
-pokemon SPECIES_BUTTERFREE
+pokemon SPECIES_MANOMOTH
+pokemon SPECIES_MANOMOTH
 pokemon SPECIES_PIDGEOTTO
 pokemon SPECIES_PIKACHU
 pokemon SPECIES_PIKACHU

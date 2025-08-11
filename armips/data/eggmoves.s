@@ -145,21 +145,6 @@ eggmoveentry SPECIES_NIDORAN_M
     eggmove MOVE_HEAD_SMASH
 
 
-eggmoveentry SPECIES_VULPIX
-    eggmove MOVE_FEINT_ATTACK
-    eggmove MOVE_HYPNOSIS
-    eggmove MOVE_FLAIL
-    eggmove MOVE_SPITE
-    eggmove MOVE_DISABLE
-    eggmove MOVE_HOWL
-    eggmove MOVE_PSYCH_UP
-    eggmove MOVE_HEAT_WAVE
-    eggmove MOVE_FLARE_BLITZ
-    eggmove MOVE_EXTRASENSORY
-    eggmove MOVE_ENERGY_BALL
-    eggmove MOVE_POWER_SWAP
-
-
 eggmoveentry SPECIES_ZUBAT
     eggmove MOVE_QUICK_ATTACK
     eggmove MOVE_PURSUIT
@@ -432,7 +417,7 @@ eggmoveentry SPECIES_GRIMER
     eggmove MOVE_SPIT_UP
 
 
-eggmoveentry SPECIES_SHELLDER
+eggmoveentry SPECIES_SHOALDER
     eggmove MOVE_BUBBLE_BEAM
     eggmove MOVE_TAKE_DOWN
     eggmove MOVE_BARRIER
@@ -1878,7 +1863,7 @@ eggmoveentry SPECIES_LILEEP
     eggmove MOVE_CURSE
 
 
-eggmoveentry SPECIES_ANORITH
+eggmoveentry SPECIES_FANGOOSE
     eggmove MOVE_RAPID_SPIN
     eggmove MOVE_KNOCK_OFF
     eggmove MOVE_SWORDS_DANCE
@@ -1954,7 +1939,7 @@ eggmoveentry SPECIES_TROPIUS
     eggmove MOVE_DRAGON_DANCE
 
 
-eggmoveentry SPECIES_CHIMECHO
+eggmoveentry SPECIES_KANECHO
     eggmove MOVE_DISABLE
     eggmove MOVE_CURSE
     eggmove MOVE_HYPNOSIS
@@ -2635,7 +2620,7 @@ eggmoveentry SPECIES_AUDINO
     eggmove MOVE_YAWN
 
 
-eggmoveentry SPECIES_TIMBURR
+eggmoveentry SPECIES_GARGON
     eggmove MOVE_COMET_PUNCH
     eggmove MOVE_COUNTER
     eggmove MOVE_DETECT
@@ -2739,17 +2724,6 @@ eggmoveentry SPECIES_DARUMAKA
     eggmove MOVE_SLEEP_TALK
     eggmove MOVE_TAKE_DOWN
     eggmove MOVE_YAWN
-
-
-eggmoveentry SPECIES_MARACTUS
-    eggmove MOVE_BOUNCE
-    eggmove MOVE_BULLET_SEED
-    eggmove MOVE_GRASS_WHISTLE
-    eggmove MOVE_LEECH_SEED
-    eggmove MOVE_SEED_BOMB
-    eggmove MOVE_SPIKES
-    eggmove MOVE_WOOD_HAMMER
-    eggmove MOVE_WORRY_SEED
 
 
 eggmoveentry SPECIES_DWEBBLE
@@ -3058,7 +3032,7 @@ eggmoveentry SPECIES_MIENFOO
     eggmove MOVE_VITAL_THROW
 
 
-eggmoveentry SPECIES_DRUDDIGON
+eggmoveentry SPECIES_GRETSKI
     eggmove MOVE_CRUSH_CLAW
     eggmove MOVE_FEINT_ATTACK
     eggmove MOVE_FIRE_FANG
@@ -3093,7 +3067,7 @@ eggmoveentry SPECIES_BOUFFALANT
     eggmove MOVE_STOMP
 
 
-eggmoveentry SPECIES_VULLABY
+eggmoveentry SPECIES_NOHFACE
     eggmove MOVE_FAKE_TEARS
     eggmove MOVE_KNOCK_OFF
     eggmove MOVE_MEAN_LOOK
@@ -3102,7 +3076,7 @@ eggmoveentry SPECIES_VULLABY
     eggmove MOVE_STEEL_WING
 
 
-eggmoveentry SPECIES_HEATMOR
+eggmoveentry SPECIES_CALDERAZER
     eggmove MOVE_BODY_SLAM
     eggmove MOVE_CURSE
     eggmove MOVE_FEINT_ATTACK
@@ -3241,7 +3215,7 @@ eggmoveentry SPECIES_SWIRLIX
 	eggmove MOVE_BELLY_DRUM
 	eggmove MOVE_COPYCAT
 
-eggmoveentry SPECIES_INKAY
+eggmoveentry SPECIES_BILLY
 	eggmove MOVE_SIMPLE_BEAM
 	eggmove MOVE_POWER_SPLIT
 	eggmove MOVE_CAMOUFLAGE
@@ -3249,7 +3223,7 @@ eggmoveentry SPECIES_INKAY
 	eggmove MOVE_DESTINY_BOND
 	eggmove MOVE_GUARD_SWAP
 
-eggmoveentry SPECIES_BINACLE
+eggmoveentry SPECIES_SHELLDURE
 	eggmove MOVE_TICKLE
 	eggmove MOVE_SWITCHEROO
 	eggmove MOVE_HELPING_HAND
@@ -3287,16 +3261,6 @@ eggmoveentry SPECIES_AMAURA
 	eggmove MOVE_MIRROR_COAT
 	eggmove MOVE_MAGNET_RISE
 	eggmove MOVE_DISCHARGE
-
-eggmoveentry SPECIES_HAWLUCHA
-	eggmove MOVE_AGILITY
-	eggmove MOVE_ME_FIRST
-	eggmove MOVE_ALLY_SWITCH
-	eggmove MOVE_ENTRAINMENT
-	eggmove MOVE_MUD_SPORT
-	eggmove MOVE_BATON_PASS
-	eggmove MOVE_QUICK_GUARD
-	eggmove MOVE_FEINT
 
 eggmoveentry SPECIES_DEDENNE
 	eggmove MOVE_COVET
@@ -3388,7 +3352,7 @@ eggmoveentry SPECIES_EVINSIR
 	eggmove MOVE_ENDEAVOR
 	eggmove MOVE_AMNESIA
 
-eggmoveentry SPECIES_ORICORIO
+eggmoveentry SPECIES_NUGGLE
 	eggmove MOVE_PLUCK
 	eggmove MOVE_TAILWIND
 	eggmove MOVE_SAFEGUARD
@@ -3467,23 +3431,29 @@ eggmoveentry SPECIES_BOUNSWEET
 	eggmove MOVE_CHARM
 	eggmove MOVE_ACUPRESSURE
 
-eggmoveentry SPECIES_COMFEY
-	eggmove MOVE_ENDURE
-	eggmove MOVE_AMNESIA
-	eggmove MOVE_AFTER_YOU
-	eggmove MOVE_LUCKY_CHANT
+eggmoveentry SPECIES_FIXIE
+    eggmove MOVE_FEINT_ATTACK
+    eggmove MOVE_HYPNOSIS
+    eggmove MOVE_FLAIL
+    eggmove MOVE_SPITE
+    eggmove MOVE_DISABLE
+    eggmove MOVE_HOWL
+    eggmove MOVE_PSYCH_UP
+    eggmove MOVE_HEAT_WAVE
+    eggmove MOVE_FLARE_BLITZ
+    eggmove MOVE_EXTRASENSORY
+    eggmove MOVE_ENERGY_BALL
+    eggmove MOVE_POWER_SWAP
+    eggmove MOVE_AGILITY
+	eggmove MOVE_CHARM
+	eggmove MOVE_ENCORE
+	eggmove MOVE_POWER_SWAP
+	eggmove MOVE_SECRET_POWER
+	eggmove MOVE_TAIL_SLAP
 
-eggmoveentry SPECIES_ORANGURU
+eggmoveentry SPECIES_STANTABIRD
 	eggmove MOVE_EXTRASENSORY
 	eggmove MOVE_WONDER_ROOM
-
-eggmoveentry SPECIES_PASSIMIAN
-	eggmove MOVE_SEISMIC_TOSS
-	eggmove MOVE_VITAL_THROW
-	eggmove MOVE_QUICK_GUARD
-	eggmove MOVE_IRON_HEAD
-	eggmove MOVE_QUICK_ATTACK
-	eggmove MOVE_FEINT
 
 eggmoveentry SPECIES_WIMPOD
 	eggmove MOVE_SPIKES
@@ -3492,7 +3462,7 @@ eggmoveentry SPECIES_WIMPOD
 	eggmove MOVE_HARDEN
 	eggmove MOVE_AQUA_JET
 
-eggmoveentry SPECIES_SANDYGAST
+eggmoveentry SPECIES_VOODOLL
 	eggmove MOVE_AMNESIA
 	eggmove MOVE_DESTINY_BOND
 	eggmove MOVE_ANCIENT_POWER
@@ -3685,10 +3655,6 @@ eggmoveentry SPECIES_SNOM
 	eggmove MOVE_MIRROR_COAT
 	eggmove MOVE_BUG_BITE
 
-eggmoveentry SPECIES_STONJOURNER
-	eggmove MOVE_CURSE
-	eggmove MOVE_ANCIENT_POWER
-
 eggmoveentry SPECIES_PINGWINNER
 	eggmove MOVE_SOAK
 	eggmove MOVE_AQUA_RING
@@ -3760,20 +3726,6 @@ eggmoveentry SPECIES_SANDSHREW_ALOLAN
 	eggmove MOVE_ICICLE_SPEAR
 	eggmove MOVE_METAL_CLAW
 	eggmove MOVE_NIGHT_SLASH
-
-eggmoveentry SPECIES_VULPIX_ALOLAN
-	eggmove MOVE_AGILITY
-	eggmove MOVE_CHARM
-	eggmove MOVE_DISABLE
-	eggmove MOVE_ENCORE
-	eggmove MOVE_EXTRASENSORY
-	eggmove MOVE_FLAIL
-	eggmove MOVE_HOWL
-	eggmove MOVE_HYPNOSIS
-	eggmove MOVE_POWER_SWAP
-	eggmove MOVE_SPITE
-	eggmove MOVE_SECRET_POWER
-	eggmove MOVE_TAIL_SLAP
 
 eggmoveentry SPECIES_DIGLETT_ALOLAN
 	eggmove MOVE_ANCIENT_POWER

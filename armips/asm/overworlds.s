@@ -55,7 +55,7 @@ does_species_have_dimorphism:
     push {r3, lr}
     cmp r0, #0
     ble @@_invalidMon
-    ldr r1, =(SPECIES_ARCEUS * 2)
+    ldr r1, =(SPECIES_OCULEUS * 2)
     cmp r0, r1
     ble @@_validMon
 

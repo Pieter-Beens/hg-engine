@@ -1071,7 +1071,7 @@ void LONG_CALL ClearBattleMonFlags(struct BattleStruct *sp, int client)
 
     // TODO: set forms when loading them into the party instead when sending out
     // Xerneas should be in Active Mode when in battle
-    if (sp->battlemon[client].species == SPECIES_XERNEAS) {
+    if (sp->battlemon[client].species == SPECIES_BUTTERFAE) {
         sp->battlemon[client].form_no = 1;
     }
 }

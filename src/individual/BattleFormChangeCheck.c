@@ -155,7 +155,7 @@ BOOL BattleFormChangeCheck(void *bw, struct BattleStruct *sp, int *seq_no)
         }
 
         // handle arceus
-        if ((sp->battlemon[sp->battlerIdTemp].species == SPECIES_ARCEUS)
+        if ((sp->battlemon[sp->battlerIdTemp].species == SPECIES_OCULEUS)
          && (sp->battlemon[sp->battlerIdTemp].hp)
          && (GetBattlerAbility(sp, sp->battlerIdTemp) == ABILITY_MULTITYPE))
         {
@@ -316,7 +316,7 @@ BOOL BattleFormChangeCheck(void *bw, struct BattleStruct *sp, int *seq_no)
         }
 
         // handle xerneas - force into active mode
-        if ((sp->battlemon[sp->battlerIdTemp].species == SPECIES_XERNEAS)
+        if ((sp->battlemon[sp->battlerIdTemp].species == SPECIES_BUTTERFAE)
          && (sp->battlemon[sp->battlerIdTemp].hp))
         {
             form_no = 1;

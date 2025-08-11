@@ -82,7 +82,7 @@
 .halfword SPECIES_WYNAUT
 .halfword SPECIES_AGGRON
 .halfword SPECIES_GRUMPIG
-.halfword SPECIES_ARMALDO
+.halfword SPECIES_SHIVIPER
 .halfword SPECIES_BANETTE
 .halfword SPECIES_GROUDON
 .halfword SPECIES_CHIMCHAR
@@ -135,8 +135,8 @@
 .halfword SPECIES_AXEW
 .halfword SPECIES_CUBCHOO
 .halfword SPECIES_MIENFOO
-.halfword SPECIES_DRUDDIGON
-.halfword SPECIES_HEATMOR
+.halfword SPECIES_GRETSKI
+.halfword SPECIES_CALDERAZER
 .halfword SPECIES_ZEKROM
 .halfword SPECIES_KYUREM
 //.halfword SPECIES_CHESPIN
@@ -158,9 +158,9 @@
 //.halfword SPECIES_FOMANTIS
 //.halfword SPECIES_HELIOLISK
 //.halfword SPECIES_GOODRA
-//.halfword SPECIES_INCINEROAR
-//.halfword SPECIES_BEWEAR
-//.halfword SPECIES_PASSIMIAN
+//.halfword SPECIES_HOUNDEMON
+//.halfword SPECIES_BIBABOBER
+//.halfword SPECIES_RATUITUS
 //.halfword SPECIES_GYAOON
 //.halfword SPECIES_OMEGA
 //.halfword SPECIES_XURKITREE
@@ -176,12 +176,12 @@
 //.halfword SPECIES_CINDERACE
 //.halfword SPECIES_DRIZZILE
 //.halfword SPECIES_INTELEON
-//.halfword SPECIES_GREEDENT
+//.halfword SPECIES_PACHIKUSU
 //.halfword SPECIES_TOXEL
 //.halfword SPECIES_PINGWINNER
 //.halfword SPECIES_INDEEDEE
 //.halfword SPECIES_DRACOZOLT
-//.halfword SPECIES_ARCTOZOLT
+//.halfword SPECIES_CRYAK
 //.halfword SPECIES_DURALUDON
 //.halfword SPECIES_KUBFU
 //.halfword SPECIES_ZARUDE

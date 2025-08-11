@@ -65,7 +65,7 @@
 //.halfword SPECIES_ZYGARDE
 //.halfword SPECIES_MINIMOO
 //.halfword SPECIES_ABSALVO
-//.halfword SPECIES_SANDYGAST
+//.halfword SPECIES_VOODOLL
 //.halfword SPECIES_PALOSSANT
 //.halfword SPECIES_SILICOBRA
 //.halfword SPECIES_SANDACONDA

@@ -88,7 +88,7 @@
 .halfword SPECIES_DIALGA
 .halfword SPECIES_HEATRAN
 .halfword SPECIES_SHAYMIN
-.halfword SPECIES_ARCEUS
+.halfword SPECIES_OCULEUS
 .halfword SPECIES_TEPIG
 .halfword SPECIES_PATRAT
 .halfword SPECIES_LILLIPUP
@@ -99,7 +99,7 @@
 .halfword SPECIES_GLACEON
 .halfword SPECIES_SAMUROTT
 .halfword SPECIES_STOUTLAND
-.halfword SPECIES_LIEPARD
+.halfword SPECIES_FOLIAPARD
 .halfword SPECIES_ZEBSTRIKA
 .halfword SPECIES_SANDILE
 .halfword SPECIES_TIRTOUGA
@@ -115,7 +115,7 @@
 .halfword SPECIES_DEINO
 .halfword SPECIES_COBALION
 .halfword SPECIES_TERRAKION
-.halfword SPECIES_VIRIZION
+.halfword SPECIES_BAOBY
 .halfword SPECIES_KELDEO
 //.halfword SPECIES_FENNEKIN
 //.halfword SPECIES_FROAKIE
@@ -125,10 +125,10 @@
 //.halfword SPECIES_BEARTIC
 .halfword SPECIES_ZWEILOUS
 //.halfword SPECIES_PYROAR
-//.halfword SPECIES_GOGOAT
+//.halfword SPECIES_YETYRANT
 //.halfword SPECIES_AMAURA
 //.halfword SPECIES_BERGMITE
-//.halfword SPECIES_XERNEAS
+//.halfword SPECIES_BUTTERFAE
 //.halfword SPECIES_VOLCANION
 //.halfword SPECIES_PIEP
 //.halfword SPECIES_YUNGOOS
@@ -138,7 +138,7 @@
 //.halfword SPECIES_STUFFUL
 //.halfword SPECIES_AURORUS
 //.halfword SPECIES_SYLVEON
-//.halfword SPECIES_AVALUGG
+//.halfword SPECIES_DRAGODOS
 //.halfword SPECIES_PRRING
 //.halfword SPECIES_GUMSHOOS
 //.halfword SPECIES_LYCANROC
@@ -160,9 +160,9 @@
 //.halfword SPECIES_BOLTUND
 //.halfword SPECIES_CUFANT
 //.halfword SPECIES_ZACIAN
-//.halfword SPECIES_ZAMAZENTA
-//.halfword SPECIES_GLASTRIER
-//.halfword SPECIES_SPECTRIER
+//.halfword SPECIES_CHROMERA
+//.halfword SPECIES_CEOKING
+//.halfword SPECIES_FURTUR
 //.halfword SPECIES_IVYSAUR
 //.halfword SPECIES_BAYLEEF
 //.halfword SPECIES_DELCATTY

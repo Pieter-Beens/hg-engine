@@ -2221,7 +2221,7 @@ BOOL BattleController_CheckTelekinesis(struct BattleSystem *bsys UNUSED, struct 
     int defenderSpecies = ctx->battlemon[defender].species;
     int defenderForm = ctx->battlemon[defender].form_no;
     if (ctx->current_move_index == MOVE_TELEKINESIS
-     && (((defenderSpecies == SPECIES_GENGAR && defenderForm == 1) || defenderSpecies == SPECIES_DIGLETT || defenderSpecies == SPECIES_DUGTRIO || defenderSpecies == SPECIES_SANDYGAST || defenderSpecies == SPECIES_PALOSSAND)
+     && (((defenderSpecies == SPECIES_GENGAR && defenderForm == 1) || defenderSpecies == SPECIES_DIGLETT || defenderSpecies == SPECIES_DUGTRIO || defenderSpecies == SPECIES_VOODOLL || defenderSpecies == SPECIES_VOODOOM)
       || ctx->battlemon[defender].effect_of_moves & MOVE_EFFECT_FLAG_INGRAIN)) {
         ctx->oneTurnFlag[ctx->attack_client].parental_bond_flag = 0;
         ctx->oneTurnFlag[ctx->attack_client].parental_bond_is_active = FALSE;
@@ -3213,7 +3213,7 @@ BOOL BattleController_CheckMoveFailures4_SingleTarget(struct BattleSystem *bsys 
         }
         case MOVE_SOAK: {
             if (IsPureType(ctx, ctx->defence_client, TYPE_WATER)
-            || ctx->battlemon[ctx->defence_client].species == SPECIES_ARCEUS
+            || ctx->battlemon[ctx->defence_client].species == SPECIES_OCULEUS
             || ctx->battlemon[ctx->defence_client].species == SPECIES_SILVALLY) {
                 butItFailedFlag = TRUE;
             }
@@ -3221,7 +3221,7 @@ BOOL BattleController_CheckMoveFailures4_SingleTarget(struct BattleSystem *bsys 
         }
         case MOVE_MAGIC_POWDER: {
             if (IsPureType(ctx, ctx->defence_client, TYPE_PSYCHIC)
-            || ctx->battlemon[ctx->defence_client].species == SPECIES_ARCEUS
+            || ctx->battlemon[ctx->defence_client].species == SPECIES_OCULEUS
             || ctx->battlemon[ctx->defence_client].species == SPECIES_SILVALLY) {
                 butItFailedFlag = TRUE;
             }
@@ -3596,12 +3596,12 @@ BOOL BattleController_CheckMoveFailures4_SingleTarget(struct BattleSystem *bsys 
             || ((attackerSpecies == SPECIES_GROUDON || defenderSpecies == SPECIES_GROUDON) && attackerItem == ITEM_RED_ORB)
             || (CheckMegaData(defenderSpecies, attackerItem))
             || ((attackerSpecies == SPECIES_GIRATINA || defenderSpecies == SPECIES_GIRATINA) && attackerItem == ITEM_GRISEOUS_CORE)
-            || ((attackerSpecies == SPECIES_ARCEUS || defenderSpecies == SPECIES_ARCEUS) && IS_ITEM_ARCEUS_PLATE(attackerItem))
+            || ((attackerSpecies == SPECIES_OCULEUS || defenderSpecies == SPECIES_OCULEUS) && IS_ITEM_ARCEUS_PLATE(attackerItem))
             || ((attackerSpecies == SPECIES_GENESECT || defenderSpecies == SPECIES_GENESECT) && IS_ITEM_GENESECT_DRIVE(attackerItem))
             || ((attackerSpecies == SPECIES_SILVALLY || defenderSpecies == SPECIES_SILVALLY) && IS_ITEM_MEMORY(attackerItem))
 #if CORROSIVE_GAS_IMPLIED_BEHAVIOUR == TRUE
             || ((attackerSpecies == SPECIES_ZACIAN || defenderSpecies == SPECIES_ZACIAN) && attackerItem == ITEM_RUSTED_SWORD)
-            || ((attackerSpecies == SPECIES_ZAMAZENTA || defenderSpecies == SPECIES_ZAMAZENTA) && attackerItem == ITEM_RUSTED_SHIELD)
+            || ((attackerSpecies == SPECIES_CHROMERA || defenderSpecies == SPECIES_CHROMERA) && attackerItem == ITEM_RUSTED_SHIELD)
             || ((attackerSpecies == SPECIES_OGERPON || defenderSpecies == SPECIES_OGERPON) && IS_ITEM_MASK(attackerItem))
 #endif
             ) {
@@ -3657,11 +3657,11 @@ BOOL BattleController_CheckMoveFailures4_MultipleTargets(struct BattleSystem *bs
             || (CheckMegaData(ctx->battlemon[defender].species, ctx->battlemon[defender].item))
 #endif
             || (ctx->battlemon[defender].species == SPECIES_GIRATINA && ctx->battlemon[defender].item == ITEM_GRISEOUS_CORE)
-            || (ctx->battlemon[defender].species == SPECIES_ARCEUS && IS_ITEM_ARCEUS_PLATE(ctx->battlemon[defender].item))
+            || (ctx->battlemon[defender].species == SPECIES_OCULEUS && IS_ITEM_ARCEUS_PLATE(ctx->battlemon[defender].item))
             || (ctx->battlemon[defender].species == SPECIES_GENESECT && IS_ITEM_GENESECT_DRIVE(ctx->battlemon[defender].item))
             || (ctx->battlemon[defender].species == SPECIES_SILVALLY && ctx->battlemon[defender].item == ITEM_RUSTED_SHIELD)
             || (ctx->battlemon[defender].species == SPECIES_ZACIAN && ctx->battlemon[defender].item == ITEM_RUSTED_SWORD)
-            || (ctx->battlemon[defender].species == SPECIES_ZAMAZENTA && ctx->battlemon[defender].item == ITEM_RUSTED_SHIELD)
+            || (ctx->battlemon[defender].species == SPECIES_CHROMERA && ctx->battlemon[defender].item == ITEM_RUSTED_SHIELD)
             || (ctx->battlemon[defender].species == SPECIES_OGERPON && IS_ITEM_MASK(ctx->battlemon[defender].item))) {
                 ctx->msg_work = defender;
                 LoadBattleSubSeqScript(ctx, ARC_BATTLE_SUB_SEQ, SUB_SEQ_FAILED_TO_AFFECT);
