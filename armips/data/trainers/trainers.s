@@ -969,10 +969,10 @@ trainerdata 29, "Rod"
         ballseal 0
     endparty
 
-trainerdata 30, "Whitney"
+trainerdata 30, "Anna"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_LEADER_WHITNEY
-    nummons 2
+    nummons 5
     item ITEM_SUPER_POTION
     item ITEM_SUPER_POTION
     item ITEM_NONE
@@ -986,17 +986,53 @@ trainerdata 30, "Whitney"
         ivs 100
         abilityslot 0
         level 17
-        pokemon SPECIES_CLEFAIRY
+        pokemon SPECIES_JIGGLYPUFF
         item ITEM_NONE
-        move MOVE_DOUBLE_SLAP
-        move MOVE_MIMIC
-        move MOVE_ENCORE
+        move MOVE_EAR_WHACK
         move MOVE_METRONOME
+        move MOVE_ENCORE
+        move MOVE_NONE
         ballseal 0
 
         // mon 1
         ivs 100
-        abilityslot 32
+        abilityslot 0
+        level 18
+        pokemon SPECIES_SPHEAL
+        item ITEM_LUM_BERRY
+        move MOVE_ICE_BALL
+        move MOVE_ROUND
+        move MOVE_DEFENSE_CURL
+        move MOVE_REST
+        ballseal 0
+
+        // mon 2
+        ivs 100
+        abilityslot 0
+        level 18
+        monwithform SPECIES_PIKACHU, 2
+        item ITEM_NONE
+        move MOVE_QUICK_ATTACK
+        move MOVE_THUNDER_WAVE
+        move MOVE_EAR_WHACK
+        move MOVE_WILD_CHARGE
+        ballseal 0
+
+        // mon 3
+        ivs 100
+        abilityslot 0
+        level 20
+        pokemon SPECIES_PRRING
+        item ITEM_SITRUS_BERRY
+        move MOVE_EAR_WHACK
+        move MOVE_ATTRACT
+        move MOVE_PURSUIT
+        move MOVE_MILK_DRINK
+        ballseal 0
+
+        // mon 4
+        ivs 100
+        abilityslot 0
         level 19
         pokemon SPECIES_MILTANK
         item ITEM_LUM_BERRY
@@ -1780,26 +1816,26 @@ trainerdata 54, "Troy"
     battletype SINGLE_BATTLE
     endentry
 
-    party 54
+        party 54
         // mon 0
-        ivs 100
+        ivs 0
         abilityslot 0
-        level 9
-        pokemon SPECIES_HOOTHOOT
-        ballseal 0
-
-        // mon 1
-        ivs 100
-        abilityslot 32
-        level 8
+        level 7
         pokemon SPECIES_BELLSPROUT
         ballseal 0
 
         // mon 1
-        ivs 100
-        abilityslot 32
-        level 9
-        pokemon SPECIES_CUBONE
+        ivs 0
+        abilityslot 0
+        level 7
+        pokemon SPECIES_BELLSPROUT
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 8
+        pokemon SPECIES_HOOTHOOT
         ballseal 0
     endparty
 
@@ -10063,24 +10099,24 @@ trainerdata 290, "Li"
 
     party 290
         // mon 0
-        ivs 0
+        ivs 100
         abilityslot 0
-        level 7
+        level 9
+        pokemon SPECIES_HOOTHOOT
+        ballseal 0
+
+        // mon 1
+        ivs 100
+        abilityslot 32
+        level 10
         pokemon SPECIES_BELLSPROUT
         ballseal 0
 
         // mon 1
-        ivs 0
-        abilityslot 0
-        level 7
-        pokemon SPECIES_BELLSPROUT
-        ballseal 0
-
-        // mon 2
-        ivs 0
-        abilityslot 0
-        level 10
-        pokemon SPECIES_HOOTHOOT
+        ivs 100
+        abilityslot 32
+        level 9
+        pokemon SPECIES_CUBONE
         ballseal 0
     endparty
 
@@ -12955,7 +12991,7 @@ trainerdata 382, "Hillary"
         ballseal 0
     endparty
 
-trainerdata 383, "Peter"
+trainerdata 383, "Pieter"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_BIRD_KEEPER_GS
     nummons 3
@@ -12971,22 +13007,22 @@ trainerdata 383, "Peter"
         // mon 0
         ivs 50
         abilityslot 0
-        level 6
-        pokemon SPECIES_PIDGEY
+        level 8
+        pokemon SPECIES_PIPLUP
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 32
-        level 6
-        pokemon SPECIES_PIDGEY
+        level 8
+        pokemon SPECIES_PSYDUCK
         ballseal 0
 
         // mon 2
         ivs 50
         abilityslot 0
         level 8
-        pokemon SPECIES_SPEAROW
+        pokemon SPECIES_FARFETCHD
         ballseal 0
     endparty
 
@@ -24345,7 +24381,7 @@ trainerdata 713, "Bugsy"
         ballseal 0
     endparty
 
-trainerdata 714, "Whitney"
+trainerdata 714, "Anna"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_LEADER_WHITNEY
     nummons 6
