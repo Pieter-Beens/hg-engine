@@ -1,0 +1,6 @@
+A Pokémon you get in a trade\ngrows quickly.\rBut if you don’t have the right Gym\nBadge, they may disobey you.
+I collect Pokémon.\nDo you have BELLSPROUT?\rI can offer you a rare\nmushroom from another region.\rYou want to trade for it? \v0200\x0001\x0000
+Yay! I got myself BELLSPROUT!\nThanks!
+Huh? That’s not BELLSPROUT.\fWhat a letdown...
+You don’t want to trade? Aww...
+Hi, how’s the old SHROOMISH\ndoing?\rI’m still trying to make\nBELLSPROUT evolve.\rOnce it does, I can make\nit even stronger if I have\fa Leaf or Sun stone.\rBut as someone from Violet City,\nof course I will choose the\fSun stone!

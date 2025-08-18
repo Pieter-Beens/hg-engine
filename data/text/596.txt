@@ -1,0 +1,20 @@
+Hello. Oh, your Pokémon...\r
+It’s very attached to you.\rThis move should be perfect for a\npair like you.\r
+                     
+It’s adorable!\rYou should teach it good TM moves.
+It looks a little bit evil.\nHow about this TM for it?\r
+                     
+There are sure to be TMs that are\njust perfect for your Pokémon.
+Mystery Gift.\rWith just a little beep, you get a gift.
+The Mystery Gift option is not\ncompatible with Game Boy Color.
+Hey kid, I’m looking for something\nspecific. Do you have a DROWZEE?\rWant to trade it? I will give\nyou something good in return.\rI promise.\r...\rCome on I mean it, I have a very\nrare Pokémon that’s just right for\fsomeone your age.\rI really need that DROWZEE to\nput me to sleep.\rAre you going to help me? \v0200\x0001\x0000
+Thanks a million kid! That plush\nanimal never did me any good.\rNow I can just ask DROWZEE to put me to sleep...
+Huh? That’s not DROWZEE.\nWho’s the scammer now?
+You don’t trust me?\rCome on kid, I'm desperate...
+Huh? Oh it’s you again.\rI’m a bit groggy...\rI’ve been sleeping a lot more\nthanks to your DROWZEE, but perhaps\fa little too much?\rNow I feel exhausted from sleeping!\rAlso DROWZEE keeps showing up\nin my dreams...\rAnyway how is your plush- I mean,\nhow is your rare Pokémon doing?\rOh, it’s weak? Well, I bet if you\ntreat it right it will evolve...
+Huh? You...are part of Team Rocket?\nSince when?
+On Sundays, a lady comes to check\nout Pokémon.\rShe even gives away TMs!
+Team Rocket...\nWhy are they here?
+You can’t rename a Pokémon you get in\na trade.\rThe name is a reflection of the original\nTrainer’s feelings for it.
+You shouldn’t wear a black suit like\nthat. People will think you are a part\fof Team Rocket.\rWhat? You are one of them?
+Modify Your Pokémon\n5F TM Corner

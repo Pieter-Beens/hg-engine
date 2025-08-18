@@ -89,7 +89,7 @@ Is more susceptible to\nheat, but absorbs water.
 Raises the attack stat\nmost dangerous for the foe.
 Boosts the power of\npunching moves 1.2x.
 Restores HP if the\nPokémon is poisoned.
-Powers up moves of the\nPokémon's own type 1.33x.
+Powers up moves of the\nPokémon’s own type 1.33x.
 Maximizes the frequency\nof multi-strike moves.
 Heals status problems if\nit is raining.
 Boosts Sp. Atk 1.5x, but\nlowers HP in sunshine.
@@ -106,7 +106,7 @@ Moves can be used\nregardless of abilities.
 Heightens the critical-\nhit ratios of moves.
 Damages the foe landing\nthe finishing hit.
 Senses if the foe has a\nsuper effective move.
-Determines the foe's most\npowerful move.
+Determines the foe’s most\npowerful move.
 Ignores any change in\nability by the foe.
 Doubles power of "not\nvery effective" attacks.
 Take 25% less damage from\nsuper effective moves.
@@ -183,7 +183,7 @@ Powers up moves that\nmake contact 1.3x.
 Normal-type moves become\nFairy-type and do 1.3x.
 Contact with it lowers the\nattacker’s Speed stat.
 Normal-type moves become\nFlying-type and do 1.3x.
-Child will repeat parent's\nmove with 0.25x power.
+Child will repeat parent’s\nmove with 0.25x power.
 Powers up each Pokémon’s\nDark-type moves 1.33x.
 Powers up each Pokémon’s\nFairy-type moves 1.33x.
 The effects of “Aura”\nAbilities are reversed.
