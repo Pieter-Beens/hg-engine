@@ -975,7 +975,7 @@
 /* SPECIES_OINKOLOGNE */ .halfword 0
 /* SPECIES_TAROUNTULA */ .halfword 0
 /* SPECIES_SPIDOPS */ .halfword 0
-/* SPECIES_NYMBLE */ .halfword 0
+/* SPECIES_NYMPHLE */ .halfword 0
 /* SPECIES_LOKIX */ .halfword 0
 /* SPECIES_PAWMI */ .halfword 0
 /* SPECIES_PAWMO */ .halfword 0

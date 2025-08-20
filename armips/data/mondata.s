@@ -6169,7 +6169,7 @@ mondata SPECIES_SHEDINJA, "Shedinja"
 
 mondata SPECIES_WHISMUR, "Whismur"
     basestats 64, 51, 23, 28, 51, 23
-    types TYPE_NORMAL, TYPE_NORMAL
+    types TYPE_SOUND, TYPE_SOUND
     catchrate 190
     baseexp 0 // defined in baseexp.s
     evyields 1, 0, 0, 0, 0, 0
@@ -6179,7 +6179,7 @@ mondata SPECIES_WHISMUR, "Whismur"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_FIELD
-    abilities ABILITY_SOUNDPROOF, ABILITY_NONE
+    abilities ABILITY_INNER_FOCUS, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_PINK, 0
     mondexentry SPECIES_WHISMUR, "If it senses danger, it scares\nthe foe by crying out with the\nvolume of a jet-plane engine."
@@ -6190,7 +6190,7 @@ mondata SPECIES_WHISMUR, "Whismur"
 
 mondata SPECIES_LOUDRED, "Loudred"
     basestats 84, 71, 43, 48, 71, 43
-    types TYPE_NORMAL, TYPE_NORMAL
+    types TYPE_SOUND, TYPE_SOUND
     catchrate 120
     baseexp 0 // defined in baseexp.s
     evyields 2, 0, 0, 0, 0, 0
@@ -6200,7 +6200,7 @@ mondata SPECIES_LOUDRED, "Loudred"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_FIELD
-    abilities ABILITY_SOUNDPROOF, ABILITY_NONE
+    abilities ABILITY_VOLT_ABSORB, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_LOUDRED, "It shouts loudly by inhaling air, and\nthen uses its well-developed\nstomach muscles to exhale."
@@ -6211,7 +6211,7 @@ mondata SPECIES_LOUDRED, "Loudred"
 
 mondata SPECIES_EXPLOUD, "Exploud"
     basestats 104, 91, 63, 68, 91, 73
-    types TYPE_NORMAL, TYPE_NORMAL
+    types TYPE_SOUND, TYPE_SOUND
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 3, 0, 0, 0, 0, 0
@@ -6221,7 +6221,7 @@ mondata SPECIES_EXPLOUD, "Exploud"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_FIELD
-    abilities ABILITY_SOUNDPROOF, ABILITY_NONE
+    abilities ABILITY_VOLT_ABSORB, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_EXPLOUD, "Its roar in battle shakes the\nground like a tremor--or like\nan earthquake has struck."
@@ -20360,7 +20360,7 @@ mondata SPECIES_SPIDOPS, "Spidops"
     mondexweight SPECIES_SPIDOPS, "36.4 lbs."
 
 
-mondata SPECIES_NYMBLE, "Nymble"
+mondata SPECIES_NYMPHLE, "Nymble"
     basestats 33, 46, 40, 45, 21, 25
     types TYPE_BUG, TYPE_BUG
     catchrate 190
@@ -20375,10 +20375,10 @@ mondata SPECIES_NYMBLE, "Nymble"
     abilities ABILITY_SWARM, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
-    mondexentry SPECIES_NYMBLE, "It has its third set of legs folded up. When\nit’s in a tough spot, this Pokémon jumps\nover 30 feet using the strength of its legs."
-    mondexclassification SPECIES_NYMBLE, "Grasshopper Pokémon"
-    mondexheight SPECIES_NYMBLE, "0’08”"
-    mondexweight SPECIES_NYMBLE, "2.2 lbs."
+    mondexentry SPECIES_NYMPHLE, "It has its third set of legs folded up. When\nit’s in a tough spot, this Pokémon jumps\nover 30 feet using the strength of its legs."
+    mondexclassification SPECIES_NYMPHLE, "Grasshopper Pokémon"
+    mondexheight SPECIES_NYMPHLE, "0’08”"
+    mondexweight SPECIES_NYMPHLE, "2.2 lbs."
 
 
 mondata SPECIES_LOKIX, "Lokix"

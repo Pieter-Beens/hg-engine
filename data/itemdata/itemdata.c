@@ -12493,7 +12493,7 @@ const ITEMDATA __data[] =
 
 [ITEM_WHITE_HERB - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 100,
+    .price = 2500,
     .holdEffect = HOLD_EFFECT_STATDOWN_RESTORE,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -16198,7 +16198,7 @@ const ITEMDATA __data[] =
 
 [ITEM_POWER_HERB - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 100,
+    .price = 5000,
     .holdEffect = HOLD_EFFECT_CHARGE_SKIP,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -16263,7 +16263,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TOXIC_ORB - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 100,
+    .price = 200,
     .holdEffect = HOLD_EFFECT_PSN_USER,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -16328,7 +16328,7 @@ const ITEMDATA __data[] =
 
 [ITEM_FLAME_ORB - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 100,
+    .price = 400,
     .holdEffect = HOLD_EFFECT_BRN_USER,
     .holdEffectParam = 0,
     .pluckEffect = 0,

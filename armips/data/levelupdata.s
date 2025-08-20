@@ -6716,6 +6716,7 @@ levelup SPECIES_WHISMUR
     learnset MOVE_ECHOED_VOICE, 4
     learnset MOVE_ASTONISH, 8
     learnset MOVE_HOWL, 10
+    learnset MOVE_ROUND, 16
     learnset MOVE_STOMP, 21
     learnset MOVE_REST, 22
     learnset MOVE_SLEEP_TALK, 24
@@ -6729,7 +6730,6 @@ levelup SPECIES_WHISMUR
 
 
 levelup SPECIES_LOUDRED
-    learnset MOVE_BITE, 0
     learnset MOVE_BITE, 1
     learnset MOVE_ASTONISH, 1
     learnset MOVE_POUND, 1
@@ -6738,15 +6738,17 @@ levelup SPECIES_LOUDRED
     learnset MOVE_ECHOED_VOICE, 4
     learnset MOVE_ASTONISH, 9
     learnset MOVE_HOWL, 11
+    learnset MOVE_ROUND, 16
     learnset MOVE_STOMP, 23
     learnset MOVE_REST, 24
-    learnset MOVE_SLEEP_TALK, 27
-    learnset MOVE_SUPERSONIC, 27
-    learnset MOVE_ROAR, 30
-    learnset MOVE_SCREECH, 33
-    learnset MOVE_UPROAR, 35
-    learnset MOVE_SYNCHRONOISE, 50
-    learnset MOVE_HYPER_VOICE, 51
+    learnset MOVE_SLEEP_TALK, 24
+    learnset MOVE_SUPERSONIC, 26
+    learnset MOVE_ROAR, 28
+    learnset MOVE_SCREECH, 30
+    learnset MOVE_UPROAR, 33
+    learnset MOVE_SYNCHRONOISE, 37
+    learnset MOVE_HYPER_VOICE, 42
+    learnset MOVE_BOOMBURST, 48
     terminatelearnset
 
 
@@ -6765,17 +6767,17 @@ levelup SPECIES_EXPLOUD
     learnset MOVE_ECHOED_VOICE, 4
     learnset MOVE_ASTONISH, 9
     learnset MOVE_HOWL, 11
+    learnset MOVE_ROUND, 16
     learnset MOVE_STOMP, 23
     learnset MOVE_REST, 24
-    learnset MOVE_SLEEP_TALK, 27
-    learnset MOVE_SUPERSONIC, 27
-    learnset MOVE_ROAR, 30
-    learnset MOVE_SCREECH, 35
-    learnset MOVE_UPROAR, 36
-    learnset MOVE_SYNCHRONOISE, 53
-    learnset MOVE_HYPER_VOICE, 55
-    learnset MOVE_BOOMBURST, 65
-    learnset MOVE_HYPER_BEAM, 73
+    learnset MOVE_SLEEP_TALK, 24
+    learnset MOVE_SUPERSONIC, 26
+    learnset MOVE_ROAR, 28
+    learnset MOVE_SCREECH, 30
+    learnset MOVE_UPROAR, 33
+    learnset MOVE_SYNCHRONOISE, 37
+    learnset MOVE_HYPER_VOICE, 42
+    learnset MOVE_BOOMBURST, 48
     terminatelearnset
 
 
@@ -20882,7 +20884,7 @@ levelup SPECIES_SPIDOPS
     learnset MOVE_SKITTER_SMACK, 49
     terminatelearnset
 
-levelup SPECIES_NYMBLE
+levelup SPECIES_NYMPHLE
     learnset MOVE_LEER, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_STRUGGLE_BUG, 4

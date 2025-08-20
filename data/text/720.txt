@@ -1,4 +1,4 @@
- -
+-
 Stench
 Drizzle
 Speed Boost
@@ -174,9 +174,9 @@ Competitive
 Strong Jaw
 Refrigerate
 Sweet Veil
-StanceChange
+Stance Change
 Gale Wings
-MegaLauncher
+Mega Launcher
 Grass Pelt
 Symbiosis
 Tough Claws
@@ -187,7 +187,7 @@ Parental Bond
 Dark Aura
 Fairy Aura
 Aura Break
-Primordial Sea
+Primeval Sea
 Desolate Land
 Delta Stream
 Stamina
@@ -212,7 +212,7 @@ Battle Bond
 Power Construct
 Corrosion
 Comatose
-Queenly Majesty
+Queen Majesty
 Innards Out
 Dancer
 Battery
@@ -221,10 +221,10 @@ Dazzling
 Soul-Heart
 Tangling Hair
 Receiver
-Power of Alchemy
+Alchemy
 Beast Boost
 RKS System
-Electric Surge
+Electro Surge
 Psychic Surge
 Misty Surge
 Grassy Surge
@@ -232,6 +232,26 @@ FullMetalBody
 Shadow Shield
 Prism Armor
 Neuroforce
+Punk Rock
+Ice Scales
+Hero Complex
+Steely Spirit
+Gorilla Tact
+Transistor
+Dragon’s Maw
+Chilling Neigh
+Thermochange
+WellBakedBody
+Wind Rider
+Rocky Payload
+Electromorph
+Good as Gold
+Sharpness
+Armor Tail
+Earth Eater
+Mind’s Eye
+Tera Shell
+Ball Player
 IntrepidSword
 Dauntless Shield
 Libero
@@ -242,46 +262,32 @@ Mirror Armor
 Gulp Missile
 Stalwart
 Steam Engine
-Punk Rock
 Sand Spit
-Ice Scales
 Ripen
-Hero Complex
 Power Spot
 Mimicry
 Screen Cleaner
-Steely Spirit
 Perish Body
 Wandering Spirit
-Gorilla Tactics
 Neutralizing Gas
 Pastel Veil
 Hunger Switch
 Quick Draw
 Unseen Fist
 Curious Medicine
-Transistor
-Dragon’s Maw
-Chilling Neigh
 Grim Neigh
 As One
 As One
 Lingering Aroma
 Seed Sower
-Thermal Exchange
 Anger Shell
 Purifying Salt
-Well-Baked Body
-Wind Rider
 Guard Dog
-Rocky Payload
 Wind Power
 Zero to Hero
 Commander
-Electromorphosis
 Protosynthesis
 Quark Drive
-Good as Gold
 Vessel of Ruin
 Sword of Ruin
 Tablets of Ruin
@@ -290,15 +296,11 @@ Orichalcum Pulse
 Hadron Engine
 Opportunist
 Cud Chew
-Sharpness
 Supreme Overlord
 Costar
 Toxic Debris
-Armor Tail
-Earth Eater
 Mycelium Might
 Hospitality
-Mind’s Eye
 Embody Aspect
 Embody Aspect
 Embody Aspect
@@ -306,6 +308,4 @@ Embody Aspect
 Toxic Chain
 Supersweet Syrup
 Tera Shift
-Tera Shell
-Teraform Zero
 Poison Puppeteer

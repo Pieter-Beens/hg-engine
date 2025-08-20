@@ -975,7 +975,7 @@
 /* SPECIES_OINKOLOGNE                        */ .word 1200
 /* SPECIES_TAROUNTULA                        */ .word 40
 /* SPECIES_SPIDOPS                           */ .word 165
-/* SPECIES_NYMBLE                            */ .word 10
+/* SPECIES_NYMPHLE                            */ .word 10
 /* SPECIES_LOKIX                             */ .word 175
 /* SPECIES_PAWMI                             */ .word 25
 /* SPECIES_PAWMO                             */ .word 65
