@@ -551,7 +551,7 @@ int UNUSED CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 sid
     case MOVE_STOMPING_TANTRUM:
         // TODO: Implement Stomping Tantrum
         break;
-    case MOVE_WAKE_UP_SLAP:
+    case MOVE_EAR_WHACK:
         if (sp->battlemon[defender].condition & STATUS_SLEEP) {
             movepower *= 2;
         }
