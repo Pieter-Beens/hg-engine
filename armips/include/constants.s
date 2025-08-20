@@ -27,6 +27,8 @@
 .equ TYPE_FUNGUS, 21
 .equ TYPE_STELLAR, 22
 
+.equ NUMBER_OF_MON_TYPES, 23
+
 // body colors
 
 .equ BODY_COLOR_RED, 0
