@@ -37713,7 +37713,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ABILITY_CAPSULE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 8000,
+    .price = 4000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -39143,7 +39143,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ABILITY_PATCH - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 4000,
+    .price = 8000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,

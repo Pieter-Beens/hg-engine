@@ -7639,7 +7639,7 @@ mondata SPECIES_GLALIE, "Glalie"
 
 mondata SPECIES_SPHEAL, "Spheal"
     basestats 70, 40, 50, 25, 55, 50
-    types TYPE_ICE, TYPE_WATER
+    types TYPE_SOUND, TYPE_ICE
     catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 1, 0, 0, 0, 0, 0
@@ -7660,7 +7660,7 @@ mondata SPECIES_SPHEAL, "Spheal"
 
 mondata SPECIES_SEALEO, "Sealeo"
     basestats 90, 60, 70, 45, 75, 70
-    types TYPE_ICE, TYPE_WATER
+    types TYPE_SOUND, TYPE_ICE
     catchrate 120
     baseexp 0 // defined in baseexp.s
     evyields 2, 0, 0, 0, 0, 0
@@ -7681,7 +7681,7 @@ mondata SPECIES_SEALEO, "Sealeo"
 
 mondata SPECIES_WALREIN, "Walrein"
     basestats 110, 80, 90, 65, 95, 90
-    types TYPE_ICE, TYPE_WATER
+    types TYPE_SOUND, TYPE_ICE
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 3, 0, 0, 0, 0, 0

@@ -1507,9 +1507,6 @@ levelup SPECIES_MACHAMP
 
 levelup SPECIES_BELLSPROUT
     learnset MOVE_VINE_WHIP, 1
-    learnset MOVE_HORN_LEECH, 4
-    learnset MOVE_COTTON_SPORE, 4
-    learnset MOVE_SLAM, 4
     learnset MOVE_GROWTH, 7
     learnset MOVE_WRAP, 11
     learnset MOVE_SLEEP_POWDER, 13
@@ -4076,8 +4073,7 @@ levelup SPECIES_MAREEP
     learnset MOVE_GROWL, 1
     learnset MOVE_THUNDER_WAVE, 4
     learnset MOVE_THUNDER_SHOCK, 8
-    learnset MOVE_COTTON_SPORE, 11
-    learnset MOVE_CHARGE, 15
+    learnset MOVE_CHARGE, 14
     learnset MOVE_TAKE_DOWN, 18
     learnset MOVE_ELECTRO_BALL, 22
     learnset MOVE_CONFUSE_RAY, 25
@@ -4097,7 +4093,6 @@ levelup SPECIES_FLAAFFY
     learnset MOVE_THUNDER_SHOCK, 1
     learnset MOVE_THUNDER_WAVE, 4
     learnset MOVE_THUNDER_SHOCK, 8
-    learnset MOVE_COTTON_SPORE, 11
     learnset MOVE_CHARGE, 16
     learnset MOVE_TAKE_DOWN, 20
     learnset MOVE_ELECTRO_BALL, 25
@@ -4125,7 +4120,6 @@ levelup SPECIES_AMPHAROS
     learnset MOVE_THUNDER_SHOCK, 1
     learnset MOVE_THUNDER_WAVE, 4
     learnset MOVE_THUNDER_SHOCK, 8
-    learnset MOVE_COTTON_SPORE, 11
     learnset MOVE_CHARGE, 16
     learnset MOVE_TAKE_DOWN, 20
     learnset MOVE_ELECTRO_BALL, 25
@@ -6553,7 +6547,7 @@ levelup SPECIES_SHROOMISH
     learnset MOVE_TACKLE, 1
     learnset MOVE_STUN_SPORE, 5
     learnset MOVE_LEECH_SEED, 8
-    learnset MOVE_MEGA_DRAIN, 12
+    learnset MOVE_COTTON_SPORE, 12
     learnset MOVE_HEADBUTT, 15
     learnset MOVE_POISON_POWDER, 19
     learnset MOVE_WORRY_SEED, 22
@@ -7619,7 +7613,6 @@ levelup SPECIES_CACNEA
     learnset MOVE_SUCKER_PUNCH, 34
     learnset MOVE_PIN_MISSILE, 38
     learnset MOVE_ENERGY_BALL, 42
-    learnset MOVE_COTTON_SPORE, 46
     learnset MOVE_SANDSTORM, 50
     learnset MOVE_DESTINY_BOND, 54
     terminatelearnset
@@ -7646,7 +7639,6 @@ levelup SPECIES_CACTURNE
     learnset MOVE_SUCKER_PUNCH, 35
     learnset MOVE_PIN_MISSILE, 38
     learnset MOVE_ENERGY_BALL, 44
-    learnset MOVE_COTTON_SPORE, 49
     learnset MOVE_SANDSTORM, 54
     learnset MOVE_DESTINY_BOND, 59
     terminatelearnset
@@ -12781,7 +12773,6 @@ levelup SPECIES_COTTONEE
     learnset MOVE_LEECH_SEED, 19
     learnset MOVE_POISON_POWDER, 21
     learnset MOVE_GIGA_DRAIN, 24
-    learnset MOVE_COTTON_SPORE, 25
     learnset MOVE_CHARM, 27
     learnset MOVE_HELPING_HAND, 31
     learnset MOVE_ENERGY_BALL, 35
@@ -12805,7 +12796,6 @@ levelup SPECIES_WHIMSICOTT
     learnset MOVE_GIGA_DRAIN, 1
     learnset MOVE_CHARM, 1
     learnset MOVE_LEECH_SEED, 1
-    learnset MOVE_COTTON_SPORE, 1
     learnset MOVE_ENERGY_BALL, 1
     learnset MOVE_SUNNY_DAY, 1
     learnset MOVE_ENDEAVOR, 1
@@ -13031,7 +13021,6 @@ levelup SPECIES_KUDOWOODO
     learnset MOVE_GIGA_DRAIN, 24
     learnset MOVE_SYNTHESIS, 24
     learnset MOVE_SUCKER_PUNCH, 28
-    learnset MOVE_COTTON_SPORE, 29
     learnset MOVE_INGRAIN, 33
     learnset MOVE_PETAL_BLIZZARD, 41
     learnset MOVE_ACUPRESSURE, 41
@@ -16034,7 +16023,6 @@ levelup SPECIES_SWIRLIX
     learnset MOVE_ROUND, 15
     learnset MOVE_AROMATHERAPY, 16
 //    learnset MOVE_DRAINING_KISS, 20
-    learnset MOVE_COTTON_SPORE, 20
     learnset MOVE_STRING_SHOT, 21
     learnset MOVE_ENDEAVOR, 30
     learnset MOVE_ENERGY_BALL, 31
@@ -16057,7 +16045,6 @@ levelup SPECIES_SLURPUFF
     learnset MOVE_ROUND, 15
     learnset MOVE_AROMATHERAPY, 16
 //    learnset MOVE_DRAINING_KISS, 20
-    learnset MOVE_COTTON_SPORE, 20
     learnset MOVE_STRING_SHOT, 21
     learnset MOVE_ENDEAVOR, 30
     learnset MOVE_ENERGY_BALL, 31
@@ -19253,7 +19240,6 @@ levelup SPECIES_GOSSIFLEUR
 
 
 levelup SPECIES_ELDEGOSS
-    learnset MOVE_COTTON_SPORE, 1
     learnset MOVE_LEAFAGE, 1
     learnset MOVE_SING, 1
     learnset MOVE_RAPID_SPIN, 1
@@ -23305,7 +23291,6 @@ levelup SPECIES_MEGA_AMPHAROS
     learnset MOVE_THUNDER_SHOCK, 1
     learnset MOVE_THUNDER_WAVE, 4
     learnset MOVE_THUNDER_SHOCK, 8
-    learnset MOVE_COTTON_SPORE, 11
     learnset MOVE_CHARGE, 16
     learnset MOVE_TAKE_DOWN, 20
     learnset MOVE_ELECTRO_BALL, 25

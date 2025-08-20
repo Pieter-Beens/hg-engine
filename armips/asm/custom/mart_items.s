@@ -119,7 +119,7 @@ const u16 *_0210FA3C[] = {
 /* const u16 _020FBA5A[] = {ITEM_AIR_MAIL, ITEM_QUICK_BALL, 0xFFFF}; */
 
 /* const u16 _020FBA60[] = {ITEM_AIR_MAIL, ITEM_HEAL_BALL, ITEM_NET_BALL, 0xFFFF}; */
-/* Ecruteak City 2nd Clerk -> Safari Zone Top Stall */
+/* Ecruteak City 2nd Clerk */
 
 .org 0x020FBA60
 .halfword ITEM_PINSIRITE
@@ -131,7 +131,7 @@ const u16 *_0210FA3C[] = {
 /* const u16 _020FBA70[] = {ITEM_AIR_MAIL, ITEM_DUSK_BALL, ITEM_QUICK_BALL, 0xFFFF}; */
 
 /* const u16 _020FBA78[] = {ITEM_TUNNEL_MAIL, ITEM_HEAL_BALL, ITEM_NET_BALL, 0xFFFF}; */
-/* Violet City Upper Cashier -> Goldenrod Flower Shop??? */
+/* Violet City Upper Cashier */
 .org 0x020FBA78
 .halfword ITEM_VENUSAURITE
 .halfword ITEM_CHARIZARDITE_Y
@@ -164,12 +164,15 @@ const u16 *_0210FA3C[] = {
 /* const u16 _020FBAC0[] = {ITEM_AIR_MAIL, ITEM_NEST_BALL, ITEM_DUSK_BALL, ITEM_QUICK_BALL, 0xFFFF}; */
 /* const u16 _020FBACA[] = {ITEM_HEAL_POWDER, ITEM_ENERGYPOWDER, ITEM_ENERGY_ROOT, ITEM_REVIVAL_HERB, 0xFFFF}; */
 /* const u16 _020FBAD4[] = {ITEM_POTION, ITEM_SUPER_POTION, ITEM_HYPER_POTION, ITEM_FULL_HEAL, ITEM_REVIVE, 0xFFFF}; */
+
 /* const u16 _020FBAFA[] = {ITEM_PROTEIN, ITEM_IRON, ITEM_CALCIUM, ITEM_ZINC, ITEM_CARBOS, ITEM_HP_UP, 0xFFFF}; */
+/* Goldenrod Dept Store? */
 
 /* const u16 _020FBB08[] = {ITEM_PROTEIN, ITEM_IRON, ITEM_CALCIUM, ITEM_ZINC, ITEM_CARBOS, ITEM_HP_UP, 0xFFFF}; */
+/* Celadon Dept Store 5F */
 
 .org 0x020FBB08
-/* Celadon Dept Store 5F -> Goldenrod/Celadon Dept Store 2F (reduced inventory) */
+/* Celadon Dept Store 5F */
 .halfword ITEM_POTION
 .halfword ITEM_SUPER_POTION
 .halfword ITEM_HYPER_POTION
@@ -186,7 +189,7 @@ const u16 *_0210FA3C[] = {
 
 .org 0x020FBBB4
 /* This spills over into _020FBBC6 */
-/* Goldenrod Dept Store 3F & Celadon Dept Store 5F -> Chansey Supply 1 */ 
+/* Goldenrod Dept Store 3F & Celadon Dept Store 5F */ 
 .halfword ITEM_HP_UP
 .halfword ITEM_PROTEIN
 .halfword ITEM_IRON
@@ -203,14 +206,14 @@ const u16 *_0210FA3C[] = {
 .halfword ITEM_EXP_SHARE
 .halfword ITEM_MACHO_BRACE
 .halfword ITEM_GARDEVOIRITE
-.halfword ITEM_GARDEVOIRITE
+.halfword ITEM_GALLADITE
 .halfword 0xFFFF
 .halfword 0xFFFF
 
 /* const u16 _020FBBD8[] = {ITEM_GREAT_BALL, ITEM_SUPER_POTION, ITEM_HYPER_POTION, ITEM_ANTIDOTE, ITEM_PARLYZ_HEAL, ITEM_SUPER_REPEL, ITEM_REVIVE, ITEM_AIR_MAIL, 0xFFFF}; */
 
 .org 0x020FBBD8
-/* Mahogany Shop -> Goldenrod/Celadon Dept Store */
+/* Mahogany Shop AFTER TEAM ROCKET*/
 .halfword ITEM_ROCKY_HELMET
 .halfword ITEM_FOCUS_SASH
 .halfword ITEM_EJECT_BUTTON
@@ -226,7 +229,7 @@ const u16 *_0210FA3C[] = {
 
 .org 0x020FBBEA
 /* This spills over into _020FBC02 */
-/* Goldenrod Dept Store 2F & Celadon Dept Store 2F -> Chansey Supply 2 */
+/* Goldenrod Dept Store 2F & Celadon Dept Store 2F */
 .halfword ITEM_ABILITY_PATCH
 .halfword ITEM_ABILITY_CAPSULE
 .halfword ITEM_LONELY_MINT
@@ -258,15 +261,15 @@ const u16 *_0210FA3C[] = {
 /* const u16 _020FBC34[] = {ITEM_TM70, ITEM_TM17, ITEM_TM54, ITEM_TM83, ITEM_TM16, ITEM_TM33, ITEM_TM22, ITEM_TM52, ITEM_TM38, ITEM_TM25, ITEM_TM14, ITEM_TM15, 0xFFFF}; */
 
 .org 0x020FBC34
-/* Goldenrod Dept Store 5F -> Goldenrod Dept Store 5F still (also Celadon 3F) */
+/* Goldenrod Dept Store 5F */
 .halfword ITEM_DUSK_STONE
 .halfword ITEM_DAWN_STONE
 .halfword ITEM_SHINY_STONE
 .halfword ITEM_ICE_STONE
 .halfword ITEM_LINKING_CORD
 .halfword ITEM_BLACK_AUGURITE
+.halfword ITEM_HARD_STONE
 .halfword ITEM_SHELL_BELL
-.halfword ITEM_BLACK_BELT
 .halfword ITEM_EVERSTONE
 .halfword 0xFFFF
 .halfword 0xFFFF
@@ -276,7 +279,7 @@ const u16 *_0210FA3C[] = {
 /* const u16 _020FBC4E[] = {ITEM_POKE_BALL, ITEM_GREAT_BALL, ITEM_ULTRA_BALL, ITEM_ESCAPE_ROPE, ITEM_POKE_DOLL, ITEM_REPEL, ITEM_SUPER_REPEL, ITEM_MAX_REPEL, ITEM_GRASS_MAIL, ITEM_FLAME_MAIL, ITEM_BUBBLE_MAIL, ITEM_SPACE_MAIL, 0xFFFF}; */
 
 .org 0x020FBC4E
-/* Celadon Dept Store 2F -> Safari Zone Gate */
+/* Celadon Dept Store 2F */
 .halfword ITEM_FULL_INCENSE
 .halfword ITEM_LAX_INCENSE
 .halfword ITEM_LUCK_INCENSE
@@ -294,7 +297,7 @@ const u16 *_0210FA3C[] = {
 /* const u16 _020FBC68[] = {ITEM_TM21, ITEM_TM27, ITEM_TM87, ITEM_TM78, ITEM_TM12, ITEM_TM41, ITEM_TM20, ITEM_TM28, ITEM_TM76, ITEM_TM55, ITEM_TM72, ITEM_TM79, 0xFFFF}; */
 
 .org 0x020FBC68
-/* Celadon Dept Store 3F -> Safari Zone Gate */
+/* Celadon Dept Store 3F */
 .halfword ITEM_SHINY_STONE
 .halfword ITEM_DUSK_STONE
 .halfword ITEM_DAWN_STONE

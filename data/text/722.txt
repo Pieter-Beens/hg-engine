@@ -297,7 +297,7 @@ Scatters poison spikes\nif hit by physical moves.
 Makes foes unable to\nuse priority attacks.
 Restores HP if hit by a\nGround-type move.
 Status moves go last\nbut ignore abilities.
-Upon entry, restores\nan allies HP.
+Upon entry, restores\nan ally’s HP.
 Ignores accuracy changes\nand Ghost type immunities.
 The Teal Mask shines,\nboosting the Speed stat.
 The Wellspring Mask shines,\nboosting the Sp. Def stat.

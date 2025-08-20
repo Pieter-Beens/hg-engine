@@ -3,11 +3,11 @@ Welcome to Goldenrod’s Radio Tower!\r...Or, maybe not.\nI am sorry to tell you
 Um, yes. I have been telling visitors\nto go home as you instructed...
 We have a special Quiz campaign!\rAnswer five questions correctly in a\nrow to win a Radio Card!\rWhen you load it into the Pokégear, you\nwill be able to listen to the radio...\fanytime, anywhere!\rWould you like to try our Quiz? \v0200\x0001\x0000
 The first question!\rDoes ONIX have a lower attack stat\nthan CATERPIE? \v0200\x0001\x0000
-You are correct.\nThe second question!\rFURRET can evolve once more.\nTrue? \v0200\x0001\x0000
-You are correct.\nThe third question!\rCosmic-type Pokémon are only weak\nto Psychic attacks, is that true? \v0200\x0001\x0000
-You are correct again.\nThe fourth question!\rSome Pokémon evolve if you make\nthem hold a mushroom. True? \v0200\x0001\x0000
-Wow!\nI have only one more question to go.\rSLOWPOKE evolves when it is bitten\nby a Pokémon called SHELLDURE? \v0200\x0001\x0000
-Bingo! You got it!\nCongratulations!\fHere’s your prize, a Radio Card!\r
+You are correct! Although, that was\nkind of obvious...\rNext, the second question!\rFURRET can evolve once more.\nTrue? \v0200\x0001\x0000
+You are correct. Just leveling it up\nwill do the trick!\rNow then, the third question!\rCosmic-type Pokémon resist Psychic\nattacks, is that true? \v0200\x0001\x0000
+Correct again! Actually, Cosmic-types\nare very weak to Psychic attacks!\rThe fourth question, then...\rSome Pokémon evolve if you make\nthem hold a mushroom. True? \v0200\x0001\x0000
+So you knew! Yes, NYMPHLE may evolve if\nit holds a mushroom, but maybe it would\frather evolve with a Hard Stone...\rAnyway, there is only one question left.\rSLOWPOKE evolves when it is bitten\nby a Pokémon called SHELLDER? \v0200\x0001\x0000
+Bingo! You got it!\rFor a long time, people thought SLOWBRO\nwas carrying around a SHELLDER.\rBut SHELLDER and SHELLDURE look nothing\nlike eachother! Very weird...\rAnyway, congratulations!\nHere’s your prize, a Radio Card!\r
 \v0103ぁ\x0000\x0000 can now listen to the\nradio with the Pokégear!
 Please tune in to our radio shows!
 Oh, dear.\nSorry, but you got it wrong.\fPlease try again!

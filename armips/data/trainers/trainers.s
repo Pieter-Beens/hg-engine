@@ -173,21 +173,21 @@ trainerdata 5, "Victoria"
         ivs 10
         abilityslot 32
         level 9
-        pokemon SPECIES_SENTRET
+        pokemon SPECIES_WHISMUR
         ballseal 0
 
         // mon 1
         ivs 10
         abilityslot 32
         level 13
-        pokemon SPECIES_SENTRET
+        pokemon SPECIES_WHISMUR
         ballseal 0
 
         // mon 2
         ivs 10
         abilityslot 32
         level 16
-        pokemon SPECIES_SENTRET
+        pokemon SPECIES_WHISMUR
         ballseal 0
     endparty
 
@@ -765,13 +765,13 @@ trainerdata 22, "Carrie"
     party 22
         // mon 0
         ivs 10
-        abilityslot 0
-        level 17
-        pokemon SPECIES_SNUBBULL
-        move MOVE_SCARY_FACE
-        move MOVE_CHARM
-        move MOVE_BITE
-        move MOVE_LICK
+        abilityslot 32
+        level 18
+        pokemon SPECIES_KRICKETUNE
+        move MOVE_EAR_WHACK
+        move MOVE_SING
+        move MOVE_BUG_BITE
+        move MOVE_SLASH
         ballseal 0
     endparty
 
@@ -2270,22 +2270,22 @@ trainerdata 70, "Samantha"
         ivs 10
         abilityslot 32
         level 16
-        pokemon SPECIES_MEOWTH
-        move MOVE_SCRATCH
+        pokemon SPECIES_WHISMUR
+        move MOVE_ROUND
         move MOVE_GROWL
-        move MOVE_BITE
-        move MOVE_PAY_DAY
+        move MOVE_ASTONISH
+        move MOVE_STOMP
         ballseal 0
 
         // mon 1
         ivs 10
-        abilityslot 32
-        level 16
-        pokemon SPECIES_MEOWTH
-        move MOVE_SCRATCH
-        move MOVE_GROWL
-        move MOVE_BITE
-        move MOVE_SLASH
+        abilityslot 0
+        level 17
+        pokemon SPECIES_WAILMER
+        move MOVE_ECHOED_VOICE
+        move MOVE_WATER_GUN
+        move MOVE_ROLLOUT
+        move MOVE_DEFENSE_CURL
         ballseal 0
     endparty
 
@@ -2305,7 +2305,7 @@ trainerdata 71, "Cathy"
         // mon 0
         ivs 10
         abilityslot 0
-        level 15
+        level 13
         pokemon SPECIES_JIGGLYPUFF
         ballseal 0
 
@@ -2319,8 +2319,8 @@ trainerdata 71, "Cathy"
         // mon 2
         ivs 10
         abilityslot 0
-        level 15
-        pokemon SPECIES_JIGGLYPUFF
+        level 17
+        pokemon SPECIES_NOIBAT
         ballseal 0
     endparty
 

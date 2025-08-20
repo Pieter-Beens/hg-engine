@@ -1,0 +1,42 @@
+We exchange your Coins for\nfabulous prizes! \v0200\x0001\x0000
+Please save your Coins and\ncome again!
+Sorry! You need more Coins. \v0200\x0001\x0000
+\v0108ぁ\x0000\x0000.\nIs that right? \v0200\x0001\x0000
+Here you go!\r
+Sorry. You can’t carry any more.\r
+Your party’s full!\nPlease make some room before you\fcome back.
+Would you like \v0100ぁ\x0001\x0000? \v0200\x0001\x0000
+\v0103ぁ\x0000\x0000 received\nthe \v0100ぁ\x0001\x0000! \v0200\x0001\x0000
+Welcome!\rWe exchange your Coins for\nfabulous prizes! \v0200\x0001\x0000
+You put away the \v0108ぁ\x0000\x0000\nin the \v0112ぁ\x0001\x0000 Pocket. \v0200\x0001\x0000
+CANCEL
+TECHNICAL MACHINE
+HELD ITEMS
+SUBSTITUTE\n2,000 Coins
+SWORDS DANCE\n4,000 Coins
+REST\n6,000 Coins
+FLAMETHROWER\n10,000 Coins
+ICE BEAM\n10,000 Coins
+THUNDERBOLT\n10,000 Coins
+SILK SCARF\n1,000 Coins
+WIDE LENS\n1,000 Coins
+ZOOM LENS\n1,000 Coins
+METRONOME\n1,000 Coins
+SPHEAL\v0203\x0001ザ200 Coins
+WHISMUR\v0203\x0001ザ700 Coins
+FOONGUS\v0203\x0001ォ2,100 Coins
+SANDSHREW\v0203\x0001ザ700 Coins
+My name is Mr. Game!\rMy heart pounds with excitement when\npeople enjoy my Coin game!\rIn fact, that’s what I live for!\nYou look like quite a challenger!\rWhy don’t you play my Coin game?\rYou can get fabulous prizes if\nyou manage to collect a lot\fof Coins. \v0200\x0001\x0000
+  
+   
+All right!\nHere is your Coin Case!\r
+Show me how you play, and my heart\nwill pound with excitement!\r
+Playing my Coin game will make your\nheart and my heart both pound with\fexcitement, you know?
+My name is Mr. Game!\rMy heart pounds with excitement when\npeople enjoy my Coin game!\rIn fact, that’s what I live for!\nGo ahead and play it!\rMake my heart pound with excitement!
+Go ahead and play my Coin game!\fMake my heart pound with excitement!
+What a feeling!\rNothing beats Coin-game spectatorship!\nOh! I almost forgot!\rYou can exchange your Coins for prizes\nwith the two gentlemen at the table\fover there.
+Did you come back to play\nmy Coin game?
+It seems you need a Coin Case\nto play...\r
+Mr. Game: Aha!\rYou must be here to play my Coin game!\nCome here and I’ll give you a Coin Case!
+Mr. Game: Show me how you play and\nmake my heart pound with excitement!\r
+Mr. Game: Huh?\rWhy don’t you sit across from me\nand show me how you play?
