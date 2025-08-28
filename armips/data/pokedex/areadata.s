@@ -33522,35 +33522,35 @@ routesandcities SPECIES_SPIDOPS, DEX_SPECIAL
     dexendareadata
 
 
-specialareas SPECIES_NYMPHLE, DEX_MORNING
+specialareas SPECIES_NYMBLE, DEX_MORNING
     dexendareadata
 
 
-specialareas SPECIES_NYMPHLE, DEX_DAY
+specialareas SPECIES_NYMBLE, DEX_DAY
     dexendareadata
 
 
-specialareas SPECIES_NYMPHLE, DEX_NIGHT
+specialareas SPECIES_NYMBLE, DEX_NIGHT
     dexendareadata
 
 
-routesandcities SPECIES_NYMPHLE, DEX_MORNING
+routesandcities SPECIES_NYMBLE, DEX_MORNING
     dexendareadata
 
 
-routesandcities SPECIES_NYMPHLE, DEX_DAY
+routesandcities SPECIES_NYMBLE, DEX_DAY
     dexendareadata
 
 
-routesandcities SPECIES_NYMPHLE, DEX_NIGHT
+routesandcities SPECIES_NYMBLE, DEX_NIGHT
     dexendareadata
 
 
-specialareas SPECIES_NYMPHLE, DEX_SPECIAL
+specialareas SPECIES_NYMBLE, DEX_SPECIAL
     dexendareadata
 
 
-routesandcities SPECIES_NYMPHLE, DEX_SPECIAL
+routesandcities SPECIES_NYMBLE, DEX_SPECIAL
     dexendareadata
 
 

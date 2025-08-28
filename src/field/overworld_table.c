@@ -1553,7 +1553,7 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
     { .tag = 1672, .gfx = 1463, .callback_params = OVERWORLD_SIZE_SMALL}, // female
     { .tag = 1673, .gfx = 1464, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_TAROUNTULA
     { .tag = 1674, .gfx = 1465, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_SPIDOPS
-    { .tag = 1675, .gfx = 1466, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_NYMPHLE
+    { .tag = 1675, .gfx = 1466, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_NYMBLE
     { .tag = 1676, .gfx = 1467, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_LOKIX
     { .tag = 1677, .gfx = 1468, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_PAWMI
     { .tag = 1678, .gfx = 1469, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_PAWMO

@@ -20360,7 +20360,7 @@ mondata SPECIES_SPIDOPS, "Spidops"
     mondexweight SPECIES_SPIDOPS, "36.4 lbs."
 
 
-mondata SPECIES_NYMPHLE, "Nymble"
+mondata SPECIES_NYMBLE, "Nymble"
     basestats 33, 46, 40, 45, 21, 25
     types TYPE_BUG, TYPE_BUG
     catchrate 190
@@ -20375,10 +20375,10 @@ mondata SPECIES_NYMPHLE, "Nymble"
     abilities ABILITY_SWARM, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
-    mondexentry SPECIES_NYMPHLE, "It has its third set of legs folded up. When\nit’s in a tough spot, this Pokémon jumps\nover 30 feet using the strength of its legs."
-    mondexclassification SPECIES_NYMPHLE, "Grasshopper Pokémon"
-    mondexheight SPECIES_NYMPHLE, "0’08”"
-    mondexweight SPECIES_NYMPHLE, "2.2 lbs."
+    mondexentry SPECIES_NYMBLE, "It has its third set of legs folded up. When\nit’s in a tough spot, this Pokémon jumps\nover 30 feet using the strength of its legs."
+    mondexclassification SPECIES_NYMBLE, "Grasshopper Pokémon"
+    mondexheight SPECIES_NYMBLE, "0’08”"
+    mondexweight SPECIES_NYMBLE, "2.2 lbs."
 
 
 mondata SPECIES_LOKIX, "Lokix"

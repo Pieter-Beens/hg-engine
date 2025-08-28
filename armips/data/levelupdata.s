@@ -20884,7 +20884,7 @@ levelup SPECIES_SPIDOPS
     learnset MOVE_SKITTER_SMACK, 49
     terminatelearnset
 
-levelup SPECIES_NYMPHLE
+levelup SPECIES_NYMBLE
     learnset MOVE_LEER, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_STRUGGLE_BUG, 4

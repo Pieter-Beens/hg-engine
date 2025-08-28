@@ -983,7 +983,7 @@ heightentry SPECIES_LECHONK, 0, 0, 0, 0
 heightentry SPECIES_OINKOLOGNE, 0, 0, 0, 0
 heightentry SPECIES_TAROUNTULA, 0, 0, 0, 0
 heightentry SPECIES_SPIDOPS, 0, 0, 0, 0
-heightentry SPECIES_NYMPHLE, 0, 0, 17, 17
+heightentry SPECIES_NYMBLE, 0, 0, 17, 17
 heightentry SPECIES_LOKIX, 0, 0, 0, 0
 heightentry SPECIES_PAWMI, 0, 0, 0, 0
 heightentry SPECIES_PAWMO, 0, 0, 0, 0

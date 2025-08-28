@@ -11647,7 +11647,7 @@ evodata SPECIES_SPIDOPS
     evolution EVO_NONE, 0, SPECIES_NONE
 terminateevodata
 
-evodata SPECIES_NYMPHLE
+evodata SPECIES_NYMBLE
     evolution EVO_LEVEL, 24, SPECIES_LOKIX
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
