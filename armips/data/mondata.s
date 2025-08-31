@@ -8479,7 +8479,7 @@ mondata SPECIES_KRICKETUNE, "Kricketune"
 
 mondata SPECIES_SHINX, "Shinx"
     basestats 45, 65, 34, 45, 40, 34
-    types TYPE_ELECTRIC, TYPE_ELECTRIC
+    types TYPE_DARK, TYPE_DARK
     catchrate 235
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
@@ -8489,7 +8489,7 @@ mondata SPECIES_SHINX, "Shinx"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_RIVALRY, ABILITY_GUTS
+    abilities ABILITY_RIVALRY, ABILITY_FLARE_BOOST
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_SHINX, "The extension and contraction of\nits muscles generates electricity.\nIts fur glows when it’s in trouble."
@@ -8499,8 +8499,8 @@ mondata SPECIES_SHINX, "Shinx"
 
 
 mondata SPECIES_LUXIO, "Luxio"
-    basestats 60, 85, 49, 60, 60, 49
-    types TYPE_ELECTRIC, TYPE_DARK
+    basestats 60, 75, 49, 70, 60, 49
+    types TYPE_DARK, TYPE_COSMIC
     catchrate 120
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
@@ -8510,7 +8510,7 @@ mondata SPECIES_LUXIO, "Luxio"
     basefriendship 100
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_RIVALRY, ABILITY_GUTS
+    abilities ABILITY_INTIMIDATE, ABILITY_FLARE_BOOST
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_LUXIO, "By gathering their tails together,\nthey collectively generate powerful\nelectricity from their claws."
@@ -8520,8 +8520,8 @@ mondata SPECIES_LUXIO, "Luxio"
 
 
 mondata SPECIES_LUXRAY, "Luxray"
-    basestats 80, 120, 79, 70, 95, 79
-    types TYPE_ELECTRIC, TYPE_DARK
+    basestats 80, 95, 79, 70, 120, 79
+    types TYPE_DARK, TYPE_COSMIC
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 3, 0, 0, 0, 0
@@ -8531,7 +8531,7 @@ mondata SPECIES_LUXRAY, "Luxray"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_RIVALRY, ABILITY_GUTS
+    abilities ABILITY_INTIMIDATE, ABILITY_FLARE_BOOST
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_LUXRAY, "LUXRAY’s ability to see through\nobjects comes in handy when it’s\nscouting for danger."

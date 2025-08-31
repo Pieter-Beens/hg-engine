@@ -976,7 +976,7 @@
 /* SPECIES_OINKOLOGNE      */ .halfword 24
 /* SPECIES_TAROUNTULA      */ .halfword 24
 /* SPECIES_SPIDOPS         */ .halfword 24
-/* SPECIES_NYMPHLE          */ .halfword 24
+/* SPECIES_NYMBLE          */ .halfword 24
 /* SPECIES_LOKIX           */ .halfword 24
 /* SPECIES_PAWMI           */ .halfword 24
 /* SPECIES_PAWMO           */ .halfword 24

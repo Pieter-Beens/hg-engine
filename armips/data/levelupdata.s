@@ -9164,65 +9164,64 @@ levelup SPECIES_KRICKETUNE
 levelup SPECIES_SHINX
     learnset MOVE_TACKLE, 1
     learnset MOVE_LEER, 1
-    learnset MOVE_THUNDER_SHOCK, 4
+    learnset MOVE_SWIFT, 4
     learnset MOVE_LEER, 5
-    learnset MOVE_CHARGE, 8
-    learnset MOVE_BABY_DOLL_EYES, 11
-    learnset MOVE_BITE, 14
-    learnset MOVE_SPARK, 14
+    learnset MOVE_COSMIC_POWER, 8
+    learnset MOVE_BITE, 10
+    learnset MOVE_BABY_DOLL_EYES, 12
+    learnset MOVE_VACUUM_WAVE, 16
     learnset MOVE_ROAR, 20
-    learnset MOVE_VOLT_SWITCH, 24
-    learnset MOVE_THUNDER_FANG, 29
-    learnset MOVE_SCARY_FACE, 32
-    learnset MOVE_THUNDER_WAVE, 32
-    learnset MOVE_CRUNCH, 34
-    learnset MOVE_SWAGGER, 35
-    learnset MOVE_DISCHARGE, 40
-    learnset MOVE_WILD_CHARGE, 46
+    learnset MOVE_SIGNAL_BEAM, 23
+    learnset MOVE_AURORA_BEAM, 25
+    learnset MOVE_CRUNCH, 29
+    learnset MOVE_DISCHARGE, 37
+    learnset MOVE_DARK_PULSE, 40
+    learnset MOVE_MOONBLAST, 42
+    learnset MOVE_TAIL_GLOW, 45
+    learnset MOVE_MOONGEIST_BEAM, 50
     terminatelearnset
 
 
 levelup SPECIES_LUXIO
     learnset MOVE_TACKLE, 1
     learnset MOVE_LEER, 1
-    learnset MOVE_THUNDER_SHOCK, 1
-    learnset MOVE_CHARGE, 1
+    learnset MOVE_SWIFT, 4
     learnset MOVE_LEER, 5
-    learnset MOVE_CHARGE, 9
-    learnset MOVE_BITE, 14
-    learnset MOVE_SPARK, 15
-    learnset MOVE_ROAR, 23
-    learnset MOVE_VOLT_SWITCH, 31
-    learnset MOVE_THUNDER_FANG, 33
-    learnset MOVE_SCARY_FACE, 39
-    learnset MOVE_THUNDER_WAVE, 42
-    learnset MOVE_CRUNCH, 43
-    learnset MOVE_SWAGGER, 45
-    learnset MOVE_DISCHARGE, 51
-    learnset MOVE_WILD_CHARGE, 61
+    learnset MOVE_COSMIC_POWER, 8
+    learnset MOVE_BITE, 10
+    learnset MOVE_BABY_DOLL_EYES, 12
+    learnset MOVE_VACUUM_WAVE, 16
+    learnset MOVE_ROAR, 20
+    learnset MOVE_SIGNAL_BEAM, 23
+    learnset MOVE_AURORA_BEAM, 25
+    learnset MOVE_CRUNCH, 29
+    learnset MOVE_DISCHARGE, 37
+    learnset MOVE_DARK_PULSE, 40
+    learnset MOVE_MOONBLAST, 42
+    learnset MOVE_TAIL_GLOW, 45
+    learnset MOVE_MOONGEIST_BEAM, 50
     terminatelearnset
 
 
 levelup SPECIES_LUXRAY
-    learnset MOVE_ELECTRIC_TERRAIN, 1
+    learnset MOVE_METEOR_BEAM, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_LEER, 1
-    learnset MOVE_THUNDER_SHOCK, 1
-    learnset MOVE_CHARGE, 1
+    learnset MOVE_SWIFT, 4
     learnset MOVE_LEER, 5
-    learnset MOVE_CHARGE, 9
-    learnset MOVE_BITE, 14
-    learnset MOVE_SPARK, 15
-    learnset MOVE_ROAR, 23
-    learnset MOVE_VOLT_SWITCH, 33
-    learnset MOVE_THUNDER_FANG, 35
-    learnset MOVE_SCARY_FACE, 44
-    learnset MOVE_THUNDER_WAVE, 48
-    learnset MOVE_CRUNCH, 49
-    learnset MOVE_SWAGGER, 51
-    learnset MOVE_DISCHARGE, 60
-    learnset MOVE_ELECTRIC_TERRAIN, 67
-    learnset MOVE_WILD_CHARGE, 72
+    learnset MOVE_COSMIC_POWER, 8
+    learnset MOVE_BITE, 10
+    learnset MOVE_BABY_DOLL_EYES, 12
+    learnset MOVE_VACUUM_WAVE, 16
+    learnset MOVE_ROAR, 20
+    learnset MOVE_SIGNAL_BEAM, 23
+    learnset MOVE_AURORA_BEAM, 25
+    learnset MOVE_CRUNCH, 29
+    learnset MOVE_DISCHARGE, 37
+    learnset MOVE_DARK_PULSE, 40
+    learnset MOVE_MOONBLAST, 42
+    learnset MOVE_TAIL_GLOW, 45
+    learnset MOVE_MOONGEIST_BEAM, 50
     terminatelearnset
 
 
