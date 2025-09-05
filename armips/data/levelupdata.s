@@ -18115,19 +18115,11 @@ levelup SPECIES_MINIOR
 
 
 levelup SPECIES_SUBSTITUTE
-    learnset MOVE_DEFENSE_CURL, 1
-    learnset MOVE_ROLLOUT, 1
     learnset MOVE_STOCKPILE, 6
     learnset MOVE_SPIT_UP, 6
     learnset MOVE_SWALLOW, 6
-    learnset MOVE_RAPID_SPIN, 11
-    learnset MOVE_YAWN, 16
-    learnset MOVE_SLAM, 21
-    learnset MOVE_FLAIL, 26
-    learnset MOVE_SUCKER_PUNCH, 31
-    learnset MOVE_PSYCH_UP, 36
-    learnset MOVE_WOOD_HAMMER, 41
-    learnset MOVE_THRASH, 46
+    learnset MOVE_FLAIL, 10
+    learnset MOVE_PSYCH_UP, 15
     terminatelearnset
 
 

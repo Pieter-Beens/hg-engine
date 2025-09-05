@@ -17337,7 +17337,7 @@ mondata SPECIES_MINIOR, "Minior"
 
 
 mondata SPECIES_SUBSTITUTE, "Substitute"
-    basestats 65, 115, 65, 65, 75, 95
+    basestats 25, 25, 25, 5, 25, 25
     types TYPE_NORMAL, TYPE_NORMAL
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -17348,7 +17348,7 @@ mondata SPECIES_SUBSTITUTE, "Substitute"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_DRAGON
-    abilities ABILITY_COMATOSE, ABILITY_NONE
+    abilities ABILITY_STALL, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_SUBSTITUTE, "It stays asleep from the moment it’s\nborn. When it falls into a deep sleep,\nit stops moving altogether."
