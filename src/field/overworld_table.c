@@ -1310,7 +1310,7 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
     { .tag = 1429, .gfx = 1108, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_DECIDUEYE
     { .tag = 1430, .gfx = 1407, .callback_params = OVERWORLD_SIZE_SMALL}, // hisui
     { .tag = 1431, .gfx = 1109, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_PIEP
-    { .tag = 1432, .gfx = 1110, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_PRRING
+    { .tag = 1432, .gfx = 1110, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_PRINGLING
     { .tag = 1433, .gfx = 1111, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_HOUNDEMON
     { .tag = 1434, .gfx = 1112, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_POPPLIO
     { .tag = 1435, .gfx = 1113, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_BRIONNE

@@ -16307,7 +16307,7 @@ mondata SPECIES_PIEP, "Piep"
     mondexweight SPECIES_PIEP, "10.5 lbs."
 
 
-mondata SPECIES_PRRING, "Prring"
+mondata SPECIES_PRINGLING, "Prring"
     basestats 72, 81, 67, 101, 95, 74
     types TYPE_DARK, TYPE_SOUND
     catchrate 120
@@ -16322,10 +16322,10 @@ mondata SPECIES_PRRING, "Prring"
     abilities ABILITY_RATTLED, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_RED, 0
-    mondexentry SPECIES_PRRING, "It can disappear in darkness, yet it\nnever shows up unannounced due to its\nbells. Not sure how it catches prey."
-    mondexclassification SPECIES_PRRING, "Chatty Cat Pokémon"
-    mondexheight SPECIES_PRRING, "2’04”"
-    mondexweight SPECIES_PRRING, "19.1 lbs."
+    mondexentry SPECIES_PRINGLING, "It can disappear in darkness, yet it\nnever shows up unannounced due to its\nbells. Not sure how it catches prey."
+    mondexclassification SPECIES_PRINGLING, "Chatty Cat Pokémon"
+    mondexheight SPECIES_PRINGLING, "2’04”"
+    mondexweight SPECIES_PRINGLING, "19.1 lbs."
 
 
 mondata SPECIES_HOUNDEMON, "Houndemon"

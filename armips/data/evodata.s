@@ -9317,7 +9317,7 @@ evodata SPECIES_DECIDUEYE
 terminateevodata
 
 evodata SPECIES_PIEP
-    evolution EVO_LEVEL, 20, SPECIES_PRRING
+    evolution EVO_LEVEL, 20, SPECIES_PRINGLING
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -9328,7 +9328,7 @@ evodata SPECIES_PIEP
     evolution EVO_NONE, 0, SPECIES_NONE
 terminateevodata
 
-evodata SPECIES_PRRING
+evodata SPECIES_PRINGLING
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

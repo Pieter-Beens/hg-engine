@@ -60,7 +60,7 @@
 //.halfword SPECIES_PYROAR
 //.halfword SPECIES_VOLCANION
 //.halfword SPECIES_PIEP
-//.halfword SPECIES_PRRING
+//.halfword SPECIES_PRINGLING
 //.halfword SPECIES_HOUNDEMON
 //.halfword SPECIES_SALANDIT
 //.halfword SPECIES_SALAZZLE

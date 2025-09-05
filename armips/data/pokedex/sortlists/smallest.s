@@ -346,7 +346,7 @@
 //.halfword SPECIES_FLETCHINDER
 //.halfword SPECIES_DIANCIE
 //.halfword SPECIES_DARTRIX
-//.halfword SPECIES_PRRING
+//.halfword SPECIES_PRINGLING
 //.halfword SPECIES_GUMSHOOS
 //.halfword SPECIES_TOXAPEX
 //.halfword SPECIES_STEENEE

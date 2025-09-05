@@ -788,7 +788,7 @@ heightentry SPECIES_ROWLET, 0, 0, 0, 0
 heightentry SPECIES_DARTRIX, 0, 0, 0, 0
 heightentry SPECIES_DECIDUEYE, 0, 0, 0, 0
 heightentry SPECIES_PIEP, 0, 0, 0, 0
-heightentry SPECIES_PRRING, 0, 0, 0, 0
+heightentry SPECIES_PRINGLING, 0, 0, 0, 0
 heightentry SPECIES_HOUNDEMON, 6, 6, 0, 0
 heightentry SPECIES_POPPLIO, 0, 0, 0, 0
 heightentry SPECIES_BRIONNE, 0, 0, 0, 0

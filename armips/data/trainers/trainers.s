@@ -1022,7 +1022,7 @@ trainerdata 30, "Anna"
         ivs 100
         abilityslot 0
         level 20
-        pokemon SPECIES_PRRING
+        pokemon SPECIES_PRINGLING
         item ITEM_SITRUS_BERRY
         move MOVE_EAR_WHACK
         move MOVE_ATTRACT

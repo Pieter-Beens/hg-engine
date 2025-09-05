@@ -782,7 +782,7 @@
 /* SPECIES_DARTRIX                           */ .word 160
 /* SPECIES_DECIDUEYE                         */ .word 366
 /* SPECIES_PIEP                            */ .word 43
-/* SPECIES_PRRING                          */ .word 250
+/* SPECIES_PRINGLING                          */ .word 250
 /* SPECIES_HOUNDEMON                        */ .word 830
 /* SPECIES_POPPLIO                           */ .word 75
 /* SPECIES_BRIONNE                           */ .word 175

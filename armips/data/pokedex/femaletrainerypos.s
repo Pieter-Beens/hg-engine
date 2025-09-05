@@ -783,7 +783,7 @@
 /* SPECIES_DARTRIX         */ .halfword 8
 /* SPECIES_DECIDUEYE       */ .halfword 8
 /* SPECIES_PIEP          */ .halfword 8
-/* SPECIES_PRRING        */ .halfword 8
+/* SPECIES_PRINGLING        */ .halfword 8
 /* SPECIES_HOUNDEMON      */ .halfword 8
 /* SPECIES_POPPLIO         */ .halfword 8
 /* SPECIES_BRIONNE         */ .halfword 8
