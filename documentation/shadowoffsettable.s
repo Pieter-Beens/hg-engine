@@ -50,7 +50,7 @@
 /* SPECIES_ODDISH          */ .byte 0
 /* SPECIES_GLOOM           */ .byte 0
 /* SPECIES_VILEPLUME       */ .byte 0
-/* SPECIES_PARAS           */ .byte 0
+/* SPECIES_NYMPHLE           */ .byte 0
 /* SPECIES_PARASECT        */ .byte -2
 /* SPECIES_VENONAT         */ .byte 0
 /* SPECIES_VENOMOTH        */ .byte -6
@@ -294,9 +294,9 @@
 /* SPECIES_SLAKOTH         */ .byte 0
 /* SPECIES_VIGOROTH        */ .byte 4
 /* SPECIES_SLAKING         */ .byte 0
-/* SPECIES_NINCADA         */ .byte 2
+/* SPECIES_PARAS         */ .byte 2
 /* SPECIES_NINJASK         */ .byte 0
-/* SPECIES_SHEDINJA        */ .byte 0
+/* SPECIES_DEDDLE        */ .byte 0
 /* SPECIES_WHISMUR         */ .byte -1
 /* SPECIES_LOUDRED         */ .byte 0
 /* SPECIES_EXPLOUD         */ .byte 0

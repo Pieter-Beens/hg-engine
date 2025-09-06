@@ -431,7 +431,7 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
     { .tag =  494, .gfx =  341, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_ODDISH
     { .tag =  495, .gfx =  342, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_GLOOM
     { .tag =  496, .gfx =  343, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_VILEPLUME
-    { .tag =  497, .gfx =  344, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_PARAS
+    { .tag =  497, .gfx =  344, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_NYMPHLE
     { .tag =  498, .gfx =  345, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_PARASECT
     { .tag =  499, .gfx =  346, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_VENONAT
     { .tag =  500, .gfx =  347, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_VENOMOTH
@@ -745,9 +745,9 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
     { .tag =  808, .gfx =  617, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_SLAKOTH
     { .tag =  809, .gfx =  618, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_VIGOROTH
     { .tag =  810, .gfx =  619, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_SLAKING
-    { .tag =  811, .gfx =  620, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_NINCADA
+    { .tag =  811, .gfx =  620, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_PARAS
     { .tag =  812, .gfx =  621, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_NINJASK
-    { .tag =  813, .gfx =  622, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_SHEDINJA
+    { .tag =  813, .gfx =  622, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_DEDDLE
     { .tag =  814, .gfx =  623, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_WHISMUR
     { .tag =  815, .gfx =  624, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_LOUDRED
     { .tag =  816, .gfx =  625, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_EXPLOUD

@@ -2249,7 +2249,7 @@ trainerdata 69, "Josh"
         ivs 10
         abilityslot 0
         level 13
-        pokemon SPECIES_PARAS
+        pokemon SPECIES_NYMPHLE
         ballseal 0
     endparty
 
@@ -11799,7 +11799,7 @@ trainerdata 346, "Julia"
         ivs 0
         abilityslot 0
         level 44
-        pokemon SPECIES_PARAS
+        pokemon SPECIES_NYMPHLE
         move MOVE_GIGA_DRAIN
         move MOVE_SPORE
         move MOVE_SLASH
@@ -12108,14 +12108,14 @@ trainerdata 355, "Shannon"
         ivs 0
         abilityslot 0
         level 38
-        pokemon SPECIES_PARAS
+        pokemon SPECIES_NYMPHLE
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
         level 38
-        pokemon SPECIES_PARAS
+        pokemon SPECIES_NYMPHLE
         ballseal 0
 
         // mon 2
@@ -17484,7 +17484,7 @@ trainerdata 513, "Arnie"
         ivs 0
         abilityslot 0
         level 45
-        pokemon SPECIES_NINCADA
+        pokemon SPECIES_PARAS
         move MOVE_DIG
         move MOVE_METAL_CLAW
         move MOVE_MUD_SLAP
@@ -18300,7 +18300,7 @@ trainerdata 533, "Wayne"
         ivs 0
         abilityslot 0
         level 10
-        pokemon SPECIES_PARAS
+        pokemon SPECIES_NYMPHLE
         ballseal 0
     endparty
 
@@ -24324,7 +24324,7 @@ trainerdata 713, "Bugsy"
         ivs 200
         abilityslot 0
         level 48
-        pokemon SPECIES_SHEDINJA
+        pokemon SPECIES_DEDDLE
         item ITEM_NONE
         move MOVE_TOXIC
         move MOVE_X_SCISSOR

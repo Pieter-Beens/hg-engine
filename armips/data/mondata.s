@@ -898,7 +898,7 @@ mondata SPECIES_ZUBAT, "Zubat"
 
 mondata SPECIES_GOLBAT, "Golbat"
     basestats 95, 85, 85, 90, 95, 85
-    types TYPE_SOUND, TYPE_DARK
+    types TYPE_POISON, TYPE_SOUND
     catchrate 90
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 2, 0, 0
@@ -919,7 +919,7 @@ mondata SPECIES_GOLBAT, "Golbat"
 
 mondata SPECIES_ODDISH, "Oddish"
     basestats 45, 50, 55, 30, 75, 65
-    types TYPE_GRASS, TYPE_POISON
+    types TYPE_GRASS, TYPE_GRASS
     catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
@@ -980,9 +980,9 @@ mondata SPECIES_VILEPLUME, "Vileplume"
     mondexweight SPECIES_VILEPLUME, "41.0 lbs."
 
 
-mondata SPECIES_PARAS, "Paras"
-    basestats 35, 70, 55, 25, 45, 55
-    types TYPE_BUG, TYPE_GRASS
+mondata SPECIES_NYMPHLE, "Nymphle"
+    basestats 35, 70, 35, 85, 35, 35
+    types TYPE_BUG, TYPE_BUG
     catchrate 190
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
@@ -992,13 +992,13 @@ mondata SPECIES_PARAS, "Paras"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_GRASS
-    abilities ABILITY_EFFECT_SPORE, ABILITY_NONE
+    abilities ABILITY_SWARM, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_RED, 0
-    mondexentry SPECIES_PARAS, "It is doused with mushroom spores\nwhen it is born. As its body grows,\nmushrooms sprout from its back."
-    mondexclassification SPECIES_PARAS, "Mushroom Pokémon"
-    mondexheight SPECIES_PARAS, "1’00”"
-    mondexweight SPECIES_PARAS, "11.9 lbs."
+    mondexentry SPECIES_NYMPHLE, "It is thoroughly inspects anything\nit finds. It seems particularly fond\nof hard stones and mushrooms."
+    mondexclassification SPECIES_NYMPHLE, "Curious Pokémon"
+    mondexheight SPECIES_NYMPHLE, "1’00”"
+    mondexweight SPECIES_NYMPHLE, "7.4 lbs."
 
 
 mondata SPECIES_PARASECT, "Parasect"
@@ -6104,9 +6104,9 @@ mondata SPECIES_SLAKING, "Slaking"
     mondexweight SPECIES_SLAKING, "287.7 lbs."
 
 
-mondata SPECIES_NINCADA, "Nincada"
-    basestats 31, 45, 90, 40, 30, 30
-    types TYPE_BUG, TYPE_GROUND
+mondata SPECIES_PARAS, "Paras"
+    basestats 35, 70, 55, 25, 45, 55
+    types TYPE_BUG, TYPE_FUNGUS
     catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 0
@@ -6116,13 +6116,13 @@ mondata SPECIES_NINCADA, "Nincada"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_COMPOUND_EYES, ABILITY_NONE
+    abilities ABILITY_EFFECT_SPORE, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
-    mondexentry SPECIES_NINCADA, "It can sometimes live underground for\nmore than 10 years. It absorbs\nnutrients from the roots of trees."
-    mondexclassification SPECIES_NINCADA, "Trainee Pokémon"
-    mondexheight SPECIES_NINCADA, "1’08”"
-    mondexweight SPECIES_NINCADA, "12.1 lbs."
+    mondexentry SPECIES_PARAS, "It is doused with mushroom spores\nwhen it is born. As its body grows,\nmushrooms sprout from its back."
+    mondexclassification SPECIES_PARAS, "Mushroom Pokémon"
+    mondexheight SPECIES_PARAS, "1’00”"
+    mondexweight SPECIES_PARAS, "11.9 lbs."
 
 
 mondata SPECIES_NINJASK, "Ninjask"
@@ -6146,8 +6146,8 @@ mondata SPECIES_NINJASK, "Ninjask"
     mondexweight SPECIES_NINJASK, "26.5 lbs."
 
 
-mondata SPECIES_SHEDINJA, "Shedinja"
-    basestats 1, 90, 45, 40, 30, 30
+mondata SPECIES_DEDDLE, "Deddle"
+    basestats 1, 95, 1, 75, 85, 1
     types TYPE_BUG, TYPE_GHOST
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -6161,10 +6161,10 @@ mondata SPECIES_SHEDINJA, "Shedinja"
     abilities ABILITY_WONDER_GUARD, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
-    mondexentry SPECIES_SHEDINJA, "A strange Pokémon--it flies without\nmoving its wings, has a hollow shell\nfor a body, and does not breathe."
-    mondexclassification SPECIES_SHEDINJA, "Shed Pokémon"
-    mondexheight SPECIES_SHEDINJA, "2’07”"
-    mondexweight SPECIES_SHEDINJA, "2.6 lbs."
+    mondexentry SPECIES_DEDDLE, "It does not appear to breathe and\nignores all except mushrooms, the mere\nsight of which make it cry out."
+    mondexclassification SPECIES_DEDDLE, "Tragic Pokémon"
+    mondexheight SPECIES_DEDDLE, "1’00”"
+    mondexweight SPECIES_DEDDLE, "8.2 lbs."
 
 
 mondata SPECIES_WHISMUR, "Whismur"
@@ -16307,7 +16307,7 @@ mondata SPECIES_PIEP, "Piep"
     mondexweight SPECIES_PIEP, "10.5 lbs."
 
 
-mondata SPECIES_PRINGLING, "Prring"
+mondata SPECIES_PRINGLING, "Pringling"
     basestats 72, 81, 67, 101, 95, 74
     types TYPE_DARK, TYPE_SOUND
     catchrate 120

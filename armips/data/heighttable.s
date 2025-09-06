@@ -56,7 +56,7 @@ heightentry SPECIES_GOLBAT, 16, 16, 11, 11
 heightentry SPECIES_ODDISH, 11, 11, 23, 23
 heightentry SPECIES_GLOOM, 14, 14, 20, 20
 heightentry SPECIES_VILEPLUME, 7, 7, 15, 15
-heightentry SPECIES_PARAS, 23, 23, 23, 23
+heightentry SPECIES_NYMPHLE, 23, 23, 23, 23
 heightentry SPECIES_PARASECT, 16, 16, 14, 14
 heightentry SPECIES_VENONAT, 6, 6, 12, 12
 heightentry SPECIES_VENOMOTH, 5, 5, 14, 14
@@ -300,9 +300,9 @@ heightentry SPECIES_BRELOOM, 8, 8, 9, 9
 heightentry SPECIES_SLAKOTH, 16, 16, 25, 25
 heightentry SPECIES_VIGOROTH, 0, 0, 7, 7
 heightentry SPECIES_SLAKING, 8, 8, 9, 9
-heightentry SPECIES_NINCADA, 16, 16, 27, 27
+heightentry SPECIES_PARAS, 16, 16, 27, 27
 heightentry SPECIES_NINJASK, 16, 16, 19, 19
-heightentry SPECIES_SHEDINJA, "null", 8, "null", 18
+heightentry SPECIES_DEDDLE, "null", 8, "null", 18
 heightentry SPECIES_WHISMUR, 8, 8, 21, 21
 heightentry SPECIES_LOUDRED, 8, 8, 9, 9
 heightentry SPECIES_EXPLOUD, 0, 0, 8, 8

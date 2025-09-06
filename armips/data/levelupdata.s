@@ -988,7 +988,7 @@ levelup SPECIES_VILEPLUME
     terminatelearnset
 
 
-levelup SPECIES_PARAS
+levelup SPECIES_NYMPHLE
     learnset MOVE_SCRATCH, 1
     learnset MOVE_STUN_SPORE, 6
     learnset MOVE_POISON_POWDER, 6
@@ -6637,7 +6637,7 @@ levelup SPECIES_SLAKING
     terminatelearnset
 
 
-levelup SPECIES_NINCADA
+levelup SPECIES_PARAS
     learnset MOVE_SAND_ATTACK, 1
     learnset MOVE_SCRATCH, 1
     learnset MOVE_HARDEN, 1
@@ -6685,7 +6685,7 @@ levelup SPECIES_NINJASK
     terminatelearnset
 
 
-levelup SPECIES_SHEDINJA
+levelup SPECIES_DEDDLE
     learnset MOVE_SHADOW_CLAW, 1
     learnset MOVE_GRUDGE, 1
     learnset MOVE_MUD_SLAP, 1

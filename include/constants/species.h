@@ -47,7 +47,7 @@
 #define SPECIES_ODDISH         43
 #define SPECIES_GLOOM          44
 #define SPECIES_VILEPLUME      45
-#define SPECIES_PARAS          46
+#define SPECIES_NYMPHLE          46
 #define SPECIES_PARASECT       47
 #define SPECIES_VENONAT        48
 #define SPECIES_VENOMOTH       49
@@ -293,9 +293,9 @@
 #define SPECIES_SLAKOTH        287
 #define SPECIES_VIGOROTH       288
 #define SPECIES_SLAKING        289
-#define SPECIES_NINCADA        290
+#define SPECIES_PARAS        290
 #define SPECIES_NINJASK        291
-#define SPECIES_SHEDINJA       292
+#define SPECIES_DEDDLE       292
 #define SPECIES_WHISMUR        293
 #define SPECIES_LOUDRED        294
 #define SPECIES_EXPLOUD        295

@@ -49,7 +49,7 @@
 /* SPECIES_ODDISH          */ .word 0x05 
 /* SPECIES_GLOOM           */ .word 0x08 
 /* SPECIES_VILEPLUME       */ .word 0x0C 
-/* SPECIES_PARAS           */ .word 0x03 
+/* SPECIES_NYMPHLE           */ .word 0x03 
 /* SPECIES_PARASECT        */ .word 0x0A 
 /* SPECIES_VENONAT         */ .word 0x0A 
 /* SPECIES_VENOMOTH        */ .word 0x0F 
@@ -293,9 +293,9 @@
 /* SPECIES_SLAKOTH         */ .word 0x08 
 /* SPECIES_VIGOROTH        */ .word 0x0E 
 /* SPECIES_SLAKING         */ .word 0x14 
-/* SPECIES_NINCADA         */ .word 0x05 
+/* SPECIES_PARAS         */ .word 0x05 
 /* SPECIES_NINJASK         */ .word 0x08 
-/* SPECIES_SHEDINJA        */ .word 0x08 
+/* SPECIES_DEDDLE        */ .word 0x08 
 /* SPECIES_WHISMUR         */ .word 0x06 
 /* SPECIES_LOUDRED         */ .word 0x0A 
 /* SPECIES_EXPLOUD         */ .word 0x0F 

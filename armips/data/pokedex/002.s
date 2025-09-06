@@ -49,7 +49,7 @@
 /* SPECIES_ODDISH          */ .byte 0x09 
 /* SPECIES_GLOOM           */ .byte 0x01 
 /* SPECIES_VILEPLUME       */ .byte 0x01 
-/* SPECIES_PARAS           */ .byte 0x06 
+/* SPECIES_NYMPHLE           */ .byte 0x06 
 /* SPECIES_PARASECT        */ .byte 0x06 
 /* SPECIES_VENONAT         */ .byte 0x01 
 /* SPECIES_VENOMOTH        */ .byte 0x04 
@@ -293,9 +293,9 @@
 /* SPECIES_SLAKOTH         */ .byte 0x00 
 /* SPECIES_VIGOROTH        */ .byte 0x02 
 /* SPECIES_SLAKING         */ .byte 0x01 
-/* SPECIES_NINCADA         */ .byte 0x06 
+/* SPECIES_PARAS         */ .byte 0x06 
 /* SPECIES_NINJASK         */ .byte 0x04 
-/* SPECIES_SHEDINJA        */ .byte 0x07 
+/* SPECIES_DEDDLE        */ .byte 0x07 
 /* SPECIES_WHISMUR         */ .byte 0x02 
 /* SPECIES_LOUDRED         */ .byte 0x02 
 /* SPECIES_EXPLOUD         */ .byte 0x02 

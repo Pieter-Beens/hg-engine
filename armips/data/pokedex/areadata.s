@@ -2196,41 +2196,41 @@ routesandcities SPECIES_VILEPLUME, DEX_SPECIAL
     dexendareadata
 
 
-specialareas SPECIES_PARAS, DEX_MORNING
+specialareas SPECIES_NYMPHLE, DEX_MORNING
     .word DEX_ILEX_FOREST
     .word DEX_MT_MOON
     dexendareadata
 
 
-specialareas SPECIES_PARAS, DEX_DAY
+specialareas SPECIES_NYMPHLE, DEX_DAY
     .word DEX_ILEX_FOREST
     .word DEX_MT_MOON
     dexendareadata
 
 
-specialareas SPECIES_PARAS, DEX_NIGHT
+specialareas SPECIES_NYMPHLE, DEX_NIGHT
     .word DEX_ILEX_FOREST
     .word DEX_MT_MOON
     dexendareadata
 
 
-routesandcities SPECIES_PARAS, DEX_MORNING
+routesandcities SPECIES_NYMPHLE, DEX_MORNING
     dexendareadata
 
 
-routesandcities SPECIES_PARAS, DEX_DAY
+routesandcities SPECIES_NYMPHLE, DEX_DAY
     dexendareadata
 
 
-routesandcities SPECIES_PARAS, DEX_NIGHT
+routesandcities SPECIES_NYMPHLE, DEX_NIGHT
     dexendareadata
 
 
-specialareas SPECIES_PARAS, DEX_SPECIAL
+specialareas SPECIES_NYMPHLE, DEX_SPECIAL
     dexendareadata
 
 
-routesandcities SPECIES_PARAS, DEX_SPECIAL
+routesandcities SPECIES_NYMPHLE, DEX_SPECIAL
     dexendareadata
 
 
@@ -11565,35 +11565,35 @@ routesandcities SPECIES_SLAKING, DEX_SPECIAL
     dexendareadata
 
 
-specialareas SPECIES_NINCADA, DEX_MORNING
+specialareas SPECIES_PARAS, DEX_MORNING
     dexendareadata
 
 
-specialareas SPECIES_NINCADA, DEX_DAY
+specialareas SPECIES_PARAS, DEX_DAY
     dexendareadata
 
 
-specialareas SPECIES_NINCADA, DEX_NIGHT
+specialareas SPECIES_PARAS, DEX_NIGHT
     dexendareadata
 
 
-routesandcities SPECIES_NINCADA, DEX_MORNING
+routesandcities SPECIES_PARAS, DEX_MORNING
     dexendareadata
 
 
-routesandcities SPECIES_NINCADA, DEX_DAY
+routesandcities SPECIES_PARAS, DEX_DAY
     dexendareadata
 
 
-routesandcities SPECIES_NINCADA, DEX_NIGHT
+routesandcities SPECIES_PARAS, DEX_NIGHT
     dexendareadata
 
 
-specialareas SPECIES_NINCADA, DEX_SPECIAL
+specialareas SPECIES_PARAS, DEX_SPECIAL
     dexendareadata
 
 
-routesandcities SPECIES_NINCADA, DEX_SPECIAL
+routesandcities SPECIES_PARAS, DEX_SPECIAL
     dexendareadata
 
 
@@ -11629,35 +11629,35 @@ routesandcities SPECIES_NINJASK, DEX_SPECIAL
     dexendareadata
 
 
-specialareas SPECIES_SHEDINJA, DEX_MORNING
+specialareas SPECIES_DEDDLE, DEX_MORNING
     dexendareadata
 
 
-specialareas SPECIES_SHEDINJA, DEX_DAY
+specialareas SPECIES_DEDDLE, DEX_DAY
     dexendareadata
 
 
-specialareas SPECIES_SHEDINJA, DEX_NIGHT
+specialareas SPECIES_DEDDLE, DEX_NIGHT
     dexendareadata
 
 
-routesandcities SPECIES_SHEDINJA, DEX_MORNING
+routesandcities SPECIES_DEDDLE, DEX_MORNING
     dexendareadata
 
 
-routesandcities SPECIES_SHEDINJA, DEX_DAY
+routesandcities SPECIES_DEDDLE, DEX_DAY
     dexendareadata
 
 
-routesandcities SPECIES_SHEDINJA, DEX_NIGHT
+routesandcities SPECIES_DEDDLE, DEX_NIGHT
     dexendareadata
 
 
-specialareas SPECIES_SHEDINJA, DEX_SPECIAL
+specialareas SPECIES_DEDDLE, DEX_SPECIAL
     dexendareadata
 
 
-routesandcities SPECIES_SHEDINJA, DEX_SPECIAL
+routesandcities SPECIES_DEDDLE, DEX_SPECIAL
     dexendareadata
 
 

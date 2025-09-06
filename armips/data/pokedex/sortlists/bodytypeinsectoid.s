@@ -5,7 +5,7 @@
 
 .halfword SPECIES_CATERPIE
 .halfword SPECIES_WEEDLE
-.halfword SPECIES_PARAS
+.halfword SPECIES_NYMPHLE
 .halfword SPECIES_PARASECT
 .halfword SPECIES_KRABBY
 .halfword SPECIES_KABUTO
@@ -17,7 +17,7 @@
 .halfword SPECIES_WURMPIE
 .halfword SPECIES_LOTAD
 .halfword SPECIES_SURSKIT
-.halfword SPECIES_NINCADA
+.halfword SPECIES_PARAS
 .halfword SPECIES_TRAPINCH
 .halfword SPECIES_CORPHISH
 .halfword SPECIES_FANGOOSE

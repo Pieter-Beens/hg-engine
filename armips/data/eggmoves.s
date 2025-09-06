@@ -169,7 +169,7 @@ eggmoveentry SPECIES_ODDISH
     eggmove MOVE_TEETER_DANCE
 
 
-eggmoveentry SPECIES_PARAS
+eggmoveentry SPECIES_NYMPHLE
     eggmove MOVE_FALSE_SWIPE
     eggmove MOVE_SCREECH
     eggmove MOVE_COUNTER
@@ -1520,7 +1520,7 @@ eggmoveentry SPECIES_SLAKOTH
     eggmove MOVE_NIGHT_SLASH
 
 
-eggmoveentry SPECIES_NINCADA
+eggmoveentry SPECIES_PARAS
     eggmove MOVE_ENDURE
     eggmove MOVE_FEINT_ATTACK
     eggmove MOVE_GUST
