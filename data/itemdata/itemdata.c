@@ -4953,7 +4953,7 @@ const ITEMDATA __data[] =
 
 [ITEM_SUPER_REPEL] =
 {
-    .price = 500,
+    .price = 20,
     .holdEffect = 0,
     .holdEffectParam = 200,
     .pluckEffect = 0,
@@ -5018,7 +5018,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MAX_REPEL] =
 {
-    .price = 700,
+    .price = 30,
     .holdEffect = 0,
     .holdEffectParam = 250,
     .pluckEffect = 0,
@@ -5148,7 +5148,7 @@ const ITEMDATA __data[] =
 
 [ITEM_REPEL] =
 {
-    .price = 350,
+    .price = 10,
     .holdEffect = 0,
     .holdEffectParam = 100,
     .pluckEffect = 0,

@@ -16075,7 +16075,7 @@ levelup SPECIES_BILLY
     learnset MOVE_DISARMING_VOICE, 1
     learnset MOVE_FLING, 1
     learnset MOVE_BOUNCE, 35
-    learnset MOVE_EARTHQUAKE, 45
+    learnset MOVE_EARTHQUAKE, 50
     terminatelearnset
 
 
@@ -18126,11 +18126,11 @@ levelup SPECIES_MINIOR
 
 
 levelup SPECIES_SUBSTITUTE
-    learnset MOVE_STOCKPILE, 6
-    learnset MOVE_SPIT_UP, 6
-    learnset MOVE_SWALLOW, 6
+    learnset MOVE_STOCKPILE, 1
+    learnset MOVE_SPIT_UP, 1
+    learnset MOVE_SWALLOW, 1
     learnset MOVE_FLAIL, 10
-    learnset MOVE_PSYCH_UP, 15
+    learnset MOVE_PSYCH_UP, 20
     terminatelearnset
 
 
