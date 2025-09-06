@@ -770,6 +770,7 @@ levelup SPECIES_CLEFABLE
 
 
 levelup SPECIES_VULPIX
+    learnset MOVE_INCINERATE, 0
     learnset MOVE_EMBER, 1
     learnset MOVE_TAIL_WHIP, 1
     learnset MOVE_DISABLE, 4
@@ -779,7 +780,7 @@ levelup SPECIES_VULPIX
     learnset MOVE_BABY_DOLL_EYES, 9
     learnset MOVE_SPITE, 12
     learnset MOVE_INCINERATE, 16
-    learnset MOVE_CONFUSE_RAY, 16
+    learnset MOVE_CONFUSE_RAY, 17
     learnset MOVE_PAYBACK, 18
     learnset MOVE_WILL_O_WISP, 22
     learnset MOVE_FEINT_ATTACK, 23
@@ -24387,6 +24388,7 @@ levelup SPECIES_SANDSLASH_ALOLAN
 
 levelup SPECIES_VULPIX_ALOLAN
 //    learnset MOVE_POWDER_SNOW, 1
+    learnset MOVE_ICY_WIND, 0
     learnset MOVE_TAIL_WHIP, 1
     learnset MOVE_DISABLE, 4
     learnset MOVE_TAIL_WHIP, 4
@@ -24394,8 +24396,8 @@ levelup SPECIES_VULPIX_ALOLAN
     learnset MOVE_ICE_SHARD, 8
     learnset MOVE_BABY_DOLL_EYES, 9
     learnset MOVE_SPITE, 12
-    learnset MOVE_ICY_WIND, 15
-    learnset MOVE_CONFUSE_RAY, 16
+    learnset MOVE_ICY_WIND, 16
+    learnset MOVE_CONFUSE_RAY, 17
     learnset MOVE_PAYBACK, 18
     learnset MOVE_FEINT_ATTACK, 23
     learnset MOVE_AURORA_BEAM, 25
