@@ -45,15 +45,15 @@ headbuttheader   9,  20,   0   // Route 1
     headbuttencounter SPECIES_EXEGGCUTE, 12, 18
     headbuttencounter SPECIES_EXEGGCUTE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
-    headbuttencounter SPECIES_SKWOVET, 12, 18
+    headbuttencounter SPECIES_BILLY, 19, 19
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_WURMPIE, 15, 16
     headbuttencounter SPECIES_WURMPIE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
     // special slots
-    headbuttencounter SPECIES_SKWOVET, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
+    headbuttencounter SPECIES_BILLY, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_WURMPIE, 19, 19
     headbuttencounter SPECIES_WURMPIE, 23, 35
@@ -622,14 +622,14 @@ headbuttheader  30,  17,   0   // Route 26
     headbuttencounter SPECIES_EXEGGCUTE, 12, 18
     headbuttencounter SPECIES_EXEGGCUTE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
-    headbuttencounter SPECIES_SKWOVET, 12, 18
+    headbuttencounter SPECIES_BILLY, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_WURMPIE, 15, 16
     headbuttencounter SPECIES_WURMPIE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
     // special slots
-    headbuttencounter SPECIES_SKWOVET, 19, 19
+    headbuttencounter SPECIES_PACHIRISU, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_WURMPIE, 19, 19
@@ -663,14 +663,14 @@ headbuttheader  31,  17,   0   // Route 27
     headbuttencounter SPECIES_EXEGGCUTE, 12, 18
     headbuttencounter SPECIES_EXEGGCUTE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
-    headbuttencounter SPECIES_SKWOVET, 12, 18
+    headbuttencounter SPECIES_BILLY, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_WURMPIE, 15, 16
     headbuttencounter SPECIES_WURMPIE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
     // special slots
-    headbuttencounter SPECIES_SKWOVET, 19, 19
+    headbuttencounter SPECIES_PACHIRISU, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_WURMPIE, 19, 19
@@ -704,14 +704,14 @@ headbuttheader  32,  15,   0   // Route 28
     headbuttencounter SPECIES_EXEGGCUTE, 12, 18
     headbuttencounter SPECIES_EXEGGCUTE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
-    headbuttencounter SPECIES_SKWOVET, 12, 18
+    headbuttencounter SPECIES_BILLY, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_WURMPIE, 15, 16
     headbuttencounter SPECIES_WURMPIE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
     // special slots
-    headbuttencounter SPECIES_SKWOVET, 19, 19
+    headbuttencounter SPECIES_PACHIRISU, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_WURMPIE, 19, 19
@@ -743,14 +743,14 @@ headbuttheader  33,  35,   0   // Route 29
     headbuttencounter SPECIES_EXEGGCUTE, 12, 18
     headbuttencounter SPECIES_EXEGGCUTE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
-    headbuttencounter SPECIES_SKWOVET, 12, 18
+    headbuttencounter SPECIES_BILLY, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_WURMPIE, 15, 16
     headbuttencounter SPECIES_WURMPIE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
     // special slots
-    headbuttencounter SPECIES_SKWOVET, 19, 19
+    headbuttencounter SPECIES_PACHIRISU, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_WURMPIE, 19, 19
@@ -802,14 +802,14 @@ headbuttheader  34,  30,   0   // Route 30
     headbuttencounter SPECIES_EXEGGCUTE, 12, 18
     headbuttencounter SPECIES_EXEGGCUTE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
-    headbuttencounter SPECIES_SKWOVET, 12, 18
+    headbuttencounter SPECIES_BILLY, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_WURMPIE, 15, 16
     headbuttencounter SPECIES_WURMPIE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
     // special slots
-    headbuttencounter SPECIES_SKWOVET, 19, 19
+    headbuttencounter SPECIES_PACHIRISU, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_WURMPIE, 19, 19
@@ -856,14 +856,14 @@ headbuttheader  35,  15,   0   // Route 31
     headbuttencounter SPECIES_EXEGGCUTE, 12, 18
     headbuttencounter SPECIES_EXEGGCUTE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
-    headbuttencounter SPECIES_SKWOVET, 12, 18
+    headbuttencounter SPECIES_BILLY, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_WURMPIE, 15, 16
     headbuttencounter SPECIES_WURMPIE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
     // special slots
-    headbuttencounter SPECIES_SKWOVET, 19, 19
+    headbuttencounter SPECIES_PACHIRISU, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_WURMPIE, 19, 19
@@ -895,14 +895,14 @@ headbuttheader  36,  35,   0   // Route 32
     headbuttencounter SPECIES_EXEGGCUTE, 12, 18
     headbuttencounter SPECIES_EXEGGCUTE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
-    headbuttencounter SPECIES_SKWOVET, 12, 18
+    headbuttencounter SPECIES_BILLY, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_WURMPIE, 15, 16
     headbuttencounter SPECIES_WURMPIE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
     // special slots
-    headbuttencounter SPECIES_SKWOVET, 19, 19
+    headbuttencounter SPECIES_PACHIRISU, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_WURMPIE, 19, 19
@@ -954,14 +954,14 @@ headbuttheader  37,   4,   0   // Route 33
     headbuttencounter SPECIES_EXEGGCUTE, 12, 18
     headbuttencounter SPECIES_EXEGGCUTE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
-    headbuttencounter SPECIES_SKWOVET, 12, 18
+    headbuttencounter SPECIES_BILLY, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_WURMPIE, 15, 16
     headbuttencounter SPECIES_WURMPIE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
     // special slots
-    headbuttencounter SPECIES_SKWOVET, 19, 19
+    headbuttencounter SPECIES_PACHIRISU, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_WURMPIE, 19, 19
@@ -982,14 +982,14 @@ headbuttheader  38,  15,   1   // Route 34
     headbuttencounter SPECIES_EXEGGCUTE, 12, 18
     headbuttencounter SPECIES_EXEGGCUTE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
-    headbuttencounter SPECIES_SKWOVET, 12, 18
+    headbuttencounter SPECIES_BILLY, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_WURMPIE, 15, 16
     headbuttencounter SPECIES_WURMPIE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
     // special slots
-    headbuttencounter SPECIES_SKWOVET, 19, 19
+    headbuttencounter SPECIES_PACHIRISU, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_WURMPIE, 19, 19
@@ -1021,14 +1021,14 @@ headbuttheader  39,  14,   0   // Route 35
     headbuttencounter SPECIES_EXEGGCUTE, 12, 18
     headbuttencounter SPECIES_EXEGGCUTE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
-    headbuttencounter SPECIES_SKWOVET, 12, 18
+    headbuttencounter SPECIES_BILLY, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_WURMPIE, 15, 16
     headbuttencounter SPECIES_WURMPIE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
     // special slots
-    headbuttencounter SPECIES_SKWOVET, 19, 19
+    headbuttencounter SPECIES_PACHIRISU, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_WURMPIE, 19, 19
@@ -1059,14 +1059,14 @@ headbuttheader  40,  26,   0   // Route 36
     headbuttencounter SPECIES_EXEGGCUTE, 12, 18
     headbuttencounter SPECIES_EXEGGCUTE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
-    headbuttencounter SPECIES_SKWOVET, 12, 18
+    headbuttencounter SPECIES_BILLY, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_WURMPIE, 15, 16
     headbuttencounter SPECIES_WURMPIE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
     // special slots
-    headbuttencounter SPECIES_SKWOVET, 19, 19
+    headbuttencounter SPECIES_PACHIRISU, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_WURMPIE, 19, 19
@@ -1109,14 +1109,14 @@ headbuttheader  41,  13,   0   // Route 37
     headbuttencounter SPECIES_EXEGGCUTE, 12, 18
     headbuttencounter SPECIES_EXEGGCUTE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
-    headbuttencounter SPECIES_SKWOVET, 12, 18
+    headbuttencounter SPECIES_BILLY, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_WURMPIE, 15, 16
     headbuttencounter SPECIES_WURMPIE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
     // special slots
-    headbuttencounter SPECIES_SKWOVET, 19, 19
+    headbuttencounter SPECIES_PACHIRISU, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_WURMPIE, 19, 19
@@ -1146,14 +1146,14 @@ headbuttheader  42,  13,   1   // Route 38
     headbuttencounter SPECIES_EXEGGCUTE, 12, 18
     headbuttencounter SPECIES_EXEGGCUTE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
-    headbuttencounter SPECIES_SKWOVET, 12, 18
+    headbuttencounter SPECIES_BILLY, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_WURMPIE, 15, 16
     headbuttencounter SPECIES_WURMPIE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
     // special slots
-    headbuttencounter SPECIES_SKWOVET, 19, 19
+    headbuttencounter SPECIES_PACHIRISU, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_WURMPIE, 19, 19
@@ -1185,14 +1185,14 @@ headbuttheader  43,   3,   0   // Route 39
     headbuttencounter SPECIES_EXEGGCUTE, 12, 18
     headbuttencounter SPECIES_EXEGGCUTE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
-    headbuttencounter SPECIES_SKWOVET, 12, 18
+    headbuttencounter SPECIES_BILLY, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_WURMPIE, 15, 16
     headbuttencounter SPECIES_WURMPIE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
     // special slots
-    headbuttencounter SPECIES_SKWOVET, 19, 19
+    headbuttencounter SPECIES_PACHIRISU, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_WURMPIE, 19, 19
@@ -1212,14 +1212,14 @@ headbuttheader  44,  10,   0   // Route 42
     headbuttencounter SPECIES_EXEGGCUTE, 12, 18
     headbuttencounter SPECIES_EXEGGCUTE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
-    headbuttencounter SPECIES_SKWOVET, 12, 18
+    headbuttencounter SPECIES_BILLY, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_WURMPIE, 15, 16
     headbuttencounter SPECIES_WURMPIE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
     // special slots
-    headbuttencounter SPECIES_SKWOVET, 19, 19
+    headbuttencounter SPECIES_PACHIRISU, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_WURMPIE, 19, 19
@@ -1246,14 +1246,14 @@ headbuttheader  45,  17,   0   // Route 43
     headbuttencounter SPECIES_EXEGGCUTE, 12, 18
     headbuttencounter SPECIES_EXEGGCUTE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
-    headbuttencounter SPECIES_SKWOVET, 12, 18
+    headbuttencounter SPECIES_BILLY, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_WURMPIE, 15, 16
     headbuttencounter SPECIES_WURMPIE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
     // special slots
-    headbuttencounter SPECIES_SKWOVET, 19, 19
+    headbuttencounter SPECIES_PACHIRISU, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_WURMPIE, 19, 19
@@ -1287,14 +1287,14 @@ headbuttheader  46,  14,   0   // Route 44
     headbuttencounter SPECIES_EXEGGCUTE, 12, 18
     headbuttencounter SPECIES_EXEGGCUTE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
-    headbuttencounter SPECIES_SKWOVET, 12, 18
+    headbuttencounter SPECIES_BILLY, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_WURMPIE, 15, 16
     headbuttencounter SPECIES_WURMPIE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
     // special slots
-    headbuttencounter SPECIES_SKWOVET, 19, 19
+    headbuttencounter SPECIES_PACHIRISU, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_WURMPIE, 19, 19
@@ -1325,14 +1325,14 @@ headbuttheader  47,   3,   0   // Route 45
     headbuttencounter SPECIES_EXEGGCUTE, 12, 18
     headbuttencounter SPECIES_EXEGGCUTE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
-    headbuttencounter SPECIES_SKWOVET, 12, 18
+    headbuttencounter SPECIES_BILLY, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_WURMPIE, 15, 16
     headbuttencounter SPECIES_WURMPIE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
     // special slots
-    headbuttencounter SPECIES_SKWOVET, 19, 19
+    headbuttencounter SPECIES_PACHIRISU, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_WURMPIE, 19, 19
@@ -1352,14 +1352,14 @@ headbuttheader  48,  10,   0   // Route 46
     headbuttencounter SPECIES_EXEGGCUTE, 12, 18
     headbuttencounter SPECIES_EXEGGCUTE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
-    headbuttencounter SPECIES_SKWOVET, 12, 18
+    headbuttencounter SPECIES_BILLY, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_WURMPIE, 15, 16
     headbuttencounter SPECIES_WURMPIE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
     // special slots
-    headbuttencounter SPECIES_SKWOVET, 19, 19
+    headbuttencounter SPECIES_PACHIRISU, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_WURMPIE, 19, 19
@@ -1699,14 +1699,14 @@ headbuttheader  60,  11,   0   // New Bark Town
     headbuttencounter SPECIES_EXEGGCUTE, 12, 18
     headbuttencounter SPECIES_EXEGGCUTE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
-    headbuttencounter SPECIES_SKWOVET, 12, 18
+    headbuttencounter SPECIES_BILLY, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_WURMPIE, 15, 16
     headbuttencounter SPECIES_WURMPIE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
     // special slots
-    headbuttencounter SPECIES_SKWOVET, 19, 19
+    headbuttencounter SPECIES_PACHIRISU, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_WURMPIE, 19, 19
@@ -1752,14 +1752,14 @@ headbuttheader  67,   7,   4   // Cherrygrove City
     headbuttencounter SPECIES_EXEGGCUTE, 12, 18
     headbuttencounter SPECIES_EXEGGCUTE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
-    headbuttencounter SPECIES_SKWOVET, 12, 18
+    headbuttencounter SPECIES_BILLY, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_WURMPIE, 15, 16
     headbuttencounter SPECIES_WURMPIE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
     // special slots
-    headbuttencounter SPECIES_SKWOVET, 19, 19
+    headbuttencounter SPECIES_PACHIRISU, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_WURMPIE, 19, 19
@@ -1803,14 +1803,14 @@ headbuttheader  73,  27,   0   // Violet City
     headbuttencounter SPECIES_EXEGGCUTE, 12, 18
     headbuttencounter SPECIES_EXEGGCUTE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
-    headbuttencounter SPECIES_SKWOVET, 12, 18
+    headbuttencounter SPECIES_BILLY, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_WURMPIE, 15, 16
     headbuttencounter SPECIES_WURMPIE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
     // special slots
-    headbuttencounter SPECIES_SKWOVET, 19, 19
+    headbuttencounter SPECIES_PACHIRISU, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_WURMPIE, 19, 19
@@ -1854,14 +1854,14 @@ headbuttheader  74,  15,   0   // Azalea Town
     headbuttencounter SPECIES_EXEGGCUTE, 12, 18
     headbuttencounter SPECIES_EXEGGCUTE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
-    headbuttencounter SPECIES_SKWOVET, 12, 18
+    headbuttencounter SPECIES_BILLY, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_WURMPIE, 15, 16
     headbuttencounter SPECIES_WURMPIE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
     // special slots
-    headbuttencounter SPECIES_SKWOVET, 19, 19
+    headbuttencounter SPECIES_PACHIRISU, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_WURMPIE, 19, 19
@@ -1902,14 +1902,14 @@ headbuttheader  78,  18,   0   // Ecruteak City
     headbuttencounter SPECIES_EXEGGCUTE, 12, 18
     headbuttencounter SPECIES_EXEGGCUTE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
-    headbuttencounter SPECIES_SKWOVET, 12, 18
+    headbuttencounter SPECIES_BILLY, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_WURMPIE, 15, 16
     headbuttencounter SPECIES_WURMPIE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
     // special slots
-    headbuttencounter SPECIES_SKWOVET, 19, 19
+    headbuttencounter SPECIES_PACHIRISU, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_WURMPIE, 19, 19
@@ -1971,14 +1971,14 @@ headbuttheader  88,  22,   0   // Lake of Rage
     headbuttencounter SPECIES_EXEGGCUTE, 12, 18
     headbuttencounter SPECIES_EXEGGCUTE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
-    headbuttencounter SPECIES_SKWOVET, 12, 18
+    headbuttencounter SPECIES_BILLY, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_WURMPIE, 15, 16
     headbuttencounter SPECIES_WURMPIE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
     // special slots
-    headbuttencounter SPECIES_SKWOVET, 19, 19
+    headbuttencounter SPECIES_PACHIRISU, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_WURMPIE, 19, 19
@@ -2088,14 +2088,14 @@ headbuttheader  96,  22,   5   // National Park
     headbuttencounter SPECIES_EXEGGCUTE, 12, 18
     headbuttencounter SPECIES_EXEGGCUTE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
-    headbuttencounter SPECIES_SKWOVET, 12, 18
+    headbuttencounter SPECIES_BILLY, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_WURMPIE, 15, 16
     headbuttencounter SPECIES_WURMPIE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
     // special slots
-    headbuttencounter SPECIES_SKWOVET, 19, 19
+    headbuttencounter SPECIES_PACHIRISU, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_WURMPIE, 19, 19
@@ -2200,14 +2200,14 @@ headbuttheader 117,  56,   0   // Ilex Forest
     headbuttencounter SPECIES_EXEGGCUTE, 12, 18
     headbuttencounter SPECIES_EXEGGCUTE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
-    headbuttencounter SPECIES_SKWOVET, 12, 18
+    headbuttencounter SPECIES_BILLY, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_WURMPIE, 15, 16
     headbuttencounter SPECIES_WURMPIE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
     // special slots
-    headbuttencounter SPECIES_SKWOVET, 19, 19
+    headbuttencounter SPECIES_PACHIRISU, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_WURMPIE, 19, 19
@@ -2424,14 +2424,14 @@ headbuttheader 151,  10,   4   // Route 47
     headbuttencounter SPECIES_EXEGGCUTE, 12, 18
     headbuttencounter SPECIES_EXEGGCUTE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
-    headbuttencounter SPECIES_SKWOVET, 12, 18
+    headbuttencounter SPECIES_BILLY, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_WURMPIE, 15, 16
     headbuttencounter SPECIES_WURMPIE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
     // special slots
-    headbuttencounter SPECIES_SKWOVET, 19, 19
+    headbuttencounter SPECIES_PACHIRISU, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_WURMPIE, 19, 19
@@ -2463,14 +2463,14 @@ headbuttheader 152,   6,   0   // Route 48
     headbuttencounter SPECIES_EXEGGCUTE, 12, 18
     headbuttencounter SPECIES_EXEGGCUTE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
-    headbuttencounter SPECIES_SKWOVET, 12, 18
+    headbuttencounter SPECIES_BILLY, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_WURMPIE, 15, 16
     headbuttencounter SPECIES_WURMPIE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
     // special slots
-    headbuttencounter SPECIES_SKWOVET, 19, 19
+    headbuttencounter SPECIES_BILLY, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_WURMPIE, 19, 19
@@ -2556,14 +2556,14 @@ headbuttheader 174,  17,   0   // Safari Zone Gate (Outside)
     headbuttencounter SPECIES_EXEGGCUTE, 12, 18
     headbuttencounter SPECIES_EXEGGCUTE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
-    headbuttencounter SPECIES_SKWOVET, 12, 18
+    headbuttencounter SPECIES_BILLY, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_ESPURR, 12, 18
     headbuttencounter SPECIES_WURMPIE, 15, 16
     headbuttencounter SPECIES_WURMPIE, 18, 22
     headbuttencounter SPECIES_HERACROSS, 20, 24
     // special slots
-    headbuttencounter SPECIES_SKWOVET, 19, 19
+    headbuttencounter SPECIES_PACHIRISU, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_ESPURR, 19, 19
     headbuttencounter SPECIES_WURMPIE, 19, 19
