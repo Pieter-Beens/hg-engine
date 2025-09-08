@@ -17035,7 +17035,7 @@ levelup SPECIES_PIEP
     learnset MOVE_MILK_DRINK, 20
     learnset MOVE_POUNCE, 23
     learnset MOVE_FOUL_PLAY, 25
-    learnset MOVE_NIGHT SLASH, 28
+    learnset MOVE_NIGHT_SLASH, 28
     learnset MOVE_KNOCK_OFF, 32
     learnset MOVE_CRUNCH, 32
     learnset MOVE_HYPER_VOICE, 37
