@@ -239,7 +239,7 @@ levelup SPECIES_MANOMOTH
     learnset MOVE_THIEF, 14
     learnset MOVE_STUN_SPORE, 16
     learnset MOVE_SILVER_WIND, 18
-    leanrset MOVE_FIRST_IMPRESSION, 20
+    learnset MOVE_FIRST_IMPRESSION, 20
     learnset MOVE_SLEEP_POWDER, 23
     learnset MOVE_LEECH_LIFE, 25
     learnset MOVE_SUCKER_PUNCH, 28
@@ -1031,7 +1031,7 @@ levelup SPECIES_VENONAT
     learnset MOVE_THIEF, 14
     learnset MOVE_STUN_SPORE, 16
     learnset MOVE_SILVER_WIND, 18
-    leanrset MOVE_FIRST_IMPRESSION, 20
+    learnset MOVE_FIRST_IMPRESSION, 20
     learnset MOVE_SLEEP_POWDER, 23
     learnset MOVE_LEECH_LIFE, 25
     learnset MOVE_SUCKER_PUNCH, 28
@@ -1054,7 +1054,7 @@ levelup SPECIES_VENOMOTH
     learnset MOVE_THIEF, 14
     learnset MOVE_STUN_SPORE, 16
     learnset MOVE_SILVER_WIND, 18
-    leanrset MOVE_FIRST_IMPRESSION, 20
+    learnset MOVE_FIRST_IMPRESSION, 20
     learnset MOVE_SLEEP_POWDER, 23
     learnset MOVE_LEECH_LIFE, 25
     learnset MOVE_SUCKER_PUNCH, 28
