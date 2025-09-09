@@ -231,28 +231,26 @@ levelup SPECIES_METAPOD
 
 
 levelup SPECIES_MANOMOTH
-    learnset MOVE_GUST, 0
-    learnset MOVE_GUST, 1
-    learnset MOVE_HARDEN, 1
-    learnset MOVE_TACKLE, 1
-    learnset MOVE_STRING_SHOT, 1
-    learnset MOVE_BUG_BITE, 1
-    learnset MOVE_CONFUSION, 1
-    learnset MOVE_CONFUSION, 9
-    learnset MOVE_SUPERSONIC, 12
-    learnset MOVE_POISON_POWDER, 12
-    learnset MOVE_STUN_SPORE, 12
-    learnset MOVE_SLEEP_POWDER, 12
-    learnset MOVE_PSYBEAM, 16
-    learnset MOVE_SILVER_WIND, 19
-    learnset MOVE_WHIRLWIND, 24
-    learnset MOVE_SAFEGUARD, 26
-    learnset MOVE_BUG_BUZZ, 31
-    learnset MOVE_AIR_SLASH, 32
-//    learnset MOVE_RAGE_POWDER, 37
-    learnset MOVE_CAPTIVATE, 37
-    learnset MOVE_TAILWIND, 38
-    learnset MOVE_QUIVER_DANCE, 45
+    learnset MOVE_QUIVER_DANCE, 1
+    learnset MOVE_FORESIGHT, 1
+    learnset MOVE_DISABLE, 1
+    learnset MOVE_POUNCE, 1
+    learnset MOVE_SNARL, 11
+    learnset MOVE_THIEF, 14
+    learnset MOVE_STUN_SPORE, 16
+    learnset MOVE_SILVER_WIND, 18
+    leanrset MOVE_FIRST_IMPRESSION, 20
+    learnset MOVE_SLEEP_POWDER, 23
+    learnset MOVE_LEECH_LIFE, 25
+    learnset MOVE_SUCKER_PUNCH, 28
+    learnset MOVE_SIGNAL_BEAM, 32
+    learnset MOVE_PSYCHIC, 36
+    learnset MOVE_DARK_PULSE, 38
+    learnset MOVE_BUG_BUZZ, 40
+    learnset MOVE_NASTY_PLOT, 42
+    learnset MOVE_BLEAKWIND_STORM, 44
+    learnset MOVE_OBLIVION_WING, 47
+    learnset MOVE_QUIVER_DANCE, 51
     terminatelearnset
 
 
@@ -1026,46 +1024,48 @@ levelup SPECIES_PARASECT
 
 
 levelup SPECIES_VENONAT
-    learnset MOVE_TACKLE, 1
-    learnset MOVE_DISABLE, 1
     learnset MOVE_FORESIGHT, 1
-    learnset MOVE_SUPERSONIC, 5
-    learnset MOVE_CONFUSION, 11
-    learnset MOVE_POISON_POWDER, 13
-    learnset MOVE_PSYBEAM, 17
-    learnset MOVE_STUN_SPORE, 23
-    learnset MOVE_SIGNAL_BEAM, 25
-    learnset MOVE_SLEEP_POWDER, 29
-    learnset MOVE_LEECH_LIFE, 35
-    learnset MOVE_ZEN_HEADBUTT, 37
-    learnset MOVE_POISON_FANG, 41
-    learnset MOVE_PSYCHIC, 47
+    learnset MOVE_DISABLE, 1
+    learnset MOVE_POUNCE, 1
+    learnset MOVE_SNARL, 11
+    learnset MOVE_THIEF, 14
+    learnset MOVE_STUN_SPORE, 16
+    learnset MOVE_SILVER_WIND, 18
+    leanrset MOVE_FIRST_IMPRESSION, 20
+    learnset MOVE_SLEEP_POWDER, 23
+    learnset MOVE_LEECH_LIFE, 25
+    learnset MOVE_SUCKER_PUNCH, 28
+    learnset MOVE_SIGNAL_BEAM, 32
+    learnset MOVE_PSYCHIC, 36
+    learnset MOVE_DARK_PULSE, 38
+    learnset MOVE_BUG_BUZZ, 40
+    learnset MOVE_NASTY_PLOT, 42
+    learnset MOVE_BLEAKWIND_STORM, 44
+    learnset MOVE_OBLIVION_WING, 47
     terminatelearnset
 
 
 levelup SPECIES_VENOMOTH
-    learnset MOVE_GUST, 0
-    learnset MOVE_GUST, 1
     learnset MOVE_QUIVER_DANCE, 1
-    learnset MOVE_BUG_BUZZ, 1
-    learnset MOVE_SILVER_WIND, 1
-    learnset MOVE_TACKLE, 1
-    learnset MOVE_DISABLE, 1
     learnset MOVE_FORESIGHT, 1
-    learnset MOVE_SUPERSONIC, 1
-    learnset MOVE_SUPERSONIC, 5
-    learnset MOVE_CONFUSION, 11
-    learnset MOVE_POISON_POWDER, 13
-    learnset MOVE_PSYBEAM, 17
-    learnset MOVE_STUN_SPORE, 23
-    learnset MOVE_SIGNAL_BEAM, 25
-    learnset MOVE_SLEEP_POWDER, 29
-    learnset MOVE_LEECH_LIFE, 37
-    learnset MOVE_ZEN_HEADBUTT, 41
-    learnset MOVE_POISON_FANG, 47
-    learnset MOVE_PSYCHIC, 55
-    learnset MOVE_BUG_BUZZ, 59
-    learnset MOVE_QUIVER_DANCE, 63
+    learnset MOVE_DISABLE, 1
+    learnset MOVE_POUNCE, 1
+    learnset MOVE_SNARL, 11
+    learnset MOVE_THIEF, 14
+    learnset MOVE_STUN_SPORE, 16
+    learnset MOVE_SILVER_WIND, 18
+    leanrset MOVE_FIRST_IMPRESSION, 20
+    learnset MOVE_SLEEP_POWDER, 23
+    learnset MOVE_LEECH_LIFE, 25
+    learnset MOVE_SUCKER_PUNCH, 28
+    learnset MOVE_SIGNAL_BEAM, 32
+    learnset MOVE_PSYCHIC, 36
+    learnset MOVE_DARK_PULSE, 38
+    learnset MOVE_BUG_BUZZ, 40
+    learnset MOVE_NASTY_PLOT, 42
+    learnset MOVE_BLEAKWIND_STORM, 44
+    learnset MOVE_OBLIVION_WING, 47
+    learnset MOVE_QUIVER_DANCE, 51
     terminatelearnset
 
 
@@ -17044,6 +17044,8 @@ levelup SPECIES_PIEP
 
 
 levelup SPECIES_PRINGLING
+    learnset MOVE_MEAN_LOOK, 0
+    learnset MOVE_MEAN_LOOK, 1
     learnset MOVE_SCRATCH, 1
     learnset MOVE_GROWL, 1
     learnset MOVE_DISARMING_VOICE, 1

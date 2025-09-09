@@ -267,7 +267,7 @@ mondata SPECIES_METAPOD, "Metapod"
 
 
 mondata SPECIES_MANOMOTH, "Manomoth"
-    basestats 70, 65, 70, 60, 100, 85
+    basestats 70, 65, 80, 50, 100, 85
     types TYPE_BUG, TYPE_DARK
     catchrate 45
     baseexp 0 // defined in baseexp.s
