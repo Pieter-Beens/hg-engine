@@ -76,7 +76,7 @@
 //.halfword SPECIES_LUNALA
 //.halfword SPECIES_NAGANADEL
 //.halfword SPECIES_CORVISQUIRE
-//.halfword SPECIES_ORBEETLE
+//.halfword SPECIES_STARBEETLE
 //.halfword SPECIES_FLAPPLE
 //.halfword SPECIES_CRAMORANT
 //.halfword SPECIES_ETERNATUS

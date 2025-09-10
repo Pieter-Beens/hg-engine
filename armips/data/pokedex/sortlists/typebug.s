@@ -82,7 +82,7 @@
 //.halfword SPECIES_PHEROMOSA
 //.halfword SPECIES_BLIPBUG
 //.halfword SPECIES_DOTTLER
-//.halfword SPECIES_ORBEETLE
+//.halfword SPECIES_STARBEETLE
 //.halfword SPECIES_SIZZLIPEDE
 //.halfword SPECIES_CENTISKORCH
 //.halfword SPECIES_SNOM

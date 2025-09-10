@@ -596,7 +596,7 @@
 /* SPECIES_PALPITOAD       */ .halfword 9
 /* SPECIES_SEISMITOAD      */ .halfword 9
 /* SPECIES_SNORLAX_SUMO           */ .halfword 9
-/* SPECIES_LEDIAN            */ .halfword 9
+/* SPECIES_LEDIATOR            */ .halfword 9
 /* SPECIES_SEWADDLE        */ .halfword 9
 /* SPECIES_SWADLOON        */ .halfword 9
 /* SPECIES_LEAVANNY        */ .halfword 9
@@ -883,7 +883,7 @@
 /* SPECIES_CORVIKNIGHT     */ .halfword 9
 /* SPECIES_BLIPBUG         */ .halfword 9
 /* SPECIES_DOTTLER         */ .halfword 9
-/* SPECIES_ORBEETLE        */ .halfword 9
+/* SPECIES_STARBEETLE        */ .halfword 9
 /* SPECIES_NICKIT          */ .halfword 9
 /* SPECIES_RODERIK         */ .halfword 9
 /* SPECIES_GOSSIFLEUR      */ .halfword 9
@@ -961,7 +961,7 @@
 /* SPECIES_URSALUNA        */ .halfword 9
 /* SPECIES_BASCULEGION     */ .halfword 9
 /* SPECIES_SNEASLER        */ .halfword 9
-/* SPECIES_OVERQWIL        */ .halfword 9
+/* SPECIES_QWILOWATT        */ .halfword 9
 /* SPECIES_EXEGGRATOR        */ .halfword 9
 /* SPECIES_SPRIGATITO      */ .halfword 9
 /* SPECIES_FLORAGATO       */ .halfword 9

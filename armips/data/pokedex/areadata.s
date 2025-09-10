@@ -21362,35 +21362,35 @@ routesandcities SPECIES_SNORLAX_SUMO, DEX_SPECIAL
     dexendareadata
 
 
-specialareas SPECIES_LEDIAN, DEX_MORNING
+specialareas SPECIES_LEDIATOR, DEX_MORNING
     dexendareadata
 
 
-specialareas SPECIES_LEDIAN, DEX_DAY
+specialareas SPECIES_LEDIATOR, DEX_DAY
     dexendareadata
 
 
-specialareas SPECIES_LEDIAN, DEX_NIGHT
+specialareas SPECIES_LEDIATOR, DEX_NIGHT
     dexendareadata
 
 
-routesandcities SPECIES_LEDIAN, DEX_MORNING
+routesandcities SPECIES_LEDIATOR, DEX_MORNING
     dexendareadata
 
 
-routesandcities SPECIES_LEDIAN, DEX_DAY
+routesandcities SPECIES_LEDIATOR, DEX_DAY
     dexendareadata
 
 
-routesandcities SPECIES_LEDIAN, DEX_NIGHT
+routesandcities SPECIES_LEDIATOR, DEX_NIGHT
     dexendareadata
 
 
-specialareas SPECIES_LEDIAN, DEX_SPECIAL
+specialareas SPECIES_LEDIATOR, DEX_SPECIAL
     dexendareadata
 
 
-routesandcities SPECIES_LEDIAN, DEX_SPECIAL
+routesandcities SPECIES_LEDIATOR, DEX_SPECIAL
     dexendareadata
 
 
@@ -30546,35 +30546,35 @@ routesandcities SPECIES_DOTTLER, DEX_SPECIAL
     dexendareadata
 
 
-specialareas SPECIES_ORBEETLE, DEX_MORNING
+specialareas SPECIES_STARBEETLE, DEX_MORNING
     dexendareadata
 
 
-specialareas SPECIES_ORBEETLE, DEX_DAY
+specialareas SPECIES_STARBEETLE, DEX_DAY
     dexendareadata
 
 
-specialareas SPECIES_ORBEETLE, DEX_NIGHT
+specialareas SPECIES_STARBEETLE, DEX_NIGHT
     dexendareadata
 
 
-routesandcities SPECIES_ORBEETLE, DEX_MORNING
+routesandcities SPECIES_STARBEETLE, DEX_MORNING
     dexendareadata
 
 
-routesandcities SPECIES_ORBEETLE, DEX_DAY
+routesandcities SPECIES_STARBEETLE, DEX_DAY
     dexendareadata
 
 
-routesandcities SPECIES_ORBEETLE, DEX_NIGHT
+routesandcities SPECIES_STARBEETLE, DEX_NIGHT
     dexendareadata
 
 
-specialareas SPECIES_ORBEETLE, DEX_SPECIAL
+specialareas SPECIES_STARBEETLE, DEX_SPECIAL
     dexendareadata
 
 
-routesandcities SPECIES_ORBEETLE, DEX_SPECIAL
+routesandcities SPECIES_STARBEETLE, DEX_SPECIAL
     dexendareadata
 
 
@@ -33042,35 +33042,35 @@ routesandcities SPECIES_SNEASLER, DEX_SPECIAL
     dexendareadata
 
 
-specialareas SPECIES_OVERQWIL, DEX_MORNING
+specialareas SPECIES_QWILOWATT, DEX_MORNING
     dexendareadata
 
 
-specialareas SPECIES_OVERQWIL, DEX_DAY
+specialareas SPECIES_QWILOWATT, DEX_DAY
     dexendareadata
 
 
-specialareas SPECIES_OVERQWIL, DEX_NIGHT
+specialareas SPECIES_QWILOWATT, DEX_NIGHT
     dexendareadata
 
 
-routesandcities SPECIES_OVERQWIL, DEX_MORNING
+routesandcities SPECIES_QWILOWATT, DEX_MORNING
     dexendareadata
 
 
-routesandcities SPECIES_OVERQWIL, DEX_DAY
+routesandcities SPECIES_QWILOWATT, DEX_DAY
     dexendareadata
 
 
-routesandcities SPECIES_OVERQWIL, DEX_NIGHT
+routesandcities SPECIES_QWILOWATT, DEX_NIGHT
     dexendareadata
 
 
-specialareas SPECIES_OVERQWIL, DEX_SPECIAL
+specialareas SPECIES_QWILOWATT, DEX_SPECIAL
     dexendareadata
 
 
-routesandcities SPECIES_OVERQWIL, DEX_SPECIAL
+routesandcities SPECIES_QWILOWATT, DEX_SPECIAL
     dexendareadata
 
 

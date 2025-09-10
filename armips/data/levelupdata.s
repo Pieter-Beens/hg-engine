@@ -8350,9 +8350,8 @@ levelup SPECIES_SPHEAL
     learnset MOVE_SNORE, 18
     learnset MOVE_AURORA_BEAM, 20
     learnset MOVE_ROUND, 22
-    learnset MOVE_ICE_FANG, 25
-    learnset MOVE_BODY_SLAM, 28
-    learnset MOVE_UPROAR, 30
+    learnset MOVE_BODY_SLAM, 25
+    learnset MOVE_UPROAR, 28
     learnset MOVE_ICICLE_CRASH, 34
     learnset MOVE_HYPER_VOICE, 37
     learnset MOVE_SURF, 42
@@ -8379,9 +8378,8 @@ levelup SPECIES_SEALEO
     learnset MOVE_SNORE, 18
     learnset MOVE_AURORA_BEAM, 20
     learnset MOVE_ROUND, 22
-    learnset MOVE_ICE_FANG, 25
-    learnset MOVE_BODY_SLAM, 28
-    learnset MOVE_UPROAR, 30
+    learnset MOVE_BODY_SLAM, 25
+    learnset MOVE_UPROAR, 28
     learnset MOVE_ICICLE_CRASH, 34
     learnset MOVE_HYPER_VOICE, 37
     learnset MOVE_SURF, 42
@@ -8408,9 +8406,8 @@ levelup SPECIES_WALREIN
     learnset MOVE_SNORE, 18
     learnset MOVE_AURORA_BEAM, 20
     learnset MOVE_ROUND, 22
-    learnset MOVE_ICE_FANG, 25
-    learnset MOVE_BODY_SLAM, 28
-    learnset MOVE_UPROAR, 30
+    learnset MOVE_BODY_SLAM, 25
+    learnset MOVE_UPROAR, 28
     learnset MOVE_ICICLE_CRASH, 34
     learnset MOVE_HYPER_VOICE, 37
     learnset MOVE_SURF, 42
@@ -12634,7 +12631,7 @@ levelup SPECIES_SNORLAX_SUMO
     terminatelearnset
 
 
-levelup SPECIES_LEDIAN
+levelup SPECIES_LEDIATOR
     learnset MOVE_ROCK_SMASH, 1
     learnset MOVE_LEER, 1
     learnset MOVE_BIDE, 1
@@ -19178,7 +19175,7 @@ levelup SPECIES_DOTTLER
     terminatelearnset
 
 
-levelup SPECIES_ORBEETLE
+levelup SPECIES_STARBEETLE
     learnset MOVE_REFLECT, 1
     learnset MOVE_LIGHT_SCREEN, 1
     learnset MOVE_CONFUSION, 1
@@ -20602,7 +20599,7 @@ levelup SPECIES_SNEASLER
     terminatelearnset
 
 
-levelup SPECIES_OVERQWIL
+levelup SPECIES_QWILOWATT
     learnset MOVE_POISON_STING, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_HARDEN, 4

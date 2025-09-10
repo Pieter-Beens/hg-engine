@@ -600,7 +600,7 @@ heightentry SPECIES_TYMPOLE, 0, 0, 0, 0
 heightentry SPECIES_PALPITOAD, 0, 0, 0, 0
 heightentry SPECIES_SEISMITOAD, 0, 0, 0, 0
 heightentry SPECIES_SNORLAX_SUMO, 0, 0, 0, 0
-heightentry SPECIES_LEDIAN, 0, 0, 0, 0
+heightentry SPECIES_LEDIATOR, 0, 0, 0, 0
 heightentry SPECIES_SEWADDLE, 0, 0, 0, 0
 heightentry SPECIES_SWADLOON, 0, 0, 0, 0
 heightentry SPECIES_LEAVANNY, 0, 0, 0, 0
@@ -888,7 +888,7 @@ heightentry SPECIES_CORVISQUIRE, 0, 0, 0, 0
 heightentry SPECIES_CORVIKNIGHT, 0, 0, 0, 0
 heightentry SPECIES_BLIPBUG, 0, 0, 0, 0
 heightentry SPECIES_DOTTLER, 0, 0, 0, 0
-heightentry SPECIES_ORBEETLE, 0, 0, 0, 0
+heightentry SPECIES_STARBEETLE, 0, 0, 0, 0
 heightentry SPECIES_NICKIT, 0, 0, 0, 0
 heightentry SPECIES_RODERIK, 0, 0, 0, 0
 heightentry SPECIES_GOSSIFLEUR, 0, 0, 0, 0
@@ -967,7 +967,7 @@ heightentry SPECIES_KLEAVOR, 0, 0, 0, 0
 heightentry SPECIES_URSALUNA, 0, 0, 0, 0
 heightentry SPECIES_BASCULEGION, 10, 10, 0, 0
 heightentry SPECIES_SNEASLER, 0, 0, 0, 0
-heightentry SPECIES_OVERQWIL, 0, 0, 0, 0
+heightentry SPECIES_QWILOWATT, 0, 0, 0, 0
 heightentry SPECIES_EXEGGRATOR, 0, 0, 0, 0
 
 heightentry SPECIES_SPRIGATITO, 12, 12, 3, 3

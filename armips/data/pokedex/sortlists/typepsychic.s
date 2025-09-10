@@ -86,7 +86,7 @@
 //.halfword SPECIES_LUNALA
 //.halfword SPECIES_NECROZMA
 //.halfword SPECIES_DOTTLER
-//.halfword SPECIES_ORBEETLE
+//.halfword SPECIES_STARBEETLE
 //.halfword SPECIES_HATENNA
 //.halfword SPECIES_HATTREM
 //.halfword SPECIES_HATTERENE

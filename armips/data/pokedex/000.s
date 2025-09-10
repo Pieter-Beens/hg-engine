@@ -592,7 +592,7 @@
 /* SPECIES_PALPITOAD       */ .word 0x08
 /* SPECIES_SEISMITOAD      */ .word 0x0F
 /* SPECIES_SNORLAX_SUMO           */ .word 0x0D
-/* SPECIES_LEDIAN            */ .word 0x0E
+/* SPECIES_LEDIATOR            */ .word 0x0E
 /* SPECIES_SEWADDLE        */ .word 0x03
 /* SPECIES_SWADLOON        */ .word 0x05
 /* SPECIES_LEAVANNY        */ .word 0x0C
