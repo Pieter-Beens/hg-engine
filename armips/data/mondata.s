@@ -20589,10 +20589,10 @@ mondata SPECIES_BELLIBUD, "Bellibud"
     abilities ABILITY_STAMINA, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
-    mondexentry SPECIES_BELLIBUD, "Dolliv shares its tasty, fresh-scented oil\nwith others. This species has coexisted\nwith humans since times long gone."
-    mondexclassification SPECIES_BELLIBUD, "Olive Pokémon"
-    mondexheight SPECIES_BELLIBUD, "2’00”"
-    mondexweight SPECIES_BELLIBUD, "26.2 lbs."
+    mondexentry SPECIES_BELLIBUD, "Bellibud has an insatiable appetite. It\nseems determined to grow as tall and\nsturdy as Sprout Tower in Violet City."
+    mondexclassification SPECIES_BELLIBUD, "Growth Pokémon"
+    mondexheight SPECIES_BELLIBUD, "7’00”"
+    mondexweight SPECIES_BELLIBUD, "184.2 lbs."
 
 
 mondata SPECIES_ARBOLIVA, "Arboliva"
