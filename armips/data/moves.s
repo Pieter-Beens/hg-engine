@@ -1597,7 +1597,7 @@ movedata MOVE_QUICK_ATTACK, "Quick Attack"
 movedata MOVE_RAGE, "Rage"
     battleeffect MOVE_EFFECT_RAISE_ATK_WHEN_HIT
     pss SPLIT_PHYSICAL
-    basepower 20
+    basepower 40
     type TYPE_NORMAL
     accuracy 100
     pp 20
