@@ -841,8 +841,8 @@ evodata SPECIES_MACHAMP
     terminateevodata
 
 evodata SPECIES_BELLSPROUT
-    evolution EVO_LEVEL, 21, SPECIES_WEEPINBELL
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_LEVEL_NIGHT, 21, SPECIES_WEEPINBELL
+    evolution EVO_LEVEL_DAY, 21, SPECIES_BELLIBUD
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -854,7 +854,7 @@ evodata SPECIES_BELLSPROUT
 
 evodata SPECIES_WEEPINBELL
     evolution EVO_STONE, ITEM_LEAF_STONE, SPECIES_VICTREEBEL
-    evolution EVO_STONE, ITEM_SUN_STONE, SPECIES_TOWRINBELL
+    evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -11756,7 +11756,7 @@ evodata SPECIES_DACHSBUN
 terminateevodata
 
 evodata SPECIES_SMOLIV
-    evolution EVO_LEVEL, 25, SPECIES_DOLLIV
+    evolution EVO_LEVEL, 25, SPECIES_BELLIBUD
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -11767,8 +11767,8 @@ evodata SPECIES_SMOLIV
     evolution EVO_NONE, 0, SPECIES_NONE
 terminateevodata
 
-evodata SPECIES_DOLLIV
-    evolution EVO_LEVEL, 35, SPECIES_ARBOLIVA
+evodata SPECIES_BELLIBUD
+    evolution EVO_STONE, ITEM_SUN_STONE, SPECIES_TOWRINBELL
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

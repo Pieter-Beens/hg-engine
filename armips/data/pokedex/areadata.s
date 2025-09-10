@@ -33842,35 +33842,35 @@ routesandcities SPECIES_SMOLIV, DEX_SPECIAL
     dexendareadata
 
 
-specialareas SPECIES_DOLLIV, DEX_MORNING
+specialareas SPECIES_BELLIBUD, DEX_MORNING
     dexendareadata
 
 
-specialareas SPECIES_DOLLIV, DEX_DAY
+specialareas SPECIES_BELLIBUD, DEX_DAY
     dexendareadata
 
 
-specialareas SPECIES_DOLLIV, DEX_NIGHT
+specialareas SPECIES_BELLIBUD, DEX_NIGHT
     dexendareadata
 
 
-routesandcities SPECIES_DOLLIV, DEX_MORNING
+routesandcities SPECIES_BELLIBUD, DEX_MORNING
     dexendareadata
 
 
-routesandcities SPECIES_DOLLIV, DEX_DAY
+routesandcities SPECIES_BELLIBUD, DEX_DAY
     dexendareadata
 
 
-routesandcities SPECIES_DOLLIV, DEX_NIGHT
+routesandcities SPECIES_BELLIBUD, DEX_NIGHT
     dexendareadata
 
 
-specialareas SPECIES_DOLLIV, DEX_SPECIAL
+specialareas SPECIES_BELLIBUD, DEX_SPECIAL
     dexendareadata
 
 
-routesandcities SPECIES_DOLLIV, DEX_SPECIAL
+routesandcities SPECIES_BELLIBUD, DEX_SPECIAL
     dexendareadata
 
 

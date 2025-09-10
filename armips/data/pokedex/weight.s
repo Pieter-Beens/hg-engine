@@ -985,7 +985,7 @@
 /* SPECIES_FIDOUGH                           */ .word 109
 /* SPECIES_DACHSBUN                          */ .word 149
 /* SPECIES_SMOLIV                            */ .word 65
-/* SPECIES_DOLLIV                            */ .word 119
+/* SPECIES_BELLIBUD                            */ .word 119
 /* SPECIES_ARBOLIVA                          */ .word 482
 /* SPECIES_SQUAWKABILLY                      */ .word 24
 /* SPECIES_NACLI                             */ .word 160

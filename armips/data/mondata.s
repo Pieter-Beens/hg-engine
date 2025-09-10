@@ -20574,8 +20574,8 @@ mondata SPECIES_SMOLIV, "Smoliv"
     mondexweight SPECIES_SMOLIV, "14.3 lbs."
 
 
-mondata SPECIES_DOLLIV, "Dolliv"
-    basestats 52, 53, 60, 33, 78, 78
+mondata SPECIES_BELLIBUD, "Bellibud"
+    basestats 75, 100, 50, 65, 70, 30
     types TYPE_GRASS, TYPE_NORMAL
     catchrate 120
     baseexp 0 // defined in baseexp.s
@@ -20586,13 +20586,13 @@ mondata SPECIES_DOLLIV, "Dolliv"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
-    abilities ABILITY_EARLY_BIRD, ABILITY_NONE
+    abilities ABILITY_STAMINA, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
-    mondexentry SPECIES_DOLLIV, "Dolliv shares its tasty, fresh-scented oil\nwith others. This species has coexisted\nwith humans since times long gone."
-    mondexclassification SPECIES_DOLLIV, "Olive Pokémon"
-    mondexheight SPECIES_DOLLIV, "2’00”"
-    mondexweight SPECIES_DOLLIV, "26.2 lbs."
+    mondexentry SPECIES_BELLIBUD, "Dolliv shares its tasty, fresh-scented oil\nwith others. This species has coexisted\nwith humans since times long gone."
+    mondexclassification SPECIES_BELLIBUD, "Olive Pokémon"
+    mondexheight SPECIES_BELLIBUD, "2’00”"
+    mondexweight SPECIES_BELLIBUD, "26.2 lbs."
 
 
 mondata SPECIES_ARBOLIVA, "Arboliva"

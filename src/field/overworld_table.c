@@ -1564,7 +1564,7 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
     { .tag = 1683, .gfx = 1474, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_FIDOUGH
     { .tag = 1684, .gfx = 1475, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_DACHSBUN
     { .tag = 1685, .gfx = 1476, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_SMOLIV
-    { .tag = 1686, .gfx = 1477, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_DOLLIV
+    { .tag = 1686, .gfx = 1477, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_BELLIBUD
     { .tag = 1687, .gfx = 1478, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_ARBOLIVA
     { .tag = 1688, .gfx = 1479, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_SQUAWKABILLY
     { .tag = 1689, .gfx = 1480, .callback_params = OVERWORLD_SIZE_SMALL}, // blue

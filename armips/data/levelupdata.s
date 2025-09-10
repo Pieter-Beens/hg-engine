@@ -1513,6 +1513,7 @@ levelup SPECIES_BELLSPROUT
     learnset MOVE_SLEEP_POWDER, 13
     learnset MOVE_POISON_POWDER, 15
     learnset MOVE_STUN_SPORE, 17
+    learnset MOVE_RAZOR_LEAF, 19
     learnset MOVE_ACID, 23
     learnset MOVE_KNOCK_OFF, 27
     learnset MOVE_SWEET_SCENT, 29
@@ -21073,20 +21074,25 @@ levelup SPECIES_SMOLIV
 //    learnset MOVE_TERRAIN_PULSE, 38
     terminatelearnset
 
-levelup SPECIES_DOLLIV
-    learnset MOVE_SWEET_SCENT, 1
-    learnset MOVE_TACKLE, 1
-    learnset MOVE_ABSORB, 5
+levelup SPECIES_BELLIBUD
+    learnset MOVE_STOCKPILE, 0
+    learnset MOVE_SWALLOW, 0
+    learnset MOVE_SPIT_UP, 0
+    learnset MOVE_TRAILBLAZE, 1
+    learnset MOVE_VINE_WHIP, 1
     learnset MOVE_GROWTH, 7
-    learnset MOVE_RAZOR_LEAF, 10
-    learnset MOVE_HELPING_HAND, 13
-    learnset MOVE_FLAIL, 16
-    learnset MOVE_MEGA_DRAIN, 20
+    learnset MOVE_WRAP, 11
+    learnset MOVE_SLEEP_POWDER, 13
+    learnset MOVE_POISON_POWDER, 15
+    learnset MOVE_STUN_SPORE, 17
+    learnset MOVE_RAZOR_LEAF, 19
     learnset MOVE_GRASSY_TERRAIN, 23
-    learnset MOVE_SEED_BOMB, 29
-    learnset MOVE_ENERGY_BALL, 34
-    learnset MOVE_LEECH_SEED, 37
-//    learnset MOVE_TERRAIN_PULSE, 42
+    learnset MOVE_FACADE, 26
+    learnset MOVE_LEECH_SEED, 29
+    learnset MOVE_POISON_JAB, 32
+    learnset MOVE_LEAF_BLADE, 35
+    learnset MOVE_DOUBLE_EDGE, 41
+    learnset MOVE_LEAF_STORM, 48
     terminatelearnset
 
 levelup SPECIES_ARBOLIVA
@@ -22758,18 +22764,25 @@ levelup SPECIES_ARCHALUDON
     terminatelearnset
 
 levelup SPECIES_TOWRINBELL
-    learnset MOVE_BELLY_DRUM, 0
+    learnset MOVE_METAL_SOUND, 0
+    learnset MOVE_METAL_SOUND, 1
+    learnset MOVE_BELLY_DRUM, 1
     learnset MOVE_TRAILBLAZE, 1
-    learnset MOVE_STOCKPILE, 1
-    learnset MOVE_SWALLOW, 1
-    learnset MOVE_SPIT_UP, 1
     learnset MOVE_VINE_WHIP, 1
-    learnset MOVE_SLEEP_POWDER, 1
-    learnset MOVE_SWEET_SCENT, 1
-    learnset MOVE_RAZOR_LEAF, 1
-    learnset MOVE_LEAF_STORM, 32
-    learnset MOVE_EAR_WHACK, 36
-    learnset MOVE_LEAF_BLADE, 44
+    learnset MOVE_GROWTH, 7
+    learnset MOVE_WRAP, 11
+    learnset MOVE_SLEEP_POWDER, 13
+    learnset MOVE_POISON_POWDER, 15
+    learnset MOVE_STUN_SPORE, 17
+    learnset MOVE_RAZOR_LEAF, 19
+    learnset MOVE_GRASSY_TERRAIN, 23
+    learnset MOVE_FACADE, 26
+    learnset MOVE_LEECH_SEED, 29
+    learnset MOVE_POISON_JAB, 32
+    learnset MOVE_LEAF_BLADE, 35
+    learnset MOVE_UPROAR, 37
+    learnset MOVE_WRING_OUT, 41
+    learnset MOVE_LEAF_STORM, 48
     terminatelearnset
 
 levelup SPECIES_ENLONG

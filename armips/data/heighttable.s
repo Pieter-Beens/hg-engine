@@ -993,7 +993,7 @@ heightentry SPECIES_MAUSHOLD, "null", 5, "null", 0
 heightentry SPECIES_FIDOUGH, 0, 0, 0, 0
 heightentry SPECIES_DACHSBUN, 0, 0, 18, 18
 heightentry SPECIES_SMOLIV, 8, 8, 0, 0
-heightentry SPECIES_DOLLIV, 0, 0, 0, 0
+heightentry SPECIES_BELLIBUD, 0, 0, 0, 0
 heightentry SPECIES_ARBOLIVA, 0, 0, 0, 0
 heightentry SPECIES_SQUAWKABILLY, 0, 0, 0, 0
 heightentry SPECIES_NACLI, 7, 7, 0, 0

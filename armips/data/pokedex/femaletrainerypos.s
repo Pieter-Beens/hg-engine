@@ -986,7 +986,7 @@
 /* SPECIES_FIDOUGH         */ .halfword 8
 /* SPECIES_DACHSBUN        */ .halfword 8
 /* SPECIES_SMOLIV          */ .halfword 8
-/* SPECIES_DOLLIV          */ .halfword 8
+/* SPECIES_BELLIBUD          */ .halfword 8
 /* SPECIES_ARBOLIVA        */ .halfword 8
 /* SPECIES_SQUAWKABILLY    */ .halfword 8
 /* SPECIES_NACLI           */ .halfword 8
