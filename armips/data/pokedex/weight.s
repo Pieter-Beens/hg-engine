@@ -594,7 +594,7 @@
 /* SPECIES_TYMPOLE                           */ .word 45
 /* SPECIES_PALPITOAD                         */ .word 170
 /* SPECIES_SEISMITOAD                        */ .word 620
-/* SPECIES_SNORLAX_SUMO                             */ .word 555
+/* SPECIES_SUPLAX                             */ .word 555
 /* SPECIES_LEDIATOR                              */ .word 510
 /* SPECIES_SEWADDLE                          */ .word 25
 /* SPECIES_SWADLOON                          */ .word 73

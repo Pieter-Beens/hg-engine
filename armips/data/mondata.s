@@ -6001,7 +6001,7 @@ mondata SPECIES_MASQUERAIN, "Masquerain"
 
 mondata SPECIES_SHROOMISH, "Shroomish"
     basestats 60, 40, 60, 35, 40, 60
-    types TYPE_GRASS, TYPE_GRASS
+    types TYPE_FUNGUS, TYPE_FUNGUS
     catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 1, 0, 0, 0, 0, 0
@@ -6022,7 +6022,7 @@ mondata SPECIES_SHROOMISH, "Shroomish"
 
 mondata SPECIES_BRELOOM, "Breloom"
     basestats 60, 130, 80, 70, 60, 60
-    types TYPE_GRASS, TYPE_FIGHTING
+    types TYPE_FUNGUS, TYPE_DRAGON
     catchrate 90
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
@@ -12362,7 +12362,7 @@ mondata SPECIES_SEISMITOAD, "Seismitoad"
     mondexweight SPECIES_SEISMITOAD, "136.7 lbs."
 
 
-mondata SPECIES_SNORLAX_SUMO, "-----"
+mondata SPECIES_SUPLAX, "-----"
     basestats 120, 100, 85, 45, 30, 85
     types TYPE_FIGHTING, TYPE_FIGHTING
     catchrate 45
@@ -12377,10 +12377,10 @@ mondata SPECIES_SNORLAX_SUMO, "-----"
     abilities ABILITY_GUTS, ABILITY_INNER_FOCUS
     runchance 0
     colorflip BODY_COLOR_RED, 0
-    mondexentry SPECIES_SNORLAX_SUMO, "He bump you.\nWash yoself.\nOh lawd he coming."
-    mondexclassification SPECIES_SNORLAX_SUMO, "Suplex Pokémon"
-    mondexheight SPECIES_SNORLAX_SUMO, "7’11”"
-    mondexweight SPECIES_SNORLAX_SUMO, "936.7 lbs."
+    mondexentry SPECIES_SUPLAX, "He bump you.\nWash yoself.\nOh lawd he coming."
+    mondexclassification SPECIES_SUPLAX, "Suplex Pokémon"
+    mondexheight SPECIES_SUPLAX, "7’11”"
+    mondexweight SPECIES_SUPLAX, "936.7 lbs."
 
 
 mondata SPECIES_LEDIATOR, "Lediator"

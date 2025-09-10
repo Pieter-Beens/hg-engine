@@ -599,7 +599,7 @@ heightentry SPECIES_DRAGOYLE, 0, 0, 0, 0
 heightentry SPECIES_TYMPOLE, 0, 0, 0, 0
 heightentry SPECIES_PALPITOAD, 0, 0, 0, 0
 heightentry SPECIES_SEISMITOAD, 0, 0, 0, 0
-heightentry SPECIES_SNORLAX_SUMO, 0, 0, 0, 0
+heightentry SPECIES_SUPLAX, 0, 0, 0, 0
 heightentry SPECIES_LEDIATOR, 0, 0, 0, 0
 heightentry SPECIES_SEWADDLE, 0, 0, 0, 0
 heightentry SPECIES_SWADLOON, 0, 0, 0, 0

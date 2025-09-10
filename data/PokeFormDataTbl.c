@@ -468,7 +468,7 @@ const u16 UNUSED PokeFormDataTbl[][32] =
         SPECIES_CALYREX_SHADOW_RIDER,
     },
     [SPECIES_SNORLAX] = {
-        SPECIES_SNORLAX_SUMO,
+        SPECIES_SUPLAX,
     },
 
     /**Battle Forms**/

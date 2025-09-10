@@ -5366,7 +5366,7 @@ evodata SPECIES_GARCHOMP
 
 evodata SPECIES_MUNCHLAX
     evolution EVO_FRIENDSHIP_NIGHT, 0, SPECIES_SNORLAX
-    evolutionwithform EVO_FRIENDSHIP_DAY, 0, SPECIES_SNORLAX, 1
+    evolution EVO_FRIENDSHIP_DAY, 0, SPECIES_SUPLAX
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -7072,7 +7072,7 @@ evodata SPECIES_SEISMITOAD
     evolution EVO_NONE, 0, SPECIES_NONE
     terminateevodata
 
-evodata SPECIES_SNORLAX_SUMO
+evodata SPECIES_SUPLAX
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

@@ -98,7 +98,6 @@ eggmoveentry SPECIES_SPEAROW
 
 eggmoveentry SPECIES_EKANS
     eggmove MOVE_PURSUIT
-    eggmove MOVE_SLAM
     eggmove MOVE_SPITE
     eggmove MOVE_BEAT_UP
     eggmove MOVE_POISON_FANG
@@ -393,7 +392,6 @@ eggmoveentry SPECIES_SEEL
     eggmove MOVE_PERISH_SONG
     eggmove MOVE_DISABLE
     eggmove MOVE_HORN_DRILL
-    eggmove MOVE_SLAM
     eggmove MOVE_ENCORE
     eggmove MOVE_FAKE_OUT
     eggmove MOVE_ICICLE_SPEAR
@@ -470,7 +468,6 @@ eggmoveentry SPECIES_KRABBY
     eggmove MOVE_HAZE
     eggmove MOVE_AMNESIA
     eggmove MOVE_FLAIL
-    eggmove MOVE_SLAM
     eggmove MOVE_KNOCK_OFF
     eggmove MOVE_SWORDS_DANCE
     eggmove MOVE_TICKLE
@@ -674,7 +671,6 @@ eggmoveentry SPECIES_EEVEE
 eggmoveentry SPECIES_OMANYTE
     eggmove MOVE_BUBBLE_BEAM
     eggmove MOVE_AURORA_BEAM
-    eggmove MOVE_SLAM
     eggmove MOVE_SUPERSONIC
     eggmove MOVE_HAZE
     eggmove MOVE_ROCK_SLIDE
@@ -954,7 +950,6 @@ eggmoveentry SPECIES_AIPOM
     eggmove MOVE_PURSUIT
     eggmove MOVE_AGILITY
     eggmove MOVE_SPITE
-    eggmove MOVE_SLAM
     eggmove MOVE_DOUBLE_SLAP
     eggmove MOVE_BEAT_UP
     eggmove MOVE_FAKE_OUT
@@ -1227,7 +1222,6 @@ eggmoveentry SPECIES_MANTINE
     eggmove MOVE_TWISTER
     eggmove MOVE_HYDRO_PUMP
     eggmove MOVE_HAZE
-    eggmove MOVE_SLAM
     eggmove MOVE_MUD_SPORT
     eggmove MOVE_ROCK_SLIDE
     eggmove MOVE_MIRROR_COAT
@@ -1559,7 +1553,6 @@ eggmoveentry SPECIES_AZURILL
     eggmove MOVE_ENCORE
     eggmove MOVE_SING
     eggmove MOVE_REFRESH
-    eggmove MOVE_SLAM
     eggmove MOVE_TICKLE
     eggmove MOVE_FAKE_TEARS
     eggmove MOVE_BODY_SLAM
@@ -1689,7 +1682,6 @@ eggmoveentry SPECIES_ROSELIA
     eggmove MOVE_SPIKES
     eggmove MOVE_SYNTHESIS
     eggmove MOVE_PIN_MISSILE
-    eggmove MOVE_COTTON_SPORE
     eggmove MOVE_SLEEP_POWDER
     eggmove MOVE_RAZOR_LEAF
     eggmove MOVE_MIND_READER
@@ -1929,7 +1921,6 @@ eggmoveentry SPECIES_DUSKULL
 
 eggmoveentry SPECIES_TROPIUS
     eggmove MOVE_HEADBUTT
-    eggmove MOVE_SLAM
     eggmove MOVE_LEECH_SEED
     eggmove MOVE_NATURE_POWER
     eggmove MOVE_LEAF_STORM
@@ -2110,7 +2101,6 @@ eggmoveentry SPECIES_BUDEW
     eggmove MOVE_SPIKES
     eggmove MOVE_SYNTHESIS
     eggmove MOVE_PIN_MISSILE
-    eggmove MOVE_COTTON_SPORE
     eggmove MOVE_SLEEP_POWDER
     eggmove MOVE_RAZOR_LEAF
     eggmove MOVE_MIND_READER
@@ -2123,7 +2113,6 @@ eggmoveentry SPECIES_CRANIDOS
     eggmove MOVE_THRASH
     eggmove MOVE_DOUBLE_EDGE
     eggmove MOVE_LEER
-    eggmove MOVE_SLAM
     eggmove MOVE_STOMP
     eggmove MOVE_WHIRLWIND
     eggmove MOVE_HAMMER_ARM
@@ -2386,7 +2375,6 @@ eggmoveentry SPECIES_CARNIVINE
     eggmove MOVE_SLEEP_POWDER
     eggmove MOVE_STUN_SPORE
     eggmove MOVE_RAZOR_LEAF
-    eggmove MOVE_SLAM
     eggmove MOVE_SYNTHESIS
     eggmove MOVE_MAGICAL_LEAF
     eggmove MOVE_LEECH_SEED
@@ -2408,7 +2396,6 @@ eggmoveentry SPECIES_MANTYKE
     eggmove MOVE_TWISTER
     eggmove MOVE_HYDRO_PUMP
     eggmove MOVE_HAZE
-    eggmove MOVE_SLAM
     eggmove MOVE_MUD_SPORT
     eggmove MOVE_ROCK_SLIDE
     eggmove MOVE_MIRROR_COAT
@@ -2778,7 +2765,6 @@ eggmoveentry SPECIES_TIRTOUGA
     eggmove MOVE_IRON_DEFENSE
     eggmove MOVE_KNOCK_OFF
     eggmove MOVE_ROCK_THROW
-    eggmove MOVE_SLAM
     eggmove MOVE_WATER_PULSE
     eggmove MOVE_WHIRLPOOL
 
@@ -3680,7 +3666,6 @@ eggmoveentry SPECIES_MORPEKO
 eggmoveentry SPECIES_CUFANT
 	eggmove MOVE_DOUBLE_EDGE
 	eggmove MOVE_CURSE
-	eggmove MOVE_SLAM
 	eggmove MOVE_FISSURE
 	eggmove MOVE_SWAGGER
 	eggmove MOVE_WHIRLWIND

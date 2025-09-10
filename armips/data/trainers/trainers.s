@@ -1276,7 +1276,7 @@ trainerdata 35, "Clair"
         item ITEM_NONE
         move MOVE_THUNDER_WAVE
         move MOVE_FIRE_BLAST
-        move MOVE_SLAM
+        move MOVE_TACKLE
         move MOVE_DRAGON_PULSE
         ballseal 0
 
@@ -1288,7 +1288,7 @@ trainerdata 35, "Clair"
         item ITEM_NONE
         move MOVE_THUNDER_WAVE
         move MOVE_AQUA_TAIL
-        move MOVE_SLAM
+        move MOVE_TACKLE
         move MOVE_DRAGON_PULSE
         ballseal 0
 
@@ -3335,7 +3335,7 @@ trainerdata 103, "Blake"
         level 31
         pokemon SPECIES_QUAGSIRE
         move MOVE_WATER_GUN
-        move MOVE_SLAM
+        move MOVE_TACKLE
         move MOVE_YAWN
         move MOVE_EARTHQUAKE
         ballseal 0
@@ -3369,11 +3369,11 @@ trainerdata 104, "Brian"
         ivs 50
         abilityslot 0
         level 35
-        pokemon SPECIES_MAREEP
+        pokemon SPECIES_AMPHAROS
         move MOVE_DISCHARGE
         move MOVE_SIGNAL_BEAM
-        move MOVE_COTTON_SPORE
-        move MOVE_TACKLE
+        move MOVE_DRAGON_PULSE
+        move MOVE_NONE
         ballseal 0
     endparty
 
@@ -3667,7 +3667,7 @@ trainerdata 113, "Jamie"
         level 31
         pokemon SPECIES_FLAAFFY
         move MOVE_DISCHARGE
-        move MOVE_COTTON_SPORE
+        move MOVE_SIGNAL_BEAM
         move MOVE_THUNDER_WAVE
         move MOVE_CHARGE
         ballseal 0
@@ -3774,7 +3774,7 @@ trainerdata 116, "Lois"
         level 25
         pokemon SPECIES_MAREEP
         move MOVE_THUNDER_SHOCK
-        move MOVE_COTTON_SPORE
+        move MOVE_SIGNAL_BEAM
         move MOVE_THUNDER_WAVE
         move MOVE_CHARGE
         ballseal 0
@@ -13794,7 +13794,7 @@ trainerdata 408, "Cybil"
         level 29
         pokemon SPECIES_MAREEP
         move MOVE_DISCHARGE
-        move MOVE_COTTON_SPORE
+        move MOVE_SIGNAL_BEAM
         move MOVE_CHARGE
         move MOVE_TACKLE
         ballseal 0
@@ -13859,7 +13859,7 @@ trainerdata 410, "Harry"
         pokemon SPECIES_WOOPER
         move MOVE_WATER_GUN
         move MOVE_MUD_BOMB
-        move MOVE_SLAM
+        move MOVE_TACKLE
         move MOVE_MUD_SHOT
         ballseal 0
     endparty
@@ -15617,7 +15617,7 @@ trainerdata 464, "Dana"
         abilityslot 0
         level 32
         pokemon SPECIES_FLAAFFY
-        move MOVE_COTTON_SPORE
+        move MOVE_SIGNAL_BEAM
         move MOVE_CHARGE
         move MOVE_DISCHARGE
         move MOVE_THUNDER_WAVE
@@ -15667,7 +15667,7 @@ trainerdata 465, "Dana"
         move MOVE_SIGNAL_BEAM
         move MOVE_DISCHARGE
         move MOVE_THUNDER_WAVE
-        move MOVE_COTTON_SPORE
+        move MOVE_DRAGON_PULSE
         ballseal 0
     endparty
 
@@ -17245,7 +17245,7 @@ trainerdata 506, "Mickey"
         level 35
         pokemon SPECIES_QUAGSIRE
         move MOVE_TAIL_WHIP
-        move MOVE_SLAM
+        move MOVE_STRENGTH
         move MOVE_AMNESIA
         move MOVE_EARTHQUAKE
         ballseal 0
@@ -17777,7 +17777,7 @@ trainerdata 521, "Mickey"
         move MOVE_STUN_SPORE
         move MOVE_SUNNY_DAY
         move MOVE_LEECH_SEED
-        move MOVE_COTTON_SPORE
+        move MOVE_SPORE_BURST
         ballseal 0
 
         // mon 1
@@ -17788,7 +17788,7 @@ trainerdata 521, "Mickey"
         move MOVE_SUNNY_DAY
         move MOVE_SLEEP_POWDER
         move MOVE_LEECH_SEED
-        move MOVE_COTTON_SPORE
+        move MOVE_SPORE_BURST
         ballseal 0
 
         // mon 2
@@ -18125,7 +18125,7 @@ trainerdata 529, "Mickey"
         move MOVE_SWIFT
         move MOVE_THUNDER_PUNCH
         move MOVE_THUNDER_WAVE
-        move MOVE_COTTON_SPORE
+        move MOVE_SIGNAL_BEAM
         ballseal 0
 
         // mon 1
@@ -18664,11 +18664,11 @@ trainerdata 546, "Sherman"
         ivs 0
         abilityslot 0
         level 43
-        pokemon SPECIES_FURRET
-        move MOVE_DOUBLE_TEAM
+        pokemon SPECIES_FURTUR
+        move MOVE_COIL
         move MOVE_BATON_PASS
         move MOVE_AMNESIA
-        move MOVE_SLAM
+        move MOVE_WRING_OUT
         ballseal 0
 
         // mon 1

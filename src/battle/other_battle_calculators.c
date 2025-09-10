@@ -43,7 +43,7 @@ const AccuracyStatChangeRatio sAccStatChanges[] =
 };
 
 const u16 PowderMovesList[] = {
-    MOVE_COTTON_SPORE,
+    MOVE_SPORE_BURST,
     MOVE_POISON_POWDER,
     MOVE_SLEEP_POWDER,
     MOVE_STUN_SPORE,
@@ -65,7 +65,7 @@ const u16 TriageMovesList[] = {
     MOVE_HEAL_ORDER,
     MOVE_HEAL_PULSE,
     MOVE_HEALING_WISH,
-    MOVE_HORN_LEECH,
+    MOVE_HYPHAL_SURGE,
     MOVE_LEECH_LIFE,
     MOVE_LUNAR_DANCE,
     MOVE_MEGA_DRAIN,

@@ -1036,7 +1036,7 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
     { .tag = 1155, .gfx =  905, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_TYMPOLE
     { .tag = 1156, .gfx =  906, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_PALPITOAD
     { .tag = 1157, .gfx =  907, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_SEISMITOAD
-    { .tag = 1158, .gfx =  908, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_SNORLAX_SUMO
+    { .tag = 1158, .gfx =  908, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_SUPLAX
     { .tag = 1159, .gfx =  909, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_LEDIATOR
     { .tag = 1160, .gfx =  910, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_SEWADDLE
     { .tag = 1161, .gfx =  911, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_SWADLOON

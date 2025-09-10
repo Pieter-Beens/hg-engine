@@ -21330,35 +21330,35 @@ routesandcities SPECIES_SEISMITOAD, DEX_SPECIAL
     dexendareadata
 
 
-specialareas SPECIES_SNORLAX_SUMO, DEX_MORNING
+specialareas SPECIES_SUPLAX, DEX_MORNING
     dexendareadata
 
 
-specialareas SPECIES_SNORLAX_SUMO, DEX_DAY
+specialareas SPECIES_SUPLAX, DEX_DAY
     dexendareadata
 
 
-specialareas SPECIES_SNORLAX_SUMO, DEX_NIGHT
+specialareas SPECIES_SUPLAX, DEX_NIGHT
     dexendareadata
 
 
-routesandcities SPECIES_SNORLAX_SUMO, DEX_MORNING
+routesandcities SPECIES_SUPLAX, DEX_MORNING
     dexendareadata
 
 
-routesandcities SPECIES_SNORLAX_SUMO, DEX_DAY
+routesandcities SPECIES_SUPLAX, DEX_DAY
     dexendareadata
 
 
-routesandcities SPECIES_SNORLAX_SUMO, DEX_NIGHT
+routesandcities SPECIES_SUPLAX, DEX_NIGHT
     dexendareadata
 
 
-specialareas SPECIES_SNORLAX_SUMO, DEX_SPECIAL
+specialareas SPECIES_SUPLAX, DEX_SPECIAL
     dexendareadata
 
 
-routesandcities SPECIES_SNORLAX_SUMO, DEX_SPECIAL
+routesandcities SPECIES_SUPLAX, DEX_SPECIAL
     dexendareadata
 
 

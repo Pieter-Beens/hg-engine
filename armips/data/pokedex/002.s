@@ -591,7 +591,7 @@
 /* SPECIES_TYMPOLE         */ .byte 0x00
 /* SPECIES_PALPITOAD       */ .byte 0x00
 /* SPECIES_SEISMITOAD      */ .byte 0x00
-/* SPECIES_SNORLAX_SUMO           */ .byte 0x00
+/* SPECIES_SUPLAX           */ .byte 0x00
 /* SPECIES_LEDIATOR            */ .byte 0x00
 /* SPECIES_SEWADDLE        */ .byte 0x00
 /* SPECIES_SWADLOON        */ .byte 0x00

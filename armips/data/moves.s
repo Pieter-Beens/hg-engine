@@ -346,7 +346,7 @@ movedata MOVE_BIND, "Bind"
     terminatedata
     movedescription MOVE_BIND, "A long body or\ntentacles are used\nto bind and squeeze\nthe foe for two to\nfive turns."
 
-movedata MOVE_SLAM, "Mushroom Mangle"
+movedata MOVE_MUSHROOM_MANGLE, "Mushroom Mangle"
     battleeffect MOVE_EFFECT_LOWER_DEFENSE_HIT
     pss SPLIT_PHYSICAL
     basepower 80
@@ -360,7 +360,7 @@ movedata MOVE_SLAM, "Mushroom Mangle"
     appeal 0x05
     contesttype CONTEST_TOUGH
     terminatedata
-    movedescription MOVE_SLAM, "The foe is mangled\nwith a mushroom\ncap to inflict\ndamage and lower\nits defense."
+    movedescription MOVE_MUSHROOM_MANGLE, "The foe is mangled\nwith a mushroom\ncap to inflict\ndamage and lower\nits defense."
 
 movedata MOVE_VINE_WHIP, "Vine Whip"
     battleeffect MOVE_EFFECT_HIT
@@ -2858,7 +2858,7 @@ movedata MOVE_AEROBLAST, "Aeroblast"
     terminatedata
     movedescription MOVE_AEROBLAST, "A vortex of air is\nshot at the foe to\ninflict damage.\nIt has a high\ncritical-hit ratio."
 
-movedata MOVE_COTTON_SPORE, "Spore Burst"
+movedata MOVE_SPORE_BURST, "Spore Burst"
     battleeffect MOVE_EFFECT_MULTI_HIT
     pss SPLIT_SPECIAL
     basepower 25
@@ -2872,7 +2872,7 @@ movedata MOVE_COTTON_SPORE, "Spore Burst"
     appeal 0x01
     contesttype CONTEST_BEAUTY
     terminatedata
-    movedescription MOVE_COTTON_SPORE, "The user releases\ninvasive spores\nthat cling to the\nfoe, hurting it.\n"
+    movedescription MOVE_SPORE_BURST, "The user releases\ninvasive spores\nthat cling to the\nfoe, hurting it.\n"
 
 movedata MOVE_REVERSAL, "Reversal"
     battleeffect MOVE_EFFECT_INCREASE_POWER_WITH_LESS_HP
@@ -8570,7 +8570,7 @@ movedata MOVE_HEART_STAMP, "Heart Stamp"
     terminatedata
     movedescription MOVE_HEART_STAMP, "The foe is hit\nafter a cute act.\nIt may also make\nthe foe flinch."
 
-movedata MOVE_HORN_LEECH, "Hyphal Surge"
+movedata MOVE_HYPHAL_SURGE, "Hyphal Surge"
     battleeffect MOVE_EFFECT_RECOVER_HALF_DAMAGE_DEALT
     pss SPLIT_PHYSICAL
     basepower 75
@@ -8584,7 +8584,7 @@ movedata MOVE_HORN_LEECH, "Hyphal Surge"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_HORN_LEECH, "A harsh attack that\nabsorbs half the\ndamage it inflicted\nto restore HP."
+    movedescription MOVE_HYPHAL_SURGE, "A harsh attack that\nabsorbs half the\ndamage it inflicted\nto restore HP."
 
 movedata MOVE_SACRED_SWORD, "Sacred Sword"
     battleeffect MOVE_EFFECT_HIT

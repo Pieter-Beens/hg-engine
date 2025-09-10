@@ -595,7 +595,7 @@
 /* SPECIES_TYMPOLE         */ .halfword 0x100
 /* SPECIES_PALPITOAD       */ .halfword 0x100
 /* SPECIES_SEISMITOAD      */ .halfword 0x100
-/* SPECIES_SNORLAX_SUMO           */ .halfword 0x100
+/* SPECIES_SUPLAX           */ .halfword 0x100
 /* SPECIES_LEDIATOR            */ .halfword 0x100
 /* SPECIES_SEWADDLE        */ .halfword 0x100
 /* SPECIES_SWADLOON        */ .halfword 0x100
