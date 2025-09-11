@@ -101,7 +101,7 @@ Root Fossil
 Claw Fossil
 Helix Fossil
 Dome Fossil
-Devolution Stone
+Ancient Stone
 Armor Fossil
 Skull Fossil
 Rare Bone

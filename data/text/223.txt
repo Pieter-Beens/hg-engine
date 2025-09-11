@@ -101,7 +101,7 @@ a {COLOR 255}Root Fossil{COLOR 0}
 a {COLOR 255}Claw Fossil{COLOR 0}
 a {COLOR 255}Helix Fossil{COLOR 0}
 a {COLOR 255}Dome Fossil{COLOR 0}
-an {COLOR 255}Devolution Stone{COLOR 0}
+an {COLOR 255}Ancient Stone{COLOR 0}
 an {COLOR 255}Armor Fossil{COLOR 0}
 a {COLOR 255}Skull Fossil{COLOR 0}
 a {COLOR 255}Rare Bone{COLOR 0}

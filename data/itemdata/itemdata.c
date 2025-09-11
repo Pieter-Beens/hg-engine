@@ -6706,7 +6706,7 @@ const ITEMDATA __data[] =
     },
 },
 
-[ITEM_DEVOLUTION_STONE] =
+[ITEM_ANCIENT_STONE] =
 {
     .price = 2100,
     .holdEffect = 0,

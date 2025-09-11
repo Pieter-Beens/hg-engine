@@ -2918,7 +2918,7 @@ mondata SPECIES_OMANYTE, "Omanyte"
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 0
-    items ITEM_DEVOLUTION_STONE, ITEM_DEVOLUTION_STONE
+    items ITEM_NONE, ITEM_NONE
     genderratio 31
     eggcycles 30
     basefriendship 50
@@ -2960,7 +2960,7 @@ mondata SPECIES_KABUTO, "Kabuto"
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 0
-    items ITEM_DEVOLUTION_STONE, ITEM_DEVOLUTION_STONE
+    items ITEM_NONE, ITEM_NONE
     genderratio 31
     eggcycles 30
     basefriendship 50
@@ -3002,7 +3002,7 @@ mondata SPECIES_AERODACTYL, "Aerodactyl"
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 2, 0, 0
-    items ITEM_DEVOLUTION_STONE, ITEM_DEVOLUTION_STONE
+    items ITEM_NONE, ITEM_NONE
     genderratio 31
     eggcycles 35
     basefriendship 50
