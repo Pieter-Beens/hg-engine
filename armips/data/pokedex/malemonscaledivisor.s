@@ -97,7 +97,7 @@
 /* SPECIES_DEWGONG         */ .halfword 0x100
 /* SPECIES_GRIMER          */ .halfword 0x0E0
 /* SPECIES_MUK             */ .halfword 0x100
-/* SPECIES_SHOALDER        */ .halfword 0x1E2
+/* SPECIES_SHELLDER        */ .halfword 0x1E2
 /* SPECIES_CLOYSTER        */ .halfword 0x0E9
 /* SPECIES_GASTLY          */ .halfword 0x0D3
 /* SPECIES_HAUNTER         */ .halfword 0x0D6
@@ -156,7 +156,7 @@
 /* SPECIES_MOLTRES         */ .halfword 0x100
 /* SPECIES_DRATINI         */ .halfword 0x0C9
 /* SPECIES_DRAGONAIR       */ .halfword 0x0F5
-/* SPECIES_KARPONITE       */ .halfword 0x100
+/* SPECIES_DRAGONITE       */ .halfword 0x100
 /* SPECIES_MEWTWO          */ .halfword 0x100
 /* SPECIES_MEW             */ .halfword 0x1D1
 /* SPECIES_CHIKORITA       */ .halfword 0x13B
@@ -770,7 +770,7 @@
 /* SPECIES_PUMPKABOO       */ .halfword 0x151
 /* SPECIES_XEROGRAV       */ .halfword 0x151
 /* SPECIES_BERGMITE        */ .halfword 0x151
-/* SPECIES_DRAGODOS         */ .halfword 0x151
+/* SPECIES_KARPONITE         */ .halfword 0x151
 /* SPECIES_NOIBAT          */ .halfword 0x151
 /* SPECIES_NOIVERN         */ .halfword 0x151
 /* SPECIES_BUTTERFAE         */ .halfword 0x151

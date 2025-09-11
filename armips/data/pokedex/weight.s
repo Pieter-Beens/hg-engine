@@ -96,7 +96,7 @@
 /* SPECIES_DEWGONG                           */ .word 1200
 /* SPECIES_GRIMER                            */ .word 300
 /* SPECIES_MUK                               */ .word 300
-/* SPECIES_SHOALDER                          */ .word 40
+/* SPECIES_SHELLDER                          */ .word 40
 /* SPECIES_CLOYSTER                          */ .word 1325
 /* SPECIES_GASTLY                            */ .word 1
 /* SPECIES_HAUNTER                           */ .word 1
@@ -155,7 +155,7 @@
 /* SPECIES_MOLTRES                           */ .word 600
 /* SPECIES_DRATINI                           */ .word 33
 /* SPECIES_DRAGONAIR                         */ .word 165
-/* SPECIES_KARPONITE                         */ .word 2100
+/* SPECIES_DRAGONITE                         */ .word 2100
 /* SPECIES_MEWTWO                            */ .word 1220
 /* SPECIES_MEW                               */ .word 40
 /* SPECIES_CHIKORITA                         */ .word 64
@@ -769,7 +769,7 @@
 /* SPECIES_PUMPKABOO                         */ .word 50
 /* SPECIES_XEROGRAV                         */ .word 125
 /* SPECIES_BERGMITE                          */ .word 995
-/* SPECIES_DRAGODOS                           */ .word 5050
+/* SPECIES_KARPONITE                           */ .word 5050
 /* SPECIES_NOIBAT                            */ .word 80
 /* SPECIES_NOIVERN                           */ .word 850
 /* SPECIES_BUTTERFAE                           */ .word 2150
@@ -1347,13 +1347,13 @@
 /* SPECIES_BRAVIARY_HISUIAN                  */ .word 434
 /* SPECIES_SLIGGOO_HISUIAN                   */ .word 685
 /* SPECIES_GOODRA_HISUIAN                    */ .word 3341
-/* SPECIES_DRAGODOS_HISUIAN                   */ .word 2624
+/* SPECIES_KARPONITE_HISUIAN                   */ .word 2624
 /* SPECIES_DECIDUEYE_HISUIAN                 */ .word 370
 /* SPECIES_KLEAVOR_LORD                      */ .word 889  // 88.86 kg
 /* SPECIES_CHATINGALE_LADY                    */ .word 163  // 16.27 kg
 /* SPECIES_ARCANINE_LORD                     */ .word 1548 // 154.76 kg
 /* SPECIES_ELECTRODE_LORD                    */ .word 665  // 66.50 kg
-/* SPECIES_DRAGODOS_LORD                      */ .word 5042 // 504.21kg
+/* SPECIES_KARPONITE_LORD                      */ .word 5042 // 504.21kg
 /* SPECIES_UNFEZANT_FEMALE                   */ .word 290
 /* SPECIES_FRILLISH_FEMALE                   */ .word 330
 /* SPECIES_JELLICENT_FEMALE                  */ .word 1350

@@ -35,7 +35,7 @@
 //.halfword SPECIES_AMAURA
 //.halfword SPECIES_AURORUS
 //.halfword SPECIES_BERGMITE
-//.halfword SPECIES_DRAGODOS
+//.halfword SPECIES_KARPONITE
 //.halfword SPECIES_CRABOMINABLE
 //.halfword SPECIES_MR_RIME
 //.halfword SPECIES_SNOM

@@ -492,7 +492,7 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
     { .tag =  555, .gfx = 1329, .callback_params = OVERWORLD_SIZE_SMALL}, // alola
     { .tag =  556, .gfx =  387, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_MUK
     { .tag =  557, .gfx = 1330, .callback_params = OVERWORLD_SIZE_SMALL}, // alola
-    { .tag =  558, .gfx =  388, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_SHOALDER
+    { .tag =  558, .gfx =  388, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_SHELLDER
     { .tag =  559, .gfx =  389, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_CLOYSTER
     { .tag =  560, .gfx =  390, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_GASTLY
     { .tag =  561, .gfx =  391, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_HAUNTER
@@ -564,7 +564,7 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
     { .tag =  627, .gfx = 1339, .callback_params = OVERWORLD_SIZE_SMALL}, // galar
     { .tag =  628, .gfx =  445, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_DRATINI
     { .tag =  629, .gfx =  446, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_DRAGONAIR
-    { .tag =  630, .gfx =  447, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_KARPONITE
+    { .tag =  630, .gfx =  447, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_DRAGONITE
     { .tag =  631, .gfx =  448, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_MEWTWO
     { .tag =  632, .gfx =  449, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_MEW
     { .tag =  633, .gfx =  450, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_CHIKORITA
@@ -1289,7 +1289,7 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
     { .tag = 1408, .gfx = 1095, .callback_params = OVERWORLD_SIZE_SMALL}, // large - currently not changed
     { .tag = 1409, .gfx = 1095, .callback_params = OVERWORLD_SIZE_SMALL}, // super - currently not changed
     { .tag = 1410, .gfx = 1096, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_BERGMITE
-    { .tag = 1411, .gfx = 1097, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_DRAGODOS
+    { .tag = 1411, .gfx = 1097, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_KARPONITE
     { .tag = 1412, .gfx = 1402, .callback_params = OVERWORLD_SIZE_SMALL}, // hisui
     { .tag = 1413, .gfx = 1098, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_NOIBAT
     { .tag = 1414, .gfx = 1099, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_NOIVERN

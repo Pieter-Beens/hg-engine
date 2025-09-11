@@ -93,7 +93,7 @@
 /* SPECIES_DEWGONG         */ .word 0x11 
 /* SPECIES_GRIMER          */ .word 0x09 
 /* SPECIES_MUK             */ .word 0x0C 
-/* SPECIES_SHOALDER        */ .word 0x03 
+/* SPECIES_SHELLDER        */ .word 0x03 
 /* SPECIES_CLOYSTER        */ .word 0x0F 
 /* SPECIES_GASTLY          */ .word 0x0D 
 /* SPECIES_HAUNTER         */ .word 0x10 
@@ -152,7 +152,7 @@
 /* SPECIES_MOLTRES         */ .word 0x14 
 /* SPECIES_DRATINI         */ .word 0x12 
 /* SPECIES_DRAGONAIR       */ .word 0x28 
-/* SPECIES_KARPONITE       */ .word 0x16 
+/* SPECIES_DRAGONITE       */ .word 0x16 
 /* SPECIES_MEWTWO          */ .word 0x14 
 /* SPECIES_MEW             */ .word 0x04 
 /* SPECIES_CHIKORITA       */ .word 0x09 

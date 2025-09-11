@@ -3,7 +3,7 @@
 
 .create "a214/091.bin", 0x0
 
-.halfword SPECIES_SHOALDER
+.halfword SPECIES_SHELLDER
 .halfword SPECIES_GASTLY
 .halfword SPECIES_VOLTORB
 .halfword SPECIES_KOFFING

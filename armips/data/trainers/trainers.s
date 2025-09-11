@@ -1919,7 +1919,7 @@ trainerdata 58, "Arnold"
         ivs 0
         abilityslot 0
         level 44
-        pokemon SPECIES_SHOALDER
+        pokemon SPECIES_SHELLDER
         ballseal 0
     endparty
 
@@ -2724,7 +2724,7 @@ trainerdata 85, "Paula"
         ivs 0
         abilityslot 0
         level 19
-        pokemon SPECIES_SHOALDER
+        pokemon SPECIES_SHELLDER
         ballseal 0
     endparty
 
@@ -2745,7 +2745,7 @@ trainerdata 86, "Randall"
         ivs 0
         abilityslot 0
         level 18
-        pokemon SPECIES_SHOALDER
+        pokemon SPECIES_SHELLDER
         move MOVE_SUPERSONIC
         move MOVE_ICICLE_SPEAR
         move MOVE_WITHDRAW
@@ -2767,7 +2767,7 @@ trainerdata 86, "Randall"
         ivs 0
         abilityslot 0
         level 18
-        pokemon SPECIES_SHOALDER
+        pokemon SPECIES_SHELLDER
         move MOVE_SUPERSONIC
         move MOVE_ICICLE_SPEAR
         move MOVE_WITHDRAW
@@ -3058,7 +3058,7 @@ trainerdata 95, "Charlie"
         ivs 0
         abilityslot 0
         level 21
-        pokemon SPECIES_SHOALDER
+        pokemon SPECIES_SHELLDER
         ballseal 0
 
         // mon 1
@@ -3836,7 +3836,7 @@ trainerdata 118, "Kate"
         ivs 50
         abilityslot 0
         level 26
-        pokemon SPECIES_SHOALDER
+        pokemon SPECIES_SHELLDER
         ballseal 0
 
         // mon 1
@@ -4150,7 +4150,7 @@ trainerdata 128, "Jonah"
         ivs 0
         abilityslot 0
         level 33
-        pokemon SPECIES_SHOALDER
+        pokemon SPECIES_SHELLDER
         ballseal 0
 
         // mon 1
@@ -5351,7 +5351,7 @@ trainerdata 170, "Mickey"
         ivs 0
         abilityslot 0
         level 24
-        pokemon SPECIES_SHOALDER
+        pokemon SPECIES_SHELLDER
         ballseal 0
 
         // mon 1
@@ -5365,7 +5365,7 @@ trainerdata 170, "Mickey"
         ivs 0
         abilityslot 0
         level 24
-        pokemon SPECIES_SHOALDER
+        pokemon SPECIES_SHELLDER
         ballseal 0
     endparty
 
@@ -7621,7 +7621,7 @@ trainerdata 244, "Lance"
         ivs 250
         abilityslot 0
         level 49
-        pokemon SPECIES_KARPONITE
+        pokemon SPECIES_DRAGONITE
         item ITEM_NONE
         move MOVE_THUNDER_WAVE
         move MOVE_DRAGON_RUSH
@@ -7633,7 +7633,7 @@ trainerdata 244, "Lance"
         ivs 250
         abilityslot 0
         level 49
-        pokemon SPECIES_KARPONITE
+        pokemon SPECIES_DRAGONITE
         item ITEM_NONE
         move MOVE_THUNDER_WAVE
         move MOVE_DRAGON_RUSH
@@ -7669,7 +7669,7 @@ trainerdata 244, "Lance"
         ivs 250
         abilityslot 0
         level 50
-        pokemon SPECIES_KARPONITE
+        pokemon SPECIES_DRAGONITE
         item ITEM_SITRUS_BERRY
         move MOVE_FIRE_BLAST
         move MOVE_SAFEGUARD
@@ -12642,7 +12642,7 @@ trainerdata 371, "Tucker"
         ivs 0
         abilityslot 0
         level 40
-        pokemon SPECIES_SHOALDER
+        pokemon SPECIES_SHELLDER
         ballseal 0
 
         // mon 1
@@ -16225,7 +16225,7 @@ trainerdata 484, "Gerardo"
         ivs 10
         abilityslot 0
         level 25
-        pokemon SPECIES_SHOALDER
+        pokemon SPECIES_SHELLDER
         move MOVE_ICE_SHARD
         move MOVE_SUPERSONIC
         move MOVE_ICICLE_SPEAR
@@ -22856,7 +22856,7 @@ trainerdata 675, "Lance"
         ivs 250
         abilityslot 0
         level 40
-        pokemon SPECIES_KARPONITE
+        pokemon SPECIES_DRAGONITE
         move MOVE_FLY
         move MOVE_TWISTER
         move MOVE_THUNDER
@@ -23715,7 +23715,7 @@ trainerdata 701, "Lance"
         ivs 250
         abilityslot 0
         level 75
-        pokemon SPECIES_KARPONITE
+        pokemon SPECIES_DRAGONITE
         item ITEM_SITRUS_BERRY
         move MOVE_FIRE_BLAST
         move MOVE_SAFEGUARD
@@ -24888,7 +24888,7 @@ trainerdata 719, "Clair"
         ivs 200
         abilityslot 0
         level 60
-        pokemon SPECIES_KARPONITE
+        pokemon SPECIES_DRAGONITE
         item ITEM_SITRUS_BERRY
         move MOVE_THUNDER
         move MOVE_SAFEGUARD
@@ -25774,7 +25774,7 @@ trainerdata 733, "Lance"
         ivs 250
         abilityslot 0
         level 75
-        pokemon SPECIES_KARPONITE
+        pokemon SPECIES_DRAGONITE
         item ITEM_NONE
         move MOVE_FIRE_PUNCH
         move MOVE_SAFEGUARD
@@ -25824,7 +25824,7 @@ trainerdata 734, "Clair"
         ivs 200
         abilityslot 0
         level 60
-        pokemon SPECIES_KARPONITE
+        pokemon SPECIES_DRAGONITE
         item ITEM_NONE
         move MOVE_THUNDER
         move MOVE_PROTECT

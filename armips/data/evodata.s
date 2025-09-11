@@ -1092,7 +1092,7 @@ evodata SPECIES_MUK
     evolution EVO_NONE, 0, SPECIES_NONE
     terminateevodata
 
-evodata SPECIES_SHOALDER
+evodata SPECIES_SHELLDER
     evolution EVO_STONE, ITEM_ICE_STONE, SPECIES_CLOYSTER
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1118,8 +1118,8 @@ evodata SPECIES_CLOYSTER
 
 evodata SPECIES_GASTLY
     evolution EVO_LEVEL, 25, SPECIES_HAUNTER
-    evolution EVO_ITEM_DAY, ITEM_SHELL_BELL, SPECIES_SHOALDER
-    evolution EVO_ITEM_NIGHT, ITEM_SHELL_BELL, SPECIES_SHOALDER
+    evolution EVO_ITEM_DAY, ITEM_SHELL_BELL, SPECIES_SHELLDER
+    evolution EVO_ITEM_NIGHT, ITEM_SHELL_BELL, SPECIES_SHELLDER
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1789,7 +1789,7 @@ evodata SPECIES_DRATINI
     terminateevodata
 
 evodata SPECIES_DRAGONAIR
-    evolution EVO_LEVEL, 55, SPECIES_DRAGODOS
+    evolution EVO_LEVEL, 55, SPECIES_KARPONITE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1800,7 +1800,7 @@ evodata SPECIES_DRAGONAIR
     evolution EVO_NONE, 0, SPECIES_NONE
     terminateevodata
 
-evodata SPECIES_KARPONITE
+evodata SPECIES_DRAGONITE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -9172,7 +9172,7 @@ evodata SPECIES_BERGMITE
     evolution EVO_NONE, 0, SPECIES_NONE
 terminateevodata
 
-evodata SPECIES_DRAGODOS
+evodata SPECIES_KARPONITE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -16099,7 +16099,7 @@ evodata SPECIES_GOODRA_HISUIAN
     evolution EVO_NONE, 0, SPECIES_NONE
 terminateevodata
 
-evodata SPECIES_DRAGODOS_HISUIAN
+evodata SPECIES_KARPONITE_HISUIAN
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -16171,7 +16171,7 @@ evodata SPECIES_ELECTRODE_LORD
     evolution EVO_NONE, 0, SPECIES_NONE
     terminateevodata
 
-evodata SPECIES_DRAGODOS_LORD
+evodata SPECIES_KARPONITE_LORD
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

@@ -94,7 +94,7 @@
 /* SPECIES_DEWGONG         */ .byte 3
 /* SPECIES_GRIMER          */ .byte 3
 /* SPECIES_MUK             */ .byte 9
-/* SPECIES_SHOALDER        */ .byte 0
+/* SPECIES_SHELLDER        */ .byte 0
 /* SPECIES_CLOYSTER        */ .byte 2
 /* SPECIES_GASTLY          */ .byte -7
 /* SPECIES_HAUNTER         */ .byte 4
@@ -153,7 +153,7 @@
 /* SPECIES_MOLTRES         */ .byte -10
 /* SPECIES_DRATINI         */ .byte 3
 /* SPECIES_DRAGONAIR       */ .byte 0
-/* SPECIES_KARPONITE       */ .byte 0
+/* SPECIES_DRAGONITE       */ .byte 0
 /* SPECIES_MEWTWO          */ .byte 3
 /* SPECIES_MEW             */ .byte 0
 /* SPECIES_CHIKORITA       */ .byte 3

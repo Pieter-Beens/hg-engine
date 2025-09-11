@@ -4146,19 +4146,19 @@ routesandcities SPECIES_MUK, DEX_SPECIAL
     dexendareadata
 
 
-specialareas SPECIES_SHOALDER, DEX_MORNING
+specialareas SPECIES_SHELLDER, DEX_MORNING
     dexendareadata
 
 
-specialareas SPECIES_SHOALDER, DEX_DAY
+specialareas SPECIES_SHELLDER, DEX_DAY
     dexendareadata
 
 
-specialareas SPECIES_SHOALDER, DEX_NIGHT
+specialareas SPECIES_SHELLDER, DEX_NIGHT
     dexendareadata
 
 
-routesandcities SPECIES_SHOALDER, DEX_MORNING
+routesandcities SPECIES_SHELLDER, DEX_MORNING
     .word DEX_NEW_BARK_TOWN
     .word DEX_ROUTE_41
     .word DEX_ROUTE_47
@@ -4172,7 +4172,7 @@ routesandcities SPECIES_SHOALDER, DEX_MORNING
     dexendareadata
 
 
-routesandcities SPECIES_SHOALDER, DEX_DAY
+routesandcities SPECIES_SHELLDER, DEX_DAY
     .word DEX_NEW_BARK_TOWN
     .word DEX_ROUTE_41
     .word DEX_ROUTE_47
@@ -4186,7 +4186,7 @@ routesandcities SPECIES_SHOALDER, DEX_DAY
     dexendareadata
 
 
-routesandcities SPECIES_SHOALDER, DEX_NIGHT
+routesandcities SPECIES_SHELLDER, DEX_NIGHT
     .word DEX_NEW_BARK_TOWN
     .word DEX_ROUTE_41
     .word DEX_ROUTE_47
@@ -4200,11 +4200,11 @@ routesandcities SPECIES_SHOALDER, DEX_NIGHT
     dexendareadata
 
 
-specialareas SPECIES_SHOALDER, DEX_SPECIAL
+specialareas SPECIES_SHELLDER, DEX_SPECIAL
     dexendareadata
 
 
-routesandcities SPECIES_SHOALDER, DEX_SPECIAL
+routesandcities SPECIES_SHELLDER, DEX_SPECIAL
     dexendareadata
 
 
@@ -6556,35 +6556,35 @@ routesandcities SPECIES_DRAGONAIR, DEX_SPECIAL
     dexendareadata
 
 
-specialareas SPECIES_KARPONITE, DEX_MORNING
+specialareas SPECIES_DRAGONITE, DEX_MORNING
     dexendareadata
 
 
-specialareas SPECIES_KARPONITE, DEX_DAY
+specialareas SPECIES_DRAGONITE, DEX_DAY
     dexendareadata
 
 
-specialareas SPECIES_KARPONITE, DEX_NIGHT
+specialareas SPECIES_DRAGONITE, DEX_NIGHT
     dexendareadata
 
 
-routesandcities SPECIES_KARPONITE, DEX_MORNING
+routesandcities SPECIES_DRAGONITE, DEX_MORNING
     dexendareadata
 
 
-routesandcities SPECIES_KARPONITE, DEX_DAY
+routesandcities SPECIES_DRAGONITE, DEX_DAY
     dexendareadata
 
 
-routesandcities SPECIES_KARPONITE, DEX_NIGHT
+routesandcities SPECIES_DRAGONITE, DEX_NIGHT
     dexendareadata
 
 
-specialareas SPECIES_KARPONITE, DEX_SPECIAL
+specialareas SPECIES_DRAGONITE, DEX_SPECIAL
     dexendareadata
 
 
-routesandcities SPECIES_KARPONITE, DEX_SPECIAL
+routesandcities SPECIES_DRAGONITE, DEX_SPECIAL
     dexendareadata
 
 
@@ -26930,35 +26930,35 @@ routesandcities SPECIES_BERGMITE, DEX_SPECIAL
     dexendareadata
 
 
-specialareas SPECIES_DRAGODOS, DEX_MORNING
+specialareas SPECIES_KARPONITE, DEX_MORNING
     dexendareadata
 
 
-specialareas SPECIES_DRAGODOS, DEX_DAY
+specialareas SPECIES_KARPONITE, DEX_DAY
     dexendareadata
 
 
-specialareas SPECIES_DRAGODOS, DEX_NIGHT
+specialareas SPECIES_KARPONITE, DEX_NIGHT
     dexendareadata
 
 
-routesandcities SPECIES_DRAGODOS, DEX_MORNING
+routesandcities SPECIES_KARPONITE, DEX_MORNING
     dexendareadata
 
 
-routesandcities SPECIES_DRAGODOS, DEX_DAY
+routesandcities SPECIES_KARPONITE, DEX_DAY
     dexendareadata
 
 
-routesandcities SPECIES_DRAGODOS, DEX_NIGHT
+routesandcities SPECIES_KARPONITE, DEX_NIGHT
     dexendareadata
 
 
-specialareas SPECIES_DRAGODOS, DEX_SPECIAL
+specialareas SPECIES_KARPONITE, DEX_SPECIAL
     dexendareadata
 
 
-routesandcities SPECIES_DRAGODOS, DEX_SPECIAL
+routesandcities SPECIES_KARPONITE, DEX_SPECIAL
     dexendareadata
 
 

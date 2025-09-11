@@ -415,7 +415,7 @@ eggmoveentry SPECIES_GRIMER
     eggmove MOVE_SPIT_UP
 
 
-eggmoveentry SPECIES_SHOALDER
+eggmoveentry SPECIES_SHELLDER
     eggmove MOVE_BUBBLE_BEAM
     eggmove MOVE_TAKE_DOWN
     eggmove MOVE_BARRIER

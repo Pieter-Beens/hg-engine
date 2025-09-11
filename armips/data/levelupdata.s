@@ -1974,7 +1974,7 @@ levelup SPECIES_MUK
     terminatelearnset
 
 
-levelup SPECIES_SHOALDER
+levelup SPECIES_SHELLDER
     learnset MOVE_TACKLE, 1
     learnset MOVE_WATER_GUN, 1
     learnset MOVE_WITHDRAW, 4
@@ -3400,7 +3400,7 @@ levelup SPECIES_DRAGONAIR
     terminatelearnset
 
 
-levelup SPECIES_KARPONITE
+levelup SPECIES_DRAGONITE
 //    learnset MOVE_HURRICANE, 0
     learnset MOVE_WING_ATTACK, 0
 //    learnset MOVE_HURRICANE, 1
@@ -16660,7 +16660,7 @@ levelup SPECIES_BERGMITE
     terminatelearnset
 
 
-levelup SPECIES_DRAGODOS
+levelup SPECIES_KARPONITE
     learnset MOVE_BODY_SLAM, 0
     learnset MOVE_BODY_SLAM, 1
     learnset MOVE_WIDE_GUARD, 1
@@ -28906,7 +28906,7 @@ levelup SPECIES_GOODRA_HISUIAN
     terminatelearnset
 
 
-levelup SPECIES_DRAGODOS_HISUIAN
+levelup SPECIES_KARPONITE_HISUIAN
     learnset MOVE_ROCK_SLIDE, 0
     learnset MOVE_ROCK_SLIDE, 1
     learnset MOVE_WIDE_GUARD, 1
@@ -29045,7 +29045,7 @@ levelup SPECIES_ELECTRODE_LORD
     terminatelearnset
 
 
-levelup SPECIES_DRAGODOS_LORD
+levelup SPECIES_KARPONITE_LORD
     learnset MOVE_ROCK_SLIDE, 0
     learnset MOVE_ROCK_SLIDE, 1
     learnset MOVE_WIDE_GUARD, 1

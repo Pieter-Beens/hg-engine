@@ -1904,7 +1904,7 @@ mondata SPECIES_MUK, "Muk"
     mondexweight SPECIES_MUK, "66.1 lbs."
 
 
-mondata SPECIES_SHOALDER, "Shoalder"
+mondata SPECIES_SHELLDER, "Shoalder"
     basestats 30, 65, 100, 40, 100, 25
     types TYPE_GHOST, TYPE_WATER
     catchrate 190
@@ -1919,10 +1919,10 @@ mondata SPECIES_SHOALDER, "Shoalder"
     abilities ABILITY_SHELL_ARMOR, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
-    mondexentry SPECIES_SHOALDER, "It swims facing backward by opening\nand closing its two-piece shell.\nIt is surprisingly fast."
-    mondexclassification SPECIES_SHOALDER, "Bivalve Pokémon"
-    mondexheight SPECIES_SHOALDER, "1’00”"
-    mondexweight SPECIES_SHOALDER, "8.8 lbs."
+    mondexentry SPECIES_SHELLDER, "It swims facing backward by opening\nand closing its two-piece shell.\nIt is surprisingly fast."
+    mondexclassification SPECIES_SHELLDER, "Bivalve Pokémon"
+    mondexheight SPECIES_SHELLDER, "1’00”"
+    mondexweight SPECIES_SHELLDER, "8.8 lbs."
 
 
 mondata SPECIES_CLOYSTER, "Cloyster"
@@ -3143,9 +3143,9 @@ mondata SPECIES_DRAGONAIR, "Dragonair"
     mondexweight SPECIES_DRAGONAIR, "36.4 lbs."
 
 
-mondata SPECIES_KARPONITE, "Karponite"
+mondata SPECIES_DRAGONITE, "Dragonite"
     basestats 91, 134, 95, 80, 100, 100
-    types TYPE_WATER, TYPE_DRAGON
+    types TYPE_DRAGON, TYPE_FLYING
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 3, 0, 0, 0, 0
@@ -3158,10 +3158,10 @@ mondata SPECIES_KARPONITE, "Karponite"
     abilities ABILITY_INNER_FOCUS, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
-    mondexentry SPECIES_KARPONITE, "It is said that this Pokémon constantly\nflies over the immense seas\nand rescues drowning people."
-    mondexclassification SPECIES_KARPONITE, "Dragon Pokémon"
-    mondexheight SPECIES_KARPONITE, "7’03”"
-    mondexweight SPECIES_KARPONITE, "463.0 lbs."
+    mondexentry SPECIES_DRAGONITE, "It is said that this Pokémon constantly\nflies over the immense seas\nand rescues drowning people."
+    mondexclassification SPECIES_DRAGONITE, "Dragon Pokémon"
+    mondexheight SPECIES_DRAGONITE, "7’03”"
+    mondexweight SPECIES_DRAGONITE, "463.0 lbs."
 
 
 mondata SPECIES_MEWTWO, "Mewtwo"
@@ -16038,9 +16038,9 @@ mondata SPECIES_BERGMITE, "Bergmite"
     mondexweight SPECIES_BERGMITE, "219.4 lbs."
 
 
-mondata SPECIES_DRAGODOS, "Avalugg"
+mondata SPECIES_KARPONITE, "Karponite"
     basestats 91, 114, 85, 100, 100, 100
-    types TYPE_DRAGON, TYPE_ICE
+    types TYPE_DRAGON, TYPE_STEEL
     catchrate 55
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 0
@@ -16053,10 +16053,10 @@ mondata SPECIES_DRAGODOS, "Avalugg"
     abilities ABILITY_OWN_TEMPO, ABILITY_ICE_BODY
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
-    mondexentry SPECIES_DRAGODOS, "The way several Bergmite huddle on its\nback make it look like an aircraft\ncarrier made of ice."
-    mondexclassification SPECIES_DRAGODOS, "Iceberg Pokémon"
-    mondexheight SPECIES_DRAGODOS, "6’07”"
-    mondexweight SPECIES_DRAGODOS, "1113.3 lbs."
+    mondexentry SPECIES_KARPONITE, "The way several Bergmite huddle on its\nback make it look like an aircraft\ncarrier made of ice."
+    mondexclassification SPECIES_KARPONITE, "Iceberg Pokémon"
+    mondexheight SPECIES_KARPONITE, "6’07”"
+    mondexweight SPECIES_KARPONITE, "1113.3 lbs."
 
 
 mondata SPECIES_NOIBAT, "Noibat"
@@ -26843,7 +26843,7 @@ mondata SPECIES_GOODRA_HISUIAN, "-----"
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
 
-mondata SPECIES_DRAGODOS_HISUIAN, "-----"
+mondata SPECIES_KARPONITE_HISUIAN, "-----"
     basestats 95, 127, 184, 38, 34, 36
     types TYPE_ICE, TYPE_ROCK
     catchrate 55
@@ -26939,7 +26939,7 @@ mondata SPECIES_ELECTRODE_LORD, "-----"
     runchance 0
     colorflip BODY_COLOR_RED, 0
 
-mondata SPECIES_DRAGODOS_LORD, "-----"
+mondata SPECIES_KARPONITE_LORD, "-----"
     basestats 95, 127, 184, 38, 34, 36
     types TYPE_ICE, TYPE_ROCK
     catchrate 55

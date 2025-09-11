@@ -100,7 +100,7 @@ heightentry SPECIES_SEEL, 16, 16, 15, 15
 heightentry SPECIES_DEWGONG, 6, 6, 7, 7
 heightentry SPECIES_GRIMER, 16, 16, 19, 19
 heightentry SPECIES_MUK, 8, 8, 8, 8
-heightentry SPECIES_SHOALDER, 28, 28, 23, 23
+heightentry SPECIES_SHELLDER, 28, 28, 23, 23
 heightentry SPECIES_CLOYSTER, 9, 9, 10, 10
 heightentry SPECIES_GASTLY, 8, 8, 18, 18
 heightentry SPECIES_HAUNTER, 5, 5, 17, 17
@@ -159,7 +159,7 @@ heightentry SPECIES_ZAPDOS, "null", 15, "null", 6
 heightentry SPECIES_MOLTRES, "null", 6, "null", 4
 heightentry SPECIES_DRATINI, 10, 10, 17, 17
 heightentry SPECIES_DRAGONAIR, 5, 5, 6, 6
-heightentry SPECIES_KARPONITE, 1, 1, 1, 1
+heightentry SPECIES_DRAGONITE, 1, 1, 1, 1
 heightentry SPECIES_MEWTWO, "null", 1, "null", 8
 heightentry SPECIES_MEW, "null", 0, "null", 16
 heightentry SPECIES_CHIKORITA, 12, 12, 18, 18
@@ -775,7 +775,7 @@ heightentry SPECIES_TREVENANT, 0, 0, 0, 0
 heightentry SPECIES_PUMPKABOO, 16, 16, 0, 0
 heightentry SPECIES_XEROGRAV, 0, 0, 0, 0
 heightentry SPECIES_BERGMITE, 6, 6, 0, 0
-heightentry SPECIES_DRAGODOS, 3, 3, 0, 0
+heightentry SPECIES_KARPONITE, 3, 3, 0, 0
 heightentry SPECIES_NOIBAT, 2, 2, 0, 0
 heightentry SPECIES_NOIVERN, 0, 0, 0, 0
 heightentry SPECIES_BUTTERFAE, 0, 0, 0, 0
@@ -1361,14 +1361,14 @@ heightentry SPECIES_ZOROARK_HISUIAN, 0, 0, 0, 0
 heightentry SPECIES_BRAVIARY_HISUIAN, 0, 0, 0, 0
 heightentry SPECIES_SLIGGOO_HISUIAN, 7, 7, 0, 0
 heightentry SPECIES_GOODRA_HISUIAN, 0, 0, 0, 0
-heightentry SPECIES_DRAGODOS_HISUIAN, 0, 0, 0, 0
+heightentry SPECIES_KARPONITE_HISUIAN, 0, 0, 0, 0
 heightentry SPECIES_DECIDUEYE_HISUIAN, 0, 0, 0, 0
 
 heightentry SPECIES_KLEAVOR_LORD, 0, 0, 0, 0
 heightentry SPECIES_CHATINGALE_LADY, 0, 0, 0, 0
 heightentry SPECIES_ARCANINE_LORD, 0, 0, 0, 0
 heightentry SPECIES_ELECTRODE_LORD, 0, 0, 0, 0
-heightentry SPECIES_DRAGODOS_LORD, 0, 0, 0, 0
+heightentry SPECIES_KARPONITE_LORD, 0, 0, 0, 0
 
 heightentry SPECIES_UNFEZANT_FEMALE, 0, 0, 0, 0
 heightentry SPECIES_FRILLISH_FEMALE, 0, 0, 0, 0
