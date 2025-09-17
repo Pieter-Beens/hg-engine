@@ -391,13 +391,15 @@ levelup SPECIES_SPEAROW
     learnset MOVE_LEER, 4
     learnset MOVE_PURSUIT, 8
     learnset MOVE_FURY_ATTACK, 11
+    learnset MOVE_SAND_TOMB, 13
     learnset MOVE_AERIAL_ACE, 15
     learnset MOVE_MIRROR_MOVE, 18
     learnset MOVE_ASSURANCE, 22
-    learnset MOVE_AGILITY, 25
-    learnset MOVE_FOCUS_ENERGY, 29
-    learnset MOVE_ROOST, 32
-    learnset MOVE_DRILL_PECK, 36
+    learnset MOVE_AGILITY, 23
+    learnset MOVE_FOCUS_ENERGY, 25
+    learnset MOVE_BULLDOZE, 27
+    learnset MOVE_DRILL_PECK, 30
+    learnset MOVE_BRAVE_BIRD, 41
     terminatelearnset
 
 
@@ -411,14 +413,16 @@ levelup SPECIES_FEAROW
     learnset MOVE_LEER, 4
     learnset MOVE_PURSUIT, 8
     learnset MOVE_FURY_ATTACK, 11
+    learnset MOVE_SAND_TOMB, 13
     learnset MOVE_AERIAL_ACE, 15
     learnset MOVE_MIRROR_MOVE, 18
     learnset MOVE_ASSURANCE, 23
-    learnset MOVE_AGILITY, 27
-    learnset MOVE_FOCUS_ENERGY, 32
-    learnset MOVE_ROOST, 36
-    learnset MOVE_DRILL_PECK, 41
-    learnset MOVE_DRILL_RUN, 45
+    learnset MOVE_AGILITY, 25
+    learnset MOVE_FOCUS_ENERGY, 27
+    learnset MOVE_BULLDOZE, 29
+    learnset MOVE_DRILL_PECK, 32
+    learnset MOVE_DRILL_RUN, 36
+    learnset MOVE_BRAVE_BIRD, 41
     terminatelearnset
 
 
@@ -993,6 +997,7 @@ levelup SPECIES_NYMPHLE
     learnset MOVE_FLAIL, 23
     learnset MOVE_X_SCISSOR, 29
     terminatelearnset
+
 
 levelup SPECIES_PARASECT
     learnset MOVE_FURY_CUTTER, 1

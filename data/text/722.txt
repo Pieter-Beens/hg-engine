@@ -23,7 +23,7 @@ Negates foes’ moves that\nforce switching out.
 Lowers any foe’s Attack\nwhen it enters battle.
 Prevents the foe from\nescaping, except Ghosts.
 Inflicts damage to the\nfoe on contact.
-Only supereffective moves\nand passive damage will work.
+Only supereffective and\npassive damage will work.
 Gives full immunity to all\nGround-type moves.
 Contact may paralyze,\npoison, or cause sleep.
 Passes a burn, poison,\nor paralysis to the foe.
@@ -178,7 +178,7 @@ Changes between Blade and\nShield Forme with attacks.
 Flying-type moves gain\npriority when HP is full.
 Powers up aura and\npulse moves 1.5x.
 Boosts the Defense stat\non Grassy Terrain.
-Passes its held item to\nan ally that has used theirs.
+Passes its held item to\nan ally that used theirs.
 Powers up moves that\nmake contact 1.3x.
 Normal-type moves become\nFairy-type and do 1.3x.
 Contact with it lowers the\nattacker’s Speed stat.
@@ -187,8 +187,8 @@ Child will repeat parent’s\nmove with 0.25x power.
 Powers up each Pokémon’s\nDark-type moves 1.33x.
 Powers up each Pokémon’s\nFairy-type moves 1.33x.
 The effects of “Aura”\nAbilities are reversed.
-Changes the weather\nto nullify Fire-type moves.
-Changes the weather\nto nullify Water-type moves.
+Changes the weather to\nnullify Fire-type moves.
+Changes the weather to\nnullify Water-type moves.
 Alters weather to\nremove Flying-type’s weaknesses.
 Boosts Defense when\nhit by any attack.
 Wimpily switches out if its\nHP becomes half or less.
@@ -204,7 +204,7 @@ Doubles the Pokémon’s\nSpeed in a hailstorm.
 Uses moves without\nmaking contact with the target.
 Its sound-based moves\nbecome Water-type.
 Gives priority to\na healing move.
-Normal-type moves become\nElectric-type and 1.2x power.
+Normal-type moves become\nElectric-type and do 1.2x.
 Doubles Speed on\nElectric Terrain.
 Forms a powerful school\nwhile it has a lot of HP.
 Its shroud protects it\nfrom an attack just once.
@@ -254,14 +254,14 @@ Resists all types when\nHP is full.
 Powers up ball, bomb and\nsphere moves by 1.5x.
 Boosts Attack when\nentering a battle.
 Boosts Defense when\nentering a battle.
-It changes type to that\nof the move it’s about to use.
+Changes type to first\nmove it uses.
 Retrieves the first thrown\nPoké Ball if it failed.
 Scatters Speed-lowering\ncotton fluff when hit.
 This Pokémon’s\nmoves cannot be redirected.
 Bounces back\nstat-lowering effects.
 Catches prey via Surf or Dive\nand spits it out when hit.
 This Pokémon’s moves\ncannot be redirected.
-Boosts Speed drastically\nif hit by a Fire or Water move.
+Boosts Speed drastically\nif hit by Fire or Water.
 Creates a sandstorm\nwhen hit by an attack.
 Ripens Berries and\ndoubles their effect.
 Just being next to the\nPokémon powers up moves.

@@ -3457,8 +3457,8 @@ evodata SPECIES_BRELOOM
     terminateevodata
 
 evodata SPECIES_SLAKOTH
-    evolution EVO_LEVEL, 18, SPECIES_VIGOROTH
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_HAS_MOVE, MOVE_ROLE_PLAY, SPECIES_VIGOROTH
+    evolution EVO_LEVEL, 18, SPECIES_RODERIK
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

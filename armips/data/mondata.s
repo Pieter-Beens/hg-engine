@@ -986,7 +986,7 @@ mondata SPECIES_NYMPHLE, "Nymphle"
     catchrate 190
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
-    items ITEM_TINY_MUSHROOM, ITEM_BIG_MUSHROOM
+    items ITEM_NONE, ITEM_BIG_MUSHROOM
     genderratio 127
     eggcycles 20
     basefriendship 70
@@ -995,7 +995,7 @@ mondata SPECIES_NYMPHLE, "Nymphle"
     abilities ABILITY_SWARM, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_RED, 0
-    mondexentry SPECIES_NYMPHLE, "It is thoroughly inspects anything\nit finds. It seems particularly fond\nof hard stones and mushrooms."
+    mondexentry SPECIES_NYMPHLE, "It thoroughly inspects anything it\nfinds. It seems particularly fond of\nMushrooms and Hard Stones."
     mondexclassification SPECIES_NYMPHLE, "Curious Pokémon"
     mondexheight SPECIES_NYMPHLE, "1’00”"
     mondexweight SPECIES_NYMPHLE, "7.4 lbs."
@@ -6147,7 +6147,7 @@ mondata SPECIES_NINJASK, "Ninjask"
 
 
 mondata SPECIES_DEDDLE, "Deddle"
-    basestats 1, 95, 1, 75, 85, 1
+    basestats 1, 95, 1, 85, 85, 1
     types TYPE_BUG, TYPE_GHOST
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -24210,7 +24210,7 @@ mondata SPECIES_PIKACHU_COSPLAY, "-----"
     baseexp 112
     evyields 0, 0, 0, 2, 0, 0
     items ITEM_NONE, ITEM_LIGHT_BALL
-    genderratio 127
+    genderratio 255
     eggcycles 10
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
@@ -24226,7 +24226,7 @@ mondata SPECIES_PIKACHU_ROCK_STAR, "-----"
     baseexp 112
     evyields 0, 0, 0, 2, 0, 0
     items ITEM_NONE, ITEM_LIGHT_BALL
-    genderratio 127
+    genderratio 255
     eggcycles 10
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
@@ -24242,7 +24242,7 @@ mondata SPECIES_PIKACHU_BELLE, "-----"
     baseexp 112
     evyields 0, 0, 0, 2, 0, 0
     items ITEM_NONE, ITEM_LIGHT_BALL
-    genderratio 127
+    genderratio 255
     eggcycles 10
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
@@ -24258,7 +24258,7 @@ mondata SPECIES_PIKACHU_POP_STAR, "-----"
     baseexp 112
     evyields 0, 0, 0, 2, 0, 0
     items ITEM_NONE, ITEM_LIGHT_BALL
-    genderratio 127
+    genderratio 255
     eggcycles 10
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
@@ -24274,7 +24274,7 @@ mondata SPECIES_PIKACHU_PH_D, "-----"
     baseexp 112
     evyields 0, 0, 0, 2, 0, 0
     items ITEM_NONE, ITEM_LIGHT_BALL
-    genderratio 127
+    genderratio 255
     eggcycles 10
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
@@ -24290,7 +24290,7 @@ mondata SPECIES_PIKACHU_LIBRE, "-----"
     baseexp 112
     evyields 0, 0, 0, 2, 0, 0
     items ITEM_NONE, ITEM_LIGHT_BALL
-    genderratio 127
+    genderratio 255
     eggcycles 10
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
