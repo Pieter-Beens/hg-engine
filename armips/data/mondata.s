@@ -16830,10 +16830,10 @@ mondata SPECIES_ABSALVO, "Absalvo"
     abilities ABILITY_JUSTIFIED, ABILITY_SUPER_LUCK
     runchance 0
     colorflip BODY_COLOR_WHITE, 0
-    mondexentry SPECIES_ABSOL, "It has the ability to prevent\nnatural disasters, but will only do\nso once in a hundred years."
-    mondexclassification SPECIES_ABSOL, "Balance Pokémon"
-    mondexheight SPECIES_ABSOL, "4’10”"
-    mondexweight SPECIES_ABSOL, "132.2 lbs."
+    mondexentry SPECIES_ABSALVO, "It has the ability to prevent\nnatural disasters, but will only do\nso once in a hundred years."
+    mondexclassification SPECIES_ABSALVO, "Balance Pokémon"
+    mondexheight SPECIES_ABSALVO, "4’10”"
+    mondexweight SPECIES_ABSALVO, "132.2 lbs."
 
 
 mondata SPECIES_DEWPIDER, "Dewpider"

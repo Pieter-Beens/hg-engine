@@ -101,7 +101,7 @@ A fossil of an ancient Pokémon that\nlived in the sea. It appears to be\npart o
 A fossil of an ancient Pokémon that\nlived in the sea. It appears to be\npart of a claw.
 A fossil of an ancient Pokémon that\nlived in the sea. It appears to be\npart of a seashell.
 A fossil of an ancient Pokémon that\nlived in the sea. It appears to be\npart of a shell.
-A peculiar stone that makes certain\nspecies of Pokémon devolve to an\npowerful, ancient form.
+A peculiar stone that makes certain\nspecies of Pokémon devolve to a more\npowerful, ancient form.
 A fossil from a prehistoric Pokémon\nthat lived on the land. It appears to\nbe part of a collar.
 A fossil from a prehistoric Pokémon\nthat lived on the land. It appears to\nbe part of a head.
 A bone that is extremely valuable for\nPokémon archaeology. It can be sold\nfor a high price to shops.
